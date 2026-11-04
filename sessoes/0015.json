@@ -1,0 +1,558 @@
+{
+    "titulo": "Nacionalidade, JF, execução fiscal, curatela, 8.112 + força na prisão, denunciação, reforço policial e condicional",
+    "data": "2026-11-04",
+    "rotulo": "0015",
+    "aula": [
+        {
+            "t": "p",
+            "text": "Primeira sessão no painel único: **21 questões**, as do TRF3 primeiro (prova mais próxima, 31/01) e depois as do TJ-SP. Cada questão mostra a etiqueta de onde cai: **TRF3 + TJ-SP**, **só TRF3** ou **só TJ-SP**. 18 são da **prova real de Oficial de Justiça do TJ-SP de dezembro de 2024 (Vunesp)**; 3 são autorais (selo amarelo): 2 de Lei 8.112 e 1 de CPC 246. O gabarito oficial de 2024 não pôde ser baixado daqui: resolvi cada questão pela lei. Se algum divergir do oficial que você tiver, me avise."
+        },
+        {
+            "t": "h",
+            "text": "1. Os 4 erros da TRF3·01"
+        },
+        {
+            "t": "table",
+            "head": [
+                "Questão",
+                "Você marcou",
+                "A regra"
+            ],
+            "rows": [
+                [
+                    "`CF 5º, XXXI` (Q2)",
+                    "A",
+                    "Lei brasileira em benefício do cônjuge ou filhos brasileiros, **sempre que não lhes seja mais favorável a lei pessoal do de cujus**. A ressalva final é a resposta."
+                ],
+                [
+                    "Improbidade (Q7)",
+                    "B",
+                    "Aceitar emprego ou consultoria de quem tem interesse nas suas atribuições é **enriquecimento ilícito** (`art. 9º, VIII`). Classifique pelo resultado: **9** = agente ganha; **10** = erário perde; **11** = só princípios (rol taxativo desde a Lei 14.230/21)."
+                ],
+                [
+                    "PcD, `art. 3º` (Q9)",
+                    "C",
+                    "**XII atendente pessoal** = cuidados básicos do dia a dia. **XIII profissional de apoio escolar** = alimentação, higiene, locomoção e atividades escolares, em todos os níveis, sem técnicas de profissões regulamentadas."
+                ],
+                [
+                    "Curatela (Q10)",
+                    "C",
+                    "`Art. 85`: afeta só atos **patrimoniais e negociais**; não alcança corpo, sexualidade, **matrimônio**, privacidade, educação, saúde, trabalho e voto. `Art. 84, §3º`: medida **extraordinária**, pelo **menor tempo possível**. `Art. 86`: documentos oficiais **não** exigem curatela."
+                ]
+            ]
+        },
+        {
+            "t": "quote",
+            "text": "A curatela voltou na prova de 2024 (Q06 de hoje). Atenção à troca da banca: “patrimônio” no lugar de “matrimônio”."
+        },
+        {
+            "t": "h",
+            "text": "2. Nacionalidade depois da EC 131/2023 (CF 12)"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "Naturalização **ordinária** de originário de país de língua portuguesa: **1 ano** de residência ininterrupta + **idoneidade moral**. Não há exigência de trabalho.",
+                "Naturalização **extraordinária**: **15 anos** ininterruptos + sem condenação penal, mediante requerimento. Não é automática.",
+                "Perda (`§4º`): **I** cancelamento por **sentença judicial** em caso de **fraude** na naturalização ou **atentado contra a ordem constitucional e o Estado Democrático**; **II** **pedido expresso** do brasileiro, salvo se gerar apatridia.",
+                "`§5º`: quem renuncia pode **readquirir a nacionalidade originária**, ou seja, volta a ser nato e pode ocupar os cargos do `§3º` (inclusive Ministro do STF)."
+            ]
+        },
+        {
+            "t": "h",
+            "text": "3. Poder Judiciário: números que a banca troca"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "Órgão especial: tribunal com **mais de 25** julgadores; **mínimo 11, máximo 25** membros (`art. 93, XI`).",
+                "Decisões administrativas motivadas, em sessão pública; disciplinares por **maioria absoluta** (`art. 93, X`), não por 2/3.",
+                "Quarentena: **3 anos** para advogar no juízo ou tribunal de onde saiu (`art. 95, p.ú., V`).",
+                "Proposta orçamentária fora dos limites da LDO: o **Executivo faz os ajustes** (`art. 99, §4º`).",
+                "Justiça Militar estadual: **lei estadual**, por **proposta do TJ** (`art. 125, §3º`)."
+            ]
+        },
+        {
+            "t": "h",
+            "text": "4. Competência da Justiça Federal no curso do processo (CPC 43 e 45)"
+        },
+        {
+            "t": "p",
+            "text": "A *perpetuatio jurisdictionis* (`art. 43`) tem duas exceções: supressão do órgão e **alteração da competência absoluta**. Se a União, autarquia ou **empresa pública federal** passa a integrar a causa, os autos **vão para a Justiça Federal** (`art. 45`; `CF 109, I`). Isso importa no TRF3: é por esse caminho que muito processo chega à vara federal."
+        },
+        {
+            "t": "h",
+            "text": "5. Execução fiscal (Lei 6.830/80): o mandado do oficial"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "`Art. 7º`: o despacho que defere a inicial já é ordem para **citação**, **penhora** (se não pagar nem garantir), **arresto** (se o executado **não tiver domicílio ou dele se ocultar**), registro e **avaliação**.",
+                "`Art. 8º`: prazo de **5 dias** para pagar ou garantir. O CPC dá 3 dias na execução comum: não confunda.",
+                "`Art. 13`: a **avaliação é feita pelo próprio oficial** no termo ou auto de penhora; perito só se houver impugnação.",
+                "`Art. 2º, §8º`: a CDA pode ser **emendada ou substituída até a decisão de 1ª instância**, devolvido o prazo para embargos.",
+                "`Art. 11`: ordem começa por **dinheiro**; plantações e edifícios em construção podem ser penhorados excepcionalmente (`§1º`)."
+            ]
+        },
+        {
+            "t": "h",
+            "text": "6. Lei 8.112/90: posse e exercício"
+        },
+        {
+            "t": "table",
+            "head": [
+                "Ato",
+                "Prazo",
+                "Se perder o prazo"
+            ],
+            "rows": [
+                [
+                    "Posse",
+                    "**30 dias** da publicação do ato de provimento (`art. 13, §1º`)",
+                    "Ato de provimento **tornado sem efeito** (`art. 13, §6º`)"
+                ],
+                [
+                    "Exercício",
+                    "**15 dias** da posse (`art. 15, §1º`)",
+                    "Servidor **exonerado** do cargo (`art. 15, §2º`)"
+                ]
+            ]
+        },
+        {
+            "t": "p",
+            "text": "Truque: quem não toma posse **nunca chegou a ser servidor**, então não há o que exonerar; o ato é tornado sem efeito. Quem tomou posse já é servidor, então é exonerado."
+        },
+        {
+            "t": "h",
+            "text": "7. Os 3 erros da 0014"
+        },
+        {
+            "t": "table",
+            "head": [
+                "Questão",
+                "Você marcou",
+                "A regra"
+            ],
+            "rows": [
+                [
+                    "Concordância (Q1)",
+                    "E",
+                    "**haver** = existir e **fazer** indicando tempo são impessoais: “que **haja** trocas”, “**faz** anos”. Em (E) faltou concordar: “injustiças que **compõem**”."
+                ],
+                [
+                    "Hora certa no CPP (Q5)",
+                    "B",
+                    "`CPP 362, p.ú.`: citado por hora certa e ausente → **defensor dativo**, e o processo segue. Suspensão do processo e da prescrição é o `art. 366`, só para a citação **por edital**."
+                ],
+                [
+                    "Condicional + “e” (Q10)",
+                    "C",
+                    "P→Q verdadeira e P∧Q falsa. Se P fosse V, Q seria V e o “e” seria V: contradição. Logo **P é falso**. Sobre Q, nada se conclui."
+                ]
+            ]
+        },
+        {
+            "t": "quote",
+            "text": "A Q10 da 0014 voltou idêntica na prova de 2024 (Q20 de hoje), só trocando os nomes. A Vunesp repete estruturas. Aprenda o esquema, não a frase."
+        },
+        {
+            "t": "h",
+            "text": "8. Lógica: o que é equivalente à condicional"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "P → Q ≡ **¬Q → ¬P** (contrapositiva: inverte **e** nega as duas).",
+                "P → Q ≡ **¬P ∨ Q** (“não P ou Q”).",
+                "Ao negar “P **ou** Q”, vira “não P **e** não Q”. Ao negar “P **e** Q”, vira “não P **ou** não Q” (De Morgan). Na contrapositiva de “Se (trabalho ou estudo), então (feliz e realizado)”, os dois lados trocam o conectivo.",
+                "**“Ou... ou...”** é disjunção exclusiva: exatamente um é verdadeiro. Se um lado é V, o outro é F.",
+                "**Não** é equivalente: a recíproca (Q → P) e a inversa (¬P → ¬Q)."
+            ]
+        },
+        {
+            "t": "h",
+            "text": "9. CPP 284: força só em duas hipóteses"
+        },
+        {
+            "t": "p",
+            "text": "“Não será permitido o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga do preso**.” Desacato e desobediência **não** estão no artigo. Compare com o `art. 293` (casa, noite × dia), que você já revisou."
+        },
+        {
+            "t": "h",
+            "text": "10. CPC: três regras rápidas"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "`Art. 125, §1º`: se a denunciação da lide for **indeferida**, não promovida ou não permitida, o direito regressivo é exercido por **ação autônoma**.",
+                "`Art. 453, §1º`: testemunha que reside em outra comarca, seção ou subseção **pode** ser ouvida por **videoconferência** ou outro recurso de sons e imagens em tempo real.",
+                "`Art. 246` + `231, IX`: a citação é **preferencialmente eletrônica**. Sem confirmação em **3 dias úteis**, faz-se por correio, oficial, escrivão ou edital (`§1º-A`). Com confirmação, o prazo começa no **5º dia útil seguinte** à confirmação."
+            ]
+        },
+        {
+            "t": "h",
+            "text": "11. Normas da Corregedoria (NSCGJ): reforço policial e arrombamento"
+        },
+        {
+            "t": "p",
+            "text": "O oficial **não** arromba sozinho nem pede a força direto ao batalhão: apresenta ao juízo **requerimento em modelo padronizado**. Se deferido, o requerimento **serve de requisição da força policial**, e uma cópia vai para os autos. Some isso ao `CPC 846` (ordem de arrombamento, **2 oficiais**, auto com **2 testemunhas**)."
+        },
+        {
+            "t": "h",
+            "text": "12. Colocação pronominal em 30 segundos"
+        },
+        {
+            "t": "ul",
+            "items": [
+                "Futuro do presente ou do pretérito **nunca** em ênclise: “formar-**se**-ia”, nunca “deveria-se”.",
+                "Particípio **nunca** leva pronome depois: “tinham-**se** visto”, nunca “tinham visto-se”.",
+                "Palavra atrativa (não, que, advérbio) puxa a próclise: “não **se** via”, “que **se** põem”.",
+                "Não se começa frase com pronome oblíquo: “Cansam-**nos**”, e não “Nos cansam”."
+            ]
+        }
+    ],
+    "questoes": [
+        {
+            "n": 1,
+            "materia": "Direito Constitucional",
+            "tema": "art. 12 (nacionalidade, EC 131/23)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q47",
+            "enunciado": "Leopoldo tem 17 anos, é boliviano, vive no Brasil há dezesseis anos ininterruptos, não tem condenação penal e atualmente não estuda nem trabalha. Madalena é natural de Cabo Verde, tem 35 anos, está desempregada e reside há três anos ininterruptos no Brasil. Rodrigo tem 21 anos, é brasileiro nato e deseja requerer, perante a autoridade competente, a perda da nacionalidade brasileira. Com base na situação apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+            "alt": {
+                "A": "Ao completar 18 anos, Leopoldo deverá realizar o alistamento eleitoral, pois, ao atingir a maioridade civil, ele será automaticamente considerado brasileiro naturalizado, uma vez que preenche todos os requisitos exigidos pela legislação.",
+                "B": "Como Madalena é originária de país de língua portuguesa, para obter a nacionalidade brasileira, precisa comprovar apenas residência por um ano ininterrupto, idoneidade moral e estar trabalhando há pelo menos seis meses, ainda que informalmente.",
+                "C": "Leopoldo somente poderá requerer a nacionalidade brasileira em quatro anos, pois a legislação estabelece a necessária residência ininterrupta no Brasil por pelo menos vinte anos.",
+                "D": "Se Madalena obtiver a naturalização brasileira, caso ela seja condenada pelo cometimento do crime de peculato, sua naturalização será cancelada, por se considerar a atividade como nociva ao interesse nacional.",
+                "E": "Caso Rodrigo renuncie à nacionalidade, tal fato não impedirá que ele readquira sua nacionalidade brasileira originária, inclusive podendo se tornar, no futuro, Ministro do Supremo Tribunal Federal."
+            },
+            "gab": "E",
+            "exp": "`CF 12, §5º` (EC 131/2023): a renúncia não impede readquirir a nacionalidade **originária**; volta a ser nato e pode ser Ministro do STF (`§3º, IV`). (A) a extraordinária exige requerimento, não é automática. (B) não se exige trabalho. (C) são **15** anos, não 20. (D) “atividade nociva ao interesse nacional” saiu do texto; hoje o cancelamento é por **fraude** ou **atentado à ordem constitucional e ao Estado Democrático**."
+        },
+        {
+            "n": 2,
+            "materia": "Direito Constitucional",
+            "tema": "Poder Judiciário (arts. 93, 95, 98, 99)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q51",
+            "enunciado": "A respeito do Poder Judiciário, assinale a alternativa que está de acordo com o disposto na Constituição Federal.",
+            "alt": {
+                "A": "Quando o Tribunal de Justiça tiver número superior a vinte e cinco julgadores, deverá constituir um órgão especial, com o mínimo de onze e o máximo de vinte e três membros, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno.",
+                "B": "Os Tribunais de Justiça, no exercício de sua função atípica, proferem decisões administrativas, que devem ser motivadas, vedando-se a motivação aliunde, e proferidas em sessão pública, sendo as decisões disciplinares tomadas pelo voto de dois terços de seus membros.",
+                "C": "Aos juízes é expressamente vedado exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos pelo menos cinco anos do afastamento do cargo por aposentadoria ou exoneração, sob pena da prática de improbidade administrativa.",
+                "D": "Os tribunais elaborarão suas propostas orçamentárias, mas, se as propostas orçamentárias forem encaminhadas em desacordo com os limites estipulados na Lei de Diretrizes Orçamentárias, o Poder Executivo procederá aos ajustes necessários para fins de consolidação da proposta orçamentária anual.",
+                "E": "Os Estados devem criar a justiça de paz, remunerada, composta de cidadãos eleitos pelo voto direto, com mandato de quatro anos e competência para celebrar casamentos e julgar pedidos de divórcio, verificar, de ofício ou em face de impugnação apresentada, o processo de habilitação e exercer atribuições conciliatórias, além de outras previstas na legislação."
+            },
+            "gab": "D",
+            "exp": "`CF 99, §4º`: proposta fora dos limites da LDO → o **Executivo** faz os ajustes. (A) máximo é **25**, não 23 (`93, XI`). (B) disciplinares por **maioria absoluta** (`93, X`). (C) quarentena de **3** anos (`95, p.ú., V`). (E) a justiça de paz (`98, II`) **não julga divórcio**."
+        },
+        {
+            "n": 3,
+            "materia": "Direito Constitucional",
+            "tema": "art. 125, §3º (Justiça Militar estadual)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q54",
+            "enunciado": "De acordo com o expresso na Constituição Federal, atualmente, a criação da Justiça Militar Estadual",
+            "alt": {
+                "A": "é possível, desde que haja prévia resolução do Conselho Nacional de Justiça autorizando o respectivo Tribunal de Justiça.",
+                "B": "depende da edição de lei estadual, mediante proposta do Tribunal de Justiça.",
+                "C": "depende da edição de lei ordinária federal, de proposta privativa do Supremo Tribunal Federal.",
+                "D": "depende da edição de lei complementar estadual, mediante proposta do Tribunal de Justiça, após prévia autorização do Conselho Nacional de Justiça.",
+                "E": "está vedada, em razão da recente promulgação da Emenda Constitucional nº 133."
+            },
+            "gab": "B",
+            "exp": "`CF 125, §3º`: “A **lei estadual** poderá criar, mediante **proposta do Tribunal de Justiça**, a Justiça Militar estadual” (TJM onde o efetivo militar passar de 20 mil). Não há participação do CNJ nem exigência de lei complementar. A EC 133 tratou de outro tema (partidos políticos)."
+        },
+        {
+            "n": 4,
+            "materia": "CPC",
+            "tema": "arts. 43 e 45 (deslocamento para a JF)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q42",
+            "enunciado": "Uma empresa pública estadual do setor de saneamento público é alienada, pelo estado da Federação que a controla, à União Federal, como parte de um processo de refinanciamento de dívidas deste estado junto à União, autorizado por lei complementar federal. Supondo a manutenção da totalidade do capital social da empresa sob titularidade da União, passando a empresa a ser uma empresa pública federal, é correto afirmar que as ações judiciais eventualmente existentes para reparação de danos, em trâmite na justiça comum estadual, que contem com a empresa como uma das partes",
+            "alt": {
+                "A": "não sofrerá qualquer modificação na sua tramitação, considerando o princípio processual da perpetuatio jurisdictionis.",
+                "B": "deverão ser remetidas à justiça federal, considerando-se modificação no estado de uma das partes capaz de alterar a competência absoluta em razão da pessoa.",
+                "C": "estarão sujeitas à suscitação de conflito de competência entre a justiça federal e estadual, a ser dirimido em caráter originário pelo Superior Tribunal de Justiça.",
+                "D": "deverão ser mantidas na justiça estadual, pois a mudança operada não modifica competência absoluta, mas apenas a competência relativa em razão da pessoa.",
+                "E": "terão o seu destino dependente da matéria de que tratem, devendo ser submetidas à justiça federal apenas as ações em que a própria União tenha algum interesse direto."
+            },
+            "gab": "B",
+            "exp": "Competência em razão da pessoa (`CF 109, I`) é **absoluta**. O `CPC 43` excepciona a *perpetuatio* quando houver alteração de competência absoluta, e o `art. 45` manda remeter os autos à JF quando intervier empresa pública federal. (A) ignora a exceção; (D) erra ao chamar a competência de relativa."
+        },
+        {
+            "n": 5,
+            "materia": "CPC",
+            "tema": "Lei 6.830/80 (execução fiscal)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q71",
+            "enunciado": "Em uma execução fiscal, por conta do despacho inicial do processo, houve a expedição de um mandado judicial, regularmente determinado por juiz competente, que foi distribuído a Paulo Roberto, que é o Oficial de Justiça encarregado do seu cumprimento. Nessa situação hipotética, conforme dispõe a Lei nº 6.830/80, é correto afirmar que Paulo Roberto",
+            "alt": {
+                "A": "deverá citar o executado sobre a cobrança do valor que consta da Certidão da Dívida Ativa, a qual poderá ser emendada ou substituída até a decisão de primeira instância, assegurada ao executado a devolução do prazo para embargos.",
+                "B": "recebeu ordem judicial em suas mãos para citar o devedor e promover o arresto de bens se o executado se recusar a pagar a dívida, ou penhorar bens, na hipótese de o devedor não garantir a execução.",
+                "C": "deverá promover a citação do devedor, efetuar o arresto ou a penhora de bens e devolver o mandado ao cartório da Vara para que seja nomeado o perito judicial que fará a avaliação dos bens penhorados ou arrestados.",
+                "D": "promoverá a citação do executado, o qual deverá, no prazo de 10 (dez) dias, pagar a dívida com juros e multa de mora e encargos indicados na Certidão da Dívida Ativa, ou garantir a execução.",
+                "E": "cumprirá o mandado e efetuará a penhora ou arresto de bens, devendo tentar a constrição, primeiramente, sobre dinheiro do devedor, não podendo, entretanto, penhorar ou arrestar, entre outros bens, plantações ou edifícios em construção."
+            },
+            "gab": "A",
+            "exp": "(A) reproduz o `art. 2º, §8º`. (B) o arresto é para o executado que **não tem domicílio ou dele se oculta** (`art. 7º, III`), não para quem se recusa a pagar. (C) a avaliação é feita **pelo próprio oficial** (`art. 13`). (D) o prazo é de **5** dias (`art. 8º`). (E) plantações e edifícios em construção **podem**, excepcionalmente, ser penhorados (`art. 11, §1º`)."
+        },
+        {
+            "n": 6,
+            "materia": "Direitos Humanos e PcD",
+            "tema": "Lei 13.146/15, arts. 84–86 (curatela)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q82",
+            "enunciado": "Considere que Valéria tem 25 anos, é pessoa com deficiência e, há dez anos, foi submetida à curatela, sendo nomeada Denise como sua curadora. No entanto, Valéria não está satisfeita com a situação, pois entende que Denise tolhe seu direito à privacidade, que a situação já se prolonga por muito tempo e que ela está dificultando a emissão de seus novos documentos oficiais, recusando-se a providenciá-los. Com base na situação hipotética apresentada e no disposto no Estatuto da Pessoa com Deficiência, assinale a alternativa correta.",
+            "alt": {
+                "A": "Denise é obrigada a prestar contas de sua administração ao juiz anualmente, sempre até o dia 15 de abril, sob pena de ser destituída liminarmente e processada pela prática de crime previsto no Estatuto da Pessoa com Deficiência.",
+                "B": "As reclamações de Valéria são procedentes apenas em parte, pois a curatela é instituída por tempo indeterminado, mas alcança, por sua própria natureza, o direito à privacidade do curatelado.",
+                "C": "Valéria tem razão nas reclamações, pois a curatela constitui medida extraordinária, deve durar o menor tempo possível e não alcança o direito à privacidade; além disso, a situação de curatela não é exigida para a emissão de documentos oficiais.",
+                "D": "Se Denise estiver prestando anualmente as contas de sua administração ao juiz que a nomeou, apresentando o balanço a cada dois anos, Valéria não poderá tomar nenhuma medida para destituí-la.",
+                "E": "Valéria tem razão ao reclamar da situação, pois a curatela afeta somente os atos relacionados aos direitos de natureza patrimonial e negocial, bem como os diretamente relacionados à saúde e à educação."
+            },
+            "gab": "C",
+            "exp": "(C) junta três artigos: `84, §3º` (extraordinária, menor tempo possível), `85, §1º` (não alcança a privacidade) e `86` (documentos sem exigir curatela). (E) saúde e educação estão **fora** da curatela. (A) o `art. 84, §4º` manda prestar contas anualmente, mas não fixa 15 de abril nem destituição liminar. (D) o balanço é **anual**."
+        },
+        {
+            "n": 7,
+            "materia": "Direitos Humanos e PcD",
+            "tema": "avaliação biopsicossocial e deficiência oculta",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q81",
+            "enunciado": "Suponha que Alice é filha de Luísa, tem 12 anos e, desde o seu nascimento, apresenta impedimento de natureza sensorial, o qual, em interação com uma barreira, obstrui sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas. Luísa suspeita que a filha possa ser considerada uma pessoa com deficiência oculta e, então, procura ajuda médica para realizar uma avaliação de deficiência. Ao agendar o exame médico-pericial, Mariluz, secretária de Dr. Luan, médico-perito, informou à Luísa que só haveria disponibilidade para a realização do exame com o uso de tecnologia de telemedicina, pois o médico estava em congresso no exterior. Com fundamento na situação hipotética apresentada e no disposto no Estatuto da Pessoa com Deficiência, é correto afirmar:",
+            "alt": {
+                "A": "Alice deverá passar por avaliação biopsicossocial realizada por equipe multiprofissional e interdisciplinar, que considerará exclusivamente a limitação no desempenho das atividades cotidianas e a restrição de participação na vida social em igualdade de condições com as outras pessoas.",
+                "B": "Alice não poderá ser considerada uma pessoa com deficiência, pois os impedimentos considerados para tanto são os de natureza física, mental ou intelectual, não se incluindo os sensoriais.",
+                "C": "Mariluz errou ao informar que o exame médico-pericial poderá ser realizado com o uso de tecnologia de telemedicina, pois a natureza e a importância da avaliação exigem que ela ocorra de forma presencial.",
+                "D": "uma vez constatado que Alice é uma pessoa com deficiência oculta, a ela deverá ser entregue um cordão de fita com desenhos de girassóis, que é de uso obrigatório para o exercício das garantias previstas em lei.",
+                "E": "após passar pela avaliação biopsicossocial, confirmando-se que Alice é pessoa com deficiência oculta, mesmo ela sendo adolescente, será considerada como especialmente vulnerável."
+            },
+            "gab": "E",
+            "exp": "`Art. 5º, p.ú.`: são **especialmente vulneráveis** a criança, o **adolescente**, a mulher e o idoso com deficiência. (B) o `art. 2º` inclui impedimento **sensorial**. (A) a avaliação considera **quatro** fatores (`art. 2º, §1º`: impedimentos, fatores socioambientais, limitação de atividades e restrição de participação), não “exclusivamente” dois. (C) desde a alteração de 2023, o Estatuto admite o exame médico-pericial **por telemedicina**. (D) o cordão de girassóis (Lei 14.624/23) é de uso **opcional**."
+        },
+        {
+            "n": 8,
+            "materia": "Raciocínio Lógico",
+            "tema": "negação de “existe… ou… ou”",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q88",
+            "enunciado": "Uma negação lógica para a afirmação “Existe Fulano que ou trabalha para Cicrano ou trabalha para Beltrano” é:",
+            "alt": {
+                "A": "Existe Fulano que não trabalha para Cicrano e não trabalha para Beltrano.",
+                "B": "Todo Fulano ou não trabalha para Cicrano ou não trabalha para Beltrano.",
+                "C": "Todo Fulano trabalha para Cicrano se, e somente se, trabalha para Beltrano.",
+                "D": "Existe Fulano que se trabalha para Cicrano, então trabalha para Beltrano.",
+                "E": "Todo Fulano não trabalha para Cicrano se, e somente se, trabalha para Beltrano."
+            },
+            "gab": "C",
+            "exp": "Duas trocas: “**existe**” vira “**todo**”, e a negação do “ou… ou” (exclusivo, verdadeiro quando os lados **diferem**) é o “**se e somente se**” (verdadeiro quando os lados são **iguais**). Logo: “Todo Fulano trabalha para Cicrano se, e somente se, trabalha para Beltrano.” (E) nega um lado dentro do bicondicional, o que volta a dar o exclusivo."
+        },
+        {
+            "n": 9,
+            "materia": "Direito Administrativo",
+            "tema": "Lei 8.112/90, arts. 13 e 15 (prazos)",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "enunciado": "Nos termos da Lei nº 8.112/1990, a posse e o exercício em cargo público devem ocorrer, respectivamente, no prazo de",
+            "alt": {
+                "A": "15 dias contados da nomeação e 30 dias contados da posse.",
+                "B": "30 dias contados da publicação do ato de provimento e 15 dias contados da data da posse.",
+                "C": "30 dias contados da publicação do ato de provimento e 30 dias contados da data da posse.",
+                "D": "15 dias contados da publicação do ato de provimento e 15 dias contados da data da posse.",
+                "E": "30 dias contados da homologação do concurso e 15 dias contados da publicação do ato de provimento."
+            },
+            "gab": "B",
+            "exp": "`Art. 13, §1º`: posse em **30 dias** da **publicação do ato de provimento**. `Art. 15, §1º`: exercício em **15 dias** da **posse**. A homologação do concurso (E) não é termo inicial de nenhum dos dois.",
+            "concursos": [
+                "trf3"
+            ]
+        },
+        {
+            "n": 10,
+            "materia": "Direito Administrativo",
+            "tema": "Lei 8.112/90, arts. 13, §6º e 15, §2º (consequências)",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "enunciado": "Marta foi nomeada para cargo efetivo de Analista Judiciário e tomou posse no 20º dia após a publicação do ato. Seu colega Júlio, nomeado no mesmo ato, deixou transcorrer o prazo legal sem tomar posse. Marta, por sua vez, não entrou em exercício no prazo. De acordo com a Lei nº 8.112/1990,",
+            "alt": {
+                "A": "ambos serão exonerados do cargo.",
+                "B": "o ato de provimento de Júlio será tornado sem efeito, e Marta será exonerada do cargo.",
+                "C": "Júlio será exonerado do cargo, e o ato de provimento de Marta será tornado sem efeito.",
+                "D": "o ato de provimento de ambos será tornado sem efeito.",
+                "E": "Júlio será demitido, e Marta terá o prazo para exercício prorrogado por igual período."
+            },
+            "gab": "B",
+            "exp": "Sem posse, o provimento é **tornado sem efeito** (`art. 13, §6º`): Júlio nunca chegou a ser servidor. Empossada e sem exercício, Marta é **exonerada** (`art. 15, §2º`). Demissão (E) é penalidade disciplinar, não consequência de prazo.",
+            "concursos": [
+                "trf3"
+            ]
+        },
+        {
+            "n": 11,
+            "materia": "Português",
+            "tema": "colocação pronominal",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q11",
+            "enunciado": "A frase está em conformidade com a norma-padrão de colocação pronominal em:",
+            "alt": {
+                "A": "Teresa e Simão prometiam-se o mais honesto destino: formar-se-ia o rapaz para poder sustentá-la, desde que não fossem acessíveis outros recursos.",
+                "B": "Os dois se amavam, e esse amor era singularmente discreto e cauteloso, pois tinham visto-se e tinham falado-se três meses sem darem rebate à vizinhança.",
+                "C": "Tadeu não via-se como amigo de Domingos, pois este lhe dera uma sentença contra. Afora isso, dois de seus criados feriram-se na celebrada pancadaria da fonte.",
+                "D": "Nos cansam a paciência os poetas e os prosadores que põem-se a falar do amor da mulher aos quinze anos, como paixão perigosa. Certamente enganam-se ambos.",
+                "E": "Teresa de Albuquerque deveria-se sacrificar ao azedume do pai, enquanto ele não falecesse. Depois disso, pretendia casar-se com Simão e amá-lo com o coração."
+            },
+            "gab": "A",
+            "exp": "(A) está correta: “formar-se-ia” é mesóclise no futuro do pretérito, e “sustentá-la” é ênclise no infinitivo. (B) particípio não admite ênclise: “tinham-se visto”, “tinham-se falado”. (C) “não” atrai: “não se via”. (D) não se inicia frase com oblíquo (“Cansam-nos”), e “que” atrai (“que se põem”); “certamente” também atrai (“certamente se enganam”). (E) futuro do pretérito não admite ênclise: “dever-se-ia sacrificar” ou “deveria sacrificar-se”."
+        },
+        {
+            "n": 12,
+            "materia": "Português",
+            "tema": "regência nominal",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q16",
+            "enunciado": "A regência nominal atende à norma-padrão em:",
+            "alt": {
+                "A": "No modelo econômico contemporâneo, existe mais interesse com os recordes de acumulação de riquezas do que bem-estar.",
+                "B": "É preferível uma empresa com um lucro modesto do que uma outra com lucro monumental, mas sem méritos sociais.",
+                "C": "O homem sábio é zeloso à arte de insuflar satisfação, pois compreendeu que é mais feliz quem se satisfaz com o que tem.",
+                "D": "Para desempenharem um papel definido de utilidade social, as empresas têm a incumbência de promover o bem-estar humano.",
+                "E": "Já é perceptível de quem atua em uma empresa que as relações estabelecidas entre elas e seus funcionários vêm mudando."
+            },
+            "gab": "D",
+            "exp": "(D) “incumbência **de** promover” está correto. (A) “interesse **por/em**” os recordes, “do que **pelo** bem-estar”. (B) “preferível” rege **a**: “preferível **a** outra”, sem “do que”. (C) “zeloso **de/por**”. (E) “perceptível **a** quem atua”."
+        },
+        {
+            "n": 13,
+            "materia": "CPP",
+            "tema": "art. 284 (emprego de força)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q35",
+            "enunciado": "De acordo com o artigo 284 do CPP, admite-se o emprego de força para a execução de prisão na(s) seguinte(s) hipótese(s):",
+            "alt": {
+                "A": "resistência do preso, apenas.",
+                "B": "resistência ou tentativa de fuga do preso, apenas.",
+                "C": "desobediência ou desacato ou resistência ou tentativa de fuga do preso, apenas.",
+                "D": "discrepância de força física entre o executor e o preso ou desobediência ou desacato ou resistência ou tentativa de fuga do preso.",
+                "E": "desacato ou resistência ou tentativa de fuga do preso, apenas."
+            },
+            "gab": "B",
+            "exp": "`CPP 284`: “Não será permitido o emprego de força, salvo a indispensável no caso de **resistência ou de tentativa de fuga** do preso.” Desobediência e desacato são crimes autônomos e não aparecem no artigo. (A) omite a fuga."
+        },
+        {
+            "n": 14,
+            "materia": "CPC",
+            "tema": "art. 125, §1º (denunciação indeferida)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q43",
+            "enunciado": "A Prefeitura de um determinado Município, ao ser processada por um usuário do seu sistema de transporte coletivo por ônibus, identificando que a lesão ao usuário ocorreu por culpa grave do motorista, que não seguiu os protocolos de segurança estipulados pela Prefeitura, denuncia a lide a este. Caso a denunciação da lide não seja deferida pelo juiz da causa:",
+            "alt": {
+                "A": "a Prefeitura perderá o direito de exercer o seu direito regressivo em razão do trânsito em julgado da questão incidental suscitada.",
+                "B": "será porque, na situação prevista, não é admissível a denunciação da lide, mas sim o chamamento ao processo.",
+                "C": "não caberá recurso de tal decisão interlocutória pela Prefeitura ao Tribunal de Justiça competente.",
+                "D": "o eventual direito regressivo da Prefeitura contra o motorista poderá ser exercido por ação autônoma.",
+                "E": "será porque a denunciação da lide só é admitida nos casos de direito regressivo em razão de dolo do agente e não no caso de culpa grave."
+            },
+            "gab": "D",
+            "exp": "`CPC 125, §1º`: o direito regressivo será exercido por **ação autônoma** quando a denunciação for indeferida, deixar de ser promovida ou não for permitida. (A) o direito não se perde. (C) cabe agravo de instrumento contra decisão sobre intervenção de terceiros (`art. 1.015, IX`). (E) a CF (`art. 37, §6º`) admite regresso por **dolo ou culpa**."
+        },
+        {
+            "n": 15,
+            "materia": "CPC",
+            "tema": "art. 453, §1º (testemunha em outra comarca)",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q44",
+            "enunciado": "A oitiva de testemunha que residir em comarca, seção ou subseção judiciária diversa daquela onde tramita o processo",
+            "alt": {
+                "A": "deverá ser realizada por carta precatória ao juiz da comarca na qual reside a testemunha.",
+                "B": "poderá ser realizada por meio de envio de depoimento por escrito da testemunha, representada necessariamente por advogado.",
+                "C": "não é autorizada no caso de ações relativas ao direito de família ou ao estado civil das pessoas.",
+                "D": "poderá ser realizada por qualquer recurso tecnológico de transmissão e recepção de sons e imagens em tempo real.",
+                "E": "deverá ser realizada por carta rogatória ao juiz da comarca na qual reside a testemunha."
+            },
+            "gab": "D",
+            "exp": "`CPC 453, §1º`: a oitiva **poderá** ser feita por videoconferência ou outro recurso tecnológico de sons e imagens em tempo real, inclusive durante a audiência. (A) “deverá” torna obrigatória a precatória, o que a lei não faz. (E) rogatória é para outro **país**."
+        },
+        {
+            "n": 16,
+            "materia": "Legislação Especial",
+            "tema": "NSCGJ: reforço policial e arrombamento",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q74",
+            "enunciado": "Na hipótese de o oficial de justiça necessitar de arrombamento ou de reforço policial para dar cumprimento a um mandado judicial, as Normas Judiciais da Corregedoria Geral da Justiça estabelecem que ele deverá",
+            "alt": {
+                "A": "efetuar o arrombamento diretamente ou, se necessário, requerer ao juízo o reforço policial, o qual, se deferido, será cumprido pelo Batalhão da Polícia Militar.",
+                "B": "apresentar, ao juízo, requerimento em modelo padronizado, o qual, se deferido, servirá de requisição da força policial e cópia dele será entranhada aos autos.",
+                "C": "proceder à devolução obrigatória do mandado e apresentar ao juízo requerimento em modelo padronizado.",
+                "D": "requerer ao juízo a referida providência, sem necessidade de modelo padronizado, o qual, se deferido, servirá de requisição da força policial.",
+                "E": "devolver o mandado judicial para requerer a ordem de arrombamento, mas poderá solicitar o reforço policial diretamente ao Batalhão da Polícia Militar."
+            },
+            "gab": "B",
+            "exp": "NSCGJ (Tomo I, capítulo dos oficiais de justiça): o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, juntando-se cópia aos autos. Não há arrombamento direto (A), nem devolução obrigatória do mandado (C, E), e o modelo padronizado é exigido (D)."
+        },
+        {
+            "n": 17,
+            "materia": "Matemática",
+            "tema": "juros simples e sistema",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q83",
+            "enunciado": "Um capital de R$ 35.000,00 foi dividido em duas partes, sendo a maior parte investida na aplicação A, com taxa de juros de 7% ao ano, e a menor parte na aplicação B, com taxa de juros de 8% ao ano. Após um ano, o rendimento total dessas duas aplicações foi de R$ 2.580,00 e, se ao invés de ter sido aplicada a menor parte na aplicação B, tivesse sido optado pela aplicação C, cuja taxa de juros não era pré-fixada, o rendimento total das aplicações teria sido de R$ 2.801,00. Nesse período de um ano, a taxa de juros efetivamente paga pelos investidores que escolheram a aplicação C foi igual a",
+            "alt": {
+                "A": "9,7%",
+                "B": "10,1%",
+                "C": "10,3%",
+                "D": "9,9%",
+                "E": "9,5%"
+            },
+            "gab": "A",
+            "exp": "Se tudo rendesse 7%: 0,07 × 35.000 = 2.450. O excedente 2.580 − 2.450 = 130 vem do 1 ponto a mais de B: 0,01 × y = 130, então **y = 13.000** e x = 22.000. Com C: 0,07 × 22.000 = 1.540; 2.801 − 1.540 = 1.261; 1.261 ÷ 13.000 = **9,7%**."
+        },
+        {
+            "n": 18,
+            "materia": "Raciocínio Lógico",
+            "tema": "equivalência da condicional",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q87",
+            "enunciado": "Assinale a alternativa que contém uma afirmação logicamente equivalente à afirmação “Se trabalho ou estudo, então estou feliz e realizado”.",
+            "alt": {
+                "A": "Não estudo, não trabalho, e não estou feliz e realizado.",
+                "B": "Estou realizado e feliz ou não estudo e não trabalho.",
+                "C": "Se estou realizado e feliz, então estudo ou trabalho.",
+                "D": "Se não estou realizado ou não estou feliz, então não trabalho ou não estudo.",
+                "E": "Se não estou feliz e não estou realizado, então não trabalho ou não estudo."
+            },
+            "gab": "B",
+            "exp": "P = (trabalho ∨ estudo); Q = (feliz ∧ realizado). P → Q ≡ ¬P ∨ Q = “(não trabalho **e** não estudo) **ou** (feliz e realizado)”, que é (B) com a ordem trocada. (D) é a contrapositiva quase certa, mas ¬(trabalho ∨ estudo) é “não trabalho **e** não estudo”, não “ou”. (C) é a recíproca."
+        },
+        {
+            "n": 19,
+            "materia": "Raciocínio Lógico",
+            "tema": "dedução com “ou… ou”",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q89",
+            "enunciado": "Considere verdadeiras as seguintes hipóteses: I. Se Pereira e Santos são oficiais de justiça, então Silva não é oficial de justiça. II. Ou Silva é oficial de justiça ou Oliveira é juiz. III. Oliveira é juiz. Com base nas hipóteses verdadeiras apresentadas, conclui-se corretamente que",
+            "alt": {
+                "A": "Pereira é oficial de justiça.",
+                "B": "Pereira não é oficial de justiça.",
+                "C": "Silva é oficial de justiça.",
+                "D": "Santos é oficial de justiça.",
+                "E": "Silva não é oficial de justiça."
+            },
+            "gab": "E",
+            "exp": "Comece pela afirmação simples. III: Oliveira é juiz. II é “ou… ou” (exclusivo): como o segundo lado é V, o primeiro é F, logo **Silva não é oficial** (E). Em I, o consequente é V, e a condicional é verdadeira qualquer que seja o antecedente: nada se conclui sobre Pereira ou Santos."
+        },
+        {
+            "n": 20,
+            "materia": "Raciocínio Lógico",
+            "tema": "condicional + conjunção",
+            "fonte": "Vunesp · TJ-SP 2024 · Oficial de Justiça · Q91",
+            "enunciado": "Considere verdadeira a afirmação “Se A é município do estado B, então C é município do estado D” e falsa a afirmação “A é município do estado B, e C é município do estado D”. Nessas condições, é necessariamente verdade que",
+            "alt": {
+                "A": "A não é município do estado B.",
+                "B": "C não é município do estado D.",
+                "C": "C é município do estado D.",
+                "D": "A é município do estado D.",
+                "E": "A é município do estado B."
+            },
+            "gab": "A",
+            "exp": "Mesma estrutura da Q10 da 0014. Se o antecedente fosse V, a condicional verdadeira obrigaria o consequente a ser V, e a conjunção seria V, contrariando o enunciado. Logo o antecedente é **falso**: A **não** é município de B. Sobre C, nada é necessário."
+        },
+        {
+            "n": 21,
+            "materia": "CPC",
+            "tema": "art. 246 e art. 231, IX (citação eletrônica)",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "enunciado": "Em processo de conhecimento, o juiz determina a citação do réu, pessoa física cadastrada no banco de dados do Poder Judiciário. Nos termos do Código de Processo Civil, é correto afirmar que",
+            "alt": {
+                "A": "a citação será feita preferencialmente por oficial de justiça, e só se frustrada esta será tentada a via eletrônica.",
+                "B": "enviada a citação por meio eletrônico, o prazo para contestar começa a correr do dia em que o réu confirmar o recebimento.",
+                "C": "não havendo confirmação do recebimento da citação eletrônica em até 3 dias úteis, a citação será feita por correio, oficial de justiça, escrivão ou chefe de secretaria, ou edital.",
+                "D": "a ausência de confirmação da citação eletrônica implica a presunção de que o réu foi citado, começando o prazo no 5º dia útil seguinte ao envio.",
+                "E": "a citação eletrônica deve ser enviada em até 5 dias úteis contados da decisão que a determinar."
+            },
+            "gab": "C",
+            "exp": "`CPC 246, §1º-A`: sem confirmação em **3 dias úteis**, a citação se faz pelos meios tradicionais (correio, oficial, escrivão/chefe de secretaria ou edital). (A) inverte a preferência: o `caput` diz **preferencialmente por meio eletrônico**. (B) o prazo começa no **5º dia útil seguinte à confirmação** (`art. 231, IX`), não no dia dela. (D) não há presunção: o silêncio leva aos outros meios. (E) o envio é em até **2 dias úteis** (`caput`)."
+        }
+    ]
+}

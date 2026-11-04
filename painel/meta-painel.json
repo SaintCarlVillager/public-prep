@@ -1,0 +1,268 @@
+{
+    "base": {
+        "materias": {
+            "Direito Constitucional": {
+                "a": 1,
+                "t": 1
+            },
+            "CPC": {
+                "a": 24,
+                "t": 40
+            },
+            "CPP": {
+                "a": 9,
+                "t": 16
+            },
+            "Informática": {
+                "a": 2,
+                "t": 3
+            },
+            "Matemática": {
+                "a": 1,
+                "t": 4
+            },
+            "Português": {
+                "a": 11,
+                "t": 17
+            },
+            "Raciocínio Lógico": {
+                "a": 4,
+                "t": 14
+            }
+        },
+        "historico": [
+            {
+                "data": "2026-10-19",
+                "id": "0001",
+                "pct": 100,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-20",
+                "id": "0002",
+                "pct": 60,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-21",
+                "id": "0003",
+                "pct": 40,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-22",
+                "id": "0004",
+                "pct": 40,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-23",
+                "id": "0005",
+                "pct": 70,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-24",
+                "id": "0006",
+                "pct": 33,
+                "tipo": "simulado"
+            },
+            {
+                "data": "2026-10-26",
+                "id": "0007",
+                "pct": 70,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-27",
+                "id": "0008",
+                "pct": 50,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-28",
+                "id": "0009",
+                "pct": 10,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-29",
+                "id": "0010",
+                "pct": 70,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-30",
+                "id": "0011",
+                "pct": 60,
+                "tipo": "sessao"
+            },
+            {
+                "data": "2026-10-31",
+                "id": "0012",
+                "pct": 30,
+                "tipo": "simulado"
+            }
+        ]
+    },
+    "dissertativas": [
+        {
+            "erros": [
+                "Resposta em tópicos, não em texto dissertativo",
+                "Usou 4 min dos 60 disponíveis",
+                "Esqueceu o termo inicial do prazo: `CPC 231, II` (juntada do mandado), com a carta do `art. 254`"
+            ],
+            "id": "0006",
+            "max": 40,
+            "nota": 13,
+            "tema": "Hora certa (CPC) e prisão em domicílio (CPP)",
+            "concurso": "tjsp"
+        },
+        {
+            "erros": [
+                "Texto curto, 7 min: metade dos itens sem resposta",
+                "`CPC 846`: faltaram 2 oficiais, 2 testemunhas e a duplicata",
+                "`CPP 245`: aplicou a regra da noite do `art. 293` à busca; esqueceu o vizinho (§4º)",
+                "`CPP 243`: requisitos do mandado trocados",
+                "Português: contíguas, alguém, Deferida; vírgula emendando períodos"
+            ],
+            "id": "0012",
+            "max": 40,
+            "nota": 12,
+            "tema": "Arrombamento na penhora (CPC) e busca domiciliar (CPP)",
+            "concurso": "tjsp"
+        }
+    ],
+    "fracos": [
+        {
+            "erros": 10,
+            "nota": "sessões 0004, 0008–0011, 0014 (Q10: condicional V + “e” F) · acertou as 2 da 0013 e a Q9 da 0014",
+            "tema": "RL: condicional e negação",
+            "total": 17,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 6,
+            "nota": "sessões 0002, 0003, 0005, 0007, 0009, 0010",
+            "tema": "`CPC art. 246` × `231, IX` (citação eletrônica/correio)",
+            "total": 12,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 4,
+            "nota": "sessões 0008, 0009, 0011, 0014 (haver/fazer impessoais)",
+            "tema": "Português: concordância",
+            "total": 9,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "tema": "`CPP art. 362, p.ú.` × `art. 366` (hora certa × edital)",
+            "erros": 1,
+            "total": 1,
+            "nota": "sessão 0014: marcou edital; o certo é defensor dativo",
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 2,
+            "nota": "sessões 0008, 0009",
+            "tema": "`CPC art. 782`",
+            "total": 2,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 2,
+            "nota": "sessões 0008, 0009 + simulado 0012 · acertou na 0013 e na 0014",
+            "tema": "`CPP arts. 243–245` (mandado e busca)",
+            "total": 4,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 2,
+            "nota": "sessões 0007, 0009",
+            "tema": "Matemática: razão e escala",
+            "total": 2,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 4,
+            "nota": "sessões 0002, 0003",
+            "tema": "`CPC arts. 254` e `258`",
+            "total": 6,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "erros": 2,
+            "nota": "sessões 0007, 0009",
+            "tema": "Português: regência",
+            "total": 3,
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "tema": "Estatuto da PcD: curatela (`arts. 84–86`)",
+            "erros": 1,
+            "total": 1,
+            "nota": "sessão TRF3·01: “patrimônio” × “matrimônio”; documentos sem curatela",
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "tema": "Estatuto da PcD: definições do `art. 3º`",
+            "erros": 1,
+            "total": 1,
+            "nota": "sessão TRF3·01: atendente pessoal (XII) × apoio escolar (XIII)",
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "tema": "Improbidade: classificar o ato (`arts. 9º, 10, 11`)",
+            "erros": 1,
+            "total": 3,
+            "nota": "sessão TRF3·01: consultoria a interessado é art. 9º, VIII, não art. 11",
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        },
+        {
+            "tema": "`CF art. 5º, XXXI` (sucessão de bens de estrangeiro)",
+            "erros": 1,
+            "total": 1,
+            "nota": "sessão TRF3·01: esqueceu a ressalva da lei pessoal mais favorável",
+            "concursos": [
+                "trf3",
+                "tjsp"
+            ]
+        }
+    ]
+}

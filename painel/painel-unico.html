@@ -1,0 +1,576 @@
+<title>Mandado de Estudo · Oficial de Justiça</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=Literata:opsz,wght@7..72,400;7..72,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: "folha de mandado" única — faixa em tinta com dois prazos (TRF3 e TJ-SP), abas Painel / Sessão / Revisões, chave de concurso nos blocos */
+:root {
+  --paper: #f2f4f7;
+  --sheet: #ffffff;
+  --ink: #141c2e;
+  --muted: #5b6477;
+  --rule: #d9dee7;
+  --accent: #0e6a5a;
+  --accent-soft: #dcefe9;
+  --brass: #a77a12;
+  --fed: #2c5aa0;
+  --fed-soft: #e1e9f6;
+  --good: #1d7a3f;
+  --good-soft: #e1f2e6;
+  --bad: #b3261e;
+  --bad-soft: #f8e1df;
+  --warn: #9a6200;
+  --band: #141c2e;
+  --band-fg: #eef1f6;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f141d; --sheet: #171e2a; --ink: #e6eaf1; --muted: #9aa4b6; --rule: #2a3343;
+  --accent: #4fc2a9; --accent-soft: #163a33; --brass: #e0b44a; --fed: #8fb3ec; --fed-soft: #1b2a44;
+  --good: #5cc983; --good-soft: #17331f; --bad: #f2867d; --bad-soft: #3a1c1a; --warn: #e8b04a;
+  --band: #0a0e15; --band-fg: #eef1f6; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0f141d; --sheet: #171e2a; --ink: #e6eaf1; --muted: #9aa4b6; --rule: #2a3343;
+  --accent: #4fc2a9; --accent-soft: #163a33; --brass: #e0b44a; --fed: #8fb3ec; --fed-soft: #1b2a44;
+  --good: #5cc983; --good-soft: #17331f; --bad: #f2867d; --bad-soft: #3a1c1a; --warn: #e8b04a;
+  --band: #0a0e15; --band-fg: #eef1f6; color-scheme: dark }
+
+body { background: var(--paper); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+
+.band { background: var(--band); color: var(--band-fg); }
+.band .wrap { padding-block: 28px 0; display: grid; gap: 18px; }
+.band .eyebrow { color: color-mix(in srgb, var(--band-fg) 65%, transparent); }
+.head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; }
+.head h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 800; font-stretch: 112%; letter-spacing: -.01em; line-height: 1.05; }
+.head h1 span { color: var(--brass); }
+.clocks { display: flex; gap: 22px; flex-wrap: wrap; }
+.clock { text-align: right; display: grid; gap: 2px; }
+.clock b { font-family: var(--mono); font-size: 34px; line-height: 1; color: var(--brass); }
+.clock.fed b { color: color-mix(in srgb, var(--fed) 70%, var(--band-fg)); }
+.clock.done b { opacity: .45; }
+.tabs { display: flex; gap: 4px; overflow-x: auto; }
+.tabs a { color: var(--band-fg); text-decoration: none; padding: 10px 16px; font-weight: 600; font-stretch: 105%; border-radius: 8px 8px 0 0; opacity: .7; white-space: nowrap; }
+.tabs a:hover { opacity: 1; }
+.tabs a[aria-current="page"] { background: var(--paper); color: var(--ink); opacity: 1; }
+.tabs a:focus-visible, button:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+
+main .wrap { padding-block: 28px 64px; display: grid; gap: 28px; }
+.notice { padding: 12px 16px; border-radius: 8px; background: var(--accent-soft); color: var(--ink); font-size: 14px; }
+.notice.bad { background: var(--bad-soft); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.kpi { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; display: grid; gap: 4px; }
+.kpi b { font-family: var(--mono); font-size: 30px; font-weight: 600; line-height: 1.1; }
+.kpi small { color: var(--muted); font-size: 13px; }
+@media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+section.card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; display: grid; gap: 16px; min-width: 0; }
+section.card > header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+section.card h2 { font-size: 19px; font-weight: 700; font-stretch: 108%; }
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; }
+@media (max-width: 820px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 99px; padding: 3px; gap: 2px; }
+.seg button { font: inherit; font-size: 13px; font-weight: 600; border: 0; background: transparent; color: var(--muted); padding: 6px 14px; border-radius: 99px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+
+.meter { display: grid; gap: 6px; }
+.meter .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.meter .top span:first-child { font-weight: 600; }
+.track { position: relative; height: 10px; background: var(--rule); border-radius: 5px; overflow: visible; }
+.fill { position: absolute; inset: 0 auto 0 0; border-radius: 5px; background: var(--accent); }
+.fill.low { background: var(--bad); }
+.cut { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--brass); }
+.meter small { color: var(--muted); font-size: 12.5px; }
+.pill { display: inline-block; font-family: var(--mono); font-size: 11px; padding: 2px 8px; border-radius: 99px; background: var(--good-soft); color: var(--good); white-space: nowrap; }
+.pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pill.warn { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
+.pill.src { background: var(--accent-soft); color: var(--accent); }
+.pill.src.warn { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
+.pill.both { background: color-mix(in srgb, var(--brass) 16%, transparent); color: var(--brass); }
+.pill.tj { background: color-mix(in srgb, var(--brass) 16%, transparent); color: var(--brass); }
+.pill.fed { background: var(--fed-soft); color: var(--fed); }
+
+.weak { list-style: none; margin: 0; padding: 0; display: grid; }
+.weak li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 10px 0; border-top: 1px solid var(--rule); }
+.weak li:first-child { border-top: 0; }
+.weak .ratio { font-family: var(--mono); color: var(--bad); white-space: nowrap; }
+.weak small { grid-column: 1 / -1; color: var(--muted); font-size: 12.5px; }
+.weak .tags { display: inline-flex; gap: 4px; margin-left: 6px; vertical-align: 1px; }
+
+.chart { overflow-x: auto; }
+.chart svg { display: block; min-width: 560px; width: 100%; height: auto; }
+.chart text { fill: var(--muted); font-family: var(--mono); font-size: 10px; }
+
+.disc { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.disc article { border: 1px solid var(--rule); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; }
+.disc ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: var(--muted); }
+
+.session-head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: end; }
+.session-head h2 { font-size: clamp(22px, 3.4vw, 30px); font-weight: 800; font-stretch: 108%; }
+select { font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); }
+.lesson { font-family: var(--body); font-size: 16.5px; line-height: 1.65; display: grid; gap: 14px; max-width: 72ch; }
+.lesson h3 { font-family: var(--display); font-size: 18px; font-weight: 700; font-stretch: 106%; margin-top: 10px; }
+.lesson p, .lesson ul { margin: 0; }
+.lesson ul { padding-left: 20px; display: grid; gap: 4px; }
+.lesson code { font-family: var(--mono); font-size: .86em; background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+.lesson blockquote { margin: 0; padding: 10px 16px; border-left: 3px solid var(--brass); background: color-mix(in srgb, var(--brass) 8%, transparent); }
+.tbl { overflow-x: auto; max-width: 100%; }
+.tbl table { border-collapse: collapse; width: 100%; font-family: var(--display); font-size: 14px; }
+.tbl th, .tbl td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+.tbl th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.mix { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+
+.qlist { display: grid; gap: 16px; }
+.q { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; gap: 12px; }
+.q .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.q .num { font-family: var(--mono); font-weight: 600; color: var(--accent); }
+.q p.stem { margin: 0; font-family: var(--body); font-size: 16px; }
+.alts { display: grid; gap: 8px; }
+.alt { all: unset; box-sizing: border-box; display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: start; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 8px; cursor: pointer; font-family: var(--body); font-size: 15px; }
+.alt:hover { border-color: var(--accent); }
+.alt:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+.alt .l { font-family: var(--mono); font-weight: 600; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--rule); font-size: 13px; }
+.alt[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.alt[aria-pressed="true"] .l { background: var(--accent); color: var(--sheet); border-color: var(--accent); }
+.alt.right { border-color: var(--good); background: var(--good-soft); }
+.alt.right .l { background: var(--good); color: var(--sheet); border-color: var(--good); }
+.alt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.alt.wrong .l { background: var(--bad); color: var(--sheet); border-color: var(--bad); }
+.alt[aria-disabled="true"] { cursor: default; }
+.exp { font-family: var(--body); font-size: 15px; padding: 12px 14px; border-radius: 8px; background: var(--paper); }
+.submitbar { position: sticky; bottom: 0; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px)); background: linear-gradient(transparent, var(--paper) 30%); display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.btn { font: inherit; font-weight: 700; font-stretch: 106%; padding: 12px 22px; border-radius: 10px; border: 0; background: var(--accent); color: var(--sheet); cursor: pointer; }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.result { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.stamp { font-family: var(--mono); font-weight: 600; font-size: 34px; color: var(--accent); border: 3px solid currentColor; border-radius: 10px; padding: 4px 14px; transform: rotate(-3deg); }
+.stamp.low { color: var(--bad); }
+
+.revs { display: grid; gap: 18px; }
+.revday h3 { font-size: 15px; margin-bottom: 6px; display: flex; gap: 8px; align-items: center; }
+.revday ul { margin: 0; padding: 0; list-style: none; display: grid; }
+.revday li { padding: 8px 0; border-top: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; font-size: 14.5px; }
+.revday li small { color: var(--muted); font-family: var(--mono); font-size: 11.5px; text-align: right; }
+.empty { color: var(--muted); font-style: italic; }
+@media (prefers-reduced-motion: no-preference) { .fill { transition: width .6s ease; } }
+</style>
+
+<div class="band">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="eyebrow">Vunesp · TRF3 (Edital NI 1/2026) e TJ-SP (Edital 01/2026)</div>
+        <h1>Oficial de Justiça <span>TRF3 + TJ-SP</span></h1>
+      </div>
+      <div class="clocks" id="clocks"></div>
+    </div>
+    <nav class="tabs" aria-label="Seções">
+      <a href="#painel" data-tab="painel">Painel</a>
+      <a href="#sessao" data-tab="sessao">Sessão</a>
+      <a href="#revisoes" data-tab="revisoes">Revisões</a>
+    </nav>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div id="status" class="notice">Carregando seus dados…</div>
+
+    <div data-view="painel">
+      <div style="display:grid;gap:20px">
+        <div class="kpis">
+          <div class="kpi"><span class="eyebrow">Acertos</span><b id="k-total">—</b><small id="k-total-s">todas as objetivas</small></div>
+          <div class="kpi"><span class="eyebrow">Rumo ao TRF3</span><b id="k-fed">—</b><small id="k-fed-s">questões que caem no TRF3</small></div>
+          <div class="kpi"><span class="eyebrow">Rumo ao TJ-SP</span><b id="k-tj">—</b><small id="k-tj-s">questões que caem no TJ-SP</small></div>
+          <div class="kpi"><span class="eyebrow">Sessões</span><b id="k-sess">—</b><small id="k-sess-s">feitas</small></div>
+        </div>
+
+        <section class="card">
+          <header>
+            <div style="display:grid;gap:4px"><h2>Por bloco do edital</h2><span class="eyebrow">traço dourado = corte</span></div>
+            <div class="seg" role="group" aria-label="Concurso" id="seg"></div>
+          </header>
+          <div id="blocos" style="display:grid;gap:18px"></div>
+        </section>
+
+        <div class="cols">
+          <section class="card">
+            <header><h2>Por matéria</h2><span class="eyebrow" id="mat-note"></span></header>
+            <div id="materias" style="display:grid;gap:14px"></div>
+          </section>
+          <section class="card">
+            <header><h2>Temas mais fracos</h2><span class="eyebrow">atacar primeiro</span></header>
+            <ul class="weak" id="fracos"></ul>
+          </section>
+        </div>
+
+        <section class="card">
+          <header><h2>Evolução por sessão</h2><span class="eyebrow">tracejado = 50% · contorno = simulado discursivo</span></header>
+          <div class="chart" id="chart"></div>
+        </section>
+
+        <section class="card">
+          <header><h2>Discursivas</h2><span class="eyebrow">TJ-SP: mínimo 24/40 · TRF3: estudo de caso, mínimo 5/10</span></header>
+          <div class="disc" id="disc"></div>
+        </section>
+      </div>
+    </div>
+
+    <div data-view="sessao" hidden>
+      <div style="display:grid;gap:24px">
+        <div class="session-head">
+          <div style="display:grid;gap:6px">
+            <span class="eyebrow" id="s-eyebrow">Sessão</span>
+            <h2 id="s-title">—</h2>
+            <div class="mix" id="s-mix"></div>
+          </div>
+          <label class="eyebrow" style="display:grid;gap:4px" for="s-pick">Outras sessões
+            <select id="s-pick"></select>
+          </label>
+        </div>
+        <section class="card" id="s-lesson-card">
+          <header><h2>Mini-aula</h2><span class="eyebrow">leia antes de responder</span></header>
+          <div class="lesson" id="s-lesson"></div>
+        </section>
+        <div id="s-result"></div>
+        <div class="qlist" id="s-questions"></div>
+        <div class="submitbar" id="s-bar">
+          <span id="s-progress" class="mono">0 de 0 respondidas</span>
+          <button class="btn" id="s-submit" disabled>Entregar sessão</button>
+        </div>
+      </div>
+    </div>
+
+    <div data-view="revisoes" hidden>
+      <section class="card">
+        <header><h2>Fila de revisão</h2><span class="eyebrow">uma fila só, para os dois concursos</span></header>
+        <div class="revs" id="revs"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<script>
+(() => {
+  // Edital de cada concurso: blocos, corte e quais matérias contam. O documento meta/config pode substituir.
+  let CONC = {
+    trf3: { sigla: "TRF3", prova: "2027-01-31", cls: "fed",
+      blocos: [
+        { label: "Conhecimentos Gerais", sub: "24 questões · peso 1 · mínimo 12/24", corte: 0.5, mats: ["Português", "Raciocínio Lógico", "Matemática", "Ética e Integridade", "Direitos Humanos e PcD", "Informática", "Sustentabilidade"] },
+        { label: "Conhecimentos Específicos", sub: "36 questões · peso 2 · mínimo 18/36", corte: 0.5, mats: ["Direito Constitucional", "Direito Administrativo", "Direito Civil", "CPC", "CPP", "Direito Penal", "Direito Tributário", "Direito Previdenciário", "Direito Ambiental"] },
+      ] },
+    tjsp: { sigla: "TJ-SP", prova: "2027-03-14", cls: "tj",
+      blocos: [
+        { label: "Bloco I · Português", sub: "15 questões · eliminatório: mínimo 8/15", corte: 8 / 15, mats: ["Português"] },
+        { label: "Bloco II · Específicos", sub: "40 questões · eliminatório: mínimo 20/40", corte: 0.5, mats: ["CPC", "CPP", "Direito Constitucional", "Direito Administrativo", "Direito Penal", "Direito Civil", "Ética e Integridade", "Legislação Especial"] },
+        { label: "Bloco III · Gerais", sub: "15 questões · só classificatório", corte: null, mats: ["Raciocínio Lógico", "Matemática", "Informática", "Atualidades", "Direitos Humanos e PcD"] },
+      ] },
+  };
+  const ORDEM = ["trf3", "tjsp"];
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const inline = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/`(.+?)`/g, "<code>$1</code>");
+  const pct = (a, t) => (t ? Math.round((a / t) * 100) : 0);
+  const fmtDate = (iso) => { if (!iso) return ""; const [, m, d] = iso.split("-"); return `${d}/${m}`; };
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const toDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
+  const ativo = (k) => toDate(CONC[k].prova) >= today;
+
+  const matsDe = (k) => new Set(CONC[k].blocos.flatMap((b) => b.mats));
+  // A questão conta para os concursos que ela lista; sem lista, para todo concurso cujo edital tem a matéria.
+  const concDe = (q) => (q.concursos && q.concursos.length ? q.concursos : ORDEM.filter((k) => matsDe(k).has(q.materia)));
+  const tagPill = (ks) => {
+    if (ks.length >= 2) return `<span class="pill both">TRF3 + TJ-SP</span>`;
+    if (ks[0] === "trf3") return `<span class="pill fed">só TRF3</span>`;
+    if (ks[0] === "tjsp") return `<span class="pill tj">só TJ-SP</span>`;
+    return "";
+  };
+
+  const state = { painel: null, revisoes: null, sessoes: [], respostas: {}, current: null, db: null, conc: "trf3" };
+  try { const c = localStorage.getItem("oj-conc"); if (c && CONC[c]) state.conc = c; } catch {}
+
+  function renderClocks() {
+    $("clocks").innerHTML = ORDEM.map((k) => {
+      const c = CONC[k], d = toDate(c.prova);
+      const dias = Math.round((d - today) / 864e5);
+      const [y, m, dd] = c.prova.split("-");
+      return `<div class="clock ${c.cls === "fed" ? "fed" : ""} ${dias < 0 ? "done" : ""}"><span class="eyebrow">${esc(c.sigla)} · ${dd}/${m}/${y}</span><b>${dias < 0 ? "feita" : dias + " dias"}</b></div>`;
+    }).join("");
+  }
+  renderClocks();
+
+  function renderSeg() {
+    const ks = ORDEM.filter(ativo);
+    if (!ks.includes(state.conc)) state.conc = ks[0] || "tjsp";
+    $("seg").hidden = ks.length < 2;
+    $("seg").innerHTML = ks.map((k) => `<button type="button" data-k="${k}" aria-pressed="${state.conc === k}">${esc(CONC[k].sigla)}</button>`).join("");
+  }
+  $("seg").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    state.conc = b.dataset.k;
+    try { localStorage.setItem("oj-conc", state.conc); } catch {}
+    renderPainel();
+  });
+
+  function showTab(name) {
+    if (!["painel", "sessao", "revisoes"].includes(name)) name = "painel";
+    document.querySelectorAll("[data-view]").forEach((v) => (v.hidden = v.dataset.view !== name));
+    document.querySelectorAll(".tabs a").forEach((a) => { if (a.dataset.tab === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+  }
+  document.querySelectorAll(".tabs a").forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); showTab(a.dataset.tab); try { history.replaceState(null, "", "#" + a.dataset.tab); } catch {} }));
+  window.addEventListener("hashchange", () => showTab(location.hash.slice(1)));
+  showTab((location.hash || "#painel").slice(1));
+
+  // ---------- contagem ----------
+  function totals() {
+    const geral = {}, por = { trf3: {}, tjsp: {} };
+    const add = (bag, m, a, t) => { bag[m] ??= { a: 0, t: 0 }; bag[m].a += a; bag[m].t += t; };
+    // base: matérias acumuladas antes da unificação (sessões TJ-SP 0001–0012), contam onde a matéria existir
+    for (const [m, v] of Object.entries(state.painel?.base?.materias || {})) {
+      add(geral, m, v.a, v.t);
+      for (const k of ORDEM) if (matsDe(k).has(m)) add(por[k], m, v.a, v.t);
+    }
+    const hist = [...(state.painel?.base?.historico || [])];
+    for (const s of state.sessoes) {
+      const r = state.respostas[s.id];
+      if (!r) continue;
+      for (const q of s.questoes || []) {
+        const ok = r.respostas?.[q.n] === q.gab ? 1 : 0;
+        add(geral, q.materia, ok, 1);
+        for (const k of concDe(q)) add(por[k], q.materia, ok, 1);
+      }
+      if (!hist.some((h) => h.id === s.id)) hist.push({ id: s.id, rotulo: s.rotulo, data: s.data, pct: pct(r.acertos, r.total), tipo: "sessao" });
+    }
+    hist.sort((a, b) => (a.data + a.id).localeCompare(b.data + b.id));
+    return { geral, por, hist };
+  }
+  const sum = (bag) => Object.values(bag).reduce((s, v) => ({ a: s.a + v.a, t: s.t + v.t }), { a: 0, t: 0 });
+
+  function meter(label, a, t, corte, sub) {
+    const p = pct(a, t);
+    const low = corte != null && t && a / t < corte;
+    return `<div class="meter">
+      <div class="top"><span>${esc(label)}</span><span class="mono">${a}/${t} · ${p}%</span></div>
+      <div class="track"><div class="fill${low ? " low" : ""}" style="width:${p}%"></div>${corte != null ? `<div class="cut" style="left:calc(${corte * 100}% - 1px)"></div>` : ""}</div>
+      ${sub ? `<small>${sub}</small>` : ""}</div>`;
+  }
+  const kpiPct = (el, v) => { el.textContent = v.t ? pct(v.a, v.t) + "%" : "—"; el.style.color = v.t ? (v.a / v.t >= 0.5 ? "var(--good)" : "var(--bad)") : ""; };
+
+  function renderPainel() {
+    renderSeg();
+    if (!state.painel) return;
+    const { geral, por, hist } = totals();
+    const G = sum(geral);
+    $("k-total").textContent = `${G.a}/${G.t}`;
+    $("k-total-s").textContent = `${pct(G.a, G.t)}% de aproveitamento geral`;
+    const F = sum(por.trf3), T = sum(por.tjsp);
+    kpiPct($("k-fed"), F); $("k-fed-s").textContent = ativo("trf3") ? `${F.a}/${F.t} que caem no TRF3` : "prova do TRF3 já feita";
+    kpiPct($("k-tj"), T); $("k-tj-s").textContent = `${T.a}/${T.t} que caem no TJ-SP`;
+    const nObj = hist.filter((h) => h.tipo !== "simulado").length;
+    $("k-sess").textContent = hist.length;
+    $("k-sess-s").textContent = `${nObj} objetivas · ${hist.length - nObj} simulados`;
+
+    const k = state.conc, mats = por[k];
+    $("blocos").innerHTML = CONC[k].blocos.map((b) => {
+      let a = 0, t = 0;
+      for (const m of b.mats) if (mats[m]) { a += mats[m].a; t += mats[m].t; }
+      return meter(b.label, a, t, b.corte, b.sub);
+    }).join("");
+    $("mat-note").textContent = `edital ${CONC[k].sigla}`;
+    $("materias").innerHTML = Object.entries(mats).sort((x, y) => pct(x[1].a, x[1].t) - pct(y[1].a, y[1].t))
+      .map(([m, v]) => meter(m, v.a, v.t, 0.5)).join("") || `<p class="empty">Nenhuma questão ainda.</p>`;
+
+    $("fracos").innerHTML = (state.painel.fracos || []).map((f) =>
+      `<li><span>${inline(f.tema)}<span class="tags">${tagPill(f.concursos || [])}</span></span><span class="ratio">errou ${f.erros} de ${f.total}</span>${f.nota ? `<small>${inline(f.nota)}</small>` : ""}</li>`).join("") || `<li class="empty">Nenhum tema marcado.</li>`;
+
+    const W = Math.max(720, hist.length * 44 + 50), H = 220, padL = 34, padB = 34, padT = 14;
+    const step = (W - padL - 10) / Math.max(hist.length, 1);
+    const bw = Math.min(32, step - 8);
+    const y = (p) => padT + (H - padT - padB) * (1 - p / 100);
+    let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Aproveitamento por sessão">`;
+    for (const g of [0, 50, 100]) svg += `<line x1="${padL}" x2="${W - 6}" y1="${y(g)}" y2="${y(g)}" stroke="${g === 50 ? "var(--brass)" : "var(--rule)"}" stroke-width="1" ${g === 50 ? 'stroke-dasharray="5 4"' : ""}/><text x="${padL - 6}" y="${y(g) + 3}" text-anchor="end">${g}%</text>`;
+    hist.forEach((h, i) => {
+      const x = padL + i * step + (step - bw) / 2;
+      const sim = h.tipo === "simulado";
+      const fill = sim ? "none" : h.pct >= 50 ? "var(--accent)" : "var(--bad)";
+      const stroke = sim ? `stroke="var(--brass)" stroke-width="2"` : "";
+      const yy = y(h.pct), hh = Math.max(1, y(0) - yy);
+      const lab = h.rotulo || h.id;
+      svg += `<rect x="${x}" y="${yy}" width="${bw}" height="${hh}" rx="3" fill="${fill}" ${stroke}><title>${esc(lab)} · ${h.pct}%</title></rect>`;
+      svg += `<text x="${x + bw / 2}" y="${yy - 4}" text-anchor="middle">${h.pct}</text>`;
+      svg += `<text x="${x + bw / 2}" y="${H - 18}" text-anchor="middle">${esc(lab)}</text><text x="${x + bw / 2}" y="${H - 6}" text-anchor="middle">${fmtDate(h.data)}</text>`;
+    });
+    $("chart").innerHTML = svg + "</svg>";
+
+    const disc = state.painel.dissertativas || [];
+    $("disc").innerHTML = disc.map((d) => {
+      const min = d.concurso === "trf3" ? 0.5 : 0.6;
+      const ok = d.nota / d.max >= min;
+      return `<article><div style="display:flex;justify-content:space-between;gap:8px;align-items:baseline"><b>Simulado ${esc(d.id)}</b><span class="pill ${ok ? "" : "bad"}">${d.nota}/${d.max}</span></div>
+        <div>${tagPill([d.concurso])}</div><small class="eyebrow">${esc(d.tema || "")}</small><ul>${(d.erros || []).map((e) => `<li>${inline(e)}</li>`).join("")}</ul></article>`;
+    }).join("") || `<p class="empty">Nenhum simulado ainda.</p>`;
+  }
+
+  // ---------- revisões ----------
+  function renderRevisoes() {
+    const itens = state.revisoes?.itens || [];
+    if (!itens.length) { $("revs").innerHTML = `<p class="empty">Fila vazia.</p>`; return; }
+    const by = {};
+    for (const it of itens) (by[it.data] ??= []).push(it);
+    const tIso = new Date(today.getTime() - today.getTimezoneOffset() * 6e4).toISOString().slice(0, 10);
+    $("revs").innerHTML = Object.keys(by).sort().map((d) => {
+      const tag = d < tIso ? `<span class="pill bad">atrasada</span>` : d === tIso ? `<span class="pill warn">hoje</span>` : "";
+      return `<div class="revday"><h3><span class="mono">${fmtDate(d)}</span>${tag}</h3><ul>${by[d].map((it) =>
+        `<li><span>${inline(it.tema)} ${tagPill(it.concursos || [])}</span><small>${esc(it.origem || "")}</small></li>`).join("")}</ul></div>`;
+    }).join("");
+  }
+
+  // ---------- sessão ----------
+  const draftKey = (id) => "oju-draft-" + id;
+  const loadDraft = (id) => { try { return JSON.parse(localStorage.getItem(draftKey(id)) || "{}"); } catch { return {}; } };
+  const saveDraft = (id, v) => { try { localStorage.setItem(draftKey(id), JSON.stringify(v)); } catch {} };
+
+  function renderBlocks(blocks) {
+    return (blocks || []).map((b) => {
+      if (b.t === "h") return `<h3>${inline(b.text)}</h3>`;
+      if (b.t === "p") return `<p>${inline(b.text)}</p>`;
+      if (b.t === "quote") return `<blockquote>${inline(b.text)}</blockquote>`;
+      if (b.t === "ul") return `<ul>${b.items.map((i) => `<li>${inline(i)}</li>`).join("")}</ul>`;
+      if (b.t === "table") return `<div class="tbl"><table><thead><tr>${b.head.map((h) => `<th>${inline(h)}</th>`).join("")}</tr></thead><tbody>${b.rows.map((r) => `<tr>${r.map((c) => `<td>${inline(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+      return "";
+    }).join("");
+  }
+
+  const ordered = () => state.sessoes.slice().sort((a, b) => (a.data + a.id).localeCompare(b.data + b.id));
+  function renderSessionPicker() {
+    const list = ordered();
+    const ids = list.map((s) => s.id);
+    $("s-pick").innerHTML = list.slice().reverse().map((s) =>
+      `<option value="${esc(s.id)}">${esc(s.rotulo || s.id)} · ${fmtDate(s.data)}${state.respostas[s.id] ? " ✓" : ""}</option>`).join("");
+    if (!state.current || !ids.includes(state.current)) {
+      const open = list.filter((s) => !state.respostas[s.id]).pop();
+      state.current = (open || list[list.length - 1])?.id || null;
+    }
+    $("s-pick").value = state.current || "";
+  }
+  $("s-pick").addEventListener("change", (e) => { state.current = e.target.value; renderSessao(); });
+
+  function renderSessao() {
+    renderSessionPicker();
+    const s = state.sessoes.find((x) => x.id === state.current);
+    if (!s) {
+      $("s-title").textContent = "Nenhuma sessão publicada ainda";
+      $("s-lesson-card").hidden = true; $("s-bar").hidden = true;
+      $("s-questions").innerHTML = ""; $("s-result").innerHTML = ""; $("s-mix").innerHTML = "";
+      return;
+    }
+    const qs = s.questoes || [];
+    $("s-eyebrow").textContent = `Sessão ${s.rotulo || s.id} · ${fmtDate(s.data)} · ${qs.length} questões`;
+    $("s-title").textContent = s.titulo;
+    const n2 = qs.filter((q) => concDe(q).length >= 2).length, nf = qs.filter((q) => concDe(q).join() === "trf3").length, nt = qs.filter((q) => concDe(q).join() === "tjsp").length;
+    $("s-mix").innerHTML = [n2 && `<span class="pill both">${n2} nos dois</span>`, nf && `<span class="pill fed">${nf} só TRF3</span>`, nt && `<span class="pill tj">${nt} só TJ-SP</span>`].filter(Boolean).join("");
+    $("s-lesson-card").hidden = !(s.aula && s.aula.length);
+    $("s-lesson").innerHTML = renderBlocks(s.aula);
+
+    const done = state.respostas[s.id];
+    const picks = done ? done.respostas : loadDraft(s.id);
+
+    $("s-questions").innerHTML = qs.map((q) => {
+      const chosen = picks[q.n];
+      const alts = Object.entries(q.alt).map(([L, txt]) => {
+        let cls = "alt";
+        if (done) { if (L === q.gab) cls += " right"; else if (L === chosen) cls += " wrong"; }
+        return `<button type="button" class="${cls}" data-q="${q.n}" data-l="${L}" aria-pressed="${!done && chosen === L}" ${done ? 'aria-disabled="true"' : ""}><span class="l">${L}</span><span>${inline(txt)}</span></button>`;
+      }).join("");
+      const verdict = done ? (chosen === q.gab ? `<span class="pill">acertou</span>` : `<span class="pill bad">errou · gabarito ${q.gab}</span>`) : "";
+      const fonte = q.fonte ? `<span class="pill ${/autoral/i.test(q.fonte) ? "warn" : ""} src">${esc(q.fonte)}</span>` : "";
+      return `<article class="q" id="q-${q.n}"><div class="meta"><span class="num">${String(q.n).padStart(2, "0")}</span><span class="eyebrow">${esc(q.materia)} · ${esc(q.tema || "")}</span>${fonte}${tagPill(concDe(q))}${verdict}</div>
+        <p class="stem">${inline(q.enunciado)}</p><div class="alts">${alts}</div>
+        ${done && q.exp ? `<div class="exp">${inline(q.exp)}</div>` : ""}</article>`;
+    }).join("");
+
+    if (done) {
+      const p = pct(done.acertos, done.total);
+      $("s-result").innerHTML = `<section class="card"><div class="result"><span class="stamp ${p < 50 ? "low" : ""}">${done.acertos}/${done.total}</span>
+        <div><b>Sessão entregue</b><br><small class="eyebrow">${new Date(done.entregueEm).toLocaleString("pt-BR")}</small><p style="margin:6px 0 0">Abaixo, cada questão com gabarito e explicação. Volte ao chat e diga “corrigi a ${esc(s.rotulo || s.id)}”: eu leio o resultado e monto a próxima sessão e as revisões.</p></div></div></section>`;
+      $("s-bar").hidden = true;
+    } else {
+      $("s-result").innerHTML = "";
+      $("s-bar").hidden = false;
+      const n = qs.filter((q) => picks[q.n]).length;
+      $("s-progress").textContent = `${n} de ${qs.length} respondidas`;
+      $("s-submit").disabled = n < qs.length || !state.db;
+    }
+  }
+
+  $("s-questions").addEventListener("click", (e) => {
+    const b = e.target.closest(".alt");
+    if (!b || b.getAttribute("aria-disabled") === "true") return;
+    const id = state.current;
+    if (state.respostas[id]) return;
+    const d = loadDraft(id);
+    d[b.dataset.q] = b.dataset.l;
+    saveDraft(id, d);
+    b.parentElement.querySelectorAll(".alt").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    const s = state.sessoes.find((x) => x.id === id);
+    const n = (s.questoes || []).filter((q) => d[q.n]).length;
+    $("s-progress").textContent = `${n} de ${s.questoes.length} respondidas`;
+    $("s-submit").disabled = n < s.questoes.length || !state.db;
+  });
+
+  $("s-submit").addEventListener("click", async () => {
+    const id = state.current;
+    const s = state.sessoes.find((x) => x.id === id);
+    const d = loadDraft(id);
+    const porMateria = {}, porConcurso = { trf3: { a: 0, t: 0 }, tjsp: { a: 0, t: 0 } };
+    const erradas = [];
+    let acertos = 0;
+    for (const q of s.questoes) {
+      const ok = d[q.n] === q.gab;
+      porMateria[q.materia] ??= { a: 0, t: 0 };
+      porMateria[q.materia].t++;
+      for (const k of concDe(q)) { porConcurso[k].t++; if (ok) porConcurso[k].a++; }
+      if (ok) { acertos++; porMateria[q.materia].a++; } else erradas.push({ n: q.n, tema: q.tema, marcou: d[q.n], gab: q.gab });
+    }
+    const btn = $("s-submit");
+    btn.disabled = true; btn.textContent = "Entregando…";
+    try {
+      await state.db.collection("respostas").doc(id).set({ sessao: id, respostas: d, acertos, total: s.questoes.length, porMateria, porConcurso, erradas, entregueEm: new Date().toISOString() });
+      btn.textContent = "Entregar sessão";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch (err) {
+      btn.disabled = false; btn.textContent = "Entregar sessão";
+      $("status").hidden = false; $("status").className = "notice bad";
+      $("status").textContent = "Não consegui salvar a entrega. Suas marcações continuam aqui; tente de novo em instantes.";
+    }
+  });
+
+  function renderAll() { renderPainel(); renderRevisoes(); renderSessao(); }
+
+  async function boot() {
+    const db = window.claude?.use ? await window.claude.use("db") : null;
+    if (!db) {
+      $("status").className = "notice bad";
+      $("status").textContent = "Não consegui acessar seus dados. Abra este painel no claude.ai com sua conta.";
+      return;
+    }
+    state.db = db;
+    let loaded = 0;
+    const timer = setTimeout(() => { if (loaded < 4) { $("status").className = "notice bad"; $("status").textContent = "Os dados ainda não chegaram. Verifique a conexão; o painel atualiza sozinho quando chegarem."; } }, 10000);
+    const mark = (snap) => { if (!snap.metadata.fromCache) loaded++; if (loaded >= 4) { clearTimeout(timer); $("status").hidden = true; } };
+    const fail = () => { clearTimeout(timer); $("status").className = "notice bad"; $("status").textContent = "A conexão com os dados caiu. Recarregue a página."; };
+    db.doc("meta/config").onSnapshot((s) => { if (s.exists && s.data().concursos) { CONC = { ...CONC, ...s.data().concursos }; renderClocks(); renderAll(); } }, () => {});
+    db.doc("meta/painel").onSnapshot((s) => { state.painel = s.exists ? s.data() : null; mark(s); renderPainel(); }, fail);
+    db.doc("meta/revisoes").onSnapshot((s) => { state.revisoes = s.exists ? s.data() : null; mark(s); renderRevisoes(); }, fail);
+    db.collection("sessoes").onSnapshot((q) => { state.sessoes = q.docs.map((d) => ({ id: d.id, ...d.data() })); mark(q); renderAll(); }, fail);
+    db.collection("respostas").onSnapshot((q) => { state.respostas = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); mark(q); renderAll(); }, fail);
+  }
+  boot();
+})();
+</script>

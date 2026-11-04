@@ -1,0 +1,60 @@
+{
+    "acertos": 7,
+    "entregueEm": "2026-11-03T15:36:46.242Z",
+    "erradas": [
+        {
+            "gab": "D",
+            "marcou": "E",
+            "n": 1,
+            "tema": "concordância verbal"
+        },
+        {
+            "gab": "E",
+            "marcou": "B",
+            "n": 5,
+            "tema": "art. 362, p.ú. (hora certa)"
+        },
+        {
+            "gab": "E",
+            "marcou": "C",
+            "n": 10,
+            "tema": "condicional + conjunção"
+        }
+    ],
+    "porMateria": {
+        "CPC": {
+            "a": 2,
+            "t": 2
+        },
+        "CPP": {
+            "a": 2,
+            "t": 3
+        },
+        "Matemática": {
+            "a": 1,
+            "t": 1
+        },
+        "Português": {
+            "a": 1,
+            "t": 2
+        },
+        "Raciocínio Lógico": {
+            "a": 1,
+            "t": 2
+        }
+    },
+    "respostas": {
+        "1": "E",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "B",
+        "6": "B",
+        "7": "C",
+        "8": "E",
+        "9": "E",
+        "10": "C"
+    },
+    "sessao": "0014",
+    "total": 10
+}

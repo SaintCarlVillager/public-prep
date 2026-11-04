@@ -1,0 +1,234 @@
+{
+    "aula": [
+        {
+            "t": "p",
+            "text": "Primeira sessão do TRF3. As 10 questões são reais (Vunesp, OJ TJ-SP 2023) e de temas que **caem nos dois editais**: Constitucional, improbidade e Estatuto da Pessoa com Deficiência. No TRF3, improbidade e PcD estão em **Conhecimentos Gerais** (peso 1); Constitucional está em **Específicos** (peso 2)."
+        },
+        {
+            "t": "h",
+            "text": "1. Direitos políticos (CF 14 e 15)"
+        },
+        {
+            "head": [
+                "Idade mínima",
+                "Cargos"
+            ],
+            "rows": [
+                [
+                    "35",
+                    "Presidente, Vice-Presidente, Senador"
+                ],
+                [
+                    "30",
+                    "Governador e Vice"
+                ],
+                [
+                    "21",
+                    "Deputado, Prefeito, Vice-Prefeito, juiz de paz"
+                ],
+                [
+                    "18",
+                    "Vereador"
+                ]
+            ],
+            "t": "table"
+        },
+        {
+            "t": "p",
+            "text": "`Art. 15`: **cassação é vedada**. Só há **perda** ou **suspensão**."
+        },
+        {
+            "t": "h",
+            "text": "2. Acumulação de cargos (CF 37, XVI e XVII)"
+        },
+        {
+            "t": "p",
+            "text": "Com compatibilidade de horários: **2 de professor**; **1 de professor + 1 técnico ou científico**; **2 de saúde** com profissão regulamentada. A proibição alcança **empregos e funções**, inclusive na administração indireta."
+        },
+        {
+            "t": "h",
+            "text": "3. Improbidade depois da Lei 14.230/21"
+        },
+        {
+            "items": [
+                "Só existe improbidade **dolosa**",
+                "`art. 9º` enriquecimento ilícito · `art. 10` lesão ao erário · `art. 11` princípios (rol taxativo)",
+                "`art. 13`: a declaração de IR é **condição de posse e exercício**, atualizada **anualmente e ao deixar o cargo**; quem se recusa leva **demissão**"
+            ],
+            "t": "ul"
+        },
+        {
+            "t": "h",
+            "text": "4. Curatela no Estatuto da PcD"
+        },
+        {
+            "t": "p",
+            "text": "A curatela é medida **extraordinária**, afeta só atos **patrimoniais e negociais** e **não alcança** corpo, sexualidade, matrimônio, privacidade, educação, saúde, trabalho e voto (`art. 85`)."
+        }
+    ],
+    "data": "2026-11-03",
+    "questoes": [
+        {
+            "alt": {
+                "A": "direitos e deveres individuais e coletivos.",
+                "B": "fundamentos da República Federativa do Brasil.",
+                "C": "objetivos fundamentais da República Federativa do Brasil.",
+                "D": "direitos e garantias fundamentais.",
+                "E": "direitos humanos."
+            },
+            "enunciado": "Consta, de maneira expressa, na Constituição Federal que a dignidade da pessoa humana figura entre os",
+            "exp": "`CF art. 1º, III`: a dignidade da pessoa humana é **fundamento** da República. Os **objetivos** (art. 3º) são verbos: construir, garantir, erradicar, promover. Mnemônico dos fundamentos: **SO-CI-DI-VA-PLU** (soberania, cidadania, dignidade, valores sociais do trabalho e da livre iniciativa, pluralismo político).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q47",
+            "gab": "B",
+            "materia": "Direito Constitucional",
+            "n": 1,
+            "tema": "art. 1º (fundamentos)"
+        },
+        {
+            "alt": {
+                "A": "brasileira em benefício do cônjuge e do filho brasileiro, independentemente de qualquer disposição legal do país de origem do “de cujus”.",
+                "B": "brasileira em benefício do filho brasileiro e de eventuais outros herdeiros do “de cujus”.",
+                "C": "do país de origem do “de cujus”, ou seja, pela lei alemã.",
+                "D": "brasileira em benefício do cônjuge e do filho brasileiro, sempre que não lhes seja mais favorável a lei pessoal do “de cujus”.",
+                "E": "que rege as relações internacionais entre o Brasil e a Alemanha."
+            },
+            "enunciado": "Max, cidadão alemão, casou-se com a brasileira Antônia; da união nasceu um filho brasileiro, Carlos. De acordo com a Constituição Federal, a sucessão dos bens de propriedade de Max situados no Brasil será regulada pela lei",
+            "exp": "`CF art. 5º, XXXI`: a sucessão de bens de estrangeiros situados no Brasil é regulada pela lei brasileira em benefício do cônjuge ou dos filhos brasileiros, **sempre que não lhes seja mais favorável a lei pessoal do de cujus**. A ressalva final é o que a banca tira em (A).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q48",
+            "gab": "D",
+            "materia": "Direito Constitucional",
+            "n": 2,
+            "tema": "art. 5º, XXXI"
+        },
+        {
+            "alt": {
+                "A": "trinta anos.",
+                "B": "vinte anos.",
+                "C": "vinte e um anos.",
+                "D": "trinta e cinco anos.",
+                "E": "dezoito anos."
+            },
+            "enunciado": "A idade mínima exigida como condição de elegibilidade para o cargo de Vereador é de",
+            "exp": "`CF art. 14, §3º, VI`: **35** Presidente, Vice e Senador; **30** Governador e Vice; **21** Deputado, Prefeito, Vice-Prefeito e juiz de paz; **18** Vereador.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q51",
+            "gab": "E",
+            "materia": "Direito Constitucional",
+            "n": 3,
+            "tema": "art. 14, §3º, VI (idade mínima)"
+        },
+        {
+            "alt": {
+                "A": "se dará no caso de condenação criminal transitada em julgado.",
+                "B": "se dará no caso de cancelamento da naturalização por sentença transitada em julgado.",
+                "C": "se dará no caso de improbidade administrativa.",
+                "D": "é vedada constitucionalmente.",
+                "E": "se dará no caso de incapacidade civil absoluta."
+            },
+            "enunciado": "A cassação de direitos políticos",
+            "exp": "`CF art. 15`: é **vedada a cassação** de direitos políticos. O que existe é **perda** (cancelamento da naturalização) ou **suspensão** (incapacidade civil absoluta, condenação criminal transitada em julgado enquanto durarem os efeitos, recusa de obrigação a todos imposta, improbidade). As alternativas (A), (B), (C) e (E) descrevem perda ou suspensão, nunca cassação.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q52",
+            "gab": "D",
+            "materia": "Direito Constitucional",
+            "n": 4,
+            "tema": "art. 15 (direitos políticos)"
+        },
+        {
+            "alt": {
+                "A": "quando houver compatibilidade de horários é possível a acumulação de um cargo de professor com outro técnico ou científico.",
+                "B": "quando houver compatibilidade de horários é possível a acumulação de até três cargos de professor.",
+                "C": "é totalmente vedada a acumulação remunerada de cargos públicos.",
+                "D": "a proibição de acumular não se estende a empregos e funções públicas.",
+                "E": "podem ser acumulados até três cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas."
+            },
+            "enunciado": "A orientação constitucional quanto à acumulação remunerada de cargos públicos é a seguinte:",
+            "exp": "`CF art. 37, XVI`: com compatibilidade de horários, podem ser acumulados **dois** cargos de professor, **um de professor com outro técnico ou científico**, ou **dois** de profissionais de saúde. O inciso XVII estende a proibição a empregos e funções (D errada). Nunca são três cargos.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q53",
+            "gab": "A",
+            "materia": "Direito Constitucional",
+            "n": 5,
+            "tema": "art. 37, XVI (acumulação)"
+        },
+        {
+            "alt": {
+                "A": "configurará improbidade, caso praticada de forma culposa.",
+                "B": "será considerada como improbidade, caso tenha sido praticada de forma dolosa.",
+                "C": "somente configurará improbidade caso demonstrado que a permuta foi realizada com bem com preço inferior ao valor de mercado.",
+                "D": "não está tipificada em lei.",
+                "E": "não praticou conduta considerada como improbidade, pois a vantagem econômica deve ser direta."
+            },
+            "enunciado": "Considere que Isaías, servidor público, recebeu vantagem econômica indireta para facilitar a permuta de bem imóvel entre um particular com a Administração. Com base na Lei nº 8.429/92, é correto afirmar que a conduta",
+            "exp": "Desde a `Lei 14.230/21`, **só há improbidade dolosa** (`art. 1º, §§1º e 2º`): a culposa deixou de existir (A errada). O `art. 9º` fala em vantagem **direta ou indireta** (E errada).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q60",
+            "gab": "B",
+            "materia": "Ética e Integridade",
+            "n": 6,
+            "tema": "Lei 8.429/92, art. 9º (dolo)"
+        },
+        {
+            "alt": {
+                "A": "não constitui improbidade administrativa.",
+                "B": "constitui ato de improbidade administrativa por atentar contra os princípios da Administração Pública.",
+                "C": "somente configurará improbidade caso comprovado que o agente público estava proibido de exercer atividade privada fora do horário de expediente.",
+                "D": "constitui improbidade administrativa.",
+                "E": "também seria considerada improbidade administrativa caso praticada de forma culposa."
+            },
+            "enunciado": "A conduta de aceitar emprego, comissão ou exercer atividade de consultoria ou assessoramento para pessoa física ou jurídica que tenha interesse suscetível de ser atingido ou amparado por ação ou omissão decorrente das atribuições do agente público, durante a atividade, de acordo com a Lei nº 8.429/92",
+            "exp": "É o `art. 9º, VIII`, **enriquecimento ilícito**, e não ato contra os princípios (`art. 11`), por isso (B) erra a categoria. Também exige dolo (E errada).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q61",
+            "gab": "D",
+            "materia": "Ética e Integridade",
+            "n": 7,
+            "tema": "Lei 8.429/92, art. 9º, VIII"
+        },
+        {
+            "alt": {
+                "A": "a recusa à apresentação sujeita o agente público a pena de suspensão.",
+                "B": "corresponderá à declaração de imposto de renda e provento de qualquer natureza ou formulário aprovado pela autoridade máxima do órgão a que esteja vinculado o servidor.",
+                "C": "a atualização anual será realizada caso assim determinado pela chefia imediata do servidor público.",
+                "D": "caso fornecida anualmente, o servidor público estará isento de apresentá-la novamente quando deixar de exercer o cargo.",
+                "E": "a sua apresentação é condição para a posse e exercício de função pública."
+            },
+            "enunciado": "A respeito da Declaração de Bens, de que trata a Lei nº 8.429/92, é correto afirmar que:",
+            "exp": "`Art. 13`: posse e exercício ficam **condicionados** à declaração de imposto de renda. A atualização é **anual e também na data em que o agente deixar o cargo** (D errada). A recusa ou a declaração falsa gera **demissão**, não suspensão (A errada). Depois da `Lei 14.230/21` não existe mais o “formulário aprovado pela autoridade” (B errada).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q62",
+            "gab": "E",
+            "materia": "Ética e Integridade",
+            "n": 8,
+            "tema": "Lei 8.429/92, art. 13"
+        },
+        {
+            "alt": {
+                "A": "acompanha a pessoa com deficiência, podendo ou não desempenhar as funções de atendente pessoal.",
+                "B": "atua em todas as atividades escolares nas quais se fizer necessária, excluídas as atividades de alimentação, higiene e locomoção.",
+                "C": "assiste ou presta cuidados básicos e essenciais à pessoa com deficiência no exercício de suas atividades diárias.",
+                "D": "atua em todos os níveis e modalidades de ensino, em instituições públicas e privadas, excluídas as técnicas ou os procedimentos identificados com profissões legalmente estabelecidas.",
+                "E": "atua apenas nas modalidades escolares relativas às atividades intelectuais."
+            },
+            "enunciado": "De acordo com o disposto no Estatuto da Pessoa com Deficiência, Lei nº 13.146, de 6 de julho de 2015, profissional de apoio escolar é a pessoa que",
+            "exp": "`Art. 3º, XIII`: o profissional de apoio escolar **exerce alimentação, higiene e locomoção** (B errada) e atua em todas as atividades escolares necessárias, **em todos os níveis e modalidades**, públicas e privadas, **excluídas as técnicas de profissões legalmente estabelecidas**. (C) define o **atendente pessoal** (inciso XII).",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q81",
+            "gab": "D",
+            "materia": "Direitos Humanos e PcD",
+            "n": 9,
+            "tema": "Lei 13.146/15, art. 3º, XIII"
+        },
+        {
+            "alt": {
+                "A": "Para emissão de documentos oficiais, não será exigida a situação de curatela da pessoa com deficiência.",
+                "B": "É facultado à pessoa com deficiência, desde que submetida à curatela, a adoção de processo de tomada de decisão apoiada.",
+                "C": "A definição da curatela não alcança o direito ao próprio corpo, à sexualidade, ao patrimônio, à privacidade, à educação, à saúde, ao trabalho e ao voto.",
+                "D": "A curatela afetará tão somente os atos relacionados aos direitos de natureza negocial.",
+                "E": "No caso de pessoa em situação de institucionalização, ao nomear curador, o juiz deve dar preferência, na seguinte ordem, a pessoa que tenha vínculo de natureza afetiva, familiar ou comunitária com o curatelado."
+            },
+            "enunciado": "A pessoa com deficiência tem assegurado o direito ao exercício de sua capacidade legal em igualdade de condições com as demais pessoas. No entanto, quando necessário, a pessoa com deficiência será submetida à curatela, conforme a lei. Acerca do tema, assinale a alternativa correta.",
+            "exp": "`Art. 86`: para emitir documentos oficiais, **não se exige a situação de curatela**. (C) troca **matrimônio** por “patrimônio” (`art. 85, §1º`). (D) a curatela afeta atos **patrimoniais e negociais** (`art. 85, caput`). (B) a tomada de decisão apoiada é para quem **não** está sob curatela.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q82",
+            "gab": "A",
+            "materia": "Direitos Humanos e PcD",
+            "n": 10,
+            "tema": "Lei 13.146/15, arts. 84–86 (curatela)"
+        }
+    ],
+    "titulo": "Direitos políticos, acumulação, improbidade e curatela",
+    "rotulo": "TRF3·01"
+}

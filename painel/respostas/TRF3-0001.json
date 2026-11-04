@@ -1,0 +1,58 @@
+{
+    "acertos": 6,
+    "entregueEm": "2026-11-03T17:44:46.604Z",
+    "erradas": [
+        {
+            "gab": "D",
+            "marcou": "A",
+            "n": 2,
+            "tema": "art. 5º, XXXI"
+        },
+        {
+            "gab": "D",
+            "marcou": "B",
+            "n": 7,
+            "tema": "Lei 8.429/92, art. 9º, VIII"
+        },
+        {
+            "gab": "D",
+            "marcou": "C",
+            "n": 9,
+            "tema": "Lei 13.146/15, art. 3º, XIII"
+        },
+        {
+            "gab": "A",
+            "marcou": "C",
+            "n": 10,
+            "tema": "Lei 13.146/15, arts. 84–86 (curatela)"
+        }
+    ],
+    "porMateria": {
+        "Direito Constitucional": {
+            "a": 4,
+            "t": 5
+        },
+        "Direitos Humanos e PcD": {
+            "a": 0,
+            "t": 2
+        },
+        "Ética e Integridade": {
+            "a": 2,
+            "t": 3
+        }
+    },
+    "respostas": {
+        "1": "B",
+        "2": "A",
+        "3": "E",
+        "4": "D",
+        "5": "A",
+        "6": "B",
+        "7": "B",
+        "8": "E",
+        "9": "C",
+        "10": "C"
+    },
+    "sessao": "TRF3-0001",
+    "total": 10
+}

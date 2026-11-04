@@ -1,0 +1,206 @@
+{
+    "aula": [
+        {
+            "t": "h",
+            "text": "1. Condicional: seu pior tema (9 erros em 13)"
+        },
+        {
+            "t": "p",
+            "text": "**P → Q** (“Se P, então Q”) só é **falsa** quando P é verdadeiro e Q é falso. Em qualquer outro caso, é verdadeira."
+        },
+        {
+            "head": [
+                "Forma",
+                "Equivale a P → Q?"
+            ],
+            "rows": [
+                [
+                    "~Q → ~P (contrapositiva)",
+                    "**sim**"
+                ],
+                [
+                    "~P ∨ Q (“não P ou Q”)",
+                    "**sim**"
+                ],
+                [
+                    "Q → P (recíproca)",
+                    "não"
+                ],
+                [
+                    "~P → ~Q (inversa)",
+                    "não"
+                ]
+            ],
+            "t": "table"
+        },
+        {
+            "t": "p",
+            "text": "**Negação de P → Q = P ∧ ~Q.** A negação de uma condicional nunca é outra condicional: é sempre um “e”."
+        },
+        {
+            "t": "quote",
+            "text": "“Se chove, levo guarda-chuva.” Negação: “Chove **e** não levo guarda-chuva.”"
+        },
+        {
+            "t": "h",
+            "text": "2. Busca domiciliar (CPP 243/245) × prisão em casa (CPP 293)"
+        },
+        {
+            "head": [
+                "",
+                "Busca domiciliar · `art. 245`",
+                "Prisão em casa · `art. 293`"
+            ],
+            "rows": [
+                [
+                    "Horário",
+                    "**De dia**, salvo consentimento do morador",
+                    "De dia: entra à força. **De noite**: guarda as saídas, casa **incomunicável**, arromba **ao amanhecer**"
+                ],
+                [
+                    "Antes de entrar",
+                    "**Mostrar e ler** o mandado; intimar o morador a abrir a porta",
+                    "Intimar o morador a **entregar** o réu, à vista da ordem"
+                ],
+                [
+                    "Resistência",
+                    "Arromba a porta (§2º); força contra coisas no interior (§3º)",
+                    "Convoca **2 testemunhas** e entra"
+                ],
+                [
+                    "Casa vazia",
+                    "Mesmo procedimento; **intimar qualquer vizinho**, se houver e estiver presente, a assistir (§4º)",
+                    "—"
+                ],
+                [
+                    "Ao final",
+                    "**Auto circunstanciado**, assinado com **2 testemunhas presenciais** (§7º)",
+                    "Morador que recusou é levado à autoridade (p.ú.)"
+                ]
+            ],
+            "t": "table"
+        },
+        {
+            "t": "p",
+            "text": "**Mandado de busca, `art. 243`:** (I) indicar, o mais precisamente possível, a casa e o nome do proprietário ou morador (na busca pessoal, o nome da pessoa ou os sinais que a identifiquem); (II) mencionar o motivo e os fins da diligência; (III) ser subscrito pelo escrivão e assinado pela autoridade que o expedir."
+        },
+        {
+            "t": "h",
+            "text": "3. Arrombamento na penhora (CPC 846)"
+        },
+        {
+            "t": "p",
+            "text": "Executado fecha as portas para impedir a penhora → o oficial **comunica ao juiz e pede ordem de arrombamento**. Nunca arromba por conta própria."
+        },
+        {
+            "items": [
+                "**§1º** deferido o pedido, **2 oficiais** cumprem o mandado, arrombando cômodos e móveis em que se presuma estarem os bens, e lavram **auto circunstanciado assinado por 2 testemunhas** presentes",
+                "**§2º** sempre que necessário, o juiz requisita **força policial**",
+                "**§3º** auto em **duplicata**: uma via ao **escrivão ou chefe de secretaria** (juntada aos autos) e outra à **autoridade policial** (apurar desobediência ou resistência)",
+                "**§4º** o auto traz o **rol de testemunhas** com qualificação"
+            ],
+            "t": "ul"
+        }
+    ],
+    "data": "2026-11-02",
+    "questoes": [
+        {
+            "alt": {
+                "A": "Se o oficial não encontra o réu, então não lavra a certidão.",
+                "B": "O oficial encontra o réu e não lavra a certidão.",
+                "C": "O oficial não encontra o réu ou lavra a certidão.",
+                "D": "Se o oficial lavra a certidão, então encontra o réu.",
+                "E": "O oficial não encontra o réu e não lavra a certidão."
+            },
+            "enunciado": "A negação de “Se o oficial encontra o réu, então lavra a certidão” é:",
+            "exp": "Negação de P → Q é **P ∧ ~Q**: mantém o antecedente e nega o consequente, ligando com “e”. (A) é a inversa, (C) é equivalente à própria frase (~P ∨ Q), (D) é a recíproca.",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "B",
+            "materia": "Raciocínio Lógico",
+            "n": 1,
+            "tema": "negação da condicional"
+        },
+        {
+            "alt": {
+                "A": "Se há auto, então há penhora.",
+                "B": "Se não há penhora, então não há auto.",
+                "C": "Não há penhora ou há auto.",
+                "D": "Há penhora e não há auto.",
+                "E": "Não há auto e há penhora."
+            },
+            "enunciado": "É logicamente equivalente a “Se há penhora, então há auto”:",
+            "exp": "P → Q ≡ **~P ∨ Q** (e também ≡ ~Q → ~P). (A) recíproca e (B) inversa não são equivalentes; (D) e (E) são a **negação**.",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "C",
+            "materia": "Raciocínio Lógico",
+            "n": 2,
+            "tema": "equivalência da condicional"
+        },
+        {
+            "alt": {
+                "A": "a diligência seja adiada até o retorno do morador.",
+                "B": "a casa seja tornada incomunicável até o amanhecer.",
+                "C": "seja intimado a assistir à diligência qualquer vizinho, se houver e estiver presente.",
+                "D": "seja obrigatória a presença da autoridade policial.",
+                "E": "a busca seja feita somente com autorização do proprietário."
+            },
+            "enunciado": "Na busca domiciliar, ausentes os moradores, o Código de Processo Penal determina que:",
+            "exp": "`CPP 245 §4º`: aplica-se o arrombamento dos §§2º e 3º, **intimando qualquer vizinho**, se houver e estiver presente, para assistir. A (B) é a regra da **prisão** à noite (`art. 293`), a mesma confusão do simulado 0012.",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "C",
+            "materia": "CPP",
+            "n": 3,
+            "tema": "art. 245 §4º"
+        },
+        {
+            "alt": {
+                "A": "arrombar imediatamente as portas, com duas testemunhas.",
+                "B": "desistir da diligência e certificar o ocorrido.",
+                "C": "guardar todas as saídas, tornar a casa incomunicável e, logo que amanheça, arrombar as portas e efetuar a prisão.",
+                "D": "mostrar e ler o mandado ao morador e entrar à força.",
+                "E": "intimar um vizinho a assistir e entrar à força."
+            },
+            "enunciado": "O executor de mandado de prisão verifica, às 22h, que o réu está escondido em uma casa, e o morador, intimado, não o entrega. Ele deve:",
+            "exp": "`CPP 293`: **de noite**, depois da intimação não atendida, o executor guarda as saídas, torna a casa incomunicável e arromba **ao amanhecer**. De dia, convocaria 2 testemunhas e entraria à força (A). (D) e (E) são da **busca** (`art. 245`).",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "C",
+            "materia": "CPP",
+            "n": 4,
+            "tema": "art. 293"
+        },
+        {
+            "alt": {
+                "A": "arrombará a porta na presença de duas testemunhas.",
+                "B": "comunicará o fato ao juiz, solicitando-lhe ordem de arrombamento.",
+                "C": "requisitará diretamente força policial.",
+                "D": "lavrará certidão negativa e devolverá o mandado.",
+                "E": "citará o executado por hora certa."
+            },
+            "enunciado": "Segundo o CPC, se o executado fechar as portas da casa a fim de obstar a penhora dos bens, o oficial de justiça:",
+            "exp": "`CPC 846, caput`: o oficial **comunica ao juiz e pede ordem de arrombamento**. Quem requisita força policial é o **juiz** (§2º), não o oficial.",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "B",
+            "materia": "CPC",
+            "n": 5,
+            "tema": "art. 846 caput"
+        },
+        {
+            "alt": {
+                "A": "é lavrado por um oficial de justiça e assinado pelo executado.",
+                "B": "é lavrado em via única e juntado aos autos.",
+                "C": "é lavrado em duplicata pelos dois oficiais, entregando-se uma via ao escrivão ou chefe de secretaria e outra à autoridade policial.",
+                "D": "dispensa testemunhas quando houver força policial.",
+                "E": "recebe o nome de auto de busca e apreensão."
+            },
+            "enunciado": "Deferido o arrombamento previsto no art. 846 do CPC, o auto da ocorrência:",
+            "exp": "§1º: **dois oficiais** e **auto circunstanciado com 2 testemunhas**. §3º: **duplicata**, com uma via ao escrivão ou chefe de secretaria e outra à autoridade policial. (E) foi o nome errado que você usou no simulado 0012.",
+            "fonte": "Autoral (Claude) · estilo Vunesp",
+            "gab": "C",
+            "materia": "CPC",
+            "n": 6,
+            "tema": "art. 846 §§1º e 3º"
+        }
+    ],
+    "titulo": "Condicional, busca × prisão no CPP e arrombamento na penhora",
+    "rotulo": "0013"
+}

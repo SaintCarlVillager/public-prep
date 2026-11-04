@@ -1,0 +1,221 @@
+{
+    "aula": [
+        {
+            "t": "p",
+            "text": "Hoje todas as 10 questões são da **prova de Oficial de Justiça do TJ-SP de 2023 (Vunesp)**, a última feita para este cargo. A fonte aparece em cada questão."
+        },
+        {
+            "t": "h",
+            "text": "1. O que incumbe ao oficial de justiça (CPC 154)"
+        },
+        {
+            "items": [
+                "**I** fazer pessoalmente citações, prisões, penhoras, arrestos e demais diligências, **sempre que possível na presença de 2 testemunhas**, certificando lugar, dia e hora",
+                "**II** executar as ordens do **juiz a que estiver subordinado** (não “de qualquer juiz”)",
+                "**III** entregar o mandado em cartório **após** o cumprimento (o CPC não fixa “3 dias”)",
+                "**IV** auxiliar o juiz na manutenção da ordem",
+                "**V** efetuar avaliações, quando for o caso",
+                "**VI** certificar proposta de autocomposição apresentada por qualquer das partes **na ocasião do ato de comunicação** que lhe couber"
+            ],
+            "t": "ul"
+        },
+        {
+            "t": "h",
+            "text": "2. Intimação no CPC (269–275)"
+        },
+        {
+            "items": [
+                "`art. 271`: o juiz determina **de ofício** as intimações em processos pendentes",
+                "`art. 272 §1º`: o advogado pode pedir que conste **só o nome da sociedade**, se registrada na OAB",
+                "`art. 273`: sem meio eletrônico nem órgão oficial, quem intima os advogados é o **escrivão ou chefe de secretaria**",
+                "`art. 275`: intimação por **oficial de justiça** só quando **frustrada** a via eletrônica ou o correio"
+            ],
+            "t": "ul"
+        },
+        {
+            "t": "h",
+            "text": "3. CPP: prisão (283) e hora certa (362)"
+        },
+        {
+            "t": "p",
+            "text": "`art. 283`: ninguém será preso senão em **flagrante delito** ou por ordem escrita e fundamentada do juiz, em razão de **prisão cautelar** ou de **condenação criminal transitada em julgado**."
+        },
+        {
+            "t": "p",
+            "text": "`art. 362`: réu que se oculta → **citação com hora certa**, na forma do CPC. Completada a citação, se não comparecer → **defensor dativo**. No CPP isso **não suspende** o processo (a suspensão do `art. 366` é para a citação **por edital**)."
+        },
+        {
+            "t": "h",
+            "text": "4. Lógica: quando a condicional é falsa"
+        },
+        {
+            "t": "p",
+            "text": "P → Q é falsa **só** com P verdadeiro e Q falso. Se a questão diz que a condicional é falsa, você já sabe o valor de P e de Q."
+        }
+    ],
+    "data": "2026-11-03",
+    "questoes": [
+        {
+            "alt": {
+                "A": "É preciso que hajam trocas de experiências e qualificação dos agricultores e agricultoras para que se garanta a construção coletiva do conhecimento.",
+                "B": "Já fazem anos que famílias vem se dedicando à produção agroecológica no semiárido, ainda que muitos consideram que ali só existe adversidades.",
+                "C": "Gera-se riquezas de possibilidades, de caminhos e de alternativas na região do semiárido, caso se mantém a qualificação dos agricultores e agricultoras.",
+                "D": "O semiárido é um dos biomas que merece atenção por suas peculiaridades, no qual o homem interveio para buscar riquezas com a produção agroecológica.",
+                "E": "Quando o homem quiser melhor aproveitamento do semiárido, as mudanças climáticas e as injustiças sociais que compõe obstáculos deverão ser contornadas."
+            },
+            "enunciado": "Assinale a alternativa em que a concordância verbal e o emprego de verbos estão de acordo com a norma-padrão.",
+            "exp": "(A) **haver** = existir é impessoal: “que **haja** trocas”. (B) **fazer** indicando tempo é impessoal: “**faz** anos”; “famílias **vêm**”; “ainda que muitos **considerem**”; “só **existem** adversidades”. (C) “**Geram-se** riquezas” (voz passiva sintética concorda com o sujeito) e “caso se **mantenha**”. (E) “injustiças que **compõem**”. (D) está correta: depois de “um dos ... que” a norma aceita o verbo no singular, e **intervir** se conjuga como vir: “interveio”.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q10",
+            "gab": "D",
+            "materia": "Português",
+            "n": 1,
+            "tema": "concordância verbal"
+        },
+        {
+            "alt": {
+                "A": "Acho que o Kazukuta era um cão triste porque é assim que lembro ele.",
+                "B": "Acho que o Kazukuta era um cão triste porque é assim que lembra ele.",
+                "C": "Acho que o Kazukuta era um cão triste porque é assim que me lembro dele.",
+                "D": "Acho que o Kazukuta era um cão triste porque é assim que lembro dele.",
+                "E": "Acho que o Kazukuta era um cão triste porque é assim que me lembro-o."
+            },
+            "enunciado": "Em conformidade com a norma-padrão, a frase “Acho que o Kazukuta era um cão triste.” pode ser expandida da seguinte forma:",
+            "exp": "**Lembrar** tem duas regências: sem pronome é transitivo direto (“**lembro-o**”) e com pronome pede **de** (“**me lembro dele**”). Nunca misture: “lembro **dele**” sem o “me” (D) e “me lembro-o” (E) estão erradas. “Lembro **ele**” (A) usa pronome reto como objeto, o que a norma não aceita.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q14",
+            "gab": "C",
+            "materia": "Português",
+            "n": 2,
+            "tema": "regência verbal (lembrar)"
+        },
+        {
+            "alt": {
+                "A": "em nenhuma hipótese será permitida a apreensão de documento em poder do defensor do acusado.",
+                "B": "no caso de prisão, a busca pessoal só é permitida se houver expressa autorização no respectivo mandado.",
+                "C": "se, concomitantemente, houver ordem de prisão, constará do próprio texto do mandado de busca.",
+                "D": "não sendo encontrada a coisa procurada, mas havendo fundada suspeita, a diligência pode ser imediatamente realizada em novo endereço, sem necessidade de expedição de novo mandado.",
+                "E": "descoberta a coisa que se procura, será imediatamente apreendida e levada à presença da autoridade judicial."
+            },
+            "enunciado": "No que diz respeito ao regramento que o CPP dispensa à busca (CPP, art. 240 a 250), é correto afirmar:",
+            "exp": "`CPP 243 §1º`: havendo ordem de prisão, ela **constará do próprio texto do mandado de busca**. (A) o `243 §2º` ressalva o documento que **constitua elemento do corpo de delito**. (B) o `art. 244` dispensa mandado para busca pessoal no caso de prisão. (E) o `245 §6º` manda pôr a coisa **sob custódia da autoridade ou de seus agentes**.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q34",
+            "gab": "C",
+            "materia": "CPP",
+            "n": 3,
+            "tema": "busca (arts. 240–250)"
+        },
+        {
+            "alt": {
+                "A": "flagrante delito; dívida de alimentos; condenação criminal transitada em julgado.",
+                "B": "prisão processual; prisão cautelar e prisão definitiva.",
+                "C": "flagrante delito; prisão cautelar; condenação criminal transitada em julgado.",
+                "D": "flagrante delito; prisão preventiva; prisão temporária.",
+                "E": "flagrante delito; prisão provisória; dívida de alimentos."
+            },
+            "enunciado": "O art. 283 do CPP prevê três modalidades de prisão, quais sejam:",
+            "exp": "`CPP 283`: **flagrante delito**, ordem judicial em razão de **prisão cautelar** ou de **condenação criminal transitada em julgado**. Preventiva e temporária (D) são espécies de prisão cautelar, não as três modalidades do artigo. Dívida de alimentos é prisão civil, fora do CPP.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q35",
+            "gab": "C",
+            "materia": "CPP",
+            "n": 4,
+            "tema": "art. 283"
+        },
+        {
+            "alt": {
+                "A": "ser-lhe-á nomeado curador.",
+                "B": "será publicado edital de citação.",
+                "C": "será decretada a prisão preventiva.",
+                "D": "ficarão suspensos o processo e o curso do prazo prescricional.",
+                "E": "ser-lhe-á nomeado defensor dativo."
+            },
+            "enunciado": "Completada a citação com hora certa, se o acusado não comparecer,",
+            "exp": "`CPP 362, parágrafo único`: **defensor dativo**. (D) é a regra do `art. 366`, para o réu citado **por edital** que não comparece nem constitui advogado. (A) é o curador especial do **CPC** (`art. 72, II`), que a banca usa como pegadinha.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q36",
+            "gab": "E",
+            "materia": "CPP",
+            "n": 5,
+            "tema": "art. 362, p.ú. (hora certa)"
+        },
+        {
+            "alt": {
+                "A": "entregar o mandado em cartório em até 3 (três) dias após seu cumprimento.",
+                "B": "auxiliar o juiz na manutenção da ordem.",
+                "C": "fazer pessoalmente citações, prisões, penhoras, arrestos e demais diligências próprias do seu ofício, sempre que possível, na presença de uma testemunha, certificando no mandado o ocorrido, com menção ao lugar, ao dia e à hora.",
+                "D": "executar as ordens de qualquer juiz da comarca.",
+                "E": "certificar, em mandado, proposta de autocomposição apresentada por qualquer das partes, imediatamente e em ato próprio."
+            },
+            "enunciado": "Incumbe ao oficial de justiça",
+            "exp": "`CPC 154, IV`. As demais foram alteradas de propósito: (A) o inciso III não fixa prazo; (C) são **duas** testemunhas; (D) é o **juiz a que estiver subordinado**; (E) é **na ocasião do ato de comunicação**, não em ato próprio.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q40",
+            "gab": "B",
+            "materia": "CPC",
+            "n": 6,
+            "tema": "art. 154 (incumbências do oficial)"
+        },
+        {
+            "alt": {
+                "A": "A parte arguirá a nulidade da intimação em capítulo preliminar do próprio ato que lhe caiba praticar, o qual será tido por tempestivo mesmo se o vício não for reconhecido.",
+                "B": "Se inviável a intimação por meio eletrônico e não houver na localidade publicação em órgão oficial, incumbirá ao oficial de justiça intimar de todos os atos do processo os advogados das partes pessoalmente, se tiverem domicílio na sede do juízo.",
+                "C": "Os advogados poderão requerer que, na intimação a eles dirigida, figure apenas o nome da sociedade a que pertençam, desde que devidamente registrada na Ordem dos Advogados do Brasil.",
+                "D": "Não dispondo a lei de outro modo, as intimações serão feitas às partes, aos seus representantes legais, aos advogados e aos demais sujeitos do processo por oficial de justiça ou, se presentes em cartório, diretamente pelo escrivão ou chefe de secretaria.",
+                "E": "Em processos pendentes, desde que a pedido da parte ou do Ministério Público, o juiz determinará as intimações."
+            },
+            "enunciado": "Intimação é o ato pelo qual se dá ciência a alguém dos atos e dos termos do processo. Acerca do tema, assinale a alternativa correta.",
+            "exp": "`CPC 272 §1º`. (A) o `272 §8º` diz que o ato é tempestivo **se o vício for reconhecido**. (B) pelo `art. 273`, quem intima é o **escrivão ou chefe de secretaria**. (D) pelo `art. 275`, o oficial só atua quando **frustrada** a intimação eletrônica ou pelo correio. (E) pelo `art. 271`, o juiz determina as intimações **de ofício**.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q42",
+            "gab": "C",
+            "materia": "CPC",
+            "n": 7,
+            "tema": "intimação (arts. 271–275)"
+        },
+        {
+            "alt": {
+                "A": "R$ 16,2 milhões.",
+                "B": "R$ 16,5 milhões.",
+                "C": "R$ 16,1 milhões.",
+                "D": "R$ 16,3 milhões.",
+                "E": "R$ 16,4 milhões."
+            },
+            "enunciado": "No ano de 2022, 3 em cada 8 edifícios comercializados em determinada região foram adquiridos pelo empreendimento A&B, que investiu R$ 1,35 bilhão na compra desses edifícios, ao preço médio de R$ 15 milhões cada edifício. Dos edifícios não adquiridos pelo empreendimento A&B e que foram comercializados naquela região, o empreendimento R&T adquiriu metade, ao custo total R$ 1,23 bilhão, o que fez com que o preço médio, por edifício adquirido pela R&T, fosse de",
+            "exp": "A&B: 1.350 ÷ 15 = **90** edifícios, que são 3/8 do total → total = 90 × 8/3 = **240**. Sobram 240 − 90 = 150; a R&T comprou metade = **75**. Preço médio: 1.230 ÷ 75 = **16,4 milhões**.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q85",
+            "gab": "E",
+            "materia": "Matemática",
+            "n": 8,
+            "tema": "razão e proporção"
+        },
+        {
+            "alt": {
+                "A": "Nora trabalhou e ela precisa descansar.",
+                "B": "Nora não trabalhou e ela precisa descansar.",
+                "C": "Nora não trabalhou ou ela precisa descansar.",
+                "D": "Nora não trabalhou e ela não precisa descansar.",
+                "E": "Nora trabalhou e ela não precisa descansar."
+            },
+            "enunciado": "Sabendo-se que é falsidade a afirmação “Se Nora trabalhou, então ela precisa descansar”, assinale a alternativa que apresenta uma afirmação verdadeira.",
+            "exp": "Condicional falsa ⇒ **P verdadeiro e Q falso**: Nora trabalhou **e** não precisa descansar. É exatamente a negação P ∧ ~Q da sessão 0013. (C) é a forma ~P ∨ Q, equivalente à própria condicional, que aqui é falsa.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q87",
+            "gab": "E",
+            "materia": "Raciocínio Lógico",
+            "n": 9,
+            "tema": "condicional falsa"
+        },
+        {
+            "alt": {
+                "A": "Marcelo é professor universitário.",
+                "B": "Raquel é advogada.",
+                "C": "Marcelo é professor universitário ou Raquel não é advogada.",
+                "D": "Raquel não é advogada.",
+                "E": "Marcelo não é professor universitário."
+            },
+            "enunciado": "Considere verdadeira a afirmação “Se Marcelo é professor universitário, então Raquel é advogada” e falsa a afirmação “Marcelo é professor universitário e Raquel é advogada”. Nessas condições, é necessariamente verdade que",
+            "exp": "Suponha que Marcelo **é** professor. Pela condicional verdadeira, Raquel é advogada, e então o “e” seria verdadeiro, o que contradiz o enunciado. Logo, Marcelo **não** é professor (E). Sobre Raquel nada se conclui: (B) e (D) não são necessárias.",
+            "fonte": "Vunesp · TJ-SP 2023 · Oficial de Justiça · Q92",
+            "gab": "E",
+            "materia": "Raciocínio Lógico",
+            "n": 10,
+            "tema": "condicional + conjunção"
+        }
+    ],
+    "titulo": "Revisão com prova real: incumbências do oficial, intimação, prisão, hora certa no CPP e condicional",
+    "rotulo": "0014"
+}
