@@ -25,7 +25,7 @@ Quando o candidato disser "corrigi a XXXX":
 2. **Atualizar `meta/painel`.** Ajuste `fracos` (erros/total e nota com a sessão). Não mexa em `base`. Sempre passe `if_version`.
 3. **Atualizar `meta/revisoes`.** Erro novo: revisão em +1, +3 e +7 dias. Tire da fila o que a próxima sessão já cobre hoje.
 4. **Montar a próxima sessão** (ver regras abaixo), salvar em `sessoes/<id>.json` e gravar com `ArtifactData set` em `sessoes/<id>`.
-5. **Repo.** `python3 scripts/banco.py`, atualize o placar e os fracos em `progresso.md` e faça o commit.
+5. **Repo.** `python3 scripts/banco.py`, atualize o placar e os fracos em `progresso.md`, faça o commit e o push **direto na `main`** (autorizado pelo candidato para as atualizações diárias: sessões, banco, progresso e dados do painel). Mudanças de estrutura ou neste `CLAUDE.md` vão por pull request.
 6. **Responder** em poucas linhas: nota, erros com a regra e o que vem na próxima sessão, com o link do painel.
 
 ## Regras da sessão
