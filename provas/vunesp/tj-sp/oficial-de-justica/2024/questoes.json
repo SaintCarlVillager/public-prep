@@ -1663,13 +1663,17 @@
       ],
       "dispositivos": [
         "CNJ-R354 8",
-        "CNJ-R354 9"
+        "CNJ-R354 9",
+        "CNJ-R354 9 p.ú.",
+        "CNJ-R354 10 §1º",
+        "CNJ-R354 10 §2º"
       ],
-      "exp": "A Resolução CNJ 354/2020 manda quem requer a citação ou intimação fornecer, além da qualificação, os dados para **comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail**, salvo impossibilidade. (B) o ato **pode** ser cumprido eletronicamente (`art. 8º`); (C) o cumprimento eletrônico pode ser feito pela secretaria **ou** pelos oficiais, sem a restrição a menores.",
+      "exp": "O `CNJ-R354 9 p.ú.` manda quem requer a citação ou intimação fornecer, além dos dados de qualificação, os dados para **comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail**, salvo impossibilidade (A). B erra porque o ato **poderá** ser cumprido por meio eletrônico (`CNJ-R354 8`). C erra porque o cumprimento eletrônico cabe **à secretaria do juízo ou aos oficiais de justiça** (`CNJ-R354 10 §1º`), sem exigir concordância das partes nem reservar menores aos oficiais. D erra porque os endereços são informados **na primeira intervenção nos autos** e mantidos atualizados durante todo o processo (`CNJ-R354 9`); E erra porque a vedação às mensagens públicas tem exceção: **salvo ocultação** (`CNJ-R354 10 §2º`).",
       "recursos": 1,
-      "pendencias": [
-        "conferir a numeração (art. 9º, p.ú.?) na Resolução CNJ 354/2020"
-      ]
+      "observacoes": [
+        "O CNJ-R354 10 §2º só excetua a ocultação; a menção a 'local incerto e não sabido' na alternativa E não está no texto da Resolução."
+      ],
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#73",
@@ -1900,14 +1904,15 @@
         "L13146 2",
         "L13146 2 §1º",
         "L13146 2 §3º",
-        "L13146 2-A",
+        "L13146 2-A §1º",
         "L13146 5 p.ú."
       ],
-      "exp": "Pelo **`art. 5º, parágrafo único`**, são considerados especialmente vulneráveis a criança, **o adolescente**, a mulher e o idoso com deficiência; logo, Alice, adolescente com deficiência, é especialmente vulnerável. (A) erra porque a avaliação biopsicossocial considera também os impedimentos nas funções e estruturas do corpo e os fatores socioambientais, psicológicos e pessoais (**`art. 2º, §1º`**), não \"exclusivamente\" dois critérios. (B) erra porque o **`art. 2º`** inclui expressamente o impedimento de natureza **sensorial**. (C) erra porque o **`art. 2º, §3º`** (Lei 14.724/2023) permite o exame médico-pericial por telemedicina; (D) erra porque o cordão de girassóis (**`art. 2º-A`**, Lei 14.624/2023) é de uso **opcional**, e sua ausência não prejudica o exercício de direitos.",
+      "exp": "Pelo `L13146 5 p.ú.`, são considerados **especialmente vulneráveis** a criança, **o adolescente**, a mulher e o idoso com deficiência; logo, Alice, adolescente com deficiência, é especialmente vulnerável (E). A erra porque a avaliação biopsicossocial considera também os impedimentos nas funções e estruturas do corpo e os fatores socioambientais, psicológicos e pessoais (`L13146 2 §1º`), não **exclusivamente** dois critérios. B erra porque o `L13146 2` inclui expressamente o impedimento de natureza **sensorial**. C erra porque o exame médico-pericial pode ser feito com **telemedicina** (`L13146 2 §3º`, incluído pela Lei 14.724/2023); D erra porque o uso do cordão de girassóis é **opcional** e sua ausência não prejudica direitos (`L13146 2-A §1º`, incluído pela Lei 14.624/2023).",
       "recursos": 5,
-      "pendencias": [
-        "conferir numeração dos dispositivos incluídos por leis de 2023 (art. 2º, §3º — telemedicina; art. 2º-A — cordão de girassóis)"
-      ]
+      "observacoes": [
+        "Os dois dispositivos de 2023 estão no próprio Estatuto: art. 2º §3º (telemedicina ou análise documental), acrescido pela Lei 14.724, de 14/11/2023; art. 2º-A (cordão de girassóis), acrescido pela Lei 14.624, de 17/7/2023, que só alterou a Lei 13.146. Não é preciso sigla nova."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#82",
@@ -2331,7 +2336,7 @@
       "dispositivos": [],
       "exp": "Os parâmetros **utm_** (como utm_source) servem só para rastrear a origem do acesso; o parâmetro produto=1234 identifica o conteúdo da página. Basta manter produto=1234 e remover o utm_source: http://exemplo.com.br?produto=1234 (A). (B) mantém só o rastreamento e perde o produto; (C) e (D) perdem o produto; (E) é a URL original, com rastreamento.",
       "recursos": 44,
-      "pendencias": [
+      "observacoes": [
         "as alternativas omitem o \"www.\" da URL original; o gabarito pressupõe que exemplo.com.br e www.exemplo.com.br abrem a mesma página (questão com 44 recursos)"
       ]
     }

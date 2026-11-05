@@ -544,12 +544,14 @@
       ],
       "dispositivos": [
         "CP 121 §2º IX",
-        "CP 121 §2º-B I"
+        "CP 121 §2º-B I",
+        "CP 121-A §1º"
       ],
-      "exp": "O `CP 121 §2º-B I`, incluído pela Lei 14.344/2022 (Lei Henry Borel), aumenta de 1/3 até a metade a pena do homicídio qualificado praticado **contra menor de 14 anos** (`CP 121 §2º IX`) se a vítima é pessoa com deficiência ou com doença que implique aumento de sua vulnerabilidade. Ser descendente ou tutelado/curatelado do autor (A e B) não é a hipótese desse inciso. D e E remetem ao feminicídio, cujas qualificadoras e majorantes estão em outro dispositivo.",
-      "pendencias": [
-        "Conferir a redação atual: a Lei 14.994/2024 transferiu o feminicídio para o CP 121-A; confirmar se o §2º-B do CP 121 manteve a numeração."
-      ]
+      "exp": "O `CP 121 §2º-B I`, incluído pela Lei 14.344/2022 (Lei Henry Borel), aumenta de 1/3 até a metade a pena do homicídio **contra menor de 14 anos** (qualificadora do `CP 121 §2º IX`) se a vítima é pessoa com deficiência ou com doença que implique aumento de sua vulnerabilidade. Ser descendente ou tutelado/curatelado do autor (B e A) leva a outra majorante, de 2/3 (`CP 121 §2º-B II`), e não é a hipótese do inciso I. D e E descrevem as **razões da condição de sexo feminino** do feminicídio, hoje crime autônomo (`CP 121-A §1º`), e não a majorante perguntada.",
+      "observacoes": [
+        "O §2º-B do CP 121 manteve numeração e redação após a Lei 14.994/2024. Na data da prova (2023), o feminicídio era qualificadora do CP 121 §2º VI, com as razões de condição de sexo feminino no §2º-A I e II (violência doméstica e familiar; menosprezo ou discriminação à condição de mulher); a Lei 14.994/2024 revogou esses dispositivos e criou o crime autônomo do CP 121-A, cujo §1º I e II reproduz as duas hipóteses."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html (planalto.gov.br recusou a conexão duas vezes)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#26",
@@ -677,17 +679,18 @@
       },
       "gab": "A",
       "temas": [
-        "processo-penal.incidentes",
-        "penal.extincao-punibilidade"
+        "penal.extincao-punibilidade",
+        "processo-penal.acao-penal"
       ],
       "dispositivos": [
         "CPP 62",
         "CP 107 I"
       ],
       "exp": "Pelo `CPP 62`, o juiz declara extinta a punibilidade **à vista da certidão de óbito e depois de ouvido o Ministério Público** (causa de extinção do `CP 107 I`). A certidão sozinha (D) ou só a manifestação do MP (E) não bastam; o laudo pericial (C) e a oitiva do médico (B) não são exigidos.",
-      "pendencias": [
-        "Conferir o tema: o CPP 62 fica nas disposições preliminares do Título V; se houver tema mais próximo para extinção da punibilidade no processo penal, trocar."
-      ]
+      "observacoes": [
+        "O CPP 62 fecha o Título III do Livro I (Da Ação Penal, arts. 24 a 62), e não o título das questões e processos incidentes (arts. 92 a 154); por isso troquei processo-penal.incidentes por processo-penal.acao-penal. Texto conferido: 'No caso de morte do acusado, o juiz somente à vista da certidão de óbito, e depois de ouvido o Ministério Público, declarará extinta a punibilidade.' Dispositivos (CPP 62, CP 107 I) e exp mantidos."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#32",
@@ -987,14 +990,13 @@
       "dispositivos": [
         "CPC 870 p.ú.",
         "CPC 871 I",
+        "CPC 871 II",
         "CPC 871 p.ú.",
-        "CPC 873",
-        "CPC 874"
+        "CPC 873 II",
+        "CPC 874 II"
       ],
-      "exp": "Pelo `CPC 871 I`, não se procede à avaliação se uma parte aceitar a estimativa da outra, mas ela pode ser feita **se houver fundada dúvida do juiz** quanto ao real valor do bem (`CPC 871 p.ú.`). A erra porque a ampliação ou transferência da penhora se faz **a requerimento do interessado e ouvida a parte contrária** (`CPC 874`). B contraria o `CPC 873 II`, que admite nova avaliação em caso de majoração ou diminuição posterior do valor. C erra o prazo, que é de **até 10 dias** (`CPC 870 p.ú.`). E erra porque títulos ou mercadorias com cotação em bolsa **dispensam** avaliação (`CPC 871 II`).",
-      "pendencias": [
-        "Conferir se títulos/mercadorias com cotação em bolsa estão no CPC 871 II (citado) ou em inciso diverso."
-      ]
+      "exp": "Pelo `CPC 871 I`, não se procede à avaliação se uma parte aceitar a estimativa da outra, mas ela pode ser feita **se houver fundada dúvida do juiz** quanto ao real valor do bem (`CPC 871 p.ú.`). A erra porque a ampliação ou transferência da penhora se faz **a requerimento do interessado e ouvida a parte contrária** (`CPC 874 II`), não de ofício. B contraria o `CPC 873 II`, que admite nova avaliação em caso de majoração ou diminuição posterior do valor. C erra o prazo, que é **não superior a 10 dias** (`CPC 870 p.ú.`). E erra porque títulos ou mercadorias com cotação em bolsa **dispensam** avaliação (`CPC 871 II`).",
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#45",
@@ -1653,12 +1655,16 @@
       ],
       "dispositivos": [
         "CNJ-R354 8",
-        "CNJ-R354 9"
+        "CNJ-R354 9",
+        "CNJ-R354 9 p.ú.",
+        "CNJ-R354 10 §1º",
+        "CNJ-R354 10 §2º"
       ],
-      "exp": "Resolução CNJ 354/2020, `art. 8º`: nos casos em que cabível a citação e a intimação pelo correio, **por oficial de justiça** ou pelo escrivão ou chefe de secretaria, o ato **poderá ser cumprido por meio eletrônico** que assegure ter o destinatário tomado conhecimento do seu conteúdo (C). (B) os endereços eletrônicos são informados **na primeira intervenção nos autos** (`art. 9º`), não até a sentença; (D) a Resolução admite aplicativos de mensagens e redes sociais; (E) o cumprimento eletrônico não é privativo dos oficiais; (A) a Resolução **admite** mensagens públicas em caso de ocultação ou de parte em local incerto.",
-      "pendencias": [
-        "conferir a numeração dos dispositivos da Resolução CNJ 354/2020 sobre mensagens públicas na ocultação (A) e sobre quem realiza o cumprimento eletrônico (E)"
-      ]
+      "exp": "Pelo `CNJ-R354 8`, nos casos em que cabível a citação e a intimação pelo correio, **por oficial de justiça** ou pelo escrivão ou chefe de secretaria, o ato **poderá ser cumprido por meio eletrônico** que assegure ter o destinatário tomado conhecimento do seu conteúdo (C). A inverte o `CNJ-R354 10 §2º`: o uso de mensagens públicas é vedado **salvo ocultação**. B erra porque os endereços eletrônicos são informados **na primeira intervenção nos autos** (`CNJ-R354 9`), não até a sentença; D erra porque a Resolução prevê comunicação por **aplicativos de mensagens, redes sociais** e e-mail (`CNJ-R354 9 p.ú.`). E erra porque o cumprimento eletrônico pode ser feito **pela secretaria do juízo ou pelos oficiais de justiça** (`CNJ-R354 10 §1º`).",
+      "observacoes": [
+        "O CNJ-R354 10 §2º diz só 'Salvo ocultação, é vedado o cumprimento eletrônico de atos processuais por meio de mensagens públicas'; não menciona parte em local incerto, como dizia a exp anterior. Arts. 8º a 10 sem alteração de redação desde 2020."
+      ],
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#73",
@@ -2061,7 +2067,7 @@
       ],
       "dispositivos": [],
       "exp": "Só natação: 70 − 15 − 20 − 27 = 8; só atletismo: 61 − 15 − 20 − 25 = 1; só ciclismo: 75 − 15 − 27 − 25 = 8. Um único esporte: 8 + 1 + 8 = 17. Total do grupo: 17 + 20 + 27 + 25 + 15 = 104. Relação: 17/104 ≈ 0,163, ou seja, cerca de **16%** (E).",
-      "pendencias": [
+      "observacoes": [
         "enunciado literal tem a falha \"um único esporte o número total\" (falta \"e\"); mantida como na prova"
       ]
     },
