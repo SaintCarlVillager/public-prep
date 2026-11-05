@@ -12,14 +12,17 @@ Proposta para transformar o `public-prep` num **template**: cada pessoa copia o 
 | Formatos | **Múltipla escolha (A–E), Certo/Errado e discursiva/estudo de caso.** |
 | Etiquetas | **Temas** (em níveis) e **dispositivos** citados, por questão. **Banca** vem da prova. A relevância para cada concurso é **calculada**, nunca etiquetada. |
 | Níveis de tema | Matéria e, abaixo dela, **até 3 níveis**. O detalhe mais fino fica nos dispositivos. |
-| Normas que renumeram (NSCGJ) | Tema normal; dispositivo por **tomo, capítulo e seção**; a prova registra a data de aplicação. |
+| Normas que renumeram (NSCGJ) | Tema normal; dispositivo **por artigo**, como o próprio edital do TJ-SP cita; a prova registra a data de aplicação, e o edital, a data da legislação cobrada. |
 | Dificuldade | **Personalizada**: calculada pelo histórico de cada pessoa, guardada só no painel dela. |
 | Pastas | `provas/<banca>/<órgão>/<cargo>/<ano>/` e `editais/<órgão>/<cargo>/<ano>/`. |
 | Ponto de partida | **Do zero**, no branch `develop`, que depois passa a ser a `main`. |
 
 ## A ideia central: etiquetar pelo conteúdo, calcular a relevância
 
-Cada questão é etiquetada **uma vez**, pelo que ela trata. Cada edital lista os temas que cobra. A questão conta para um concurso quando algum tema dela está no edital.
+Cada questão é etiquetada **uma vez**, pelo que ela trata. Cada edital diz o que cobra, de dois jeitos, conforme o próprio edital escreve:
+
+- **por artigos** (`"CPP": ["240-250", "283-303"]`): é como o TJ-SP descreve todo o Bloco II. A questão conta quando **algum dispositivo dela cai num desses intervalos**. É objetivo e automático.
+- **por temas** (`"portugues.concordancia"`): para o que o edital descreve em palavras (Português, Matemática, Informática). A questão conta quando algum tema dela está na lista.
 
 ```
 questão  ─ temas ─┐
@@ -69,25 +72,32 @@ Um arquivo por matéria; abaixo dela, **até 3 níveis** (o validador recusa mai
 }
 ```
 
-### Edital (`editais/trf3/oficial-de-justica-avaliador-federal/2026/edital.json`)
+### Edital (`editais/tj-sp/oficial-de-justica/2026/edital.json`)
 
-O edital lista temas em qualquer nível: listar `cpc.atos` cobre tudo abaixo dele.
+Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital do TJ-SP. Resumo da forma:
 
 ```json
 {
-  "id": "trf3/oficial-de-justica-avaliador-federal/2026",
-  "orgao": "TRF3", "cargo": "Oficial de Justiça Avaliador Federal", "banca": "Vunesp",
-  "prova": "2027-01-31",
-  "formato": "multipla-escolha",
+  "id": "tj-sp/oficial-de-justica/2026",
+  "banca": "Vunesp", "prova": "2027-03-14", "legislacao_ate": "2026-10-14",
+  "objetiva": { "formato": "me", "questoes": 70, "escala": 10, "minimo_total": 0.5 },
+  "discursiva": { "tipo": "questoes", "questoes": 2, "escala": 40, "minimo": 24 },
   "blocos": [
-    { "id": "gerais", "nome": "Conhecimentos Gerais", "questoes": 24, "peso": 1, "minimo": 12,
-      "temas": ["portugues", "rl", "etica.improbidade", "pcd"] },
-    { "id": "especificos", "nome": "Conhecimentos Específicos", "questoes": 36, "peso": 2, "minimo": 18,
-      "temas": ["const", "adm", "cpc", "cpp", "trib", "prev"] }
-  ],
-  "discursiva": { "tipo": "estudo-de-caso", "max": 10, "minimo": 5, "linhas": 30 }
+    { "id": "II", "nome": "Conhecimentos Específicos", "questoes": 40, "minimo": 0.5, "eliminatorio": true,
+      "cobertura": [
+        { "materia": "processo-penal", "normas": { "CPP": ["240-250", "283-303"], "L9099": ["60-62"] } }
+      ] },
+    { "id": "III", "nome": "Conhecimentos Gerais", "questoes": 15, "minimo": null,
+      "cobertura": [
+        { "materia": "raciocinio-logico", "questoes": 4, "temas": ["raciocinio-logico.estruturas"] }
+      ] }
+  ]
 }
 ```
+
+- Intervalos incluem os artigos com letra no meio (`"396-396-A"`, `"994-1091-A"`); `"*"` é a norma inteira.
+- `questoes` dentro de uma cobertura é opcional, para quando o edital divide o bloco (3 de Matemática e 4 de Raciocínio Lógico).
+- `legislacao_ate`: a legislação vale como estava na publicação do edital.
 
 ### Pastas
 
@@ -190,8 +200,11 @@ Uma norma reduzida e um caminho, sempre do mesmo jeito, para dar para agrupar ("
 | Constituição | `CF` | `CF 5º XXXI` |
 | Código de Processo Civil | `CPC` | `CPC 246 §1º-A` |
 | Código de Processo Penal | `CPP` | `CPP 362 p.ú.` |
-| Leis | `L<número>` | `L8112 13 §6º`, `L6830 7º III` |
-| Normas da Corregedoria SP | `NSCGJ` | `NSCGJ T1 C6 S4` (tomo, capítulo, seção) |
+| Leis | `L<número>` | `L8112 13 §6º`, `L6830 7 III` |
+| Código Civil e LINDB | `CC`, `LINDB` | `CC 1767` |
+| Código Penal | `CP` | `CP 330` |
+| Resolução do CNJ | `CNJ-R<número>` | `CNJ-R354 8` |
+| Normas da Corregedoria SP | `NSCGJ` | `NSCGJ 1027` (Tomo I; artigo) |
 
 ## O painel
 
