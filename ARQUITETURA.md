@@ -36,7 +36,13 @@ Por que não etiquetar por concurso: a cada edital novo (seu ou de um colega) se
 | **Candidato** | sessões, respostas, revisões e temas fracos | banco do painel (privado) |
 | **Painel** | a interface de estudo | `painel/` |
 
-O **repositório é a fonte de verdade**: legível, versionado, revisável. Um script valida tudo e gera o pacote que o painel carrega. O **banco do painel** guarda o banco de questões (copiado do repo) e o progresso de quem estuda.
+O **repositório é a fonte de verdade**: legível, versionado, revisável. Um script valida tudo e gera o pacote que o painel carrega. O pacote é **publicado como arquivos junto com o painel** (o artifact aceita até 256 MB por versão e lê os próprios arquivos com `fetch`). O **banco do painel** guarda só o progresso de quem estuda.
+
+### Por que não um banco externo ou um app próprio (por enquanto)
+
+- O artifact **não pode** acessar servidores de fora (Supabase, Postgres etc.): a política de segurança bloqueia. Banco externo implica sair dos artifacts.
+- Um app próprio (por exemplo, TanStack Start) dá capacidade ilimitada, busca forte e uso offline, mas traz hospedagem, login, custo e manutenção, e cada colega precisaria subir o seu (ou você hospedaria os dados de todos). Claude também perderia o acesso direto ao painel no fluxo diário.
+- Como os dados ficam em **JSON com esquema, no repo**, migrar para um app depois é barato: ele leria os mesmos arquivos. Gatilhos para migrar: banco central com muitos usuários, busca em dezenas de milhares de questões, estudo offline no celular ou colegas que não usam Claude.
 
 ## Esquemas
 
@@ -164,7 +170,7 @@ Uma norma reduzida e um caminho, sempre do mesmo jeito, para dar para agrupar ("
 
 O painel continua sendo um único artifact com banco, agora genérico:
 
-- **Carrega** do repositório a taxonomia, os editais e o banco de questões (importados pelo script).
+- **Carrega** a taxonomia, os editais e o banco de questões dos arquivos publicados com ele (`dados/catalogo.json` e um `dados/provas/<id>.json` por prova, gerados pelo script a partir do repo).
 - **Placar por edital**: blocos, cortes e pesos calculados pela interseção de temas, com uma chave para cada edital ativo. Um edital cuja prova passou sai da chave sozinho.
 - **Sessão automática** ("Revisar agora"): escolhe questões pela ordem
   1. revisões vencidas (questões erradas, em +1, +3, +7, +15 e +30 dias);
@@ -174,18 +180,17 @@ O painel continua sendo um único artifact com banco, agora genérico:
 - **Sessão do Claude**: quando existe, aparece primeiro, com a mini-aula.
 - **Três formatos** na tela: A–E, C/E (com a nota líquida Cebraspe) e discursiva (campo de texto e contador de linhas; a correção fica pendente até Claude corrigir pelos critérios).
 
-### Banco do painel
+### Onde fica cada dado
 
-| Caminho | Conteúdo | Quantidade esperada |
+| Dado | Onde | Tamanho |
 |---|---|---|
-| `questoes/<id>` | uma questão (ou um bloco C/E) | ~2 KB cada; até milhares |
-| `meta/catalogo` | taxonomia, editais e lista de provas | 1 |
-| `sessoes/<id>` | sessão (lista de ids de questão e mini-aula) | 1 por dia |
-| `respostas/<id>` | respostas de uma sessão | 1 por dia |
-| `estado/questoes` | revisão espaçada por questão, agregada | poucos documentos |
-| `meta/painel`, `meta/revisoes` | fracos, discursivas e fila | 2 |
+| Questões, provas, taxonomia, editais | **arquivos publicados com o painel** (vindos do repo) | ~2 KB por questão; 10 mil questões ≈ 20 MB, dentro dos 256 MB por versão |
+| `sessoes/<id>` (ids das questões e mini-aula) | banco do painel | 1 por dia |
+| `respostas/<id>` | banco do painel | 1 por dia |
+| `estado/questoes` (revisão espaçada, agregada) | banco do painel | poucos documentos |
+| `meta/painel`, `meta/revisoes` | banco do painel | 2 |
 
-Capacidade do banco: **25.000 documentos** de até **256 KB** cada. Um ano de estudo diário com um banco de 10 mil questões usa menos da metade. O estado da revisão espaçada fica agregado (não um documento por resposta) para não crescer sem limite.
+O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as questões fora dele, um ano de estudo diário usa menos de mil documentos. Uma questão nova entra no painel com um commit no repo e uma republicação dos arquivos; o progresso no banco não é tocado.
 
 ## Para um colega começar
 
