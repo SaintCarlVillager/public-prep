@@ -20,7 +20,7 @@ Candidato a **Oficial de Justiça**, em dois concursos da Vunesp:
 - **Verde:** questão real da Vunesp (de preferência provas de Oficial de Justiça do TJ-SP 2023 e 2024).
 - **FCC:** provas anteriores do TRF3 (2019), para temas só do TRF3 (Lei 8.112, Tributário, Previdenciário).
 - **Amarelo (Autoral):** criada por Claude no estilo Vunesp, só quando não houver questão real.
-- O gabarito oficial da prova de 2024 não foi obtido: as respostas foram resolvidas pela lei. Conferir se o candidato tiver o oficial.
+- Prova TJ-SP 2024: gabarito oficial **preliminar** obtido em 05/11/2026; as 18 questões usadas na 0015 conferem. Gabarito definitivo e anulações ainda não obtidos.
 - Ver `banco/usadas.md` antes de montar sessão.
 
 ## Painel
