@@ -1,0 +1,58 @@
+{
+  "materia": "ambiental",
+  "nome": "Direito Ambiental",
+  "temas": [
+    {
+      "id": "ambiental.constitucional",
+      "nome": "Meio ambiente na Constituição"
+    },
+    {
+      "id": "ambiental.principios",
+      "nome": "Princípios"
+    },
+    {
+      "id": "ambiental.competencias",
+      "nome": "Competências"
+    },
+    {
+      "id": "ambiental.pnma",
+      "nome": "Política Nacional do Meio Ambiente"
+    },
+    {
+      "id": "ambiental.sisnama",
+      "nome": "SISNAMA"
+    },
+    {
+      "id": "ambiental.licenciamento",
+      "nome": "Licenciamento e EIA-RIMA"
+    },
+    {
+      "id": "ambiental.recursos-hidricos",
+      "nome": "Recursos hídricos"
+    },
+    {
+      "id": "ambiental.florestas",
+      "nome": "Florestas e gestão florestal"
+    },
+    {
+      "id": "ambiental.espacos-protegidos",
+      "nome": "Espaços protegidos, APP e reserva legal"
+    },
+    {
+      "id": "ambiental.dano",
+      "nome": "Dano e poluição"
+    },
+    {
+      "id": "ambiental.responsabilidade",
+      "nome": "Responsabilidade ambiental"
+    },
+    {
+      "id": "ambiental.tutela-processual",
+      "nome": "Tutela processual"
+    },
+    {
+      "id": "ambiental.crimes",
+      "nome": "Crimes ambientais"
+    }
+  ]
+}

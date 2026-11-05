@@ -1,0 +1,152 @@
+{
+  "materia": "civil",
+  "nome": "Direito Civil",
+  "temas": [
+    {
+      "id": "civil.lei",
+      "nome": "Lei: eficácia, aplicação e interpretação (LINDB)"
+    },
+    {
+      "id": "civil.pessoas",
+      "nome": "Pessoas naturais: personalidade e capacidade",
+      "filhos": [
+        {
+          "id": "civil.pessoas.capacidade",
+          "nome": "Capacidade e incapacidades"
+        },
+        {
+          "id": "civil.pessoas.ausencia",
+          "nome": "Ausência"
+        },
+        {
+          "id": "civil.pessoas.fim",
+          "nome": "Fim da personalidade"
+        }
+      ]
+    },
+    {
+      "id": "civil.personalidade",
+      "nome": "Direitos da personalidade"
+    },
+    {
+      "id": "civil.pessoa-juridica",
+      "nome": "Pessoas jurídicas"
+    },
+    {
+      "id": "civil.domicilio",
+      "nome": "Domicílio"
+    },
+    {
+      "id": "civil.bens",
+      "nome": "Bens",
+      "filhos": [
+        {
+          "id": "civil.bens.classificacao",
+          "nome": "Classificação"
+        },
+        {
+          "id": "civil.bens.publicos",
+          "nome": "Bens públicos"
+        },
+        {
+          "id": "civil.bens.bem-de-familia",
+          "nome": "Bem de família"
+        }
+      ]
+    },
+    {
+      "id": "civil.fatos-negocios",
+      "nome": "Fatos e negócios jurídicos",
+      "filhos": [
+        {
+          "id": "civil.fatos-negocios.defeitos",
+          "nome": "Defeitos do negócio jurídico"
+        },
+        {
+          "id": "civil.fatos-negocios.invalidade",
+          "nome": "Invalidade"
+        },
+        {
+          "id": "civil.fatos-negocios.ilicitos",
+          "nome": "Atos ilícitos"
+        },
+        {
+          "id": "civil.fatos-negocios.representacao",
+          "nome": "Representação"
+        }
+      ]
+    },
+    {
+      "id": "civil.prescricao-decadencia",
+      "nome": "Prescrição e decadência"
+    },
+    {
+      "id": "civil.prova",
+      "nome": "Prova do negócio jurídico"
+    },
+    {
+      "id": "civil.obrigacoes",
+      "nome": "Obrigações"
+    },
+    {
+      "id": "civil.contratos",
+      "nome": "Contratos",
+      "filhos": [
+        {
+          "id": "civil.contratos.mandato",
+          "nome": "Mandato"
+        },
+        {
+          "id": "civil.contratos.compra-venda",
+          "nome": "Compra e venda"
+        },
+        {
+          "id": "civil.contratos.outros",
+          "nome": "Outros contratos"
+        }
+      ]
+    },
+    {
+      "id": "civil.responsabilidade",
+      "nome": "Responsabilidade civil"
+    },
+    {
+      "id": "civil.posse",
+      "nome": "Posse"
+    },
+    {
+      "id": "civil.propriedade",
+      "nome": "Propriedade"
+    },
+    {
+      "id": "civil.direitos-reais",
+      "nome": "Direitos reais sobre coisa alheia",
+      "filhos": [
+        {
+          "id": "civil.direitos-reais.penhor",
+          "nome": "Penhor"
+        },
+        {
+          "id": "civil.direitos-reais.hipoteca",
+          "nome": "Hipoteca"
+        },
+        {
+          "id": "civil.direitos-reais.anticrese",
+          "nome": "Anticrese"
+        }
+      ]
+    },
+    {
+      "id": "civil.empresario",
+      "nome": "Empresário: prepostos e auxiliares"
+    },
+    {
+      "id": "civil.familia",
+      "nome": "Família: curatela e tutela"
+    },
+    {
+      "id": "civil.sucessoes",
+      "nome": "Sucessões"
+    }
+  ]
+}

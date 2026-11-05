@@ -1,0 +1,360 @@
+{
+  "materia": "processo-civil",
+  "nome": "Direito Processual Civil",
+  "temas": [
+    {
+      "id": "processo-civil.normas",
+      "nome": "Normas fundamentais e aplicação da lei processual"
+    },
+    {
+      "id": "processo-civil.jurisdicao",
+      "nome": "Jurisdição"
+    },
+    {
+      "id": "processo-civil.competencia",
+      "nome": "Competência",
+      "filhos": [
+        {
+          "id": "processo-civil.competencia.absoluta-relativa",
+          "nome": "Absoluta e relativa"
+        },
+        {
+          "id": "processo-civil.competencia.modificacao",
+          "nome": "Modificação e incompetência"
+        },
+        {
+          "id": "processo-civil.competencia.justica-federal",
+          "nome": "Competência da Justiça Federal"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.acao",
+      "nome": "Ação e pressupostos processuais"
+    },
+    {
+      "id": "processo-civil.sujeitos",
+      "nome": "Partes, procuradores e capacidade"
+    },
+    {
+      "id": "processo-civil.despesas",
+      "nome": "Despesas, honorários e gratuidade"
+    },
+    {
+      "id": "processo-civil.litisconsorcio",
+      "nome": "Litisconsórcio"
+    },
+    {
+      "id": "processo-civil.intervencao",
+      "nome": "Intervenção de terceiros",
+      "filhos": [
+        {
+          "id": "processo-civil.intervencao.assistencia",
+          "nome": "Assistência"
+        },
+        {
+          "id": "processo-civil.intervencao.denunciacao",
+          "nome": "Denunciação da lide"
+        },
+        {
+          "id": "processo-civil.intervencao.chamamento",
+          "nome": "Chamamento ao processo"
+        },
+        {
+          "id": "processo-civil.intervencao.desconsideracao",
+          "nome": "Desconsideração da personalidade jurídica"
+        },
+        {
+          "id": "processo-civil.intervencao.amicus",
+          "nome": "Amicus curiae"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.juiz",
+      "nome": "Juiz: poderes, impedimento e suspeição"
+    },
+    {
+      "id": "processo-civil.auxiliares",
+      "nome": "Auxiliares da Justiça",
+      "filhos": [
+        {
+          "id": "processo-civil.auxiliares.oficial-de-justica",
+          "nome": "Oficial de justiça (CPC 154 e 155)"
+        },
+        {
+          "id": "processo-civil.auxiliares.escrivao",
+          "nome": "Escrivão e chefe de secretaria"
+        },
+        {
+          "id": "processo-civil.auxiliares.perito",
+          "nome": "Perito, intérprete e tradutor"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.funcoes-essenciais",
+      "nome": "MP, Advocacia Pública e Defensoria"
+    },
+    {
+      "id": "processo-civil.fazenda",
+      "nome": "Fazenda Pública em juízo"
+    },
+    {
+      "id": "processo-civil.atos",
+      "nome": "Atos processuais: forma, tempo, lugar e prazos",
+      "filhos": [
+        {
+          "id": "processo-civil.atos.prazos",
+          "nome": "Prazos e sua contagem"
+        },
+        {
+          "id": "processo-civil.atos.nulidades",
+          "nome": "Nulidades"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.comunicacao",
+      "nome": "Comunicação dos atos",
+      "filhos": [
+        {
+          "id": "processo-civil.comunicacao.citacao",
+          "nome": "Citação",
+          "filhos": [
+            {
+              "id": "processo-civil.comunicacao.citacao.pessoal",
+              "nome": "Citação pessoal e por oficial"
+            },
+            {
+              "id": "processo-civil.comunicacao.citacao.correio",
+              "nome": "Citação pelo correio"
+            },
+            {
+              "id": "processo-civil.comunicacao.citacao.eletronica",
+              "nome": "Citação eletrônica"
+            },
+            {
+              "id": "processo-civil.comunicacao.citacao.hora-certa",
+              "nome": "Citação com hora certa"
+            },
+            {
+              "id": "processo-civil.comunicacao.citacao.edital",
+              "nome": "Citação por edital"
+            },
+            {
+              "id": "processo-civil.comunicacao.citacao.efeitos",
+              "nome": "Efeitos e termo inicial do prazo"
+            }
+          ]
+        },
+        {
+          "id": "processo-civil.comunicacao.intimacao",
+          "nome": "Intimação"
+        },
+        {
+          "id": "processo-civil.comunicacao.cartas",
+          "nome": "Cartas precatória, de ordem e rogatória"
+        },
+        {
+          "id": "processo-civil.comunicacao.mandados",
+          "nome": "Mandados: requisitos e cumprimento"
+        },
+        {
+          "id": "processo-civil.comunicacao.eletronico",
+          "nome": "Meios eletrônicos, DJEN e Domicílio Judicial Eletrônico"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.cooperacao",
+      "nome": "Cooperação judiciária"
+    },
+    {
+      "id": "processo-civil.tutela-provisoria",
+      "nome": "Tutela provisória",
+      "filhos": [
+        {
+          "id": "processo-civil.tutela-provisoria.urgencia",
+          "nome": "Tutela de urgência"
+        },
+        {
+          "id": "processo-civil.tutela-provisoria.evidencia",
+          "nome": "Tutela da evidência"
+        },
+        {
+          "id": "processo-civil.tutela-provisoria.cumprimento",
+          "nome": "Mandados de busca e apreensão, arresto, sequestro e imissão"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.conhecimento",
+      "nome": "Procedimento comum",
+      "filhos": [
+        {
+          "id": "processo-civil.conhecimento.inicial",
+          "nome": "Petição inicial"
+        },
+        {
+          "id": "processo-civil.conhecimento.defesa",
+          "nome": "Contestação, reconvenção e revelia"
+        },
+        {
+          "id": "processo-civil.conhecimento.julgamento",
+          "nome": "Julgamento conforme o estado do processo"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.provas",
+      "nome": "Provas",
+      "filhos": [
+        {
+          "id": "processo-civil.provas.testemunhal",
+          "nome": "Prova testemunhal"
+        },
+        {
+          "id": "processo-civil.provas.inspecao",
+          "nome": "Inspeção judicial"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.sentenca",
+      "nome": "Sentença e coisa julgada"
+    },
+    {
+      "id": "processo-civil.recursos",
+      "nome": "Recursos",
+      "filhos": [
+        {
+          "id": "processo-civil.recursos.apelacao",
+          "nome": "Apelação"
+        },
+        {
+          "id": "processo-civil.recursos.agravo",
+          "nome": "Agravos"
+        },
+        {
+          "id": "processo-civil.recursos.embargos-declaracao",
+          "nome": "Embargos de declaração"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.execucao",
+      "nome": "Execução e cumprimento de sentença",
+      "filhos": [
+        {
+          "id": "processo-civil.execucao.cumprimento",
+          "nome": "Cumprimento de sentença"
+        },
+        {
+          "id": "processo-civil.execucao.fazer-entregar",
+          "nome": "Obrigações de fazer, não fazer e entregar coisa"
+        },
+        {
+          "id": "processo-civil.execucao.quantia",
+          "nome": "Execução por quantia certa"
+        },
+        {
+          "id": "processo-civil.execucao.penhora",
+          "nome": "Penhora",
+          "filhos": [
+            {
+              "id": "processo-civil.execucao.penhora.impenhorabilidade",
+              "nome": "Impenhorabilidade"
+            },
+            {
+              "id": "processo-civil.execucao.penhora.ordem",
+              "nome": "Ordem de preferência"
+            },
+            {
+              "id": "processo-civil.execucao.penhora.formalizacao",
+              "nome": "Formalização e auto de penhora"
+            },
+            {
+              "id": "processo-civil.execucao.penhora.arrombamento",
+              "nome": "Arrombamento e força policial"
+            }
+          ]
+        },
+        {
+          "id": "processo-civil.execucao.arresto",
+          "nome": "Arresto executivo"
+        },
+        {
+          "id": "processo-civil.execucao.deposito",
+          "nome": "Depósito e depositário"
+        },
+        {
+          "id": "processo-civil.execucao.avaliacao",
+          "nome": "Avaliação de bens"
+        },
+        {
+          "id": "processo-civil.execucao.expropriacao",
+          "nome": "Expropriação"
+        },
+        {
+          "id": "processo-civil.execucao.defesas",
+          "nome": "Embargos e impugnação"
+        },
+        {
+          "id": "processo-civil.execucao.suspensao-extincao",
+          "nome": "Suspensão e extinção"
+        },
+        {
+          "id": "processo-civil.execucao.fazenda",
+          "nome": "Execução contra a Fazenda Pública"
+        },
+        {
+          "id": "processo-civil.execucao.alimentos",
+          "nome": "Execução de alimentos e prisão civil"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.procedimentos-especiais",
+      "nome": "Procedimentos especiais",
+      "filhos": [
+        {
+          "id": "processo-civil.procedimentos-especiais.possessorias",
+          "nome": "Ações possessórias"
+        },
+        {
+          "id": "processo-civil.procedimentos-especiais.consignacao",
+          "nome": "Consignação em pagamento"
+        },
+        {
+          "id": "processo-civil.procedimentos-especiais.embargos-terceiro",
+          "nome": "Embargos de terceiro"
+        },
+        {
+          "id": "processo-civil.procedimentos-especiais.monitoria",
+          "nome": "Ação monitória"
+        },
+        {
+          "id": "processo-civil.procedimentos-especiais.restauracao",
+          "nome": "Restauração de autos"
+        },
+        {
+          "id": "processo-civil.procedimentos-especiais.outros",
+          "nome": "Outros procedimentos"
+        }
+      ]
+    },
+    {
+      "id": "processo-civil.coletivo",
+      "nome": "Processo coletivo e ações constitucionais"
+    },
+    {
+      "id": "processo-civil.tribunais",
+      "nome": "Processo nos tribunais"
+    },
+    {
+      "id": "processo-civil.juizados",
+      "nome": "Juizados Especiais Cíveis"
+    }
+  ]
+}

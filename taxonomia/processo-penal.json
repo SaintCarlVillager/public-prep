@@ -1,0 +1,160 @@
+{
+  "materia": "processo-penal",
+  "nome": "Direito Processual Penal",
+  "temas": [
+    {
+      "id": "processo-penal.oficial-de-justica",
+      "nome": "Atuação do oficial de justiça no processo penal"
+    },
+    {
+      "id": "processo-penal.acao-penal",
+      "nome": "Ação penal e inquérito"
+    },
+    {
+      "id": "processo-penal.competencia",
+      "nome": "Competência"
+    },
+    {
+      "id": "processo-penal.incidentes",
+      "nome": "Questões e processos incidentes"
+    },
+    {
+      "id": "processo-penal.prova",
+      "nome": "Prova",
+      "filhos": [
+        {
+          "id": "processo-penal.prova.testemunhas",
+          "nome": "Testemunhas"
+        },
+        {
+          "id": "processo-penal.prova.reconhecimento",
+          "nome": "Reconhecimento"
+        },
+        {
+          "id": "processo-penal.prova.interrogatorio",
+          "nome": "Interrogatório"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal.cadeia-custodia",
+      "nome": "Cadeia de custódia"
+    },
+    {
+      "id": "processo-penal.busca-apreensao",
+      "nome": "Busca e apreensão",
+      "filhos": [
+        {
+          "id": "processo-penal.busca-apreensao.domiciliar",
+          "nome": "Busca domiciliar"
+        },
+        {
+          "id": "processo-penal.busca-apreensao.pessoal",
+          "nome": "Busca pessoal"
+        },
+        {
+          "id": "processo-penal.busca-apreensao.mandado",
+          "nome": "Mandado: requisitos e cumprimento"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal.conducao-coercitiva",
+      "nome": "Condução coercitiva"
+    },
+    {
+      "id": "processo-penal.prisao",
+      "nome": "Prisão e liberdade",
+      "filhos": [
+        {
+          "id": "processo-penal.prisao.cumprimento",
+          "nome": "Cumprimento do mandado: força, horário e domicílio"
+        },
+        {
+          "id": "processo-penal.prisao.flagrante",
+          "nome": "Prisão em flagrante"
+        },
+        {
+          "id": "processo-penal.prisao.preventiva",
+          "nome": "Prisão preventiva"
+        },
+        {
+          "id": "processo-penal.prisao.temporaria",
+          "nome": "Prisão temporária"
+        },
+        {
+          "id": "processo-penal.prisao.custodia",
+          "nome": "Audiência de custódia"
+        },
+        {
+          "id": "processo-penal.prisao.liberdade-provisoria",
+          "nome": "Liberdade provisória e medidas cautelares"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal.atos",
+      "nome": "Atos processuais"
+    },
+    {
+      "id": "processo-penal.comunicacao",
+      "nome": "Citações e intimações",
+      "filhos": [
+        {
+          "id": "processo-penal.comunicacao.citacao",
+          "nome": "Citação pessoal e por precatória"
+        },
+        {
+          "id": "processo-penal.comunicacao.hora-certa",
+          "nome": "Citação com hora certa"
+        },
+        {
+          "id": "processo-penal.comunicacao.edital",
+          "nome": "Citação por edital e suspensão (art. 366)"
+        },
+        {
+          "id": "processo-penal.comunicacao.intimacao",
+          "nome": "Intimações"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal.procedimentos",
+      "nome": "Procedimentos",
+      "filhos": [
+        {
+          "id": "processo-penal.procedimentos.comum",
+          "nome": "Procedimento comum"
+        },
+        {
+          "id": "processo-penal.procedimentos.juri",
+          "nome": "Tribunal do Júri"
+        },
+        {
+          "id": "processo-penal.procedimentos.funcionarios",
+          "nome": "Crimes de responsabilidade de funcionários"
+        }
+      ]
+    },
+    {
+      "id": "processo-penal.juizados",
+      "nome": "Juizados Especiais Criminais"
+    },
+    {
+      "id": "processo-penal.sentenca",
+      "nome": "Sentença"
+    },
+    {
+      "id": "processo-penal.nulidades",
+      "nome": "Nulidades"
+    },
+    {
+      "id": "processo-penal.recursos",
+      "nome": "Recursos e habeas corpus"
+    },
+    {
+      "id": "processo-penal.execucao",
+      "nome": "Execução penal"
+    }
+  ]
+}

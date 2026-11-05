@@ -1,0 +1,48 @@
+{
+  "materia": "direitos-humanos",
+  "nome": "Direitos Humanos e Acessibilidade",
+  "temas": [
+    {
+      "id": "direitos-humanos.teoria-geral",
+      "nome": "Teoria geral dos direitos fundamentais"
+    },
+    {
+      "id": "direitos-humanos.dudh",
+      "nome": "Declaração Universal dos Direitos Humanos"
+    },
+    {
+      "id": "direitos-humanos.agenda-2030",
+      "nome": "Agenda 2030 da ONU"
+    },
+    {
+      "id": "direitos-humanos.pcd",
+      "nome": "Pessoa com deficiência",
+      "filhos": [
+        {
+          "id": "direitos-humanos.pcd.conceitos",
+          "nome": "Conceitos e avaliação da deficiência"
+        },
+        {
+          "id": "direitos-humanos.pcd.capacidade-curatela",
+          "nome": "Capacidade, curatela e tomada de decisão apoiada"
+        },
+        {
+          "id": "direitos-humanos.pcd.direitos",
+          "nome": "Direitos em espécie"
+        },
+        {
+          "id": "direitos-humanos.pcd.crimes",
+          "nome": "Crimes e infrações"
+        }
+      ]
+    },
+    {
+      "id": "direitos-humanos.acessibilidade",
+      "nome": "Acessibilidade"
+    },
+    {
+      "id": "direitos-humanos.prioridade",
+      "nome": "Prioridade de atendimento"
+    }
+  ]
+}

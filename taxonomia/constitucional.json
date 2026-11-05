@@ -1,0 +1,120 @@
+{
+  "materia": "constitucional",
+  "nome": "Direito Constitucional",
+  "temas": [
+    {
+      "id": "constitucional.principios",
+      "nome": "Princípios fundamentais"
+    },
+    {
+      "id": "constitucional.direitos-individuais",
+      "nome": "Direitos e deveres individuais e coletivos",
+      "filhos": [
+        {
+          "id": "constitucional.direitos-individuais.domicilio",
+          "nome": "Inviolabilidade do domicílio"
+        },
+        {
+          "id": "constitucional.direitos-individuais.sucessao-estrangeiro",
+          "nome": "Sucessão de bens de estrangeiro"
+        },
+        {
+          "id": "constitucional.direitos-individuais.processuais",
+          "nome": "Garantias processuais"
+        },
+        {
+          "id": "constitucional.direitos-individuais.outros",
+          "nome": "Outros direitos individuais"
+        }
+      ]
+    },
+    {
+      "id": "constitucional.direitos-sociais",
+      "nome": "Direitos sociais"
+    },
+    {
+      "id": "constitucional.nacionalidade",
+      "nome": "Nacionalidade"
+    },
+    {
+      "id": "constitucional.direitos-politicos",
+      "nome": "Direitos políticos"
+    },
+    {
+      "id": "constitucional.remedios",
+      "nome": "Remédios constitucionais"
+    },
+    {
+      "id": "constitucional.organizacao-estado",
+      "nome": "Organização político-administrativa"
+    },
+    {
+      "id": "constitucional.intervencao",
+      "nome": "Intervenção"
+    },
+    {
+      "id": "constitucional.administracao-publica",
+      "nome": "Administração Pública",
+      "filhos": [
+        {
+          "id": "constitucional.administracao-publica.principios",
+          "nome": "Disposições gerais"
+        },
+        {
+          "id": "constitucional.administracao-publica.acumulacao",
+          "nome": "Acumulação de cargos"
+        },
+        {
+          "id": "constitucional.administracao-publica.servidores",
+          "nome": "Servidores públicos"
+        }
+      ]
+    },
+    {
+      "id": "constitucional.poderes",
+      "nome": "Organização dos Poderes"
+    },
+    {
+      "id": "constitucional.judiciario",
+      "nome": "Poder Judiciário",
+      "filhos": [
+        {
+          "id": "constitucional.judiciario.disposicoes",
+          "nome": "Disposições gerais e garantias"
+        },
+        {
+          "id": "constitucional.judiciario.orgaos",
+          "nome": "Tribunais e órgãos"
+        },
+        {
+          "id": "constitucional.judiciario.justica-federal",
+          "nome": "Justiça Federal"
+        },
+        {
+          "id": "constitucional.judiciario.justica-estadual",
+          "nome": "Justiça dos Estados"
+        }
+      ]
+    },
+    {
+      "id": "constitucional.funcoes-essenciais",
+      "nome": "Funções essenciais à Justiça"
+    },
+    {
+      "id": "constitucional.controle",
+      "nome": "Controle de constitucionalidade"
+    },
+    {
+      "id": "constitucional.ordem-economica",
+      "nome": "Ordem econômica e financeira"
+    },
+    {
+      "id": "constitucional.financas",
+      "nome": "Finanças públicas e precatórios"
+    },
+    {
+      "id": "constitucional.ordem-social",
+      "nome": "Ordem social e seguridade"
+    }
+  ]
+}

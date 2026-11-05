@@ -1,0 +1,124 @@
+{
+  "materia": "tributario",
+  "nome": "Direito Tributário",
+  "temas": [
+    {
+      "id": "tributario.normas-gerais",
+      "nome": "Normas gerais"
+    },
+    {
+      "id": "tributario.fontes",
+      "nome": "Fontes"
+    },
+    {
+      "id": "tributario.norma",
+      "nome": "Vigência, aplicação, interpretação e integração"
+    },
+    {
+      "id": "tributario.tributo",
+      "nome": "Tributo e espécies"
+    },
+    {
+      "id": "tributario.fato-gerador",
+      "nome": "Hipótese de incidência e fato gerador"
+    },
+    {
+      "id": "tributario.obrigacao",
+      "nome": "Obrigação tributária"
+    },
+    {
+      "id": "tributario.credito",
+      "nome": "Crédito tributário",
+      "filhos": [
+        {
+          "id": "tributario.credito.lancamento",
+          "nome": "Lançamento"
+        },
+        {
+          "id": "tributario.credito.suspensao",
+          "nome": "Suspensão"
+        },
+        {
+          "id": "tributario.credito.extincao",
+          "nome": "Extinção"
+        },
+        {
+          "id": "tributario.credito.exclusao",
+          "nome": "Exclusão"
+        }
+      ]
+    },
+    {
+      "id": "tributario.responsabilidade",
+      "nome": "Responsabilidade tributária"
+    },
+    {
+      "id": "tributario.sistema-nacional",
+      "nome": "Sistema Tributário Nacional",
+      "filhos": [
+        {
+          "id": "tributario.sistema-nacional.limitacoes",
+          "nome": "Limitações e imunidades"
+        },
+        {
+          "id": "tributario.sistema-nacional.competencia",
+          "nome": "Competência"
+        },
+        {
+          "id": "tributario.sistema-nacional.federais",
+          "nome": "Tributos federais"
+        }
+      ]
+    },
+    {
+      "id": "tributario.reforma",
+      "nome": "Reforma tributária do consumo (IBS, CBS e IS)"
+    },
+    {
+      "id": "tributario.administracao",
+      "nome": "Administração tributária"
+    },
+    {
+      "id": "tributario.garantias",
+      "nome": "Garantias e privilégios do crédito"
+    },
+    {
+      "id": "tributario.execucao-fiscal",
+      "nome": "Execução fiscal (Lei 6.830)",
+      "filhos": [
+        {
+          "id": "tributario.execucao-fiscal.citacao",
+          "nome": "Citação"
+        },
+        {
+          "id": "tributario.execucao-fiscal.penhora",
+          "nome": "Penhora e arresto"
+        },
+        {
+          "id": "tributario.execucao-fiscal.avaliacao",
+          "nome": "Avaliação"
+        },
+        {
+          "id": "tributario.execucao-fiscal.depositario",
+          "nome": "Depositário"
+        },
+        {
+          "id": "tributario.execucao-fiscal.cda",
+          "nome": "Dívida ativa e CDA"
+        }
+      ]
+    },
+    {
+      "id": "tributario.cautelar-fiscal",
+      "nome": "Medida cautelar fiscal"
+    },
+    {
+      "id": "tributario.defesas",
+      "nome": "Embargos e exceção de pré-executividade"
+    },
+    {
+      "id": "tributario.divida-ativa",
+      "nome": "Dívida ativa e transação"
+    }
+  ]
+}

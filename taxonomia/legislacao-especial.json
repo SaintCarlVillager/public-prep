@@ -1,0 +1,36 @@
+{
+  "materia": "legislacao-especial",
+  "nome": "Legislação Especial (TJ-SP)",
+  "temas": [
+    {
+      "id": "legislacao-especial.nscgj",
+      "nome": "Normas da Corregedoria Geral da Justiça (NSCGJ)",
+      "filhos": [
+        {
+          "id": "legislacao-especial.nscgj.disposicoes",
+          "nome": "Disposições gerais"
+        },
+        {
+          "id": "legislacao-especial.nscgj.oficiais",
+          "nome": "Oficiais de justiça (Cap. VII)"
+        },
+        {
+          "id": "legislacao-especial.nscgj.cartorio",
+          "nome": "Rotinas de cartório"
+        },
+        {
+          "id": "legislacao-especial.nscgj.outras",
+          "nome": "Outras disposições"
+        }
+      ]
+    },
+    {
+      "id": "legislacao-especial.custas",
+      "nome": "Custas e taxa judiciária (Lei 11.608)"
+    },
+    {
+      "id": "legislacao-especial.atos-digitais",
+      "nome": "Audiências e atos por meio digital (CNJ 354)"
+    }
+  ]
+}

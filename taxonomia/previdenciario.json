@@ -1,0 +1,56 @@
+{
+  "materia": "previdenciario",
+  "nome": "Direito Previdenciário",
+  "temas": [
+    {
+      "id": "previdenciario.seguridade",
+      "nome": "Seguridade social"
+    },
+    {
+      "id": "previdenciario.constitucional",
+      "nome": "Previdência na Constituição"
+    },
+    {
+      "id": "previdenciario.assistencia-bpc",
+      "nome": "Assistência social e BPC"
+    },
+    {
+      "id": "previdenciario.regimes",
+      "nome": "Regimes de previdência"
+    },
+    {
+      "id": "previdenciario.rgps",
+      "nome": "RGPS",
+      "filhos": [
+        {
+          "id": "previdenciario.rgps.beneficiarios",
+          "nome": "Beneficiários"
+        },
+        {
+          "id": "previdenciario.rgps.beneficios",
+          "nome": "Benefícios"
+        },
+        {
+          "id": "previdenciario.rgps.custeio",
+          "nome": "Custeio"
+        }
+      ]
+    },
+    {
+      "id": "previdenciario.rpps",
+      "nome": "RPPS"
+    },
+    {
+      "id": "previdenciario.complementar",
+      "nome": "Previdência complementar"
+    },
+    {
+      "id": "previdenciario.jef",
+      "nome": "Processo nos Juizados Especiais Federais"
+    },
+    {
+      "id": "previdenciario.execucao",
+      "nome": "Execução previdenciária, RPV e precatórios"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "materia": "penal",
+  "nome": "Direito Penal",
+  "temas": [
+    {
+      "id": "penal.principios",
+      "nome": "Princípios"
+    },
+    {
+      "id": "penal.aplicacao",
+      "nome": "Aplicação da lei penal"
+    },
+    {
+      "id": "penal.crime",
+      "nome": "Teoria do crime"
+    },
+    {
+      "id": "penal.imputabilidade",
+      "nome": "Imputabilidade"
+    },
+    {
+      "id": "penal.concurso-pessoas",
+      "nome": "Concurso de pessoas"
+    },
+    {
+      "id": "penal.penas",
+      "nome": "Penas"
+    },
+    {
+      "id": "penal.acao-penal",
+      "nome": "Ação penal"
+    },
+    {
+      "id": "penal.extincao-punibilidade",
+      "nome": "Extinção da punibilidade e ANPP"
+    },
+    {
+      "id": "penal.pessoa",
+      "nome": "Crimes contra a pessoa"
+    },
+    {
+      "id": "penal.liberdade",
+      "nome": "Crimes contra a liberdade individual"
+    },
+    {
+      "id": "penal.patrimonio",
+      "nome": "Crimes contra o patrimônio"
+    },
+    {
+      "id": "penal.fe-publica",
+      "nome": "Crimes contra a fé pública"
+    },
+    {
+      "id": "penal.administracao-publica",
+      "nome": "Crimes contra a Administração Pública",
+      "filhos": [
+        {
+          "id": "penal.administracao-publica.funcionario",
+          "nome": "Praticados por funcionário público"
+        },
+        {
+          "id": "penal.administracao-publica.particular",
+          "nome": "Praticados por particular"
+        }
+      ]
+    },
+    {
+      "id": "penal.administracao-justica",
+      "nome": "Crimes contra a administração da justiça"
+    },
+    {
+      "id": "penal.ordem-tributaria",
+      "nome": "Crimes contra a ordem tributária"
+    },
+    {
+      "id": "penal.ambientais",
+      "nome": "Crimes ambientais"
+    },
+    {
+      "id": "penal.licitacoes",
+      "nome": "Crimes em licitações"
+    },
+    {
+      "id": "penal.lavagem",
+      "nome": "Lavagem de dinheiro"
+    },
+    {
+      "id": "penal.organizacoes-criminosas",
+      "nome": "Organizações criminosas"
+    }
+  ]
+}

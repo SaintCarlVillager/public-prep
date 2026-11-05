@@ -37,6 +37,7 @@ Por que não etiquetar por concurso: a cada edital novo (seu ou de um colega) se
 | Camada | O que guarda | Onde |
 |---|---|---|
 | **Taxonomia** | a árvore de temas de cada matéria | `taxonomia/<matéria>.json` |
+| **Normas** | as siglas usadas nos dispositivos e o nome de cada norma | `normas/normas.json` |
 | **Editais** | data, banca, blocos, pesos, cortes e temas cobertos | `editais/<órgão>/<cargo>/<ano>/edital.json` |
 | **Provas** | metadados, texto e questões etiquetadas | `provas/<banca>/<órgão>/<cargo>/<ano>/` |
 | **Questões autorais** | as criadas por Claude, quando falta questão real | `autorais/*.json` |

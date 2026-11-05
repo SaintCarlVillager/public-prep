@@ -1,0 +1,66 @@
+{
+  "materia": "raciocinio-logico",
+  "nome": "Raciocínio Lógico",
+  "temas": [
+    {
+      "id": "raciocinio-logico.estruturas",
+      "nome": "Estruturas lógicas",
+      "filhos": [
+        {
+          "id": "raciocinio-logico.estruturas.proposicoes",
+          "nome": "Proposições e conectivos"
+        },
+        {
+          "id": "raciocinio-logico.estruturas.condicional",
+          "nome": "Condicional e bicondicional"
+        },
+        {
+          "id": "raciocinio-logico.estruturas.equivalencias",
+          "nome": "Equivalências"
+        },
+        {
+          "id": "raciocinio-logico.estruturas.negacao",
+          "nome": "Negação"
+        },
+        {
+          "id": "raciocinio-logico.estruturas.quantificadores",
+          "nome": "Quantificadores"
+        },
+        {
+          "id": "raciocinio-logico.estruturas.verdade",
+          "nome": "Tabela-verdade e valoração"
+        }
+      ]
+    },
+    {
+      "id": "raciocinio-logico.argumentacao",
+      "nome": "Lógica de argumentação",
+      "filhos": [
+        {
+          "id": "raciocinio-logico.argumentacao.deducao",
+          "nome": "Dedução a partir de hipóteses"
+        },
+        {
+          "id": "raciocinio-logico.argumentacao.validade",
+          "nome": "Validade de argumentos"
+        }
+      ]
+    },
+    {
+      "id": "raciocinio-logico.diagramas",
+      "nome": "Diagramas lógicos e conjuntos"
+    },
+    {
+      "id": "raciocinio-logico.sequencias",
+      "nome": "Sequências numéricas e figurais"
+    },
+    {
+      "id": "raciocinio-logico.espacial-temporal",
+      "nome": "Orientação espacial e temporal"
+    },
+    {
+      "id": "raciocinio-logico.relacoes",
+      "nome": "Relações arbitrárias entre pessoas, lugares e objetos"
+    }
+  ]
+}

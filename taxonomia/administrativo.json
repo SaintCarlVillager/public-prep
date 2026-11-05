@@ -1,0 +1,136 @@
+{
+  "materia": "administrativo",
+  "nome": "Direito Administrativo",
+  "temas": [
+    {
+      "id": "administrativo.regime-juridico",
+      "nome": "Regime jurídico administrativo"
+    },
+    {
+      "id": "administrativo.principios",
+      "nome": "Princípios"
+    },
+    {
+      "id": "administrativo.poderes",
+      "nome": "Poderes administrativos",
+      "filhos": [
+        {
+          "id": "administrativo.poderes.policia",
+          "nome": "Poder de polícia"
+        },
+        {
+          "id": "administrativo.poderes.disciplinar",
+          "nome": "Poder disciplinar e hierárquico"
+        }
+      ]
+    },
+    {
+      "id": "administrativo.abuso-de-autoridade",
+      "nome": "Abuso de autoridade (Lei 13.869)"
+    },
+    {
+      "id": "administrativo.organizacao",
+      "nome": "Organização administrativa"
+    },
+    {
+      "id": "administrativo.agencias",
+      "nome": "Agências reguladoras e executivas"
+    },
+    {
+      "id": "administrativo.ato",
+      "nome": "Ato administrativo"
+    },
+    {
+      "id": "administrativo.licitacoes",
+      "nome": "Licitações e contratos"
+    },
+    {
+      "id": "administrativo.processo-administrativo",
+      "nome": "Processo administrativo (Lei 9.784)"
+    },
+    {
+      "id": "administrativo.controle",
+      "nome": "Controle da Administração"
+    },
+    {
+      "id": "administrativo.improbidade",
+      "nome": "Improbidade administrativa",
+      "filhos": [
+        {
+          "id": "administrativo.improbidade.enriquecimento",
+          "nome": "Enriquecimento ilícito (art. 9º)"
+        },
+        {
+          "id": "administrativo.improbidade.dano-erario",
+          "nome": "Prejuízo ao erário (art. 10)"
+        },
+        {
+          "id": "administrativo.improbidade.principios",
+          "nome": "Atos contra princípios (art. 11)"
+        },
+        {
+          "id": "administrativo.improbidade.sancoes-processo",
+          "nome": "Sanções, declaração de bens e processo"
+        }
+      ]
+    },
+    {
+      "id": "administrativo.anticorrupcao",
+      "nome": "Lei Anticorrupção"
+    },
+    {
+      "id": "administrativo.servico-publico",
+      "nome": "Serviço público"
+    },
+    {
+      "id": "administrativo.agentes",
+      "nome": "Agentes públicos"
+    },
+    {
+      "id": "administrativo.servidores",
+      "nome": "Servidores públicos",
+      "filhos": [
+        {
+          "id": "administrativo.servidores.provimento",
+          "nome": "Provimento, posse e exercício"
+        },
+        {
+          "id": "administrativo.servidores.estabilidade",
+          "nome": "Estágio probatório e estabilidade"
+        },
+        {
+          "id": "administrativo.servidores.vacancia",
+          "nome": "Vacância"
+        },
+        {
+          "id": "administrativo.servidores.direitos",
+          "nome": "Direitos e vantagens"
+        },
+        {
+          "id": "administrativo.servidores.regime-disciplinar",
+          "nome": "Regime disciplinar"
+        },
+        {
+          "id": "administrativo.servidores.estatuto-sp",
+          "nome": "Estatuto dos Funcionários Públicos de SP"
+        },
+        {
+          "id": "administrativo.servidores.seguranca-oj",
+          "nome": "Segurança do oficial de justiça (Lei 14.687)"
+        }
+      ]
+    },
+    {
+      "id": "administrativo.responsabilidade",
+      "nome": "Responsabilidade dos agentes e do Estado"
+    },
+    {
+      "id": "administrativo.pad",
+      "nome": "Processo administrativo disciplinar"
+    },
+    {
+      "id": "administrativo.governanca",
+      "nome": "Governança e compliance no Judiciário"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "materia": "portugues",
+  "nome": "Língua Portuguesa",
+  "temas": [
+    {
+      "id": "portugues.interpretacao",
+      "nome": "Compreensão e interpretação de textos",
+      "filhos": [
+        {
+          "id": "portugues.interpretacao.inferencia",
+          "nome": "Informações literais e inferências"
+        },
+        {
+          "id": "portugues.interpretacao.ponto-de-vista",
+          "nome": "Ponto de vista do autor"
+        },
+        {
+          "id": "portugues.interpretacao.contexto",
+          "nome": "Texto e contexto histórico"
+        }
+      ]
+    },
+    {
+      "id": "portugues.semantica",
+      "nome": "Significação de palavras",
+      "filhos": [
+        {
+          "id": "portugues.semantica.contextual",
+          "nome": "Significação contextual"
+        },
+        {
+          "id": "portugues.semantica.sinonimia",
+          "nome": "Sinonímia e antonímia"
+        },
+        {
+          "id": "portugues.semantica.denotacao",
+          "nome": "Denotação, conotação e sentido figurado"
+        }
+      ]
+    },
+    {
+      "id": "portugues.coesao",
+      "nome": "Coesão e coerência",
+      "filhos": [
+        {
+          "id": "portugues.coesao.relacoes",
+          "nome": "Relações entre ideias"
+        },
+        {
+          "id": "portugues.coesao.conectivos",
+          "nome": "Conectivos"
+        },
+        {
+          "id": "portugues.coesao.referenciacao",
+          "nome": "Referenciação"
+        }
+      ]
+    },
+    {
+      "id": "portugues.classes",
+      "nome": "Classes de palavras",
+      "filhos": [
+        {
+          "id": "portugues.classes.pronomes",
+          "nome": "Pronomes"
+        },
+        {
+          "id": "portugues.classes.verbos",
+          "nome": "Verbos"
+        },
+        {
+          "id": "portugues.classes.conjuncoes",
+          "nome": "Conjunções"
+        },
+        {
+          "id": "portugues.classes.preposicoes",
+          "nome": "Preposições"
+        },
+        {
+          "id": "portugues.classes.adverbios",
+          "nome": "Advérbios"
+        },
+        {
+          "id": "portugues.classes.nomes",
+          "nome": "Substantivo, adjetivo, artigo e numeral"
+        }
+      ]
+    },
+    {
+      "id": "portugues.concordancia",
+      "nome": "Concordância",
+      "filhos": [
+        {
+          "id": "portugues.concordancia.verbal",
+          "nome": "Concordância verbal"
+        },
+        {
+          "id": "portugues.concordancia.nominal",
+          "nome": "Concordância nominal"
+        }
+      ]
+    },
+    {
+      "id": "portugues.regencia",
+      "nome": "Regência",
+      "filhos": [
+        {
+          "id": "portugues.regencia.verbal",
+          "nome": "Regência verbal"
+        },
+        {
+          "id": "portugues.regencia.nominal",
+          "nome": "Regência nominal"
+        }
+      ]
+    },
+    {
+      "id": "portugues.colocacao",
+      "nome": "Colocação pronominal"
+    },
+    {
+      "id": "portugues.crase",
+      "nome": "Crase"
+    },
+    {
+      "id": "portugues.pontuacao",
+      "nome": "Pontuação"
+    },
+    {
+      "id": "portugues.ortografia",
+      "nome": "Ortografia e acentuação"
+    },
+    {
+      "id": "portugues.redacao-oficial",
+      "nome": "Redação oficial"
+    },
+    {
+      "id": "portugues.discurso",
+      "nome": "Discurso direto, indireto e indireto livre"
+    },
+    {
+      "id": "portugues.intertextualidade",
+      "nome": "Intertextualidade"
+    },
+    {
+      "id": "portugues.figuras",
+      "nome": "Figuras de linguagem"
+    },
+    {
+      "id": "portugues.morfossintaxe",
+      "nome": "Morfossintaxe"
+    },
+    {
+      "id": "portugues.formacao-palavras",
+      "nome": "Estrutura e formação de palavras"
+    },
+    {
+      "id": "portugues.flexao",
+      "nome": "Flexão nominal e verbal"
+    },
+    {
+      "id": "portugues.vozes",
+      "nome": "Vozes do verbo"
+    },
+    {
+      "id": "portugues.tempos-modos",
+      "nome": "Correlação de tempos e modos verbais"
+    },
+    {
+      "id": "portugues.coordenacao-subordinacao",
+      "nome": "Coordenação e subordinação"
+    },
+    {
+      "id": "portugues.reescrita",
+      "nome": "Reescrita e equivalência de estruturas"
+    },
+    {
+      "id": "portugues.argumentacao",
+      "nome": "Raciocínio analítico e argumentação",
+      "filhos": [
+        {
+          "id": "portugues.argumentacao.tipos",
+          "nome": "Argumentos falaciosos e apelativos"
+        }
+      ]
+    }
+  ]
+}

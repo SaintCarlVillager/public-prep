@@ -1,0 +1,151 @@
+"""Valida taxonomia, normas e editais do framework.
+
+Uso: python3 scripts/validar.py
+Sai com código 1 se encontrar erros. Avisos não reprovam.
+"""
+import glob
+import json
+import os
+import re
+import sys
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MAX_NIVEIS = 3  # abaixo da matéria
+ART = r"\d+(?:-[A-Z]{1,2})?"
+INTERVALO = re.compile(rf"^(\*|{ART}(?:-{ART})?)$")
+DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>\d+º?(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
+
+erros, avisos = [], []
+
+
+def carregar(caminho):
+    try:
+        with open(caminho, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        erros.append(f"{os.path.relpath(caminho, RAIZ)}: não é JSON válido ({e})")
+        return None
+
+
+def chave_art(a):
+    m = re.match(r"^(\d+)(?:-([A-Z]{1,2}))?$", a)
+    return (int(m.group(1)), m.group(2) or "")
+
+
+def validar_taxonomia():
+    temas = {}
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "taxonomia", "*.json"))):
+        rel = os.path.relpath(caminho, RAIZ)
+        d = carregar(caminho)
+        if d is None:
+            continue
+        materia = d.get("materia")
+        if materia != os.path.basename(caminho)[:-5]:
+            erros.append(f"{rel}: 'materia' deve ser igual ao nome do arquivo")
+        if not d.get("nome"):
+            erros.append(f"{rel}: falta 'nome'")
+
+        def visitar(nos, pai, nivel):
+            for n in nos:
+                i = n.get("id", "")
+                if not re.fullmatch(r"[a-z0-9-]+(\.[a-z0-9-]+)*", i):
+                    erros.append(f"{rel}: id inválido '{i}'")
+                if not i.startswith(pai + ".") or "." in i[len(pai) + 1:]:
+                    erros.append(f"{rel}: '{i}' deve ser filho direto de '{pai}'")
+                if nivel > MAX_NIVEIS:
+                    erros.append(f"{rel}: '{i}' passa de {MAX_NIVEIS} níveis abaixo da matéria")
+                if i in temas:
+                    erros.append(f"{rel}: id repetido '{i}'")
+                if not n.get("nome"):
+                    erros.append(f"{rel}: '{i}' sem nome")
+                temas[i] = n.get("nome")
+                visitar(n.get("filhos", []), i, nivel + 1)
+
+        temas[materia] = d.get("nome")
+        visitar(d.get("temas", []), materia, 1)
+    if not temas:
+        erros.append("taxonomia/: nenhum arquivo encontrado")
+    return temas
+
+
+def validar_normas():
+    d = carregar(os.path.join(RAIZ, "normas", "normas.json")) or {}
+    for sigla in d:
+        if not re.fullmatch(r"[A-Z][A-Za-z0-9-]*", sigla):
+            erros.append(f"normas/normas.json: sigla inválida '{sigla}'")
+    return d
+
+
+def validar_dispositivo(texto, normas, onde):
+    m = DISPOSITIVO.match(texto)
+    if not m:
+        erros.append(f"{onde}: dispositivo mal escrito '{texto}' (ex.: 'CPC 246 §1º-A')")
+    elif m.group("norma") not in normas:
+        erros.append(f"{onde}: norma '{m.group('norma')}' não está em normas/normas.json")
+
+
+def validar_editais(temas, normas):
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "editais", "**", "edital.json"), recursive=True)):
+        rel = os.path.relpath(caminho, RAIZ)
+        d = carregar(caminho)
+        if d is None:
+            continue
+        esperado = os.path.relpath(os.path.dirname(caminho), os.path.join(RAIZ, "editais"))
+        if d.get("id") != esperado:
+            erros.append(f"{rel}: 'id' deve ser '{esperado}' (o caminho da pasta)")
+        for campo in ("orgao", "cargo", "banca", "prova", "objetiva", "blocos"):
+            if campo not in d:
+                erros.append(f"{rel}: falta '{campo}'")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(d.get("prova", ""))):
+            erros.append(f"{rel}: 'prova' deve ser uma data AAAA-MM-DD")
+        total = 0
+        for b in d.get("blocos", []):
+            onde = f"{rel} › bloco {b.get('id')}"
+            total += b.get("questoes", 0)
+            soma_cob = 0
+            for c in b.get("cobertura", []):
+                m = c.get("materia")
+                if m not in temas:
+                    erros.append(f"{onde}: matéria '{m}' não existe na taxonomia")
+                if not c.get("temas") and not c.get("normas"):
+                    erros.append(f"{onde} › {m}: cobertura sem 'temas' nem 'normas'")
+                for t in c.get("temas", []):
+                    if t not in temas:
+                        erros.append(f"{onde} › {m}: tema '{t}' não existe na taxonomia")
+                for sigla, ints in c.get("normas", {}).items():
+                    if sigla not in normas:
+                        erros.append(f"{onde} › {m}: norma '{sigla}' não está em normas/normas.json")
+                    for it in ints:
+                        if not INTERVALO.match(it):
+                            erros.append(f"{onde} › {m}: intervalo inválido '{sigla} {it}'")
+                            continue
+                        if it != "*" and re.fullmatch(rf"({ART})-({ART})", it):
+                            a, z = re.fullmatch(rf"({ART})-({ART})", it).groups()
+                            if chave_art(a) > chave_art(z):
+                                erros.append(f"{onde} › {m}: intervalo invertido '{sigla} {it}'")
+                for disp in c.get("destaques", []):
+                    validar_dispositivo(disp, normas, f"{onde} › {m} › destaques")
+                soma_cob += c.get("questoes", 0)
+            if soma_cob and soma_cob != b.get("questoes"):
+                erros.append(f"{onde}: a soma das questões por matéria ({soma_cob}) difere do bloco ({b.get('questoes')})")
+        obj = d.get("objetiva", {}).get("questoes")
+        if obj and total != obj:
+            erros.append(f"{rel}: os blocos somam {total} questões, a objetiva tem {obj}")
+
+
+def main():
+    temas = validar_taxonomia()
+    normas = validar_normas()
+    validar_editais(temas, normas)
+    for a in avisos:
+        print("aviso:", a)
+    for e in erros:
+        print("erro:", e)
+    n_editais = len(glob.glob(os.path.join(RAIZ, "editais", "**", "edital.json"), recursive=True))
+    print(f"{len(temas)} temas, {len(normas)} normas, {n_editais} editais: "
+          + ("ok" if not erros else f"{len(erros)} erro(s)"))
+    sys.exit(1 if erros else 0)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,26 @@
+{
+  "materia": "sustentabilidade",
+  "nome": "Sustentabilidade e Meio Ambiente",
+  "temas": [
+    {
+      "id": "sustentabilidade.desenvolvimento-sustentavel",
+      "nome": "Desenvolvimento sustentável na CF"
+    },
+    {
+      "id": "sustentabilidade.ods",
+      "nome": "Objetivos de Desenvolvimento Sustentável"
+    },
+    {
+      "id": "sustentabilidade.contratacoes",
+      "nome": "Contratações sustentáveis"
+    },
+    {
+      "id": "sustentabilidade.clima",
+      "nome": "Política Nacional sobre Mudança do Clima"
+    },
+    {
+      "id": "sustentabilidade.judiciario",
+      "nome": "Políticas ambientais do Judiciário"
+    }
+  ]
+}

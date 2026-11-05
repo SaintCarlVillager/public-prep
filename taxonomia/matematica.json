@@ -1,0 +1,58 @@
+{
+  "materia": "matematica",
+  "nome": "Matemática",
+  "temas": [
+    {
+      "id": "matematica.reais",
+      "nome": "Operações com números reais"
+    },
+    {
+      "id": "matematica.mmc-mdc",
+      "nome": "MMC e MDC"
+    },
+    {
+      "id": "matematica.razao-proporcao",
+      "nome": "Razão e proporção"
+    },
+    {
+      "id": "matematica.porcentagem",
+      "nome": "Porcentagem, acréscimos e descontos"
+    },
+    {
+      "id": "matematica.regra-de-tres",
+      "nome": "Regra de três simples e composta"
+    },
+    {
+      "id": "matematica.media",
+      "nome": "Médias"
+    },
+    {
+      "id": "matematica.juros-simples",
+      "nome": "Juros simples"
+    },
+    {
+      "id": "matematica.equacoes",
+      "nome": "Equações do 1º e 2º graus"
+    },
+    {
+      "id": "matematica.sistemas",
+      "nome": "Sistemas de equações"
+    },
+    {
+      "id": "matematica.graficos",
+      "nome": "Tabelas e gráficos"
+    },
+    {
+      "id": "matematica.medidas",
+      "nome": "Sistemas de medidas"
+    },
+    {
+      "id": "matematica.geometria",
+      "nome": "Geometria"
+    },
+    {
+      "id": "matematica.problemas",
+      "nome": "Situações-problema"
+    }
+  ]
+}

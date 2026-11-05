@@ -1,0 +1,68 @@
+{
+  "materia": "informatica",
+  "nome": "Informática",
+  "temas": [
+    {
+      "id": "informatica.windows",
+      "nome": "Windows e arquivos"
+    },
+    {
+      "id": "informatica.word",
+      "nome": "Word"
+    },
+    {
+      "id": "informatica.excel",
+      "nome": "Excel"
+    },
+    {
+      "id": "informatica.powerpoint",
+      "nome": "PowerPoint"
+    },
+    {
+      "id": "informatica.onedrive",
+      "nome": "OneDrive"
+    },
+    {
+      "id": "informatica.sharepoint",
+      "nome": "SharePoint"
+    },
+    {
+      "id": "informatica.teams",
+      "nome": "Teams"
+    },
+    {
+      "id": "informatica.email",
+      "nome": "Correio eletrônico"
+    },
+    {
+      "id": "informatica.internet",
+      "nome": "Internet"
+    },
+    {
+      "id": "informatica.seguranca",
+      "nome": "Segurança da informação"
+    },
+    {
+      "id": "informatica.ia",
+      "nome": "Inteligência artificial",
+      "filhos": [
+        {
+          "id": "informatica.ia.conceitos",
+          "nome": "Conceitos: IA generativa, LLM e agentes"
+        },
+        {
+          "id": "informatica.ia.riscos",
+          "nome": "Riscos da IA generativa"
+        },
+        {
+          "id": "informatica.ia.normas-cnj",
+          "nome": "Normas do CNJ sobre IA e dados"
+        }
+      ]
+    },
+    {
+      "id": "informatica.inovacao",
+      "nome": "Inovação no Judiciário"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "materia": "etica",
+  "nome": "Ética no Serviço Público e Integridade",
+  "temas": [
+    {
+      "id": "etica.fundamentos",
+      "nome": "Ética e integridade: conceitos e princípios"
+    },
+    {
+      "id": "etica.normas-jf3r",
+      "nome": "Código de Conduta da JF e comitê da JF3R"
+    },
+    {
+      "id": "etica.integridade-judiciario",
+      "nome": "Sistemas de integridade e governança no Judiciário"
+    },
+    {
+      "id": "etica.assedio",
+      "nome": "Prevenção ao assédio e à discriminação"
+    },
+    {
+      "id": "etica.lgpd",
+      "nome": "Proteção de dados pessoais (LGPD)"
+    },
+    {
+      "id": "etica.acesso-informacao",
+      "nome": "Acesso à informação (LAI)"
+    }
+  ]
+}
