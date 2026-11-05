@@ -201,7 +201,10 @@ def validar_provas(temas, normas):
                     erros.append(f"{onde}: tema '{t}' não existe na taxonomia")
             for disp in q.get("dispositivos", []):
                 validar_dispositivo(disp, normas, onde)
-            if not q.get("exp"):
+            if q.get("tipo") == "disc":
+                if not q.get("padrao_resposta") or not q.get("criterios"):
+                    erros.append(f"{onde}: discursiva sem 'padrao_resposta' ou 'criterios'")
+            elif not q.get("exp"):
                 avisos.append(f"{onde}: sem explicação")
             if q.get("pendencias"):
                 pendentes += 1

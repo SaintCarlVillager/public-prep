@@ -9,8 +9,8 @@
   "formato": "me",
   "questoes": 60,
   "gabarito": {
-    "status": "oficial",
-    "fonte": "gabarito.pdf, tipo 1 (obtido no QConcursos; não confirmado se é o definitivo, após recursos)",
+    "status": "definitivo",
+    "fonte": "gabarito.pdf, tipo 1. Confirmado como definitivo: o aviso oficial de atribuição de questões e alteração de gabaritos (Edital nº 4/2020, DOU de 31/01/2020; atribuicao-e-alteracao-de-gabaritos.pdf) só altera os cargos 02 e 03, e o gabarito do cargo 01 publicado pela FCC (concursosfcc.com.br/concursos/trf3r119/gabaritos) é idêntico a este.",
     "respostas": {
       "1": "D",
       "2": "E",
@@ -82,7 +82,8 @@
   "arquivos": {
     "prova": "prova.pdf",
     "texto": "texto.txt",
-    "gabarito": "gabarito.pdf"
+    "gabarito": "gabarito.pdf",
+    "alteracoes": "atribuicao-e-alteracao-de-gabaritos.pdf"
   },
-  "observacao": "Cargo diferente do alvo (Oficial de Justiça Avaliador Federal), mas mesmo órgão e conteúdo específico muito próximo. PDF digitalizado com reconhecimento de texto: a capa sai truncada; as páginas internas estão legíveis. Conferir trechos duvidosos na imagem da página."
+  "observacao": "Cargo 01 do concurso TRF3 2019 (que não teve vaga de Oficial de Justiça Avaliador Federal: os cargos eram 01 a 04). Mesmo órgão e conteúdo específico muito próximo do cargo alvo. PDF digitalizado com reconhecimento de texto: a capa sai truncada; as páginas internas estão legíveis."
 }
