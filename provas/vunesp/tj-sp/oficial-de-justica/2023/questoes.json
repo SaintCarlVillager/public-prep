@@ -1907,9 +1907,10 @@
       ],
       "dispositivos": [],
       "exp": "Média de A: (2·21 + 3·25)/5 = (42 + 75)/5 = 117/5. Para B igualar, com x acertos em Matemática: (2·15 + 3x)/5 = 117/5 → 30 + 3x = 117 → x = 29. Como B acertou 20, faltaram 29 − 20 = **9** questões (D). (B) 29 é o total de acertos necessário, não o acréscimo; as demais não resultam da conta.",
-      "pendencias": [
-        "conferir figura no PDF"
-      ]
+      "imagens": [
+        "figuras/q83.png"
+      ],
+      "conferido_em": "prova.pdf p. 20 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#84",
@@ -1970,9 +1971,10 @@
       ],
       "dispositivos": [],
       "exp": "Em 30/08 havia 10 + 10/5 = 12 máquinas, e as peças foram 80 000 ÷ (4/3) = 60 000. Produtividade: 60 000 ÷ (12 · 5) = 1 000 peças por máquina-hora. Em 31/08: h = 80 000 ÷ (10 · 1 000) = **8 horas** (C). Pela regra de três composta: h = 5 · (12/10) · (80 000/60 000) = 5 · 1,2 · 4/3 = 8.",
-      "pendencias": [
-        "conferir figura no PDF"
-      ]
+      "imagens": [
+        "figuras/q86.png"
+      ],
+      "conferido_em": "prova.pdf p. 21 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#87",
@@ -2100,11 +2102,11 @@
       "id": "vunesp/tj-sp/oficial-de-justica/2023#93",
       "tipo": "me",
       "numero": 93,
-      "enunciado": "Tem-se a seguinte estrutura de subpastas dentro da pasta C:\\TEMP, no Microsoft Windows 10, exibida no Explorador de Arquivos, ambos em sua configuração original.\n\n[Figura: árvore do Explorador de Arquivos com a pasta Temp expandida; dentro dela, Pasta A (com as subpastas 1, 2 e 3) e Pasta B (com as subpastas 100 e 101), ambas no mesmo nível.]\n\nUm usuário conectou no computador um Pen Drive vazio. Em seguida, usando o Explorador de Arquivos, clicou com o botão principal do mouse sobre a Pasta A e a arrastou para a unidade do Pen Drive, em sua raiz. Depois, clicou com o botão principal do mouse sobre a Pasta B e também a arrastou para a unidade do Pen Drive, igualmente em sua raiz. Considerando que a operação foi executada com sucesso, assinale a alternativa com a estrutura de pastas resultante no Pen Drive.",
+      "enunciado": "Tem-se a seguinte estrutura de subpastas dentro da pasta C:\\TEMP, no Microsoft Windows 10, exibida no Explorador de Arquivos, ambos em sua configuração original.\n\n[Figura: árvore do Explorador de Arquivos com a pasta Temp expandida; dentro dela, Pasta A expandida (com as subpastas 1, 2 e 3) e Pasta B expandida (com as subpastas 100 e 101), ambas no mesmo nível.]\n\nUm usuário conectou no computador um Pen Drive vazio. Em seguida, usando o Explorador de Arquivos, clicou com o botão principal do mouse sobre a Pasta A e a arrastou para a unidade do Pen Drive, em sua raiz. Depois, clicou com o botão principal do mouse sobre a Pasta B e também a arrastou para a unidade do Pen Drive, igualmente em sua raiz. Considerando que a operação foi executada com sucesso, assinale a alternativa com a estrutura de pastas resultante no Pen Drive.",
       "alt": {
         "A": "[Figura: pastas 1, 2, 3, 100, 101, Pasta A e Pasta B, todas soltas no mesmo nível, sem hierarquia.]",
         "B": "[Figura: Pasta A expandida contendo as subpastas 1, 2, 3, 100 e 101; não há Pasta B.]",
-        "C": "[Figura: Pasta A e Pasta B no mesmo nível, recolhidas, sem subpastas exibidas.]",
+        "C": "[Figura: Pasta A e Pasta B no mesmo nível, sem seta de expansão nem subpastas exibidas.]",
         "D": "[Figura: Pasta A expandida com as subpastas 1, 2 e 3 e, no mesmo nível de Pasta A, Pasta B expandida com as subpastas 100 e 101.]",
         "E": "[Figura: Pasta A expandida com as subpastas 1, 2 e 3 e, dentro de Pasta A, Pasta B expandida com as subpastas 100 e 101.]"
       },
@@ -2114,9 +2116,15 @@
       ],
       "dispositivos": [],
       "exp": "Arrastar uma pasta para outra unidade **copia** a pasta com todo o seu conteúdo. Como as duas pastas foram soltas na raiz do pen drive, o resultado é Pasta A (com 1, 2 e 3) e Pasta B (com 100 e 101) lado a lado na raiz (D). (A) e (B) desfazem a hierarquia; (C) omite as subpastas, que são copiadas junto; e (E) coloca Pasta B dentro de Pasta A, o que não ocorreu porque ela foi solta na raiz.",
-      "pendencias": [
-        "conferir figura no PDF (estrutura de pastas do enunciado e das cinco alternativas)"
-      ]
+      "observacoes": [
+        "q93-a: árvore do enunciado; q93-b: alternativas A e B; q93-c: alternativas C, D e E (coluna direita da página)."
+      ],
+      "imagens": [
+        "figuras/q93-a.png",
+        "figuras/q93-b.png",
+        "figuras/q93-c.png"
+      ],
+      "conferido_em": "prova.pdf p. 23 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#94",
@@ -2155,9 +2163,10 @@
       ],
       "dispositivos": [],
       "exp": "Os botões Negrito, Sublinhado e Itálico funcionam como **alternância**: com o cursor ao fim da palavra, o texto seguinte herda a formatação dela, e cada clique inverte o respectivo atributo. Como \"São Paulo\" saiu só em itálico, negrito e sublinhado foram desligados (estavam ativos) e o itálico foi ligado (estava inativo): a primeira palavra estava em **negrito e sublinhado, apenas** (C). Com qualquer outra formatação inicial, o resultado depois dos três cliques seria diferente de \"apenas itálico\".",
-      "pendencias": [
-        "conferir figura no PDF"
-      ]
+      "imagens": [
+        "figuras/q95.png"
+      ],
+      "conferido_em": "prova.pdf p. 24 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#96",
@@ -2196,16 +2205,19 @@
       ],
       "dispositivos": [],
       "exp": "A fórmula retorna APROVADO se houver **mais de 2** células com valor **estritamente maior que 10** em A1:C3. Em (B) há três (11 em A1, 11 em C2 e 11 em A3), e 3 > 2. Em (A) e (D) nenhum valor passa de 10 (10 não é > 10); em (C) só o 11 de B2; em (E) só o 12 de C2.",
-      "pendencias": [
-        "conferir figura no PDF (as cinco alternativas são imagens de planilha)",
-        "aspas da fórmula perdidas na extração do texto; restauradas conforme a imagem da página"
-      ]
+      "observacoes": [
+        "Imagem reúne as cinco planilhas das alternativas (A a E). Fórmula conferida na imagem da página: =SE(CONT.SE(A1:C3;\">10\")>2;\"APROVADO\";\"NÃO APROVADO\"), aspas corretas; valores das planilhas conferidos (só B tem três valores >10)."
+      ],
+      "imagens": [
+        "figuras/q97.png"
+      ],
+      "conferido_em": "prova.pdf p. 24 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#98",
       "tipo": "me",
       "numero": 98,
-      "enunciado": "Tem-se os arquivos e seus status do Microsoft OneDrive, exibidos no Explorador de Arquivos do Microsoft Windows 10, todos em sua configuração original.\n\n[Figura: lista do Explorador de Arquivos com colunas Name e Status: Foto.jpg – círculo verde preenchido com marca de seleção branca; Controle.xlsx – ícone de nuvem; Projetos.zip – círculo vazado com marca de seleção verde.]\n\nAssinale a alternativa com o(s) item(s) em que o Windows não precisará fazer o download quando o usuário der um duplo clique com o botão principal do mouse.",
+      "enunciado": "Tem-se os arquivos e seus status do Microsoft OneDrive, exibidos no Explorador de Arquivos do Microsoft Windows 10, todos em sua configuração original.\n\n[Figura: lista do Explorador de Arquivos com colunas Name e Status: Foto.jpg – círculo preenchido (escuro) com marca de seleção branca; Controle.xlsx – ícone de nuvem vazada; Projetos.zip – círculo vazado com marca de seleção. Ao lado de cada status, um ícone de pessoa (item compartilhado).]\n\nAssinale a alternativa com o(s) item(s) em que o Windows não precisará fazer o download quando o usuário der um duplo clique com o botão principal do mouse.",
       "alt": {
         "A": "Foto.jpg, Projetos.zip e Controle.xlsx, apenas.",
         "B": "Foto.jpg, apenas.",
@@ -2219,9 +2231,13 @@
       ],
       "dispositivos": [],
       "exp": "No OneDrive, o círculo verde preenchido indica arquivo **sempre mantido neste dispositivo** (Foto.jpg) e o círculo vazado com marca verde indica arquivo **disponível localmente** (Projetos.zip); ambos já estão no disco e abrem sem download (E). A nuvem (Controle.xlsx) indica arquivo **somente online**, que precisa ser baixado ao ser aberto, o que elimina (A) e (C); (B) e (D) deixam de fora um dos dois arquivos locais.",
-      "pendencias": [
-        "conferir figura no PDF"
-      ]
+      "observacoes": [
+        "A figura da prova é em tons de cinza; a descrição anterior citava cores (verde) que não aparecem."
+      ],
+      "imagens": [
+        "figuras/q98.png"
+      ],
+      "conferido_em": "prova.pdf p. 25 (recorte 200 dpi)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#99",
