@@ -5,11 +5,13 @@
   "banca": "Vunesp",
   "edital": "Edital de Abertura nº 01/2026",
   "publicacao": "2026-10-14",
-  "inscricoes": { "inicio": "2026-10-28", "fim": "2026-12-10" },
+  "inscricoes": {
+    "inicio": "2026-10-28",
+    "fim": "2026-12-10"
+  },
   "prova": "2027-03-14",
   "legislacao_ate": "2026-10-14",
   "fonte": "edital.pdf (Anexo VIII em anexo-viii-conteudo.txt)",
-
   "objetiva": {
     "formato": "me",
     "questoes": 70,
@@ -18,7 +20,6 @@
     "minimo_total": 0.5,
     "nota": "Habilitado com nota ≥ 5 (de 10) no conjunto dos 3 blocos, e ≥ 50% de acertos em cada bloco eliminatório. A classificação final é pela objetiva."
   },
-
   "discursiva": {
     "tipo": "questoes",
     "questoes": 2,
@@ -37,7 +38,6 @@
       "capacidade de interpretação e exposição"
     ]
   },
-
   "blocos": [
     {
       "id": "I",
@@ -46,17 +46,20 @@
       "minimo": 0.5,
       "eliminatorio": true,
       "cobertura": [
-        { "materia": "portugues", "temas": [
-          "portugues.interpretacao",
-          "portugues.semantica",
-          "portugues.coesao",
-          "portugues.classes",
-          "portugues.concordancia",
-          "portugues.regencia",
-          "portugues.colocacao",
-          "portugues.crase",
-          "portugues.pontuacao"
-        ] }
+        {
+          "materia": "portugues",
+          "temas": [
+            "portugues.interpretacao",
+            "portugues.semantica",
+            "portugues.coesao",
+            "portugues.classes",
+            "portugues.concordancia",
+            "portugues.regencia",
+            "portugues.colocacao",
+            "portugues.crase",
+            "portugues.pontuacao"
+          ]
+        }
       ]
     },
     {
@@ -66,34 +69,235 @@
       "minimo": 0.5,
       "eliminatorio": true,
       "cobertura": [
-        { "materia": "penal", "normas": {
-          "CP": ["1-12", "100-106", "107-121", "129", "150", "154", "293-305", "307", "308", "311-A", "312-317", "319-333", "336", "337", "339-347", "357", "359"]
-        } },
-        { "materia": "processo-penal", "normas": {
-          "CPP": ["24-42", "61-74", "112", "125-131", "156", "185", "202-204", "218-225", "240-250", "274", "283-303", "351-363", "370-372", "396-396-A", "406", "436-446", "485-487", "513-518", "563-570", "593", "647-654", "762-763", "792", "798", "798-A"],
-          "L9099": ["1", "2", "60-62", "66-68"]
-        } },
-        { "materia": "processo-civil", "normas": {
-          "CPC": ["1-11", "13-18", "21-27", "36", "42-53", "64-66", "70-85", "98-102", "110-111", "125-135", "139-143", "149-155", "159-161", "176-199", "203-259", "269-275", "447-449", "453-454", "502", "528", "535-536", "538", "554", "560-563", "626", "695", "751", "782", "795", "806-807", "827-846", "870-875", "994", "1001", "1003", "1009", "1010", "1015", "1022"],
-          "L9099": ["8", "9", "18", "19"]
-        } },
-        { "materia": "constitucional", "normas": {
-          "CF": ["1-16", "18", "37-41", "92-99", "125", "127", "134"]
-        } },
-        { "materia": "administrativo", "normas": {
-          "L10261": ["1", "3", "4", "11", "13", "14", "46", "47", "57", "78", "110", "120", "127", "176", "241-243", "251"],
-          "L8429": ["9", "13"]
-        } },
-        { "materia": "civil", "normas": {
-          "CC": ["1-25", "40-45", "49-50", "53", "62", "70-103", "115-120", "138-159", "166-201", "212-215", "653-666", "1169-1173", "1196-1203", "1431-1432", "1442", "1444-1447", "1451", "1461", "1467-1472", "1728", "1767", "1775-1778", "1997"],
-          "LINDB": ["*"]
-        } },
-        { "materia": "legislacao-especial", "normas": {
-          "L6830": ["1", "2", "7", "8", "11", "37"],
-          "CNJ-R354": ["1", "8-10"],
-          "L11608": ["*"],
-          "NSCGJ": ["1-4", "33", "47", "49", "105-110", "196", "282", "310", "315", "410", "436-436-A", "439", "440", "440-A", "994-1091-A", "1137-1139", "1245", "1247"]
-        }, "observacao": "NSCGJ: Tomo I. O edital restringe alguns artigos a incisos ou parágrafos (196, XX; 282, §1º). Capítulo VII (arts. 994 a 1.091-A) é o capítulo dos oficiais de justiça." }
+        {
+          "materia": "penal",
+          "normas": {
+            "CP": [
+              "1-12",
+              "100-106",
+              "107-121",
+              "129",
+              "150",
+              "154",
+              "293-305",
+              "307",
+              "308",
+              "311-A",
+              "312-317",
+              "319-333",
+              "336",
+              "337",
+              "339-347",
+              "357",
+              "359"
+            ]
+          }
+        },
+        {
+          "materia": "processo-penal",
+          "normas": {
+            "CPP": [
+              "24-42",
+              "61-74",
+              "112",
+              "125-131",
+              "156",
+              "185",
+              "202-204",
+              "218-225",
+              "240-250",
+              "274",
+              "283-303",
+              "351-363",
+              "370-372",
+              "396-396-A",
+              "406",
+              "436-446",
+              "485-487",
+              "513-518",
+              "563-570",
+              "593",
+              "647-654",
+              "762-763",
+              "792",
+              "798",
+              "798-A"
+            ],
+            "L9099": [
+              "1",
+              "2",
+              "60-62",
+              "66-68"
+            ]
+          }
+        },
+        {
+          "materia": "processo-civil",
+          "normas": {
+            "CPC": [
+              "1-11",
+              "13-18",
+              "21-27",
+              "36",
+              "42-53",
+              "64-66",
+              "70-85",
+              "98-102",
+              "110-111",
+              "125-135",
+              "139-143",
+              "149-155",
+              "159-161",
+              "176-199",
+              "203-259",
+              "269-275",
+              "447-449",
+              "453-454",
+              "502",
+              "528",
+              "535-536",
+              "538",
+              "554",
+              "560-563",
+              "626",
+              "695",
+              "751",
+              "782",
+              "795",
+              "806-807",
+              "827-846",
+              "870-875",
+              "994",
+              "1001",
+              "1003",
+              "1009",
+              "1010",
+              "1015",
+              "1022"
+            ],
+            "L9099": [
+              "8",
+              "9",
+              "18",
+              "19"
+            ]
+          }
+        },
+        {
+          "materia": "constitucional",
+          "normas": {
+            "CF": [
+              "1-16",
+              "18",
+              "37-41",
+              "92-99",
+              "125",
+              "127",
+              "134"
+            ]
+          }
+        },
+        {
+          "materia": "administrativo",
+          "normas": {
+            "L10261": [
+              "1",
+              "3",
+              "4",
+              "11",
+              "13",
+              "14",
+              "46",
+              "47",
+              "57",
+              "78",
+              "110",
+              "120",
+              "127",
+              "176",
+              "241-243",
+              "251"
+            ],
+            "L8429": [
+              "9",
+              "13"
+            ]
+          }
+        },
+        {
+          "materia": "civil",
+          "normas": {
+            "CC": [
+              "1-25",
+              "40-45",
+              "49-50",
+              "53",
+              "62",
+              "70-103",
+              "115-120",
+              "138-159",
+              "166-201",
+              "212-215",
+              "653-666",
+              "1169-1173",
+              "1196-1203",
+              "1431-1432",
+              "1442",
+              "1444-1447",
+              "1451",
+              "1461",
+              "1467-1472",
+              "1728",
+              "1767",
+              "1775-1778",
+              "1997"
+            ],
+            "LINDB": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "legislacao-especial",
+          "normas": {
+            "L6830": [
+              "1",
+              "2",
+              "7",
+              "8",
+              "11",
+              "37"
+            ],
+            "CNJ-R354": [
+              "1",
+              "8-10"
+            ],
+            "L11608": [
+              "*"
+            ],
+            "NSCGJ": [
+              "1-4",
+              "33",
+              "47",
+              "49",
+              "105-110",
+              "196",
+              "282",
+              "310",
+              "315",
+              "410",
+              "436-436-A",
+              "439",
+              "440",
+              "440-A",
+              "994-1091-A",
+              "1137-1139",
+              "1245",
+              "1247"
+            ]
+          },
+          "observacao": "NSCGJ: Tomo I. O edital restringe alguns artigos a incisos ou parágrafos (196, XX; 282, §1º). Capítulo VII (arts. 994 a 1.091-A) é o capítulo dos oficiais de justiça."
+        }
       ]
     },
     {
@@ -103,21 +307,63 @@
       "minimo": null,
       "eliminatorio": false,
       "cobertura": [
-        { "materia": "atualidades", "questoes": 3, "temas": ["atualidades.2026"], "normas": {
-          "L13146": ["1-13", "34-38", "79-87"]
-        }, "observacao": "Fatos divulgados a partir do 1º semestre de 2026, e o Estatuto da Pessoa com Deficiência." },
-        { "materia": "matematica", "questoes": 3, "temas": [
-          "matematica.reais", "matematica.mmc-mdc", "matematica.razao-proporcao", "matematica.porcentagem",
-          "matematica.regra-de-tres", "matematica.media", "matematica.juros-simples", "matematica.equacoes",
-          "matematica.sistemas", "matematica.graficos", "matematica.medidas", "matematica.geometria", "matematica.problemas"
-        ] },
-        { "materia": "raciocinio-logico", "questoes": 4, "temas": [
-          "raciocinio-logico.estruturas", "raciocinio-logico.argumentacao", "raciocinio-logico.diagramas", "raciocinio-logico.sequencias"
-        ] },
-        { "materia": "informatica", "questoes": 5, "temas": [
-          "informatica.windows", "informatica.word", "informatica.excel", "informatica.teams",
-          "informatica.onedrive", "informatica.email", "informatica.internet"
-        ] }
+        {
+          "materia": "atualidades",
+          "questoes": 3,
+          "temas": [
+            "atualidades.2026"
+          ],
+          "normas": {
+            "L13146": [
+              "1-13",
+              "34-38",
+              "79-87"
+            ]
+          },
+          "observacao": "Fatos divulgados a partir do 1º semestre de 2026, e o Estatuto da Pessoa com Deficiência."
+        },
+        {
+          "materia": "matematica",
+          "questoes": 3,
+          "temas": [
+            "matematica.reais",
+            "matematica.mmc-mdc",
+            "matematica.razao-proporcao",
+            "matematica.porcentagem",
+            "matematica.regra-de-tres",
+            "matematica.media",
+            "matematica.juros-simples",
+            "matematica.equacoes",
+            "matematica.sistemas",
+            "matematica.graficos",
+            "matematica.medidas",
+            "matematica.geometria",
+            "matematica.problemas"
+          ]
+        },
+        {
+          "materia": "raciocinio-logico",
+          "questoes": 4,
+          "temas": [
+            "raciocinio-logico.estruturas",
+            "raciocinio-logico.argumentacao",
+            "raciocinio-logico.diagramas",
+            "raciocinio-logico.sequencias"
+          ]
+        },
+        {
+          "materia": "informatica",
+          "questoes": 5,
+          "temas": [
+            "informatica.windows",
+            "informatica.word",
+            "informatica.excel",
+            "informatica.teams",
+            "informatica.onedrive",
+            "informatica.email",
+            "informatica.internet"
+          ]
+        }
       ]
     }
   ]

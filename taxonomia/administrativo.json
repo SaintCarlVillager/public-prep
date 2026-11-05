@@ -117,6 +117,10 @@
         {
           "id": "administrativo.servidores.seguranca-oj",
           "nome": "Segurança do oficial de justiça (Lei 14.687)"
+        },
+        {
+          "id": "administrativo.servidores.carreiras-pju",
+          "nome": "Carreiras do Poder Judiciário da União (Lei 11.416)"
         }
       ]
     },
@@ -131,6 +135,14 @@
     {
       "id": "administrativo.governanca",
       "nome": "Governança e compliance no Judiciário"
+    },
+    {
+      "id": "administrativo.governanca-corporativa",
+      "nome": "Governança corporativa"
+    },
+    {
+      "id": "administrativo.gestao-estrategica",
+      "nome": "Gestão estratégica"
     }
   ]
 }

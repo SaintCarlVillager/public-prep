@@ -29,7 +29,7 @@ Um framework de estudo para concursos públicos: **provas reais etiquetadas** po
 ## Formatos
 
 ### Dispositivo
-`<SIGLA> <artigo>[ complemento]`, com a sigla registrada em `normas/normas.json`: `CF 5º XI`, `CPP 362 p.ú.`, `L8112 13 §6º`, `CNJ-R354 8`. Intervalos em editais: `"240-250"`, `"396-396-A"`, `"*"` para a norma inteira.
+`<SIGLA> <artigo>[ complemento]`, com a sigla registrada em `normas/normas.json` e o número do artigo **sem "º"**: `CF 5 XI`, `CPP 362 p.ú.`, `L8112 13 §6º`, `CNJ-R354 8`, `CPC 1015 IX` (sem ponto de milhar). Parágrafos e incisos seguem a forma usual (`§1º`, `p.ú.`, `IX`). Intervalos em editais: `"240-250"`, `"396-396-A"`, `"*"` para a norma inteira.
 
 ### Questão (múltipla escolha)
 ```json

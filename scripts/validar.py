@@ -13,7 +13,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_NIVEIS = 3  # abaixo da matéria
 ART = r"\d+(?:-[A-Z]{1,2})?"
 INTERVALO = re.compile(rf"^(\*|{ART}(?:-{ART})?)$")
-DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>\d+º?(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
+DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>\d+(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
 
 erros, avisos = [], []
 

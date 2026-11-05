@@ -21,6 +21,10 @@
     {
       "id": "sustentabilidade.judiciario",
       "nome": "Políticas ambientais do Judiciário"
+    },
+    {
+      "id": "sustentabilidade.residuos-solidos",
+      "nome": "Resíduos sólidos"
     }
   ]
 }

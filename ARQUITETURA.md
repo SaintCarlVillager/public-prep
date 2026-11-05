@@ -201,7 +201,7 @@ Uma norma reduzida e um caminho, sempre do mesmo jeito, para dar para agrupar ("
 
 | Norma | Sigla | Exemplo |
 |---|---|---|
-| Constituição | `CF` | `CF 5º XXXI` |
+| Constituição | `CF` | `CF 5 XXXI` |
 | Código de Processo Civil | `CPC` | `CPC 246 §1º-A` |
 | Código de Processo Penal | `CPP` | `CPP 362 p.ú.` |
 | Leis | `L<número>` | `L8112 13 §6º`, `L6830 7 III` |

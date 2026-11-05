@@ -61,6 +61,10 @@
     {
       "id": "raciocinio-logico.relacoes",
       "nome": "Relações arbitrárias entre pessoas, lugares e objetos"
+    },
+    {
+      "id": "raciocinio-logico.contagem",
+      "nome": "Análise combinatória e contagem"
     }
   ]
 }
