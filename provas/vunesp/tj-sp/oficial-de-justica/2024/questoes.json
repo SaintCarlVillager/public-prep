@@ -1259,7 +1259,11 @@
         "L10261 3"
       ],
       "exp": "`Lei 10.261/68, art. 3º`: funcionário público, para o Estatuto, é **a pessoa legalmente investida em cargo público**. (A) é o conceito amplo do Direito Penal (`CP 327`).",
-      "recursos": 3
+      "recursos": 3,
+      "observacoes": [
+        "Dispositivo conferido: art. 3º correto."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#56",
@@ -1279,13 +1283,12 @@
         "administrativo.servidores.provimento"
       ],
       "dispositivos": [
+        "L10261 13",
         "L10261 11"
       ],
-      "exp": "O Estatuto prevê nomeação **em caráter vitalício** (nos casos da Constituição), **em comissão** e **em caráter efetivo**. Transferência, acesso, reversão, reintegração e aproveitamento são outras formas de provimento, não de nomeação.",
+      "exp": "`Lei 10.261/68, art. 13`: as nomeações serão feitas **em caráter vitalício** (nos casos previstos na Constituição), **em comissão** e **em caráter efetivo** (B), o que também afasta (E). Transferência, acesso, reversão, reintegração e aproveitamento são **outras formas de provimento** listadas no `art. 11`, ao lado da nomeação, e não formas de nomeação.",
       "recursos": 2,
-      "pendencias": [
-        "conferir o artigo exato do Estatuto paulista sobre as formas de nomeação (art. 11?)"
-      ]
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#57",
@@ -1304,12 +1307,12 @@
         "administrativo.servidores.estatuto-sp",
         "administrativo.servidores.provimento"
       ],
-      "dispositivos": [],
-      "exp": "O Estatuto paulista limita o peso dos **títulos**: eles não podem valer mais que **50 pontos** na escala de 100. A proposta de 100 pontos para títulos viola essa vedação expressa.",
+      "dispositivos": [
+        "L10261 14 p.ú."
+      ],
+      "exp": "`Lei 10.261/68, art. 14, p.ú.`: as provas serão avaliadas na escala de 0 a 100 pontos e **aos títulos serão atribuídos, no máximo, 50 pontos** (D). A proposta de 100 pontos para títulos viola essa limitação expressa; o próprio `art. 14` admite concurso **de provas e títulos** para cargo efetivo, o que afasta (A), (C) e (E).",
       "recursos": 1,
-      "pendencias": [
-        "localizar o artigo do Estatuto paulista que limita a pontuação dos títulos"
-      ]
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#58",
@@ -1329,10 +1332,16 @@
         "administrativo.servidores.provimento"
       ],
       "dispositivos": [
-        "L10261 47"
+        "L10261 47 V",
+        "L10261 47 I",
+        "L10261 47 II"
       ],
-      "exp": "Entre os requisitos para a posse está **ter boa conduta** (`Lei 10.261/68, art. 47`); pena em cumprimento pode impedi-la. Basta ser **brasileiro** (nato ou naturalizado) e ter **18 anos**; a aprovação em concurso é requisito da nomeação, e a justificativa eleitoral regulariza a obrigação.",
-      "recursos": 4
+      "exp": "Entre os requisitos para a posse está **ter boa conduta** (`Lei 10.261/68, art. 47, V`); pena em cumprimento pode impedi-la (E). Basta **ser brasileiro**, nato ou naturalizado (`art. 47, I`), e ter **18 anos** (`art. 47, II`); a aprovação em concurso é requisito da nomeação (`art. 14`), não da posse, e a justificativa eleitoral regulariza a obrigação.",
+      "recursos": 4,
+      "observacoes": [
+        "Dispositivo \"L10261 47\" estava correto; detalhado por inciso."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#59",
@@ -1350,12 +1359,14 @@
       "temas": [
         "administrativo.servidores.estatuto-sp"
       ],
-      "dispositivos": [],
-      "exp": "O Estatuto paulista **veda a dispensa do registro do ponto**, salvo em situações excepcionais previstas: a boa intenção do chefe não legitima a prática. O Estatuto não fala em sandbox (C) nem em administração gerencial (E).",
+      "dispositivos": [
+        "L10261 120 §2º",
+        "L10261 120",
+        "L10261 120 §3º"
+      ],
+      "exp": "`Lei 10.261/68, art. 120, §2º`: **é vedado dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e o `§3º` responsabiliza a autoridade que expedir a ordem (A). (B) o ponto é o registro pelo qual se verifica, **diariamente, a entrada e saída** do funcionário (`art. 120`); (D) o uso de meios mecânicos é apenas preferencial (`§1º`) e não é a única desconformidade. O Estatuto não fala em sandbox (C) nem em administração gerencial (E).",
       "recursos": 3,
-      "pendencias": [
-        "localizar o artigo do Estatuto paulista que veda a dispensa do ponto"
-      ]
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#60",
@@ -1374,11 +1385,12 @@
         "administrativo.servidores.estatuto-sp",
         "administrativo.servidores.regime-disciplinar"
       ],
-      "dispositivos": [],
-      "exp": "Entre as **proibições** do Estatuto paulista está **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição**. Levar documentos para casa sem conhecimento da chefia viola essa regra, mesmo com boa intenção.",
-      "pendencias": [
-        "localizar o artigo das proibições do Estatuto paulista (arts. 242–243?)"
-      ]
+      "dispositivos": [
+        "L10261 242 II",
+        "L10261 242 VIII"
+      ],
+      "exp": "`Lei 10.261/68, art. 242, II`: é proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição**, e Abelardo levava documentos para casa sem conhecimento da chefia (D). (C) erra ao negar essa violação; (B) e (E) ignoram também a proibição de **empregar material do serviço público em serviço particular** (`art. 242, VIII`); (A) o Estatuto não traz a proibição de cursos nos termos descritos.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#61",
@@ -1676,12 +1688,11 @@
         "legislacao-especial.custas"
       ],
       "dispositivos": [
-        "L11608 5"
+        "L11608 5 III",
+        "L11608 5 p.ú."
       ],
-      "exp": "`Lei 11.608/03, art. 5º`: o recolhimento da taxa judiciária é **diferido** para depois da satisfação da execução quando comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial**, entre outras, nas **ações declaratórias incidentais**. Vale para pessoa jurídica.",
-      "pendencias": [
-        "conferir o inciso do art. 5º da Lei 11.608/03"
-      ]
+      "exp": "`Lei 11.608/03, art. 5º, III`: na **declaratória incidental**, o recolhimento da taxa judiciária é **diferido** para depois da satisfação da execução quando comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (C). O `p.ú.` aplica a regra a **pessoas físicas e jurídicas**, o que afasta (A); (B) erra quanto ao tipo de ação, (E) dispensa a comprovação exigida e (D) cria requisito inexistente.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#74",

@@ -206,6 +206,15 @@ def validar_provas(temas, normas):
                     erros.append(f"{onde}: discursiva sem 'padrao_resposta' ou 'criterios'")
             elif not q.get("exp"):
                 avisos.append(f"{onde}: sem explicação")
+            for campo in ("pendencias", "observacoes"):
+                v = q.get(campo, [])
+                if not isinstance(v, list) or any(not isinstance(x, str) or not x.strip() for x in v):
+                    erros.append(f"{onde}: '{campo}' deve ser lista de textos")
+            if "desatualizada" in q and not (isinstance(q["desatualizada"], str) and q["desatualizada"].strip()):
+                erros.append(f"{onde}: 'desatualizada' deve explicar o motivo (texto)")
+            for img in q.get("imagens", []):
+                if not os.path.exists(os.path.join(pasta, img)):
+                    erros.append(f"{onde}: imagem '{img}' não encontrada")
             if q.get("pendencias"):
                 pendentes += 1
             total += 1

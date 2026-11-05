@@ -48,6 +48,13 @@ Um framework de estudo para concursos públicos: **provas reais etiquetadas** po
 ```
 `texto` aponta para um texto-base em `textos` no topo do `questoes.json` (`{"T1": {"titulo", "texto", "fonte"}}`, parágrafos separados por linha em branco). Certo/Errado e discursiva seguem `ARQUITETURA.md`.
 
+Campos opcionais da questão:
+- `pendencias`: o que **ainda falta conferir** (some quando resolvido).
+- `observacoes`: notas **permanentes** (erro de digitação da própria prova, redação alterada depois, critério proposto por nós).
+- `desatualizada`: texto dizendo por que a resposta oficial não vale mais hoje (lei nova, emenda). O painel avisa o candidato.
+- `imagens`: recortes de figura da prova, relativos à pasta da prova (`["figuras/q84.png"]`).
+- `anulada`: `true` quando a banca anulou; `gab` guarda o gabarito preliminar.
+
 **Destaques gráficos da prova** (termo em negrito ou sublinhado a que o enunciado se refere): `**negrito**` e `__sublinhado__`. Nunca HTML. Figuras, gráficos e tabelas que o texto não reproduz são descritos entre colchetes (`[Gráfico de setores: …]`) e registrados em `pendencias`.
 
 ### Explicação (`exp`)

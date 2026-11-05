@@ -1237,12 +1237,12 @@
       ],
       "dispositivos": [
         "L10261 3",
-        "L10261 4"
+        "L10261 4",
+        "L10261 1 p.ú.",
+        "L10261 13"
       ],
-      "exp": "`Lei 10.261/68, art. 3º`: funcionário público, para o Estatuto, é **a pessoa legalmente investida em cargo público**. (B) o Estatuto define apenas **cargo público** como o conjunto de atribuições e responsabilidades cometidas a um funcionário (`art. 4º`), não \"emprego público\"; (C) a regra é a nomeação em caráter **efetivo**, sendo a vitaliciedade excepcional; (A) o Estatuto rege os funcionários **civis**, não os militares; (E) não traduz a disciplina do Estatuto sobre seu âmbito de aplicação.",
-      "pendencias": [
-        "conferir na Lei 10.261/68 o dispositivo sobre aplicação aos servidores do Judiciário e do MP (alternativa E) e a numeração do art. 4º (conceito de cargo público)"
-      ]
+      "exp": "`Lei 10.261/68, art. 3º`: funcionário público, para o Estatuto, é **a pessoa legalmente investida em cargo público** (D). (B) o `art. 4º` define apenas **cargo público** como o conjunto de atribuições e responsabilidades cometidas a um funcionário, não \"emprego público\"; (C) pelo `art. 13`, a nomeação vitalícia só ocorre **nos casos expressamente previstos na Constituição**, ao lado das nomeações em comissão e em caráter efetivo. (A) o `art. 1º` institui o regime dos funcionários públicos **civis**; (E) o `art. 1º, p.ú.` manda aplicar o Estatuto **diretamente** aos funcionários **dos 3 Poderes** e do Tribunal de Contas, salvo no que colidir com a legislação especial, e não fala em aplicação subsidiária nem ao Ministério Público.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#56",
@@ -1262,12 +1262,15 @@
         "administrativo.servidores.provimento"
       ],
       "dispositivos": [
-        "L10261 47"
+        "L10261 47 VI",
+        "L10261 47 p.ú.",
+        "L10261 47 V"
       ],
-      "exp": "Entre os requisitos para a posse está a **boa saúde**, comprovada em inspeção por **órgão médico oficial** (`Lei 10.261/68, art. 47`), e o Estatuto ressalva que **deficiência de capacidade física comprovadamente estacionária** não impede a posse se **não impedir o desempenho normal das funções** (B). (A) a inspeção oficial não é substituível por atestado particular; (D) a boa saúde é condição de posse; (C) e (E) a lei não exige certidão negativa cível nem afasta a boa conduta pelo mero **indiciamento**, que não equivale a condenação.",
-      "pendencias": [
-        "conferir o parágrafo do art. 47 da Lei 10.261/68 sobre a deficiência física estacionária"
-      ]
+      "exp": "`Lei 10.261/68, art. 47, p.ú.`: a **deficiência da capacidade física, comprovadamente estacionária**, não impede a posse desde que **não impeça o desempenho normal das funções** do cargo (B). (A) pelo `art. 47, VI`, o **Atestado de Saúde Ocupacional** só substitui a inspeção por órgão médico oficial do Estado no provimento de **cargo em comissão**, e João vai ocupar cargo efetivo; (D) a boa saúde é **requisito para a posse**. (C) e (E) o Estatuto exige **boa conduta** (`art. 47, V`), sem exigir certidão negativa cível nem prever que o mero **indiciamento** a afaste.",
+      "observacoes": [
+        "Inciso VI do art. 47 com redação da LC 1.123/2010 (ASO para cargo em comissão), vigente na data da prova."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#57",
@@ -1286,11 +1289,11 @@
         "administrativo.servidores.estatuto-sp",
         "administrativo.servidores.provimento"
       ],
-      "dispositivos": [],
-      "exp": "**Exercício** é o ato pelo qual o funcionário **assume as atribuições e responsabilidades do cargo**. A **nomeação** é a forma de provimento e a **posse** é o ato de investidura no cargo, que precede o exercício; \"desempenho\" e \"progressão\" não designam esse ato.",
-      "pendencias": [
-        "localizar o artigo da Lei 10.261/68 que define o exercício"
-      ]
+      "dispositivos": [
+        "L10261 57"
+      ],
+      "exp": "`Lei 10.261/68, art. 57`: **exercício** é o ato pelo qual o funcionário **assume as atribuições e responsabilidades do cargo** (A). A **nomeação** é forma de provimento (`art. 11, I`) e a **posse** é o ato que **investe o cidadão em cargo público** (`art. 46`), precedendo o exercício; \"desempenho\" e \"progressão\" não designam esse ato.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#58",
@@ -1309,11 +1312,18 @@
         "administrativo.servidores.estatuto-sp",
         "administrativo.servidores.direitos"
       ],
-      "dispositivos": [],
-      "exp": "Pelo Estatuto paulista, o período de férias é considerado de **efetivo exercício**, e nele o funcionário **perceberá todas as vantagens** do cargo (C). (B) as férias anuais são de **30 dias**, não 60; (D) a conversão em pecúnia não depende de mera autorização do chefe imediato; (A) e (E) trazem fundamentos que o Estatuto não prevê.",
-      "pendencias": [
-        "localizar na Lei 10.261/68 os artigos sobre férias (duração, efetivo exercício e vantagens)"
-      ]
+      "dispositivos": [
+        "L10261 78 I",
+        "L10261 176",
+        "L10261 176 §3º",
+        "L10261 176 §4º",
+        "L10261 178"
+      ],
+      "exp": "As **férias** são consideradas de **efetivo exercício** (`Lei 10.261/68, art. 78, I`) e, durante elas, o funcionário tem **direito a todas as vantagens, como se estivesse em exercício** (`art. 176, §4º`) (C). (A) o `art. 176, §3º` reduz as férias para **20 dias** se houver mais de 10 não comparecimentos, inclusive por **faltas justificadas**; (B) as férias são de **30 dias** (`art. 176`) e só se adquire o direito **depois do primeiro ano de exercício** (`art. 178`). (D) o Estatuto não prevê conversão de férias em pecúnia por autorização da chefia, e (E) não trata de auxílio-alimentação ou auxílio-transporte.",
+      "observacoes": [
+        "Art. 176 §3º: na data da prova (2023) valia a redação da LC 1.361/2021 (faltas justificadas e injustificadas). A LC 1.437/2025 alterou depois o §2º do art. 176 e os arts. 177, 178 p.ú. e 179 (fracionamento em até 3 períodos etc.), sem afetar o gabarito."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#59",
@@ -1332,11 +1342,15 @@
         "administrativo.servidores.estatuto-sp",
         "administrativo.servidores.regime-disciplinar"
       ],
-      "dispositivos": [],
-      "exp": "O Estatuto paulista não proíbe a mera participação do funcionário como **sócio** (quotista ou acionista) de sociedade; a vedação recai sobre a **gerência ou administração** de empresas em certas hipóteses (D). Entre as proibições estão **retirar documento da repartição sem prévia permissão** (A), **incitar greves ou a elas aderir** (B) e **constituir-se procurador de partes** perante repartição pública, salvo interesse de cônjuge ou parente **até o segundo grau** (E). (C) o dever é residir no local onde exerce o cargo ou onde autorizado, sem a regra de 60 km.",
-      "pendencias": [
-        "localizar os artigos de deveres e proibições da Lei 10.261/68 (arts. 241 a 243?) e conferir a redação sobre participação em sociedades"
-      ]
+      "dispositivos": [
+        "L10261 243 VI",
+        "L10261 242 II",
+        "L10261 243 VII",
+        "L10261 243 IX",
+        "L10261 241 VII"
+      ],
+      "exp": "`Lei 10.261/68, art. 243, VI`: a proibição de comerciar ou ter parte em sociedades comerciais limita-se às condições do inciso II (empresas que mantêm relações com o Governo etc.), **podendo, em qualquer caso, ser acionista, quotista ou comanditário** (D). São proibições **retirar, sem prévia permissão da autoridade competente, qualquer documento** da repartição (`art. 242, II`), **incitar greves ou a elas aderir** (`art. 243, VII`) e **constituir-se procurador de partes** perante repartição pública, salvo interesse de cônjuge ou parente **até segundo grau** (`art. 243, IX`), o que afasta (A), (B) e (E). (C) o dever é **residir no local onde exerce o cargo ou onde autorizado** (`art. 241, VII`), sem regra de 60 km.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#60",
@@ -1663,12 +1677,11 @@
         "legislacao-especial.custas"
       ],
       "dispositivos": [
-        "L11608 5"
+        "L11608 5 IV",
+        "L11608 5 p.ú."
       ],
-      "exp": "`Lei 11.608/03, art. 5º`: o recolhimento da taxa judiciária é **diferido para depois da satisfação da execução** quando comprovada, por meio idôneo, a **momentânea impossibilidade financeira**, ainda que parcial, entre outros casos, **nos embargos à execução**, e a regra vale para **pessoas físicas e jurídicas**. Por isso (A), (C) e (D) erram, e (E) acrescenta exigência de garantia que a lei não prevê.",
-      "pendencias": [
-        "conferir o inciso do art. 5º da Lei 11.608/03 relativo aos embargos à execução"
-      ]
+      "exp": "`Lei 11.608/03, art. 5º, IV`: nos **embargos à execução**, o recolhimento da taxa judiciária é **diferido para depois da satisfação da execução** quando comprovada, por meio idôneo, a **momentânea impossibilidade financeira**, ainda que parcial, e o `p.ú.` estende a regra a **pessoas físicas e jurídicas** (B). Por isso (A), (C) e (D) erram, e (E) acrescenta exigência de garantia que a lei não prevê.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#74",
@@ -1686,11 +1699,13 @@
       "temas": [
         "legislacao-especial.custas"
       ],
-      "dispositivos": [],
-      "exp": "A Lei 11.608/03 prevê que **não incide** a taxa judiciária, entre outras, nas causas **de acidentes do trabalho** e nas **da jurisdição de menores** (D). Ações de alimentos admitem **diferimento** (`art. 5º`), não isenção, o que afasta (B) e (E); inventários e arrolamentos e ações indenizatórias pagam a taxa.",
-      "pendencias": [
-        "localizar o artigo da Lei 11.608/03 que lista as causas em que a taxa judiciária não incide (art. 7º?)"
-      ]
+      "dispositivos": [
+        "L11608 7 I",
+        "L11608 7 II",
+        "L11608 7 III"
+      ],
+      "exp": "`Lei 11.608/03, art. 7º`: **não incide** a taxa judiciária nas causas **da jurisdição de menores** (I), **de acidentes do trabalho** (II) e nas **ações de alimentos** cuja prestação mensal **não supere 2 salários-mínimos** (III) (D). As ações de alimentos em geral só têm o recolhimento **diferido** (`art. 5º, I`), o que afasta (B) e (E); inventários e arrolamentos, ações indenizatórias e ações contra a Fazenda Pública não estão no rol, e a isenção do `art. 6º` beneficia os entes públicos, não a causa.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#75",
