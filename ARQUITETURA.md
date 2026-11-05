@@ -11,6 +11,11 @@ Proposta para transformar o `public-prep` num **template**: cada pessoa copia o 
 | Visibilidade | **Repositório privado**, compartilhado por convite. Pode guardar o texto integral das provas. |
 | Formatos | **Múltipla escolha (A–E), Certo/Errado e discursiva/estudo de caso.** |
 | Etiquetas | **Temas** (em níveis) e **dispositivos** citados, por questão. **Banca** vem da prova. A relevância para cada concurso é **calculada**, nunca etiquetada. |
+| Níveis de tema | Matéria e, abaixo dela, **até 3 níveis**. O detalhe mais fino fica nos dispositivos. |
+| Normas que renumeram (NSCGJ) | Tema normal; dispositivo por **tomo, capítulo e seção**; a prova registra a data de aplicação. |
+| Dificuldade | **Personalizada**: calculada pelo histórico de cada pessoa, guardada só no painel dela. |
+| Pastas | `provas/<banca>/<órgão>/<cargo>/<ano>/` e `editais/<órgão>/<cargo>/<ano>/`. |
+| Ponto de partida | **Do zero**, no branch `develop`, que depois passa a ser a `main`. |
 
 ## A ideia central: etiquetar pelo conteúdo, calcular a relevância
 
@@ -28,9 +33,9 @@ Por que não etiquetar por concurso: a cada edital novo (seu ou de um colega) se
 
 | Camada | O que guarda | Onde |
 |---|---|---|
-| **Taxonomia** | a árvore de temas de cada matéria | `taxonomia/*.json` |
-| **Editais** | data, blocos, pesos, cortes e temas cobertos | `editais/*.json` |
-| **Provas** | metadados da prova e suas questões etiquetadas | `provas/<id>/` |
+| **Taxonomia** | a árvore de temas de cada matéria | `taxonomia/<matéria>.json` |
+| **Editais** | data, banca, blocos, pesos, cortes e temas cobertos | `editais/<órgão>/<cargo>/<ano>/edital.json` |
+| **Provas** | metadados, texto e questões etiquetadas | `provas/<banca>/<órgão>/<cargo>/<ano>/` |
 | **Questões autorais** | as criadas por Claude, quando falta questão real | `autorais/*.json` |
 | **Método** | as regras de professor | `METODO.md` e `CLAUDE.md` |
 | **Candidato** | sessões, respostas, revisões e temas fracos | banco do painel (privado) |
@@ -48,7 +53,7 @@ O **repositório é a fonte de verdade**: legível, versionado, revisável. Um s
 
 ### Taxonomia (`taxonomia/cpc.json`)
 
-Árvore de até 3 níveis. O identificador é um caminho com pontos, estável para sempre (o nome exibido pode mudar).
+Um arquivo por matéria; abaixo dela, **até 3 níveis** (o validador recusa mais). O identificador é um caminho com pontos, começando pela matéria, estável para sempre (o nome exibido pode mudar). Para ir além do terceiro nível, use `dispositivos`.
 
 ```json
 {
@@ -64,13 +69,13 @@ O **repositório é a fonte de verdade**: legível, versionado, revisável. Um s
 }
 ```
 
-### Edital (`editais/trf3-2026-oja.json`)
+### Edital (`editais/trf3/oficial-de-justica-avaliador-federal/2026/edital.json`)
 
 O edital lista temas em qualquer nível: listar `cpc.atos` cobre tudo abaixo dele.
 
 ```json
 {
-  "id": "trf3-2026-oja",
+  "id": "trf3/oficial-de-justica-avaliador-federal/2026",
   "orgao": "TRF3", "cargo": "Oficial de Justiça Avaliador Federal", "banca": "Vunesp",
   "prova": "2027-01-31",
   "formato": "multipla-escolha",
@@ -84,20 +89,43 @@ O edital lista temas em qualquer nível: listar `cpc.atos` cobre tudo abaixo del
 }
 ```
 
-### Prova (`provas/vunesp-2024-tjsp-oj/prova.json`)
+### Pastas
+
+Nomes em minúsculas, sem acento, com hífens. O identificador de uma prova ou edital é o próprio caminho.
+
+```
+provas/
+  vunesp/
+    tj-sp/
+      oficial-de-justica/
+        2023/   prova.json  questoes.json  texto.txt
+        2024/   prova.json  questoes.json  texto.txt
+  fcc/
+    trf3/
+      analista-judiciario-oficial-de-justica/
+        2019/   ...
+editais/
+  trf3/oficial-de-justica-avaliador-federal/2026/edital.json
+  tj-sp/oficial-de-justica/2026/edital.json
+```
+
+A banca vem primeiro nas provas porque o estilo da banca é o que mais pesa no estudo, e o ano por último deixa as provas do mesmo cargo lado a lado. O edital pertence ao órgão (a banca pode mudar de um concurso para outro), então ela é um campo dentro dele. Duas aplicações no mesmo ano viram pastas irmãs: `2024`, `2024-reaplicacao`.
+
+### Prova (`provas/vunesp/tj-sp/oficial-de-justica/2024/prova.json`)
 
 ```json
 {
-  "id": "vunesp-2024-tjsp-oj",
+  "id": "vunesp/tj-sp/oficial-de-justica/2024",
   "banca": "Vunesp", "orgao": "TJ-SP", "cargo": "Oficial de Justiça", "ano": 2024,
+  "aplicacao": "2024-12-15",
   "caderno": "TJSP2403/001",
   "gabarito": "resolvido",            // "oficial" | "definitivo" | "resolvido" (pela lei, sem oficial)
   "anuladas": [],
-  "texto": "provas/vunesp-2024-tjsp-oj/texto.txt"
+  "texto": "texto.txt"
 }
 ```
 
-### Questão (`provas/vunesp-2024-tjsp-oj/questoes.json`)
+### Questão (`provas/vunesp/tj-sp/oficial-de-justica/2024/questoes.json`)
 
 As três etiquetas ficam assim: **temas** e **dispositivos** na questão; **banca** (com órgão, cargo e ano) herdada da prova.
 
@@ -105,7 +133,7 @@ As três etiquetas ficam assim: **temas** e **dispositivos** na questão; **banc
 
 ```json
 {
-  "id": "vunesp-2024-tjsp-oj#43",
+  "id": "vunesp/tj-sp/oficial-de-justica/2024#43",
   "tipo": "me",
   "numero": 43,
   "texto_base": null,
@@ -114,8 +142,7 @@ As três etiquetas ficam assim: **temas** e **dispositivos** na questão; **banc
   "gab": "D",
   "temas": ["cpc.intervencao.denunciacao"],
   "dispositivos": ["CPC 125 §1º", "CPC 1.015 IX", "CF 37 §6º"],
-  "exp": "...",
-  "dificuldade": null
+  "exp": "..."
 }
 ```
 
@@ -123,7 +150,7 @@ As três etiquetas ficam assim: **temas** e **dispositivos** na questão; **banc
 
 ```json
 {
-  "id": "cebraspe-2024-xxx#bloco-3",
+  "id": "cebraspe/<órgão>/<cargo>/2024#bloco-3",
   "tipo": "ce",
   "texto_base": "Joana, servidora pública...",
   "itens": [
@@ -137,7 +164,7 @@ As três etiquetas ficam assim: **temas** e **dispositivos** na questão; **banc
 
 ```json
 {
-  "id": "vunesp-2023-tjsp-oj#d1",
+  "id": "vunesp/tj-sp/oficial-de-justica/2023#d1",
   "tipo": "disc",
   "enunciado": "...",
   "limite_linhas": 30,
@@ -164,7 +191,7 @@ Uma norma reduzida e um caminho, sempre do mesmo jeito, para dar para agrupar ("
 | Código de Processo Civil | `CPC` | `CPC 246 §1º-A` |
 | Código de Processo Penal | `CPP` | `CPP 362 p.ú.` |
 | Leis | `L<número>` | `L8112 13 §6º`, `L6830 7º III` |
-| Normas da Corregedoria SP | `NSCGJ` | `NSCGJ I.VI.?` |
+| Normas da Corregedoria SP | `NSCGJ` | `NSCGJ T1 C6 S4` (tomo, capítulo, seção) |
 
 ## O painel
 
@@ -187,7 +214,7 @@ O painel continua sendo um único artifact com banco, agora genérico:
 | Questões, provas, taxonomia, editais | **arquivos publicados com o painel** (vindos do repo) | ~2 KB por questão; 10 mil questões ≈ 20 MB, dentro dos 256 MB por versão |
 | `sessoes/<id>` (ids das questões e mini-aula) | banco do painel | 1 por dia |
 | `respostas/<id>` | banco do painel | 1 por dia |
-| `estado/questoes` (revisão espaçada, agregada) | banco do painel | poucos documentos |
+| `estado/questoes` (revisão espaçada e dificuldade pessoal, agregadas) | banco do painel | poucos documentos |
 | `meta/painel`, `meta/revisoes` | banco do painel | 2 |
 
 O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as questões fora dele, um ano de estudo diário usa menos de mil documentos. Uma questão nova entra no painel com um commit no repo e uma republicação dos arquivos; o progresso no banco não é tocado.
@@ -199,22 +226,15 @@ O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as ques
 3. Rodar o script de importação, que cria o painel do colega com o banco já carregado.
 4. Estudar. Provas novas etiquetadas por qualquer um podem voltar ao template por pull request.
 
-## Migração do que existe hoje
+## Ponto de partida
 
-- As 4 sessões do painel único (0013, 0014, TRF3·01, 0015) viram questões etiquetadas no banco; as sessões passam a apontar para elas por id.
-- As etiquetas de concurso (`concursos`) saem; a relevância vem dos editais do TRF3 e do TJ-SP.
-- O histórico 0001–0012, que só existe agregado por matéria, fica como está (`base`).
-- O painel atual continua no mesmo link; os dados de progresso são preservados.
+O framework começa **do zero no branch `develop`**, sem as sessões e o painel atuais. Enquanto isso, a `main` segue com o estudo do dia a dia (painel único, sessão 0015). Quando a `develop` tiver painel e banco funcionando, ela passa a ser a `main`, e o histórico atual fica num branch de arquivo (`legado`).
+
+O que é reaproveitado como **dado de entrada**, não como estrutura: o texto da prova TJ-SP 2024 e o conhecimento dos dois editais.
 
 ## Fases
 
-1. **Fundação**: esquemas, taxonomia das matérias dos dois editais, editais do TRF3 e do TJ-SP, script de validação e migração das questões já usadas.
+1. **Fundação**: esquemas, taxonomia das matérias dos dois editais, editais do TRF3 e do TJ-SP e script de validação.
 2. **Banco real**: etiquetar a prova TJ-SP 2024 inteira (100 questões) e a TJ-SP 2023; depois FCC TRF3 2019 para os temas só do TRF3.
 3. **Painel v2**: placar por edital calculado por tema, sessão automática, C/E e discursiva.
 4. **Template**: `METODO.md`, guia para colegas e script de criação de painel.
-
-## Em aberto
-
-- **Profundidade da taxonomia**: 3 níveis bastam? Mais fundo dá estatística mais fina, mas etiquetar fica mais lento e mais inconsistente.
-- **Normas da Corregedoria (NSCGJ)**: a numeração muda com frequência; talvez etiquetar por capítulo e não por artigo.
-- **Dificuldade**: calcular pelo seu histórico de acertos (e dos colegas, se um dia compartilharem estatísticas) ou deixar em branco.
