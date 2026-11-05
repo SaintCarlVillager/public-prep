@@ -33,6 +33,10 @@
         {
           "id": "previdenciario.rgps.custeio",
           "nome": "Custeio"
+        },
+        {
+          "id": "previdenciario.rgps.cota-pcd",
+          "nome": "Reserva de vagas para pessoas com deficiência e reabilitados (art. 93 da Lei 8.213)"
         }
       ]
     },
