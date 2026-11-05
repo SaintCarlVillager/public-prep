@@ -133,16 +133,81 @@ def validar_editais(temas, normas):
             erros.append(f"{rel}: os blocos somam {total} questões, a objetiva tem {obj}")
 
 
+def validar_provas(temas, normas):
+    total = pendentes = 0
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "provas", "**", "prova.json"), recursive=True)):
+        rel = os.path.relpath(caminho, RAIZ)
+        pasta = os.path.dirname(caminho)
+        p = carregar(caminho)
+        if p is None:
+            continue
+        esperado = os.path.relpath(pasta, os.path.join(RAIZ, "provas"))
+        if p.get("id") != esperado:
+            erros.append(f"{rel}: 'id' deve ser '{esperado}' (o caminho da pasta)")
+        for campo in ("banca", "orgao", "cargo", "ano", "aplicacao", "formato", "questoes", "gabarito"):
+            if campo not in p:
+                erros.append(f"{rel}: falta '{campo}'")
+        gab = p.get("gabarito", {}).get("respostas", {})
+        if p.get("formato") == "me" and len(gab) != p.get("questoes"):
+            erros.append(f"{rel}: gabarito com {len(gab)} respostas para {p.get('questoes')} questões")
+        for nome in (p.get("arquivos") or {}).values():
+            if not os.path.exists(os.path.join(pasta, nome)):
+                erros.append(f"{rel}: arquivo '{nome}' não encontrado na pasta")
+        anuladas = set(p.get("anuladas", []))
+
+        cq = os.path.join(pasta, "questoes.json")
+        if not os.path.exists(cq):
+            avisos.append(f"{rel}: ainda sem questoes.json")
+            continue
+        relq = os.path.relpath(cq, RAIZ)
+        d = carregar(cq)
+        if d is None:
+            continue
+        vistos = set()
+        for q in d.get("questoes", []):
+            n = q.get("numero")
+            onde = f"{relq} › Q{n}"
+            if q.get("id") != f"{p.get('id')}#{n}":
+                erros.append(f"{onde}: id deve ser '{p.get('id')}#{n}'")
+            if n in vistos:
+                erros.append(f"{onde}: número repetido")
+            vistos.add(n)
+            if not q.get("enunciado"):
+                erros.append(f"{onde}: enunciado vazio")
+            if q.get("tipo") == "me":
+                if sorted(q.get("alt", {})) != list("ABCDE"):
+                    erros.append(f"{onde}: alternativas devem ser A a E")
+                if any(not v for v in q.get("alt", {}).values()):
+                    erros.append(f"{onde}: alternativa vazia")
+                if n not in anuladas and q.get("gab") != gab.get(str(n)):
+                    erros.append(f"{onde}: gabarito '{q.get('gab')}' difere do oficial '{gab.get(str(n))}'")
+            if not q.get("temas"):
+                erros.append(f"{onde}: sem temas")
+            for t in q.get("temas", []):
+                if t not in temas:
+                    erros.append(f"{onde}: tema '{t}' não existe na taxonomia")
+            for disp in q.get("dispositivos", []):
+                validar_dispositivo(disp, normas, onde)
+            if not q.get("exp"):
+                avisos.append(f"{onde}: sem explicação")
+            if q.get("pendencias"):
+                pendentes += 1
+            total += 1
+    return total, pendentes
+
+
 def main():
     temas = validar_taxonomia()
     normas = validar_normas()
     validar_editais(temas, normas)
+    n_questoes, n_pend = validar_provas(temas, normas)
     for a in avisos:
         print("aviso:", a)
     for e in erros:
         print("erro:", e)
     n_editais = len(glob.glob(os.path.join(RAIZ, "editais", "**", "edital.json"), recursive=True))
-    print(f"{len(temas)} temas, {len(normas)} normas, {n_editais} editais: "
+    print(f"{len(temas)} temas, {len(normas)} normas, {n_editais} editais, "
+          f"{n_questoes} questões ({n_pend} com pendência): "
           + ("ok" if not erros else f"{len(erros)} erro(s)"))
     sys.exit(1 if erros else 0)
 
