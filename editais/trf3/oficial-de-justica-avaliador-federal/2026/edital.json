@@ -1,0 +1,687 @@
+{
+  "id": "trf3/oficial-de-justica-avaliador-federal/2026",
+  "orgao": "TRF3",
+  "cargo": "Analista Judiciário – Área Judiciária – Especialidade Oficial de Justiça Avaliador Federal",
+  "codigo_opcao": "003",
+  "unidade": "JFSP",
+  "banca": "Vunesp",
+  "edital": "Edital NI nº 01/2026, retificado pelo Edital nº 02/2026",
+  "publicacao": "2026-10-26",
+  "inscricoes": {
+    "inicio": "2026-11-04",
+    "fim": "2026-11-23",
+    "pagamento_ate": "2026-11-24T21:59"
+  },
+  "prova": "2027-01-31",
+  "legislacao_ate": "2026-10-26",
+  "fonte": "edital.pdf (Anexo VI em anexo-vi-conteudo.txt) e retificacao-02-2026.pdf",
+  "objetiva": {
+    "formato": "me",
+    "questoes": 60,
+    "escala": 10,
+    "media_ponderada": true,
+    "minimo_media": 6.0,
+    "minimo_media_cotas": 4.8,
+    "nota": "Cada prova (Gerais e Específicos) vale de 0 a 10; a nota da objetiva é a média ponderada (Gerais peso 1, Específicos peso 2). Habilitado com 50% em cada prova (12 e 18 acertos) e média ≥ 6,0. Cotas: 40% (10 e 15 acertos) e média ≥ 4,8."
+  },
+  "discursiva": {
+    "tipo": "estudo-de-caso",
+    "questoes": 1,
+    "escala": 10,
+    "minimo": 5,
+    "minimo_cotas": 4,
+    "linhas": 30,
+    "peso": 1,
+    "carater": "eliminatorio-e-classificatorio",
+    "sobre": "Conhecimentos Específicos, adequados às atribuições do cargo",
+    "corrigida_para": "habilitados na objetiva até a 250ª posição (SJSP), mais todos os cotistas habilitados",
+    "criterios": [
+      "conhecimento e capacidade teórico-prática de desenvolver a proposta",
+      "clareza, coerência e objetividade",
+      "organização do texto",
+      "análise e síntese dos fatos",
+      "correção gramatical",
+      "raciocínio, fundamentação e consistência",
+      "interpretação e exposição"
+    ],
+    "observacao": "Peso 1 conforme a retificação (o edital original indicava peso 2)."
+  },
+  "nota_final": "média ponderada da objetiva + nota do estudo de caso",
+  "blocos": [
+    {
+      "id": "gerais",
+      "nome": "Conhecimentos Gerais",
+      "questoes": 24,
+      "peso": 1,
+      "minimo": 0.5,
+      "eliminatorio": true,
+      "cobertura": [
+        {
+          "materia": "portugues",
+          "rotulo": "Língua Portuguesa e Raciocínio Analítico",
+          "temas": [
+            "portugues.redacao-oficial",
+            "portugues.ortografia",
+            "portugues.crase",
+            "portugues.interpretacao",
+            "portugues.semantica",
+            "portugues.discurso",
+            "portugues.intertextualidade",
+            "portugues.figuras",
+            "portugues.morfossintaxe",
+            "portugues.formacao-palavras",
+            "portugues.pontuacao",
+            "portugues.classes",
+            "portugues.concordancia",
+            "portugues.flexao",
+            "portugues.vozes",
+            "portugues.tempos-modos",
+            "portugues.regencia",
+            "portugues.coordenacao-subordinacao",
+            "portugues.coesao",
+            "portugues.reescrita",
+            "portugues.argumentacao"
+          ]
+        },
+        {
+          "materia": "raciocinio-logico",
+          "rotulo": "Raciocínio Lógico-Matemático",
+          "temas": [
+            "raciocinio-logico.estruturas",
+            "raciocinio-logico.argumentacao",
+            "raciocinio-logico.sequencias",
+            "raciocinio-logico.espacial-temporal",
+            "matematica.razao-proporcao",
+            "matematica.porcentagem",
+            "matematica.regra-de-tres"
+          ]
+        },
+        {
+          "materia": "etica",
+          "rotulo": "Ética no Serviço Público e Integridade",
+          "temas": [
+            "etica.fundamentos",
+            "administrativo.servidores.regime-disciplinar",
+            "administrativo.improbidade",
+            "administrativo.anticorrupcao",
+            "administrativo.processo-administrativo",
+            "etica.normas-jf3r",
+            "etica.integridade-judiciario",
+            "etica.assedio",
+            "etica.lgpd",
+            "etica.acesso-informacao"
+          ],
+          "normas": {
+            "L8112": [
+              "*"
+            ],
+            "L8429": [
+              "*"
+            ],
+            "L12846": [
+              "*"
+            ],
+            "L9784": [
+              "*"
+            ],
+            "L13709": [
+              "*"
+            ],
+            "L12527": [
+              "*"
+            ],
+            "CJF-R147": [
+              "*"
+            ],
+            "CNJ-R410": [
+              "*"
+            ],
+            "CNJ-R351": [
+              "*"
+            ]
+          },
+          "observacao": "Lei 8.112 aqui: deveres, proibições, acumulação, responsabilidades e penalidades. Também: Portarias CJF 116/2012 e PRES 4.657/2026, Resolução PRES 426/2021."
+        },
+        {
+          "materia": "direitos-humanos",
+          "rotulo": "Noções de Direitos Humanos e Fundamentais e de Acessibilidade",
+          "temas": [
+            "direitos-humanos.teoria-geral",
+            "direitos-humanos.dudh",
+            "direitos-humanos.agenda-2030",
+            "direitos-humanos.pcd",
+            "direitos-humanos.acessibilidade",
+            "direitos-humanos.prioridade"
+          ],
+          "normas": {
+            "L13146": [
+              "*"
+            ],
+            "D6949": [
+              "*"
+            ],
+            "CNJ-R401": [
+              "*"
+            ],
+            "L11126": [
+              "*"
+            ],
+            "L10098": [
+              "*"
+            ],
+            "L10048": [
+              "*"
+            ],
+            "L7853": [
+              "*"
+            ],
+            "D5296": [
+              "*"
+            ],
+            "L14364": [
+              "*"
+            ],
+            "D3298": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "informatica",
+          "rotulo": "Informática, Inteligência Artificial e Inovação",
+          "temas": [
+            "informatica.windows",
+            "informatica.word",
+            "informatica.excel",
+            "informatica.powerpoint",
+            "informatica.onedrive",
+            "informatica.sharepoint",
+            "informatica.email",
+            "informatica.teams",
+            "informatica.seguranca",
+            "informatica.ia",
+            "informatica.inovacao"
+          ],
+          "normas": {
+            "CNJ-R615": [
+              "*"
+            ],
+            "CNJ-R395": [
+              "*"
+            ],
+            "CNJ-R674": [
+              "*"
+            ],
+            "CNJ-R647": [
+              "*"
+            ]
+          },
+          "observacao": "Também a Portaria CNJ 379/2024 (capítulos 1 a 4 e Anexo II)."
+        },
+        {
+          "materia": "sustentabilidade",
+          "rotulo": "Sustentabilidade e Meio Ambiente",
+          "temas": [
+            "sustentabilidade.desenvolvimento-sustentavel",
+            "sustentabilidade.ods",
+            "sustentabilidade.contratacoes",
+            "sustentabilidade.clima",
+            "sustentabilidade.judiciario"
+          ],
+          "normas": {
+            "L14133": [
+              "*"
+            ],
+            "L12187": [
+              "*"
+            ],
+            "CNJ-R433": [
+              "*"
+            ],
+            "CJF-R709": [
+              "*"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "especificos",
+      "nome": "Conhecimentos Específicos",
+      "questoes": 36,
+      "peso": 2,
+      "minimo": 0.5,
+      "eliminatorio": true,
+      "cobertura": [
+        {
+          "materia": "civil",
+          "rotulo": "Direito Civil",
+          "temas": [
+            "civil.lei",
+            "civil.pessoas",
+            "civil.personalidade",
+            "civil.pessoa-juridica",
+            "civil.domicilio",
+            "civil.bens",
+            "civil.fatos-negocios",
+            "civil.prescricao-decadencia",
+            "civil.obrigacoes",
+            "civil.contratos",
+            "civil.responsabilidade",
+            "civil.posse",
+            "civil.propriedade",
+            "civil.direitos-reais"
+          ],
+          "normas": {
+            "CC": [
+              "*"
+            ],
+            "LINDB": [
+              "*"
+            ],
+            "L8009": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "processo-civil",
+          "rotulo": "Direito Processual Civil",
+          "temas": [
+            "processo-civil.normas",
+            "processo-civil.jurisdicao",
+            "processo-civil.competencia",
+            "processo-civil.acao",
+            "processo-civil.sujeitos",
+            "processo-civil.despesas",
+            "processo-civil.litisconsorcio",
+            "processo-civil.intervencao",
+            "processo-civil.juiz",
+            "processo-civil.auxiliares",
+            "processo-civil.funcoes-essenciais",
+            "processo-civil.fazenda",
+            "processo-civil.atos",
+            "processo-civil.comunicacao",
+            "processo-civil.cooperacao",
+            "processo-civil.tutela-provisoria",
+            "processo-civil.conhecimento",
+            "processo-civil.provas",
+            "processo-civil.sentenca",
+            "processo-civil.recursos",
+            "processo-civil.execucao",
+            "processo-civil.procedimentos-especiais",
+            "processo-civil.coletivo",
+            "processo-civil.tribunais"
+          ],
+          "normas": {
+            "CPC": [
+              "*"
+            ],
+            "L14195": [
+              "*"
+            ],
+            "CNJ-R455": [
+              "*"
+            ],
+            "CNJ-R569": [
+              "*"
+            ],
+            "CNJ-Rec167": [
+              "*"
+            ],
+            "L14711": [
+              "*"
+            ],
+            "L6830": [
+              "*"
+            ]
+          },
+          "destaques": [
+            "CPC 151-155",
+            "CPC 252-254",
+            "CPC 536 §2º"
+          ]
+        },
+        {
+          "materia": "constitucional",
+          "rotulo": "Direito Constitucional",
+          "temas": [
+            "constitucional.principios",
+            "constitucional.direitos-individuais",
+            "constitucional.direitos-sociais",
+            "constitucional.nacionalidade",
+            "constitucional.direitos-politicos",
+            "constitucional.remedios",
+            "constitucional.organizacao-estado",
+            "constitucional.intervencao",
+            "constitucional.administracao-publica",
+            "constitucional.poderes",
+            "constitucional.judiciario",
+            "constitucional.funcoes-essenciais",
+            "constitucional.controle",
+            "constitucional.ordem-economica",
+            "constitucional.financas",
+            "constitucional.ordem-social"
+          ],
+          "normas": {
+            "CF": [
+              "*"
+            ]
+          },
+          "destaques": [
+            "CF 5º XI",
+            "CF 100"
+          ]
+        },
+        {
+          "materia": "administrativo",
+          "rotulo": "Direito Administrativo e Administração Pública",
+          "temas": [
+            "administrativo.regime-juridico",
+            "administrativo.principios",
+            "administrativo.poderes",
+            "administrativo.abuso-de-autoridade",
+            "administrativo.organizacao",
+            "administrativo.agencias",
+            "administrativo.ato",
+            "administrativo.licitacoes",
+            "administrativo.processo-administrativo",
+            "administrativo.controle",
+            "administrativo.improbidade",
+            "administrativo.servico-publico",
+            "administrativo.agentes",
+            "administrativo.servidores",
+            "administrativo.responsabilidade",
+            "administrativo.pad",
+            "administrativo.governanca"
+          ],
+          "normas": {
+            "LINDB": [
+              "*"
+            ],
+            "L13869": [
+              "*"
+            ],
+            "L13848": [
+              "*"
+            ],
+            "L14133": [
+              "*"
+            ],
+            "L9784": [
+              "*"
+            ],
+            "L8429": [
+              "*"
+            ],
+            "L8112": [
+              "*"
+            ],
+            "L14687": [
+              "*"
+            ],
+            "CNJ-Rec167": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "penal",
+          "rotulo": "Direito Penal",
+          "temas": [
+            "penal.principios",
+            "penal.aplicacao",
+            "penal.crime",
+            "penal.imputabilidade",
+            "penal.concurso-pessoas",
+            "penal.penas",
+            "penal.acao-penal",
+            "penal.extincao-punibilidade",
+            "penal.patrimonio",
+            "penal.fe-publica",
+            "penal.administracao-publica",
+            "penal.administracao-justica",
+            "penal.ordem-tributaria",
+            "penal.ambientais",
+            "penal.licitacoes",
+            "penal.lavagem",
+            "penal.organizacoes-criminosas"
+          ],
+          "normas": {
+            "CP": [
+              "*"
+            ],
+            "L8137": [
+              "*"
+            ],
+            "L9605": [
+              "*"
+            ],
+            "L9613": [
+              "*"
+            ],
+            "L12850": [
+              "*"
+            ],
+            "CNJ-Rec167": [
+              "*"
+            ]
+          },
+          "destaques": [
+            "CP 322",
+            "CP 329",
+            "CP 330",
+            "CP 331",
+            "CP 344",
+            "CP 337-E-337-P"
+          ]
+        },
+        {
+          "materia": "processo-penal",
+          "rotulo": "Direito Processual Penal",
+          "temas": [
+            "processo-penal.oficial-de-justica",
+            "processo-penal.competencia",
+            "processo-penal.incidentes",
+            "processo-penal.prova",
+            "processo-penal.cadeia-custodia",
+            "processo-penal.busca-apreensao",
+            "processo-penal.conducao-coercitiva",
+            "processo-penal.prisao",
+            "processo-penal.atos",
+            "processo-penal.comunicacao",
+            "processo-penal.procedimentos",
+            "processo-penal.juizados",
+            "processo-penal.sentenca",
+            "processo-penal.nulidades",
+            "processo-penal.recursos",
+            "processo-penal.execucao"
+          ],
+          "normas": {
+            "CPP": [
+              "*"
+            ],
+            "L10259": [
+              "*"
+            ],
+            "L9099": [
+              "*"
+            ],
+            "L7210": [
+              "*"
+            ],
+            "L11671": [
+              "*"
+            ],
+            "CNJ-Rec167": [
+              "*"
+            ]
+          },
+          "destaques": [
+            "CPP 158-A-158-F",
+            "CPP 245"
+          ]
+        },
+        {
+          "materia": "tributario",
+          "rotulo": "Direito Tributário",
+          "temas": [
+            "tributario.normas-gerais",
+            "tributario.fontes",
+            "tributario.norma",
+            "tributario.tributo",
+            "tributario.fato-gerador",
+            "tributario.obrigacao",
+            "tributario.credito",
+            "tributario.responsabilidade",
+            "tributario.sistema-nacional",
+            "tributario.reforma",
+            "tributario.administracao",
+            "tributario.garantias",
+            "tributario.execucao-fiscal",
+            "tributario.cautelar-fiscal",
+            "tributario.defesas",
+            "tributario.divida-ativa"
+          ],
+          "normas": {
+            "CTN": [
+              "*"
+            ],
+            "CF": [
+              "145-162"
+            ],
+            "EC132": [
+              "*"
+            ],
+            "LC214": [
+              "*"
+            ],
+            "LC227": [
+              "*"
+            ],
+            "L6830": [
+              "*"
+            ],
+            "L8397": [
+              "*"
+            ],
+            "L13988": [
+              "*"
+            ]
+          },
+          "observacao": "Medida cautelar fiscal (Lei 8.397/1992) citada pelo nome, sem número no edital. CF 145-162 inferido de 'Sistema Tributário Nacional' (o edital não cita artigos)."
+        },
+        {
+          "materia": "previdenciario",
+          "rotulo": "Direito Previdenciário",
+          "temas": [
+            "previdenciario.seguridade",
+            "previdenciario.constitucional",
+            "previdenciario.assistencia-bpc",
+            "previdenciario.regimes",
+            "previdenciario.rgps",
+            "previdenciario.rpps",
+            "previdenciario.complementar",
+            "previdenciario.jef",
+            "previdenciario.execucao"
+          ],
+          "normas": {
+            "CF": [
+              "194-204"
+            ],
+            "L8742": [
+              "*"
+            ],
+            "L8212": [
+              "*"
+            ],
+            "L8213": [
+              "*"
+            ],
+            "D3048": [
+              "*"
+            ],
+            "L9717": [
+              "*"
+            ],
+            "LC108": [
+              "*"
+            ],
+            "LC109": [
+              "*"
+            ],
+            "L12618": [
+              "*"
+            ],
+            "L10259": [
+              "*"
+            ]
+          },
+          "destaques": [
+            "CF 201",
+            "CF 202"
+          ],
+          "observacao": "CF 194-204 inferido de 'seguridade social'; o edital cita nominalmente só os arts. 201 e 202."
+        },
+        {
+          "materia": "ambiental",
+          "rotulo": "Direito Ambiental",
+          "temas": [
+            "ambiental.constitucional",
+            "ambiental.principios",
+            "ambiental.competencias",
+            "ambiental.pnma",
+            "ambiental.sisnama",
+            "ambiental.licenciamento",
+            "ambiental.recursos-hidricos",
+            "ambiental.florestas",
+            "ambiental.espacos-protegidos",
+            "ambiental.dano",
+            "ambiental.responsabilidade",
+            "ambiental.tutela-processual",
+            "ambiental.crimes"
+          ],
+          "normas": {
+            "CF": [
+              "225"
+            ],
+            "L6938": [
+              "*"
+            ],
+            "D99274": [
+              "*"
+            ],
+            "CONAMA-R1": [
+              "*"
+            ],
+            "CONAMA-R237": [
+              "*"
+            ],
+            "L9433": [
+              "*"
+            ],
+            "L12651": [
+              "*"
+            ],
+            "CONAMA-R302": [
+              "*"
+            ],
+            "CONAMA-R303": [
+              "*"
+            ],
+            "L11284": [
+              "*"
+            ],
+            "L9985": [
+              "*"
+            ],
+            "L9605": [
+              "*"
+            ]
+          },
+          "observacao": "CF 225 inferido de 'direito ambiental constitucional'. Também súmulas e jurisprudência do STF e STJ."
+        }
+      ]
+    }
+  ]
+}

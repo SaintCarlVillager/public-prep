@@ -98,6 +98,9 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
 - Intervalos incluem os artigos com letra no meio (`"396-396-A"`, `"994-1091-A"`); `"*"` é a norma inteira.
 - `questoes` dentro de uma cobertura é opcional, para quando o edital divide o bloco (3 de Matemática e 4 de Raciocínio Lógico).
 - `legislacao_ate`: a legislação vale como estava na publicação do edital.
+- `"*"` numa norma (`"CPC": ["*"]`) diz que o edital cobra a norma sem listar artigos, como faz o TRF3. Aí a relevância vem dos **temas**, e a norma só confirma.
+- `destaques`: dispositivos que o edital cita nominalmente (`"CPP 245"`, `"CPC 252-254"`). Não mudam a relevância, mas sobem a prioridade de estudo.
+- Intervalos que não estão escritos no edital, e sim deduzidos do texto dele, ficam explicados em `observacao`.
 
 ### Pastas
 
