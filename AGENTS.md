@@ -82,6 +82,20 @@ Use subagentes **sempre que a tarefa puder ser dividida** ou exigir ler muito ma
 - Peça de volta só um resumo curto (contagens, pendências, problemas), nunca o conteúdo inteiro.
 - Bom recorte: um bloco ou matéria de uma prova por subagente; um edital por subagente.
 
+### Roteamento: o modelo certo para cada tarefa
+
+O subagente **não precisa herdar a capacidade do orquestrador**. Escolha o modelo e o nível de esforço pelo que a tarefa exige, para gastar menos tokens sem perder qualidade:
+
+| Tarefa | Modelo | Esforço |
+|---|---|---|
+| Mecânica: baixar e extrair arquivos, recortar figuras, procurar um documento oficial, conferir formato, contar e listar | o mais leve disponível | baixo |
+| Transcrição e etiquetagem de Português, Matemática, Raciocínio Lógico e Informática; localizar o número de um artigo numa lei | intermediário | médio |
+| Etiquetagem jurídica com explicação, divergência com o gabarito, redação de mini-aulas, correção de discursivas, código do painel, decisões de arquitetura | o mais capaz | médio ou alto |
+
+- Na dúvida, comece pelo nível mais barato que provavelmente resolve e **suba se o resultado vier fraco**.
+- O orquestrador **confere por amostragem** o trabalho de modelos mais leves (gabarito, dispositivos, transcrição) antes de juntar.
+- Tarefas que mexem em muitas questões de uma vez ou que ninguém vai revisar linha a linha pedem o modelo mais capaz.
+
 ## Git
 
 - `develop`: o framework em construção. `main`: o estudo do dia a dia, até a `develop` substituí-la.
