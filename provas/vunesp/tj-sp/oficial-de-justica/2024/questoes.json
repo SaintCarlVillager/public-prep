@@ -1711,11 +1711,16 @@
         "legislacao-especial.nscgj.oficiais",
         "processo-civil.execucao.penhora.arrombamento"
       ],
-      "dispositivos": [],
-      "exp": "NSCGJ (Tomo I, Cap. VII): o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, e cópia é juntada aos autos. Não há arrombamento direto nem devolução obrigatória do mandado.",
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII"
-      ]
+      "dispositivos": [
+        "NSCGJ 196 XX",
+        "NSCGJ 1024 §2º",
+        "NSCGJ 1024 §3º"
+      ],
+      "exp": "Pelo `NSCGJ 196 XX`, constatada a necessidade de arrombamento e reforço policial, o oficial, **independentemente da devolução do mandado**, apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, com cópia entranhada aos autos (B); o `NSCGJ 1024 §§2º e 3º` repete a regra no Cap. VII. Por isso erram (C) e (E), que exigem devolver o mandado, (D), que dispensa o modelo padronizado, e (A) e (E), que admitem arrombamento ou pedido de reforço feitos diretamente pelo oficial.",
+      "observacoes": [
+        "Art. 196 XX está no Cap. IV (ofícios cíveis, atos ordinatórios) e é o que o edital 2026 cita ('196, XX'); o art. 1.024 §§2º-3º (Cap. VII, Prov. CG 27/2023) tem regra equivalente (antes estava no art. 1.079, revogado). Redação igual em 12/2024 e em 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#75",
@@ -1733,12 +1738,15 @@
       "temas": [
         "legislacao-especial.nscgj.oficiais"
       ],
-      "dispositivos": [],
-      "exp": "NSCGJ (Tomo I, Cap. VII): em razão do volume do expediente, pode-se adotar a **carga única mensal** de mandados, por autorização e sob controle do Juiz Corregedor Permanente, **salvo os mandados urgentes**.",
+      "dispositivos": [
+        "NSCGJ 310 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 310 §4º`, **ressalvados os mandados urgentes**, em razão do volume do expediente e por autorização e controle do **Juiz Corregedor Permanente**, pode-se adotar o sistema de **carga única, mensalmente** (D). (A) e (E) incluem os urgentes, justamente os excluídos; (B) fala em carga a cada quinze dias; (C) afirma uma vedação que as Normas não trazem.",
       "recursos": 3,
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII"
-      ]
+      "observacoes": [
+        "Art. 310 está no Cap. IV, Seção VI (Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; §4º do Prov. CGJ 11/2002, sem alteração até 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#76",
@@ -1757,12 +1765,15 @@
         "legislacao-especial.nscgj.oficiais",
         "legislacao-especial.nscgj.cartorio"
       ],
-      "dispositivos": [],
-      "exp": "NSCGJ: o desentranhamento e aditamento de mandado **poderá ser dispensado, a critério do juiz**, expedindo-se **novo mandado**, com a parte fornecendo as peças necessárias.",
+      "dispositivos": [
+        "NSCGJ 315 §2º"
+      ],
+      "exp": "Pelo `NSCGJ 315 §2º`, o desentranhamento e aditamento de mandado **poderá ser dispensado, a critério do juiz**, expedindo-se **novo mandado**, e é **a parte** quem fornece as peças necessárias (E). (A) põe as peças a cargo do cartório; (B) dispensa a apreciação judicial; (C) cria condição e custas que a norma não prevê; (D) transfere ao escrivão uma decisão que é do **juiz**.",
       "recursos": 3,
-      "pendencias": [
-        "localizar o artigo nas NSCGJ"
-      ]
+      "observacoes": [
+        "Art. 315 está no Cap. IV, Seção VI (Execuções Fiscais da Capital); redação sem alteração até 22/10/2026. No Cap. VII, o art. 1.016 trata do aditamento em geral (só enquanto o mandado está com o oficial)."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#77",
@@ -1781,12 +1792,19 @@
         "legislacao-especial.nscgj.cartorio",
         "processo-penal.comunicacao.intimacao"
       ],
-      "dispositivos": [],
-      "exp": "NSCGJ: quando vítimas ou testemunhas noticiarem **coação ou grave ameaça**, deferido pelo juiz, os mandados de intimação são elaborados **em separado e individualizados**, para preservar quem será intimado.",
+      "dispositivos": [
+        "NSCGJ 440",
+        "NSCGJ 439 §1º",
+        "NSCGJ 439 §2º",
+        "NSCGJ 439 §3º",
+        "NSCGJ 439 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 440`, os mandados de intimação de vítimas ou testemunhas que derem conta de **coação ou grave ameaça**, após deferimento do juiz, são elaborados **em separado, individualizados** (C). (A) contraria o `NSCGJ 439 §4º`: comparecendo o réu à audiência, as intimações são feitas **na própria audiência**; (B) contraria o §3º, que prevê **carta precatória**, não rogatória. (D) erra porque o termo de recurso e renúncia do §1º é levado ao réu **preso**; (E) erra porque, pelo §2º, além da assinatura a rogo exigem-se **2 testemunhas**, sem que o oficial figure como testemunha.",
       "recursos": 1,
-      "pendencias": [
-        "localizar o artigo nas NSCGJ"
-      ]
+      "observacoes": [
+        "Arts. 439 e 440 estão no Cap. IV, Seção XIV (intimações, ofícios criminais). O caput do art. 439 foi alterado pelo Prov. CG 33/2024 (ressalva do cumprimento remoto, art. 1.029); os §§1º a 4º e o art. 440 (Prov. CGJ 32/2000) não mudaram."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#78",
@@ -1804,12 +1822,23 @@
       "temas": [
         "legislacao-especial.nscgj.oficiais"
       ],
-      "dispositivos": [],
-      "exp": "NSCGJ (Tomo I, Cap. VII): cancelados férias ou afastamento, o oficial cumpre **dias adicionais de plantão equivalentes aos dias em que ficou sem distribuição**.",
+      "dispositivos": [
+        "NSCGJ 999 §5º",
+        "NSCGJ 999 §1º",
+        "NSCGJ 999 §2º",
+        "NSCGJ 997 I",
+        "NSCGJ 998 I",
+        "NSCGJ 998 II",
+        "NSCGJ 998 §5º",
+        "NSCGJ 997 §3º",
+        "NSCGJ 997 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 999 §5º`, cancelados férias ou afastamento, o oficial deve cumprir **dias adicionais de plantão equivalentes aos dias em que ficou sem distribuição** (B). (A) erra porque, pelos §§1º e 2º, o oficial não recebe mandados nos **15 dias** anteriores às férias e entra em férias sem mandados, **vedada a baixa** para redistribuição. (C) contraria o `NSCGJ 998 §5º`, que **veda** o rodízio no controle de acesso à sala de audiências; (D) erra porque o plantão regular do `NSCGJ 998 I` é para **medidas urgentes**; (E) contraria o `NSCGJ 997 §4º`, que permite ao oficial **recusar** o repasse do celular, comparecendo então diariamente ao Fórum.",
       "recursos": 7,
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII"
-      ]
+      "observacoes": [
+        "Arts. 997-999 (Cap. VII) na redação do Prov. CG 27/2023, vigente na prova (15/12/2024); só o art. 997 IX foi alterado depois (Prov. CG 36/2024), sem reflexo na questão."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#79",

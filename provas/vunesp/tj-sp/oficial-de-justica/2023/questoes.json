@@ -1723,12 +1723,21 @@
       "temas": [
         "legislacao-especial.nscgj.oficiais"
       ],
-      "dispositivos": [],
-      "exp": "Pelas NSCGJ, quando o mandado anterior não consigna os elementos essenciais para a nova diligência, **dispensa-se o seu desentranhamento e aditamento**, expedindo-se **novo mandado** (B). (D) devem constar todos os endereços, **inclusive** o do local de trabalho; (E) a carga não se faz \"juntamente com o valor da diligência\"; (A) e (C) não correspondem ao texto das Normas sobre mandados de prisão e controle de prazos.",
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII",
-        "conferir a redação das alternativas A, C e E nas NSCGJ"
-      ]
+      "dispositivos": [
+        "NSCGJ 106",
+        "NSCGJ 105 §1º",
+        "NSCGJ 107",
+        "NSCGJ 108 p.ú.",
+        "NSCGJ 110"
+      ],
+      "exp": "Pelo `NSCGJ 106` (Cap. III, Seção XI, \"Dos Mandados\"), quando o mandado anterior não consigna elementos essenciais para a nova diligência, **dispensa-se o desentranhamento e aditamento**, expedindo-se **novo mandado** (B). (D) erra porque o `NSCGJ 105 §1º` mandava constar todos os endereços, **inclusive** o do local de trabalho; (E) acrescenta ao `NSCGJ 107` o \"valor da diligência\" e o termo de responsabilidade, quando a entrega era só \"mediante a respectiva carga\". (A) contraria o `NSCGJ 108 p.ú.`: mandados de prisão **não** eram entregues aos oficiais, mas encaminhados ao **IIRGD**; (C) troca os sujeitos do `NSCGJ 110`: é o **escrivão** quem relaciona os mandados e comunica ao **Juiz Corregedor Permanente**.",
+      "observacoes": [
+        "Os dispositivos estão no Cap. III (Seção XI, arts. 105-110), não no Cap. VII. O edital 2026 cita 'NSCGJ 105-110'.",
+        "Arts. 106 a 110 foram revogados e o art. 105 reescrito pelo Prov. CG 27/2023 (reforma do Cap. VII; data exata de vigência não confirmada, mas o gabarito da Q75/2023 segue o texto anterior a ele); a prova (15/10/2023) seguiu a redação anterior (art. 105 §1º na redação do Prov. CG 37/2014; art. 106 do Prov. CGJ 36/2007).",
+        "Equivalentes atuais no Cap. VII: aditamento/novo mandado no art. 1.016 (só se adita mandado ainda em posse do oficial; cumprido, expede-se novo); relação mensal de mandados no art. 1.017 (mesma redação do antigo art. 110); mandados de prisão e alvarás remetidos à Seção XII do Cap. IV (art. 105 p.ú. atual)."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "desatualizada": "O gabarito se apoia no art. 106 das NSCGJ, revogado pelo Provimento CG 27/2023, que reformou as regras sobre mandados e oficiais de justiça. Estude pela redação atual do Cap. VII."
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#76",
@@ -1747,12 +1756,20 @@
         "legislacao-especial.nscgj.oficiais",
         "legislacao-especial.nscgj.cartorio"
       ],
-      "dispositivos": [],
-      "exp": "Pelas NSCGJ, **existindo seção designada para as cargas**, certifica-se nos autos a expedição do mandado e remete-se o mandado à seção, que **vela pelo lançamento da assinatura do oficial no livro próprio** (E). (B) a carga única é **mensal** e depende de autorização e controle do **Juiz Corregedor Permanente**; (D) o registro em livro não dispensa a anotação no sistema informatizado; (A) e (C) alteram as regras de devolução e de prazo de cumprimento dos mandados.",
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII",
-        "conferir a regra de prazo de cumprimento (C) e de devolução antecipada (A) nas NSCGJ"
-      ]
+      "dispositivos": [
+        "NSCGJ 310 §2º",
+        "NSCGJ 310 §1º",
+        "NSCGJ 310 §3º",
+        "NSCGJ 310 §4º",
+        "NSCGJ 310 §5º",
+        "NSCGJ 310 §6º"
+      ],
+      "exp": "Pelo `NSCGJ 310 §2º`, **existindo seção designada para a feitura das cargas**, certifica-se nos autos só a expedição e remete-se o mandado à seção, que **vela pelo lançamento da assinatura** do oficial no livro próprio (E). (B) erra porque a carga única do `NSCGJ 310 §4º` é **mensal** e controlada pelo **Juiz Corregedor Permanente**; (D) erra porque o `NSCGJ 310 §3º` exige anotação no sistema informatizado além do livro do §1º. (C) contraria o `NSCGJ 310 §5º`: sem prazo na ordem, o prazo é de **45 dias**, e o prazo menor genérico é fixado pelo **Juiz Corregedor Permanente**; (A) contraria o `NSCGJ 310 §6º`: nas 24 horas finais o oficial **deve pedir dilação**, vedada a devolução sem cumprimento salvo autorização judicial.",
+      "observacoes": [
+        "Art. 310 está no Cap. IV, Seção VI (ofícios das Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; o edital 2026 cita 'NSCGJ 310'.",
+        "§5º na redação do Prov. CG 36/2020 (45 dias; antes eram 30 dias prorrogáveis). Demais parágrafos do Prov. CGJ 11/2002. Redação igual em 2023 e na versão de 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#77",
@@ -1771,11 +1788,16 @@
         "legislacao-especial.nscgj.outras",
         "processo-penal.prisao"
       ],
-      "dispositivos": [],
-      "exp": "Pelas NSCGJ, o alvará de soltura de preso recolhido **na mesma comarca** é enviado à autoridade responsável pela custódia por **correio eletrônico institucional** do ofício de justiça, que **confirma o recebimento por telefone** e faz as anotações nos autos (A). Não há opção por mandado a critério do juiz (B), endereçamento ao juiz corregedor do presídio por precatória (C), cumprimento por oficial de plantão (D) nem confirmação posterior por oficial em 48 horas (E).",
-      "pendencias": [
-        "localizar o artigo das NSCGJ sobre o envio do alvará de soltura"
-      ]
+      "dispositivos": [
+        "NSCGJ 410",
+        "NSCGJ 410 §1º",
+        "NSCGJ 410 §3º"
+      ],
+      "exp": "Pelo `NSCGJ 410`, o alvará de soltura é enviado à autoridade responsável pela custódia **obrigatoriamente por correio eletrônico institucional** do ofício de justiça, que, pelo §1º, **confirma o recebimento por telefone** e anota na via dos autos quem recebeu, data e hora (A). Não há opção por mandado a critério do juiz (B) nem confirmação por oficial em 48 horas (E); o oficial de plantão (D) só entra se **não for obtida a confirmação** (§1º, parte final). (C) descreve o §3º, que vale para preso recolhido **em outra unidade da Federação**.",
+      "observacoes": [
+        "Art. 410 está no Cap. IV, Seção XII (mandados de prisão e alvarás de soltura). Caput e §1º na redação do Prov. CGJ 43/2021, vigente na prova (2023) e na versão de 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#78",
@@ -1794,11 +1816,15 @@
         "legislacao-especial.nscgj.oficiais",
         "processo-civil.comunicacao.mandados"
       ],
-      "dispositivos": [],
-      "exp": "Sem prazo diverso fixado pelo juízo, as NSCGJ mandam cumprir e devolver o mandado de intimação para **audiência de conciliação** até **20 dias úteis** e o de **audiência de instrução e julgamento** até **10 dias úteis** antes da data designada (C). As demais alternativas trocam ou alteram esses prazos, e (E) conta do recebimento, quando a referência é a data da audiência.",
-      "pendencias": [
-        "localizar o artigo nas NSCGJ, Tomo I, Cap. VII"
-      ]
+      "dispositivos": [
+        "NSCGJ 995 §3º",
+        "NSCGJ 995 §4º"
+      ],
+      "exp": "Na redação aplicada pela prova, o `NSCGJ 995 §3º` manda cumprir e devolver o mandado de intimação para **audiência de conciliação** ou mediação até **20 dias úteis** antes da data designada, e o `NSCGJ 995 §4º`, o de **qualquer outra audiência** (como a de instrução e julgamento) até **10 dias úteis** antes, salvo determinação do juiz (C). As demais alternativas trocam ou alteram esses prazos, e (E) conta do recebimento, quando a referência é a **data designada** para a audiência.",
+      "observacoes": [
+        "Na prova (15/10/2023) a regra estava no art. 995 §§3º e 4º (redação do Prov. CG 17/2016). O Prov. CG 27/2023 (reforma do Cap. VII; data exata de vigência não confirmada, mas o gabarito da Q75/2023 segue o texto anterior a ele) suprimiu esses parágrafos (o art. 995 atual traz definições) e levou a mesma regra para o art. 1.000 §§3º e 4º ('NSCGJ 1000 §3º', 'NSCGJ 1000 §4º'), com redação equivalente. Se o coordenador preferir a numeração atual, troque os dispositivos."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#79",
