@@ -4,7 +4,7 @@ Framework de estudo para concursos públicos: provas reais etiquetadas por tema 
 
 > Branch `develop`: o framework em construção, começando do zero. O estudo do dia a dia continua na `main` até esta branch substituí-la.
 
-Comece por [`ARQUITETURA.md`](ARQUITETURA.md).
+Comece por [`ARQUITETURA.md`](ARQUITETURA.md). Agentes de IA: leiam [`AGENTS.md`](AGENTS.md). Visual do painel: [`DESIGN.md`](DESIGN.md).
 
 ## Estrutura (em construção)
 
