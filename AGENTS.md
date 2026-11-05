@@ -15,6 +15,9 @@ Um framework de estudo para concursos públicos: **provas reais etiquetadas** po
 | `editais/<órgão>/<cargo>/<ano>/edital.json` | o que o concurso cobra, blocos, notas de corte; PDFs ao lado |
 | `provas/<banca>/<órgão>/<cargo>/<ano>/` | `prova.json` (metadados e gabarito), `questoes.json`, `texto.txt`, PDFs |
 | `scripts/validar.py` | validação de tudo acima |
+| `scripts/empacotar.py` | gera os dados que o painel carrega |
+| `painel/index.html` | o painel (Artifact do claude.ai) |
+| `estudo/` | dados do candidato (progresso, link do painel) |
 
 ## Regras que não se negociam
 
@@ -73,6 +76,29 @@ Campos opcionais da questão:
 2. Transcreva o conteúdo programático para `edital.json`: por **artigos** quando o edital lista artigos, por **temas** quando descreve em palavras. Dispositivos citados nominalmente vão em `destaques`; intervalos deduzidos por você são explicados em `observacao`.
 3. Crie na taxonomia os temas que faltarem e valide.
 
+### Publicar o painel
+1. `python3 scripts/empacotar.py` (valida e gera `painel/dados/`: catálogo, uma prova por arquivo, figuras).
+2. Publique `painel/index.html` como Artifact do claude.ai com a capability `db` e **todos os arquivos de `painel/dados/`** como arquivos do artifact (caminhos `dados/...`). Republique no **mesmo link** registrado em `estudo/progresso.md`, para não perder o progresso salvo no banco.
+3. O progresso (sessões, respostas, revisões, discursivas) fica no banco do artifact, não no repositório.
+
+### Estudo do dia a dia (com o candidato)
+Comece por `estudo/progresso.md`. Banco do painel (ferramenta de dados do artifact):
+
+| Documento | Conteúdo |
+|---|---|
+| `meta/config` | editais ativos e tamanho da sessão |
+| `sessoes/<id>` | `{titulo, data, origem: "claude"|"auto", aula, questoes: [ids], inline: [questões autorais]}` |
+| `respostas/<id>` | respostas entregues (`{idQuestão: letra}`), acertos, total |
+| `estado/<prova>` | por questão: tentativas, acertos, última, próxima revisão, intervalo |
+| `discursivas/<id>` | texto do candidato; `nota` e `feedback` preenchidos na correção |
+| `meta/historico` | agregados do painel antigo |
+
+Quando o candidato disser **"corrigi a <sessão>"**:
+1. Leia `respostas/<id>` e as questões; para cada erro, diga o que marcou, o certo e a regra em uma linha.
+2. Monte a próxima sessão com **questões reais do catálogo** (temas fracos, revisões vencidas, nunca vistas relevantes ao edital mais próximo), com mini-aula começando pelos erros; grave em `sessoes/<id>` com `origem: "claude"`. Autoral só quando faltar questão real, em `inline` com `autoral: true`.
+3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
+4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
+
 ## Subagentes
 
 Use subagentes **sempre que a tarefa puder ser dividida** ou exigir ler muito material (provas inteiras, editais, leis). Isso mantém o contexto principal limpo e acelera o trabalho.
@@ -98,6 +124,6 @@ O subagente **não precisa herdar a capacidade do orquestrador**. Escolha o mode
 
 ## Git
 
-- `develop`: o framework em construção. `main`: o estudo do dia a dia, até a `develop` substituí-la.
+- `main`: o framework e o estudo. O conteúdo anterior à reestruturação está no branch `legado`.
 - Mensagens de commit em português, no imperativo ou descritivas ("Prova TJ-SP 2024: Bloco II etiquetado").
 - Atualizações rotineiras de dados (provas, questões, editais) podem ir direto para o branch de trabalho; mudanças de estrutura, de esquema ou deste arquivo, por pull request.

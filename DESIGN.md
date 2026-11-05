@@ -1,6 +1,6 @@
 # DESIGN.md
 
-O sistema visual do painel de estudo. Vale para o painel atual (artifact do claude.ai, código em `painel/` na `main`) e para o painel v2 da `develop`. Segue as diretrizes de design de Artifacts da Anthropic: tokens no `:root`, dois temas, layout responsivo e nada que só funcione num tema.
+O sistema visual do painel de estudo. Vale para o painel (`painel/index.html`, um Artifact do claude.ai). Segue as diretrizes de design de Artifacts da Anthropic: tokens no `:root`, dois temas, layout responsivo e nada que só funcione num tema.
 
 ## Conceito
 

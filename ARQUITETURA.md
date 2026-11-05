@@ -15,7 +15,7 @@ Proposta para transformar o `public-prep` num **template**: cada pessoa copia o 
 | Normas que renumeram (NSCGJ) | Tema normal; dispositivo **por artigo**, como o próprio edital do TJ-SP cita; a prova registra a data de aplicação, e o edital, a data da legislação cobrada. |
 | Dificuldade | **Personalizada**: calculada pelo histórico de cada pessoa, guardada só no painel dela. |
 | Pastas | `provas/<banca>/<órgão>/<cargo>/<ano>/` e `editais/<órgão>/<cargo>/<ano>/`. |
-| Ponto de partida | **Do zero**, no branch `develop`, que depois passa a ser a `main`. |
+| Ponto de partida | Construído do zero; o conteúdo anterior ficou no branch `legado`. |
 
 ## A ideia central: etiquetar pelo conteúdo, calcular a relevância
 
@@ -245,13 +245,15 @@ O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as ques
 
 ## Ponto de partida
 
-O framework começa **do zero no branch `develop`**, sem as sessões e o painel atuais. Enquanto isso, a `main` segue com o estudo do dia a dia (painel único, sessão 0015). Quando a `develop` tiver painel e banco funcionando, ela passa a ser a `main`, e o histórico atual fica num branch de arquivo (`legado`).
-
-O que é reaproveitado como **dado de entrada**, não como estrutura: o texto da prova TJ-SP 2024 e o conhecimento dos dois editais.
+O framework foi construído do zero e substituiu a estrutura anterior. O que havia antes (sessões, painel v1, notas de progresso) está preservado no branch `legado`, e o histórico de estudo foi importado para o banco do painel v2.
 
 ## Fases
 
-1. **Fundação**: esquemas, taxonomia das matérias dos dois editais, editais do TRF3 e do TJ-SP e script de validação.
-2. **Banco real**: etiquetar a prova TJ-SP 2024 inteira (100 questões) e a TJ-SP 2023; depois FCC TRF3 2019 para os temas só do TRF3.
-3. **Painel v2**: placar por edital calculado por tema, sessão automática, C/E e discursiva.
-4. **Template**: `METODO.md`, guia para colegas e script de criação de painel.
+| Fase | Situação |
+|---|---|
+| 1. **Fundação**: esquemas, taxonomia, editais do TRF3 e do TJ-SP, validador | feita |
+| 2. **Banco real**: Vunesp TJ-SP 2023 e 2024, FCC TRF3 2019, com gabaritos definitivos e figuras | feita (262 itens, 0 pendências) |
+| 3. **Painel v2**: placar por edital calculado, sessão automática, revisões, banco filtrável, discursiva | feita para múltipla escolha e discursiva; **Certo/Errado ainda não exibido** |
+| 4. **Template**: guia para colegas (README, AGENTS.md), publicação do painel | feita; falta um script que crie o painel de um colega de uma vez |
+
+Próximos passos naturais: mais provas (outras de oficial de justiça da Vunesp e da FCC), Certo/Errado no painel quando entrar uma prova Cebraspe, e a criação automática do painel para quem copiar o template.
