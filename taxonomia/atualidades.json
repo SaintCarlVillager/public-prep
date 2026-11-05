@@ -3,6 +3,10 @@
   "nome": "Atualidades",
   "temas": [
     {
+      "id": "atualidades.2023",
+      "nome": "Fatos de 2023"
+    },
+    {
       "id": "atualidades.2024",
       "nome": "Fatos de 2024"
     },
