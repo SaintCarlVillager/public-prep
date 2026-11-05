@@ -46,7 +46,9 @@ Um framework de estudo para concursos públicos: **provas reais etiquetadas** po
   "pendencias": []
 }
 ```
-`texto` aponta para um texto-base em `textos` no topo do `questoes.json`. Certo/Errado e discursiva seguem `ARQUITETURA.md`.
+`texto` aponta para um texto-base em `textos` no topo do `questoes.json` (`{"T1": {"titulo", "texto", "fonte"}}`, parágrafos separados por linha em branco). Certo/Errado e discursiva seguem `ARQUITETURA.md`.
+
+**Destaques gráficos da prova** (termo em negrito ou sublinhado a que o enunciado se refere): `**negrito**` e `__sublinhado__`. Nunca HTML. Figuras, gráficos e tabelas que o texto não reproduz são descritos entre colchetes (`[Gráfico de setores: …]`) e registrados em `pendencias`.
 
 ### Explicação (`exp`)
 2 a 5 frases. Diga por que o gabarito está certo e por que cada distratora relevante erra. Cite o dispositivo em `código`; destaque a palavra-chave em **negrito**; não use itálico de um asterisco. Em cálculo, mostre a conta.

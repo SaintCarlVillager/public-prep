@@ -7,6 +7,10 @@
       "nome": "Compreensão e interpretação de textos",
       "filhos": [
         {
+          "id": "portugues.interpretacao.ideia-central",
+          "nome": "Tema, ideia central e objetivo do texto"
+        },
+        {
           "id": "portugues.interpretacao.inferencia",
           "nome": "Informações literais e inferências"
         },

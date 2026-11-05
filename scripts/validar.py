@@ -164,7 +164,20 @@ def validar_provas(temas, normas):
         if d is None:
             continue
         vistos = set()
+        textos = d.get("textos", {})
+        usados = set()
+        for tid, t in textos.items():
+            if not (t or {}).get("texto"):
+                erros.append(f"{relq} › texto {tid}: vazio")
         for q in d.get("questoes", []):
+            if q.get("texto"):
+                usados.add(q["texto"])
+                if q["texto"] not in textos:
+                    erros.append(f"{relq} › Q{q.get('numero')}: texto-base '{q['texto']}' não existe em 'textos'")
+            for campo in [q.get("enunciado", "")] + list(q.get("alt", {}).values()):
+                if re.search(r"</?[a-z]+>", campo or ""):
+                    erros.append(f"{relq} › Q{q.get('numero')}: HTML no texto; use **negrito** e __sublinhado__")
+                    break
             n = q.get("numero")
             onde = f"{relq} › Q{n}"
             if q.get("id") != f"{p.get('id')}#{n}":
