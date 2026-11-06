@@ -155,14 +155,24 @@ def validar_provas(temas, normas):
                 erros.append(f"{rel}: arquivo '{nome}' não encontrado na pasta")
         anuladas = set(p.get("anuladas", []))
 
-        cq = os.path.join(pasta, "questoes.json")
-        if not os.path.exists(cq):
-            avisos.append(f"{rel}: ainda sem questoes.json")
+        partes = ([os.path.join(pasta, "questoes.json")] if os.path.exists(os.path.join(pasta, "questoes.json")) else []) \
+            + sorted(glob.glob(os.path.join(pasta, "questoes", "*.json")))
+        if not partes:
+            avisos.append(f"{rel}: ainda sem questoes.json (nem questoes/*.json)")
             continue
-        relq = os.path.relpath(cq, RAIZ)
-        d = carregar(cq)
-        if d is None:
-            continue
+        relq = os.path.relpath(partes[0] if len(partes) == 1 else os.path.join(pasta, "questoes"), RAIZ)
+        d = {"textos": {}, "questoes": []}
+        for parte in partes:
+            dp = carregar(parte)
+            if dp is None:
+                continue
+            if dp.get("prova") not in (None, p.get("id")):
+                erros.append(f"{os.path.relpath(parte, RAIZ)}: 'prova' deve ser '{p.get('id')}'")
+            for tid, t in (dp.get("textos") or {}).items():
+                if tid in d["textos"] and d["textos"][tid] != t:
+                    erros.append(f"{os.path.relpath(parte, RAIZ)}: texto-base '{tid}' definido de dois jeitos")
+                d["textos"][tid] = t
+            d["questoes"].extend(dp.get("questoes", []))
         vistos = set()
         textos = d.get("textos", {})
         usados = set()
