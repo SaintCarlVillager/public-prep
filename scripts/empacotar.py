@@ -96,8 +96,14 @@ def provas():
         pasta = os.path.dirname(caminho)
         p = ler(caminho)
         pid, s = p["id"], slug(p["id"])
-        cq = os.path.join(pasta, "questoes.json")
-        d = ler(cq) if os.path.exists(cq) else {"textos": {}, "questoes": []}
+        partes = ([os.path.join(pasta, "questoes.json")] if os.path.exists(os.path.join(pasta, "questoes.json")) else []) \
+            + sorted(glob.glob(os.path.join(pasta, "questoes", "*.json")))
+        d = {"textos": {}, "questoes": []}
+        for parte in partes:
+            dp = ler(parte)
+            d["textos"].update(dp.get("textos") or {})
+            d["questoes"].extend(dp.get("questoes", []))
+        d["questoes"].sort(key=lambda q: (isinstance(q.get("numero"), str), q.get("numero") if isinstance(q.get("numero"), int) else str(q.get("numero"))))
         anuladas_n = set(p.get("anuladas", []))
 
         meta = {k: v for k, v in p.items() if k != "gabarito"}

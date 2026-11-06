@@ -118,9 +118,20 @@ Configuração em `meta/claude` no banco do painel: `{"ativo": true, "environmen
 
 Use subagentes **sempre que a tarefa puder ser dividida** ou exigir ler muito material (provas inteiras, editais, leis). Isso mantém o contexto principal limpo e acelera o trabalho.
 
-- Dê a cada subagente um briefing **autocontido**: caminhos dos arquivos, formato de saída, regras acima e o arquivo onde escrever.
-- Subagentes **não fazem commit** nem editam o repositório: escrevem num arquivo temporário; quem coordena revisa, junta, valida e faz o commit.
-- Peça de volta só um resumo curto (contagens, pendências, problemas), nunca o conteúdo inteiro.
+### Fluxo: cada subagente abre o seu PR
+
+1. **O orquestrador recorta** a tarefa para que cada subagente mexa em **arquivos diferentes** (veja abaixo) e dá a cada um um briefing **autocontido**: caminhos, formato, regras deste arquivo, nome do branch e o que pôr no PR.
+2. **O subagente trabalha num branch próprio** (`agente/<tarefa>`, ex. `agente/tjsp-2023-bloco-II`), valida com `python3 scripts/validar.py`, faz o commit, o push e abre um **PR em rascunho** para a `main`. Na descrição do PR: o que fez, contagens, pendências, discordâncias com o gabarito e **temas ou normas que sugere criar**.
+3. **O orquestrador revisa**: a checagem automática (`Validar`, no GitHub) tem de estar verde; ele confere por amostragem (gabarito × explicação, dispositivos, transcrição contra o PDF) e, se precisar, **pede ajustes ao mesmo subagente**, que corrige no mesmo branch.
+4. **O orquestrador faz o merge** quando estiver tudo certo, e só ele mexe nos arquivos compartilhados.
+
+**Arquivos compartilhados** (`taxonomia/`, `normas/normas.json`, `AGENTS.md`, `scripts/`, `painel/`, `estudo/`): subagente não edita. Precisa de tema ou norma nova? Sugere no PR; o orquestrador cria num PR próprio, antes ou junto do merge.
+
+**Uma prova dividida em blocos:** cada subagente grava só o seu pedaço em `provas/<…>/questoes/<bloco>.json` (`{"prova": "<id>", "textos": {...}, "questoes": [...]}`). O validador e o empacotador juntam `questoes.json` e `questoes/*.json`, então PRs de blocos diferentes não entram em conflito. O mesmo texto-base usado por dois blocos tem de ser idêntico nos dois arquivos.
+
+**Tarefas de leitura ou pesquisa** (achar um documento, conferir um artigo) não geram PR: o subagente responde com um resumo curto e, se baixou algo, onde salvou.
+
+- Peça de volta só um resumo curto (link do PR, contagens, pendências, problemas), nunca o conteúdo inteiro.
 - Bom recorte: um bloco ou matéria de uma prova por subagente; um edital por subagente.
 
 ### Roteamento: o modelo certo para cada tarefa
@@ -141,4 +152,6 @@ O subagente **não precisa herdar a capacidade do orquestrador**. Escolha o mode
 
 - `main`: o framework e o estudo. O conteúdo anterior à reestruturação está no branch `legado`.
 - Mensagens de commit em português, no imperativo ou descritivas ("Prova TJ-SP 2024: Bloco II etiquetado").
-- Atualizações rotineiras de dados (provas, questões, editais) podem ir direto para o branch de trabalho; mudanças de estrutura, de esquema ou deste arquivo, por pull request.
+- **Subagentes** trabalham em `agente/<tarefa>` e entregam por PR em rascunho; **o orquestrador** revisa e faz o merge (ver "Subagentes").
+- Atualizações rotineiras de dados do estudo (`estudo/`, sessões, progresso) podem ir direto para a `main`; mudanças de estrutura, de esquema ou deste arquivo, por pull request.
+- Todo PR passa pela checagem `Validar` (`.github/workflows/validar.yml`), que roda o validador e o empacotador.
