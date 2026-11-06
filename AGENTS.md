@@ -92,12 +92,27 @@ Comece por `estudo/progresso.md`. Banco do painel (ferramenta de dados do artifa
 | `estado/<prova>` | por questão: tentativas, acertos, última, próxima revisão, intervalo |
 | `discursivas/<id>` | texto do candidato; `nota` e `feedback` preenchidos na correção |
 | `meta/historico` | agregados do painel antigo |
+| `meta/claude` | configuração da correção automática |
+| `claude/<id>` | trava e situação do pedido de correção (`pedido`, `em andamento`, `pronto`, `erro`) |
+| `correcoes/<id>` | comentário do Claude sobre a entrega e id da próxima sessão |
 
 Quando o candidato disser **"corrigi a <sessão>"**:
 1. Leia `respostas/<id>` e as questões; para cada erro, diga o que marcou, o certo e a regra em uma linha.
 2. Monte a próxima sessão com **questões reais do catálogo** (temas fracos, revisões vencidas, nunca vistas relevantes ao edital mais próximo), com mini-aula começando pelos erros; grave em `sessoes/<id>` com `origem: "claude"`. Autoral só quando faltar questão real, em `inline` com `autoral: true`.
 3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
 4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
+
+### Correção automática (o painel chama o Claude)
+Ao entregar uma sessão ou discursiva, o painel abre sozinho uma sessão do Claude Code na nuvem com este repositório (conector **Claude Code Remote**, ferramenta `create_session`) e uma instrução que aponta para cá. Nessa sessão:
+
+1. Siga a rotina acima ("corrigi a <sessão>") para a entrega indicada.
+2. Grave o comentário em `correcoes/<id>`: `{"texto": "markdown curto: nota, cada erro com o que marcou, o certo e a regra em uma linha", "proxima": "<id da sessão nova>", "criadaEm": ISO}`. O painel mostra esse texto no cartão da sessão entregue, com o botão "Abrir a próxima sessão".
+3. Discursiva: grave `nota`, `max` e `feedback` em `discursivas/<id>`.
+4. Atualize `estudo/progresso.md` (e `estudo/sessoes/<id>.json` da sessão nova), valide, commit e push na `main`.
+5. Por último, `claude/<id>`: `{"status": "pronto"}`; se falhar, `{"status": "erro", "motivo": "…"}`.
+6. Mexa só no banco do painel e em `estudo/`. Se outra sessão já estiver corrigindo a mesma entrega (`claude/<id>` com `status: "pronto"`), pare.
+
+Configuração em `meta/claude` no banco do painel: `{"ativo": true, "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false`, o painel não chama ninguém e mostra só o gabarito.
 
 ## Subagentes
 
