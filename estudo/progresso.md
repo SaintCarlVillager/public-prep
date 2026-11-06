@@ -22,9 +22,10 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
-## Placar em 05/11/2026
+## Placar em 06/11/2026
 
-- Objetivas: **71/121 (59%)**, somando o histórico das sessões 0001–0012 (só por matéria) e as sessões 0013, 0014 e TRF3·01.
-- **Sessão 0015** (21 questões, mistura TRF3 + TJ-SP) importada para o painel v2, ainda não entregue.
-- Discursivas TJ-SP: 13/40 (0006) e 12/40 (0012), abaixo do mínimo.
-- Temas mais fracos: raciocínio lógico (condicional: errou 10 de 17), citação eletrônica (`CPC 246` × `231 IX`: 6 de 12), concordância (4 de 9), hora certa (`CPC 252–254`), curatela e definições do Estatuto da PcD, classificação dos atos de improbidade.
+- **0015** (entregue em 06/11): **12/21 (57%)**. Erros: Justiça Militar estadual (`CF 125 §3º`), prazo da execução fiscal (5 dias, `L6830 8`), avaliação e vulnerabilidade da PcD (`L13146 2 §1º`, `5 p.ú.`), negação de "existe… ou… ou", regência nominal, oitiva por videoconferência (`CPC 453 §1º`), juros simples, condicional + "e" (**3ª vez**), citação eletrônica sem confirmação (`CPC 246 §1º-A`).
+- **0016** (06/11) montada no painel: 19 questões reais inéditas sobre esses pontos + 1 autoral de condicional, com tributário e cota de PcD para o TRF3. Cópia em `estudo/sessoes/0016.json`.
+- Objetivas no total: **83/142 (58%)**, somando o histórico 0001–0012.
+- Discursivas TJ-SP: 13/40 (0006) e 12/40 (0012), abaixo do mínimo. Próximo passo: treinar o estudo de caso do TRF3 no painel ("Treinar discursiva").
+- Temas mais fracos: raciocínio lógico (condicional + "e": errou 3 vezes o mesmo esquema; negação de quantificador e de "ou… ou"), citação eletrônica (`CPC 246` × `231 IX`), concordância e regência, hora certa (`CPC 252–254`), Estatuto da PcD, execução fiscal (prazos da `L6830`).
