@@ -949,6 +949,10 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       const prox = cor.proxima && S.sessoes.some((x) => x.id === cor.proxima) ? ` <button type="button" class="btn ghost" data-abrir-sessao="${esc(cor.proxima)}">Abrir a próxima sessão</button>` : "";
       h += `<div class="lesson" style="margin-top:12px"><h3>Comentário do Claude</h3>${md(cor.texto)}${prox ? `<p>${prox}</p>` : ""}</div>`;
     }
+    if (c?.modo === "agendado") {
+      if (!cor?.texto) h += `<p class="notice" style="margin-top:12px">${tipo === "sessao" ? "O Claude corrige esta sessão e prepara a próxima" : "O Claude corrige esta discursiva"} na próxima rodada agendada (${esc(c.rodadas || "duas vezes por dia, por volta das 7h e das 21h")}). O comentário aparece aqui sozinho.</p>`;
+      return h;
+    }
     if (!c?.ativo) return h;
     if (!p) {
       h += S.mcp ? `<p class="mono" style="margin-top:12px"><button type="button" class="btn ghost" data-chamar="${esc(tipo)}|${esc(id)}">Chamar o Claude para corrigir</button></p>` : "";
@@ -961,7 +965,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
   }
   async function chamarClaude(tipo, id, forcar = false) {
     const c = S.cfgClaude;
-    if (!c?.ativo || !S.db) return;
+    if (!c?.ativo || c?.modo === "agendado" || !S.db) return;
     const atual = S.pedidos[id];
     if (atual && !forcar && atual.status !== "erro") return; // trava: um pedido por entrega
     if (!S.mcp) { await S.db.collection("claude").doc(id).set({ tipo, status: "erro", motivo: "A conexão com o Claude Code não está disponível nesta visualização. Abra o painel no claude.ai.", em: new Date().toISOString() }).catch(() => {}); return; }

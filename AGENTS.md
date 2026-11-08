@@ -102,8 +102,13 @@ Quando o candidato disser **"corrigi a <sessão>"**:
 3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
 4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
 
-### Correção automática (o painel chama o Claude)
-Ao entregar uma sessão ou discursiva, o painel abre sozinho uma sessão do Claude Code na nuvem com este repositório (conector **Claude Code Remote**, ferramenta `create_session`) e uma instrução que aponta para cá. Nessa sessão:
+### Correção automática
+Há dois modos, escolhidos em `meta/claude` no banco do painel:
+
+- **`"modo": "agendado"`** (o que está em uso): uma **tarefa agendada** do claude.ai ("Correção automática do public-prep", duas vezes por dia, por volta das 7h e das 21h, horário de Brasília) abre uma sessão do Claude Code, anexa este repositório e corrige o que estiver pendente: `respostas/<id>` sem `claude/<id>` com `status: "pronto"`, e `discursivas/<id>` com `nota: null`. Sem pendência, ela encerra sem escrever nada. O painel mostra "na próxima rodada agendada" no cartão da sessão.
+- **Pelo painel, na hora da entrega:** o painel abriria a sessão sozinho pelo conector **Claude Code Remote** (`create_session`). Exige que esse conector exista na conta do claude.ai; na conta atual ele não existe, e a página recebe "connector access isn't confirmed". Para voltar a este modo, declare a capability `mcp` com esse conector ao publicar e tire `"modo": "agendado"`.
+
+Em qualquer dos modos, a sessão que corrige:
 
 1. Siga a rotina acima ("corrigi a <sessão>") para a entrega indicada.
 2. Grave o comentário em `correcoes/<id>`: `{"texto": "markdown curto: nota, cada erro com o que marcou, o certo e a regra em uma linha", "proxima": "<id da sessão nova>", "criadaEm": ISO}`. O painel mostra esse texto no cartão da sessão entregue, com o botão "Abrir a próxima sessão".
@@ -112,7 +117,7 @@ Ao entregar uma sessão ou discursiva, o painel abre sozinho uma sessão do Clau
 5. Por último, `claude/<id>`: `{"status": "pronto"}`; se falhar, `{"status": "erro", "motivo": "…"}`.
 6. Mexa só no banco do painel e em `estudo/`. Se outra sessão já estiver corrigindo a mesma entrega (`claude/<id>` com `status: "pronto"`), pare.
 
-Configuração em `meta/claude` no banco do painel: `{"ativo": true, "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false`, o painel não chama ninguém e mostra só o gabarito.
+Configuração em `meta/claude`: `{"ativo": true, "modo": "agendado", "rodadas": "texto mostrado no painel", "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false` e sem `modo`, o painel não menciona correção automática e mostra só o gabarito. A instrução completa da rodada agendada está na própria tarefa agendada; se mudar a rotina aqui, atualize também a tarefa.
 
 ## Subagentes
 
@@ -122,7 +127,7 @@ Use subagentes **sempre que a tarefa puder ser dividida** ou exigir ler muito ma
 
 1. **O orquestrador recorta** a tarefa para que cada subagente mexa em **arquivos diferentes** (veja abaixo) e dá a cada um um briefing **autocontido**: caminhos, formato, regras deste arquivo, nome do branch e o que pôr no PR.
 2. **O subagente trabalha num branch próprio** (`agente/<tarefa>`, ex. `agente/tjsp-2023-bloco-II`), valida com `python3 scripts/validar.py`, faz o commit, o push e abre um **PR em rascunho** para a `main`. Na descrição do PR: o que fez, contagens, pendências, discordâncias com o gabarito e **temas ou normas que sugere criar**.
-3. **O orquestrador revisa**: a checagem automática (`Validar`, no GitHub) tem de estar verde; ele confere por amostragem (gabarito × explicação, dispositivos, transcrição contra o PDF) e, se precisar, **pede ajustes ao mesmo subagente**, que corrige no mesmo branch.
+3. **O orquestrador revisa**: faz checkout do branch e roda `python3 scripts/validar.py` e `python3 scripts/empacotar.py` (os dois têm de passar); ele confere por amostragem (gabarito × explicação, dispositivos, transcrição contra o PDF) e, se precisar, **pede ajustes ao mesmo subagente**, que corrige no mesmo branch.
 4. **O orquestrador faz o merge** quando estiver tudo certo, e só ele mexe nos arquivos compartilhados.
 
 **Arquivos compartilhados** (`taxonomia/`, `normas/normas.json`, `AGENTS.md`, `scripts/`, `painel/`, `estudo/`): subagente não edita. Precisa de tema ou norma nova? Sugere no PR; o orquestrador cria num PR próprio, antes ou junto do merge.
@@ -154,4 +159,4 @@ O subagente **não precisa herdar a capacidade do orquestrador**. Escolha o mode
 - Mensagens de commit em português, no imperativo ou descritivas ("Prova TJ-SP 2024: Bloco II etiquetado").
 - **Subagentes** trabalham em `agente/<tarefa>` e entregam por PR em rascunho; **o orquestrador** revisa e faz o merge (ver "Subagentes").
 - Atualizações rotineiras de dados do estudo (`estudo/`, sessões, progresso) podem ir direto para a `main`; mudanças de estrutura, de esquema ou deste arquivo, por pull request.
-- Todo PR passa pela checagem `Validar` (`.github/workflows/validar.yml`), que roda o validador e o empacotador.
+- Não há checagem automática no GitHub (o GitHub Actions foi desligado para não gerar custo): **antes de cada merge**, quem revisa roda `python3 scripts/validar.py` e `python3 scripts/empacotar.py` no branch do PR.
