@@ -102,8 +102,13 @@ Quando o candidato disser **"corrigi a <sessão>"**:
 3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
 4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
 
-### Correção automática (o painel chama o Claude)
-Ao entregar uma sessão ou discursiva, o painel abre sozinho uma sessão do Claude Code na nuvem com este repositório (conector **Claude Code Remote**, ferramenta `create_session`) e uma instrução que aponta para cá. Nessa sessão:
+### Correção automática
+Há dois modos, escolhidos em `meta/claude` no banco do painel:
+
+- **`"modo": "agendado"`** (o que está em uso): uma **tarefa agendada** do claude.ai ("Correção automática do public-prep", a cada 2 horas, das 7h às 23h, horário de Brasília) abre uma sessão do Claude Code, anexa este repositório e corrige o que estiver pendente: `respostas/<id>` sem `claude/<id>` com `status: "pronto"`, e `discursivas/<id>` com `nota: null`. Sem pendência, ela encerra sem escrever nada. O painel mostra "na próxima rodada agendada" no cartão da sessão.
+- **Pelo painel, na hora da entrega:** o painel abriria a sessão sozinho pelo conector **Claude Code Remote** (`create_session`). Exige que esse conector exista na conta do claude.ai; na conta atual ele não existe, e a página recebe "connector access isn't confirmed". Para voltar a este modo, declare a capability `mcp` com esse conector ao publicar e tire `"modo": "agendado"`.
+
+Em qualquer dos modos, a sessão que corrige:
 
 1. Siga a rotina acima ("corrigi a <sessão>") para a entrega indicada.
 2. Grave o comentário em `correcoes/<id>`: `{"texto": "markdown curto: nota, cada erro com o que marcou, o certo e a regra em uma linha", "proxima": "<id da sessão nova>", "criadaEm": ISO}`. O painel mostra esse texto no cartão da sessão entregue, com o botão "Abrir a próxima sessão".
@@ -112,7 +117,7 @@ Ao entregar uma sessão ou discursiva, o painel abre sozinho uma sessão do Clau
 5. Por último, `claude/<id>`: `{"status": "pronto"}`; se falhar, `{"status": "erro", "motivo": "…"}`.
 6. Mexa só no banco do painel e em `estudo/`. Se outra sessão já estiver corrigindo a mesma entrega (`claude/<id>` com `status: "pronto"`), pare.
 
-Configuração em `meta/claude` no banco do painel: `{"ativo": true, "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false`, o painel não chama ninguém e mostra só o gabarito.
+Configuração em `meta/claude`: `{"ativo": true, "modo": "agendado", "rodadas": "texto mostrado no painel", "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false` e sem `modo`, o painel não menciona correção automática e mostra só o gabarito. A instrução completa da rodada agendada está na própria tarefa agendada; se mudar a rotina aqui, atualize também a tarefa.
 
 ## Subagentes
 
