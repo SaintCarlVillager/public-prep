@@ -950,7 +950,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       h += `<div class="lesson" style="margin-top:12px"><h3>Comentário do Claude</h3>${md(cor.texto)}${prox ? `<p>${prox}</p>` : ""}</div>`;
     }
     if (c?.modo === "agendado") {
-      if (!cor?.texto) h += `<p class="notice" style="margin-top:12px">${tipo === "sessao" ? "O Claude corrige esta sessão e prepara a próxima" : "O Claude corrige esta discursiva"} na próxima rodada agendada (${esc(c.rodadas || "a cada 2 horas, das 7h às 23h")}). O comentário aparece aqui sozinho.</p>`;
+      if (!cor?.texto) h += `<p class="notice" style="margin-top:12px">${tipo === "sessao" ? "O Claude corrige esta sessão e prepara a próxima" : "O Claude corrige esta discursiva"} na próxima rodada agendada (${esc(c.rodadas || "duas vezes por dia, por volta das 7h e das 21h")}). O comentário aparece aqui sozinho.</p>`;
       return h;
     }
     if (!c?.ativo) return h;

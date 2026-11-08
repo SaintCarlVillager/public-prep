@@ -105,7 +105,7 @@ Quando o candidato disser **"corrigi a <sessão>"**:
 ### Correção automática
 Há dois modos, escolhidos em `meta/claude` no banco do painel:
 
-- **`"modo": "agendado"`** (o que está em uso): uma **tarefa agendada** do claude.ai ("Correção automática do public-prep", a cada 2 horas, das 7h às 23h, horário de Brasília) abre uma sessão do Claude Code, anexa este repositório e corrige o que estiver pendente: `respostas/<id>` sem `claude/<id>` com `status: "pronto"`, e `discursivas/<id>` com `nota: null`. Sem pendência, ela encerra sem escrever nada. O painel mostra "na próxima rodada agendada" no cartão da sessão.
+- **`"modo": "agendado"`** (o que está em uso): uma **tarefa agendada** do claude.ai ("Correção automática do public-prep", duas vezes por dia, por volta das 7h e das 21h, horário de Brasília) abre uma sessão do Claude Code, anexa este repositório e corrige o que estiver pendente: `respostas/<id>` sem `claude/<id>` com `status: "pronto"`, e `discursivas/<id>` com `nota: null`. Sem pendência, ela encerra sem escrever nada. O painel mostra "na próxima rodada agendada" no cartão da sessão.
 - **Pelo painel, na hora da entrega:** o painel abriria a sessão sozinho pelo conector **Claude Code Remote** (`create_session`). Exige que esse conector exista na conta do claude.ai; na conta atual ele não existe, e a página recebe "connector access isn't confirmed". Para voltar a este modo, declare a capability `mcp` com esse conector ao publicar e tire `"modo": "agendado"`.
 
 Em qualquer dos modos, a sessão que corrige:
