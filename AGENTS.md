@@ -127,7 +127,7 @@ Use subagentes **sempre que a tarefa puder ser dividida** ou exigir ler muito ma
 
 1. **O orquestrador recorta** a tarefa para que cada subagente mexa em **arquivos diferentes** (veja abaixo) e dá a cada um um briefing **autocontido**: caminhos, formato, regras deste arquivo, nome do branch e o que pôr no PR.
 2. **O subagente trabalha num branch próprio** (`agente/<tarefa>`, ex. `agente/tjsp-2023-bloco-II`), valida com `python3 scripts/validar.py`, faz o commit, o push e abre um **PR em rascunho** para a `main`. Na descrição do PR: o que fez, contagens, pendências, discordâncias com o gabarito e **temas ou normas que sugere criar**.
-3. **O orquestrador revisa**: a checagem automática (`Validar`, no GitHub) tem de estar verde; ele confere por amostragem (gabarito × explicação, dispositivos, transcrição contra o PDF) e, se precisar, **pede ajustes ao mesmo subagente**, que corrige no mesmo branch.
+3. **O orquestrador revisa**: faz checkout do branch e roda `python3 scripts/validar.py` e `python3 scripts/empacotar.py` (os dois têm de passar); ele confere por amostragem (gabarito × explicação, dispositivos, transcrição contra o PDF) e, se precisar, **pede ajustes ao mesmo subagente**, que corrige no mesmo branch.
 4. **O orquestrador faz o merge** quando estiver tudo certo, e só ele mexe nos arquivos compartilhados.
 
 **Arquivos compartilhados** (`taxonomia/`, `normas/normas.json`, `AGENTS.md`, `scripts/`, `painel/`, `estudo/`): subagente não edita. Precisa de tema ou norma nova? Sugere no PR; o orquestrador cria num PR próprio, antes ou junto do merge.
@@ -159,4 +159,4 @@ O subagente **não precisa herdar a capacidade do orquestrador**. Escolha o mode
 - Mensagens de commit em português, no imperativo ou descritivas ("Prova TJ-SP 2024: Bloco II etiquetado").
 - **Subagentes** trabalham em `agente/<tarefa>` e entregam por PR em rascunho; **o orquestrador** revisa e faz o merge (ver "Subagentes").
 - Atualizações rotineiras de dados do estudo (`estudo/`, sessões, progresso) podem ir direto para a `main`; mudanças de estrutura, de esquema ou deste arquivo, por pull request.
-- Todo PR passa pela checagem `Validar` (`.github/workflows/validar.yml`), que roda o validador e o empacotador.
+- Não há checagem automática no GitHub (o GitHub Actions foi desligado para não gerar custo): **antes de cada merge**, quem revisa roda `python3 scripts/validar.py` e `python3 scripts/empacotar.py` no branch do PR.
