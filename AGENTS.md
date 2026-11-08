@@ -98,7 +98,7 @@ Comece por `estudo/progresso.md`. Banco do painel (ferramenta de dados do artifa
 
 Quando o candidato disser **"corrigi a <sessão>"**:
 1. Leia `respostas/<id>` e as questões; para cada erro, diga o que marcou, o certo e a regra em uma linha.
-2. Monte a próxima sessão com **questões reais do catálogo** (temas fracos, revisões vencidas, nunca vistas relevantes ao edital mais próximo), com mini-aula começando pelos erros; grave em `sessoes/<id>` com `origem: "claude"`. Autoral só quando faltar questão real, em `inline` com `autoral: true`.
+2. Monte a próxima sessão com **exatamente o número de questões configurado em `meta/config.tamanho_sessao`** (leia antes de montar; o candidato muda esse número no painel) e com **questões reais do catálogo** (temas fracos, revisões vencidas, nunca vistas relevantes ao edital mais próximo; sem repetir questões de sessões ainda abertas), com mini-aula começando pelos erros; grave em `sessoes/<id>` com `origem: "claude"`. Autoral só quando faltar questão real, em `inline` com `autoral: true`.
 3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
 4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
 
