@@ -26,7 +26,7 @@
 
 - **0016** (entregue em 08/11): **10/20 (50%)**. **Acertou as 2 de condicional** (esquema que tinha errado 3 vezes). Erros: regência verbal e nominal, execução fiscal (interrupção da prescrição e edital de 60 dias, `L6830 8`), taxa (`CTN 77`), cota de PcD (`L8213 93`), permuta de magistrados (`CF 93 VIII-B`), súmula vinculante (`CF 103-A`), juízo de delibação (`CPC 36 §2º`), MMC, prazos de mandado para audiência (NSCGJ). Duas dessas estavam explicadas na própria mini-aula.
 - **0017** (08/11) montada no painel com **10 questões** (o tamanho configurado em `meta/config`): 4 revisões da 0015 e 6 inéditas. Cópia em `estudo/sessoes/0017.json`.
-- Há uma **sessão automática aberta** de 06/11 (20 questões da prova TJ-SP 2023), ainda não entregue.
+- A sessão "Revisões de 06/11" (20 questões da prova TJ-SP 2023, nunca entregue) foi excluída a pedido do candidato em 08/11; as questões dela voltam a ficar disponíveis.
 - Objetivas no total: **93/162 (57%)**, somando o histórico 0001–0012.
 - Correção automática: tarefa agendada às 7h e às 21h; **ainda sem acesso ao repositório** (falta escolher o repositório na tarefa, em claude.ai → Agendados).
 - Temas mais fracos: regência (verbal e nominal), execução fiscal (prazos e efeitos da `L6830`), tributário básico (taxa, fontes), Poder Judiciário (permuta, Justiça Militar, súmula vinculante), cota e avaliação da PcD, negação de quantificadores, matemática (MMC, juros).
