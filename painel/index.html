@@ -278,7 +278,7 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
       <section class="card">
         <header>
           <div style="display:grid;gap:4px"><h2>Revisões</h2><span class="eyebrow">errou: volta amanhã · acertou: 1, 3, 7, 15, 30, 60 dias</span></div>
-          <button class="btn" id="r-hoje" type="button">Revisar as de hoje</button>
+          <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn ghost" id="r-n" type="button">Revisar 10</button><button class="btn" id="r-hoje" type="button">Revisar as de hoje</button></div>
         </header>
         <div class="revs" id="revs"></div>
       </section>
@@ -1088,6 +1088,11 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     const venc = itens.filter((x) => x.vence);
     $("r-hoje").textContent = venc.length ? `Revisar as de hoje (${venc.length})` : "Revisar as de hoje";
     $("r-hoje").disabled = !venc.length || !S.db;
+    const tamR = S.config?.tamanho_sessao || 20;
+    const dispR = filaRevisao().length;
+    $("r-n").textContent = `Revisar ${tamR}`;
+    $("r-n").title = dispR ? `As ${Math.min(tamR, dispR)} próximas da fila: primeiro as atrasadas e as de hoje, depois as que vencem em seguida.` : "Nenhuma revisão disponível fora das sessões abertas.";
+    $("r-n").disabled = !dispR || !S.db;
     if (!itens.length) { $("revs").innerHTML = `<p class="empty">Nenhuma revisão marcada. Cada questão respondida numa sessão entra aqui com a data de voltar a ela.</p>`; return; }
     const grupos = new Map();
     const chave = (p) => (p < hj ? "atrasada" : p);
@@ -1104,6 +1109,17 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       }).join("")}</ul></div>`;
     }).join("");
   }
+  // Fila de revisão fora das sessões abertas: atrasadas e de hoje primeiro, depois as que vencem em seguida.
+  function filaRevisao() {
+    const aberta = emSessaoAberta();
+    return revisoesVencidas().filter((x) => !aberta.has(x.qid) && S.idx[x.qid])
+      .sort((a, b) => a.p.localeCompare(b.p) || (a.a / a.t) - (b.a / b.t));
+  }
+  $("r-n").addEventListener("click", () => {
+    const tam = S.config?.tamanho_sessao || 20;
+    const qs = filaRevisao().slice(0, tam).map((x) => S.idx[x.qid]);
+    criarSessao(`Revisão (${qs.length}) · ${fmtDia(hoje())}`, ordenar(qs));
+  });
   $("r-hoje").addEventListener("click", () => {
     const qs = revisoesVencidas().filter((x) => x.vence).sort((a, b) => a.p.localeCompare(b.p)).slice(0, 60).map((x) => S.idx[x.qid]).filter(Boolean);
     criarSessao(`Revisões de ${fmtDia(hoje())}`, ordenar(qs));
