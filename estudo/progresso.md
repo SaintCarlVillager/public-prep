@@ -22,7 +22,14 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
-## Placar em 08/11/2026
+## Placar em 08/11/2026 (noite)
+
+- **0017** (entregue em 08/11): **7/10 (70%)**. Erros: execução fiscal (prazo de 5 dias, `L6830 8`; CDA emendável, `L6830 2 §8º`), qualidade de segurado em auxílio-acidente (`L8213 15 I`), regência/pronomes ("não me lembra", "nunca os pomos"). Acertou a negação de "ou… ou", a Justiça Militar estadual, a carga única e a regra de três.
+- **0018** montada no painel com **10 revisões** (tamanho de `meta/config`): execução fiscal, previdência, regência, súmula vinculante, taxa, cota de PcD, oitiva por videoconferência, juros simples, condicional. Cópia em `estudo/sessoes/0018.json`.
+- Objetivas no total: **100/172 (58%)**, somando o histórico 0001–0012.
+- Temas mais fracos: execução fiscal, regência (verbal e nominal), previdenciário (qualidade de segurado, cota de PcD), tributário básico (taxa), súmula vinculante.
+
+## Placar em 08/11/2026 (tarde)
 
 - **0016** (entregue em 08/11): **10/20 (50%)**. **Acertou as 2 de condicional** (esquema que tinha errado 3 vezes). Erros: regência verbal e nominal, execução fiscal (interrupção da prescrição e edital de 60 dias, `L6830 8`), taxa (`CTN 77`), cota de PcD (`L8213 93`), permuta de magistrados (`CF 93 VIII-B`), súmula vinculante (`CF 103-A`), juízo de delibação (`CPC 36 §2º`), MMC, prazos de mandado para audiência (NSCGJ). Duas dessas estavam explicadas na própria mini-aula.
 - **0017** (08/11) montada no painel com **10 questões** (o tamanho configurado em `meta/config`): 4 revisões da 0015 e 6 inéditas. Cópia em `estudo/sessoes/0017.json`.
