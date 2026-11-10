@@ -22,6 +22,14 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 10/11/2026 (manhã)
+
+- **0018** (entregue em 09/11): **6/10 (60%)**. Erros: súmula vinculante (`CF 103-A §3º`), regência/pronome ("não me lembra", "nunca os pomos"), videoconferência (`CPC 453 §1º`), juros simples (9,7%).
+- **Revisões de 09/11 (TJ-SP 2023):** **10/10** (19:04) e **8/10** (19:13). Erros: razão e proporção (16,4 mi) e negação da condicional (p ∧ ~q).
+- **0019** montada no painel com **10 revisões** (tamanho de `meta/config`): as 6 de hoje + regência nominal ×2, execução fiscal e MMC. Cópia em `estudo/sessoes/0019.json`.
+- Entregas corrigidas nesta rodada: 24/30 (80%). Objetivas somadas: 100/172 (histórico) + 0018 e revisões de 09/11 em andamento no painel.
+- Temas mais fracos: matemática de enunciado longo (juros, proporção, MMC), regência, súmula vinculante, condicional (negação), execução fiscal.
+
 ## Placar em 08/11/2026 (noite)
 
 - **0017** (entregue em 08/11): **7/10 (70%)**. Erros: execução fiscal (prazo de 5 dias, `L6830 8`; CDA emendável, `L6830 2 §8º`), qualidade de segurado em auxílio-acidente (`L8213 15 I`), regência/pronomes ("não me lembra", "nunca os pomos"). Acertou a negação de "ou… ou", a Justiça Militar estadual, a carga única e a regra de três.

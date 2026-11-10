@@ -1,0 +1,81 @@
+{
+ "titulo": "Revisão da 0018 e das revisões de 09/11: súmula vinculante, regência, matemática e condicional",
+ "data": "2026-11-10",
+ "rotulo": "0019",
+ "origem": "claude",
+ "aula": [
+  {
+   "t": "p",
+   "text": "**Três entregas corrigidas.** **0018: 6/10 (60%)**; as duas revisões de 09/11 (TJ-SP 2023): **10/10** e **8/10**. Total corrigido nesta rodada: **24/30 (80%)**. As revisões de 09/11 foram ótimas em improbidade, direitos políticos, PcD e processo penal. Os erros que sobraram estão abaixo e voltam hoje."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Questão",
+    "Você marcou → certo",
+    "A regra"
+   ],
+   "rows": [
+    [
+     "Súmula vinculante (TRF3 2019 #28)",
+     "A → D",
+     "A súmula vincula desde a publicação e vale para processos pendentes (`CF 103-A`). Se o TRF a aplica corretamente, **não cabe reclamação** (só contra ato que a contrarie ou a aplique mal, `CF 103-A §3º`); o RE contra acórdão conforme o STF é inadmitido (`CPC 1030 I a`)."
+    ],
+    [
+     "Português (VUNESP 2024 #20)",
+     "C → B",
+     "\"A última vez **não me lembra**\": sujeito + objeto indireto. Após \"nunca\", **próclise**: \"nunca **os** pomos\". Pronome reto (\"eles\") não é objeto direto."
+    ],
+    [
+     "Oitiva por videoconferência (2024 #44)",
+     "A → D",
+     "Testemunha de outra comarca, seção ou subseção **poderá** ser ouvida por videoconferência (`CPC 453 §1º`). Não é obrigatória a precatória; rogatória é só para o exterior."
+    ],
+    [
+     "Juros simples (2024 #83)",
+     "D → A",
+     "A + B = 35.000 e 0,07A + 0,08B = 2.580 → B = 13.000, A = 22.000. Rendimento de C: 2.801 − 1.540 = 1.261; 1.261 ÷ 13.000 = **9,7%**."
+    ],
+    [
+     "Razão e proporção (2023 #85)",
+     "D → E",
+     "90 edifícios = 3/8 → total 240; restam 150, a R&T comprou metade = 75. Preço médio: 1.230 ÷ 75 = **R$ 16,4 mi**."
+    ],
+    [
+     "Condicional falsa (2023 #87)",
+     "B → E",
+     "p → q só é falsa com **p verdadeira e q falsa**: Nora trabalhou **e não precisa** descansar (a negação de p → q é p ∧ ~q)."
+    ]
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Padrões a vigiar"
+  },
+  {
+   "t": "p",
+   "text": "**Matemática com enunciado longo** (juros e proporção) foi onde se perdeu ponto: monte as equações no papel antes de olhar as alternativas. **Regência** continua voltando (\"algo me lembra\", mas \"lembrar-se de algo\"). **Condicional**: acertou o esquema na 0018 (#91) e errou a variante da negação; lembre sempre de p ∧ ~q."
+  },
+  {
+   "t": "h",
+   "text": "Revisões desta sessão"
+  },
+  {
+   "t": "p",
+   "text": "As 10 questões são **revisões de erros**: as 6 de hoje e 4 atrasadas (regência nominal ×2, execução fiscal e MMC). Execução fiscal: **5 dias** para pagar (`L6830 8`); regência nominal: confira a preposição que o substantivo ou adjetivo pede."
+  }
+ ],
+ "questoes": [
+  "vunesp/tj-sp/oficial-de-justica/2024#44",
+  "vunesp/tj-sp/oficial-de-justica/2024#83",
+  "vunesp/tj-sp/oficial-de-justica/2023#85",
+  "vunesp/tj-sp/oficial-de-justica/2023#87",
+  "vunesp/tj-sp/oficial-de-justica/2024#20",
+  "fcc/trf3/analista-judiciario-area-judiciaria/2019#28",
+  "vunesp/tj-sp/oficial-de-justica/2024#16",
+  "vunesp/tj-sp/oficial-de-justica/2023#15",
+  "vunesp/tj-sp/oficial-de-justica/2023#71",
+  "vunesp/tj-sp/oficial-de-justica/2023#84"
+ ],
+ "inline": []
+}
