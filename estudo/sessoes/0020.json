@@ -1,0 +1,95 @@
+{
+ "titulo": "Revisão da 0019 e de 11/11: regência, execução fiscal, matemática, condicional e intervenção de terceiros",
+ "data": "2026-11-12",
+ "rotulo": "0020",
+ "origem": "claude",
+ "aula": [
+  {
+   "t": "p",
+   "text": "**Três entregas corrigidas.** **0019: 5/10 (50%)**; revisão da manhã de 11/11: **7/10**; sessão automática da noite: **10/10** (gabaritou improbidade, processo, administrativo e lógica do TRF3). Total da rodada: **22/30 (73%)**. Atenção: na 0019 você errou de novo **cinco questões que já tinha errado antes**, e marcou letras diferentes da primeira vez, sinal de chute. Hoje, antes de marcar, escreva a regra ou a conta no papel."
+  },
+  {
+   "t": "table",
+   "head": [
+    "Questão",
+    "Você marcou → certo",
+    "A regra"
+   ],
+   "rows": [
+    [
+     "Regência nominal (2023 #15)",
+     "E → D",
+     "\"Atentos **à queda**\" completa um adjetivo: complemento nominal. \"Medo **de vacina**\" completa um substantivo abstrato. \"Sobrar **para a fome**\" liga-se a um **verbo**, não a um nome."
+    ],
+    [
+     "Regência nominal (2024 #16)",
+     "B → D",
+     "\"Incumbência **de**\" está certo. \"Preferível **do que**\" é erro clássico: **preferível a**."
+    ],
+    [
+     "Execução fiscal (2023 #71)",
+     "B → E",
+     "Despacho que ordena a citação **interrompe a prescrição** (`L6830 8 §2º`); ausente do País, **edital de 60 dias** (`L6830 8 IV`). Sem domicílio ou ocultando-se: **arresto**, sem pedir autorização (`L6830 7 III`)."
+    ],
+    [
+     "MMC e calendário (2023 #84)",
+     "B → A",
+     "MMC(12, 33) = **132 dias úteis** = 26 semanas + 2 dias úteis: terça → quarta → **quinta**."
+    ],
+    [
+     "Razão e proporção (2023 #85)",
+     "C → E",
+     "1.350 ÷ 15 = 90 = 3/8 do total → 240; sobram 150, R&T comprou 75; 1.230 ÷ 75 = **16,4 mi**. Terceira vez: faça a conta inteira."
+    ],
+    [
+     "Colocação pronominal (2024 #11)",
+     "D → A",
+     "Não se inicia frase com oblíquo (\"Nos cansam\" ✗); \"que\" atrai (\"que **se** põem\"); futuro do pretérito no início pede **mesóclise** (\"formar-se-ia\")."
+    ],
+    [
+     "Denunciação da lide (2024 #43)",
+     "B → D",
+     "Indeferida a denunciação, o regresso vai por **ação autônoma** (`CPC 125 §1º`); da decisão cabe agravo (`CPC 1015 IX`); regresso do Estado por **dolo ou culpa** (`CF 37 §6º`)."
+    ],
+    [
+     "Equivalência da condicional (2024 #87)",
+     "A → B",
+     "p → q ≡ **~p ∨ q**: (p ∨ q) → (r ∧ s) vira \"(r e s) **ou** (não p e não q)\". Contrapositiva: ~(r ∧ s) → ~(p ∨ q), com De Morgan trocando e/ou."
+    ]
+   ]
+  },
+  {
+   "t": "h",
+   "text": "Duas regras para hoje"
+  },
+  {
+   "t": "p",
+   "text": "**Condicional:** são três fórmulas e só três. Equivalências: ~q → ~p e ~p ∨ q. Negação: p ∧ ~q. Ao negar \"e\" ou \"ou\" (De Morgan), troque o conectivo."
+  },
+  {
+   "t": "p",
+   "text": "**Intervenção de terceiros:** **denunciação** (`CPC 125`) é para quem tem **direito de regresso** (Estado × servidor, comprador × alienante). **Chamamento** (`CPC 130`) é para **codevedores** (fiador, devedores solidários). Prazo para citar o chamado: **30 dias**, ou **2 meses** se ele mora em outra comarca (`CPC 131 p.ú.`)."
+  },
+  {
+   "t": "h",
+   "text": "O que vem nesta sessão"
+  },
+  {
+   "t": "p",
+   "text": "10 questões: **6 revisões de erros** (razão, execução fiscal, MMC, condicional, denunciação, regência nominal), **2 revisões vencidas** que você errou em 08/11 (juízo de delibação, `CPC 36 §2º`; permuta de magistrados entre tribunais, `CF 93 VIII-B`) e **2 inéditas**: colocação pronominal e chamamento ao processo."
+  }
+ ],
+ "questoes": [
+  "vunesp/tj-sp/oficial-de-justica/2023#85",
+  "vunesp/tj-sp/oficial-de-justica/2023#71",
+  "vunesp/tj-sp/oficial-de-justica/2023#84",
+  "vunesp/tj-sp/oficial-de-justica/2024#87",
+  "vunesp/tj-sp/oficial-de-justica/2024#43",
+  "vunesp/tj-sp/oficial-de-justica/2024#16",
+  "vunesp/tj-sp/oficial-de-justica/2024#41",
+  "vunesp/tj-sp/oficial-de-justica/2024#52",
+  "vunesp/tj-sp/oficial-de-justica/2023#3",
+  "vunesp/tj-sp/oficial-de-justica/2023#39"
+ ],
+ "inline": []
+}

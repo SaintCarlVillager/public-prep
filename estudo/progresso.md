@@ -22,6 +22,15 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 11/11/2026 (noite)
+
+- **0019** (entregue em 10/11): **5/10 (50%)**. Os 5 erros repetem questões já erradas antes, com outra letra: regência nominal ×2 ("medo de", "preferível a"), execução fiscal (`L6830 8`, arresto do `L6830 7 III`), MMC/calendário e razão e proporção (16,4 mi, **3ª vez**).
+- **Revisão de 11/11 (manhã, TJ-SP 2024):** **7/10**. Erros: colocação pronominal (mesóclise, "que" atrai), denunciação indeferida → ação autônoma (`CPC 125 §1º`), equivalência da condicional (~p ∨ q).
+- **Sessão automática de 11/11 (noite):** **10/10** (tributário, Judiciário, PcD, concordância, lógica, citação eletrônica, mandados, regra de três).
+- **0020** montada no painel com **10 questões** (tamanho de `meta/config`): 6 revisões de erros, 2 revisões vencidas (`CPC 36 §2º`, `CF 93 VIII-B`) e 2 inéditas (colocação pronominal, chamamento ao processo). Cópia em `estudo/sessoes/0020.json`.
+- Entregas corrigidas nesta rodada: 22/30 (73%).
+- Temas mais fracos: matemática de enunciado longo (razão, MMC), regência nominal, execução fiscal, condicional (negação e equivalência), colocação pronominal, intervenção de terceiros. Padrão novo: **erro repetido com letra diferente** (chute); a mini-aula pede escrever a regra/conta antes de marcar.
+
 ## Placar em 10/11/2026 (manhã)
 
 - **0018** (entregue em 09/11): **6/10 (60%)**. Erros: súmula vinculante (`CF 103-A §3º`), regência/pronome ("não me lembra", "nunca os pomos"), videoconferência (`CPC 453 §1º`), juros simples (9,7%).
