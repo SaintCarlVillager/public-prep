@@ -22,6 +22,14 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 12/11/2026 (noite)
+
+- **0020** (entregue em 12/11): **4/10 (40%)**. Erros: chamamento ao processo (`CPC 130 III`, `CPC 131 p.ú.`), execução fiscal (`L6830 8`, `L6830 2 §3º`), MMC/calendário, razão e proporção (16,4 mi, **4ª vez**), regência nominal ("interesse com", "incumbência de"), equivalência da condicional (~p ∨ q, A de novo). Acertou colocação pronominal, denunciação, juízo de delibação e permuta.
+- **Revisões de 12/11:** **8/10** (17:40; erros: concordância com "que" relativo, média ponderada) e **9/10** (18:36; erro: dedução com condicional e conjunção, que tinha acertado em 09/11).
+- **0021** montada no painel com **10 questões** (tamanho de `meta/config`): 6 revisões de erros e 4 inéditas nos mesmos temas (desconsideração da personalidade jurídica na inicial, argumento válido, gráfico de setores, redação FCC). Cópia em `estudo/sessoes/0021.json`.
+- Entregas corrigidas nesta rodada: 21/30 (70%).
+- Temas mais fracos: matemática de enunciado longo (razão, MMC, média ponderada), execução fiscal, regência nominal, condicional (equivalência e dedução), intervenção de terceiros (chamamento). O **chute em questão repetida** piorou: nas revisões o candidato acerta, na sessão montada erra as mesmas com letra nova. A mini-aula pede escrever a conta ou o artigo antes de ler as alternativas.
+
 ## Placar em 11/11/2026 (noite)
 
 - **0019** (entregue em 10/11): **5/10 (50%)**. Os 5 erros repetem questões já erradas antes, com outra letra: regência nominal ×2 ("medo de", "preferível a"), execução fiscal (`L6830 8`, arresto do `L6830 7 III`), MMC/calendário e razão e proporção (16,4 mi, **3ª vez**).
