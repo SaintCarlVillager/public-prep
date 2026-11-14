@@ -22,6 +22,14 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 14/11/2026 (madrugada)
+
+- **0021** (entregue em 13/11): **5/10 (50%)**. Erros: desconsideração na inicial (`CPC 134 §2º`, `§3º`: sem incidente e sem suspensão), execução fiscal (`L6830 8`, `L6830 2 §8º`), razão e proporção (16,4 mi, **5ª vez**), argumento válido (modus tollens + De Morgan), média ponderada (x = 63). Acertou chamamento, regência nominal, equivalência da condicional, gráfico de setores e a redação FCC.
+- **Sessão automática de 13/11 (17:28):** **6/10 (60%)**. Erros: colocação pronominal (pronome no início da frase), MMC/calendário (marcou "terça" de novo), negação da condicional (p ∧ ~q), pronomes ("nunca os pomos").
+- **0022** montada no painel com **10 questões** (tamanho de `meta/config`): 5 revisões de erros desta rodada e 5 inéditas (média ponderada com gráfico, tabela e porcentagem, números naturais, contagem de algarismos, concordância/regência em lacunas). As quatro questões já repetidas demais (2023 #84, #85, #71 e 2024 #85) ficaram de fora desta sessão para medir o raciocínio em questão nova; voltam pelas revisões vencidas. Cópia em `estudo/sessoes/0022.json`.
+- Entregas corrigidas nesta rodada: 11/20 (55%).
+- Temas mais fracos: matemática de enunciado longo (razão, MMC, média ponderada), condicional (negação × equivalência), colocação pronominal e pronomes oblíquos, execução fiscal, argumento válido, desconsideração da personalidade jurídica. O padrão de **erro repetido com letra nova** continua nas questões de conta.
+
 ## Placar em 12/11/2026 (noite)
 
 - **0020** (entregue em 12/11): **4/10 (40%)**. Erros: chamamento ao processo (`CPC 130 III`, `CPC 131 p.ú.`), execução fiscal (`L6830 8`, `L6830 2 §3º`), MMC/calendário, razão e proporção (16,4 mi, **4ª vez**), regência nominal ("interesse com", "incumbência de"), equivalência da condicional (~p ∨ q, A de novo). Acertou colocação pronominal, denunciação, juízo de delibação e permuta.
