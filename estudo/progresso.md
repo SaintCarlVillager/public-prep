@@ -22,6 +22,13 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 15/11/2026 (madrugada)
+
+- **Revisões automáticas de 14/11:** **9/10** (09:25; erro: prazos de mandado para audiência, `NSCGJ 995 §§3º e 4º`: marcou 10 e 20, o certo é 20 e 10) e **10/10** (09:35). Total: **19/20 (95%)**, o melhor resultado até aqui.
+- **Acertou as quatro que vinham repetindo erro:** razão e proporção (2023 #85, depois de 5 erros), MMC/calendário (2023 #84), execução fiscal (2023 #71) e média ponderada (2024 #85).
+- **0023** montada no painel com **10 questões** (tamanho de `meta/config`): 4 revisões (mandados na NSCGJ, regência nominal ×2, chamamento ao processo) e 6 inéditas (pessoa jurídica `CC 43–45`, `CPC 782`, `CPC 535 §§5º–8º`, `CPC 45 I`, diagrama de conjuntos, sequência). Não repete questões da 0022, que continua aberta. Cópia em `estudo/sessoes/0023.json`.
+- Temas mais fracos: regência nominal (1 acerto em 3–4 tentativas), prazos de mandado na NSCGJ, condicional (negação × equivalência), colocação pronominal e pronomes oblíquos, desconsideração da personalidade jurídica. A matemática de enunciado longo melhorou nas revisões; falta confirmar em questão nova (0022).
+
 ## Placar em 14/11/2026 (madrugada)
 
 - **0021** (entregue em 13/11): **5/10 (50%)**. Erros: desconsideração na inicial (`CPC 134 §2º`, `§3º`: sem incidente e sem suspensão), execução fiscal (`L6830 8`, `L6830 2 §8º`), razão e proporção (16,4 mi, **5ª vez**), argumento válido (modus tollens + De Morgan), média ponderada (x = 63). Acertou chamamento, regência nominal, equivalência da condicional, gráfico de setores e a redação FCC.
