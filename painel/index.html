@@ -205,6 +205,25 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
 .settings { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: end; }
 @media (prefers-reduced-motion: no-preference) { .fill { transition: width .4s ease-out; } }
 @media (prefers-reduced-motion: reduce) { .alt { transition: none; } }
+
+/* Treino: card de verdadeiro/falso */
+.tf { display: grid; gap: 16px; }
+.tf .afirm { background: var(--sheet); border: 1px solid var(--rule-strong); border-radius: 16px; padding: 24px 16px; display: grid; gap: 12px; touch-action: pan-y; user-select: none; cursor: grab; }
+.tf .afirm.arrastando { cursor: grabbing; }
+.tf .afirm.lado-v, .tf .afirm.lado-f { border: 2px solid var(--ink); padding: 23px 15px; }
+.tf .afirm .txt { font-family: var(--body); font-size: 18px; line-height: 29px; overflow-wrap: break-word; }
+.tf .ctx { font-family: var(--body); font-size: 16px; line-height: 25px; color: var(--muted); overflow-wrap: break-word; }
+.tf .ctx p { margin: 0 0 .6em; } .tf .ctx p:last-child { margin: 0; }
+.tf .botoes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.tf .botoes .btn { width: 100%; }
+.tf .afirm.ok { border: 2px solid var(--good); padding: 23px 15px; background: var(--good-soft); cursor: default; }
+.tf .afirm.erro { border: 2px solid var(--bad); padding: 23px 15px; background: var(--bad-soft); cursor: default; }
+.tf .veredito { display: flex; align-items: center; gap: 4px; font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.tf .afirm.ok .veredito { color: var(--good); } .tf .afirm.erro .veredito { color: var(--bad); }
+.tf .veredito svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+.tf .dica { font-size: 13px; color: var(--muted); text-align: center; }
+.placar-treino { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.placar-treino b { color: var(--ink); }
 </style>
 
 <div class="band">
@@ -220,6 +239,7 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
       <a href="#painel" data-tab="painel">Painel</a>
       <a href="#sessao" data-tab="sessao">Sessão</a>
       <a href="#revisoes" data-tab="revisoes">Revisões</a>
+      <a href="#treino" data-tab="treino">Treino</a>
       <a href="#banco" data-tab="banco">Banco</a>
     </nav>
   </div>
@@ -297,6 +317,18 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
       </section>
     </div>
 
+    <!-- TREINO -->
+    <div data-view="treino" class="stack" hidden>
+      <section class="card">
+        <header>
+          <div style="display:grid;gap:4px"><h2>Treino</h2><span class="eyebrow">cada alternativa vira um card de verdadeiro ou falso</span></div>
+          <button class="btn" id="t-comecar" type="button">Começar 10 cards</button>
+        </header>
+        <div class="placar-treino" id="t-placar"></div>
+      </section>
+      <div id="t-main" class="stack"></div>
+    </div>
+
     <!-- BANCO -->
     <div data-view="banco" class="stack" hidden>
       <section class="card">
@@ -368,6 +400,17 @@ function proximoIntervalo(atual, acertou) {
   if (!acertou) return 1;
   return ESCADA.find((x) => x > (atual || 0)) ?? ESCADA[ESCADA.length - 1];
 }
+// Treino de verdadeiro/falso: card = uma alternativa marcada em `vf`, chave "<id da questão>|<letra>".
+// Rodada: primeiro os cards vencidos (o mais atrasado primeiro), depois os nunca vistos, na ordem recebida;
+// no máximo um card por questão, para que um card não entregue a resposta de outro da mesma questão.
+function montarTreino(cards, estado, hoje, n) {
+  const out = [], usadas = new Set();
+  const pegar = (c) => { if (out.length < n && !usadas.has(c.qid)) { out.push(c); usadas.add(c.qid); } };
+  cards.filter((c) => estado[c.k]?.p && estado[c.k].p <= hoje)
+    .sort((a, b) => estado[a.k].p.localeCompare(estado[b.k].p)).forEach(pegar);
+  cards.filter((c) => !estado[c.k]?.t).forEach(pegar);
+  return out;
+}
 const isoDia = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const paraData = (iso) => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
 function addDias(iso, n) { const d = paraData(iso); d.setDate(d.getDate() + n); return isoDia(d); }
@@ -409,12 +452,18 @@ function autoteste(editais) {
     parseDispositivo("CNJ-R354 8").sigla === "CNJ-R354", parseDispositivo("CPP 396-A").artigo === "396-A", temaCobre("a.b", "a.b.c") && !temaCobre("a.b", "a.bc"),
   ];
   caso("intervalos, artigos com letra e siglas com hífen", extras.every(Boolean));
+  // Treino: vencidos antes dos novos, mais atrasado primeiro, um card por questão, limite n, futuros fora.
+  const cd = (qid, L) => ({ k: qid + "|" + L, qid, L });
+  const cards = [cd("q1", "A"), cd("q1", "B"), cd("q2", "A"), cd("q3", "C"), cd("q4", "D"), cd("q5", "E")];
+  const estT = { "q2|A": { t: 1, p: "2026-01-05" }, "q4|D": { t: 1, p: "2026-01-02" }, "q5|E": { t: 2, p: "2026-02-01" } };
+  caso("treino: vencidos primeiro, um por questão, sem os futuros", montarTreino(cards, estT, "2026-01-10", 3).map((x) => x.k).join(",") === "q4|D,q2|A,q1|A");
+  caso("treino: rodada vazia quando nada vence e tudo foi visto", montarTreino([cd("q5", "E")], estT, "2026-01-10", 10).length === 0);
   const ok = casos.filter((c) => c.ok).length;
   const msg = `Autoteste de relevância: ${ok}/${casos.length} ok`;
   if (ok === casos.length) console.info(msg); else console.error(msg, casos.filter((c) => !c.ok).map((c) => c.nome));
   return { ok, total: casos.length, casos };
 }
-window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevancia, contaNoPlacar, proximoIntervalo, addDias, contarLinhas, md, mdInline, autoteste };
+window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevancia, contaNoPlacar, proximoIntervalo, addDias, contarLinhas, md, mdInline, montarTreino, autoteste };
 
 /* ===================== Aplicação ===================== */
 (() => {
@@ -437,7 +486,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
   const S = {
     cat: null, editais: [], provas: {}, idx: {}, inline: {}, provaCache: {}, relMemo: new Map(),
     db: null, config: null, historico: null, estado: {}, sessoes: [], respostas: {}, discursivas: [],
-    mcp: null, cfgClaude: null, pedidos: {}, correcoes: {},
+    mcp: null, cfgClaude: null, pedidos: {}, correcoes: {}, treino: {},
     ed: ls.get("mde-edital", null), current: ls.get("mde-sessao", null), modo: "sessao", discQ: null, salvando: false,
   };
 
@@ -496,7 +545,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
   }
 
   /* ---------- abas ---------- */
-  const ABAS = ["painel", "sessao", "revisoes", "banco"];
+  const ABAS = ["painel", "sessao", "revisoes", "treino", "banco"];
   function mostrarAba(nome) {
     if (!ABAS.includes(nome)) nome = "painel";
     document.querySelectorAll("[data-view]").forEach((v) => (v.hidden = v.dataset.view !== nome));
@@ -1152,8 +1201,122 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     criarSessao(`Atrasadas (${qs.length}) · ${fmtDia(hj)}`, ordenar(qs));
   });
 
+  /* ---------- treino (verdadeiro ou falso) ---------- */
+  // Progresso no banco: treino/<prova> = {"<id>|<letra>": {t, a, u, i, p}}, como estado/<prova>.
+  const TREINO_N = 10;
+  const T = { rodada: [], pos: 0, acertos: 0, resposta: null, salvando: false };
+  const estTreino = (k) => S.treino[slugDe(k.split("|")[0])]?.[k];
+  function todosCards() {
+    const out = [];
+    for (const m of Object.values(S.idx)) {
+      if (m.anulada || m.desat || !m.vf?.length) continue;
+      for (const L of m.vf) out.push({ k: m.id + "|" + L, qid: m.id, L });
+    }
+    return out;
+  }
+  function placarTreino() {
+    const hj = hoje(), cards = todosCards();
+    let vistos = 0, vencidos = 0, a = 0, t = 0;
+    for (const c of cards) { const e = estTreino(c.k); if (!e?.t) continue; vistos++; a += e.a || 0; t += e.t; if (e.p && e.p <= hj) vencidos++; }
+    return { total: cards.length, vistos, vencidos, a, t, questoes: new Set(cards.map((c) => c.qid)).size };
+  }
+  function renderTreino() {
+    if (!S.cat) return;
+    const P = placarTreino();
+    $("t-placar").innerHTML = P.total
+      ? `<span><b>${P.total}</b> cards de ${P.questoes} questões</span><span><b>${P.vistos}</b> vistos</span><span><b>${P.vencidos}</b> para revisar hoje</span><span>${P.t ? `<b>${Math.round((P.a / P.t) * 100)}%</b> de acerto` : "nenhum respondido"}</span>`
+      : `<span>Nenhuma questão marcada para o treino ainda. As alternativas entram aqui quando a questão ganha o campo <code>vf</code> no repositório.</span>`;
+    $("t-comecar").disabled = !P.total || !S.db || (T.rodada.length && T.pos < T.rodada.length);
+    if (!T.rodada.length && !$("t-main").innerHTML.trim()) {
+      $("t-main").innerHTML = P.total ? `<section class="card"><p class="empty">Cada card mostra o enunciado de uma questão real e uma das alternativas. Diga se a afirmação é verdadeira ou falsa: toque nos botões ou arraste o card (esquerda = falso, direita = verdadeiro). Errou, o card volta amanhã; acertou, volta em 1, 3, 7, 15, 30 e 60 dias.</p></section>` : "";
+    }
+  }
+  function ordemNovos(cards) {
+    // Nunca vistos: primeiro os que caem no edital de prova mais próxima, depois os outros ativos; sorteio dentro de cada grupo.
+    const eds = ativos().slice().sort((a, b) => (a.prova || "").localeCompare(b.prova || ""));
+    const peso = (c) => { const i = eds.findIndex((e) => rel(c.qid, e)); return i < 0 ? 99 : i; };
+    return embaralhar(cards).sort((a, b) => peso(a) - peso(b));
+  }
+  async function comecarTreino() {
+    const estadoPlano = {};
+    for (const doc of Object.values(S.treino)) Object.assign(estadoPlano, doc || {});
+    const rodada = montarTreino(ordemNovos(todosCards()), estadoPlano, hoje(), TREINO_N);
+    if (!rodada.length) { $("t-main").innerHTML = `<section class="card"><p class="empty">Nada para revisar hoje e nenhum card novo. Volte amanhã.</p></section>`; return; }
+    $("t-main").innerHTML = `<p class="empty">Carregando os cards…</p>`;
+    try { await Promise.all([...new Set(rodada.map((c) => slugDe(c.qid)))].map(carregarProva)); }
+    catch { $("t-main").innerHTML = `<div class="notice bad">Não consegui carregar as questões do treino (arquivos em dados/provas/). Recarregue a página.</div>`; return; }
+    Object.assign(T, { rodada, pos: 0, acertos: 0, resposta: null });
+    renderTreino(); mostrarCard();
+  }
+  const questaoDe = (qid) => S.provaCache[slugDe(qid)]?.porId?.[qid];
+  function mostrarCard() {
+    const c = T.rodada[T.pos], q = c && questaoDe(c.qid);
+    if (!c) return fimTreino();
+    if (!q || typeof q.vf?.[c.L] !== "boolean") { T.pos++; return mostrarCard(); }
+    const r = T.resposta, verdade = q.vf[c.L];
+    const tema = (q.temas || []).map(nomeTema).slice(0, 2).join(" · ");
+    let html = `<div class="tf"><div class="q" style="gap:12px"><div class="meta"><span class="num">${T.pos + 1} de ${T.rodada.length}</span><span class="eyebrow">${esc(nomeMateria(materiaDe(q)))}${tema ? " · " + esc(tema) : ""}</span>${seloFonte(q)}${selosEdital(c.qid)}</div>
+      <div class="ctx">${md(q.enunciado)}</div></div>`;
+    if (r == null) {
+      html += `<div class="afirm" id="t-card" aria-describedby="t-dica"><span class="eyebrow">Alternativa ${esc(c.L)} · verdadeira ou falsa?</span><div class="txt">${mdInline(q.alt[c.L])}</div></div>
+        <div class="botoes"><button class="btn ghost" type="button" data-julgar="f">← Falso</button><button class="btn ghost" type="button" data-julgar="v">Verdadeiro →</button></div>
+        <p class="dica" id="t-dica">Ou arraste o card: esquerda é falso, direita é verdadeiro.</p>`;
+    } else {
+      const ok = r === verdade;
+      const ic = ok ? `<path d="M5 12.5l4.5 4.5L19 7.5"/>` : `<path d="M6 6l12 12M18 6L6 18"/>`;
+      html += `<div class="afirm ${ok ? "ok" : "erro"}"><span class="veredito"><svg viewBox="0 0 24 24" aria-hidden="true">${ic}</svg>${ok ? "Você acertou" : "Você errou"} · a afirmação é ${verdade ? "verdadeira" : "falsa"}</span><div class="txt">${mdInline(q.alt[c.L])}</div></div>
+        ${q.exp ? `<div class="exp"><span class="eyebrow" style="display:block;margin-bottom:6px">Comentário da questão · gabarito ${esc(q.gab)}</span>${md(q.exp)}</div>` : ""}
+        <button class="btn" type="button" id="t-proximo" ${T.salvando ? "disabled" : ""}>${T.pos + 1 < T.rodada.length ? "Próximo card" : "Ver resultado"}</button>`;
+    }
+    $("t-main").innerHTML = html + `</div>`;
+    if (r == null) arrastar($("t-card"));
+    else $("t-proximo")?.focus({ preventScroll: true });
+  }
+  function arrastar(el) {
+    let x0 = null, dx = 0, w = 1;
+    const reduz = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    const pos = () => { el.classList.toggle("lado-v", dx > 24); el.classList.toggle("lado-f", dx < -24); if (!reduz) el.style.transform = dx ? `translateX(${dx}px) rotate(${dx / 30}deg)` : ""; };
+    el.addEventListener("pointerdown", (e) => { x0 = e.clientX; w = el.offsetWidth; dx = 0; el.setPointerCapture(e.pointerId); el.classList.add("arrastando"); });
+    el.addEventListener("pointermove", (e) => { if (x0 == null) return; dx = e.clientX - x0; pos(); });
+    const solta = () => {
+      if (x0 == null) return;
+      x0 = null; el.classList.remove("arrastando");
+      const d = dx; dx = 0; pos();
+      if (Math.abs(d) > w / 3) julgar(d > 0);
+    };
+    el.addEventListener("pointerup", solta); el.addEventListener("pointercancel", solta);
+  }
+  async function julgar(valor) {
+    const c = T.rodada[T.pos], q = c && questaoDe(c.qid);
+    if (!q || T.resposta != null || !S.db) return;
+    const ok = valor === q.vf[c.L];
+    T.resposta = valor; if (ok) T.acertos++;
+    T.salvando = true; mostrarCard();
+    const slug = slugDe(c.qid), hj = hoje();
+    const cur = JSON.parse(JSON.stringify(S.treino[slug] || {}));
+    const e = cur[c.k] || { t: 0, a: 0 };
+    e.t = (e.t || 0) + 1; e.a = (e.a || 0) + (ok ? 1 : 0); e.u = hj; e.i = proximoIntervalo(e.i, ok); e.p = addDias(hj, e.i);
+    cur[c.k] = e;
+    try { await S.db.collection("treino").doc(slug).set(cur); S.treino[slug] = cur; }
+    catch (err) { erroBanco(err, "salvar o card (a resposta vale aqui, mas não foi gravada)"); }
+    T.salvando = false;
+    if (T.rodada[T.pos] === c) { mostrarCard(); renderTreino(); }
+  }
+  function fimTreino() {
+    const n = T.rodada.length;
+    $("t-main").innerHTML = `<section class="card"><div class="result"><span class="stamp ${T.acertos / n < 0.5 ? "low" : ""}">${T.acertos}/${n}</span>
+      <div><b>Rodada concluída</b><p>Os cards errados voltam amanhã. Comece outra rodada quando quiser.</p></div></div></section>`;
+    T.rodada = []; T.pos = 0; renderTreino();
+  }
+  $("t-comecar").addEventListener("click", comecarTreino);
+  $("t-main").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-julgar]");
+    if (b) { julgar(b.dataset.julgar === "v"); return; }
+    if (e.target.id === "t-proximo") { T.pos++; T.resposta = null; mostrarCard(); }
+  });
+
   /* ---------- banco ---------- */
-  const F = Object.assign({ edital: "", banca: "", prova: "", materia: "", tema: "", status: "", anuladas: false }, ls.get("mde-filtros", {}));
+  const F =Object.assign({ edital: "", banca: "", prova: "", materia: "", tema: "", status: "", anuladas: false }, ls.get("mde-filtros", {}));
   function preencherFiltros() {
     const opt = (v, t, sel) => `<option value="${esc(v)}" ${sel ? "selected" : ""}>${esc(t)}</option>`;
     const eds = ativos();
@@ -1223,7 +1386,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
 
   let agendado = false;
   function renderTudo(forcarSessao = false) {
-    renderCabecalho(); renderPainel(); renderRevisoes(); renderSessao(forcarSessao);
+    renderCabecalho(); renderPainel(); renderRevisoes(); renderTreino(); renderSessao(forcarSessao);
     if (document.activeElement?.id !== "f-tema") preencherFiltros();
     renderBanco();
   }
@@ -1252,6 +1415,8 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     db.doc("meta/claude").onSnapshot((s) => { S.cfgClaude = s.exists ? s.data() : null; agendar(); }, () => {});
     db.collection("claude").onSnapshot((q) => { S.pedidos = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
     db.collection("correcoes").onSnapshot((q) => { S.correcoes = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
+    // Treino de verdadeiro/falso (fora do controle de carregamento: a coleção nasce no primeiro card respondido)
+    db.collection("treino").onSnapshot((q) => { S.treino = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
   }
   // Questões que vêm completas na sessão (autorais do Claude) entram no índice para placar e revisões.
   function reindexarInline() {

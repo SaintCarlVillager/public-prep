@@ -1,77 +1,74 @@
 # DESIGN.md
 
-O sistema visual do painel de estudo. Vale para o painel (`painel/index.html`, um Artifact do claude.ai). Segue as diretrizes de design de Artifacts da Anthropic: tokens no `:root`, dois temas, layout responsivo e nada que só funcione num tema.
+O sistema visual do painel de estudo. Vale para o painel (`painel/index.html`, um Artifact do claude.ai). Segue o design system **edenprep** (artifact "edenprep" no claude.ai do dono) e as diretrizes de Artifacts da Anthropic: tokens no `:root`, dois temas, layout que funciona primeiro no celular e nada que só funcione num tema.
 
 ## Conceito
 
-**"Folha de mandado."** O painel é uma ferramenta de trabalho de quem cumpre ordens judiciais: sóbrio, com cara de documento oficial, e com um único traço de cor dourada para o que é decisivo (notas de corte, prazos). Ele é lido e operado, não admirado: primeiro o resumo, depois o detalhe; estado mostrado também por forma (selos, traços), não só por número.
+**Mesa de leitura.** Quase todo estudo acontece no celular, em intervalos curtos, lendo texto jurídico longo. A interface recua; a questão e o comentário são a página. Um único traço de cor de marca, o **grifo** amarelo (como quem grifa a lei seca), marca o que está escolhido ou ativo.
 
 ## Tokens
 
-Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@media (prefers-color-scheme: dark)` com `:root:not([data-theme="light"])` e de novo em `:root[data-theme="dark"]`. O `body` sempre tem fundo explícito (`var(--paper)`).
+Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@media (prefers-color-scheme: dark)` com `:root:not([data-theme="light"])` e de novo em `:root[data-theme="dark"]`. O `body` sempre tem fundo explícito (`var(--paper)`). Os nomes antigos foram mantidos para não mexer no código; a coluna "edenprep" diz o token correspondente do design system.
 
-| Token | Claro | Escuro | Uso |
-|---|---|---|---|
-| `--paper` | `#f2f4f7` | `#0f141d` | fundo da página |
-| `--sheet` | `#ffffff` | `#171e2a` | cartões e questões |
-| `--ink` | `#141c2e` | `#e6eaf1` | texto |
-| `--muted` | `#5b6477` | `#9aa4b6` | texto secundário, rótulos |
-| `--rule` | `#d9dee7` | `#2a3343` | bordas e trilhos |
-| `--accent` | `#0e6a5a` | `#4fc2a9` | ação principal, barras, questão real |
-| `--brass` | `#a77a12` | `#e0b44a` | **só** o decisivo: nota de corte, prazos, temas comuns aos dois concursos |
-| `--fed` | `#2c5aa0` | `#8fb3ec` | etiqueta "só TRF3" (concurso federal) |
-| `--good` / `--bad` / `--warn` | `#1d7a3f` / `#b3261e` / `#9a6200` | `#5cc983` / `#f2867d` / `#e8b04a` | acerto, erro, atenção (semânticos, nunca decorativos) |
-| `--band` | `#141c2e` | `#0a0e15` | faixa do cabeçalho |
+| Token | Claro | Escuro | edenprep | Uso |
+|---|---|---|---|---|
+| `--paper` | `#faf8f3` | `#14171c` | `surface` | fundo da página (papel quente) |
+| `--sheet` | `#ffffff` | `#1c2027` | `surface-raised` | cartões, questões, alternativas |
+| `--sunken` | `#f1ede4` | `#0f1115` | `surface-sunken` | comentário, trilhos, avisos neutros |
+| `--ink` | `#1c2430` | `#ece8df` | `ink` | texto; preenchimento do botão principal; anel de foco |
+| `--muted` | `#575e6b` | `#a5abb5` | `ink-muted` | texto secundário, rótulos, contagens |
+| `--rule` | `#e2dccf` | `#2b3039` | `line` | divisórias (decorativas) |
+| `--rule-strong` | `#8a8478` | `#6e7581` | `line-strong` | borda de controles (≥3:1) |
+| `--grifo` | `#f2c94c` | `#e8bf45` | `grifo` | letra da alternativa escolhida, aba ativa, selo TJ-SP, carimbo da nota. Nunca é cor de texto; texto sobre ele usa `--on-grifo` |
+| `--good` / `--good-soft` | `#1f5a96` / `#e7eef7` | `#86b6ea` / `#182a3e` | `correct` | **correta** e acerto: azul, não verde |
+| `--bad` / `--bad-soft` | `#a8400c` / `#faebe2` | `#f0965f` / `#3a2316` | `incorrect` | **errada** e erro: laranja |
+| `--warn` / `--brass` | `#7a5300` | `#e6b955` | `notice` | atenção, desatualizada, traço da nota de corte |
 
-Cada cor semântica tem uma versão `-soft` (fundo de selo) com o mesmo matiz em baixa saturação.
+`--accent` é `--ink` (ação principal); `--fed` e `--accent-soft` ficaram neutros. Correta × errada é **azul × laranja**, para não depender de enxergar vermelho e verde, e sempre vem com palavra.
 
 ## Tipografia
 
 | Papel | Fonte | Onde |
 |---|---|---|
-| Display | **Archivo** (largura variável, 400–800) | títulos, números das abas, rótulos de cartão |
-| Leitura | **Literata** | mini-aula, enunciados e alternativas: texto longo |
-| Dados | **JetBrains Mono** | placares, datas, contagens, rótulos em caixa-alta (`.eyebrow`) |
+| Interface | **IBM Plex Sans** 400 e 600 | títulos, abas, botões, rótulos, números |
+| Leitura | **Literata** 400 e 600, itálico para citação | enunciado, alternativas, comentário, mini-aula |
 
-- Todas do Google Fonts, com pilha de reserva (`Georgia`, `Helvetica Neue`, `ui-monospace`).
-- Texto corrido da aula em até ~72 caracteres por linha; enunciados a 16 px, aula a 16,5 px.
-- Números alinhados em coluna usam `font-variant-numeric: tabular-nums`.
-- Títulos com `text-wrap: balance`.
+- Enunciado 18/29 px; alternativa 17/26; comentário 16/25. Não diminua no celular.
+- Rótulos em caixa-alta (`.eyebrow`): 12 px, 600, espaçamento .06em.
+- Números em coluna com `font-variant-numeric: tabular-nums`.
 
 ## Layout
 
-- Coluna única de até **1040 px**, gutter lateral `max(16px, env(safe-area-inset-*))`.
-- Cabeçalho em faixa escura com o nome do concurso e **um prazo por concurso ativo** (o do TRF3 some depois da prova).
-- Abas por `#hash`: **Painel**, **Sessão**, **Revisões**.
-- Grades com `gap`, nunca margens soltas; tudo vira uma coluna abaixo de ~820 px. Tabelas e gráfico rolam dentro do próprio contêiner, a página nunca rola na horizontal.
-- Barra de entrega fixa no rodapé da sessão, respeitando a área segura do celular.
+- Coluna única de até **1040 px**, gutter `max(16px, env(safe-area-inset-*))`. Pensado primeiro a **360 px**.
+- Cabeçalho no próprio papel (sem faixa escura): nome, um prazo por concurso ativo e as abas por `#hash`: **Painel**, **Sessão**, **Revisões**, **Treino**, **Banco**. A aba ativa tem sublinhado grifo.
+- Nada tocável abaixo de 48 px de altura (campos de filtro, 44 px).
+- Raios: 6 px (selos, letra, campos), 10 px (botões, alternativas), 16 px (cartões).
+- Bordas, não sombras.
 
 ## Componentes
 
-- **Medidor**: trilho fino (`--rule`), preenchimento `--accent` (ou `--bad` abaixo do corte) e um **traço dourado** na posição da nota de corte do edital.
-- **Selos** (`.pill`): fonte mono 11 px, cantos arredondados.
-  - Fonte da questão: **verde** = prova real; **amarelo** = autoral.
-  - Concurso: **dourado** = cai nos dois; **azul** = só TRF3; **dourado claro** = só TJ-SP.
-  - Resultado: verde "acertou", vermelho "errou · gabarito X".
-- **Alternativa**: botão inteiro clicável com a letra num círculo; selecionada em `--accent-soft`; depois da entrega, certa em verde e marcada errada em vermelho.
-- **Carimbo** da nota: número em mono dentro de borda grossa, levemente girado (o único gesto "artesanal" da página).
-- **Gráfico de evolução**: barras por sessão, tracejado dourado em 50%, simulados discursivos só com contorno.
+- **Medidor**: trilho `--sunken`, preenchimento `--ink` (ou `--bad` abaixo do corte) e o traço `--brass` na nota de corte.
+- **Selos** (`.pill`): 12 px, 600, cantos de 6 px. TJ-SP (ou os dois) em grifo; TRF3 com contorno; acertou em azul, errou em laranja; anulada neutra.
+- **Alternativa**: botão inteiro com a letra num quadrado. Escolhida: borda 2 px `--ink` e letra em grifo. Depois da entrega: correta em azul com "✓ Correta", a marcada errada em laranja com "✗ Sua resposta".
+- **Card do Treino**: o enunciado da questão em cartão, e abaixo a alternativa como afirmação, num cartão que se arrasta (esquerda = falso, direita = verdadeiro; inclina de leve, sem animação com `prefers-reduced-motion`). Os botões "← Falso" e "Verdadeiro →" ficam sempre visíveis. Depois: "✓ Você acertou" ou "✗ Você errou", sempre dizendo se a afirmação é verdadeira ou falsa, e o comentário da questão com o gabarito.
+- **Carimbo** da nota: número sobre grifo (laranja claro abaixo de 50%).
 
 ## Estados e escrita
 
-- Estado vazio sempre diz o que vai aparecer e como começar ("Nenhuma sessão publicada ainda").
+- Estado vazio diz o que vai aparecer e como começar.
 - Carregamento com limite de 10 s; erro explica o que fazer, sem desculpas.
-- Botões dizem a ação ("Entregar sessão"), e o resultado confirma ("Sessão entregue").
-- Linguagem do candidato, não do sistema: "Revisões", não "fila de spaced repetition".
+- Botões dizem a ação ("Entregar sessão", "Começar 10 cards"); o resultado confirma.
+- Linguagem do candidato: "Revisões", "Treino", não "spaced repetition".
 
 ## Acessibilidade
 
-- Foco visível em dourado (`outline: 2px solid var(--brass)`).
-- Contraste conferido nos dois temas; nenhuma informação só por cor (selos têm texto).
-- Animações apenas na largura das barras, desligadas com `prefers-reduced-motion`.
+- Foco: `outline: 2px solid var(--ink)` com 2 px de afastamento (≥13:1 em todo fundo).
+- Contraste conferido nos dois temas: texto ≥4,5:1, bordas de controle ≥3:1.
+- Nenhuma informação só por cor: correta, errada e status sempre com palavra.
+- Movimento só na largura das barras, no fundo de toque e no arraste do card; tudo desligado com `prefers-reduced-motion`.
 
 ## Ao mudar o painel
 
-1. Novas cores entram primeiro como token, nos três blocos (claro, escuro por sistema, escuro forçado).
-2. Mantenha o dourado raro: se tudo for destaque, nada é.
-3. Teste em 400 px de largura e nos dois temas antes de publicar.
+1. Cor nova entra primeiro como token, nos três blocos (claro, escuro por sistema, escuro forçado).
+2. Grifo é raro: se tudo for grifado, nada é.
+3. Teste a 360 px e nos dois temas antes de publicar.
