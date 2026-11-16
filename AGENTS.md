@@ -57,6 +57,7 @@ Campos opcionais da questão:
 - `desatualizada`: texto dizendo por que a resposta oficial não vale mais hoje (lei nova, emenda). O painel avisa o candidato.
 - `imagens`: recortes de figura da prova, relativos à pasta da prova (`["figuras/q84.png"]`).
 - `anulada`: `true` quando a banca anulou; `gab` guarda o gabarito preliminar.
+- `vf`: cada alternativa como card de verdadeiro/falso do **Treino** (`{"A": false, "B": true, "C": false, "D": null, "E": false}`). `true`/`false` é o valor de verdade da afirmação lida junto com o enunciado; `null` deixa a alternativa fora do treino (não se sustenta sozinha). Os valores **saem do gabarito oficial**, nunca de opinião: na questão que pede a correta, só o gabarito é `true`; na que pede a incorreta ou "exceto", só o gabarito é `false`. O gabarito é sempre marcado (é ele que diz o sentido da questão). Fica sem `vf`: questão anulada, desatualizada, de lacunas, com alternativas que só fazem sentido entre si ("I e II, apenas", "todas as anteriores") ou com gabarito discutível. O validador confere tudo isso contra o gabarito.
 
 **Destaques gráficos da prova** (termo em negrito ou sublinhado a que o enunciado se refere): `**negrito**` e `__sublinhado__`. Nunca HTML. Figuras, gráficos e tabelas que o texto não reproduz são descritos entre colchetes (`[Gráfico de setores: …]`) e registrados em `pendencias`.
 
@@ -95,6 +96,7 @@ Comece por `estudo/progresso.md`. Banco do painel (ferramenta de dados do artifa
 | `meta/claude` | configuração da correção automática |
 | `claude/<id>` | trava e situação do pedido de correção (`pedido`, `em andamento`, `pronto`, `erro`) |
 | `correcoes/<id>` | comentário do Claude sobre a entrega e id da próxima sessão |
+| `treino/<prova>` | cards de verdadeiro/falso por `"<id da questão>\|<letra>"`: tentativas, acertos, última, próxima revisão, intervalo |
 
 Quando o candidato disser **"corrigi a <sessão>"**:
 1. Leia `respostas/<id>` e as questões; para cada erro, diga o que marcou, o certo e a regra em uma linha.

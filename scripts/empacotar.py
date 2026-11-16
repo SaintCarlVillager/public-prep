@@ -87,6 +87,9 @@ def indice_questao(q, anulada):
         i["img"] = len(q["imagens"])
     if q.get("tipo") == "disc" and q.get("max") is not None:
         i["max"] = q["max"]
+    if q.get("vf") and not anulada and not q.get("desatualizada"):
+        # Letras que viram card de verdadeiro/falso no Treino (o valor fica só no arquivo da prova).
+        i["vf"] = [L for L, v in q["vf"].items() if v is not None]
     return i
 
 
