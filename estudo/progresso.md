@@ -22,6 +22,15 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 16/11/2026 (noite)
+
+- **Entregas de 16/11, seis no total: 37/51 (73%).** 0022: **7/10**; 0023: **4/10**; 0024: **6/10**; automáticas: **10/10** (12:55), **9/10** (16:03) e **1/1** (16:09).
+- **Acertou enfim o MMC/calendário** (2023 #84, na 7ª tentativa) e os juros com troca de aplicação (2024 #83).
+- Erros de processo da FCC/TRF3, todos na **exceção expressa do artigo**: recuperação judicial com interesse da União (`CPC 45 I`), nulidades (`CPC 276`, `CPC 279 §2º`, `CPC 282 §2º`), foro de senador por crime anterior ao mandato (`CF 109 IV`), auxílio-moradia (`L8112 60-B VI`), atos executivos em comarca contígua (`CPC 782 §1º`, `§4º`) e inexigibilidade contra a Fazenda (`CPC 535 §5º`, `§7º`).
+- Erros de conta parada antes do fim: geometria (2024 #86, **2ª vez**, 2/7), média ponderada (2023 #83), diagrama de três conjuntos (2023 #89) e sequência (2023 #90). Voltaram a cair: negação da condicional (2023 #87), condicional V + conjunção F (2023 #92), "preferível a" (2024 #16) e "não me lembra" / "nunca os pomos" (2024 #20).
+- **0025** montada no painel com **10 questões** (tamanho de `meta/config`): 7 revisões (`CPC 45 I`, nulidades, foro do parlamentar, auxílio-moradia, `CPC 782`, `CPC 535`, geometria) e 3 inéditas (diagrama 2024 #90, sequência 2024 #92, embargos de declaração TRF3 #44). Nenhuma outra sessão estava aberta. Cópia em `estudo/sessoes/0025.json`.
+- Temas mais fracos: exceções do CPC cobradas pela FCC (competência, nulidades, execução), condicional (negação × V/F), regência nominal e pronomes oblíquos, geometria (razão de áreas), diagramas e sequências.
+
 ## Placar em 16/11/2026 (madrugada)
 
 - **Sessão automática de 15/11 (21:37):** **7/10 (70%)**. Erros, todos de conta parada antes do fim: MMC/calendário (2023 #84, marcou "segunda", o certo é quinta; **6ª tentativa**, 1 acerto), juros simples com troca de aplicação (2024 #83, marcou 10,3%, certo 9,7%) e área do triângulo no retângulo (2024 #86, marcou 2/9 = região 2 ÷ folha, o certo é 2/7 = região 2 ÷ região 1). Acertou de novo razão e proporção (2023 #85) e média ponderada (2024 #85).
