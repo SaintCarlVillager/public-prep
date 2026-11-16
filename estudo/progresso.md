@@ -22,6 +22,12 @@
 - Painel antigo (v1, congelado, só consulta): https://claude.ai/artifact/SfWicPDqnHeqzhpVs34t6Y — o histórico dele foi importado para o v2 (sessões 0013, 0014, TRF3·01 e a 0015, aberta).
 - Painéis anteriores (congelados): TJ-SP https://claude.ai/artifact/G9YruxCx44VEHoviH43bdZ · TRF3 https://claude.ai/artifact/Vat7RVmtg16E2y9ayBfdxR
 
+## Placar em 16/11/2026 (madrugada)
+
+- **Sessão automática de 15/11 (21:37):** **7/10 (70%)**. Erros, todos de conta parada antes do fim: MMC/calendário (2023 #84, marcou "segunda", o certo é quinta; **6ª tentativa**, 1 acerto), juros simples com troca de aplicação (2024 #83, marcou 10,3%, certo 9,7%) e área do triângulo no retângulo (2024 #86, marcou 2/9 = região 2 ÷ folha, o certo é 2/7 = região 2 ÷ região 1). Acertou de novo razão e proporção (2023 #85) e média ponderada (2024 #85).
+- **0024** montada no painel com **10 questões** (tamanho de `meta/config`): 3 revisões dos erros de hoje, 2 revisões vencidas com 1 acerto em 2 (`CPC 36 §2º`, `CF 93 VIII-B`) e 5 inéditas da FCC/TRF3 (`CTN 105`/`111`/`112`, `CF 109 IV`, `L8112 60-B`, nulidades `CPC 278`–`282`, conexão `CPC 55`). Não repete questões da 0022 nem da 0023, ainda abertas. Cópia em `estudo/sessoes/0024.json`.
+- Temas mais fracos: MMC/calendário (1 acerto em 6), juros simples com sistema, geometria (razão de áreas), regência nominal, prazos de mandado na NSCGJ, condicional (negação × equivalência), colocação pronominal e pronomes oblíquos. Padrão da rodada: **conta certa até a metade**; a mini-aula pede sublinhar o que o enunciado pede antes de olhar as alternativas.
+
 ## Placar em 15/11/2026 (madrugada)
 
 - **Revisões automáticas de 14/11:** **9/10** (09:25; erro: prazos de mandado para audiência, `NSCGJ 995 §§3º e 4º`: marcou 10 e 20, o certo é 20 e 10) e **10/10** (09:35). Total: **19/20 (95%)**, o melhor resultado até aqui.
