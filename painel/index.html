@@ -167,6 +167,10 @@ code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .86em; 
 .alt.right[aria-disabled="true"]:active { background: var(--good-soft); }
 .alt.wrong[aria-disabled="true"]:active { background: var(--bad-soft); }
 .exp { font-family: var(--body); font-size: 16px; line-height: 25px; padding: 12px 16px; border-radius: 6px; background: var(--sunken); }
+.altbox { display: grid; gap: 6px; }
+.exp-alt { margin-left: 16px; }
+.exp-alt .eyebrow { display: block; margin-bottom: 4px; }
+@media (min-width: 600px) { .exp-alt { margin-left: 40px; } }
 .note { font-size: 15px; padding: 12px 16px; border-radius: 6px; background: var(--warn-soft); }
 .note b { color: var(--warn); }
 .note ul { margin: 4px 0 0; padding-left: 18px; }
@@ -905,8 +909,13 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
           if (L === q.gab) v = `<span class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>${escolhida === L ? "Correta · sua resposta" : "Correta"}</span>`;
           else if (L === escolhida) v = `<span class="v"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Sua resposta</span>`;
         }
-        return `<button type="button" class="${cls}" data-q="${esc(id)}" data-l="${L}" aria-pressed="${escolhida === L}" ${done ? 'aria-disabled="true"' : ""}>${v}<span class="l">${L}</span><span>${mdInline(txt)}</span></button>`;
+        const botao = `<button type="button" class="${cls}" data-q="${esc(id)}" data-l="${L}" aria-pressed="${escolhida === L}" ${done ? 'aria-disabled="true"' : ""}>${v}<span class="l">${L}</span><span>${mdInline(txt)}</span></button>`;
+        // Depois da entrega, cada alternativa mostra o seu comentário logo abaixo dela.
+        const ca = done && q.exp_alt?.[L];
+        return ca ? `<div class="altbox">${botao}<div class="exp exp-alt"><span class="eyebrow">Comentário da alternativa ${L}</span>${md(ca)}</div></div>` : botao;
       }).join("");
+      // O comentário da questão inteira só aparece quando falta o de alguma alternativa.
+      const faltaAlt = !q.exp_alt || Object.keys(q.alt || {}).some((L) => !q.exp_alt[L]);
       const tema = (q.temas || []).map(nomeTema).slice(0, 2).join(" · ");
       let selos = "";
       if (done) {
@@ -919,7 +928,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       if (done && q.observacoes?.length) notas.push(`<div class="note"><b>Observações</b><ul>${q.observacoes.map((o) => `<li>${mdInline(o)}</li>`).join("")}</ul></div>`);
       qhtml.push(`<article class="q" id="q-${i + 1}"><div class="meta"><span class="num">${String(i + 1).padStart(2, "0")}</span><span class="eyebrow">${esc(nomeMateria(materiaDe(q)))}${tema ? " · " + esc(tema) : ""}</span>${selos}</div>
         <div class="stem">${md(q.enunciado)}</div>${figuras(q)}<div class="alts">${alts}</div>
-        ${done && q.exp ? `<div class="exp">${md(q.exp)}</div>` : ""}${notas.join("")}</article>`);
+        ${done && q.exp && faltaAlt ? `<div class="exp">${q.exp_alt ? `<span class="eyebrow" style="display:block;margin-bottom:6px">Comentário da questão</span>` : ""}${md(q.exp)}</div>` : ""}${notas.join("")}</article>`);
     });
     partes.push(`<div class="qlist" id="s-questions">${qhtml.join("")}</div>`);
     if (!done) {
@@ -1265,7 +1274,8 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       const ok = r === verdade;
       const ic = ok ? `<path d="M5 12.5l4.5 4.5L19 7.5"/>` : `<path d="M6 6l12 12M18 6L6 18"/>`;
       html += `<div class="afirm ${ok ? "ok" : "erro"}"><span class="veredito"><svg viewBox="0 0 24 24" aria-hidden="true">${ic}</svg>${ok ? "Você acertou" : "Você errou"} · a afirmação é ${verdade ? "verdadeira" : "falsa"}</span><div class="txt">${mdInline(q.alt[c.L])}</div></div>
-        ${q.exp ? `<div class="exp"><span class="eyebrow" style="display:block;margin-bottom:6px">Comentário da questão · gabarito ${esc(q.gab)}</span>${md(q.exp)}</div>` : ""}
+        ${q.exp_alt?.[c.L] ? `<div class="exp"><span class="eyebrow" style="display:block;margin-bottom:6px">Comentário da alternativa</span>${md(q.exp_alt[c.L])}</div>`
+          : q.exp ? `<div class="exp"><span class="eyebrow" style="display:block;margin-bottom:6px">Comentário da questão · gabarito ${esc(q.gab)}</span>${md(q.exp)}</div>` : ""}
         <button class="btn" type="button" id="t-proximo" ${T.salvando ? "disabled" : ""}>${T.pos + 1 < T.rodada.length ? "Próximo card" : "Ver resultado"}</button>`;
     }
     $("t-main").innerHTML = html + `</div>`;

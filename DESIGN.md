@@ -49,7 +49,7 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 
 - **Medidor**: trilho `--sunken`, preenchimento `--ink` (ou `--bad` abaixo do corte) e o traço `--brass` na nota de corte.
 - **Selos** (`.pill`): 12 px, 600, cantos de 6 px. TJ-SP (ou os dois) em grifo; TRF3 com contorno; acertou em azul, errou em laranja; anulada neutra.
-- **Alternativa**: botão inteiro com a letra num quadrado. Escolhida: borda 2 px `--ink` e letra em grifo. Depois da entrega: correta em azul com "✓ Correta", a marcada errada em laranja com "✗ Sua resposta".
+- **Alternativa**: botão inteiro com a letra num quadrado. Escolhida: borda 2 px `--ink` e letra em grifo. Depois da entrega: correta em azul com "✓ Correta", a marcada errada em laranja com "✗ Sua resposta", e **cada alternativa com o seu comentário logo abaixo** (`exp_alt`). O comentário da questão inteira só aparece quando falta o de alguma alternativa.
 - **Card do Treino**: o enunciado da questão em cartão, e abaixo a alternativa como afirmação, num cartão que se arrasta (esquerda = falso, direita = verdadeiro; inclina de leve, sem animação com `prefers-reduced-motion`). Os botões "← Falso" e "Verdadeiro →" ficam sempre visíveis. Depois: "✓ Você acertou" ou "✗ Você errou", sempre dizendo se a afirmação é verdadeira ou falsa, e o comentário da questão com o gabarito.
 - **Carimbo** da nota: número sobre grifo (laranja claro abaixo de 50%).
 
