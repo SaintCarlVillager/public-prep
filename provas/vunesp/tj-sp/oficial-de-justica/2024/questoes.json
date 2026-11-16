@@ -480,7 +480,14 @@
         "CP 2"
       ],
       "exp": "A abolitio criminis retroage a qualquer tempo, **mesmo após o trânsito em julgado**: cessam a execução e os efeitos penais da sentença (`CP 2`). Os efeitos civis permanecem. As demais alternativas inventam um marco final que a lei não tem.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#22",
@@ -502,7 +509,14 @@
         "CP 12"
       ],
       "exp": "`CP 12`: as regras gerais do Código aplicam-se aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**. (A) contraria o texto; (D) ignora a extraterritorialidade (`CP 7`); (B) e (E) não estão no artigo.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#23",
@@ -547,7 +561,14 @@
         "CP 107 V"
       ],
       "exp": "Convidar o ofensor para padrinho do filho é ato **incompatível com a vontade de exercer o direito de queixa**: renúncia tácita (`CP 104, p.ú.`), que extingue a punibilidade (`CP 107, V`). A renúncia é irretratável (B errada) e não depende de forma expressa (D errada). Perdão (E) é instituto diferente, posterior à queixa.",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#25",
@@ -571,7 +592,14 @@
         "CP 115"
       ],
       "exp": "Pena concreta de 2 anos prescreve em 4 (`CP 109, V`); como o agente tinha **menos de 21 anos** na data do fato, o prazo cai à metade: **2 anos** (`CP 115`). O 1º intervalo (3 anos e 1 dia) não conta: a prescrição retroativa não pode ter termo inicial anterior à denúncia (`CP 110, §1º`). O 2º intervalo (2 anos e 1 dia) passa de 2 anos: prescreveu.",
-      "recursos": 29
+      "recursos": 29,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#26",
@@ -594,7 +622,14 @@
         "CP 121 §5º",
         "CP 107 IX"
       ],
-      "exp": "`CP 121, §5º`: no homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la**: perdão judicial, causa de extinção da punibilidade (`CP 107, IX`). Não é atenuante nem causa de diminuição."
+      "exp": "`CP 121, §5º`: no homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la**: perdão judicial, causa de extinção da punibilidade (`CP 107, IX`). Não é atenuante nem causa de diminuição.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#27",
@@ -616,7 +651,14 @@
         "CP 129 §5º II"
       ],
       "exp": "`CP 129, §5º, II`: nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa**. Não há troca de reclusão por detenção (A) nem redução de 1/6 a 1/3 (C).",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#28",
@@ -639,7 +681,14 @@
         "CP 150 §1º"
       ],
       "exp": "O tipo protege a **casa**, e o `CP 150, §4º, II` inclui no conceito o **aposento ocupado de habitação coletiva**: é elementar. Noite, lugar ermo, arma, violência e concurso de duas ou mais pessoas são **qualificadoras** (`§1º`), não elementares: o fato pode existir sem elas.",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#29",
@@ -661,7 +710,14 @@
         "CP 308"
       ],
       "exp": "`CP 308` pune quem **usa** como próprio documento alheio (Remo) e quem **cede** a outrem documento próprio ou **de terceiro** para que dele se utilize (Capitolina). Rômulo não sabia de nada: não há crime culposo nesse tipo. Não há isenção de pena para a mãe. É crime contra a fé pública, não contra a Administração.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#30",
@@ -683,7 +739,14 @@
         "CPP 28-A"
       ],
       "exp": "Requisitos do `CPP 28-A, caput`: não ser caso de arquivamento, **confissão formal e circunstancial**, infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**. Reparação do dano é condição do acordo, que pode ser dispensada se impossível (B); infrações pretéritas **insignificantes** não impedem o acordo (`§2º, II`), o que derruba (E).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#31",
@@ -705,7 +768,14 @@
         "CPP 33"
       ],
       "exp": "`CPP 33`: se o ofendido for menor de 18 anos (ou incapaz) e os interesses colidirem com os do representante legal, o direito de queixa poderá ser exercido por **curador especial**, nomeado pelo juiz **de ofício ou a requerimento do MP**. A ação não muda de natureza.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#32",
@@ -727,7 +797,14 @@
         "CPP 70 §3º"
       ],
       "exp": "`CPP 70, §3º`: limite territorial incerto ou infração nas divisas de duas ou mais jurisdições → competência firmada pela **prevenção**.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#33",
@@ -749,7 +826,14 @@
         "CPP 156 I"
       ],
       "exp": "`CPP 156, I`: o juiz pode, **de ofício**, mesmo **antes de iniciada a ação penal**, ordenar a produção antecipada de provas **urgentes e relevantes**, observando **necessidade, adequação e proporcionalidade**. A banca cobrou a letra da lei.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#34",
@@ -772,7 +856,14 @@
         "CPP 219"
       ],
       "exp": "`CPP 218`: o juiz pode **requisitar à autoridade policial** a apresentação da testemunha ou determinar que seja **conduzida por oficial de justiça**. `CPP 219`: além disso, **multa**, processo por **desobediência** e **custas da diligência**. Só (E) lista todas as consequências.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#35",
@@ -794,7 +885,14 @@
         "CPP 284"
       ],
       "exp": "`CPP 284`: não se permite o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga** do preso. Desobediência e desacato não estão no artigo.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#36",
@@ -819,7 +917,14 @@
         "CPP 445"
       ],
       "exp": "`CPP 438`: a recusa ao serviço do júri **fundada em convicção religiosa, filosófica ou política** importa o dever de prestar serviço alternativo. (A) o efetivo exercício **presume** idoneidade moral (`CPP 439`); (B) o desconto é vedado ao jurado que **comparecer** (`CPP 441`); (E) o jurado responde criminalmente como os juízes togados (`CPP 445`).",
-      "recursos": 9
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#37",
@@ -841,7 +946,14 @@
       "dispositivos": [
         "CPP 487"
       ],
-      "exp": "`CPP 487`: **para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas dos votos e as não utilizadas."
+      "exp": "`CPP 487`: **para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas dos votos e as não utilizadas.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#38",
@@ -863,7 +975,14 @@
         "L9099 60 p.ú."
       ],
       "exp": "A frase reproduz o `art. 60, p.ú., da Lei 9.099/95`: na reunião de processos por conexão ou continência perante o juízo comum ou o júri, aplicam-se a **transação penal** e a **composição civil dos danos**. Tudo verdadeiro.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#39",
@@ -886,7 +1005,14 @@
         "CPC 10"
       ],
       "exp": "`CPC 10`: o juiz não pode decidir com base em fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, **ainda que se trate de matéria que deva decidir de ofício**. É a vedação à decisão surpresa, ligada ao contraditório (`CPC 9`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#40",
@@ -908,7 +1034,14 @@
         "CPC 22 II"
       ],
       "exp": "`CPC 22, II`: compete à autoridade judiciária brasileira processar e julgar as ações decorrentes de **relações de consumo**, quando o **consumidor tiver domicílio ou residência no Brasil**. A nacionalidade das partes (D) não é critério de jurisdição.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#41",
@@ -931,7 +1064,14 @@
         "CPC 36 §2º"
       ],
       "exp": "Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, sem rever o mérito: é o **juízo de delibação** (`CPC 36, §2º`).",
-      "recursos": 50
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#42",
@@ -955,7 +1095,14 @@
         "CF 109 I"
       ],
       "exp": "Competência em razão da pessoa é **absoluta** (`CF 109, I`). A perpetuatio jurisdictionis (`CPC 43`) cede quando houver alteração de competência absoluta, e o `CPC 45` manda remeter os autos à Justiça Federal quando intervier empresa pública federal.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#43",
@@ -978,7 +1125,14 @@
         "CPC 1015 IX",
         "CF 37 §6º"
       ],
-      "exp": "`CPC 125, §1º`: indeferida a denunciação, o direito regressivo é exercido por **ação autônoma**. (C) cabe agravo de instrumento (`CPC 1.015, IX`); (E) o regresso cabe por **dolo ou culpa** (`CF 37, §6º`)."
+      "exp": "`CPC 125, §1º`: indeferida a denunciação, o direito regressivo é exercido por **ação autônoma**. (C) cabe agravo de instrumento (`CPC 1.015, IX`); (E) o regresso cabe por **dolo ou culpa** (`CF 37, §6º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#44",
@@ -1000,7 +1154,14 @@
         "CPC 453 §1º"
       ],
       "exp": "`CPC 453, §1º`: a oitiva de testemunha que reside em outra comarca, seção ou subseção **poderá** ser feita por videoconferência ou outro recurso de sons e imagens em tempo real. (A) torna obrigatória a precatória; (E) rogatória é para outro país.",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#45",
@@ -1024,7 +1185,14 @@
         "CPC 535 §8º"
       ],
       "exp": "`CPC 535, §5º`: é **inexigível** a obrigação fundada em lei declarada inconstitucional pelo STF, **em controle concentrado ou difuso**, e o `§7º` exige que a decisão do STF seja **anterior** ao trânsito em julgado, como no caso: basta a impugnação, sem rescisória (que só cabe se a decisão do STF for posterior, `§8º`). (B) o excesso de execução se alega na própria impugnação (`CPC 535, IV`).",
-      "recursos": 13
+      "recursos": 13,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#46",
@@ -1046,7 +1214,14 @@
         "L9099 19"
       ],
       "exp": "`Lei 9.099/95, art. 19`: as intimações são feitas na forma prevista para a citação **ou por qualquer outro meio idôneo de comunicação**, o que a jurisprudência estende aos meios eletrônicos.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#47",
@@ -1070,7 +1245,14 @@
         "CF 12 §3º"
       ],
       "exp": "`CF 12, §5º` (EC 131/2023): a renúncia não impede readquirir a nacionalidade **originária**; volta a ser nato e pode ser Ministro do STF (`§3º, IV`). (A) a naturalização extraordinária depende de requerimento; (B) não se exige trabalho; (C) são 15 anos; (D) o cancelamento hoje é por **fraude** ou **atentado contra a ordem constitucional e o Estado Democrático** (`§4º, I`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#48",
@@ -1092,7 +1274,14 @@
         "CF 18 §4º"
       ],
       "exp": "`CF 18, §4º`: fusão de municípios por **lei estadual**, no período determinado por **lei complementar federal**, após **plebiscito** das populações envolvidas e divulgação dos **Estudos de Viabilidade Municipal**.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#49",
@@ -1118,7 +1307,14 @@
         "CF 37 V"
       ],
       "exp": "`CF 38, I` e `V`: no mandato estadual o servidor fica afastado do cargo e, se segurado de RPPS, **permanece filiado a esse regime no ente de origem**. (A) a incorporação de vantagens de função de confiança é vedada (`CF 39, §9º`); (B) o vereador sem compatibilidade de horários **pode optar** pela remuneração (`CF 38, III`); (E) funções de confiança são **exclusivas de servidores efetivos** (`CF 37, V`).",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#50",
@@ -1145,7 +1341,14 @@
         "CF 40 §14"
       ],
       "exp": "`CF 40, §20`: é **vedada** a existência de mais de um RPPS e de mais de uma entidade gestora em cada ente federativo. (B) a iniciativa da previdência complementar é do **Executivo** (`§14`); (C) o reajuste segue critérios **da lei** (`§8º`); (D) e (E) idade e tempo diferenciados dependem de **lei complementar** (`§4º-A`, `§4º-C`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#51",
@@ -1171,7 +1374,14 @@
         "CF 98 II"
       ],
       "exp": "`CF 99, §4º`: proposta orçamentária fora dos limites da LDO → o **Executivo faz os ajustes**. (A) o órgão especial tem de 11 a **25** membros (`CF 93, XI`); (B) decisões disciplinares por **maioria absoluta** (`CF 93, X`); (C) quarentena de **3** anos (`CF 95, p.ú., V`); (E) a justiça de paz não julga divórcio (`CF 98, II`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#52",
@@ -1194,7 +1404,14 @@
         "CF 93 II"
       ],
       "exp": "`CF 93, VIII-B` (EC 130/2023): admite-se a **permuta** de magistrados de comarca de igual entrância, no mesmo segmento de justiça, **inclusive entre tribunais diferentes**, observando no que couber os critérios de merecimento do `art. 93, II` (desempenho, produtividade, presteza e cursos de aperfeiçoamento).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#53",
@@ -1215,7 +1432,14 @@
       "dispositivos": [
         "CF 127 §6º"
       ],
-      "exp": "`CF 127, §6º`: durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas mediante a abertura de créditos suplementares ou especiais**. Autonomia funcional e administrativa não afastam essa regra."
+      "exp": "`CF 127, §6º`: durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas mediante a abertura de créditos suplementares ou especiais**. Autonomia funcional e administrativa não afastam essa regra.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#54",
@@ -1237,7 +1461,14 @@
         "CF 125 §3º"
       ],
       "exp": "`CF 125, §3º`: a **lei estadual**, mediante **proposta do Tribunal de Justiça**, pode criar a Justiça Militar estadual. Não há participação do CNJ nem lei complementar; a EC 133 tratou de partidos políticos.",
-      "recursos": 5
+      "recursos": 5,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#55",
@@ -1263,7 +1494,14 @@
       "observacoes": [
         "Dispositivo conferido: art. 3º correto."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#56",
@@ -1288,7 +1526,14 @@
       ],
       "exp": "`Lei 10.261/68, art. 13`: as nomeações serão feitas **em caráter vitalício** (nos casos previstos na Constituição), **em comissão** e **em caráter efetivo** (B), o que também afasta (E). Transferência, acesso, reversão, reintegração e aproveitamento são **outras formas de provimento** listadas no `art. 11`, ao lado da nomeação, e não formas de nomeação.",
       "recursos": 2,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#57",
@@ -1312,7 +1557,14 @@
       ],
       "exp": "`Lei 10.261/68, art. 14, p.ú.`: as provas serão avaliadas na escala de 0 a 100 pontos e **aos títulos serão atribuídos, no máximo, 50 pontos** (D). A proposta de 100 pontos para títulos viola essa limitação expressa; o próprio `art. 14` admite concurso **de provas e títulos** para cargo efetivo, o que afasta (A), (C) e (E).",
       "recursos": 1,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#58",
@@ -1341,7 +1593,14 @@
       "observacoes": [
         "Dispositivo \"L10261 47\" estava correto; detalhado por inciso."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#59",
@@ -1366,7 +1625,14 @@
       ],
       "exp": "`Lei 10.261/68, art. 120, §2º`: **é vedado dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e o `§3º` responsabiliza a autoridade que expedir a ordem (A). (B) o ponto é o registro pelo qual se verifica, **diariamente, a entrada e saída** do funcionário (`art. 120`); (D) o uso de meios mecânicos é apenas preferencial (`§1º`) e não é a única desconformidade. O Estatuto não fala em sandbox (C) nem em administração gerencial (E).",
       "recursos": 3,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#60",
@@ -1390,7 +1656,14 @@
         "L10261 242 VIII"
       ],
       "exp": "`Lei 10.261/68, art. 242, II`: é proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição**, e Abelardo levava documentos para casa sem conhecimento da chefia (D). (C) erra ao negar essa violação; (B) e (E) ignoram também a proibição de **empregar material do serviço público em serviço particular** (`art. 242, VIII`); (A) o Estatuto não traz a proibição de cursos nos termos descritos.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#61",
@@ -1413,7 +1686,14 @@
         "L8429 1 §2º"
       ],
       "exp": "Receber, **para si ou para outrem**, presente de quem tenha interesse que possa ser atingido por ação ou omissão do agente é **enriquecimento ilícito** (`Lei 8.429/92, art. 9º, I`). Desde a Lei 14.230/21, exige **dolo**: vontade livre e consciente (`art. 1º, §2º`). Compromisso implícito não afasta o dolo (D); improbidade independe do resultado do PAD (E).",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#62",
@@ -1434,7 +1714,14 @@
       "dispositivos": [
         "L8429 13"
       ],
-      "exp": "`Lei 8.429/92, art. 13`: a **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal. Vale para qualquer agente público, de qualquer nível e Poder."
+      "exp": "`Lei 8.429/92, art. 13`: a **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal. Vale para qualquer agente público, de qualquer nível e Poder.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#63",
@@ -1456,7 +1743,14 @@
         "CC 25"
       ],
       "exp": "`CC 25`: o cônjuge é curador legítimo **se não separado judicialmente**; na falta, os pais e depois os descendentes. Josué estava separado e não tem pais nem descendentes: **compete ao juiz a escolha do curador** (`§3º`), parente ou não. Ser irmão não dá preferência legal.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#64",
@@ -1478,7 +1772,14 @@
         "CC 76"
       ],
       "exp": "`CC 76, p.ú.`: o domicílio do **incapaz** é o do seu representante ou assistente. (A) marítimo: onde o navio estiver **matriculado**; (B) servidor: onde exerce **permanentemente** suas funções; (C) preso: onde **cumprir a sentença**; (E) militar da Aeronáutica: a **sede do comando** a que se encontrar imediatamente subordinado.",
-      "recursos": 50
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#65",
@@ -1501,7 +1802,14 @@
         "CC 158"
       ],
       "exp": "Fraude contra credores em negócio **oneroso** (`CC 159`): anulável quando a insolvência for notória ou houver motivo para ser conhecida do outro contratante. Marina sabia: o banco pode pedir a **anulação**. (B) é anulável, não nulo; (C) fraude à execução é instituto processual diferente; (D) a notoriedade basta; (E) a fraude alcança negócios onerosos.",
-      "recursos": 39
+      "recursos": 39,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#66",
@@ -1523,7 +1831,14 @@
         "CC 214"
       ],
       "exp": "`CC 214`: a confissão é **irrevogável**, mas pode ser **anulada** se decorreu de **erro de fato** ou de coação.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#67",
@@ -1546,7 +1861,14 @@
         "CC 1170"
       ],
       "exp": "`CC 1.169`: o preposto não pode, **sem autorização escrita**, fazer-se substituir, sob pena de responder pessoalmente pelos atos do substituto e pelas obrigações por ele contraídas. `CC 1.170`: negociar por conta própria ou de terceiro exige **autorização expressa**.",
-      "recursos": 17
+      "recursos": 17,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#68",
@@ -1571,7 +1893,14 @@
         "CC 1447"
       ],
       "exp": "`CC 1.445`: no penhor pecuário, o devedor não pode alienar os animais **sem prévio consentimento, por escrito, do credor**. (A) penhor recai sobre coisa **móvel** (`CC 1.431`); (C) no penhor mercantil as coisas ficam em poder do **devedor** (`CC 1.431, p.ú.`); (D) o registro pode ser feito por **qualquer dos contratantes** (`CC 1.432`); (E) máquinas podem ser empenhadas **com ou sem** os acessórios (`CC 1.447`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#69",
@@ -1593,7 +1922,14 @@
         "CC 1728 I"
       ],
       "exp": "`CC 1.728, I`: os filhos menores são postos em tutela com o falecimento dos pais ou **sendo estes julgados ausentes**. Os demais casos são de **curatela** (adultos) ou nem isso: deficiência, por si só, não afeta a capacidade civil.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#70",
@@ -1615,7 +1951,14 @@
         "CC 1997"
       ],
       "exp": "`CC 1.997, §2º`: reservados bens pelo juiz, o credor deve iniciar a ação de cobrança em **30 dias**, sob pena de a providência ficar sem efeito. (C) a reserva se dá quando **houver impugnação** não fundada em pagamento (`§1º`); (A) e (B) antes da partilha responde **a herança**, e não os herdeiros (`caput`).",
-      "recursos": 9
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#71",
@@ -1642,7 +1985,14 @@
         "L6830 13"
       ],
       "exp": "(A) reproduz o `art. 2º, §8º`. (B) o arresto é para o executado que **não tem domicílio ou dele se oculta** (`art. 7º, III`); (C) a avaliação é feita **pelo próprio oficial** no termo ou auto de penhora (`art. 13`); (D) o prazo é de **5 dias** (`art. 8º`); (E) plantações e edifícios em construção podem ser penhorados excepcionalmente (`art. 11, §1º`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#72",
@@ -1673,7 +2023,14 @@
       "observacoes": [
         "O CNJ-R354 10 §2º só excetua a ocultação; a menção a 'local incerto e não sabido' na alternativa E não está no texto da Resolução."
       ],
-      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579"
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#73",
@@ -1696,7 +2053,14 @@
         "L11608 5 p.ú."
       ],
       "exp": "`Lei 11.608/03, art. 5º, III`: na **declaratória incidental**, o recolhimento da taxa judiciária é **diferido** para depois da satisfação da execução quando comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (C). O `p.ú.` aplica a regra a **pessoas físicas e jurídicas**, o que afasta (A); (B) erra quanto ao tipo de ação, (E) dispensa a comprovação exigida e (D) cria requisito inexistente.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#74",
@@ -1724,7 +2088,14 @@
       "observacoes": [
         "Art. 196 XX está no Cap. IV (ofícios cíveis, atos ordinatórios) e é o que o edital 2026 cita ('196, XX'); o art. 1.024 §§2º-3º (Cap. VII, Prov. CG 27/2023) tem regra equivalente (antes estava no art. 1.079, revogado). Redação igual em 12/2024 e em 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#75",
@@ -1750,7 +2121,14 @@
       "observacoes": [
         "Art. 310 está no Cap. IV, Seção VI (Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; §4º do Prov. CGJ 11/2002, sem alteração até 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#76",
@@ -1777,7 +2155,14 @@
       "observacoes": [
         "Art. 315 está no Cap. IV, Seção VI (Execuções Fiscais da Capital); redação sem alteração até 22/10/2026. No Cap. VII, o art. 1.016 trata do aditamento em geral (só enquanto o mandado está com o oficial)."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#77",
@@ -1808,7 +2193,14 @@
       "observacoes": [
         "Arts. 439 e 440 estão no Cap. IV, Seção XIV (intimações, ofícios criminais). O caput do art. 439 foi alterado pelo Prov. CG 33/2024 (ressalva do cumprimento remoto, art. 1.029); os §§1º a 4º e o art. 440 (Prov. CGJ 32/2000) não mudaram."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#78",
@@ -1842,7 +2234,14 @@
       "observacoes": [
         "Arts. 997-999 (Cap. VII) na redação do Prov. CG 27/2023, vigente na prova (15/12/2024); só o art. 997 IX foi alterado depois (Prov. CG 36/2024), sem reflexo na questão."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#79",
@@ -1862,7 +2261,14 @@
       ],
       "dispositivos": [],
       "exp": "Segundo a reportagem, entre junho de 2023 e junho de 2024 o PIB brasileiro cresceu 2,5% e só ficou atrás de Índia, Indonésia, China, Rússia e Estados Unidos, **empatando com a Turquia**, que também cresceu 2,5% no período. França, Canadá, Reino Unido e Alemanha tiveram crescimento bem menor no mesmo intervalo (a Alemanha chegou a ficar perto de zero).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#80",
@@ -1881,7 +2287,14 @@
         "atualidades.2024"
       ],
       "dispositivos": [],
-      "exp": "**Alemanha e Espanha** são os principais defensores europeus do acordo UE-Mercosul, interessados em ampliar a exportação de bens industriais (máquinas, automóveis, fármacos). As demais duplas não correspondem aos apoiadores apontados pela imprensa na época; Polônia, Áustria, Irlanda, Bélgica e Holanda, ao contrário, figuraram entre os países com resistências ao tratado, ao lado da França."
+      "exp": "**Alemanha e Espanha** são os principais defensores europeus do acordo UE-Mercosul, interessados em ampliar a exportação de bens industriais (máquinas, automóveis, fármacos). As demais duplas não correspondem aos apoiadores apontados pela imprensa na época; Polônia, Áustria, Irlanda, Bélgica e Holanda, ao contrário, figuraram entre os países com resistências ao tratado, ao lado da França.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#81",
@@ -1912,7 +2325,14 @@
       "observacoes": [
         "Os dois dispositivos de 2023 estão no próprio Estatuto: art. 2º §3º (telemedicina ou análise documental), acrescido pela Lei 14.724, de 14/11/2023; art. 2º-A (cordão de girassóis), acrescido pela Lei 14.624, de 17/7/2023, que só alterou a Lei 13.146. Não é preciso sigla nova."
       ],
-      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf"
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#82",
@@ -1938,7 +2358,14 @@
         "L13146 85 §1º",
         "L13146 85 §2º"
       ],
-      "exp": "A curatela é **medida protetiva extraordinária**, proporcional às necessidades do caso e **deve durar o menor tempo possível** (**`art. 84, §3º`**); afeta só atos de natureza **patrimonial e negocial** (**`art. 85`**) e **não alcança** o direito ao próprio corpo, à sexualidade, ao matrimônio, **à privacidade**, à educação, à saúde, ao trabalho e ao voto, **não sendo exigida para a emissão de documentos oficiais** (**`art. 85, §1º`**). (A) inventa prazo (15 de abril) e crime; o **`art. 84, §4º`** só manda prestar contas anualmente. (B) erra ao dizer que a curatela é por tempo indeterminado e alcança a privacidade. (D) erra porque prestar contas não impede a curatelada de buscar a revisão ou o fim da medida, e o balanço é anual. (E) erra ao incluir saúde e educação, que a curatela não alcança."
+      "exp": "A curatela é **medida protetiva extraordinária**, proporcional às necessidades do caso e **deve durar o menor tempo possível** (**`art. 84, §3º`**); afeta só atos de natureza **patrimonial e negocial** (**`art. 85`**) e **não alcança** o direito ao próprio corpo, à sexualidade, ao matrimônio, **à privacidade**, à educação, à saúde, ao trabalho e ao voto, **não sendo exigida para a emissão de documentos oficiais** (**`art. 85, §1º`**). (A) inventa prazo (15 de abril) e crime; o **`art. 84, §4º`** só manda prestar contas anualmente. (B) erra ao dizer que a curatela é por tempo indeterminado e alcança a privacidade. (D) erra porque prestar contas não impede a curatelada de buscar a revisão ou o fim da medida, e o balanço é anual. (E) erra ao incluir saúde e educação, que a curatela não alcança.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#83",
@@ -1958,7 +2385,14 @@
         "matematica.sistemas"
       ],
       "dispositivos": [],
-      "exp": "Sendo A + B = 35.000 e 0,07A + 0,08B = 2.580: 0,07 × 35.000 = 2.450, então 0,01B = 2.580 − 2.450 = 130, logo B = 13.000 (menor parte) e A = 22.000. Com a aplicação C no lugar de B: 0,07 × 22.000 = 1.540, e o rendimento de C foi 2.801 − 1.540 = 1.261. Taxa de C = 1.261 ÷ 13.000 = 0,097 = **9,7%** (A). As demais taxas não fecham o total de R$ 2.801,00."
+      "exp": "Sendo A + B = 35.000 e 0,07A + 0,08B = 2.580: 0,07 × 35.000 = 2.450, então 0,01B = 2.580 − 2.450 = 130, logo B = 13.000 (menor parte) e A = 22.000. Com a aplicação C no lugar de B: 0,07 × 22.000 = 1.540, e o rendimento de C foi 2.801 − 1.540 = 1.261. Taxa de C = 1.261 ÷ 13.000 = 0,097 = **9,7%** (A). As demais taxas não fecham o total de R$ 2.801,00.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#84",
@@ -2007,7 +2441,14 @@
       ],
       "dispositivos": [],
       "exp": "Seja x a nota da 2ª fase. Ponderada: (45 + 2x)/3; simples: (45 + x)/2. Condição: (45 + 2x)/3 − (45 + x)/2 = 3 → 2(45 + 2x) − 3(45 + x) = 18 → 90 + 4x − 135 − 3x = 18 → **x = 63**, que está entre **60,9 e 64,8** (D). Conferindo: ponderada = 171/3 = 57 e simples = 108/2 = 54, diferença de 3 pontos.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#86",
@@ -2056,7 +2497,14 @@
       ],
       "dispositivos": [],
       "exp": "Com p = trabalho, q = estudo, r = feliz e s = realizado, a frase é (p ∨ q) → (r ∧ s), equivalente a ¬(p ∨ q) ∨ (r ∧ s) = (r ∧ s) ∨ (¬p ∧ ¬q): \"Estou realizado e feliz **ou** não estudo e não trabalho\" (B). (A) é uma conjunção, não equivalência. (C) é a recíproca. (D) e (E) tentam a contrapositiva, mas ela seria ¬(r ∧ s) → ¬(p ∨ q), isto é, \"se não estou feliz **ou** não estou realizado, então não trabalho **e** não estudo\"; (D) troca o \"e\" do consequente por \"ou\" e (E) erra o antecedente e o consequente.",
-      "recursos": 5
+      "recursos": 5,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#88",
@@ -2077,7 +2525,14 @@
       ],
       "dispositivos": [],
       "exp": "\"Ou... ou\" é a disjunção exclusiva (p ⊻ q), cuja negação é a bicondicional (p ↔ q). Negar \"existe x tal que P(x)\" dá \"todo x é tal que não P(x)\": \"Todo Fulano trabalha para Cicrano **se, e somente se**, trabalha para Beltrano\" (C). (A) e (D) mantêm o \"existe\". (B) muda o conteúdo sem negar o \"ou exclusivo\". (E) diz ¬p ↔ q, que equivale ao próprio ou exclusivo, não à sua negação.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#89",
@@ -2098,7 +2553,14 @@
       ],
       "dispositivos": [],
       "exp": "III dá \"Oliveira é juiz\" verdadeiro. Em II, a disjunção exclusiva (\"ou... ou\") exige que só uma parte seja verdadeira, então \"Silva é oficial de justiça\" é falso: **Silva não é oficial de justiça** (E), e (C) é falsa. Em I, com o consequente (\"Silva não é oficial\") verdadeiro, a condicional é verdadeira qualquer que seja o antecedente; logo nada se conclui sobre Pereira ou Santos, e (A), (B) e (D) não são conclusões necessárias.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#90",
@@ -2119,7 +2581,14 @@
       ],
       "dispositivos": [],
       "exp": "Regiões do diagrama: três empresas = x/9; só duas = 6 + 13 + 12 = 31; só A = x/6; só B = 5x/24; só C = x/12 (metade de x/6). Somando: x/9 + x/6 + 5x/24 + x/12 + 31 = x. Com MMC 72: (8 + 12 + 15 + 6)x/72 = 41x/72, logo 31 = 31x/72 → **x = 72**. Na empresa C: só C (6) + B e C (13) + A e C (12) + as três (8) = **39** (D).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#91",
@@ -2140,7 +2609,14 @@
       ],
       "dispositivos": [],
       "exp": "Com p = \"A é município de B\" e q = \"C é município de D\": p → q é V e p ∧ q é F. Se p fosse V, a condicional obrigaria q a ser V, e p ∧ q seria V, o que contradiz o enunciado; logo p é F: **A não é município do estado B** (A). Com p falso, a condicional é verdadeira para qualquer q, então (B) e (C) não são necessárias; (E) contradiz o resultado e (D) trata de proposição que não aparece nas premissas.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#92",
@@ -2160,7 +2636,14 @@
       ],
       "dispositivos": [],
       "exp": "Os termos são produtos de dois números consecutivos: 2 = 1×2, 12 = 3×4, 30 = 5×6, 56 = 7×8, 90 = 9×10, 132 = 11×12; o n-ésimo termo é (2n − 1)·2n. Para n = 99: 197 × 198 = **39 006** (A). Alternativamente, as diferenças 10, 18, 26, 34, 42 crescem de 8 em 8, o que confirma a fórmula quadrática 4n² − 2n: 4·9801 − 198 = 39 006.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#93",
@@ -2231,7 +2714,14 @@
         "informatica.word"
       ],
       "dispositivos": [],
-      "exp": "O recurso que registra cada modificação para posterior **aceitação ou rejeição** é o **Controlar Alterações** (guia Revisão), aqui na opção \"Para Todas as Pessoas\" (E). CTRL+Z só desfaz ações (A); Proteger restringe a edição (B); Verificar Acessibilidade aponta problemas de acessibilidade (C); e o Modo de Leitura apenas exibe o documento (D)."
+      "exp": "O recurso que registra cada modificação para posterior **aceitação ou rejeição** é o **Controlar Alterações** (guia Revisão), aqui na opção \"Para Todas as Pessoas\" (E). CTRL+Z só desfaz ações (A); Proteger restringe a edição (B); Verificar Acessibilidade aponta problemas de acessibilidade (C); e o Modo de Leitura apenas exibe o documento (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#96",
@@ -2271,7 +2761,14 @@
       ],
       "dispositivos": [],
       "exp": "Quando o **proprietário** exclui uma pasta compartilhada, ela vai para a Lixeira do OneDrive **dele**, e só ele pode restaurá-la; quem recebeu o compartilhamento não pode recuperá-la (A). Por isso (B) e (D) erram (além de a lixeira do OneDrive ter prazo, e não ser a Lixeira do Windows), (C) erra porque pastas também podem ser restauradas da lixeira, e (E) erra porque o link original deixa de funcionar com a exclusão.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#98",
@@ -2315,7 +2812,14 @@
       ],
       "dispositivos": [],
       "exp": "Todos os destinatários, seja em Para, Cc ou Cco, recebem a **mesma mensagem com o anexo**; o campo Cco só oculta o destinatário dos demais. Assim, Paulo, Dante, Julio e Roberto receberam o Documento.txt (E). As alternativas que excluem alguém confundem visibilidade do destinatário com recebimento do anexo.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#100",
