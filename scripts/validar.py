@@ -166,6 +166,26 @@ def validar_vf(q, anulada, onde):
         erros.append(f"{onde}: 'vf' não bate com o gabarito '{gab}' (só o gabarito pode ser o diferente)")
 
 
+def validar_exp_alt(q, onde):
+    """`exp_alt` é o comentário de cada alternativa que vira card no Treino (lido sozinho, sem as outras).
+    Cobre exatamente as letras com `vf` true/false."""
+    ea, vf = q["exp_alt"], q.get("vf")
+    if not isinstance(vf, dict):
+        erros.append(f"{onde}: 'exp_alt' só existe junto com 'vf'")
+        return
+    if not isinstance(ea, dict):
+        erros.append(f"{onde}: 'exp_alt' deve ser um objeto {{letra: comentário}}")
+        return
+    com_card = sorted(L for L, v in vf.items() if v is not None)
+    if sorted(ea) != com_card:
+        erros.append(f"{onde}: 'exp_alt' deve ter exatamente as letras com card em 'vf' ({', '.join(com_card)})")
+    for L, t in ea.items():
+        if not isinstance(t, str) or not t.strip():
+            erros.append(f"{onde}: 'exp_alt' da letra {L} vazio")
+        elif re.search(r"</?[a-z]+>", t):
+            erros.append(f"{onde}: HTML no 'exp_alt' da letra {L}; use **negrito**")
+
+
 def validar_provas(temas, normas):
     total = pendentes = 0
     for caminho in sorted(glob.glob(os.path.join(RAIZ, "provas", "**", "prova.json"), recursive=True)):
@@ -239,6 +259,8 @@ def validar_provas(temas, normas):
                     erros.append(f"{onde}: gabarito '{q.get('gab')}' difere do oficial '{gab.get(str(n))}'")
             if "vf" in q:
                 validar_vf(q, n in anuladas, onde)
+            if "exp_alt" in q:
+                validar_exp_alt(q, onde)
             if not q.get("temas"):
                 erros.append(f"{onde}: sem temas")
             for t in q.get("temas", []):
