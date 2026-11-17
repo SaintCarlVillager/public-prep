@@ -214,7 +214,21 @@
       "imagens": [
         "figuras/q84.png"
       ],
-      "conferido_em": "prova.pdf p. 25 (recorte 200 dpi)"
+      "conferido_em": "prova.pdf p. 25 (recorte 200 dpi)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com A = 30°, B = 120° e C = 210°, os 330° de B + C correspondem a 220 elementos; C tem 220 × 210/330 = **140**, e não 145.",
+        "B": "Com A = B/4 e C = A + 180°, A = 30°, B = 120° e C = 210°. Como B + C = 330° correspondem a 220 elementos, C tem 220 × 210/330 = **140**.",
+        "C": "Com A = 30°, B = 120° e C = 210°, os 330° de B + C correspondem a 220 elementos; C tem 220 × 210/330 = **140**, e não 130.",
+        "D": "Com A = 30°, B = 120° e C = 210°, os 330° de B + C correspondem a 220 elementos; C tem 220 × 210/330 = **140**, e não 125.",
+        "E": "Com A = 30°, B = 120° e C = 210°, os 330° de B + C correspondem a 220 elementos; C tem 220 × 210/330 = **140**, e não 135."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#85",
@@ -538,7 +552,21 @@
       "imagens": [
         "figuras/q94.png"
       ],
-      "conferido_em": "prova.pdf p. 29 (recorte 200 dpi)"
+      "conferido_em": "prova.pdf p. 29 (recorte 200 dpi)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O CSV grava só a planilha ativa, que era a **Planilha1**; o que se perde é a Planilha2 com a tabela dinâmica, e não os dados originais.",
+        "B": "O formato **CSV** é texto puro e guarda apenas a planilha ativa (a Planilha1), sem tabelas dinâmicas; ao reabrir, só ela existe, com dados editáveis.",
+        "C": "O CSV não guarda **várias planilhas** e não bloqueia a edição; a Planilha2 com a tabela dinâmica não sobrevive.",
+        "D": "A Planilha1 estava ativa ao salvar, e é ela que o CSV grava: os dados originais **não se perdem**.",
+        "E": "O CSV não guarda **tabelas dinâmicas**, nem a tabela é movida para a Planilha1: ela simplesmente deixa de existir."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#95",
@@ -649,7 +677,21 @@
       "imagens": [
         "figuras/q98.png"
       ],
-      "conferido_em": "prova.pdf p. 30 (recorte 200 dpi)"
+      "conferido_em": "prova.pdf p. 30 (recorte 200 dpi)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Entre 21 e 27/out há 5 dias úteis (segunda a sexta); só 25/out, de B5:B6, cai em dia útil e é descontado: 5 − 1 = **4**, e não 2.",
+        "B": "Entre 21 e 27/out só há 5 dias úteis, pois 26 e 27/out são sábado e domingo; o resultado não pode ser 6, e sim 5 − 1 = **4**.",
+        "C": "Os 5 dias úteis (21 a 25/out) ainda perdem o feriado de 25/out (sexta), que está em B5:B6: o resultado é 5 − 1 = **4**, e não 5.",
+        "D": "**DIATRABALHOTOTAL** conta os 5 dias úteis de 21 a 25/out e exclui os feriados de B5:B6; só 25/out (sexta) é dia útil, e 26/out (sábado) já não contava: 5 − 1 = **4**.",
+        "E": "Dos feriados em B5:B6, só 25/out (sexta) é dia útil; 26/out é sábado e já não contava. Desconta-se um dia só: 5 − 1 = **4**, e não 3."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#99",
