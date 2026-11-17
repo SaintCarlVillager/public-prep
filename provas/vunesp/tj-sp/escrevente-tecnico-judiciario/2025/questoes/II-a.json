@@ -1,0 +1,603 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#17",
+      "tipo": "me",
+      "numero": 17,
+      "enunciado": "É crime, expressamente previsto no “caput” combinado com o inciso IV do art. 293 do CP, falsificar cautela de penhor emitida por entidade de direito público. Na hipótese de o documento de cautela ser legitimamente cancelado pela entidade, mediante a aposição de um carimbo, a conduta do sujeito que suprime tal carimbo, visando a uma nova utilização da cautela de penhor, é",
+      "alt": {
+        "A": "típica e punida com a mesma pena, tendo em vista a equivalência das condutas de falsificar e suprimir.",
+        "B": "atípica, tendo em vista ausência de expressa previsão legal para a punição da supressão.",
+        "C": "típica e punida pelo próprio “caput” combinado com o inciso IV do art. 293 do CP, tendo em vista que a supressão também é considerada uma forma de falsificação.",
+        "D": "típica e punida pelo CP, tendo em vista que o bem jurídico também é atingido pela supressão.",
+        "E": "atípica, tendo em vista que não se pode admitir interpretação extensiva para que a supressão seja englobada pelo conceito de falsificação."
+      },
+      "gab": "D",
+      "temas": [
+        "penal.fe-publica"
+      ],
+      "dispositivos": [
+        "CP 293 IV",
+        "CP 293 §2º"
+      ],
+      "exp": "Suprimir, em papel legítimo, **carimbo ou sinal indicativo de sua inutilização**, com o fim de torná-lo novamente utilizável, é crime autônomo previsto no `CP 293 §2º`, com pena própria (reclusão de 1 a 4 anos), menor que a do caput (2 a 8 anos). Por isso a conduta é típica (D). Erram (B) e (E), porque há previsão expressa; (A), porque a pena não é a mesma; e (C), porque a punição não vem do caput com o inciso IV, mas do §2º.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A supressão do carimbo de inutilização é crime, mas com **pena própria**: reclusão de 1 a 4 anos (`CP 293 §2º`), menor que a de falsificar os papéis do caput (2 a 8 anos).",
+        "B": "Há previsão expressa: suprimir, em papel legítimo, **carimbo ou sinal indicativo de sua inutilização**, para torná-lo novamente utilizável, é crime do `CP 293 §2º`.",
+        "C": "A supressão do carimbo não se pune pelo caput com o inciso IV: é figura **autônoma** do `CP 293 §2º`, com pena própria (reclusão de 1 a 4 anos).",
+        "D": "A conduta é típica: suprimir, em papel legítimo, **carimbo ou sinal indicativo de sua inutilização**, com o fim de torná-lo novamente utilizável, é crime do `CP 293 §2º`.",
+        "E": "Não é caso de interpretação extensiva: a lei prevê **expressamente** a supressão de carimbo ou sinal de inutilização como crime (`CP 293 §2º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#18",
+      "tipo": "me",
+      "numero": 18,
+      "enunciado": "O crime de falsa identidade previsto no art. 307 do CP apenas é punível se",
+      "alt": {
+        "A": "não constitui elemento de crime mais grave.",
+        "B": "cometido por funcionário público.",
+        "C": "cometido em conjunto por aquele a que se atribui falsa identidade e pelo terceiro que cede a própria identidade para utilização.",
+        "D": "causa prejuízo a terceiro.",
+        "E": "causa prejuízo à Administração Pública."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.fe-publica"
+      ],
+      "dispositivos": [
+        "CP 307",
+        "CP 308"
+      ],
+      "exp": "A falsa identidade é crime **expressamente subsidiário**: a pena do `CP 307` incide \"se o fato não constitui elemento de crime mais grave\". É crime comum (qualquer pessoa o comete), formal (basta o fim de obter vantagem ou causar dano, sem exigir prejuízo efetivo) e não depende de concurso com quem cede a identidade (ceder documento próprio para uso alheio é outro crime, `CP 308`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O preceito secundário do `CP 307` é **expressamente subsidiário**: a pena só se aplica \"se o fato não constitui elemento de crime mais grave\".",
+        "B": "A falsa identidade é **crime comum**: qualquer pessoa que se atribua ou atribua a terceiro falsa identidade, para obter vantagem ou causar dano, o comete (`CP 307`).",
+        "C": "O `CP 307` pune quem se atribui ou atribui a terceiro falsa identidade, **sem exigir concurso** com quem cede a identidade. Ceder documento de identidade próprio para uso alheio é outro crime (`CP 308`).",
+        "D": "O crime é **formal**: basta agir para obter vantagem ou para causar dano a outrem (`CP 307`); o prejuízo efetivo não é exigido.",
+        "E": "O `CP 307` não exige prejuízo à Administração: basta atribuir-se falsa identidade **para obter vantagem** ou para causar dano a outrem; a única condição da pena é o fato não constituir crime mais grave."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#19",
+      "tipo": "me",
+      "numero": 19,
+      "enunciado": "Com relação ao crime previsto no art. 313-A do CP (inserção de dados falsos em sistema de informações), é correto afirmar que, para que o crime se configure,",
+      "alt": {
+        "A": "é necessário que o funcionário efetivamente insira dados falsos, não caracterizando figura típica a facilitação para inserção.",
+        "B": "é necessário que haja efetivo dano a administrado, não caracterizando figura típica a mera intenção de causar dano.",
+        "C": "basta o mero fim de obtenção de vantagem indevida para si ou terceiro, não sendo necessário que o agente obtenha vantagem efetiva.",
+        "D": "é necessário que haja efetivo dano à Administração, não caracterizando figura típica a mera intenção de causar dano.",
+        "E": "é necessário que o funcionário efetivamente insira dados falsos, não caracterizando figura típica a exclusão de dados corretos."
+      },
+      "gab": "C",
+      "temas": [
+        "penal.administracao-publica.funcionario"
+      ],
+      "dispositivos": [
+        "CP 313-A"
+      ],
+      "exp": "O `CP 313-A` pune o funcionário autorizado que insere ou **facilita** a inserção de dados falsos, ou **altera ou exclui** indevidamente dados corretos, \"**com o fim de** obter vantagem indevida para si ou para outrem ou para causar dano\". A vantagem e o dano são apenas finalidade: o crime é formal e não exige resultado (C). (A) e (E) ignoram os verbos facilitar e excluir; (B) e (D) exigem um dano que a lei não exige.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O tipo do `CP 313-A` inclui **facilitar** a inserção de dados falsos, ao lado de inserir, alterar ou excluir indevidamente dados corretos.",
+        "B": "O crime é **formal**: o `CP 313-A` exige só o fim de obter vantagem indevida ou de causar dano; o dano efetivo não é necessário.",
+        "C": "O `CP 313-A` exige o **fim de obter vantagem indevida** (ou de causar dano), sem exigir que a vantagem seja alcançada: é crime formal.",
+        "D": "O dano à Administração não precisa ocorrer: o `CP 313-A` contenta-se com o **fim** de obter vantagem indevida ou de causar dano (crime formal).",
+        "E": "**Excluir indevidamente dados corretos** também é conduta típica do `CP 313-A`, ao lado de inserir ou facilitar a inserção de dados falsos e alterar dados corretos."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#20",
+      "tipo": "me",
+      "numero": 20,
+      "enunciado": "O crime de condescendência criminosa caracteriza-se quando o funcionário público deixa de responsabilizar subordinado que cometeu infração no exercício do cargo ou, quando lhe falte competência, não leva o fato ao conhecimento da autoridade competente. Complementa a descrição da ação típica o elemento",
+      "alt": {
+        "A": "“para satisfazer interesse pessoal”.",
+        "B": "“causando prejuízo ao serviço público”.",
+        "C": "“ainda que por reconhecida nobreza”.",
+        "D": "“mediante promessa de vantagem indevida”.",
+        "E": "“por indulgência”."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.administracao-publica.funcionario"
+      ],
+      "dispositivos": [
+        "CP 320",
+        "CP 319",
+        "CP 317"
+      ],
+      "exp": "O `CP 320` descreve a condescendência criminosa: \"Deixar o funcionário, **por indulgência**, de responsabilizar subordinado...\". É a tolerância por clemência que distingue o crime. Agir \"para satisfazer interesse ou sentimento pessoal\" é elemento da prevaricação (`CP 319`), e a promessa de vantagem indevida remete à corrupção passiva (`CP 317`); prejuízo ao serviço e \"nobreza\" não constam do tipo.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Satisfazer interesse ou sentimento pessoal é elemento da **prevaricação** (`CP 319`). Na condescendência criminosa, o funcionário deixa de responsabilizar o subordinado **por indulgência** (`CP 320`).",
+        "B": "O `CP 320` não exige prejuízo ao serviço público: o elemento que completa o tipo é a omissão **por indulgência**.",
+        "C": "O `CP 320` não fala em \"nobreza\": o elemento do tipo é a omissão **por indulgência** em responsabilizar o subordinado.",
+        "D": "Deixar de praticar ato de ofício mediante promessa de vantagem indevida aproxima-se da **corrupção passiva** (`CP 317`). A condescendência criminosa exige a omissão **por indulgência** (`CP 320`).",
+        "E": "É o texto do `CP 320`: \"Deixar o funcionário, **por indulgência**, de responsabilizar subordinado que cometeu infração no exercício do cargo...\"."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#21",
+      "tipo": "me",
+      "numero": 21,
+      "enunciado": "De acordo com o Código de Processo Penal, é correto afirmar que o juiz será considerado",
+      "alt": {
+        "A": "suspeito se tiver aconselhado qualquer das partes.",
+        "B": "impedido se for credor ou devedor, tutor ou curador, de qualquer das partes.",
+        "C": "suspeito se tiver funcionado como juiz de outra instância, pronunciando-se, de fato ou de direito, sobre a questão.",
+        "D": "impedido se um parente seu (no caso, seu primo) responde a processo que tenha de ser julgado por qualquer das partes.",
+        "E": "suspeito se o seu cônjuge for diretamente interessado no feito."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-penal.sujeitos.juiz"
+      ],
+      "dispositivos": [
+        "CPP 254 IV",
+        "CPP 254 V",
+        "CPP 252 III",
+        "CPP 252 IV",
+        "CPP 254 III"
+      ],
+      "exp": "Ter **aconselhado qualquer das partes** é causa de **suspeição** (`CPP 254 IV`). Ser credor, devedor, tutor ou curador de parte também é suspeição (`CPP 254 V`), não impedimento; já ter funcionado como juiz de outra instância e ter o cônjuge diretamente interessado no feito são **impedimentos** (`CPP 252 III` e `IV`). Parente que responde a processo a ser julgado por uma das partes gera suspeição, não impedimento, e só até o terceiro grau (`CPP 254 III`), o que não alcança o primo (quarto grau).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Ter **aconselhado qualquer das partes** torna o juiz suspeito (`CPP 254 IV`).",
+        "B": "Ser credor ou devedor, tutor ou curador de qualquer das partes é causa de **suspeição** (`CPP 254 V`), não de impedimento.",
+        "C": "Ter funcionado como juiz de outra instância, pronunciando-se sobre a questão, é causa de **impedimento** (`CPP 252 III`), não de suspeição.",
+        "D": "Parente que responde a processo a ser julgado por uma das partes gera **suspeição**, e só até o **terceiro grau** (`CPP 254 III`); o primo é colateral de quarto grau.",
+        "E": "Cônjuge diretamente interessado no feito é causa de **impedimento** do juiz (`CPP 252 IV`), não de suspeição."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#22",
+      "tipo": "me",
+      "numero": 22,
+      "enunciado": "Sobre o tema “Do acusado e seu defensor”, é correto afirmar:",
+      "alt": {
+        "A": "o acusado poderá realizar sua própria defesa, bastando, para tanto, possuir o grau de bacharel em Direito, sendo desnecessária sua inscrição na Ordem dos Advogados do Brasil.",
+        "B": "a falta de defensor público, dativo ou particular impedirá o processamento e o julgamento do acusado ausente; todavia, não impedirá o processamento e o julgamento do acusado foragido.",
+        "C": "quando nomeados pelo juiz, os advogados, como defensores dativos, têm a faculdade de declinar da nomeação, sendo desnecessário declarar o motivo da recusa.",
+        "D": "em caso de abandono do processo pelo defensor, cumulado com a não localização do acusado, o processo será sobrestado até a prisão do acusado.",
+        "E": "a constituição de defensor independerá de instrumento de mandato se o acusado o indicar por ocasião do interrogatório."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-penal.sujeitos.acusado-defensor"
+      ],
+      "dispositivos": [
+        "CPP 266",
+        "CPP 261",
+        "CPP 263",
+        "CPP 264",
+        "CPP 265"
+      ],
+      "exp": "Pelo `CPP 266`, a constituição de defensor **independerá de instrumento de mandato** se o acusado o indicar no interrogatório. (A) erra porque a autodefesa técnica exige **habilitação** (`CPP 263`), isto é, inscrição na OAB; (B), porque nenhum acusado, **ainda que ausente ou foragido**, será processado sem defensor (`CPP 261`); (C), porque o advogado nomeado é obrigado a patrocinar, salvo **motivo relevante** (`CPP 264`); (D), porque o abandono sujeita o defensor a multa (`CPP 265`), sem sobrestamento do processo.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O acusado só pode defender-se a si mesmo se tiver **habilitação** (`CPP 263`), o que, para a defesa técnica, exige inscrição na OAB; o diploma de bacharel não basta.",
+        "B": "Nenhum acusado, **ainda que ausente ou foragido**, será processado ou julgado sem defensor (`CPP 261`).",
+        "C": "O advogado nomeado é **obrigado** a patrocinar o acusado, sob pena de multa, **salvo motivo relevante** (`CPP 264`); não pode recusar sem justificar.",
+        "D": "O `CPP 265` não prevê sobrestamento até a prisão: o defensor só pode abandonar o processo por **motivo imperioso**, comunicado ao juiz, sob pena de **multa**, e o acusado deve ter outro defensor.",
+        "E": "É o `CPP 266`: a constituição de defensor **independerá de instrumento de mandato** se o acusado o indicar por ocasião do interrogatório."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#23",
+      "tipo": "me",
+      "numero": 23,
+      "enunciado": "Sobre a temática da citação judicial no processo penal, é correto afirmar:",
+      "alt": {
+        "A": "a notificação judicial para o comparecimento de funcionário público em juízo, na condição de acusado, não deve ser endereçada ao próprio acusado, mas tão somente ao chefe da repartição a que pertence o funcionário acusado.",
+        "B": "o militar deve ser citado por intermédio do chefe do respectivo serviço.",
+        "C": "se o réu estiver preso, será requisitada a sua apresentação em juízo, no dia e hora designados, ao diretor do presídio onde se encontra recolhido, por isso desnecessária a citação pessoal do preso.",
+        "D": "se o réu não for encontrado, será citado por edital, com o prazo de 120 (cento e vinte) dias.",
+        "E": "não sendo encontrado o acusado, será procedida a citação por carta-convite."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-penal.comunicacao.citacao"
+      ],
+      "dispositivos": [
+        "CPP 358",
+        "CPP 359",
+        "CPP 360",
+        "CPP 361"
+      ],
+      "exp": "Pelo `CPP 358`, a citação do **militar** far-se-á **por intermédio do chefe do respectivo serviço**. O funcionário público acusado é notificado **assim a ele como ao chefe** de sua repartição (`CPP 359`); o réu preso é **pessoalmente citado** (`CPP 360`); e o réu não encontrado é citado por **edital com prazo de 15 dias** (`CPP 361`), não por carta-convite.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O dia designado para o funcionário público comparecer em juízo como acusado é notificado **assim a ele como ao chefe de sua repartição** (`CPP 359`), não só ao chefe.",
+        "B": "É o `CPP 358`: a citação do militar far-se-á **por intermédio do chefe do respectivo serviço**.",
+        "C": "Se o réu estiver preso, será **pessoalmente citado** (`CPP 360`); a requisição ao diretor do presídio não substitui a citação.",
+        "D": "Se o réu não for encontrado, será citado por edital com prazo de **15 dias** (`CPP 361`).",
+        "E": "O CPP não prevê citação por carta-convite: o acusado não encontrado é citado **por edital**, com prazo de 15 dias (`CPP 361`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#24",
+      "tipo": "me",
+      "numero": 24,
+      "enunciado": "No tocante ao tema “instrução criminal – procedimento comum”, assinale a alternativa correta.",
+      "alt": {
+        "A": "O procedimento será comum ordinário quando tiver por objeto crime cuja sanção máxima cominada seja inferior a 4 (quatro) anos de pena privativa de liberdade.",
+        "B": "Nos procedimentos ordinário e sumário, oferecida a denúncia ou queixa, o juiz, se não a rejeitar liminarmente, recebê-la-á e ordenará a citação do acusado para responder à acusação, por escrito, no prazo de 10 (dez) dias.",
+        "C": "Os processos que apurem a prática de crime hediondo ou violência contra a mulher terão prioridade de tramitação em todas as instâncias, desde que haja requerimento expresso do Ministério Público ou do(a) ofendido(a).",
+        "D": "O procedimento será comum sumário quando tiver por objeto crime cuja sanção máxima cominada for igual ou superior a 4 (quatro) anos de pena privativa de liberdade.",
+        "E": "O procedimento comum será ordinário, sumário, sumariíssimo e especial."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-penal.procedimentos.comum"
+      ],
+      "dispositivos": [
+        "CPP 396",
+        "CPP 394",
+        "CPP 394 §1º",
+        "CPP 394-A"
+      ],
+      "exp": "(B) reproduz o `CPP 396`: recebida a denúncia ou queixa, o acusado é citado para **responder à acusação, por escrito, em 10 dias**. O procedimento comum é **ordinário** quando a pena máxima é **igual ou superior a 4 anos** e **sumário** quando é **inferior a 4 anos** (`CPP 394 §1º`), o que inverte (A) e (D); e ele se divide em ordinário, sumário e sumaríssimo, sendo o especial outra categoria (`CPP 394`). A prioridade de tramitação do `CPP 394-A` não depende de requerimento.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Crime com pena máxima **inferior a 4 anos** segue o procedimento **sumário**; o ordinário é para pena máxima igual ou superior a 4 anos (`CPP 394 §1º`).",
+        "B": "É o `CPP 396`: não rejeitada liminarmente a denúncia ou queixa, o juiz a recebe e ordena a citação do acusado para **responder à acusação, por escrito, em 10 dias**.",
+        "C": "A prioridade de tramitação dos processos por crime hediondo ou violência contra a mulher decorre da própria lei (`CPP 394-A`), **sem depender de requerimento**.",
+        "D": "Pena máxima **igual ou superior a 4 anos** leva ao procedimento **ordinário**; o sumário é para pena máxima inferior a 4 anos (`CPP 394 §1º`).",
+        "E": "O procedimento é **comum ou especial** (`CPP 394`); o comum é que se divide em **ordinário, sumário ou sumaríssimo** (`CPP 394 §1º`). O especial não é espécie do comum."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#25",
+      "tipo": "me",
+      "numero": 25,
+      "enunciado": "Sobre os Juizados Especiais Criminais, assinale a alternativa correta.",
+      "alt": {
+        "A": "Os embargos de declaração não interrompem o prazo para a interposição de recurso.",
+        "B": "Da decisão de rejeição da denúncia ou queixa caberá recurso em sentido estrito, que poderá ser julgado por turma composta de três juízes em exercício no primeiro grau de jurisdição, reunidos na sede do juizado.",
+        "C": "Da sentença caberá apelação, a qual será interposta no prazo de 15 (quinze) dias, contados da ciência da decisão pelo Ministério Público, pelo réu e seu defensor, por petição escrita, da qual constarão as razões e o pedido do recorrente.",
+        "D": "No recurso de apelação, a parte recorrida terá o prazo de 10 (dez) dias para oferecer sua resposta escrita.",
+        "E": "Os erros materiais não poderão ser corrigidos de ofício pelo juiz, motivo pelo qual a parte interessada deverá opor embargos de declaração no prazo de 3 (três) dias, contados da ciência da decisão."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.juizados"
+      ],
+      "dispositivos": [
+        "L9099 82 §2º",
+        "L9099 82",
+        "L9099 82 §1º",
+        "L9099 83 §1º",
+        "L9099 83 §2º",
+        "L9099 83 §3º"
+      ],
+      "exp": "Pelo `L9099 82 §2º`, o recorrido será intimado para oferecer **resposta escrita no prazo de dez dias**. Da rejeição da denúncia ou queixa cabe **apelação**, não recurso em sentido estrito (`L9099 82`), e a apelação é interposta em **10 dias**, com as razões (`L9099 82 §1º`). Os embargos de declaração **interrompem** o prazo do recurso (`L9099 83 §2º`), são opostos em **5 dias** (`L9099 83 §1º`), e os erros materiais **podem ser corrigidos de ofício** (`L9099 83 §3º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No Juizado Especial Criminal, os embargos de declaração **interrompem** o prazo para a interposição de recurso (`L9099 83 §2º`).",
+        "B": "Da decisão de rejeição da denúncia ou queixa cabe **apelação**, julgável por turma de três juízes de primeiro grau (`L9099 82`), e não recurso em sentido estrito.",
+        "C": "A apelação no Juizado Especial Criminal é interposta no prazo de **dez dias**, contados da ciência da sentença, por petição escrita com as razões e o pedido (`L9099 82 §1º`).",
+        "D": "É o `L9099 82 §2º`: o recorrido será intimado para oferecer **resposta escrita no prazo de dez dias**.",
+        "E": "Os erros materiais **podem ser corrigidos de ofício** (`L9099 83 §3º`), e os embargos de declaração são opostos em **cinco dias** da ciência da decisão (`L9099 83 §1º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#26",
+      "tipo": "me",
+      "numero": 26,
+      "enunciado": "Tom emprestou R$ 50.000,00 a Gael mediante a assinatura de uma nota promissória com vencimento no prazo 30 dias. Passado o prazo, Gael não realizou o pagamento, razão pela qual Tom ajuizou ação de execução de título extrajudicial requerendo a citação de Gael para pagar a dívida em 3 dias, sob pena de penhora de bens. Citado, Gael manteve-se inerte. O juiz então determinou a penhora do automóvel de Gael. O oficial de justiça compareceu à casa de Gael em um sábado, às 21h, para efetivar a diligência.\nDiante da situação hipotética, é correto afirmar que o ato processual é",
+      "alt": {
+        "A": "nulo, pois ainda que possa ser realizado em finais de semana e feriados, deve ser realizado das 6 (seis) às 20 (vinte) horas.",
+        "B": "válido, por se tratar de ato que, por sua natureza, tem característica de urgente.",
+        "C": "válido, independentemente de autorização judicial.",
+        "D": "nulo, pois depende de autorização judicial específica para a realização fora do horário do expediente.",
+        "E": "nulo, pois deverá ser realizado em dias úteis."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.atos",
+        "processo-civil.execucao.penhora"
+      ],
+      "dispositivos": [
+        "CPC 212 §2º",
+        "CPC 212",
+        "CPC 216",
+        "CF 5 XI"
+      ],
+      "exp": "Os atos processuais realizam-se em dias úteis, das 6 às 20 horas (`CPC 212`), mas, **independentemente de autorização judicial**, citações, intimações e **penhoras** podem ser feitas nas férias forenses, nos **feriados** ou fora desse horário (`CPC 212 §2º`), e o sábado é feriado para efeito forense (`CPC 216`). Por isso a penhora no sábado às 21h é válida (C), e não nula (A, D, E). O fundamento não é a urgência do ato (B), mas a autorização expressa da lei, ressalvada a inviolabilidade do domicílio à noite (`CF 5 XI`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Penhoras podem ser feitas nos feriados (o sábado é feriado forense, `CPC 216`) **e fora do horário das 6 às 20 horas**, independentemente de autorização judicial (`CPC 212 §2º`).",
+        "B": "A penhora fora do horário é válida porque a lei a autoriza **expressamente** (`CPC 212 §2º`), e não por ser ato urgente por natureza.",
+        "C": "Citações, intimações e **penhoras** podem realizar-se nos feriados ou fora do horário das 6 às 20 horas **independentemente de autorização judicial** (`CPC 212 §2º`), observada a inviolabilidade do domicílio (`CF 5 XI`).",
+        "D": "A penhora pode ser feita fora do horário do `CPC 212` **independentemente de autorização judicial** (`CPC 212 §2º`).",
+        "E": "Penhoras podem ser feitas em **feriados** (e o sábado é feriado forense, `CPC 216`), independentemente de autorização judicial (`CPC 212 §2º`)."
+      },
+      "observacoes": [
+        "A ressalva final do `CPC 212 §2º` manda observar o `CF 5 XI`: sem consentimento do morador, o oficial não pode entrar na casa à noite para penhorar o automóvel que lá estiver. A questão não trata disso, e o gabarito considera a diligência válida."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#27",
+      "tipo": "me",
+      "numero": 27,
+      "enunciado": "João, de 10 anos, representado por sua mãe, ajuíza ação de alimentos contra seu pai, Carlos, alegando que este não contribui regularmente para seu sustento. Nos autos, resta comprovado que a mãe arca sozinha com todas as despesas de João, enquanto Carlos possui emprego estável e renda mensal líquida de R$ 6.000,00. João requer o pagamento de R$ 30.000,00 pelos alimentos em atraso, bem como a fixação de alimentos mensais no valor de R$ 1.800,00.\nEm sentença, o juiz julga totalmente procedentes os pedidos de João.\nDiante da situação hipotética, sendo certo que a sentença ainda não transitou em julgado, assinale a alternativa correta.",
+      "alt": {
+        "A": "Carlos poderá parcelar o valor dos alimentos em atraso, não podendo a parcela, somada ao valor mensal, ser superior R$ 3.000,00.",
+        "B": "Carlos terá o prazo de cinco dias para pagar o valor integral decidido em sentença.",
+        "C": "O juiz só poderá requerer o desconto em folha de pagamento caso Carlos atrase alguma parcela.",
+        "D": "Caso reste verificada conduta procrastinatória de Carlos, o juiz poderá, desde que mediante requerimento de João, dar ciência ao Ministério Público dos indícios da prática do crime de abandono material.",
+        "E": "João poderá executar desde logo os alimentos nos mesmos autos."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-civil.execucao.alimentos"
+      ],
+      "dispositivos": [
+        "CPC 529 §3º",
+        "CPC 528",
+        "CPC 529",
+        "CPC 531 §1º",
+        "CPC 532"
+      ],
+      "exp": "Pelo `CPC 529 §3º`, o débito em atraso pode ser descontado dos rendimentos do executado **de forma parcelada**, contanto que, somado à parcela mensal, **não ultrapasse 50% dos ganhos líquidos**: 50% de R$ 6.000,00 = **R$ 3.000,00** (A). O prazo para pagar é de **3 dias** (`CPC 528`), não cinco; o desconto em folha não depende de atraso (`CPC 529`); a ciência ao MP da conduta procrastinatória independe de requerimento (`CPC 532`); e os alimentos fixados em sentença ainda não transitada em julgado se executam em **autos apartados** (`CPC 531 §1º`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O débito alimentar pode ser descontado dos rendimentos **de forma parcelada**, desde que, somado à parcela mensal, não passe de **50% dos ganhos líquidos** (`CPC 529 §3º`): 50% de R$ 6.000,00 = R$ 3.000,00.",
+        "B": "No cumprimento de sentença de alimentos, o executado é intimado para pagar em **3 dias**, provar que pagou ou justificar a impossibilidade (`CPC 528`).",
+        "C": "O desconto em folha de pagamento é meio de execução previsto no `CPC 529` quando o executado tem emprego, **sem depender de atraso** anterior.",
+        "D": "Verificada a conduta procrastinatória, o juiz **deverá**, se for o caso, dar ciência ao Ministério Público dos indícios de abandono material (`CPC 532`), **sem depender de requerimento**.",
+        "E": "Os alimentos fixados em sentença **ainda não transitada em julgado** executam-se em **autos apartados** (`CPC 531 §1º`)."
+      },
+      "observacoes": [
+        "A alternativa A diz \"ser superior R$ 3.000,00\", sem a preposição \"a\", como na prova. O `CPC 529 §3º` trata do desconto parcelado do débito nos rendimentos do executado; a banca o leu como \"Carlos poderá parcelar\"."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#28",
+      "tipo": "me",
+      "numero": 28,
+      "enunciado": "Helena contratou Arthur, advogado autônomo, para propor ação de indenização contra Karina. Realizada a instrução processual, a sentença foi julgada improcedente. Durante o prazo para interposição de apelação, Arthur veio a falecer.\nDiante da situação hipotética, é correto afirmar que o prazo para interposição da apelação",
+      "alt": {
+        "A": "será suspenso, com prosseguimento de onde parou, após nomeação de novo advogado.",
+        "B": "será prorrogado automaticamente por mais 15 (quinze) dias.",
+        "C": "será interrompido, com prosseguimento de onde parou, após peticionamento de novo advogado.",
+        "D": "será restituído em proveito de Helena, contra quem começará a correr novamente depois da intimação.",
+        "E": "não se suspende nem se interrompe, devendo Helena ser diligente e constituir rapidamente novo advogado."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.recursos",
+        "processo-civil.atos.prazos"
+      ],
+      "dispositivos": [
+        "CPC 1004",
+        "CPC 313 I"
+      ],
+      "exp": "Pelo `CPC 1004`, se durante o prazo do recurso sobrevier o **falecimento da parte ou de seu advogado**, o prazo será **restituído** em proveito da parte, contra quem **começará a correr novamente depois da intimação**. A lei não manda retomar o prazo de onde parou (A, C), nem o prorroga em 15 dias (B); e a morte do procurador suspende o processo (`CPC 313 I`), o contrário de (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Morto o advogado durante o prazo recursal, o prazo é **restituído** e volta a correr **por inteiro** depois da intimação (`CPC 1004`), não de onde parou.",
+        "B": "A lei não prevê prorrogação de 15 dias: o prazo é **restituído** à parte e começa a correr novamente depois da intimação (`CPC 1004`).",
+        "C": "O prazo não prossegue de onde parou: é **restituído** à parte e corre **novamente** depois da intimação (`CPC 1004`).",
+        "D": "É o `CPC 1004`: falecido o advogado durante o prazo do recurso, o prazo é **restituído** em proveito da parte, contra quem começará a correr novamente **depois da intimação**.",
+        "E": "A morte do advogado durante o prazo recursal faz o prazo ser **restituído** à parte, correndo de novo depois da intimação (`CPC 1004`); o processo, aliás, se suspende (`CPC 313 I`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#29",
+      "tipo": "me",
+      "numero": 29,
+      "enunciado": "Dona Maria, costureira autônoma, compareceu ao Juizado Especial Cível e, de forma oral, narrou que adquiriu uma máquina de costura da loja Retalhão pelo valor de 5 salários-mínimos. O equipamento apresentou defeito na primeira semana e, diante da recusa da loja em substituí-lo ou devolver o valor pago, Maria propôs ação requerendo a restituição do valor ou a entrega de um novo produto.\nDiante da situação hipotética, assinale a alternativa correta.",
+      "alt": {
+        "A": "Dona Maria deverá escolher entre a restituição do valor ou a entrega de um novo produto, uma vez que, nos juizados especiais, não é possível apresentar pedidos alternativos ou cumulados.",
+        "B": "Registrado o pedido de Dona Maria, independentemente de distribuição e autuação, a Secretaria do Juizado designará a sessão de conciliação com a loja Retalhão, a realizar-se no prazo de quinze dias.",
+        "C": "Caso a loja Retalhão comparecesse inicialmente junto com Dona Maria, a sessão de conciliação seria instaurada no prazo de até trinta dias, dispensados o registro prévio de pedido e a citação.",
+        "D": "Caso a loja Retalhão fosse citada e apresentasse pedido contraposto, este deveria ser indeferido por não ser permitido nos juizados especiais.",
+        "E": "Por ser o réu pessoa jurídica, Dona Maria deverá ser assistida por advogado, independentemente do valor da causa."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-civil.juizados"
+      ],
+      "dispositivos": [
+        "L9099 16",
+        "L9099 15",
+        "L9099 17",
+        "L9099 17 p.ú.",
+        "L9099 31",
+        "L9099 9",
+        "L9099 9 §1º"
+      ],
+      "exp": "(B) reproduz o `L9099 16`: registrado o pedido, **independentemente de distribuição e autuação**, a Secretaria designa a sessão de conciliação, a realizar-se **no prazo de quinze dias**. Os pedidos podem ser **alternativos ou cumulados** (`L9099 15`); se as partes comparecem juntas, a conciliação se instaura **desde logo** (`L9099 17`); o pedido contraposto é admitido (`L9099 17 p.ú.` e `L9099 31`); e, na causa de até 20 salários-mínimos, a assistência por advogado é facultativa, cabendo à outra parte assistência judiciária se o réu for pessoa jurídica (`L9099 9 §1º`).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No Juizado Especial Cível, os pedidos **podem ser alternativos ou cumulados**; se cumulados, desde que conexos e dentro do limite de valor (`L9099 15`).",
+        "B": "É o `L9099 16`: registrado o pedido, **independentemente de distribuição e autuação**, a Secretaria designa a sessão de conciliação, a realizar-se **no prazo de quinze dias**.",
+        "C": "Comparecendo inicialmente ambas as partes, a sessão de conciliação instaura-se **desde logo**, dispensados o registro prévio e a citação (`L9099 17`), e não em até trinta dias.",
+        "D": "O pedido contraposto é **admitido** no Juizado Especial Cível: o réu pode formular pedido em seu favor na contestação, fundado nos mesmos fatos (`L9099 31`), e ambos são apreciados na mesma sentença (`L9099 17 p.ú.`).",
+        "E": "Nas causas de até **vinte salários-mínimos**, a assistência por advogado é facultativa (`L9099 9`); sendo o réu pessoa jurídica, a outra parte pode ter, se quiser, **assistência judiciária** junto ao Juizado (`L9099 9 §1º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#30",
+      "tipo": "me",
+      "numero": 30,
+      "enunciado": "A Fundação Municipal de Cultura de Santa Aurora, vinculada ao Município de Santa Aurora, contratou a microempresa Luz & Som Ltda. – ME para fornecer equipamentos de iluminação para comemoração do aniversário da Fundação. O contrato previa o pagamento de 50 salários-mínimos. Apesar da execução integral do serviço, a Fundação deixou de efetuar o pagamento.\nDiante disso, a microempresa ajuizou ação de cobrança contra a Fundação perante o Juizado Especial da Fazenda Pública, atribuindo à causa o valor correspondente ao contrato. A sentença julgou a ação procedente.\nDiante da situação hipotética, assinale a alternativa correta.",
+      "alt": {
+        "A": "A sentença deverá ser anulada e o processo remetido para vara comum em razão das partes.",
+        "B": "Caso não seja apresentado recurso, a sentença será objeto de reexame necessário.",
+        "C": "Em que pese a Fundação seja pessoa jurídica de direito público, terá o prazo de 10 (dez) dias úteis para apresentar recurso contra a sentença.",
+        "D": "Por se tratar de causa proposta perante o Juizado Especial da Fazenda Pública, não se admite recurso, exceto para evitar dano de difícil ou incerta reparação.",
+        "E": "Se a sentença transitar em julgado, o pagamento será feito no prazo máximo de 30 (trinta) dias, contados da entrega da requisição do juiz à autoridade citada para a causa."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.juizados.fazenda-publica"
+      ],
+      "dispositivos": [
+        "L12153 7",
+        "L12153 27",
+        "L9099 42",
+        "L9099 12-A",
+        "L12153 2",
+        "L12153 3",
+        "L12153 4",
+        "L12153 5",
+        "L12153 11",
+        "L12153 13 I"
+      ],
+      "exp": "No Juizado Especial da Fazenda Pública **não há prazo diferenciado** para as pessoas jurídicas de direito público, inclusive para recorrer (`L12153 7`); aplica-se subsidiariamente a Lei 9.099/1995 (`L12153 27`), com recurso em **10 dias** (`L9099 42`) contados em **dias úteis** (`L9099 12-A`). A microempresa pode ser autora e a fundação municipal ré, numa causa de 50 salários-mínimos (`L12153 2` e `L12153 5`); **não há reexame necessário** (`L12153 11`); cabe recurso contra a sentença (`L12153 4`); e a obrigação de pequeno valor se paga em até **60 dias** da requisição (`L12153 13 I`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Microempresas podem ser autoras, e fundações vinculadas aos Municípios podem ser rés no Juizado Especial da Fazenda Pública (`L12153 5`), que julga causas de até 60 salários-mínimos (`L12153 2`).",
+        "B": "Nas causas do Juizado Especial da Fazenda Pública **não haverá reexame necessário** (`L12153 11`).",
+        "C": "No Juizado da Fazenda Pública **não há prazo diferenciado** para a pessoa jurídica de direito público recorrer (`L12153 7`); vale o prazo de **10 dias** do recurso contra a sentença (`L9099 42`), contado em **dias úteis** (`L9099 12-A`).",
+        "D": "No Juizado Especial da Fazenda Pública **cabe recurso contra a sentença** (`L12153 4`); a restrição é para as decisões interlocutórias, recorríveis só quando deferem providência cautelar ou antecipatória (`L12153 3`).",
+        "E": "Transitada em julgado, a obrigação de pequeno valor é paga no prazo máximo de **60 dias**, contados da entrega da requisição do juiz à autoridade citada (`L12153 13 I`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#31",
+      "tipo": "me",
+      "numero": 31,
+      "enunciado": "O policial Severo foi chamado a atender um flagrante delito que o sujeito apelidado de Pernalonga estava cometendo dentro da casa deste. Chegando ao local do crime no final da tarde e evidenciada a prática de infração penal, Severo constatou que era hipótese de flagrante delito. Coincidentemente, o policial avistou em uma casa vizinha Carcará, criminoso foragido e que tinha mandado de prisão expedido por autoridade judicial. Diante da situação, face ao adiantado da hora, e, obviamente, não havendo consentimento dos moradores, pairou dúvidas acerca da possibilidade de adentrar nos domicílios de Pernalonga e Carcará para efetuar as prisões.\nFace a situação hipotética, é correto afirmar, de acordo com o disposto na Constituição de 1988, que",
+      "alt": {
+        "A": "Severo pode ingressar no período noturno apenas na casa de Carcará, pois há ordem judicial a ser cumprida – mandado de prisão.",
+        "B": "Severo pode ingressar em ambas as casas para efetuar as prisões nos períodos diurno ou noturno.",
+        "C": "ainda que persistisse a situação de flagrante durante o período noturno, Severo somente poderia adentrar na casa de Pernalonga durante o dia para efetuar a prisão.",
+        "D": "a casa é asilo inviolável, não podendo Severo adentrar nas duas casas no período noturno, podendo entrar nas duas casas apenas no período diurno.",
+        "E": "Severo não pode ingressar na casa de Carcará no período noturno, mas pode ingressar na casa de Pernalonga uma vez caraterizada no momento do ingresso a situação de flagrante delito."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.direitos-individuais.domicilio"
+      ],
+      "dispositivos": [
+        "CF 5 XI"
+      ],
+      "exp": "Pelo `CF 5 XI`, sem consentimento do morador só se entra na casa **em caso de flagrante delito** ou desastre, ou para prestar socorro, a qualquer hora, ou, **durante o dia, por determinação judicial**. Assim, Severo pode entrar à noite na casa de Pernalonga, onde há flagrante, mas o mandado de prisão contra Carcará só autoriza o ingresso **durante o dia** (E). (A) e (B) estendem a ordem judicial à noite; (C) e (D) negam a entrada noturna em caso de flagrante.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Ordem judicial só autoriza entrar na casa sem consentimento **durante o dia** (`CF 5 XI`); à noite, sem consentimento, só se entra em flagrante delito, desastre ou para prestar socorro.",
+        "B": "O mandado judicial só permite o ingresso **durante o dia** (`CF 5 XI`); à noite, a casa de quem é procurado por mandado só pode ser invadida com consentimento do morador.",
+        "C": "Em **flagrante delito** a entrada na casa sem consentimento é permitida **a qualquer hora**, de dia ou de noite (`CF 5 XI`).",
+        "D": "A inviolabilidade cede **a qualquer hora** em caso de **flagrante delito**, desastre ou para prestar socorro (`CF 5 XI`); só a entrada por determinação judicial fica restrita ao dia.",
+        "E": "O `CF 5 XI` permite entrar na casa à noite, sem consentimento, em **flagrante delito**, mas a entrada por **determinação judicial** só pode ocorrer **durante o dia**."
+      },
+      "observacoes": [
+        "\"pairou dúvidas\" e \"Face a situação\" (enunciado) e \"caraterizada\" (alternativa E) estão assim na prova."
+      ],
+      "pendencias": []
+    }
+  ]
+}
