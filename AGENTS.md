@@ -4,7 +4,7 @@ Instruções para qualquer agente de IA (Claude, Codex, Copilot…) que trabalhe
 
 ## O que é
 
-Um framework de estudo para concursos públicos: **provas reais etiquetadas** por tema e dispositivo, **editais** que dizem o que cada concurso cobra, e um **app web** (`web/`, Next.js na Vercel) que monta sessões, corrige pelo gabarito e agenda revisões. O desenho completo está em [`ARQUITETURA.md`](ARQUITETURA.md); o visual, em [`DESIGN.md`](DESIGN.md).
+**ServentIA** (repositório `public-prep`): um framework de estudo para concursos públicos: **provas reais etiquetadas** por tema e dispositivo, **editais** que dizem o que cada concurso cobra, e um **app web** (`web/`, Next.js na Vercel) que monta sessões, corrige pelo gabarito e agenda revisões. O desenho completo está em [`ARQUITETURA.md`](ARQUITETURA.md); o visual, em [`DESIGN.md`](DESIGN.md).
 
 ## Mapa
 
@@ -78,6 +78,8 @@ Campos opcionais da questão:
 3. Crie na taxonomia os temas que faltarem e valide.
 
 ### O app (`web/`)
+- Nome e marca: **ServentIA**, com o "IA" grifado (ver `DESIGN.md`, "Marca"). As chaves do localStorage continuam `public-prep:*`, para não perder o progresso de quem já estuda.
+- Editais do mesmo órgão se distinguem por `cargo_curto` no `edital.json` ("Oficial", "Escrevente"): o app mostra só o órgão quando ele tem um edital vigente, e órgão e cargo curto ("TJ-SP Escrevente") quando tem mais de um. Ajustes mostra órgão e cargo por extenso.
 - Lógica pura em `web/src/lib/nucleo.ts` (relevância, revisão espaçada, treino) com testes em `nucleo.test.ts`; regras que juntam catálogo e progresso em `estudo.ts`; progresso em `progresso.ts`.
 - O progresso de quem estuda fica **no navegador** (localStorage), com exportar/importar em Ajustes. Não há login, banco nem recursos do Claude no app por enquanto.
 - Antes de cada merge que mexa em `web/`: `cd web && npm test && npm run typecheck && npm run build`.

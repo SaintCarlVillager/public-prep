@@ -7,12 +7,20 @@ import { Cabecalho } from "~/components/Cabecalho";
 import { CatalogoProvider } from "~/lib/catalogo";
 
 export const metadata: Metadata = {
-  title: "public-prep · estudo para concursos",
-  description: "Provas reais etiquetadas por tema e dispositivo, sessões, revisões espaçadas e treino de verdadeiro ou falso.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  title: { default: "ServentIA", template: "%s · ServentIA" },
+  description:
+    "Estudo para concursos do Judiciário com provas reais etiquetadas por tema e artigo de lei, sessões, revisões espaçadas e treino de verdadeiro ou falso.",
+  applicationName: "ServentIA",
+  appleWebApp: { title: "ServentIA", capable: true, statusBarStyle: "default" },
 };
 
-export const viewport: Viewport = { viewportFit: "cover" };
+export const viewport: Viewport = {
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#faf8f3" },
+    { media: "(prefers-color-scheme: dark)", color: "#14171c" },
+  ],
+};
 
 const plex = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "600"], variable: "--font-plex" });
 const literata = Literata({ subsets: ["latin"], weight: ["400", "600"], style: ["normal", "italic"], variable: "--font-literata" });

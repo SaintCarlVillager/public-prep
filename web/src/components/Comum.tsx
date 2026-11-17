@@ -3,7 +3,7 @@
 import type { ReactNode } from "react";
 
 import { useCatalogo, type Base } from "~/lib/catalogo";
-import { ativos, sigla } from "~/lib/estudo";
+import { ativos, ehFederal } from "~/lib/estudo";
 import { md, mdInline, pct } from "~/lib/nucleo";
 import { useProgresso } from "~/lib/progresso";
 
@@ -42,8 +42,8 @@ export function SelosEdital({ base, qid }: { base: Base; qid: string }) {
   return (
     <>
       {eds.map((e) => (
-        <span key={e.id} className={`pill ${eds.length >= 2 ? "both" : /^TRF/i.test(sigla(e)) ? "fed" : "tj"}`}>
-          {sigla(e)}
+        <span key={e.id} className={`pill ${eds.length >= 2 ? "both" : ehFederal(e) ? "fed" : "tj"}`}>
+          {base.rotulo(e)}
         </span>
       ))}
     </>

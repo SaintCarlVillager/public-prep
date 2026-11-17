@@ -6,7 +6,7 @@ import { Suspense, useEffect, useRef } from "react";
 import { ComCatalogo, IconeCerto, IconeErrado, Md, SelosEdital } from "~/components/Comum";
 import { apagarSessao, criarSessao, entregar, marcar } from "~/lib/acoes";
 import { caminhoDados, useProvas, type Base } from "~/lib/catalogo";
-import { ativos, montarAutomatica, sigla } from "~/lib/estudo";
+import { ativos, ehFederal, montarAutomatica } from "~/lib/estudo";
 import { fmtDia, hoje, materiaDe, pct, slugDe } from "~/lib/nucleo";
 import { atualizar, useProgresso, type Progresso } from "~/lib/progresso";
 import type { Questao, TextoBase } from "~/lib/tipos";
@@ -119,8 +119,8 @@ function Mistura({ base, qids }: { base: Base; qids: string[] }) {
       {ativos(base, p).map((e) => {
         const n = qids.filter((q) => base.rel(q, e)).length;
         return n ? (
-          <span key={e.id} className={`pill ${/^TRF/i.test(sigla(e)) ? "fed" : "tj"}`}>
-            {n} no {sigla(e)}
+          <span key={e.id} className={`pill ${ehFederal(e) ? "fed" : "tj"}`}>
+            {n} no {base.rotulo(e)}
           </span>
         ) : null;
       })}

@@ -24,6 +24,8 @@ export interface Edital {
   id: string;
   orgao?: string;
   cargo?: string;
+  /** Rótulo curto do cargo ("Escrevente"), para distinguir editais do mesmo órgão. */
+  cargo_curto?: string;
   banca?: string;
   prova?: string;
   blocos?: Bloco[];

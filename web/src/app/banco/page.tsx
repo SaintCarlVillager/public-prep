@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { ComCatalogo, SelosEdital } from "~/components/Comum";
 import { criarSessao } from "~/lib/acoes";
 import type { Base } from "~/lib/catalogo";
-import { ativos, estadoDe, ordenar, rotuloProva, sigla } from "~/lib/estudo";
+import { ativos, estadoDe, ordenar, rotuloProva } from "~/lib/estudo";
 import { embaralhar, hoje, materiaDe } from "~/lib/nucleo";
 import { useProgresso, type Progresso } from "~/lib/progresso";
 import type { IndiceQuestao } from "~/lib/tipos";
@@ -88,7 +88,7 @@ function Banco({ base }: { base: Base }) {
             <option value="">Todos (sem filtro)</option>
             {eds.map((e) => (
               <option key={e.id} value={e.id}>
-                Só os que caem no {sigla(e)}
+                Só os que caem no {base.rotulo(e)}
               </option>
             ))}
           </select>
