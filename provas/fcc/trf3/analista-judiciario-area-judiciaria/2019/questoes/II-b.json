@@ -22,7 +22,21 @@
         "CPC 45 I",
         "CF 109 I"
       ],
-      "exp": "A intervenção da União desloca o processo para a Justiça Federal (`CPC, art. 45`), mas o próprio dispositivo **excetua as recuperações judiciais**, falências e insolvências civis (`art. 45, I`), como já fazia a `CF, art. 109, I`. Assim, o processo permanece na Justiça Comum ainda que a União peça a remessa; as alternativas A a D partem da premissa errada de que haveria remessa."
+      "exp": "A intervenção da União desloca o processo para a Justiça Federal (`CPC, art. 45`), mas o próprio dispositivo **excetua as recuperações judiciais**, falências e insolvências civis (`art. 45, I`), como já fazia a `CF, art. 109, I`. Assim, o processo permanece na Justiça Comum ainda que a União peça a remessa; as alternativas A a D partem da premissa errada de que haveria remessa.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Não há remessa: a regra do `CPC 45`, que leva o processo à Justiça Federal quando a União intervém, **excetua as recuperações judiciais**, falências e insolvências civis (`CPC 45 I`), como já fazia o `CF 109 I`.",
+        "B": "A recuperação judicial **não vai à Justiça Federal** nem com requerimento da União: o `CPC 45 I` a excetua expressamente da remessa, na linha do `CF 109 I`.",
+        "C": "A intervenção da União não desloca a recuperação judicial: o `CPC 45 I` **excetua** recuperações judiciais, falências e insolvências civis da remessa à Justiça Federal (`CF 109 I`).",
+        "D": "O processo de recuperação judicial **permanece na Justiça Comum**: o `CPC 45 I` o excetua da regra de remessa ao juízo federal quando a União intervém (`CF 109 I`).",
+        "E": "O `CPC 45 I` **excetua** da remessa à Justiça Federal os processos de recuperação judicial, falência e insolvência civil, como já fazia o `CF 109 I`. O processo segue na Justiça Comum mesmo que a União peça a remessa."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#41",
@@ -45,7 +59,21 @@
         "CPC 55 §1º",
         "CPC 55 §3º"
       ],
-      "exp": "Só há conexão quando é comum o pedido **ou** a causa de pedir (`CPC, art. 55`); versar sobre o mesmo bem não basta, o que afasta A, B e C. Ainda assim, o `§3º` manda reunir processos que possam gerar **decisões conflitantes ou contraditórias**, mesmo sem conexão, o que derruba E. A ressalva do processo já sentenciado (`§1º`, aplicada também à reunião do §3º) completa a alternativa D."
+      "exp": "Só há conexão quando é comum o pedido **ou** a causa de pedir (`CPC, art. 55`); versar sobre o mesmo bem não basta, o que afasta A, B e C. Ainda assim, o `§3º` manda reunir processos que possam gerar **decisões conflitantes ou contraditórias**, mesmo sem conexão, o que derruba E. A ressalva do processo já sentenciado (`§1º`, aplicada também à reunião do §3º) completa a alternativa D.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não há conexão: ela exige **pedido ou causa de pedir comum** (`CPC 55`), e versar sobre o mesmo bem não basta. Além disso, os processos não se reúnem se um deles **já foi sentenciado** (`CPC 55 §1º`).",
+        "B": "Não há conexão, que exige **pedido ou causa de pedir comum** (`CPC 55`); tratar do mesmo bem não basta. A reunião, aqui, só se justifica pelo **risco de decisões conflitantes** (`CPC 55 §3º`).",
+        "C": "Não há conexão, que exige **pedido ou causa de pedir comum** (`CPC 55`). E a distribuição a juízos distintos não impede a reunião, que é justamente o efeito previsto para conexão e para o risco de **decisões conflitantes** (`CPC 55 §3º`).",
+        "D": "Sem pedido ou causa de pedir comum, **não há conexão** (`CPC 55`). Ainda assim, o `CPC 55 §3º` manda reunir processos que possam gerar **decisões conflitantes ou contraditórias**, salvo se um deles já tiver sido sentenciado.",
+        "E": "Mesmo sem conexão, os processos **serão reunidos** se houver risco de **decisões conflitantes ou contraditórias** caso decididos separadamente (`CPC 55 §3º`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#42",
@@ -68,7 +96,21 @@
         "CPC 134 §2º",
         "CPC 134 §3º"
       ],
-      "exp": "Requerida a desconsideração **na petição inicial**, dispensa-se a instauração do incidente e cita-se o sócio ou a pessoa jurídica (`CPC, art. 134, §2º`). A suspensão do processo só decorre da instauração do incidente, \"salvo na hipótese do §2º\" (`§3º`), de modo que o processo segue sem suspensão. A, B e C erram quanto ao incidente ou à suspensão, e E contraria o `caput`, que admite o incidente em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução."
+      "exp": "Requerida a desconsideração **na petição inicial**, dispensa-se a instauração do incidente e cita-se o sócio ou a pessoa jurídica (`CPC, art. 134, §2º`). A suspensão do processo só decorre da instauração do incidente, \"salvo na hipótese do §2º\" (`§3º`), de modo que o processo segue sem suspensão. A, B e C erram quanto ao incidente ou à suspensão, e E contraria o `caput`, que admite o incidente em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Requerida a desconsideração **na petição inicial**, dispensa-se a instauração do incidente (`CPC 134 §2º`), e o processo **não é suspenso** (`CPC 134 §3º`).",
+        "B": "Se a desconsideração é pedida **na petição inicial**, **dispensa-se** a instauração do incidente e cita-se o sócio ou a pessoa jurídica (`CPC 134 §2º`).",
+        "C": "A suspensão decorre da **instauração do incidente**, \"salvo na hipótese do §2º\" (`CPC 134 §3º`). Pedida a desconsideração na petição inicial, não há incidente nem suspensão.",
+        "D": "Requerida na **petição inicial**, a desconsideração **dispensa o incidente** e o sócio ou a pessoa jurídica é citado (`CPC 134 §2º`). A suspensão do processo só ocorre com a instauração do incidente, salvo nessa hipótese (`CPC 134 §3º`).",
+        "E": "O incidente de desconsideração é cabível em **todas as fases** do processo de conhecimento, no cumprimento de sentença e na execução (`CPC 134`), e pode até ser dispensado quando o pedido vem na petição inicial (`CPC 134 §2º`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#43",
@@ -117,7 +159,21 @@
         "CPC 1026",
         "CPC 487 II"
       ],
-      "exp": "Cabem embargos para suprir omissão sobre ponto ou questão de que o juiz devia se pronunciar **de ofício ou a requerimento** (`CPC, art. 1.022, II`), e a prescrição é conhecível de ofício (`art. 487, II`), o que derruba A e B. Os embargos **não têm efeito suspensivo** e **interrompem** o prazo para outros recursos (`art. 1.026`); por isso D erra ao falar em suspensão do prazo e E erra ao suspender a eficácia da sentença."
+      "exp": "Cabem embargos para suprir omissão sobre ponto ou questão de que o juiz devia se pronunciar **de ofício ou a requerimento** (`CPC, art. 1.022, II`), e a prescrição é conhecível de ofício (`art. 487, II`), o que derruba A e B. Os embargos **não têm efeito suspensivo** e **interrompem** o prazo para outros recursos (`art. 1.026`); por isso D erra ao falar em suspensão do prazo e E erra ao suspender a eficácia da sentença.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Cabem embargos para suprir omissão sobre ponto de que o juiz devia se pronunciar **de ofício** (`CPC 1022 II`), como a prescrição (`CPC 487 II`). E os embargos **interrompem** o prazo, sem suspender a eficácia da decisão (`CPC 1026`).",
+        "B": "A omissão também alcança matéria que o juiz deve conhecer **de ofício**, ainda que não alegada (`CPC 1022 II`), como a **prescrição** (`CPC 487 II`). Os embargos são cabíveis.",
+        "C": "Cabem embargos contra omissão sobre questão que o juiz devia apreciar **de ofício** (`CPC 1022 II`), e a prescrição o é (`CPC 487 II`). Eles **interrompem** o prazo para outros recursos e **não têm efeito suspensivo** (`CPC 1026`).",
+        "D": "Os embargos de declaração **interrompem**, e não suspendem, o prazo para a interposição de recurso (`CPC 1026`).",
+        "E": "Os embargos de declaração **não possuem efeito suspensivo** (`CPC 1026`): sua interposição não suspende a eficácia da sentença."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#45",
@@ -144,8 +200,9 @@
       ],
       "exp": "Moisés **não é o líder** e foi o **primeiro** a prestar efetiva colaboração, hipótese em que o MP pode deixar de oferecer denúncia (`Lei 12.850/13, art. 4º, §4º`). O juiz não participa das negociações (`§6º`) e pode recusar a homologação (`§8º`), o que derruba A e B; nenhuma sentença condenatória se funda apenas nas declarações do colaborador (`§16`), o que afasta C; e o `caput` admite expressamente o **perdão judicial**, o que torna D errada.",
       "observacoes": [
-        "redação vigente em 2019, antes do Pacote Anticrime (Lei 13.964/2019), que alterou os §§4º, 8º e 16 do art. 4º; a resposta não muda"
-      ]
+        "redação vigente em 2019, antes do Pacote Anticrime (Lei 13.964/2019), que alterou os §§4º, 8º e 16 do art. 4º e acrescentou o §4º-A"
+      ],
+      "desatualizada": "A Lei 13.964/2019 mudou o `L12850 4 §4º` e criou o §4º-A: o MP só pode deixar de oferecer denúncia se a colaboração tratar de infração de cuja existência **não tinha prévio conhecimento**, e há conhecimento prévio quando já foi instaurado inquérito ou procedimento investigatório. No caso, a operação da Polícia Federal já estava em curso, então o gabarito (E) não vale mais."
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#46",
@@ -168,7 +225,21 @@
         "L9605 39",
         "L9605 41"
       ],
-      "exp": "Os arts. 39 e 41 estão na Seção dos crimes contra a flora, e para eles o `Lei 9.605/98, art. 53, II, e` prevê que a pena é **aumentada de um sexto a um terço** se o crime é cometido **durante a noite**. As demais frações (B, C, E) não constam da lei, e D ignora a causa de aumento."
+      "exp": "Os arts. 39 e 41 estão na Seção dos crimes contra a flora, e para eles o `Lei 9.605/98, art. 53, II, e` prevê que a pena é **aumentada de um sexto a um terço** se o crime é cometido **durante a noite**. As demais frações (B, C, E) não constam da lei, e D ignora a causa de aumento.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Nos crimes contra a flora, a pena é **aumentada de um sexto a um terço** se o crime é cometido **durante a noite** (`L9605 53 II e`).",
+        "B": "O aumento para o crime contra a flora cometido durante a noite é de **um sexto a um terço** (`L9605 53 II e`).",
+        "C": "A lei não prevê aumento \"até a metade\": nos crimes contra a flora cometidos **durante a noite**, a pena é aumentada de **um sexto a um terço** (`L9605 53 II e`).",
+        "D": "Há causa de aumento: nos crimes contra a flora, cometê-los **durante a noite** aumenta a pena de **um sexto a um terço** (`L9605 53 II e`).",
+        "E": "Não há troca de detenção por reclusão: a pena é apenas **aumentada de um sexto a um terço** quando o crime contra a flora é cometido **durante a noite** (`L9605 53 II e`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#47",
@@ -216,7 +287,21 @@
         "CP 334-A",
         "CP 334-A §3º"
       ],
-      "exp": "Importar cigarros sem autorização é **contrabando** (mercadoria proibida, ainda que relativamente), segundo a jurisprudência do STJ e do STF, e não descaminho, que é a sonegação de tributos sobre mercadoria permitida; isso afasta A, B e D. O contrabando tem pena de **reclusão de 2 a 5 anos** (`CP, art. 334-A`), aplicada **em dobro** se praticado em transporte aéreo, marítimo ou fluvial (`§3º`), e não aumentada de 1/3 à metade, como diz C."
+      "exp": "Importar cigarros sem autorização é **contrabando** (mercadoria proibida, ainda que relativamente), segundo a jurisprudência do STJ e do STF, e não descaminho, que é a sonegação de tributos sobre mercadoria permitida; isso afasta A, B e D. O contrabando tem pena de **reclusão de 2 a 5 anos** (`CP, art. 334-A`), aplicada **em dobro** se praticado em transporte aéreo, marítimo ou fluvial (`§3º`), e não aumentada de 1/3 à metade, como diz C.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Importar cigarros sem autorização é **contrabando** (mercadoria proibida, ainda que relativamente), segundo o STJ e o STF, e não descaminho. E o transporte aéreo **dobra** a pena (`CP 334-A §3º`).",
+        "B": "Importar cigarros sem autorização é **contrabando** (`CP 334-A`), e não descaminho, que é a sonegação de tributos sobre mercadoria permitida.",
+        "C": "É contrabando, com pena de reclusão de 2 a 5 anos (`CP 334-A`), mas o transporte aéreo faz a pena ser aplicada **em dobro** (`CP 334-A §3º`), e não aumentada de 1/3 à metade.",
+        "D": "Importar cigarros sem autorização é **contrabando** (`CP 334-A`), e não descaminho. E o transporte aéreo faz a pena ser aplicada **em dobro**, e não aumentada de 1/3 à metade.",
+        "E": "Importar cigarros sem autorização é **contrabando**, com pena de **reclusão de 2 a 5 anos** (`CP 334-A`), aplicada **em dobro** se o crime é praticado em transporte aéreo, marítimo ou fluvial (`CP 334-A §3º`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#49",
@@ -241,7 +326,21 @@
         "CP 168-A §3º",
         "CP 107 IX"
       ],
-      "exp": "A decisão que julga extinta a punibilidade desafia **recurso em sentido estrito** (`CPP, art. 581, VIII`), e o perdão judicial é causa de extinção da punibilidade (`CP, art. 107, IX`, e `art. 168-A, §3º`). O RESE é interposto no prazo de **cinco dias** (`CPP, art. 586`), o que afasta A (dez dias) e as alternativas de apelação (B, D e E)."
+      "exp": "A decisão que julga extinta a punibilidade desafia **recurso em sentido estrito** (`CPP, art. 581, VIII`), e o perdão judicial é causa de extinção da punibilidade (`CP, art. 107, IX`, e `art. 168-A, §3º`). O RESE é interposto no prazo de **cinco dias** (`CPP, art. 586`), o que afasta A (dez dias) e as alternativas de apelação (B, D e E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O recurso é mesmo o em sentido estrito (`CPP 581 VIII`), mas o prazo é de **cinco dias** (`CPP 586`).",
+        "B": "Contra a decisão que julga **extinta a punibilidade** cabe **recurso em sentido estrito** (`CPP 581 VIII`), e não apelação.",
+        "C": "O perdão judicial extingue a punibilidade (`CP 107 IX` e `CP 168-A §3º`), e contra a decisão que a julga extinta cabe **recurso em sentido estrito** (`CPP 581 VIII`), no prazo de **cinco dias** (`CPP 586`).",
+        "D": "Contra a decisão que julga **extinta a punibilidade** cabe **recurso em sentido estrito** (`CPP 581 VIII`), no prazo de cinco dias (`CPP 586`), e não apelação.",
+        "E": "Contra a decisão que julga **extinta a punibilidade** cabe **recurso em sentido estrito** (`CPP 581 VIII`), no prazo de **cinco dias** (`CPP 586`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#50",
@@ -268,6 +367,20 @@
         "L10259 1"
       ],
       "exp": "Se a sentença for confirmada pelos próprios fundamentos, **a súmula do julgamento servirá de acórdão** (`Lei 9.099/95, art. 82, §5º`), aplicável aos JEFs criminais por força da `Lei 10.259/01, art. 1º`. Contra a rejeição da denúncia cabe **apelação**, e não agravo (`art. 82`), o que derruba B; o prazo da apelação é de **dez dias** (`§1º`), o que derruba D; os embargos **interrompem** o prazo (`art. 83, §2º`, na redação do CPC/2015), o que afasta C; e o `art. 80` autoriza a condução coercitiva quando imprescindível, o que afasta E.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Se a sentença for confirmada pelos próprios fundamentos, **a súmula do julgamento servirá de acórdão** (`L9099 82 §5º`), regra aplicada aos Juizados Especiais Federais criminais (`L10259 1`).",
+        "B": "No Juizado Especial Criminal, contra a decisão que **rejeita a denúncia** ou queixa cabe **apelação** (`L9099 82`), e não agravo de instrumento.",
+        "C": "Os embargos de declaração **interrompem**, e não suspendem, o prazo para a interposição de recurso (`L9099 83 §2º`, na redação dada pelo CPC/2015).",
+        "D": "No Juizado Especial Criminal, a apelação é interposta no prazo de **dez dias**, contados da ciência da sentença (`L9099 82 §1º`).",
+        "E": "Nenhum ato será adiado, mas o juiz pode determinar, **quando imprescindível**, a **condução coercitiva** de quem deva comparecer (`L9099 80`)."
+      },
       "observacoes": [
         "\"contando\" na alternativa D está assim no caderno (por \"contendo\")"
       ]
@@ -293,7 +406,21 @@
         "CF 109 IV",
         "CP 333"
       ],
-      "exp": "Pelo entendimento do STF na `AP 937 QO` (2018), o foro por prerrogativa de parlamentar (`CF, art. 102, I, b`) só alcança crimes cometidos **durante o exercício do cargo e relacionados às funções**; o crime de Tácito é anterior à diplomação, o que afasta A, C e D. A corrupção ativa contra auditor da Receita Federal ofende interesse da União, o que atrai a **Justiça Federal** (`CF, art. 109, IV`) do local do fato, Campo Grande-MS, e não a Justiça Estadual (E)."
+      "exp": "Pelo entendimento do STF na `AP 937 QO` (2018), o foro por prerrogativa de parlamentar (`CF, art. 102, I, b`) só alcança crimes cometidos **durante o exercício do cargo e relacionados às funções**; o crime de Tácito é anterior à diplomação, o que afasta A, C e D. A corrupção ativa contra auditor da Receita Federal ofende interesse da União, o que atrai a **Justiça Federal** (`CF, art. 109, IV`) do local do fato, Campo Grande-MS, e não a Justiça Estadual (E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo STF (AP 937 QO, 2018), o foro do parlamentar no STF (`CF 102 I b`) só alcança crimes cometidos **durante o exercício do cargo e relacionados às funções**. O crime de Tácito é anterior à diplomação.",
+        "B": "O foro por prerrogativa só vale para crimes cometidos **no cargo e em razão dele** (STF, AP 937 QO), e o crime é anterior à diplomação. A corrupção ativa contra auditor da Receita Federal ofende interesse da União, o que atrai a **Justiça Federal** (`CF 109 IV`) do local do fato.",
+        "C": "O STJ não julga senadores, e o crime, anterior à diplomação, não tem foro por prerrogativa (STF, AP 937 QO). Vai à **Justiça Federal** de primeiro grau, por ofender interesse da União (`CF 109 IV`).",
+        "D": "Não há foro por prerrogativa para crime cometido **antes da diplomação** (STF, AP 937 QO). A ação vai ao **juiz federal** de primeiro grau do local do fato (`CF 109 IV`), e não ao TRF.",
+        "E": "Oferecer vantagem a **auditor fiscal da Receita Federal** ofende serviço e interesse da **União**, o que atrai a **Justiça Federal** (`CF 109 IV`), e não a Estadual."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#52",
@@ -314,7 +441,21 @@
       "dispositivos": [
         "CPP 104"
       ],
-      "exp": "Arguida a suspeição do órgão do Ministério Público, o juiz, depois de ouvi-lo, decidirá **sem recurso**, podendo antes admitir a produção de provas **no prazo de três dias** (`CPP, art. 104`). Por isso erram as alternativas que preveem recurso em sentido estrito (A, B e E) e a que veda a dilação probatória (C)."
+      "exp": "Arguida a suspeição do órgão do Ministério Público, o juiz, depois de ouvi-lo, decidirá **sem recurso**, podendo antes admitir a produção de provas **no prazo de três dias** (`CPP, art. 104`). Por isso erram as alternativas que preveem recurso em sentido estrito (A, B e E) e a que veda a dilação probatória (C).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Arguida a suspeição do órgão do Ministério Público, o juiz decide **sem recurso**, podendo antes admitir a produção de provas **no prazo de três dias** (`CPP 104`).",
+        "B": "A decisão sobre a suspeição do órgão do Ministério Público é tomada **sem recurso** (`CPP 104`), embora o juiz possa admitir provas no prazo de três dias.",
+        "C": "A decisão é **sem recurso**, mas a lei admite **dilação probatória**: o juiz pode, antes de decidir, admitir a produção de provas no prazo de **três dias** (`CPP 104`).",
+        "D": "Arguida a suspeição do órgão do Ministério Público, o juiz, depois de ouvi-lo, decide **sem recurso**, podendo antes admitir a produção de provas **no prazo de três dias** (`CPP 104`).",
+        "E": "A decisão sobre a suspeição do órgão do Ministério Público é **sem recurso**, e o prazo para provas é de **três dias**, e não de 20 (`CPP 104`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#53",
@@ -338,7 +479,21 @@
         "CTN 99",
         "CTN 100"
       ],
-      "exp": "Fontes primárias são as que **inovam** na ordem jurídica: Constituição e emendas, leis complementares e ordinárias, medidas provisórias, decretos legislativos, resoluções do Senado e tratados internacionais (`CTN, arts. 96 e 98`). Decretos regulamentares (`art. 99`), portarias, instruções normativas, pareceres e costumes (normas complementares do `art. 100`) são fontes **secundárias**, e cada uma das alternativas B a E inclui algum deles."
+      "exp": "Fontes primárias são as que **inovam** na ordem jurídica: Constituição e emendas, leis complementares e ordinárias, medidas provisórias, decretos legislativos, resoluções do Senado e tratados internacionais (`CTN, arts. 96 e 98`). Decretos regulamentares (`art. 99`), portarias, instruções normativas, pareceres e costumes (normas complementares do `art. 100`) são fontes **secundárias**, e cada uma das alternativas B a E inclui algum deles.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Fontes primárias são as que **inovam** na ordem jurídica: emendas constitucionais, leis complementares e ordinárias, decretos legislativos e tratados internacionais (`CTN 96` e `CTN 98`).",
+        "B": "Portarias, instruções normativas e costumes são **normas complementares** (`CTN 100`), e o decreto regulamentar (`CTN 99`) só detalha a lei: todos são fontes **secundárias**, que não inovam na ordem jurídica.",
+        "C": "Decretos do Executivo (`CTN 99`), portarias e pareceres normativos (`CTN 100`) são fontes **secundárias**: não inovam na ordem jurídica, apenas executam ou complementam a lei.",
+        "D": "Decretos (`CTN 99`), instruções normativas e portarias (`CTN 100`) são fontes **secundárias**, pois não inovam na ordem jurídica; só a emenda constitucional e as leis, na lista, são primárias.",
+        "E": "Decretos (`CTN 99`), portarias, instruções normativas e pareceres (`CTN 100`) são fontes **secundárias**: não inovam na ordem jurídica, apenas executam ou complementam a lei."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#54",
@@ -388,7 +543,21 @@
         "CTN 121",
         "CTN 123"
       ],
-      "exp": "A competência tributária é indelegável, **salvo** a atribuição das funções de **arrecadar ou fiscalizar** tributos de uma pessoa jurídica de direito público a outra (`CTN, art. 7º`). Quem tem relação pessoal e direta com o fato gerador é **contribuinte**, não responsável (`art. 121, p.ú., I`), o que derruba A; o não exercício da competência não a transfere a outro ente (`art. 8º`), o que derruba C; o sujeito passivo da obrigação principal é obrigado justamente ao **pagamento de tributo ou penalidade** (`art. 121`), o que derruba D; e as convenções particulares não são oponíveis à Fazenda (`art. 123`), o que derruba E."
+      "exp": "A competência tributária é indelegável, **salvo** a atribuição das funções de **arrecadar ou fiscalizar** tributos de uma pessoa jurídica de direito público a outra (`CTN, art. 7º`). Quem tem relação pessoal e direta com o fato gerador é **contribuinte**, não responsável (`art. 121, p.ú., I`), o que derruba A; o não exercício da competência não a transfere a outro ente (`art. 8º`), o que derruba C; o sujeito passivo da obrigação principal é obrigado justamente ao **pagamento de tributo ou penalidade** (`art. 121`), o que derruba D; e as convenções particulares não são oponíveis à Fazenda (`art. 123`), o que derruba E.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Quem tem **relação pessoal e direta** com a situação que constitui o fato gerador é **contribuinte** (`CTN 121 p.ú. I`), e não responsável.",
+        "B": "A competência tributária é indelegável, **salvo** a atribuição das funções de **arrecadar ou fiscalizar** tributos, conferida por uma pessoa jurídica de direito público a outra (`CTN 7`).",
+        "C": "O **não exercício** da competência tributária **não a defere** a pessoa jurídica de direito público diversa daquela a que a Constituição a atribuiu (`CTN 8`).",
+        "D": "O sujeito passivo da obrigação principal é justamente a pessoa obrigada ao **pagamento de tributo ou penalidade pecuniária** (`CTN 121`).",
+        "E": "Salvo disposição de lei em contrário, as convenções particulares sobre a responsabilidade pelo pagamento de tributos **não podem ser opostas à Fazenda Pública** para modificar a definição legal do sujeito passivo (`CTN 123`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#56",
@@ -414,7 +583,21 @@
         "CTN 77 p.ú.",
         "CTN 81"
       ],
-      "exp": "C reproduz o `CTN, art. 77`: o fato gerador das taxas é o exercício regular do poder de polícia ou a utilização, efetiva ou potencial, de serviço público específico e divisível. A erra porque a denominação e a destinação da arrecadação são **irrelevantes** para qualificar o tributo (`art. 4º`); B erra porque o CTN só enumera imposto, taxa e contribuição de melhoria (`art. 5º`); D contraria o `art. 77, p.ú.`, que veda essa identidade de base de cálculo ou fato gerador e o cálculo em função do capital das empresas; e E erra porque a contribuição de melhoria pode ser instituída por União, Estados, DF e Municípios, e os limites estão invertidos (`art. 81`: limite **total** é a despesa realizada e o **individual** é o acréscimo de valor de cada imóvel)."
+      "exp": "C reproduz o `CTN, art. 77`: o fato gerador das taxas é o exercício regular do poder de polícia ou a utilização, efetiva ou potencial, de serviço público específico e divisível. A erra porque a denominação e a destinação da arrecadação são **irrelevantes** para qualificar o tributo (`art. 4º`); B erra porque o CTN só enumera imposto, taxa e contribuição de melhoria (`art. 5º`); D contraria o `art. 77, p.ú.`, que veda essa identidade de base de cálculo ou fato gerador e o cálculo em função do capital das empresas; e E erra porque a contribuição de melhoria pode ser instituída por União, Estados, DF e Municípios, e os limites estão invertidos (`art. 81`: limite **total** é a despesa realizada e o **individual** é o acréscimo de valor de cada imóvel).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A natureza jurídica do tributo é determinada pelo fato gerador, sendo **irrelevantes** para qualificá-la a **denominação** e demais características formais e a **destinação legal** do produto da arrecadação (`CTN 4`).",
+        "B": "O CTN só enumera expressamente como tributos os **impostos, as taxas e as contribuições de melhoria** (`CTN 5`); a tarifa de pedágio nem é tributo.",
+        "C": "É o texto do `CTN 77`: as taxas têm como fato gerador o **exercício regular do poder de polícia** ou a **utilização, efetiva ou potencial**, de serviço público **específico e divisível**, prestado ao contribuinte ou posto à sua disposição.",
+        "D": "A taxa **não pode** ter base de cálculo ou fato gerador idênticos aos de imposto, **nem ser calculada em função do capital** das empresas (`CTN 77 p.ú.`).",
+        "E": "A contribuição de melhoria pode ser instituída pela **União, pelos Estados, pelo DF e pelos Municípios** (`CTN 81`). E os limites estão trocados: o **total** é a despesa realizada, e o **individual** é o acréscimo de valor do imóvel beneficiado."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#57",
@@ -467,6 +650,20 @@
         "L8213 32"
       ],
       "exp": "A Lei 13.846/2019 deu nova redação ao `L8213 15 I`: mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de benefício, **exceto do auxílio-acidente**; quem recebe só esse benefício precisa contribuir para manter a qualidade (D). A erra os prazos, que são de **180 dias** para os filhos menores de 16 anos e **90 dias** para os demais dependentes (`L8112 219 I`, na redação da mesma lei). B erra porque os prazos de defesa são de **30 e 60 dias** (`L8212 69 §1º`); C erra porque o `L8213 16 §5º` ressalva a **força maior ou caso fortuito**; E erra porque o `L8213 32` manda **somar** os salários de contribuição das atividades concomitantes, sem a antiga regra de atividade principal e secundárias.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os prazos estão errados: a pensão é devida desde o óbito se requerida em até **180 dias** pelos filhos menores de 16 anos, ou em até **90 dias** pelos demais dependentes (`L8112 219 I`, na redação da Lei 13.846/2019).",
+        "B": "Os prazos para defesa na revisão de benefícios são de **30 dias** para o trabalhador urbano e **60 dias** para o rural individual e avulso, o agricultor familiar e o segurado especial (`L8212 69 §1º`).",
+        "C": "A regra tem exceção: a prova exclusivamente testemunhal da união estável e da dependência econômica é admitida na ocorrência de **força maior ou caso fortuito** (`L8213 16 §5º`).",
+        "D": "Desde a Lei 13.846/2019, mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de benefício, **exceto do auxílio-acidente** (`L8213 15 I`). Quem recebe só esse benefício precisa **contribuir** para manter a qualidade.",
+        "E": "Desde a Lei 13.846/2019, o salário de benefício nas atividades concomitantes é calculado com base na **soma** dos salários de contribuição de todas as atividades (`L8213 32`), sem a antiga divisão entre atividade principal e secundárias."
+      },
       "observacoes": [
         "L8112 219 caput e incisos I a III com redação/inclusão pela MP 871/2019, convertida na Lei 13.846/2019: I - do óbito, se requerida em até 180 dias (filhos menores de 16) ou 90 dias (demais dependentes); II - do requerimento, se após esse prazo; III - da decisão judicial, na morte presumida. Os dispositivos das Leis 8.212 e 8.213 não foram reconferidos (fora do escopo); a exp só passou as citações para o formato de sigla."
       ],
@@ -497,8 +694,22 @@
         "L8212 45-A"
       ],
       "exp": "A incorreta é E: a dedução prevista no `Lei 8.212/91, art. 30, §4º` é de **45%** da contribuição da empresa, e não de 50%, limitada a 9% do salário de contribuição. As demais reproduzem a Lei 8.212/91: A (`art. 24`, 8% mais 0,8% para o seguro de acidentes), B (`art. 56`), C (`art. 47, §§5º e 6º`) e D (`art. 45-A`, indenização do período alcançado pela decadência).",
+      "vf": {
+        "A": true,
+        "B": true,
+        "C": null,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É o `L8212 24`: a contribuição do empregador doméstico sobre o salário de contribuição do empregado doméstico é de **8%**, mais **0,8%** para o financiamento do seguro contra acidentes de trabalho.",
+        "B": "Reproduz o `L8212 56`: a inexistência de débitos com o INSS é **condição necessária** para que Estados, DF e Municípios recebam o FPE e o FPM e celebrem ajustes com a União. O artigo fala em \"a partir da publicação desta Lei\" (Lei 8.212/1991), publicada no mesmo dia da Lei 8.213/1991.",
+        "D": "É o `L8212 45-A`: o contribuinte individual que quer contar período de atividade remunerada **alcançado pela decadência** deve **indenizar o INSS**.",
+        "E": "A dedução do contribuinte individual que presta serviço a empresas é de **45%** da contribuição da empresa, e não de 50%, limitada a **9%** do salário de contribuição (`L8212 30 §4º`)."
+      },
       "observacoes": [
-        "a alternativa B cita a Lei 8.213/1991, mas a regra é do art. 56 da Lei 8.212/1991 (\"a partir da publicação desta Lei\"); a banca a tratou como correta"
+        "a alternativa B cita a Lei 8.213/1991, mas a regra é do art. 56 da Lei 8.212/1991 (\"a partir da publicação desta Lei\"); a banca a tratou como correta",
+        "A Lei 14.148/2021 deu nova redação ao `L8212 47 §5º`: a certidão conjunta da Receita Federal e da PGFN vale por **até 180 dias**, contados da emissão. Hoje a alternativa C também estaria errada; por isso ela fica fora do Treino. O gabarito (E) continua errado pela lei atual."
       ]
     },
     {
@@ -522,7 +733,21 @@
         "L8213 93 II",
         "L8213 93 §1º"
       ],
-      "exp": "Empresa com 201 a 500 empregados deve preencher **3%** dos cargos com pessoas com deficiência ou reabilitados (`Lei 8.213/91, art. 93, II`): 3% × 201 = 6,03, e a fração arredonda para cima, o que exige **7** empregados. Com seis, a cota já não está cumprida, o que derruba A. Além disso, a dispensa sem justa causa só pode ocorrer **após a contratação de substituto** em condição semelhante (`art. 93, §1º`), qualquer que seja a modalidade do contrato, o que derruba C, D e E."
+      "exp": "Empresa com 201 a 500 empregados deve preencher **3%** dos cargos com pessoas com deficiência ou reabilitados (`Lei 8.213/91, art. 93, II`): 3% × 201 = 6,03, e a fração arredonda para cima, o que exige **7** empregados. Com seis, a cota já não está cumprida, o que derruba A. Além disso, a dispensa sem justa causa só pode ocorrer **após a contratação de substituto** em condição semelhante (`art. 93, §1º`), qualquer que seja a modalidade do contrato, o que derruba C, D e E.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com 201 empregados, a cota é de **3%** (`L8213 93 II`): 3% × 201 = 6,03, e a fração arredonda para cima, exigindo **7** empregados. Com seis, não há excesso; a cota nem está cumprida.",
+        "B": "Empresa com 201 a 500 empregados deve preencher **3%** dos cargos (`L8213 93 II`): 6,03, arredondado para **7**. Com seis, a cota não está cumprida, e a dispensa só poderia ocorrer **após a contratação de substituto** em condição semelhante (`L8213 93 §1º`).",
+        "C": "Seja o contrato por prazo determinado de mais de 90 dias, seja por prazo indeterminado, a dispensa só pode ocorrer **após a contratação de outro trabalhador** com deficiência ou reabilitado (`L8213 93 §1º`).",
+        "D": "O contrato por prazo indeterminado não libera a dispensa: a dispensa imotivada só pode ocorrer **após a contratação de outro trabalhador** com deficiência ou reabilitado (`L8213 93 §1º`).",
+        "E": "O beneficiário reabilitado tem a **mesma proteção** da pessoa com deficiência: sua dispensa também depende da **contratação prévia de substituto** em condição semelhante (`L8213 93 §1º`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#d1",
