@@ -37,6 +37,7 @@
       ],
       "dispositivos": [],
       "exp": "O 2º parágrafo cita as “contribuições excepcionais” de Hawking “para o conhecimento científico e a popularidade da ciência e da matemática”, o que mostra que ele é celebrado por essa colaboração. **Carinho** é como ele será lembrado, não a razão de ser renomado. Toope é só o vice-reitor que o elogia, e o texto afirma o contrário de **insignificante** e **incapaz**.",
+      "recursos": 35,
       "vf": {
         "A": true,
         "B": false,
@@ -72,6 +73,7 @@
       ],
       "dispositivos": [],
       "exp": "“Dedicar algo **a** alguém” pede a preposição a; diante do relativo feminino “a qual” (a universidade) ela se funde com o artigo: “**à qual**”. Em “inspiração **a** milhões de pessoas” há só a preposição, pois “milhões” é masculino e não há crase diante de palavra masculina. “Deixar algo a alguém” com “as quais” (as pessoas) resulta em “**às** quais”.",
+      "recursos": 12,
       "pendencias": []
     },
     {
@@ -93,6 +95,7 @@
       ],
       "dispositivos": [],
       "exp": "“Excepcionais” é o que foge à regra por ser muito bom, daí **brilhantes**. “Indelével” é o que não se pode apagar, ou seja, **permanente**. As demais trazem o sentido contrário (“efêmero”, “transitório”, “prescindíveis”) ou outro sentido (“raro”, “profícuas”, “transformador”).",
+      "recursos": 4,
       "vf": {
         "A": true,
         "B": false,
@@ -130,6 +133,7 @@
       ],
       "dispositivos": [],
       "exp": "O sujeito composto (“a universidade e o mundo todo”) pede o verbo no plural. “Lembrar-se de” é pronominal e, no futuro do presente, o pronome vai em **mesóclise** (“lembrar-se-ão”), pois a ênclise não é admitida nesse tempo. O adjetivo “coerente” rege a preposição **com**. As demais erram a regência de “coerente” (“ao”, “perante”, “sobre”, “do”) e, conforme o caso, a concordância ou a colocação do pronome.",
+      "recursos": 10,
       "vf": {
         "A": false,
         "B": false,
@@ -166,6 +170,7 @@
       ],
       "dispositivos": [],
       "exp": "A oração adjetiva explicativa “que contribuiu muito com a Universidade de Cambridge” deve vir entre vírgulas. “Deixar algo a alguém” tem objeto indireto de pessoa, então o pronome é **lhes** (“deixando-lhes”); “as” e “nas” são formas de objeto direto. As demais separam termos que não se separam (verbo e predicativo, sujeito e verbo), omitem a vírgula antes de “que” ou usam o pronome errado.",
+      "recursos": 6,
       "vf": {
         "A": false,
         "B": false,
@@ -201,6 +206,7 @@
       ],
       "dispositivos": [],
       "exp": "O editorial diz que os números “expõem a falha nos mecanismos de proteção” e cobra ação da gestão pública; infere-se que há fragilidade no combate e que ela se reflete na intensidade do feminicídio. As demais distorcem o texto: o tema **não pode** ser tratado apenas como assunto moral e particular; a média de quatro mortes por dia se mantém há cinco anos; o Mapa mostra que “há muito a ser feito”; e o texto rejeita que a questão interesse só a um grupo.",
+      "recursos": 126,
       "vf": {
         "A": true,
         "B": false,
@@ -237,6 +243,7 @@
       ],
       "dispositivos": [],
       "exp": "Na alternativa B, “horror” é substantivo que traduz o assombro, “bárbaro” é adjetivo que qualifica “diagnóstico” e “infelizmente” é advérbio de modo que expressa a avaliação negativa. Nas demais aparecem palavras neutras (“relacionamentos”, “recorte”, “diagnóstico”), adjetivos sem carga de assombro (“amplo”, “permanente”) ou advérbios que não o expressam (“diariamente”, “longe”, “especialmente”, “ainda”).",
+      "recursos": 52,
       "vf": {
         "A": false,
         "B": true,
@@ -272,6 +279,7 @@
       ],
       "dispositivos": [],
       "exp": "“Implacável” é o que não se deixa abrandar, não tem piedade. Seu antônimo é **compassiva**, aquela que sente compaixão. “Intolerante”, “impassiva” e “exigente” são próximas de “implacável”, e “arrojada” (ousada) não tem relação de oposição.",
+      "recursos": 1,
       "vf": {
         "A": false,
         "B": false,
@@ -308,6 +316,7 @@
       ],
       "dispositivos": [],
       "exp": "“Com a realização do Agosto Lilás” indica o **meio** pelo qual o Brasil dedicou um mês às campanhas; “para desenvolver campanhas” indica **finalidade**; “Mas” opõe a realidade cruel ao que foi celebrado (**oposição**); e “e” liga duas informações do mesmo grupo (**adição**).",
+      "recursos": 3,
       "vf": {
         "A": false,
         "B": false,
@@ -343,6 +352,7 @@
       ],
       "dispositivos": [],
       "exp": "Em “718 mulheres morreram **em razão do** gênero”, a primeira parte (as mortes) é a consequência, e o que vem depois da locução “em razão de” (o gênero) é a causa. Em “conforme os registros” há conformidade, não causa. As demais passagens não trazem essa relação: marcam tempo (“desde”), modo (“de forma conjunta”), constatação ou apenas apresentam dados.",
+      "recursos": 16,
       "vf": {
         "A": false,
         "B": false,
@@ -378,6 +388,7 @@
       ],
       "dispositivos": [],
       "exp": "O cronista diz que, “ao lado dos brasileiros”, os cabo-verdianos são o povo mais musical que conheceu, e que o amor deles pelo país e pelos ritmos se expressa na língua e na música. A alternativa A resume isso. As outras extrapolam o texto: as memórias ancestrais são ligadas só à música cabo-verdiana, o amor vem “desde o berço”, o gênero das montanhas de Santiago não busca inspiração no Brasil e não há afirmação de superioridade.",
+      "recursos": 23,
       "vf": {
         "A": true,
         "B": false,
@@ -414,6 +425,7 @@
       ],
       "dispositivos": [],
       "exp": "Em “um **cometa** que viveu na terra por escassos 33 anos”, o cantor é comparado a um corpo celeste que passa rápido e brilha: sentido figurado (metáfora). “País”, “arquipélago”, “música” e “habitantes” aparecem no sentido próprio, de dicionário.",
+      "recursos": 2,
       "vf": {
         "A": true,
         "B": false,
@@ -450,6 +462,7 @@
       ],
       "dispositivos": [],
       "exp": "“Incondicional” é o que não depende de condições, **irrestrito**. “Catártica” liga-se a catarse, purificação, daí **libertadora**. “Transportar para a canção” é levar, **passar** o sentir das gentes para a música. As outras trazem sentidos que o contexto não autoriza (“impingido”, “imutável”, “perturbadora”, “restringir”, “hesitante”, “antiquada”).",
+      "recursos": 1,
       "vf": {
         "A": false,
         "B": false,
@@ -485,6 +498,7 @@
       ],
       "dispositivos": [],
       "exp": "Em “São poucos que mantêm”, o verbo “ser” concorda com o predicativo “poucos”, e “mantêm” (plural, com acento) concorda com o relativo “que”, cujo antecedente é “poucos”. Nas demais: o sujeito de “transpõe” é singular (“Orlando Pantera”); o sujeito composto exige “contam”; “momentos” exige “dispõem”; e “haver” no sentido de existir é impessoal (“houve”).",
+      "recursos": 7,
       "vf": {
         "A": false,
         "B": false,
@@ -520,6 +534,7 @@
       ],
       "dispositivos": [],
       "exp": "Na primeira passagem, as vírgulas isolam a expressão de retificação/explicação “ou melhor”; na segunda, isolam o adjunto adverbial de lugar “em Paris”, intercalado. Na alternativa E, “isto é” é expressão explicativa, e “na sala” é adjunto adverbial de lugar intercalado: os mesmos motivos, na mesma ordem. As demais combinam motivos diferentes (adjunto de tempo, conjunção, aposto, adjunto de modo, expressão de realce).",
+      "recursos": 11,
       "vf": {
         "A": false,
         "B": false,
@@ -555,6 +570,7 @@
       ],
       "dispositivos": [],
       "exp": "No título, o particípio concorda com “estigma”, substantivo masculino singular: **enfrentado**. Em “meio-dia e meia”, “meia” subentende “meia hora”, feminino. Na norma-padrão, “grama” (unidade de massa) é substantivo masculino, e o numeral concorda no masculino: **duzentos** e cinquenta gramas.",
+      "recursos": 16,
       "observacoes": [
         "Pela norma-padrão, “grama” como unidade de massa é masculino (“o grama”), o que sustenta o gabarito; o uso corrente no feminino (“duzentas gramas”) é popular."
       ],

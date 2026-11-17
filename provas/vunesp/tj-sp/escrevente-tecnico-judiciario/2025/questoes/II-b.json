@@ -25,6 +25,7 @@
         "CF 5 LXVIII"
       ],
       "exp": "O autor da ação popular fica, **salvo comprovada má-fé**, isento de custas e do ônus da sucumbência (`CF 5 LXXIII`), e são **gratuitas** as ações de habeas corpus e habeas data (`CF 5 LXXVII`). O mandado de segurança não é gratuito, e a isenção da ação popular é só do **autor**, não do réu. O MS coletivo cabe a partido com representação no **Congresso Nacional** (`CF 5 LXX`), e a liberdade de locomoção é protegida por **habeas corpus** (`CF 5 LXVIII`).",
+      "recursos": 11,
       "vf": {
         "A": true,
         "B": false,
@@ -63,6 +64,7 @@
         "CF 12 §1º"
       ],
       "exp": "Sandra é filha de **mãe brasileira** (a naturalizada também é brasileira) nascida no estrangeiro: será **brasileira nata** se for registrada em repartição brasileira competente ou se vier a residir no Brasil e optar, depois da maioridade, pela nacionalidade brasileira (`CF 12 I c`). Como nata, pode seguir a **carreira diplomática**, privativa de brasileiro nato (`CF 12 §3º V`). Josefina, filha de pais portugueses, só pode se naturalizar (`CF 12 II a`) ou receber o tratamento do português com residência permanente (`CF 12 §1º`), e em nenhum dos casos pode ser diplomata; o registro de Sandra a torna nata, não naturalizada.",
+      "recursos": 28,
       "vf": {
         "A": false,
         "B": false,
@@ -101,6 +103,7 @@
         "CF 40 §15"
       ],
       "exp": "O teto do `CF 37 XI` alcança os servidores da administração direta, **autárquica** e fundacional; nos Estados, no âmbito do Poder Executivo, o limite é o **subsídio mensal do Governador**. O subsídio dos Desembargadores é o teto do Judiciário (e do MP, Procuradores e Defensores), e só vale como limite único se o Estado o adotar por emenda à sua Constituição (`CF 37 §12`). A previdência complementar do servidor é oferecida na modalidade **contribuição definida** (`CF 40 §15`), e, instituída, os benefícios do regime próprio ficam limitados ao teto do RGPS (`CF 40 §14`).",
+      "recursos": 96,
       "observacoes": [
         "A alternativa E ficou fora do Treino: com o regime de previdência complementar instituído, as aposentadorias do regime próprio ficam limitadas ao teto do RGPS (CF 40 §14), mas quem ingressou antes pode não ter aderido (CF 40 §16) e receber acima dele, de modo que a afirmação isolada é ambígua."
       ],
@@ -140,6 +143,7 @@
         "CF 7 XXIX"
       ],
       "exp": "O salário é irredutível, **salvo o disposto em convenção ou acordo coletivo** (`CF 7 VI`), e a jornada de seis horas nos turnos ininterruptos de revezamento cede à **negociação coletiva** (`CF 7 XIV`). A ação sobre créditos trabalhistas prescreve em cinco anos, **até o limite de dois anos após a extinção do contrato** (`CF 7 XXIX`). Erram, portanto, as alternativas que vedam uma das negociações e as que falam em 5 ou 10 anos após a extinção.",
+      "recursos": 13,
       "vf": {
         "A": false,
         "B": false,
@@ -178,6 +182,7 @@
         "L10261 75 §2º II"
       ],
       "exp": "O funcionário, **autorizado pelo Governador**, pode afastar-se para competições desportivas dentro ou fora do Estado (`L10261 75`). O afastamento é **sem prejuízo** do vencimento quando ele **representa o Brasil ou o Estado** em competição oficial (`L10261 75 §2º I`), como nos Jogos Sul-Americanos, e **com prejuízo** em quaisquer outros casos (`L10261 75 §2º II`), como no torneio do clube. Por isso erram as alternativas que tratam as duas competições do mesmo modo ou dispensam a autorização.",
+      "recursos": 132,
       "vf": {
         "A": false,
         "B": false,
@@ -218,6 +223,7 @@
         "L10261 52 §3º"
       ],
       "exp": "O exercício deve começar em **30 dias** da posse, prorrogáveis por mais **30**, a requerimento e a juízo da autoridade (`L10261 60` e `§1º`): da posse em 15/08 o prazo ia a 14/09 e, prorrogado, a **14/10**, data fixada corretamente. Quem não entra em exercício no prazo **será exonerado** (`L10261 60 §4º`; `L10261 86 §1º` item 3), sem ressalva para o problema de saúde, já que não houve licença. Tornar sem efeito o ato de provimento é a consequência de não tomar **posse** no prazo (`L10261 52 §3º`), e o prazo de 45 + 15 dias não existe no Estatuto.",
+      "recursos": 35,
       "observacoes": [
         "Contagem: posse em 15/08/2025 + 30 dias = 14/09/2025; prorrogação de 30 dias = 14/10/2025, data fixada pela autoridade."
       ],
@@ -259,6 +265,7 @@
         "L10261 32"
       ],
       "exp": "A alternativa A reproduz `L10261 30`: reintegração é o reingresso decorrente de **decisão judicial passada em julgado**, **com ressarcimento** dos prejuízos do afastamento. Ela se faz no **cargo anteriormente ocupado** ou no cargo resultante de sua transformação (`L10261 31`), sem falar em padrão de vencimento nem em reintegração \"a pedido\". Transitada em julgado a sentença, expede-se o decreto em até 30 dias (`L10261 32`); não há exigência de parecer do Procurador-Geral nem reintegração por decisão administrativa sem ressarcimento.",
+      "recursos": 7,
       "vf": {
         "A": true,
         "B": false,
@@ -296,6 +303,7 @@
         "L8429 10"
       ],
       "exp": "Na responsabilização da pessoa jurídica, **deverão ser considerados os efeitos econômicos e sociais** das sanções, de modo a **viabilizar a manutenção de suas atividades** (`L8429 12 §3º`). A regra vale para qualquer pessoa jurídica condenada, inclusive pela lesão ao erário do `L8429 10`, e é aplicada pelo juiz na própria dosimetria. A lei não a restringe a dano de pequena monta, a entidades sem fins lucrativos nem à fase recursal.",
+      "recursos": 11,
       "vf": {
         "A": false,
         "B": false,
@@ -335,6 +343,7 @@
         "L8429 1 §7º"
       ],
       "exp": "No que se refere a **recursos de origem pública**, sujeita-se às sanções da lei o **particular** que celebra com a Administração convênio, contrato de repasse, contrato de gestão, **termo de parceria** ou ajuste equivalente (`L8429 2 p.ú.`). Além disso, a lei alcança quem, mesmo não sendo agente público, **induza ou concorra dolosamente** para o ato (`L8429 3`), e o dirigente da pessoa jurídica responde quando houver **participação e benefícios diretos** (`L8429 3 §1º`), como o presidente que desviou os recursos. A entidade privada custeada pelo erário também é protegida pela lei (`L8429 1 §7º`), de modo que nem Maria é a única responsável nem só a entidade responde.",
+      "recursos": 11,
       "vf": {
         "A": false,
         "B": true,
@@ -375,6 +384,7 @@
         "L8429 12"
       ],
       "exp": "Receber vantagem econômica de quem tem interesse que pode ser atingido pelas atribuições do agente é **enriquecimento ilícito** (`L8429 9 I`), punido com **perda dos bens acrescidos**, **perda da função**, **suspensão dos direitos políticos até 14 anos**, **multa civil equivalente ao acréscimo patrimonial** e proibição de contratar (`L8429 12 I`). O secretário municipal, agente político, é agente público para a lei (`L8429 2`), e a conduta se amolda ao tipo do art. 9º. As sanções da lei aplicam-se independentemente das sanções administrativas (`L8429 12`), de modo que o arquivamento pelo MP não impede a punição disciplinar. A alternativa B erra ao dispensar o elo entre a vantagem e a atuação funcional, ignorando que a improbidade exige **dolo** (`L8429 1 §2º`).",
+      "recursos": 6,
       "observacoes": [
         "A alternativa B ficou fora do Treino: a dispensa do vínculo entre a vantagem e a atuação funcional é ponto de interpretação do art. 9º, I, à luz da exigência de dolo (art. 1º, §§1º a 3º), e a afirmação isolada não tem resposta segura só pelo texto da lei."
       ],
@@ -416,6 +426,7 @@
         "TJSP-R963 14"
       ],
       "exp": "A alternativa E reproduz `TJSP-R963 11`: os processos anteriores à implantação, com seus recursos, incidentes e processos dependentes ou conexos, **continuam no sistema legado até o encerramento**, ressalvada a migração. Implantado o eproc numa competência, novos processos só entram **exclusivamente** por ele (`TJSP-R963 10`), sem período de convivência com o esaj. A identificação do sistema correto compete **exclusivamente ao peticionante**, sob pena de o ato não produzir efeitos (`TJSP-R963 14`); a migração segue ato conjunto da Presidência e da Corregedoria (`TJSP-R963 12`), não providência das partes; e o cumprimento de sentença de processo do legado começa **no próprio legado** (`TJSP-R963 11 §2º`).",
+      "recursos": 24,
       "vf": {
         "A": false,
         "B": false,
@@ -457,6 +468,7 @@
         "TJSP-R850 20"
       ],
       "exp": "O teletrabalho assegura os mesmos direitos do regime presencial, **inclusive o auxílio-alimentação**, **exceto o auxílio-transporte** (`TJSP-R850 3`; `TJSP-R850 8 §2º`). A vedação alcança só quem está no **primeiro ano** do estágio probatório (`TJSP-R850 11 VI`), e Felipe já tem dois anos; nos **gabinetes**, o número de servidores em teletrabalho é definido pelo magistrado (`TJSP-R850 9 IV`), sem o limite de 50% das unidades de primeiro grau. O servidor custeia seus equipamentos e o Tribunal não arca com custo algum (`TJSP-R850 5`; `TJSP-R850 20`), e ele pode deixar o teletrabalho a qualquer tempo, a pedido (`TJSP-R850 19 I`).",
+      "recursos": 8,
       "observacoes": [
         "Texto da Resolução 850/2021 conferido na compilação de 25/04/2022 (com a Resolução 864/2022) em leis/TJSP-R850.json; não foi possível verificar alterações posteriores até a data da prova."
       ],
@@ -498,6 +510,7 @@
         "LC1111 33"
       ],
       "exp": "A alternativa E reproduz `LC1111 31`: os candidatos a cargos em comissão de chefia devem ter **exercido anteriormente cargos dessa natureza, ainda que em substituição**, ou **comprovar experiência adequada**, segundo critérios do **Comitê de Recursos Humanos**. O cargo de Chefe de Seção Judiciário é reservado, **em sua totalidade**, a servidores efetivos do Quadro do TJSP (`LC1111 30 I`), não a magistrados. Os demais requisitos são os de `LC1111 32` (declaração de interesse, habilitação legal, avaliações de desempenho positivas e cursos), e o Acesso é processado pela Secretaria de Recursos Humanos (`LC1111 33`); a lei não fala em dez anos de carreira, indicação do juiz diretor, entrevista ou prova escrita.",
+      "recursos": 13,
       "vf": {
         "A": false,
         "B": false,
@@ -539,6 +552,7 @@
         "RITJSP 138"
       ],
       "exp": "A alternativa A reproduz `RITJSP 134`: **nenhum feito será julgado na ausência do relator**, ainda que já tenha votado, salvo se ele se afastar depois de iniciado o julgamento. A ata é **submetida à aprovação na sessão subsequente** (`RITJSP 120`; conteúdo em `RITJSP 121`), não ao final da própria sessão. Independem de pauta também o **desaforamento** e os **conflitos** de jurisdição, competência ou atribuição (`RITJSP 123 §3º`), e os embargos de declaração das demais matérias na sessão subsequente (`§4º`). Na sessão em feriado, os feitos passam à sessão seguinte **independentemente de nova publicação** (`RITJSP 124`), e o empate de correntes se resolve pela **média dos votos ou voto intermediário** (`RITJSP 138`).",
+      "recursos": 29,
       "vf": {
         "A": true,
         "B": false,
@@ -575,6 +589,7 @@
         "NSCGJ 85 §1º III"
       ],
       "exp": "Os ofícios gerais de comunicação expedidos em cumprimento de ato judicial são, em regra, **assinados pelo escrivão**, por ordem do juiz (`NSCGJ 85`). A **subscrição do juiz é obrigatória**, porém, quando o documento for **dirigido a autoridades**, como o **chefe do Poder Executivo** (`NSCGJ 85 §1º III`). O motivo é o destinatário, não o sigilo fiscal das informações; e o cartório pode, sim, assinar ofícios fora dessas hipóteses.",
+      "recursos": 103,
       "vf": {
         "A": false,
         "B": true,
