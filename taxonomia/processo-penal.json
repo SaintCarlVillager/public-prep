@@ -19,6 +19,20 @@
       "nome": "Questões e processos incidentes"
     },
     {
+      "id": "processo-penal.sujeitos",
+      "nome": "Sujeitos processuais: juiz, MP, acusado e defensor",
+      "filhos": [
+        {
+          "id": "processo-penal.sujeitos.juiz",
+          "nome": "Juiz: impedimento e suspeição"
+        },
+        {
+          "id": "processo-penal.sujeitos.acusado-defensor",
+          "nome": "Acusado e defensor"
+        }
+      ]
+    },
+    {
       "id": "processo-penal.prova",
       "nome": "Prova",
       "filhos": [
