@@ -122,9 +122,14 @@
             ],
             "L9099": [
               "3-19"
+            ],
+            "L12153": [
+              "*"
             ]
           },
-          "observacao": "O edital também cobra a Lei 12.153/2009 (Juizados Especiais da Fazenda Pública) inteira, que ainda não está em normas/normas.json; ficou de fora até a sigla ser criada."
+          "temas": [
+            "processo-civil.juizados.fazenda-publica"
+          ]
         },
         {
           "materia": "constitucional",
@@ -153,11 +158,33 @@
         {
           "materia": "legislacao-especial",
           "normas": {
+            "TJSP-R850": [
+              "*"
+            ],
+            "TJSP-R963": [
+              "*"
+            ],
+            "LC1111": [
+              "*"
+            ],
+            "RITJSP": [
+              "*"
+            ],
             "NSCGJ": [
-              "105-110"
+              "6-18",
+              "26-29",
+              "46-99",
+              "103-189-G",
+              "1189-1301"
             ]
           },
-          "observacao": "Legislação interna. NSCGJ, Tomo I: o edital cita Capítulo II, Seção I (subseções I e II); Capítulo III, Seções I, II, V, VI, VII, VIII (subseções I, II e III) e IX a XIX; e Capítulo XI, Seções I a VII, sem números de artigo. Por ora só estão aqui os arts. 105 a 110 (Cap. III, Seção XI, \"Dos Mandados\", como registram as questões já etiquetadas); os demais intervalos dependem de converter as seções em artigos pelo texto do Tomo I, que não pôde ser baixado. Ficaram de fora também, por falta de sigla em normas/normas.json: Resolução TJSP 850/2021 (teletrabalho), Resolução TJSP 963/2025 (eproc), Lei Complementar estadual 1.111/2010 (Plano de Cargos e Carreiras do TJSP) e o Regimento Interno do TJSP."
+          "observacao": "Legislação interna. NSCGJ, Tomo I: o edital cita só capítulos e seções; os intervalos de artigos foram tirados do texto consolidado do Tomo I (site do TJ-SP, baixado em 17/11/2026): Cap. II, Seção I, subseções I e II = arts. 6 a 18 (o art. 5-A, no início da Seção I, fica fora, porque o edital restringe às subseções I e II); Cap. III, Seções I e II = arts. 26 a 29; Seções V a VII = arts. 46 a 86; Seção VIII, subseções I a III = arts. 87 a 99 (as subseções IV e V, arts. 100 a 102, ficam fora); Seções IX a XIX = arts. 103 a 189-G; Cap. XI (processo eletrônico), Seções I a VII = arts. 1.189 a 1.301. Resoluções TJSP 850/2021 e 963/2025, LC estadual 1.111/2010 e Regimento Interno do TJSP: cobrados por inteiro.",
+          "temas": [
+            "legislacao-especial.teletrabalho",
+            "legislacao-especial.eproc",
+            "legislacao-especial.carreira-tjsp",
+            "legislacao-especial.regimento-tjsp"
+          ]
         }
       ]
     },
