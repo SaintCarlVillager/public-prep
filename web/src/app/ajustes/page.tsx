@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 
 import { ComCatalogo } from "~/components/Comum";
 import type { Base } from "~/lib/catalogo";
-import { ativos, sigla, vigentes } from "~/lib/estudo";
+import { ativos, orgaoDe, vigentes } from "~/lib/estudo";
 import { fmtData, hoje } from "~/lib/nucleo";
 import { atualizar, normalizar, substituir, useProgresso, vazio } from "~/lib/progresso";
 
@@ -31,7 +31,7 @@ function Ajustes({ base }: { base: Base }) {
     const blob = new Blob([JSON.stringify(p, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = `public-prep-progresso-${hoje()}.json`;
+    a.download = `serventia-progresso-${hoje()}.json`;
     a.click();
     URL.revokeObjectURL(a.href);
   };
@@ -55,19 +55,25 @@ function Ajustes({ base }: { base: Base }) {
           <h2>Ajustes</h2>
           <span className="eyebrow">valem para o placar e as sessões automáticas</span>
         </header>
+        <fieldset className="editais">
+          <legend className="eyebrow">Editais ativos</legend>
+          {vig.map((e) => (
+            <label key={e.id} className="edital-opcao">
+              <input type="checkbox" checked={ids.has(e.id)} onChange={(ev) => alternar(e.id, ev.target.checked)} />
+              <span>
+                <b>
+                  {orgaoDe(e)} · {e.cargo ?? e.id}
+                </b>
+                <span className="sub">
+                  {[e.banca, e.prova && `prova em ${fmtData(e.prova)}`].filter(Boolean).join(" · ")}
+                  {` · aparece como “${base.rotulo(e)}”`}
+                </span>
+              </span>
+            </label>
+          ))}
+          {!vig.length && <span className="empty">Nenhum edital com prova futura.</span>}
+        </fieldset>
         <div className="settings">
-          <div style={{ display: "grid", gap: 6 }}>
-            <span className="eyebrow">Editais ativos</span>
-            <div className="actions">
-              {vig.map((e) => (
-                <label key={e.id} className="check">
-                  <input type="checkbox" checked={ids.has(e.id)} onChange={(ev) => alternar(e.id, ev.target.checked)} /> {sigla(e)}{" "}
-                  <span className="pill mute">{fmtData(e.prova)}</span>
-                </label>
-              ))}
-              {!vig.length && <span className="empty">Nenhum edital com prova futura.</span>}
-            </div>
-          </div>
           <label className="field eyebrow">
             Questões por sessão
             <input

@@ -6,6 +6,13 @@ O sistema visual do app de estudo (`web/`). As classes e os tokens estão em `we
 
 **Mesa de leitura.** Quase todo estudo acontece no celular, em intervalos curtos, lendo texto jurídico longo. A interface recua; a questão e o comentário são a página. Um único traço de cor de marca, o **grifo** amarelo (como quem grifa a lei seca), marca o que está escolhido ou ativo.
 
+## Marca
+
+- Nome: **ServentIA** ("serventia", o cartório judicial, com IA). Escrito sempre assim, com "IA" em maiúsculas.
+- Logotipo: o nome em IBM Plex Sans 600, com o **"IA" grifado** (faixa `--grifo` atrás da parte de baixo das letras, como marca-texto). O texto continua `--ink`; o grifo nunca é cor de texto.
+- Ícone (`web/src/app/icon.svg`): "S" claro sobre quadrado `--ink` com cantos arredondados e uma faixa grifo atrás da metade de baixo. É o mesmo ícone em tema claro e escuro.
+- `theme-color`: `--paper` de cada tema.
+
 ## Tokens
 
 Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@media (prefers-color-scheme: dark)` com `:root:not([data-theme="light"])` e de novo em `:root[data-theme="dark"]`. O `body` sempre tem fundo explícito (`var(--paper)`). Os nomes antigos foram mantidos para não mexer no código; a coluna "edenprep" diz o token correspondente do design system.

@@ -16,8 +16,15 @@ import {
 import type { Progresso } from "./progresso";
 import type { Edital, IndiceQuestao } from "./tipos";
 
-export const sigla = (e: Edital) => e.orgao ?? e.id.split("/")[0]!.toUpperCase();
 const passou = (e: Edital) => !!e.prova && diasAte(e.prova) < 0;
+
+export const orgaoDe = (e: Edital) => e.orgao ?? e.id.split("/")[0]!.toUpperCase();
+export const cargoCurto = (e: Edital) => e.cargo_curto ?? (e.cargo ?? e.id.split("/")[1] ?? "").split(/\s+/)[0]!;
+/** Pílula de edital federal (contorno) ou estadual (grifo). */
+export const ehFederal = (e: Edital) => /^TRF/i.test(orgaoDe(e));
+
+/** Rótulo curto do edital, sempre com órgão e cargo: "TRF3 Oficial", "TJ-SP Escrevente". */
+export const rotuloEdital = (e: Edital) => `${orgaoDe(e)} ${cargoCurto(e)}`;
 
 export const vigentes = (b: Base) => b.editais.filter((e) => !passou(e));
 

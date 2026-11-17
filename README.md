@@ -1,6 +1,6 @@
-# public-prep
+# ServentIA
 
-Estudo para concursos públicos com **provas reais etiquetadas** por tema e dispositivo, **editais** que dizem o que cada concurso cobra, e um **app web** que monta sessões, corrige pelo gabarito oficial e agenda revisões.
+Estudo para concursos do Judiciário (repositório `public-prep`) com **provas reais etiquetadas** por tema e dispositivo, **editais** que dizem o que cada concurso cobra, e um **app web** que monta sessões, corrige pelo gabarito oficial e agenda revisões.
 
 Comece por [`ARQUITETURA.md`](ARQUITETURA.md). Agentes de IA: leiam [`AGENTS.md`](AGENTS.md). Visual: [`DESIGN.md`](DESIGN.md).
 
