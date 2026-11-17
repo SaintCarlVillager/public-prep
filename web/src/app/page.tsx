@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import { ComCatalogo, Medidor } from "~/components/Comum";
 import type { Base } from "~/lib/catalogo";
-import { ativos, disponiveis, placar, sigla, temasFracos } from "~/lib/estudo";
+import { ativos, disponiveis, placar, temasFracos } from "~/lib/estudo";
 import { fmtDia, hoje, isoDia, pct } from "~/lib/nucleo";
 import { useProgresso, type Progresso } from "~/lib/progresso";
 
@@ -37,10 +37,10 @@ function Painel({ base }: { base: Base }) {
           const v = P.ed[e.id]!;
           return (
             <div key={e.id} className="kpi">
-              <span className="eyebrow">Rumo ao {sigla(e)}</span>
+              <span className="eyebrow">Rumo ao {base.rotulo(e)}</span>
               <b style={{ color: cor(v) }}>{v.t ? `${pct(v.a, v.t)}%` : "—"}</b>
               <small>
-                {v.a}/{v.t} nas questões que caem no {sigla(e)}
+                {v.a}/{v.t} nas questões que caem no {base.rotulo(e)}
               </small>
             </div>
           );
@@ -78,7 +78,7 @@ function Painel({ base }: { base: Base }) {
             <div className="seg" role="group" aria-label="Edital">
               {eds.map((e) => (
                 <button key={e.id} type="button" aria-pressed={ed?.id === e.id} onClick={() => setEscolhido(e.id)}>
-                  {sigla(e)}
+                  {base.rotulo(e)}
                 </button>
               ))}
             </div>
@@ -117,7 +117,7 @@ function Painel({ base }: { base: Base }) {
         <section className="card">
           <header>
             <h2>Por matéria</h2>
-            {ed && <span className="eyebrow">edital {sigla(ed)}</span>}
+            {ed && <span className="eyebrow">edital {base.rotulo(ed)}</span>}
           </header>
           <div style={{ display: "grid", gap: 14 }}>
             {ed && Object.keys(P.ed[ed.id]!.materias).length ? (

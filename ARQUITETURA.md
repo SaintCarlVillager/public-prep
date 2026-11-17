@@ -1,6 +1,6 @@
 # Arquitetura do framework de estudo para concursos
 
-O `public-prep` é um banco de provas reais etiquetadas e um app web aberto para estudar com elas. O método (como montar sessões, corrigir e revisar) fica legível no código e nos arquivos, não escondido num prompt.
+O **ServentIA** (repositório `public-prep`) é um banco de provas reais etiquetadas e um app web aberto para estudar com elas. O método (como montar sessões, corrigir e revisar) fica legível no código e nos arquivos, não escondido num prompt.
 
 ## Decisões já tomadas
 
@@ -83,6 +83,7 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
 ```json
 {
   "id": "tj-sp/oficial-de-justica/2026",
+  "orgao": "TJ-SP", "cargo": "Oficial de Justiça", "cargo_curto": "Oficial",
   "banca": "Vunesp", "prova": "2027-03-14", "legislacao_ate": "2026-10-14",
   "objetiva": { "formato": "me", "questoes": 70, "escala": 10, "minimo_total": 0.5 },
   "discursiva": { "tipo": "questoes", "questoes": 2, "escala": 40, "minimo": 24 },
@@ -102,6 +103,7 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
 - Intervalos incluem os artigos com letra no meio (`"396-396-A"`, `"994-1091-A"`); `"*"` é a norma inteira.
 - `questoes` dentro de uma cobertura é opcional, para quando o edital divide o bloco (3 de Matemática e 4 de Raciocínio Lógico).
 - `legislacao_ate`: a legislação vale como estava na publicação do edital.
+- `cargo_curto`: rótulo curto do cargo ("Oficial", "Escrevente"); o app mostra o edital sempre como órgão + cargo curto ("TJ-SP Escrevente").
 - `"*"` numa norma (`"CPC": ["*"]`) diz que o edital cobra a norma sem listar artigos, como faz o TRF3. Aí a relevância vem dos **temas**, e a norma só confirma.
 - `destaques`: dispositivos que o edital cita nominalmente (`"CPP 245"`, `"CPC 252-254"`). Não mudam a relevância, mas sobem a prioridade de estudo.
 - Intervalos que não estão escritos no edital, e sim deduzidos do texto dele, ficam explicados em `observacao`.

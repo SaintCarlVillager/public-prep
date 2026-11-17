@@ -3,6 +3,7 @@
 
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 
+import { rotuloEdital } from "./estudo";
 import { relevancia } from "./nucleo";
 import type { ArquivoProva, Catalogo, Edital, IndiceQuestao, Questao, ResumoProva } from "./tipos";
 
@@ -16,6 +17,8 @@ export interface Base {
   rel: (qid: string, ed: Edital) => { bloco: string; materia: string } | null;
   nomeTema: (t: string) => string;
   nomeMateria: (m: string) => string;
+  /** Rótulo curto do edital ("TRF3 Oficial", "TJ-SP Escrevente"). */
+  rotulo: (e: Edital) => string;
 }
 
 type Estado = { base: Base; erro?: undefined } | { base?: undefined; erro?: string };
@@ -56,6 +59,7 @@ function montarBase(cat: Catalogo): Base {
     },
     nomeTema: (t) => cat.temas[t] ?? t,
     nomeMateria: (m) => cat.materias[m] ?? m,
+    rotulo: rotuloEdital,
   };
 }
 

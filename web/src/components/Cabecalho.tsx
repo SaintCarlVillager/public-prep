@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { useCatalogo } from "~/lib/catalogo";
-import { ativos, sigla } from "~/lib/estudo";
+import { ativos } from "~/lib/estudo";
 import { diasAte, fmtData } from "~/lib/nucleo";
 import { useProgresso } from "~/lib/progresso";
 
@@ -23,7 +23,7 @@ export function Cabecalho() {
   const progresso = useProgresso();
   const eds = base ? ativos(base, progresso) : [];
   const porBanca: Record<string, string[]> = {};
-  for (const e of eds) (porBanca[e.banca ?? "—"] ??= []).push(sigla(e));
+  for (const e of eds) (porBanca[e.banca ?? "—"] ??= []).push(base!.rotulo(e));
 
   return (
     <div className="band">
@@ -38,8 +38,8 @@ export function Cabecalho() {
                 : "Provas reais etiquetadas"}
             </div>
             <h1>
-              <Link className="brand" href="/">
-                public-prep
+              <Link className="brand marca" href="/" aria-label="ServentIA, início">
+                Servent<span className="ia">IA</span>
               </Link>
             </h1>
           </div>
@@ -51,7 +51,7 @@ export function Cabecalho() {
                 return (
                   <div key={e.id} className="clock">
                     <span className="eyebrow">
-                      {sigla(e)} · {fmtData(e.prova)}
+                      {base!.rotulo(e)} · {fmtData(e.prova)}
                     </span>
                     <b>{d === 0 ? "hoje" : `${d} ${d === 1 ? "dia" : "dias"}`}</b>
                   </div>
