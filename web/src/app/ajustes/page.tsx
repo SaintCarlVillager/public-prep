@@ -66,7 +66,7 @@ function Ajustes({ base }: { base: Base }) {
                 </b>
                 <span className="sub">
                   {[e.banca, e.prova && `prova em ${fmtData(e.prova)}`].filter(Boolean).join(" · ")}
-                  {base.rotulo(e) !== orgaoDe(e) ? ` · aparece como “${base.rotulo(e)}”` : ""}
+                  {` · aparece como “${base.rotulo(e)}”`}
                 </span>
               </span>
             </label>

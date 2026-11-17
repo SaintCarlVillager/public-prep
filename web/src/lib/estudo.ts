@@ -23,19 +23,8 @@ export const cargoCurto = (e: Edital) => e.cargo_curto ?? (e.cargo ?? e.id.split
 /** Pílula de edital federal (contorno) ou estadual (grifo). */
 export const ehFederal = (e: Edital) => /^TRF/i.test(orgaoDe(e));
 
-/**
- * Rótulo curto de cada edital: só o órgão ("TRF3") quando ele é o único edital vigente do órgão;
- * órgão e cargo ("TJ-SP Escrevente") quando o órgão tem mais de um edital vigente.
- */
-export function rotularEditais(editais: Edital[]): Record<string, string> {
-  const vig = editais.filter((e) => !passou(e));
-  return Object.fromEntries(
-    editais.map((e) => {
-      const outros = vig.some((x) => x.id !== e.id && orgaoDe(x) === orgaoDe(e));
-      return [e.id, outros ? `${orgaoDe(e)} ${cargoCurto(e)}` : orgaoDe(e)];
-    }),
-  );
-}
+/** Rótulo curto do edital, sempre com órgão e cargo: "TRF3 Oficial", "TJ-SP Escrevente". */
+export const rotuloEdital = (e: Edital) => `${orgaoDe(e)} ${cargoCurto(e)}`;
 
 export const vigentes = (b: Base) => b.editais.filter((e) => !passou(e));
 

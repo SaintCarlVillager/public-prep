@@ -3,7 +3,7 @@
 
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 
-import { rotularEditais } from "./estudo";
+import { rotuloEdital } from "./estudo";
 import { relevancia } from "./nucleo";
 import type { ArquivoProva, Catalogo, Edital, IndiceQuestao, Questao, ResumoProva } from "./tipos";
 
@@ -17,7 +17,7 @@ export interface Base {
   rel: (qid: string, ed: Edital) => { bloco: string; materia: string } | null;
   nomeTema: (t: string) => string;
   nomeMateria: (m: string) => string;
-  /** Rótulo curto do edital ("TRF3", "TJ-SP Escrevente"). */
+  /** Rótulo curto do edital ("TRF3 Oficial", "TJ-SP Escrevente"). */
   rotulo: (e: Edital) => string;
 }
 
@@ -44,7 +44,6 @@ function montarBase(cat: Catalogo): Base {
   for (const [prova, lista] of Object.entries(cat.indice)) for (const q of lista) idx[q.id] = { ...q, prova };
   const provas = Object.fromEntries(cat.provas.map((p) => [p.id, p]));
   const memo = new Map<string, ReturnType<typeof relevancia>>();
-  const rotulos = rotularEditais(cat.editais);
   return {
     cat,
     idx,
@@ -60,7 +59,7 @@ function montarBase(cat: Catalogo): Base {
     },
     nomeTema: (t) => cat.temas[t] ?? t,
     nomeMateria: (m) => cat.materias[m] ?? m,
-    rotulo: (e) => rotulos[e.id] ?? e.orgao ?? e.id,
+    rotulo: rotuloEdital,
   };
 }
 

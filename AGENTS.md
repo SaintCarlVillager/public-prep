@@ -79,7 +79,7 @@ Campos opcionais da questão:
 
 ### O app (`web/`)
 - Nome e marca: **ServentIA**, com o "IA" grifado (ver `DESIGN.md`, "Marca"). As chaves do localStorage continuam `public-prep:*`, para não perder o progresso de quem já estuda.
-- Editais do mesmo órgão se distinguem por `cargo_curto` no `edital.json` ("Oficial", "Escrevente"): o app mostra só o órgão quando ele tem um edital vigente, e órgão e cargo curto ("TJ-SP Escrevente") quando tem mais de um. Ajustes mostra órgão e cargo por extenso.
+- Todo `edital.json` tem `cargo_curto` ("Oficial", "Escrevente"): o app sempre rotula o edital com órgão e cargo curto ("TRF3 Oficial", "TJ-SP Escrevente"), e Ajustes mostra órgão e cargo por extenso.
 - Lógica pura em `web/src/lib/nucleo.ts` (relevância, revisão espaçada, treino) com testes em `nucleo.test.ts`; regras que juntam catálogo e progresso em `estudo.ts`; progresso em `progresso.ts`.
 - O progresso de quem estuda fica **no navegador** (localStorage), com exportar/importar em Ajustes. Não há login, banco nem recursos do Claude no app por enquanto.
 - Antes de cada merge que mexa em `web/`: `cd web && npm test && npm run typecheck && npm run build`.

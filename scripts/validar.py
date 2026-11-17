@@ -93,7 +93,7 @@ def validar_editais(temas, normas):
         esperado = os.path.relpath(os.path.dirname(caminho), os.path.join(RAIZ, "editais"))
         if d.get("id") != esperado:
             erros.append(f"{rel}: 'id' deve ser '{esperado}' (o caminho da pasta)")
-        for campo in ("orgao", "cargo", "banca", "prova", "objetiva", "blocos"):
+        for campo in ("orgao", "cargo", "cargo_curto", "banca", "prova", "objetiva", "blocos"):
             if campo not in d:
                 erros.append(f"{rel}: falta '{campo}'")
         if "cargo_curto" in d and not (isinstance(d["cargo_curto"], str) and 0 < len(d["cargo_curto"]) <= 20):
