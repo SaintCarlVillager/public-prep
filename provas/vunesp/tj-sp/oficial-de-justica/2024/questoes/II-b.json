@@ -1,0 +1,1250 @@
+{
+  "prova": "vunesp/tj-sp/oficial-de-justica/2024",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#47",
+      "tipo": "me",
+      "numero": 47,
+      "enunciado": "Leopoldo tem 17 anos, é boliviano, vive no Brasil há dezesseis anos ininterruptos, não tem condenação penal e atualmente não estuda nem trabalha. Madalena é natural de Cabo Verde, tem 35 anos, está desempregada e reside há três anos ininterruptos no Brasil. Rodrigo tem 21 anos, é brasileiro nato e deseja requerer, perante a autoridade competente, a perda da nacionalidade brasileira. Com base na situação apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+      "alt": {
+        "A": "Ao completar 18 anos, Leopoldo deverá realizar o alistamento eleitoral, pois, ao atingir a maioridade civil, ele será automaticamente considerado brasileiro naturalizado, uma vez que preenche todos os requisitos exigidos pela legislação.",
+        "B": "Como Madalena é originária de país de língua portuguesa, para obter a nacionalidade brasileira, precisa comprovar apenas residência por um ano ininterrupto, idoneidade moral e estar trabalhando há pelo menos seis meses, ainda que informalmente.",
+        "C": "Leopoldo somente poderá requerer a nacionalidade brasileira em quatro anos, pois a legislação estabelece a necessária residência ininterrupta no Brasil por pelo menos vinte anos.",
+        "D": "Se Madalena obtiver a naturalização brasileira, caso ela seja condenada pelo cometimento do crime de peculato, sua naturalização será cancelada, por se considerar a atividade como nociva ao interesse nacional.",
+        "E": "Caso Rodrigo renuncie à nacionalidade, tal fato não impedirá que ele readquira sua nacionalidade brasileira originária, inclusive podendo se tornar, no futuro, Ministro do Supremo Tribunal Federal."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.nacionalidade"
+      ],
+      "dispositivos": [
+        "CF 12 §5º",
+        "CF 12 §4º",
+        "CF 12 §3º"
+      ],
+      "exp": "`CF 12, §5º` (EC 131/2023): a renúncia não impede readquirir a nacionalidade **originária**; volta a ser nato e pode ser Ministro do STF (`§3º, IV`). (A) a naturalização extraordinária depende de requerimento; (B) não se exige trabalho; (C) são 15 anos; (D) o cancelamento hoje é por **fraude** ou **atentado contra a ordem constitucional e o Estado Democrático** (`§4º, I`).",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Não há naturalização automática: a extraordinária exige residência por mais de quinze anos ininterruptos, ausência de condenação penal e **requerimento** do interessado (`CF 12 II b`).",
+        "B": "Ao originário de país de língua portuguesa a CF exige só **residência por um ano ininterrupto** e **idoneidade moral** (`CF 12 II a`); não há exigência de estar trabalhando.",
+        "C": "O prazo da naturalização extraordinária é de mais de **quinze anos** de residência ininterrupta, sem condenação penal e com requerimento (`CF 12 II b`), não vinte anos.",
+        "D": "Peculato não gera cancelamento da naturalização. Desde a EC 131/2023, ela só é cancelada por sentença judicial em razão de **fraude** no processo de naturalização ou de **atentado contra a ordem constitucional e o Estado Democrático** (`CF 12 §4º I`).",
+        "E": "A renúncia não impede que o brasileiro **readquira a nacionalidade originária** (`CF 12 §5º`, EC 131/2023); voltando a ser nato, Rodrigo pode ser Ministro do STF, cargo privativo de brasileiro nato (`CF 12 §3º IV`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#48",
+      "tipo": "me",
+      "numero": 48,
+      "enunciado": "Os municípios A e B estão localizados no mesmo Estado, e, em decorrência de questões geográficas e culturais, seus habitantes compartilham diversos valores em comum. Em face disso, e pensando em solucionar o problema da escassez de recursos, os Chefes dos respectivos Poderes Executivos desejam realizar a fusão desses municípios. Com base na situação hipotética apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+      "alt": {
+        "A": "Os municípios A e B não poderão realizar a fusão, mas apenas um poderá se incorporar ao outro, desde que mediante prévia autorização em lei estadual, dentro do período determinado por Lei Complementar Federal, e após ouvir a população interessada mediante plebiscito.",
+        "B": "A fusão dos municípios A e B é possível, mas deverá ser feita por lei estadual, dentro do período determinado por Lei Complementar Federal, dependendo de consulta prévia, mediante plebiscito, às populações dos municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal.",
+        "C": "Admite-se a fusão dos municípios A e B, desde que seja editada, pela Assembleia Legislativa, Lei Complementar indicando tal possibilidade e autorizando a realização do referendo.",
+        "D": "Diferentemente do que ocorre com os Estados, os municípios não podem realizar a fusão, bem como incorporar-se ou subdividir-se, em face de expressa vedação legal que foi consequência de entendimento consolidado do Supremo Tribunal Federal.",
+        "E": "Admite-se que os municípios A e B realizem a fusão, desde que, entre outros requisitos, seja publicada Lei Complementar Estadual autorizando e seja realizada pesquisa de interesse entre os cidadãos envolvidos, além de apresentado estudo de impacto financeiro."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.organizacao-estado"
+      ],
+      "dispositivos": [
+        "CF 18 §4º"
+      ],
+      "exp": "`CF 18, §4º`: fusão de municípios por **lei estadual**, no período determinado por **lei complementar federal**, após **plebiscito** das populações envolvidas e divulgação dos **Estudos de Viabilidade Municipal**.",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A **fusão** de municípios é admitida, ao lado da criação, da incorporação e do desmembramento, por lei estadual, no período fixado em lei complementar federal, após plebiscito e Estudos de Viabilidade Municipal (`CF 18 §4º`).",
+        "B": "O `CF 18 §4º` permite a fusão de municípios por **lei estadual**, no período fixado em **lei complementar federal**, após **plebiscito** das populações envolvidas e divulgação dos **Estudos de Viabilidade Municipal**.",
+        "C": "A fusão exige **lei estadual** no período fixado em **lei complementar federal** e consulta prévia por **plebiscito**, não referendo, após os Estudos de Viabilidade Municipal (`CF 18 §4º`).",
+        "D": "Não há vedação: a CF admite a criação, a incorporação, a **fusão** e o desmembramento de municípios, por lei estadual, no período fixado em lei complementar federal e após plebiscito (`CF 18 §4º`).",
+        "E": "A fusão se faz por **lei estadual** no período fixado em **lei complementar federal**, após consulta por **plebiscito** e divulgação dos **Estudos de Viabilidade Municipal** (`CF 18 §4º`); não basta pesquisa de interesse."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#49",
+      "tipo": "me",
+      "numero": 49,
+      "enunciado": "Luciana é servidora pública, devidamente aprovada em concurso público, e atua como analista de sistemas no âmbito do Poder Executivo do município X. Com o intuito de aumentar sua renda, Luciana aceitou uma função de confiança e, após seis anos de exercício em tal função, resolveu abdicar da função de confiança, por não considerar que a remuneração auferida era proporcional ao trabalho por ela desenvolvido. Em seguida, candidatou-se e foi eleita vereadora do município X. Durante o mandato municipal, resolveu concorrer ao cargo de deputada estadual, tendo sido eleita, mas ainda não foi investida no mandato eletivo estadual. Com base na situação hipotética e no disposto na Constituição Federal, assinale a alternativa correta.",
+      "alt": {
+        "A": "Como Luciana exerceu a função de confiança por mais de cinco anos, deverão ser incorporadas as vantagens vinculadas ao exercício de tal função à remuneração do cargo efetivo.",
+        "B": "Investida no mandato de vereadora, se não houver compatibilidade de horários, ela será afastada do cargo público, mas estará impossibilitada de optar por receber a sua remuneração como servidora pública.",
+        "C": "Ao ser investida em mandato eletivo estadual, Luciana ficará afastada de seu cargo e, se ela for segurada de regime próprio de previdência social, permanecerá filiada a esse regime, no município X.",
+        "D": "A fixação da remuneração de Luciana como analista de sistemas deve observar exclusivamente dois requisitos: o grau de responsabilidade intrínseco à atividade desenvolvida e a complexidade do cargo.",
+        "E": "Como Luciana é servidora pública, ela não deveria ter aceitado a função de confiança, pois esta é restrita para os ocupantes de cargos de livre nomeação e exoneração."
+      },
+      "gab": "C",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 38 I",
+        "CF 38 III",
+        "CF 38 V",
+        "CF 39 §9º",
+        "CF 37 V"
+      ],
+      "exp": "`CF 38, I` e `V`: no mandato estadual o servidor fica afastado do cargo e, se segurado de RPPS, **permanece filiado a esse regime no ente de origem**. (A) a incorporação de vantagens de função de confiança é vedada (`CF 39, §9º`); (B) o vereador sem compatibilidade de horários **pode optar** pela remuneração (`CF 38, III`); (E) funções de confiança são **exclusivas de servidores efetivos** (`CF 37, V`).",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É **vedada** a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança à remuneração do cargo efetivo (`CF 39 §9º`), qualquer que seja o tempo de exercício.",
+        "B": "O vereador sem compatibilidade de horários é afastado do cargo, mas **pode optar** pela remuneração do cargo (`CF 38 III`, que remete ao inciso II).",
+        "C": "No mandato estadual, o servidor fica **afastado do cargo** (`CF 38 I`) e, se segurado de regime próprio, **permanece filiado a esse regime** no ente de origem (`CF 38 V`).",
+        "D": "Não são só dois critérios: a fixação dos vencimentos observa a natureza, o grau de responsabilidade e a complexidade dos cargos, os **requisitos para a investidura** e as **peculiaridades dos cargos** (`CF 39 §1º`).",
+        "E": "As funções de confiança são exercidas **exclusivamente por servidores ocupantes de cargo efetivo** (`CF 37 V`); Luciana, concursada, podia aceitá-la."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#50",
+      "tipo": "me",
+      "numero": 50,
+      "enunciado": "A respeito dos servidores públicos, assinale a alternativa que está de acordo com o disposto na Constituição Federal.",
+      "alt": {
+        "A": "É vedada a existência de mais de um regime próprio de previdência social e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais.",
+        "B": "Os Estados e os municípios instituirão, por lei de iniciativa do respectivo Poder Legislativo, regime de previdência complementar para servidores públicos ocupantes de cargo efetivo.",
+        "C": "A Constituição Federal assegura o reajustamento dos benefícios previdenciários para preservar-lhes, em caráter permanente, o valor real, conforme critérios estabelecidos anualmente pelo Decreto do Poder Executivo.",
+        "D": "Deverão ser estabelecidos, até 2025, por lei ordinária do respectivo ente federativo, idade e tempo de contribuição diferenciados para aposentadoria de servidores cujas atividades sejam exercidas com efetiva exposição a agentes químicos, sob pena da impetração de mandado de injunção.",
+        "E": "Lei ordinária de cada ente federativo deverá estabelecer expressamente idade e tempo de contribuição diferenciados para aposentadoria de servidores com deficiência, previamente submetidos a avaliação biopsicossocial realizada por equipe multiprofissional e interdisciplinar."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.administracao-publica.servidores",
+        "previdenciario.rpps"
+      ],
+      "dispositivos": [
+        "CF 40 §20",
+        "CF 40 §4º-A",
+        "CF 40 §4º-C",
+        "CF 40 §8º",
+        "CF 40 §14"
+      ],
+      "exp": "`CF 40, §20`: é **vedada** a existência de mais de um RPPS e de mais de uma entidade gestora em cada ente federativo. (B) a iniciativa da previdência complementar é do **Executivo** (`§14`); (C) o reajuste segue critérios **da lei** (`§8º`); (D) e (E) idade e tempo diferenciados dependem de **lei complementar** (`§4º-A`, `§4º-C`).",
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O `CF 40 §20` **veda** a existência de mais de um regime próprio de previdência e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais.",
+        "B": "A lei que institui o regime de previdência complementar dos servidores é de iniciativa do **Poder Executivo** de cada ente (`CF 40 §14`), não do Legislativo.",
+        "C": "O reajustamento que preserva o valor real dos benefícios segue critérios estabelecidos **em lei** (`CF 40 §8º`), não em decreto anual do Executivo.",
+        "D": "Idade e tempo de contribuição diferenciados para quem trabalha exposto a agentes químicos, físicos e biológicos prejudiciais à saúde **poderão** ser fixados por **lei complementar** do ente (`CF 40 §4º-C`); não há lei ordinária obrigatória nem prazo até 2025.",
+        "E": "Para servidores com deficiência, idade e tempo de contribuição diferenciados **poderão** ser fixados por **lei complementar** do ente, após avaliação biopsicossocial (`CF 40 §4º-A`), não por lei ordinária obrigatória."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#51",
+      "tipo": "me",
+      "numero": 51,
+      "enunciado": "A respeito do Poder Judiciário, assinale a alternativa que está de acordo com o disposto na Constituição Federal.",
+      "alt": {
+        "A": "Quando o Tribunal de Justiça tiver número superior a vinte e cinco julgadores, deverá constituir um órgão especial, com o mínimo de onze e o máximo de vinte e três membros, para o exercício das atribuições administrativas e jurisdicionais delegadas da competência do tribunal pleno.",
+        "B": "Os Tribunais de Justiça, no exercício de sua função atípica, proferem decisões administrativas, que devem ser motivadas, vedando-se a motivação aliunde, e proferidas em sessão pública, sendo as decisões disciplinares tomadas pelo voto de dois terços de seus membros.",
+        "C": "Aos juízes é expressamente vedado exercer a advocacia no juízo ou tribunal do qual se afastou, antes de decorridos pelo menos cinco anos do afastamento do cargo por aposentadoria ou exoneração, sob pena da prática de improbidade administrativa.",
+        "D": "Os tribunais elaborarão suas propostas orçamentárias, mas, se as propostas orçamentárias forem encaminhadas em desacordo com os limites estipulados na Lei de Diretrizes Orçamentárias, o Poder Executivo procederá aos ajustes necessários para fins de consolidação da proposta orçamentária anual.",
+        "E": "Os Estados devem criar a justiça de paz, remunerada, composta de cidadãos eleitos pelo voto direto, com mandato de quatro anos e competência para celebrar casamentos e julgar pedidos de divórcio, verificar, de ofício ou em face de impugnação apresentada, o processo de habilitação e exercer atribuições conciliatórias, além de outras previstas na legislação."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.judiciario.disposicoes"
+      ],
+      "dispositivos": [
+        "CF 99 §4º",
+        "CF 93 XI",
+        "CF 93 X",
+        "CF 95 p.ú. V",
+        "CF 98 II"
+      ],
+      "exp": "`CF 99, §4º`: proposta orçamentária fora dos limites da LDO → o **Executivo faz os ajustes**. (A) o órgão especial tem de 11 a **25** membros (`CF 93, XI`); (B) decisões disciplinares por **maioria absoluta** (`CF 93, X`); (C) quarentena de **3** anos (`CF 95, p.ú., V`); (E) a justiça de paz não julga divórcio (`CF 98, II`).",
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O órgão especial tem no mínimo onze e no máximo **vinte e cinco** membros, não vinte e três, e sua criação nos tribunais com mais de vinte e cinco julgadores é **facultativa** (`CF 93 XI`).",
+        "B": "As decisões administrativas dos tribunais são motivadas e tomadas em sessão pública, mas as **disciplinares** exigem o voto da **maioria absoluta** dos membros (`CF 93 X`), não de dois terços.",
+        "C": "A quarentena do juiz que se afasta por aposentadoria ou exoneração é de **três anos** (`CF 95 p.ú. V`), não cinco.",
+        "D": "Se a proposta orçamentária do tribunal vier em desacordo com os limites da Lei de Diretrizes Orçamentárias, o **Poder Executivo** fará os ajustes necessários para consolidar a proposta orçamentária anual (`CF 99 §4º`).",
+        "E": "A justiça de paz celebra casamentos, verifica a habilitação e exerce atribuições conciliatórias, **sem caráter jurisdicional** (`CF 98 II`); não julga pedidos de **divórcio**."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#52",
+      "tipo": "me",
+      "numero": 52,
+      "enunciado": "Ênio é magistrado no âmbito do Tribunal de Justiça do Estado de São Paulo, e Max é magistrado do Tribunal de Justiça do Rio de Janeiro. Eles são amigos desde a época em que estudavam para prestar o concurso da magistratura e ambos estão em comarcas de igual entrância. Diante da recente alteração na Constituição Federal, eles desejam apresentar pedido de permuta. Com base na situação hipotética apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+      "alt": {
+        "A": "O pedido de permuta de Ênio e Max será deferido se eles estiverem por duas vezes consecutivas ou cinco alternadas em lista de merecimento para promoção, exceto se comprovado que eles injustificadamente retiveram autos além do prazo legal disposto no Código de Processo Civil.",
+        "B": "Como aos Tribunais de Justiça é assegurada autonomia administrativa e financeira, cada Tribunal de Justiça deverá prever as próprias regras aplicáveis aos pedidos de permuta, observando-se, no mínimo, a exigência de que os magistrados estejam na mesma entrância há pelo menos cinco anos.",
+        "C": "O pedido de Ênio e Max não poderá ser atendido, pois a Constituição Federal apenas permitiu a remoção a pedido de magistrados de comarca de igual entrância, dentro de um mesmo Tribunal de Justiça.",
+        "D": "O pedido de Ênio e Max não poderá ser atendido, pois a Constituição Federal permitiu apenas a permuta entre os juízes de segundo grau.",
+        "E": "Admite-se a permuta dos magistrados Ênio e Max, que atenderá, entre outros requisitos e no que couber, a aferição do merecimento conforme o desempenho e pelos critérios objetivos de produtividade e presteza no exercício da jurisdição e pela frequência e o aproveitamento em cursos oficiais ou reconhecidos de aperfeiçoamento."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.judiciario.disposicoes"
+      ],
+      "dispositivos": [
+        "CF 93 VIII-B",
+        "CF 93 II"
+      ],
+      "exp": "`CF 93, VIII-B` (EC 130/2023): admite-se a **permuta** de magistrados de comarca de igual entrância, no mesmo segmento de justiça, **inclusive entre tribunais diferentes**, observando no que couber os critérios de merecimento do `art. 93, II` (desempenho, produtividade, presteza e cursos de aperfeiçoamento).",
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O número está errado: o `CF 93 II` fala em **três** vezes consecutivas ou cinco alternadas em lista de merecimento, e isso trata da promoção obrigatória. Para a permuta, o `CF 93 VIII-B` manda observar os critérios do inciso II apenas **no que couber**.",
+        "B": "As regras da permuta estão na própria Constituição (`CF 93 VIII-B`, EC 130/2023), que manda observar, no que couber, os critérios de merecimento do `CF 93 II`; não há exigência de cinco anos na mesma entrância.",
+        "C": "Desde a EC 130/2023, admite-se a **permuta** de magistrados de comarca de igual entrância no mesmo segmento de justiça, **inclusive entre tribunais diferentes** (`CF 93 VIII-B`).",
+        "D": "A permuta não se limita ao segundo grau: o `CF 93 VIII-B` (EC 130/2023) admite a de magistrados de comarca de **igual entrância**, inclusive entre tribunais diferentes.",
+        "E": "O `CF 93 VIII-B` (EC 130/2023) admite a **permuta** entre magistrados de comarca de igual entrância, inclusive de tribunais diferentes, observando no que couber o merecimento do `CF 93 II`: desempenho, **produtividade e presteza** e cursos de aperfeiçoamento."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#53",
+      "tipo": "me",
+      "numero": 53,
+      "enunciado": "O Ministério Público do Estado X, durante a execução orçamentária do exercício de 2024, em virtude do exponencial aumento das audiências de custódia aos finais de semana, verificou que não haveria valores suficientes para o pagamento de diárias para os membros da carreira dentro dos limites estabelecidos na Lei de Diretrizes Orçamentárias. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que, se ocorresse o pagamento das diárias extrapolando os limites estabelecidos na Lei de Diretrizes Orçamentárias, a atitude do Ministério Público do Estado X estaria",
+      "alt": {
+        "A": "em desacordo com o previsto na Constituição, na medida em que as despesas deveriam ter sido previamente autorizadas, mediante a abertura de créditos suplementares ou especiais.",
+        "B": "de acordo com o previsto na Constituição, na medida em que é caracterizada a situação de força maior decorrente do aumento das audiências de custódia.",
+        "C": "em desacordo com o previsto na Constituição, pois a realização de despesas dependeria de autorização prévia diretamente dada pelo Chefe do Poder Executivo, por meio da publicação de resolução orçamentária.",
+        "D": "de acordo com o previsto na Constituição, na medida em que são princípios institucionais do Ministério Público a independência funcional e a financeira.",
+        "E": "de acordo com o previsto na Constituição, pois, além de estar caracterizada a situação de caso fortuito, são princípios institucionais do Ministério Público a independência orçamentária e a administrativa."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.funcoes-essenciais"
+      ],
+      "dispositivos": [
+        "CF 127 §6º"
+      ],
+      "exp": "`CF 127, §6º`: durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas mediante a abertura de créditos suplementares ou especiais**. Autonomia funcional e administrativa não afastam essa regra.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas** mediante abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "B": "A Constituição não prevê exceção por força maior: despesas além dos limites da LDO exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "C": "A exceção não é autorização direta do Chefe do Executivo: as despesas que extrapolam a LDO só são admitidas se previamente autorizadas mediante abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "D": "A autonomia do MP não afasta os limites da LDO: despesas acima deles exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "E": "Nem caso fortuito nem a autonomia do MP afastam a regra: despesas acima dos limites da LDO exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#54",
+      "tipo": "me",
+      "numero": 54,
+      "enunciado": "De acordo com o expresso na Constituição Federal, atualmente, a criação da Justiça Militar Estadual",
+      "alt": {
+        "A": "é possível, desde que haja prévia resolução do Conselho Nacional de Justiça autorizando o respectivo Tribunal de Justiça.",
+        "B": "depende da edição de lei estadual, mediante proposta do Tribunal de Justiça.",
+        "C": "depende da edição de lei ordinária federal, de proposta privativa do Supremo Tribunal Federal.",
+        "D": "depende da edição de lei complementar estadual, mediante proposta do Tribunal de Justiça, após prévia autorização do Conselho Nacional de Justiça.",
+        "E": "está vedada, em razão da recente promulgação da Emenda Constitucional no 133."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.judiciario.justica-estadual"
+      ],
+      "dispositivos": [
+        "CF 125 §3º"
+      ],
+      "exp": "`CF 125, §3º`: a **lei estadual**, mediante **proposta do Tribunal de Justiça**, pode criar a Justiça Militar estadual. Não há participação do CNJ nem lei complementar; a EC 133 tratou de partidos políticos.",
+      "recursos": 5,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não há participação do CNJ: a Justiça Militar estadual pode ser criada por **lei estadual**, mediante **proposta do Tribunal de Justiça** (`CF 125 §3º`).",
+        "B": "Pelo `CF 125 §3º`, a **lei estadual**, mediante **proposta do Tribunal de Justiça**, pode criar a Justiça Militar estadual.",
+        "C": "A Justiça Militar **estadual** é criada por **lei estadual**, mediante proposta do **Tribunal de Justiça** (`CF 125 §3º`), não por lei federal proposta pelo STF.",
+        "D": "Basta **lei estadual**, não complementar, mediante **proposta do Tribunal de Justiça**, sem autorização do CNJ (`CF 125 §3º`).",
+        "E": "Não há vedação: a **lei estadual**, mediante proposta do Tribunal de Justiça, pode criar a Justiça Militar estadual (`CF 125 §3º`). A EC 133 tratou de partidos políticos."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#55",
+      "tipo": "me",
+      "numero": 55,
+      "enunciado": "O conceito de funcionário público varia conforme o contexto de sua aplicação no ordenamento jurídico brasileiro. De acordo com o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo, funcionário público, para os fins desse Estatuto, é",
+      "alt": {
+        "A": "quem, mesmo transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública.",
+        "B": "a pessoa que seja titular de cargo público estruturado em carreiras, provido mediante concurso público de provas ou provas e títulos.",
+        "C": "a pessoa legalmente investida em cargo público.",
+        "D": "quem exerce cargo em entidade paraestatal.",
+        "E": "quem exerce cargo em empresa prestadora de serviço contratada ou conveniada para a execução de atividade típica da Administração Pública."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp"
+      ],
+      "dispositivos": [
+        "L10261 3"
+      ],
+      "exp": "`Lei 10.261/68, art. 3º`: funcionário público, para o Estatuto, é **a pessoa legalmente investida em cargo público**. (A) é o conceito amplo do Direito Penal (`CP 327`).",
+      "recursos": 3,
+      "observacoes": [
+        "Dispositivo conferido: art. 3º correto."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Esse é o conceito amplo do Direito Penal (`CP 327`). Para o Estatuto paulista, funcionário público é apenas **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "B": "O Estatuto não exige carreira nem concurso para definir funcionário público: basta ser **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "C": "É a definição do Estatuto: funcionário público é **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "D": "Quem exerce cargo em entidade paraestatal é **equiparado** a funcionário público para fins penais (`CP 327 §1º`). Para o Estatuto, funcionário é **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "E": "Quem trabalha em empresa contratada ou conveniada para atividade típica da Administração é **equiparado** a funcionário só para fins penais (`CP 327 §1º`). O Estatuto considera funcionário **a pessoa legalmente investida em cargo público** (`L10261 3`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#56",
+      "tipo": "me",
+      "numero": 56,
+      "enunciado": "De acordo com o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo, as nomeações em cargo público podem ser feitas",
+      "alt": {
+        "A": "por transferência, acesso ou reversão.",
+        "B": "em caráter vitalício, em comissão e em caráter efetivo.",
+        "C": "por reversão, reintegração ou em comissão.",
+        "D": "por aproveitamento, reintegração ou em caráter efetivo.",
+        "E": "em comissão e em caráter efetivo, apenas."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.provimento"
+      ],
+      "dispositivos": [
+        "L10261 13",
+        "L10261 11"
+      ],
+      "exp": "`Lei 10.261/68, art. 13`: as nomeações serão feitas **em caráter vitalício** (nos casos previstos na Constituição), **em comissão** e **em caráter efetivo** (B), o que também afasta (E). Transferência, acesso, reversão, reintegração e aproveitamento são **outras formas de provimento** listadas no `art. 11`, ao lado da nomeação, e não formas de nomeação.",
+      "recursos": 2,
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Transferência, acesso e reversão são **formas de provimento** listadas ao lado da nomeação (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "B": "O Estatuto prevê nomeações em caráter **vitalício** (nos casos da Constituição), **em comissão** e em caráter **efetivo** (`L10261 13`).",
+        "C": "Reversão e reintegração são **outras formas de provimento** (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "D": "Aproveitamento e reintegração são **outras formas de provimento** (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "E": "O \"apenas\" exclui a nomeação em caráter **vitalício**, também prevista no Estatuto ao lado da nomeação em comissão e em caráter efetivo (`L10261 13`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#57",
+      "tipo": "me",
+      "numero": 57,
+      "enunciado": "O setor de pessoal de um determinado órgão público do Estado de São Paulo está sugerindo realizar um concurso público para provimento em cargo público efetivo de nível superior, mediante aplicação de provas avaliadas na escala de 0 (zero) a 100 (cem) pontos e análise de títulos, aos quais seriam atribuídos, no máximo, outros 100 (cem) pontos. Com base na situação descrita e no Estatuto dos Funcionários Públicos Civis do Estado, é correto afirmar que",
+      "alt": {
+        "A": "devido à sua subjetividade, via de regra, não é permitida a realização de análise de títulos detidos pelo candidato em concursos públicos de nível superior.",
+        "B": "a lei não autoriza que a relação entre os pontos atribuídos à prova e à análise de títulos seja superior a 1:2 (um para dois).",
+        "C": "a previsão de fase de análise de títulos detidos pelos candidatos em concurso público apenas é possível para os cargos da magistratura estadual.",
+        "D": "aos títulos não se pode atribuir pontuação maior do que 50 (cinquenta) pontos, por expressa vedação legal.",
+        "E": "não há previsão legal na lei relativamente à pontuação máxima de cada fase do concurso, cabendo à banca organizadora distribuir os pontos na forma do edital."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.provimento"
+      ],
+      "dispositivos": [
+        "L10261 14 p.ú."
+      ],
+      "exp": "`Lei 10.261/68, art. 14, p.ú.`: as provas serão avaliadas na escala de 0 a 100 pontos e **aos títulos serão atribuídos, no máximo, 50 pontos** (D). A proposta de 100 pontos para títulos viola essa limitação expressa; o próprio `art. 14` admite concurso **de provas e títulos** para cargo efetivo, o que afasta (A), (C) e (E).",
+      "recursos": 1,
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto admite expressamente concurso **de provas e títulos** para cargo efetivo (`L10261 14`); o que ele faz é limitar a pontuação dos títulos a **50 pontos** (`L10261 14 p.ú.`).",
+        "B": "A lei não fixa uma proporção entre as fases: fixa limites absolutos. As provas vão de 0 a 100 pontos e aos títulos se atribuem **no máximo 50 pontos** (`L10261 14 p.ú.`), o que impede os 100 pontos propostos.",
+        "C": "A análise de títulos não é exclusiva da magistratura: o Estatuto admite concurso **de provas e títulos** para cargos efetivos em geral (`L10261 14`), com títulos limitados a 50 pontos (`L10261 14 p.ú.`).",
+        "D": "As provas são avaliadas de 0 a 100 pontos e aos títulos se atribuem, **no máximo, 50 pontos** (`L10261 14 p.ú.`); a proposta de 100 pontos para títulos viola esse limite expresso.",
+        "E": "Há previsão legal: as provas são avaliadas de 0 a 100 pontos e aos títulos cabem, **no máximo, 50 pontos** (`L10261 14 p.ú.`). A banca não pode distribuir os pontos livremente."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#58",
+      "tipo": "me",
+      "numero": 58,
+      "enunciado": "Roberto almeja ingressar nos quadros da Administração Pública paulista, mas tem receios quanto à sua conformidade em relação às exigências legais para tanto, uma vez que não é brasileiro nato, mas sim naturalizado há apenas 1 (um) ano; tem apenas 19 (dezenove) anos; nunca estudou para concursos públicos; justificou o não comparecimento e voto na última eleição municipal; e já foi condenado no passado por crime ambiental (artigo 65 da Lei no 9.605/98, crime de pichação), estando ainda em curso o cumprimento da pena restritiva de direitos que lhe foi imposta. Considerando as preocupações de Roberto e o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo, pode-se afirmar que é requisito para a posse em cargo público e poderá representar um obstáculo à sua pretensão de tornar-se um funcionário público estadual:",
+      "alt": {
+        "A": "ser brasileiro nato.",
+        "B": "ter sido aprovado em concurso público.",
+        "C": "ter completado 21 (vinte e um) anos de idade.",
+        "D": "ter votado nas últimas 2 (duas) eleições.",
+        "E": "ter boa conduta."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.provimento"
+      ],
+      "dispositivos": [
+        "L10261 47 V",
+        "L10261 47 I",
+        "L10261 47 II"
+      ],
+      "exp": "Entre os requisitos para a posse está **ter boa conduta** (`Lei 10.261/68, art. 47, V`); pena em cumprimento pode impedi-la (E). Basta **ser brasileiro**, nato ou naturalizado (`art. 47, I`), e ter **18 anos** (`art. 47, II`); a aprovação em concurso é requisito da nomeação (`art. 14`), não da posse, e a justificativa eleitoral regulariza a obrigação.",
+      "recursos": 4,
+      "observacoes": [
+        "Dispositivo \"L10261 47\" estava correto; detalhado por inciso."
+      ],
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O Estatuto exige apenas **ser brasileiro**, nato ou naturalizado (`L10261 47 I`); a naturalização de Roberto não o impede de tomar posse.",
+        "B": "A aprovação em concurso é requisito da **nomeação** (`L10261 14`), e não um dos requisitos da posse listados no `L10261 47`; além disso, não estudar antes não é obstáculo legal.",
+        "C": "Para a posse, basta ter **18 anos** completos (`L10261 47 II`); com 19 anos, Roberto atende a esse requisito.",
+        "D": "O Estatuto não exige ter votado nas últimas duas eleições. Roberto **justificou** a ausência, o que regulariza sua obrigação eleitoral (`L10261 47`).",
+        "E": "**Ter boa conduta** é requisito para a posse (`L10261 47 V`), e a pena restritiva de direitos ainda em cumprimento pode ser obstáculo a essa exigência."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#59",
+      "tipo": "me",
+      "numero": 59,
+      "enunciado": "Em uma determinada repartição do Governo do Estado de São Paulo, o chefe do setor resolve estabelecer uma forma diferente de administrar a área, com base na confiança da chefia em relação aos seus colaboradores. Assim, o responsável pelo setor dispensa os funcionários do registro diário do ponto, passando a controlar apenas o total de horas trabalhadas na semana segundo apontamentos manuais feitos em um caderno separado pelo responsável especificamente para essa finalidade. Sentindo-se mais valorizada, a equipe passa a produzir muito mais do que produzia antes da introdução da inovação. Considerando essa situação hipotética e o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo (Estatuto), é correto afirmar que:",
+      "alt": {
+        "A": "em que pese a boa intenção e resultados, a conduta do chefe do setor viola o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo, o qual veda a dispensa do registro do ponto, salvo em situações excepcionais.",
+        "B": "a solução encontrada está em conformidade com o Estatuto, na medida em que esse não exige que o ponto registre a hora de entrada e a hora de saída do funcionário diariamente, mas apenas a carga horária semanal trabalhada.",
+        "C": "os resultados positivos alcançados permitem a inclusão da inovação em iniciativa chamada sandbox regulatório de gestão, conforme previsto no Estatuto dos Funcionários Públicos Civis do Estado de São Paulo.",
+        "D": "a única desconformidade na proposta apresentada pela chefia do setor em relação ao Estatuto consiste na adoção de meio manual de registro das horas trabalhadas, em lugar de meio mecânico.",
+        "E": "trata-se de um caso de implantação do paradigma da administração gerencial, o qual é expressamente autorizado pelo Estatuto dos Funcionários Públicos Civis do Estado de São Paulo."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.servidores.estatuto-sp"
+      ],
+      "dispositivos": [
+        "L10261 120 §2º",
+        "L10261 120",
+        "L10261 120 §3º"
+      ],
+      "exp": "`Lei 10.261/68, art. 120, §2º`: **é vedado dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e o `§3º` responsabiliza a autoridade que expedir a ordem (A). (B) o ponto é o registro pelo qual se verifica, **diariamente, a entrada e saída** do funcionário (`art. 120`); (D) o uso de meios mecânicos é apenas preferencial (`§1º`) e não é a única desconformidade. O Estatuto não fala em sandbox (C) nem em administração gerencial (E).",
+      "recursos": 3,
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto **veda dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e responsabiliza a autoridade que der a ordem (`L10261 120 §2º` e `§3º`). A boa intenção e os resultados não afastam a ilegalidade.",
+        "B": "O ponto é o registro pelo qual se verificam, **diariamente, a entrada e a saída** do funcionário (`L10261 120`), e não só a carga semanal; e é vedado dispensar o registro do ponto (`L10261 120 §2º`).",
+        "C": "O Estatuto não prevê nenhum **sandbox regulatório de gestão**. Ele **veda** dispensar o funcionário do registro do ponto, salvo os casos previstos em lei (`L10261 120 §2º`).",
+        "D": "O uso de meios mecânicos é apenas **preferencial** (`L10261 120 §1º`). A desconformidade central é a **dispensa do registro do ponto**, vedada pelo Estatuto (`L10261 120 §2º`).",
+        "E": "O Estatuto não menciona administração gerencial. Ao contrário, **veda** dispensar o funcionário do registro do ponto, salvo os casos previstos em lei (`L10261 120 §2º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#60",
+      "tipo": "me",
+      "numero": 60,
+      "enunciado": "Abelardo Nogueira é servidor público na Secretaria Estadual de Justiça e Cidadania do Governo do Estado de São Paulo e está cursando o quinto semestre de Direito em renomada faculdade, a qual realiza algumas palestras e cursos on-line, de participação obrigatória dos alunos, em horário que seria de expediente de Abelardo. Como a repartição possui boa conexão com a internet, Abelardo usa o computador e a rede do órgão em que atua para acompanhar as palestras. Ciente de que as suas responsabilidades como estudante não podem comprometer a sua produtividade como servidor público, nos dias em que deixa de executar alguma tarefa em razão dos estudos, costuma levar para a sua casa, sem conhecimento da chefia do setor, os documentos de trabalho necessários para a conclusão das suas tarefas profissionais durante a noite, levando-os novamente à repartição no dia seguinte. Com base nessa situação hipotética e no Estatuto dos Funcionários Públicos Civis do Estado de São Paulo (Estatuto), é correto afirmar que:",
+      "alt": {
+        "A": "a conduta do servidor viola o Estatuto, o qual proíbe a participação em cursos não diretamente relacionados às atividades do cargo durante horário de expediente, salvo quando houver expressa autorização da chefia.",
+        "B": "Abelardo cumpre na íntegra seus deveres profissionais de diligência e de manter-se atualizado em relação aos conhecimentos necessários para a sua função.",
+        "C": "não há violação ao Estatuto por Abelardo levar documentos da repartição para sua casa a fim de concluir os trabalhos pendentes, mas há pelo fato de se utilizar de instrumentos da repartição para a realização de atividades acadêmicas.",
+        "D": "há, na conduta de Abelardo, violação da expressa proibição de retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição.",
+        "E": "como estudante regularmente matriculado em curso superior, Abelardo tem o direito de utilizar os recursos e materiais da sua repartição para a realização das suas atividades acadêmicas."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 242 II",
+        "L10261 242 VIII"
+      ],
+      "exp": "`Lei 10.261/68, art. 242, II`: é proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição**, e Abelardo levava documentos para casa sem conhecimento da chefia (D). (C) erra ao negar essa violação; (B) e (E) ignoram também a proibição de **empregar material do serviço público em serviço particular** (`art. 242, VIII`); (A) o Estatuto não traz a proibição de cursos nos termos descritos.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto não traz proibição de cursos nesses termos. A violação expressa está em **retirar documentos da repartição sem prévia permissão** da autoridade competente (`L10261 242 II`).",
+        "B": "Abelardo viola a proibição de **retirar, sem prévia permissão, documentos da repartição** (`L10261 242 II`) e a de **empregar material do serviço público em serviço particular** (`L10261 242 VIII`).",
+        "C": "Levar documentos para casa sem conhecimento da chefia é justamente o que o Estatuto proíbe: **retirar, sem prévia permissão da autoridade competente, qualquer documento** da repartição (`L10261 242 II`).",
+        "D": "É proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto** da repartição (`L10261 242 II`), e Abelardo levava documentos para casa sem conhecimento da chefia.",
+        "E": "Ser estudante não dá esse direito: o Estatuto proíbe **empregar material do serviço público em serviço particular** (`L10261 242 VIII`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#61",
+      "tipo": "me",
+      "numero": 61,
+      "enunciado": "Afrânio Barbosa é servidor de carreira de um determinado Tribunal de Justiça Estadual e recebe para si e para seus colegas de departamento presentes como relógios, joias e ingressos para shows e jogos esportivos, com o compromisso, nunca explícito, mas sempre identificável, de favorecer os presenteadores na distribuição dos processos protocolados. É correto afirmar, com base nessa situação hipotética e na Lei no 8.429/1992, que:",
+      "alt": {
+        "A": "Afrânio cometeu o crime de peculato, bem como o crime de advocacia administrativa, estando sujeito à pena de 4 (quatro) a 8 (oito) anos de reclusão, sem prejuízo da punição dos demais colegas de departamento na medida da sua culpabilidade.",
+        "B": "caso Afrânio apenas tivesse recebido os presentes para terceiros, não haveria, de sua parte, ato de improbidade, uma vez que se exige que o ato de favorecimento seja praticado pelo agente que recebeu os presentes.",
+        "C": "trata-se de ato de improbidade administrativa que importa em enriquecimento ilícito desde que fique demonstrado que Afrânio agiu com vontade livre e consciente de receber os presentes em troca de favorecer aos presenteadores.",
+        "D": "o fato de o compromisso de favorecer o presenteador não estar explícito na entrega dos presentes afasta a existência de dolo na conduta de Afrânio, bem como de seus colegas de departamento, inviabilizando a punição por ato de improbidade.",
+        "E": "Afrânio, por ser funcionário de carreira, apenas será penalizado por ato de improbidade, na situação descrita, se, no curso do processo administrativo disciplinar, houver a conclusão de que a ele deve ser aplicada a pena de demissão."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.improbidade.enriquecimento"
+      ],
+      "dispositivos": [
+        "L8429 9 I",
+        "L8429 1 §2º"
+      ],
+      "exp": "Receber, **para si ou para outrem**, presente de quem tenha interesse que possa ser atingido por ação ou omissão do agente é **enriquecimento ilícito** (`Lei 8.429/92, art. 9º, I`). Desde a Lei 14.230/21, exige **dolo**: vontade livre e consciente (`art. 1º, §2º`). Compromisso implícito não afasta o dolo (D); improbidade independe do resultado do PAD (E).",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A questão pede a análise pela Lei 8.429/92, que trata de **improbidade**, não de crimes: receber presentes de quem tem interesse em ação do agente é ato de **enriquecimento ilícito** (`L8429 9 I`).",
+        "B": "A lei pune quem recebe a vantagem **para si ou para outrem** (`L8429 9 I`); receber os presentes para terceiros também configura enriquecimento ilícito.",
+        "C": "Receber presente de quem tem interesse que possa ser atingido pela ação do agente é **enriquecimento ilícito** (`L8429 9 I`), e desde a Lei 14.230/21 exige-se **dolo**, a vontade livre e consciente (`L8429 1 §2º`).",
+        "D": "Compromisso implícito não afasta o **dolo**: basta a vontade livre e consciente de alcançar o resultado ilícito (`L8429 1 §2º`), e o recebimento de presentes para favorecer é enriquecimento ilícito (`L8429 9 I`).",
+        "E": "As sanções de improbidade aplicam-se **independentemente** das sanções administrativas (`L8429 12`); não dependem do resultado do processo disciplinar."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#62",
+      "tipo": "me",
+      "numero": 62,
+      "enunciado": "João da Silva foi nomeado para cargo público com exigência de escolaridade até o ensino médio, no âmbito do Poder Judiciário do Estado de São Paulo, e, junto aos documentos obrigatórios para a posse, verificou a necessidade de apresentação da sua declaração de imposto de renda. Na sua declaração consta como dependente uma filha que João teve fora do casamento e mantém em segredo há anos. Por essa razão, João gostaria de evitar a entrega da declaração do imposto de renda para a posse e posterior exercício do cargo. Considerando essa situação hipotética e o previsto no ordenamento jurídico brasileiro, é correto afirmar que:",
+      "alt": {
+        "A": "a exigência formulada pelo órgão para a posse é contrária ao direito à privacidade, à proteção da honra, bem como à proteção de dados pessoais e do sigilo fiscal e bancário garantidos pela Constituição Federal.",
+        "B": "a posse e o exercício do cargo público ficam condicionados à apresentação da declaração de imposto de renda, que tenha sido apresentada à Secretaria Especial da Receita Federal do Brasil, a fim de ser arquivada no serviço de pessoal.",
+        "C": "embora exija-se, em regra, a apresentação da declaração de imposto de renda, que tenha sido apresentada à Secretaria Especial da Receita Federal do Brasil, essa regra não se aplica aos servidores do Poder Judiciário em razão da separação de poderes.",
+        "D": "a posse em cargo público de nível superior fica condicionada à apresentação da declaração de imposto de renda, que tenha sido apresentada à Secretaria Especial da Receita Federal do Brasil, mas não a posse em cargo público de nível médio.",
+        "E": "para evitar a exposição do seu drama familiar, João poderia modificar a sua declaração de imposto de renda, apresentando, para posse, declaração que não contivesse a informação relativa aos recebimentos e pagamentos de sua filha."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.improbidade.sancoes-processo"
+      ],
+      "dispositivos": [
+        "L8429 13"
+      ],
+      "exp": "`Lei 8.429/92, art. 13`: a **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal. Vale para qualquer agente público, de qualquer nível e Poder.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A exigência é **legal**: a posse e o exercício do agente público ficam condicionados à apresentação da declaração de imposto de renda, arquivada no serviço de pessoal (`L8429 13`).",
+        "B": "A **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal (`L8429 13`).",
+        "C": "A regra vale para **qualquer agente público**, de qualquer Poder, inclusive o Judiciário (`L8429 13`); a separação de poderes não a afasta.",
+        "D": "A lei não distingue nível de escolaridade: a posse em **qualquer** cargo público depende da declaração de imposto de renda (`L8429 13`).",
+        "E": "Exige-se a declaração **que tenha sido apresentada à Receita Federal** (`L8429 13`); uma versão modificada para a posse não cumpre a exigência."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#63",
+      "tipo": "me",
+      "numero": 63,
+      "enunciado": "Josué, separado judicialmente de Marisa, desapareceu de seu domicílio sem deixar representante ou procurador para administrar seus bens. Sem haver qualquer notícia dele, o juiz, a requerimento de seu irmão, Pedro, declarou sua ausência e nomeou curador. Considerando que Josué não tem nenhum outro irmão, pais ou descendentes, é correto afirmar que",
+      "alt": {
+        "A": "Pedro, por ser o único irmão, deverá ser o curador nomeado.",
+        "B": "Marisa deverá ser a curadora de Josué, tendo em vista a subsistência da relação conjugal, apesar da separação.",
+        "C": "qualquer parente até o 3o grau por consanguinidade ou afinidade deverá ser nomeado, escolhendo-se o mais velho dentre eles.",
+        "D": "qualquer parente até o 4o grau, desde que por consanguinidade, deverá ser nomeado como curador de Josué.",
+        "E": "qualquer pessoa, parente ou não, poderá ser escolhida pelo juiz."
+      },
+      "gab": "E",
+      "temas": [
+        "civil.pessoas.ausencia"
+      ],
+      "dispositivos": [
+        "CC 25"
+      ],
+      "exp": "`CC 25`: o cônjuge é curador legítimo **se não separado judicialmente**; na falta, os pais e depois os descendentes. Josué estava separado e não tem pais nem descendentes: **compete ao juiz a escolha do curador** (`§3º`), parente ou não. Ser irmão não dá preferência legal.",
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O irmão não tem preferência legal. Na falta de cônjuge não separado, pais e descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "B": "O cônjuge só é curador legítimo **se não estiver separado judicialmente** (`CC 25`); Marisa, separada, perdeu essa posição.",
+        "C": "O Código não manda nomear parente até o 3º grau nem o mais velho. Sem cônjuge não separado, pais ou descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "D": "Não há ordem legal para colaterais até o 4º grau. Sem cônjuge não separado, pais ou descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "E": "Josué está separado judicialmente e não tem pais nem descendentes; assim, **compete ao juiz a escolha do curador** (`CC 25 §3º`), parente ou não."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#64",
+      "tipo": "me",
+      "numero": 64,
+      "enunciado": "Analise as situações hipotéticas acerca do domicílio necessário e assinale a alternativa correta.",
+      "alt": {
+        "A": "João, marítimo, tem como domicílio necessário o local onde o navio estiver ancorado.",
+        "B": "Juarez, servidor público, tem como domicílio necessário o lugar em que exercer suas funções, de forma permanentemente ou transitória, desde que regularmente alocado.",
+        "C": "Henrique, condenado à pena de prisão em regime fechado por cinco anos, tem como domicílio necessário o local onde transitou em julgado a sentença condenatória.",
+        "D": "Vitória, de dezessete anos, tem como domicílio necessário o do seu representante ou assistente.",
+        "E": "Laércio, militar da aeronáutica, tem como domicílio necessário o local onde servir."
+      },
+      "gab": "D",
+      "temas": [
+        "civil.domicilio"
+      ],
+      "dispositivos": [
+        "CC 76"
+      ],
+      "exp": "`CC 76, p.ú.`: o domicílio do **incapaz** é o do seu representante ou assistente. (A) marítimo: onde o navio estiver **matriculado**; (B) servidor: onde exerce **permanentemente** suas funções; (C) preso: onde **cumprir a sentença**; (E) militar da Aeronáutica: a **sede do comando** a que se encontrar imediatamente subordinado.",
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O domicílio do marítimo é onde o navio estiver **matriculado** (`CC 76 p.ú.`), não onde estiver ancorado.",
+        "B": "O domicílio do servidor público é o lugar em que exerce **permanentemente** suas funções (`CC 76 p.ú.`); funções transitórias não fixam domicílio necessário.",
+        "C": "O domicílio do preso é o lugar em que **cumprir a sentença** (`CC 76 p.ú.`), não onde ela transitou em julgado.",
+        "D": "Aos 17 anos, Vitória é incapaz, e o domicílio do **incapaz** é o do seu **representante ou assistente** (`CC 76 p.ú.`).",
+        "E": "O militar da Aeronáutica tem domicílio na **sede do comando a que se encontrar imediatamente subordinado** (`CC 76 p.ú.`); \"onde servir\" é a regra do militar do Exército."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#65",
+      "tipo": "me",
+      "numero": 65,
+      "enunciado": "Thais possui uma dívida considerável com o Banco $, garantida por um automóvel. Sabendo que o banco está prestes a executar a garantia, Thais decide vender o seu carro para sua melhor amiga, Marina, que, sabendo da situação de Thais, concorda em receber o veículo. Diante da situação hipotética, assinale a alternativa correta.",
+      "alt": {
+        "A": "O Banco $ poderá pedir a anulação da venda do veículo, uma vez que a insolvência de Thais era conhecida por Marina.",
+        "B": "O negócio jurídico é nulo, uma vez que Marina conhecia a situação de insolvência de Thais.",
+        "C": "Trata-se do instituto da fraude à execução, que pode envolver tanto a transmissão gratuita quando a onerosa do veículo.",
+        "D": "Para a configuração do defeito do negócio jurídico, é necessário que Marina efetivamente conheça da situação de insolvência de Thais, não havendo como dispensar a exigência de consilium fraudis sob o argumento de que a insolvência era notória.",
+        "E": "Não se configura um defeito do negócio jurídico, uma vez que, para que o fosse, seria necessário que a transmissão do veículo fosse gratuita."
+      },
+      "gab": "A",
+      "temas": [
+        "civil.fatos-negocios.defeitos"
+      ],
+      "dispositivos": [
+        "CC 159",
+        "CC 158"
+      ],
+      "exp": "Fraude contra credores em negócio **oneroso** (`CC 159`): anulável quando a insolvência for notória ou houver motivo para ser conhecida do outro contratante. Marina sabia: o banco pode pedir a **anulação**. (B) é anulável, não nulo; (C) fraude à execução é instituto processual diferente; (D) a notoriedade basta; (E) a fraude alcança negócios onerosos.",
+      "recursos": 39,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Em negócio **oneroso**, a fraude contra credores torna o contrato **anulável** quando a insolvência for notória ou o outro contratante tiver motivo para conhecê-la (`CC 159`); Marina sabia da situação.",
+        "B": "Fraude contra credores gera **anulabilidade**, não nulidade (`CC 171 II`); o banco pode pedir a anulação da venda (`CC 159`).",
+        "C": "O caso é de **fraude contra credores** (`CC 159`), defeito do negócio jurídico; fraude à execução é instituto processual distinto (`CPC 792`), que pressupõe processo em curso.",
+        "D": "O `CC 159` dispensa a prova do conhecimento efetivo: basta que a insolvência seja **notória** ou que haja **motivo para ser conhecida** do outro contratante.",
+        "E": "A fraude contra credores alcança também negócios **onerosos** (`CC 159`); a transmissão gratuita é apenas outra hipótese (`CC 158`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#66",
+      "tipo": "me",
+      "numero": 66,
+      "enunciado": "André e Gabriel são vizinhos e possuem uma longa disputa sobre a divisa entre seus terrenos. Em uma audiência de conciliação, com o objetivo de encerrar o litígio, Gabriel, motivado por um erro de fato, confessa que uma determinada árvore localizada na linha divisória pertence a André. Diante da situação hipotética, é correto afirmar que a confissão de Gabriel é",
+      "alt": {
+        "A": "inexistente.",
+        "B": "válida.",
+        "C": "nula.",
+        "D": "anulável.",
+        "E": "ineficaz."
+      },
+      "gab": "D",
+      "temas": [
+        "civil.prova"
+      ],
+      "dispositivos": [
+        "CC 214"
+      ],
+      "exp": "`CC 214`: a confissão é **irrevogável**, mas pode ser **anulada** se decorreu de **erro de fato** ou de coação.",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A confissão existe; o que ocorre é um vício: confissão decorrente de **erro de fato** pode ser **anulada** (`CC 214`).",
+        "B": "A confissão é irrevogável, mas, decorrendo de **erro de fato**, pode ser **anulada** (`CC 214`); não é simplesmente válida.",
+        "C": "O erro de fato não gera nulidade: a confissão é **anulável** (`CC 214`).",
+        "D": "A confissão é **irrevogável**, mas pode ser **anulada** se decorreu de **erro de fato** ou de coação (`CC 214`).",
+        "E": "O Código trata a confissão viciada por **erro de fato** como **anulável** (`CC 214`), não como ineficaz."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#67",
+      "tipo": "me",
+      "numero": 67,
+      "enunciado": "A rede de supermercados ABC é acionada em uma ação de indenização por danos morais por um cliente que alega ter sido humilhado por um dos funcionários da loja. A rede de supermercados ABC decide nomear Daniel, funcionário do estoque, como preposto para representá-la na audiência de conciliação. Diante da situação hipotética, assinale a alternativa correta.",
+      "alt": {
+        "A": "Daniel não poderia ter sido nomeado como preposto, uma vez que tal função deve ser exercida pelo gerente ou outro funcionário em cargo de direção ou chefia.",
+        "B": "Daniel pode negociar por conta própria ou de terceiro, desde que mediante autorização tácita ou expressa, podendo ser escrita ou verbal.",
+        "C": "Se Daniel se fizer substituir no desempenho da preposição, sem autorização escrita, responderá pessoalmente pelos atos do substituto e pelas obrigações por ele contraídas.",
+        "D": "Pelo simples fato de ter sido nomeado, Daniel pode negociar por conta própria ou de terceiro.",
+        "E": "Daniel pode se fazer substituir no desempenho da preposição, desde que mediante autorização escrita ou verbal."
+      },
+      "gab": "C",
+      "temas": [
+        "civil.empresario"
+      ],
+      "dispositivos": [
+        "CC 1169",
+        "CC 1170"
+      ],
+      "exp": "`CC 1.169`: o preposto não pode, **sem autorização escrita**, fazer-se substituir, sob pena de responder pessoalmente pelos atos do substituto e pelas obrigações por ele contraídas. `CC 1.170`: negociar por conta própria ou de terceiro exige **autorização expressa**.",
+      "recursos": 17,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As regras do Código Civil sobre prepostos (`CC 1169` e `CC 1170`) não exigem cargo de direção ou chefia; o gerente é apenas uma espécie de preposto (`CC 1172`).",
+        "B": "Para negociar por conta própria ou de terceiro, o preposto precisa de **autorização expressa** (`CC 1170`); autorização tácita não basta.",
+        "C": "O preposto não pode, **sem autorização escrita**, fazer-se substituir, sob pena de responder **pessoalmente** pelos atos do substituto e pelas obrigações por ele contraídas (`CC 1169`).",
+        "D": "A nomeação, por si só, não basta: negociar por conta própria ou de terceiro exige **autorização expressa** (`CC 1170`).",
+        "E": "A substituição exige **autorização escrita** (`CC 1169`); autorização verbal não basta."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#68",
+      "tipo": "me",
+      "numero": 68,
+      "enunciado": "Acerca do instituto do Penhor, assinale a alternativa correta.",
+      "alt": {
+        "A": "De acordo com o disposto no Código Civil, o penhor é um direito real que vincula qualquer coisa, móvel ou imóvel ao pagamento de uma dívida.",
+        "B": "No penhor pecuário, o devedor não poderá alienar os animais empenhados sem prévio consentimento, por escrito, do credor.",
+        "C": "No penhor mercantil, as coisas empenhadas ficam em poder do credor.",
+        "D": "O instrumento do penhor deverá ser levado a registro, pelo devedor, no Cartório de Títulos e Documentos.",
+        "E": "Podem ser objeto de penhor máquinas, aparelhos, materiais, instrumentos, instalados e em funcionamento, desde que com os seus respectivos acessórios."
+      },
+      "gab": "B",
+      "temas": [
+        "civil.direitos-reais.penhor"
+      ],
+      "dispositivos": [
+        "CC 1445",
+        "CC 1431",
+        "CC 1432",
+        "CC 1447"
+      ],
+      "exp": "`CC 1.445`: no penhor pecuário, o devedor não pode alienar os animais **sem prévio consentimento, por escrito, do credor**. (A) penhor recai sobre coisa **móvel** (`CC 1.431`); (C) no penhor mercantil as coisas ficam em poder do **devedor** (`CC 1.431, p.ú.`); (D) o registro pode ser feito por **qualquer dos contratantes** (`CC 1.432`); (E) máquinas podem ser empenhadas **com ou sem** os acessórios (`CC 1.447`).",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O penhor recai sobre coisa **móvel** (`CC 1431`), não sobre imóvel.",
+        "B": "No penhor pecuário, o devedor não pode alienar os animais **sem prévio consentimento, por escrito, do credor** (`CC 1445`).",
+        "C": "No penhor mercantil, as coisas empenhadas continuam em poder do **devedor** (`CC 1431 p.ú.`).",
+        "D": "O registro do instrumento pode ser feito por **qualquer dos contratantes** (`CC 1432`), não só pelo devedor.",
+        "E": "Máquinas, aparelhos, materiais e instrumentos instalados e em funcionamento podem ser empenhados **com ou sem** os acessórios (`CC 1447`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#69",
+      "tipo": "me",
+      "numero": 69,
+      "enunciado": "Assinale a alternativa que corresponde a um caso em que a pessoa será posta em tutela.",
+      "alt": {
+        "A": "Maria sofreu um acidente vascular cerebral (AVC) que a deixou com sequelas neurológicas significativas. Em decorrência do AVC, Maria perdeu a capacidade de se comunicar verbalmente e apresenta dificuldades motoras que limitam seus movimentos. Os médicos afirmam que é improvável que ela recupere totalmente a capacidade de expressar suas vontades, fazendo com que Maria seja posta em tutela.",
+        "B": "Catarina herdou um considerável patrimônio de seus pais. Desde então, tem demonstrado um padrão de gastos excessivos e impulsivos, adquirindo bens de luxo e fazendo viagens frequentes. Apesar dos alertas de amigos e familiares, Catarina continua com seus gastos descontrolados, colocando em risco seu patrimônio, fazendo com que Catarina seja posta em tutela.",
+        "C": "João é dependente de álcool há mais de 15 anos. O consumo excessivo de bebidas alcoólicas tornou-se um problema crônico, afetando significativamente sua vida. Nas últimas semanas, João tem apresentado comportamentos cada vez mais agressivos, colocando em risco tanto sua própria segurança quanto a de seus familiares, fazendo com que João seja posto em tutela.",
+        "D": "Felipe possui uma deficiência mental grave. Apesar de sua inteligência e capacidade de aprender, apresenta dificuldades em diversas áreas da vida, como a compreensão de conceitos abstratos, a resolução de problemas complexos e a interação social. Em razão dessas limitações, Felipe deverá ser posto em tutela.",
+        "E": "Ana e Pedro, pais de Miguel, de 10 anos, desapareceram do seu domicílio sem deles haver notícia, sendo declarada judicialmente a ausência de ambos, o que pode fazer com que Miguel seja posto em tutela."
+      },
+      "gab": "E",
+      "temas": [
+        "civil.familia"
+      ],
+      "dispositivos": [
+        "CC 1728 I"
+      ],
+      "exp": "`CC 1.728, I`: os filhos menores são postos em tutela com o falecimento dos pais ou **sendo estes julgados ausentes**. Os demais casos são de **curatela** (adultos) ou nem isso: deficiência, por si só, não afeta a capacidade civil.",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Tutela é para **filhos menores** (`CC 1728`). Pessoa que não pode exprimir sua vontade fica sujeita a **curatela** (`CC 1767 I`).",
+        "B": "Tutela é para **filhos menores** (`CC 1728`). O pródigo fica sujeito a **curatela** (`CC 1767 V`).",
+        "C": "Tutela é para **filhos menores** (`CC 1728`). O ébrio habitual fica sujeito a **curatela** (`CC 1767 III`).",
+        "D": "Tutela é para **filhos menores** (`CC 1728`), e a deficiência, por si só, não afeta a capacidade civil (`L13146 6`).",
+        "E": "Os filhos menores são postos em tutela com o falecimento dos pais ou **sendo estes julgados ausentes** (`CC 1728 I`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#70",
+      "tipo": "me",
+      "numero": 70,
+      "enunciado": "Ulisses, viúvo, faleceu deixando como um único bem um apartamento no valor de R$ 300.000,00 (trezentos mil reais). Seus dois filhos, Caio e Thiago, são os únicos herdeiros. Durante o inventário, antes de realizada a partilha, foi constatada uma dívida de R$ 1.000.000,00 (um milhão de reais) em nome de Ulisses, referente a um empréstimo bancário por ele realizado pouco antes de sua morte. Considerando a situação hipotética, na qual ainda não foi realizada a partilha, assinale a alternativa correta.",
+      "alt": {
+        "A": "Como ainda não foi realizada a partilha, o credor deverá aguardar a partilha dos bens para aí então executar Caio e Thiago, na proporção que couber a cada um.",
+        "B": "Só respondem Caio e Thiago, cada qual em proporção da parte que na herança lhe couber.",
+        "C": "Se for requerido o pagamento da dívida no inventário e não houver impugnação, o juiz mandará reservar, em poder do inventariante, bens suficientes para solução do débito, sobre os quais venha a recair oportunamente a execução.",
+        "D": "O juiz não poderá mandar reservar bens suficientes para a solução do débito, ficando tal conduta a critério do inventariante.",
+        "E": "Caso o juiz reserve, em poder do inventariante, bens suficientes para solução do débito, o credor será obrigado a iniciar a ação de cobrança no prazo de trinta dias, sob pena de se tornar sem nenhum efeito a providência indicada."
+      },
+      "gab": "E",
+      "temas": [
+        "civil.sucessoes"
+      ],
+      "dispositivos": [
+        "CC 1997"
+      ],
+      "exp": "`CC 1.997, §2º`: reservados bens pelo juiz, o credor deve iniciar a ação de cobrança em **30 dias**, sob pena de a providência ficar sem efeito. (C) a reserva se dá quando **houver impugnação** não fundada em pagamento (`§1º`); (A) e (B) antes da partilha responde **a herança**, e não os herdeiros (`caput`).",
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Antes da partilha, quem responde pelas dívidas do falecido é **a herança** (`CC 1997`); o credor não precisa aguardar a partilha para cobrar.",
+        "B": "Antes da partilha responde **a herança** (`CC 1997`); só depois dela cada herdeiro responde na proporção da parte que lhe coube.",
+        "C": "A reserva de bens ocorre quando **houver impugnação** que não se funde em pagamento (`CC 1997 §1º`), e não quando o pedido não é impugnado.",
+        "D": "Havendo impugnação não fundada em pagamento, **o juiz** manda reservar bens suficientes em poder do inventariante (`CC 1997 §1º`); não fica a critério do inventariante.",
+        "E": "Reservados bens pelo juiz, o credor deve iniciar a ação de cobrança em **30 dias**, sob pena de a providência ficar sem efeito (`CC 1997 §2º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#71",
+      "tipo": "me",
+      "numero": 71,
+      "enunciado": "Em uma execução fiscal, por conta do despacho inicial do processo, houve a expedição de um mandado judicial, regularmente determinado por juiz competente, que foi distribuído a Paulo Roberto, que é o Oficial de Justiça encarregado do seu cumprimento. Nessa situação hipotética, conforme dispõe a Lei no 6.830/80, é correto afirmar que Paulo Roberto",
+      "alt": {
+        "A": "deverá citar o executado sobre a cobrança do valor que consta da Certidão da Dívida Ativa, a qual poderá ser emendada ou substituída até a decisão de primeira instância, assegurada ao executado a devolução do prazo para embargos.",
+        "B": "recebeu ordem judicial em suas mãos para citar o devedor e promover o arresto de bens se o executado se recusar a pagar a dívida, ou penhorar bens, na hipótese de o devedor não garantir a execução.",
+        "C": "deverá promover a citação do devedor, efetuar o arresto ou a penhora de bens e devolver o mandado ao cartório da Vara para que seja nomeado o perito judicial que fará a avaliação dos bens penhorados ou arrestados.",
+        "D": "promoverá a citação do executado, o qual deverá, no prazo de 10 (dez) dias, pagar a dívida com juros e multa de mora e encargos indicados na Certidão da Dívida Ativa, ou garantir a execução.",
+        "E": "cumprirá o mandado e efetuará a penhora ou arresto de bens, devendo tentar a constrição, primeiramente, sobre dinheiro do devedor, não podendo, entretanto, penhorar ou arrestar, entre outros bens, plantações ou edifícios em construção."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.execucao-fiscal.cda",
+        "tributario.execucao-fiscal.citacao"
+      ],
+      "dispositivos": [
+        "L6830 2 §8º",
+        "L6830 7",
+        "L6830 8",
+        "L6830 11",
+        "L6830 13"
+      ],
+      "exp": "(A) reproduz o `art. 2º, §8º`. (B) o arresto é para o executado que **não tem domicílio ou dele se oculta** (`art. 7º, III`); (C) a avaliação é feita **pelo próprio oficial** no termo ou auto de penhora (`art. 13`); (D) o prazo é de **5 dias** (`art. 8º`); (E) plantações e edifícios em construção podem ser penhorados excepcionalmente (`art. 11, §1º`).",
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Certidão da Dívida Ativa pode ser **emendada ou substituída até a decisão de primeira instância**, assegurada ao executado a devolução do prazo para embargos (`L6830 2 §8º`).",
+        "B": "O arresto é para o executado que **não tiver domicílio ou dele se ocultar** (`L6830 7`), não para quem se recusa a pagar.",
+        "C": "A avaliação é feita **pelo próprio oficial de justiça**, no termo ou auto de penhora (`L6830 13`); não se devolve o mandado para nomear perito.",
+        "D": "O prazo para pagar ou garantir a execução é de **5 dias** (`L6830 8`), não de 10.",
+        "E": "Plantações e edifícios em construção podem ser penhorados **excepcionalmente** (`L6830 11 §1º`); não há a vedação afirmada."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#72",
+      "tipo": "me",
+      "numero": 72,
+      "enunciado": "Assinale a alternativa que está em conformidade com a Resolução no 354/2020 do Conselho Nacional de Justiça.",
+      "alt": {
+        "A": "Aquele que requerer a citação ou intimação deverá fornecer, além da qualificação, os dados necessários para comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail, salvo impossibilidade de fazê-lo.",
+        "B": "Nos casos em que cabível a citação e a intimação pelo correio, por oficial de justiça ou pelo escrivão ou chefe de secretaria, será vedado o seu cumprimento por meio eletrônico.",
+        "C": "O cumprimento, em geral, das citações e das intimações por meio eletrônico, havendo concordância das partes, será realizado pela secretaria do juízo ou, quando se destinar a menor de idade, será feito pelos oficiais de justiça.",
+        "D": "As partes do processo serão intimadas a informar, no prazo máximo de 10 (dez) dias da distribuição do processo, seus endereços eletrônicos para receber notificações e intimações, devendo atualizá-los sempre que a Secretaria da Vara os instar a fazê-lo.",
+        "E": "Será vedado o cumprimento eletrônico de atos processuais por meio de mensagens públicas, inclusive para o caso de parte em local incerto e não sabido ou de ocultação."
+      },
+      "gab": "A",
+      "temas": [
+        "legislacao-especial.atos-digitais",
+        "processo-civil.comunicacao.eletronico"
+      ],
+      "dispositivos": [
+        "CNJ-R354 8",
+        "CNJ-R354 9",
+        "CNJ-R354 9 p.ú.",
+        "CNJ-R354 10 §1º",
+        "CNJ-R354 10 §2º"
+      ],
+      "exp": "O `CNJ-R354 9 p.ú.` manda quem requer a citação ou intimação fornecer, além dos dados de qualificação, os dados para **comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail**, salvo impossibilidade (A). B erra porque o ato **poderá** ser cumprido por meio eletrônico (`CNJ-R354 8`). C erra porque o cumprimento eletrônico cabe **à secretaria do juízo ou aos oficiais de justiça** (`CNJ-R354 10 §1º`), sem exigir concordância das partes nem reservar menores aos oficiais. D erra porque os endereços são informados **na primeira intervenção nos autos** e mantidos atualizados durante todo o processo (`CNJ-R354 9`); E erra porque a vedação às mensagens públicas tem exceção: **salvo ocultação** (`CNJ-R354 10 §2º`).",
+      "recursos": 1,
+      "observacoes": [
+        "O CNJ-R354 10 §2º só excetua a ocultação; a menção a 'local incerto e não sabido' na alternativa E não está no texto da Resolução."
+      ],
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Quem requer a citação ou intimação deve fornecer, além da qualificação, os dados para **comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail**, salvo impossibilidade (`CNJ-R354 9 p.ú.`).",
+        "B": "Nesses casos, o ato **poderá** ser cumprido por meio eletrônico (`CNJ-R354 8`); não há vedação.",
+        "C": "O cumprimento eletrônico cabe **à secretaria do juízo ou aos oficiais de justiça** (`CNJ-R354 10 §1º`), sem exigir concordância das partes nem reservar aos oficiais os atos destinados a menores.",
+        "D": "Os endereços eletrônicos são informados **na primeira intervenção nos autos** e mantidos atualizados durante todo o processo (`CNJ-R354 9`); não há prazo de 10 dias da distribuição.",
+        "E": "A vedação às mensagens públicas tem exceção: **salvo ocultação** (`CNJ-R354 10 §2º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#73",
+      "tipo": "me",
+      "numero": 73,
+      "enunciado": "A empresa Path Ltda, que é parte em uma ação declaratória incidental, está requerendo, ao juiz do processo, que o recolhimento da taxa judiciária seja diferido para depois da satisfação da execução, alegando a momentânea impossibilidade financeira do seu recolhimento. Nessa situação hipotética, conforme estabelece a Lei no 11.608, de 29/12/2003, é correto afirmar que o pedido da referida empresa",
+      "alt": {
+        "A": "não poderá ser deferido, ainda que comprovada a impossibilidade financeira da empresa, uma vez que esse benefício é concedido apenas às pessoas físicas.",
+        "B": "não poderá ser deferido, ainda que comprovada a impossibilidade financeira da empresa, uma vez que esse benefício não se aplica a esse tipo de ação judicial.",
+        "C": "poderá ser deferido se comprovada, por meio idôneo, a sua impossibilidade financeira para o recolhimento, ainda que parcial.",
+        "D": "somente poderá ser deferido se a empresa não se utilizou desse benefício nos últimos cinco anos em qualquer tipo de ação judicial.",
+        "E": "poderá ser deferido, nesse tipo de ação judicial, a critério do juiz, independentemente da comprovação da impossibilidade financeira da empresa."
+      },
+      "gab": "C",
+      "temas": [
+        "legislacao-especial.custas"
+      ],
+      "dispositivos": [
+        "L11608 5 III",
+        "L11608 5 p.ú."
+      ],
+      "exp": "`Lei 11.608/03, art. 5º, III`: na **declaratória incidental**, o recolhimento da taxa judiciária é **diferido** para depois da satisfação da execução quando comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (C). O `p.ú.` aplica a regra a **pessoas físicas e jurídicas**, o que afasta (A); (B) erra quanto ao tipo de ação, (E) dispensa a comprovação exigida e (D) cria requisito inexistente.",
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O diferimento aplica-se a **pessoas físicas e jurídicas** (`L11608 5 p.ú.`); a empresa pode obtê-lo se comprovar a impossibilidade financeira.",
+        "B": "A **ação declaratória incidental** está entre as hipóteses de diferimento da taxa judiciária para depois da satisfação da execução (`L11608 5 III`).",
+        "C": "Na **declaratória incidental**, a taxa é **diferida** para depois da satisfação da execução se comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (`L11608 5 III`), regra que vale para pessoas jurídicas (`L11608 5 p.ú.`).",
+        "D": "A lei não impõe carência de cinco anos. Basta comprovar, por meio idôneo, a **momentânea impossibilidade financeira** (`L11608 5 III`).",
+        "E": "O diferimento depende de **comprovação, por meio idôneo**, da momentânea impossibilidade financeira (`L11608 5 III`); não basta o critério do juiz."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#74",
+      "tipo": "me",
+      "numero": 74,
+      "enunciado": "Na hipótese de o oficial de justiça necessitar de arrombamento ou de reforço policial para dar cumprimento a um mandado judicial, as Normas Judiciais da Corregedoria Geral da Justiça estabelecem que ele deverá",
+      "alt": {
+        "A": "efetuar o arrombamento diretamente ou, se necessário, requerer ao juízo o reforço policial, o qual, se deferido, será cumprido pelo Batalhão da Polícia Militar.",
+        "B": "apresentar, ao juízo, requerimento em modelo padronizado, o qual, se deferido, servirá de requisição da força policial e cópia dele será entranhada aos autos.",
+        "C": "proceder à devolução obrigatória do mandado e apresentar ao juízo requerimento em modelo padronizado.",
+        "D": "requerer ao juízo a referida providência, sem necessidade de modelo padronizado, o qual, se deferido, servirá de requisição da força policial.",
+        "E": "devolver o mandado judicial para requerer a ordem de arrombamento, mas poderá solicitar o reforço policial diretamente ao Batalhão da Polícia Militar."
+      },
+      "gab": "B",
+      "temas": [
+        "legislacao-especial.nscgj.oficiais",
+        "processo-civil.execucao.penhora.arrombamento"
+      ],
+      "dispositivos": [
+        "NSCGJ 196 XX",
+        "NSCGJ 1024 §2º",
+        "NSCGJ 1024 §3º"
+      ],
+      "exp": "Pelo `NSCGJ 196 XX`, constatada a necessidade de arrombamento e reforço policial, o oficial, **independentemente da devolução do mandado**, apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, com cópia entranhada aos autos (B); o `NSCGJ 1024 §§2º e 3º` repete a regra no Cap. VII. Por isso erram (C) e (E), que exigem devolver o mandado, (D), que dispensa o modelo padronizado, e (A) e (E), que admitem arrombamento ou pedido de reforço feitos diretamente pelo oficial.",
+      "observacoes": [
+        "Art. 196 XX está no Cap. IV (ofícios cíveis, atos ordinatórios) e é o que o edital 2026 cita ('196, XX'); o art. 1.024 §§2º-3º (Cap. VII, Prov. CG 27/2023) tem regra equivalente (antes estava no art. 1.079, revogado). Redação igual em 12/2024 e em 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O oficial não arromba diretamente nem aciona a polícia: apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **serve de requisição da força policial** (`NSCGJ 196 XX`).",
+        "B": "Constatada a necessidade, o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, com cópia entranhada aos autos (`NSCGJ 196 XX`; `NSCGJ 1024 §2º` e `§3º`).",
+        "C": "O requerimento padronizado é apresentado **independentemente da devolução do mandado** (`NSCGJ 196 XX`); a devolução não é obrigatória.",
+        "D": "As Normas exigem **requerimento em modelo padronizado**, que, se deferido, serve de requisição da força policial (`NSCGJ 196 XX`).",
+        "E": "Não é preciso devolver o mandado, e o reforço não é pedido diretamente à polícia: o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, serve de requisição (`NSCGJ 196 XX`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#75",
+      "tipo": "me",
+      "numero": 75,
+      "enunciado": "Conforme dispõem as Normas da Corregedoria Geral da Justiça, a respeito do sistema de carga única de mandados para os oficiais de justiça, é correto afirmar que:",
+      "alt": {
+        "A": "pode ser adotado para os mandados urgentes, com a autorização e mediante controle do Juiz Corregedor Permanente, devendo ser preparada a carga única no final do expediente para cumprimento no dia seguinte.",
+        "B": "pode ser adotado por autorização e mediante controle do Juiz Corregedor Permanente, a cada quinze dias, salvo os mandados urgentes, devidamente justificados.",
+        "C": "é expressamente vedado, devendo ser responsabilizado o Escrivão que autorizar a carga única.",
+        "D": "salvo os mandados urgentes, em razão do volume do expediente, pode ser adotado por autorização e mediante controle do Juiz Corregedor Permanente, mensalmente.",
+        "E": "somente pode ser adotado, em razão do volume do expediente, incluindo os mandados urgentes, por autorização e mediante controle do Juiz Corregedor Permanente, mensalmente."
+      },
+      "gab": "D",
+      "temas": [
+        "legislacao-especial.nscgj.oficiais"
+      ],
+      "dispositivos": [
+        "NSCGJ 310 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 310 §4º`, **ressalvados os mandados urgentes**, em razão do volume do expediente e por autorização e controle do **Juiz Corregedor Permanente**, pode-se adotar o sistema de **carga única, mensalmente** (D). (A) e (E) incluem os urgentes, justamente os excluídos; (B) fala em carga a cada quinze dias; (C) afirma uma vedação que as Normas não trazem.",
+      "recursos": 3,
+      "observacoes": [
+        "Art. 310 está no Cap. IV, Seção VI (Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; §4º do Prov. CGJ 11/2002, sem alteração até 22/10/2026."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os mandados urgentes são justamente **ressalvados** do sistema de carga única, que é **mensal** (`NSCGJ 310 §4º`).",
+        "B": "A carga única é **mensal**, não quinzenal (`NSCGJ 310 §4º`).",
+        "C": "As Normas não vedam a carga única: **ressalvados os mandados urgentes**, ela pode ser adotada mensalmente, com autorização e controle do Juiz Corregedor Permanente (`NSCGJ 310 §4º`).",
+        "D": "**Ressalvados os mandados urgentes**, em razão do volume do expediente e com autorização e controle do **Juiz Corregedor Permanente**, pode-se adotar a carga única **mensalmente** (`NSCGJ 310 §4º`).",
+        "E": "A carga única **exclui os mandados urgentes** (`NSCGJ 310 §4º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#76",
+      "tipo": "me",
+      "numero": 76,
+      "enunciado": "Na hipótese de o advogado da parte, regularmente constituído no processo judicial, requerer o desentranhamento e aditamento de um mandado, as Normas da Corregedoria Geral da Justiça rezam que",
+      "alt": {
+        "A": "ficará a critério do juiz deferir o pedido ou expedir novo mandado, ficando a cargo do cartório fornecer as peças necessárias para a devida instrução.",
+        "B": "deverá o cartório solicitar à parte que forneça as peças necessárias para a devida instrução do aditamento, dispensada a apreciação judicial.",
+        "C": "somente será deferido o pedido se não for possível a expedição de um novo mandado, devendo a parte, em qualquer caso, recolher as custas processuais devidas.",
+        "D": "ficará a critério do Escrivão decidir qual o procedimento a seguir, se adita o atual mandado ou se expede um novo mandado, com base no interesse do serviço público.",
+        "E": "poderá ser dispensado, a critério do juiz, expedindo-se novo mandado, fornecendo, a parte, as peças necessárias."
+      },
+      "gab": "E",
+      "temas": [
+        "legislacao-especial.nscgj.oficiais",
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 315 §2º"
+      ],
+      "exp": "Pelo `NSCGJ 315 §2º`, o desentranhamento e aditamento de mandado **poderá ser dispensado, a critério do juiz**, expedindo-se **novo mandado**, e é **a parte** quem fornece as peças necessárias (E). (A) põe as peças a cargo do cartório; (B) dispensa a apreciação judicial; (C) cria condição e custas que a norma não prevê; (D) transfere ao escrivão uma decisão que é do **juiz**.",
+      "recursos": 3,
+      "observacoes": [
+        "Art. 315 está no Cap. IV, Seção VI (Execuções Fiscais da Capital); redação sem alteração até 22/10/2026. No Cap. VII, o art. 1.016 trata do aditamento em geral (só enquanto o mandado está com o oficial)."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Expedido novo mandado, é **a parte** quem fornece as peças necessárias (`NSCGJ 315 §2º`), não o cartório.",
+        "B": "A dispensa do desentranhamento e aditamento depende do **critério do juiz** (`NSCGJ 315 §2º`); não há dispensa da apreciação judicial.",
+        "C": "A norma não condiciona o pedido à impossibilidade de novo mandado nem trata de custas: o aditamento **pode ser dispensado, a critério do juiz**, expedindo-se novo mandado (`NSCGJ 315 §2º`).",
+        "D": "A escolha é do **juiz**, não do escrivão: o desentranhamento e aditamento pode ser dispensado **a critério do juiz** (`NSCGJ 315 §2º`).",
+        "E": "O desentranhamento e aditamento **poderá ser dispensado, a critério do juiz**, expedindo-se **novo mandado**, com as peças fornecidas **pela parte** (`NSCGJ 315 §2º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#77",
+      "tipo": "me",
+      "numero": 77,
+      "enunciado": "Considerando o disposto nas Normas da Corregedoria Geral da Justiça, assinale a alternativa correta.",
+      "alt": {
+        "A": "Quando o réu ou apenado comparecer em audiência, as intimações em relação aos atos nela praticados não poderão ser realizadas na própria audiência, sob pena de nulidade, devendo ser cumpridas, em até 48 horas, pelo oficial de justiça.",
+        "B": "Os réus ou condenados presos que estiverem internados em estabelecimentos situados fora da comarca, mas dentro do Estado de São Paulo, serão intimados por meio de carta rogatória.",
+        "C": "Os mandados de intimação de vítimas ou testemunhas, quando essas derem conta de coação ou grave ameaça, após deferimento do juiz, serão elaborados em separado, individualizados.",
+        "D": "Nas intimações de sentença de réu ou condenado que não esteja preso, o oficial de justiça levará o impresso contendo termo de recurso e de renúncia ao direito de recorrer e consultará o réu sobre sua intenção, colhendo a assinatura no espaço próprio.",
+        "E": "Quando da intimação a ser efetivada por oficial de justiça, se o réu não souber escrever, será colhida sua impressão digital e assinará a rogo uma terceira pessoa, devendo o oficial de justiça assinar como testemunha da prática do ato."
+      },
+      "gab": "C",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio",
+        "processo-penal.comunicacao.intimacao"
+      ],
+      "dispositivos": [
+        "NSCGJ 440",
+        "NSCGJ 439 §1º",
+        "NSCGJ 439 §2º",
+        "NSCGJ 439 §3º",
+        "NSCGJ 439 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 440`, os mandados de intimação de vítimas ou testemunhas que derem conta de **coação ou grave ameaça**, após deferimento do juiz, são elaborados **em separado, individualizados** (C). (A) contraria o `NSCGJ 439 §4º`: comparecendo o réu à audiência, as intimações são feitas **na própria audiência**; (B) contraria o §3º, que prevê **carta precatória**, não rogatória. (D) erra porque o termo de recurso e renúncia do §1º é levado ao réu **preso**; (E) erra porque, pelo §2º, além da assinatura a rogo exigem-se **2 testemunhas**, sem que o oficial figure como testemunha.",
+      "recursos": 1,
+      "observacoes": [
+        "Arts. 439 e 440 estão no Cap. IV, Seção XIV (intimações, ofícios criminais). O caput do art. 439 foi alterado pelo Prov. CG 33/2024 (ressalva do cumprimento remoto, art. 1.029); os §§1º a 4º e o art. 440 (Prov. CGJ 32/2000) não mudaram."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Comparecendo o réu ou apenado à audiência, as intimações dos atos nela praticados são feitas **na própria audiência** (`NSCGJ 439 §4º`).",
+        "B": "Presos em estabelecimentos fora da comarca são intimados por **carta precatória**, não rogatória (`NSCGJ 439 §3º`).",
+        "C": "Quando vítimas ou testemunhas derem conta de **coação ou grave ameaça**, os mandados de intimação, após deferimento do juiz, são elaborados **em separado, individualizados** (`NSCGJ 440`).",
+        "D": "O impresso com termo de recurso e de renúncia é levado ao réu **preso** (`NSCGJ 439 §1º`), não ao réu solto.",
+        "E": "Se o réu não souber escrever, colhe-se a impressão digital e assina a rogo terceira pessoa, com **duas testemunhas** (`NSCGJ 439 §2º`); a regra não põe o oficial de justiça como testemunha."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#78",
+      "tipo": "me",
+      "numero": 78,
+      "enunciado": "Considerando o disposto nas Normas Judiciais da Corregedoria Geral da Justiça, assinale a alternativa correta a respeito dos oficiais de justiça.",
+      "alt": {
+        "A": "O Oficial de Justiça cumprirá os mandados recebidos até cinco dias antes de seu afastamento e só poderá entrar em férias sem nenhum mandado em mãos, dando baixa para redistribuição dos mandados não cumpridos por motivo de força maior.",
+        "B": "Na hipótese de cancelamento das férias ou afastamento, o Oficial de Justiça deverá cumprir dias adicionais de plantão equivalentes aos dias em que ficou sem distribuição.",
+        "C": "É um dos deveres de o oficial de justiça executar as ordens dos Juízes a que estiver subordinado, auxiliar o Juiz na manutenção da ordem e no controle do acesso à sala de audiências em sistema de rodízio em todos os processos da Vara em que estiver lotado.",
+        "D": "O Oficial de Justiça cumprirá plantão regular, destinado ao cumprimento de medidas ordinárias e não urgentes, em dias que houver expediente forense e plantão de Júri reservado ao acompanhamento dos réus e testemunhas.",
+        "E": "Os números de telefone celular dos Oficiais de Justiça constarão em rol e ficarão à disposição para consulta no Ofício de Justiça, sendo vedado ao Oficial de Justiça recusar o repasse do número de seu telefone celular a terceiros."
+      },
+      "gab": "B",
+      "temas": [
+        "legislacao-especial.nscgj.oficiais"
+      ],
+      "dispositivos": [
+        "NSCGJ 999 §5º",
+        "NSCGJ 999 §1º",
+        "NSCGJ 999 §2º",
+        "NSCGJ 997 I",
+        "NSCGJ 998 I",
+        "NSCGJ 998 II",
+        "NSCGJ 998 §5º",
+        "NSCGJ 997 §3º",
+        "NSCGJ 997 §4º"
+      ],
+      "exp": "Pelo `NSCGJ 999 §5º`, cancelados férias ou afastamento, o oficial deve cumprir **dias adicionais de plantão equivalentes aos dias em que ficou sem distribuição** (B). (A) erra porque, pelos §§1º e 2º, o oficial não recebe mandados nos **15 dias** anteriores às férias e entra em férias sem mandados, **vedada a baixa** para redistribuição. (C) contraria o `NSCGJ 998 §5º`, que **veda** o rodízio no controle de acesso à sala de audiências; (D) erra porque o plantão regular do `NSCGJ 998 I` é para **medidas urgentes**; (E) contraria o `NSCGJ 997 §4º`, que permite ao oficial **recusar** o repasse do celular, comparecendo então diariamente ao Fórum.",
+      "recursos": 7,
+      "observacoes": [
+        "Arts. 997-999 (Cap. VII) na redação do Prov. CG 27/2023, vigente na prova (15/12/2024); só o art. 997 IX foi alterado depois (Prov. CG 36/2024), sem reflexo na questão."
+      ],
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O oficial não recebe mandados nos **15 dias** anteriores às férias, não 5, e entra em férias sem mandados, **vedada a baixa** para redistribuição (`NSCGJ 999 §1º` e `§2º`).",
+        "B": "Cancelados férias ou afastamento, o oficial deve cumprir **dias adicionais de plantão** equivalentes aos dias em que ficou sem distribuição (`NSCGJ 999 §5º`).",
+        "C": "As Normas **vedam** o rodízio no controle de acesso à sala de audiências (`NSCGJ 998 §5º`).",
+        "D": "O plantão regular destina-se ao cumprimento de **medidas urgentes** (`NSCGJ 998 I`), não de medidas ordinárias.",
+        "E": "O oficial **pode recusar** o repasse do número do celular, caso em que deve comparecer diariamente ao Fórum (`NSCGJ 997 §4º`)."
+      }
+    }
+  ]
+}

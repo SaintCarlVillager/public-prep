@@ -1,0 +1,356 @@
+{
+  "prova": "fcc/trf3/analista-judiciario-area-judiciaria/2019",
+  "textos": {
+    "T1": {
+      "titulo": "[Como se estrutura uma sociedade?]",
+      "texto": "A pergunta formulada acima é uma constância da história social. Alguns antropólogos têm afirmado que a estrutura social é a rede de todas as relações de pessoa-a-pessoa, numa dada sociedade. Mas tal definição é por demais ampla. Não estabelece distinção entre os elementos efêmeros e os mais persistentes na atividade social, e torna quase impossível distinguir a noção de estrutura de uma sociedade da totalidade da própria sociedade.\n\nNo extremo oposto, está a noção de estrutura social compreendendo, somente, as relações entre os grupos principais na sociedade, que persistem por muitas gerações, mas exclui outros como a família, que se dissolve de uma geração para outra. Essa definição é limitada demais.\n\nUma terceira noção de estrutura social enfatiza não tanto as relações reais entre pessoas ou grupos, mas as relações esperadas ou mesmo as relações ideais. De acordo com esse ponto de vista, o que realmente dá à sociedade sua forma e permite a seus membros exercerem suas atividades são as expectativas ou mesmo as crenças idealizadas do que está feito, ou do que deverá ser feito pelos outros membros. Não falta quem veja tal formulação como bastante insatisfatória.\n\nEm vez de respostas prontas à pergunta aqui tratada, será preciso sempre reconhecer que a validade de qualquer uma delas estará presa à validação do critério que a sustenta.",
+      "fonte": "(Adaptado de: FIRTH, Raymond. In: VV.AA. **Homem e sociedade**. Trad. Amadeu José Duarte Lanna. São Paulo: Nacional, 1975, p. 35-36)"
+    },
+    "T2": {
+      "titulo": "[Gravado na pele]",
+      "texto": "Dizem que a tatuagem data do paleolítico, quando era usada por povos nativos da Ásia. Além da beleza das formas e cores, há algo de simbólico nessas inscrições corporais. Os índios pintam o corpo em cerimônias, festas e rituais de guerra. Os marinheiros, cujas pátrias são os portos e os oceanos, ostentam em sua pele símbolos que evocam a breve permanência em terra firme e a longa travessia marítima: âncoras, ilhas, mapas, peixes, pássaros, bússolas.\n\nAntes de ser uma febre no Brasil, a tatuagem inspirou uma música de Chico Buarque e Ruy Guerra. **Quero ficar no teu corpo feito tatuagem**, diz a letra dessa belíssima canção.\n\nPara um observador parado à beira-mar, um observador que teme o sol forte e protege a cabeça com um chapéu, cada tatuagem é uma descoberta, uma viagem do olhar. Jovens e velhos exibem tatuagens; uso o verbo exibir porque talvez haja uma ponta de exibicionismo nessa arte antiga de fazer da pele uma pintura para toda a vida.\n\nNuma única manhã ensolarada, sob meu chapéu, vi tatuagens de vários tipos e tamanhos, li nomes próprios, adjetivos, bilhetes, e até mesmo uma mensagem cifrada, cuja revelação será sempre adiada: **Amanhã saberás o segredo...**",
+      "fonte": "(Adaptado de: HATOUM, Milton. **Um solitário à espreita**. São Paulo: Companhia das Letras, 2013, p. 122)"
+    }
+  },
+  "questoes": [
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#1",
+      "tipo": "me",
+      "numero": 1,
+      "texto": "T1",
+      "enunciado": "Deve-se entender da leitura do texto que, ao se considerar a pergunta formulada no título,",
+      "alt": {
+        "A": "a definição dada no primeiro parágrafo não satisfaz porque, em sua amplitude, formula ideais de conduta coletiva em vez de analisar práticas individuais.",
+        "B": "a noção aventada no segundo parágrafo pecaria por não distinguir entre os elementos transitórios e os elementos duradouros de uma sociedade.",
+        "C": "a hipótese levantada no terceiro parágrafo é dada como insatisfatória porque valoriza as relações pragmáticas já estabelecidas numa sociedade.",
+        "D": "o reconhecimento de um parâmetro válido para a definição do que seja uma estrutura social é indispensável para que se aceite essa definição.",
+        "E": "a validação do conceito mesmo de estrutura social deve preceder toda e qualquer análise de caso que se proponha numa fundamentação aceitável."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.interpretacao.inferencia",
+        "portugues.interpretacao.ideia-central",
+        "portugues.interpretacao"
+      ],
+      "dispositivos": [],
+      "exp": "O último parágrafo conclui que a validade de qualquer resposta \"estará presa à **validação do critério** que a sustenta\": sem parâmetro válido, nenhuma definição se aceita, como diz a (D). (A) erra o defeito da primeira definição, que é ser ampla demais e não separar o efêmero do persistente, e não formular ideais. (B) atribui à segunda noção o defeito da primeira; a segunda é que é limitada demais. (C) inverte a terceira noção, que valoriza relações **esperadas ou ideais**, não as reais ou pragmáticas. (E) fala de \"análise de caso\", ideia que o texto não traz."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#2",
+      "tipo": "me",
+      "numero": 2,
+      "texto": "T1",
+      "enunciado": "Considerando-se o contexto, traduz-se adequadamente o sentido de um segmento do texto em:",
+      "alt": {
+        "A": "rede de todas as relações de pessoa-a-pessoa (1º parágrafo) = somatória de todas as individualidades.",
+        "B": "persistem por muitas gerações (2º parágrafo) = difundem uma permanência gerativa.",
+        "C": "enfatiza não tanto as relações reais (3º parágrafo) = releva sobremaneira as conexões efetivas.",
+        "D": "permite a seus membros exercerem (3º parágrafo) = faculta o desmembramento do exercício.",
+        "E": "estará presa à validação do critério (4º parágrafo) = dependerá da aceitabilidade do parâmetro."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.semantica.contextual",
+        "portugues.reescrita"
+      ],
+      "dispositivos": [],
+      "exp": "\"Estará presa à validação do critério\" equivale a **dependerá da aceitabilidade do parâmetro**: é a (E). (A) troca relações entre pessoas por soma de individualidades. (B) troca \"persistem\" por \"difundem\", que não tem o mesmo sentido. (C) inverte o sentido, pois \"não tanto\" diminui a ênfase e \"sobremaneira\" a aumenta. (D) cria um \"desmembramento\" que o texto não diz."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#3",
+      "tipo": "me",
+      "numero": 3,
+      "texto": "T1",
+      "enunciado": "Está clara e correta a **redação** desta livre consideração sobre o texto:",
+      "alt": {
+        "A": "A menos que se sigam algum critério aceitável, os estudiosos da sociedade se apresentam como problemáticos no caso de sua definição estrutural.",
+        "B": "Os diferentes critérios para a definição do que seja a estrutura social são julgados, por razões diversas, como insatisfatórios.",
+        "C": "Há quem julguem as relações sociais como um produto que ao mesmo tempo considere que as individualidades já as constituam por si mesmas.",
+        "D": "Não é por formularem alguma ordem ideal para as relações sociais definidas como expectativas que se obtêm, apenas por isso, a validade de uma estrutura.",
+        "E": "O autor do texto leva-nos à crer que, a depender do critério que adotássemos, nossa definição de estrutura social terá validade nessa dependência."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.concordancia.verbal",
+        "portugues.tempos-modos",
+        "portugues.crase"
+      ],
+      "dispositivos": [],
+      "exp": "(B) está clara e correta: sujeito plural (\"Os diferentes critérios\") com \"são julgados\" e predicativo \"insatisfatórios\" no plural. (A) erra a concordância (\"se siga algum critério\") e é confusa. (C) também erra a concordância (\"Há quem julgue\") e é incoerente. Em (D), o sujeito de \"obter\" é \"a validade\", logo \"se **obtém**\". (E) tem crase antes de verbo (\"à crer\") e mistura tempos (\"adotássemos\" com \"terá\")."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#4",
+      "tipo": "me",
+      "numero": 4,
+      "texto": "T1",
+      "enunciado": "O verbo indicado entre parênteses deverá flexionar-se numa forma do **singular** para integrar corretamente a frase:",
+      "alt": {
+        "A": "As respostas que se (**aguardar**) para essa questão prendem-se aos critérios a serem observados.",
+        "B": "A propósito dessa exata definição de estrutura com que se (**afligir**) os antropólogos, estamos longe de qualquer consenso.",
+        "C": "Não (**dever**) caber aos sociólogos ou antropólogos definir açodadamente o que seja uma estrutura social.",
+        "D": "Àqueles que (**haver**) de pesquisar o funcionamento de uma sociedade recomenda-se sensatez na escolha de um critério.",
+        "E": "A validação dos critérios que se (**apresentar**) como parâmetros aceitáveis deve receber o aval de todos os envolvidos na definição."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.concordancia.verbal",
+        "portugues.vozes"
+      ],
+      "dispositivos": [],
+      "exp": "Em (C), o sujeito de \"dever caber\" é a oração \"definir açodadamente o que seja uma estrutura social\", e sujeito oracional leva o verbo ao singular: \"Não **deve** caber\". Nas demais, o verbo vai ao plural: (A) \"que se aguardam\" (o \"que\" retoma \"respostas\"), (B) \"se afligem os antropólogos\", (D) \"que hão de\" (\"que\" retoma \"Àqueles\") e (E) \"que se apresentam\" (\"que\" retoma \"critérios\")."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#5",
+      "tipo": "me",
+      "numero": 5,
+      "texto": "T2",
+      "enunciado": "Ao desenvolver suas impressões sobre a tatuagem, o autor acredita que ela,",
+      "alt": {
+        "A": "sendo um fenômeno relativamente recente, difundiu-se pela atuação dos artistas plásticos que a conceberam em primeira mão.",
+        "B": "apesar dos dissabores que causa, já o persuadiu a tatuar-se em razão da beleza dos símbolos que se imprimem na pele.",
+        "C": "tendo nascido em tempos remotos, conserva plena e exclusiva fidelidade aos primeiros símbolos que a celebrizaram.",
+        "D": "exibindo-se em tantos corpos que passam, oferece a um observador uma revelação contínua de novos elementos.",
+        "E": "embora limitada a formas simbólicas, faz pensar em frases que revelariam o mistério que ela oculta dentro de si mesma."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.interpretacao.inferencia",
+        "portugues.interpretacao.ponto-de-vista"
+      ],
+      "dispositivos": [],
+      "exp": "Para o observador à beira-mar, \"cada tatuagem é **uma descoberta, uma viagem do olhar**\", e numa só manhã ele viu tatuagens de vários tipos: é a (D). (A) contraria o texto, que data a tatuagem do paleolítico. (B) inventa que o autor se tatuou. (C) erra ao falar em fidelidade exclusiva aos primeiros símbolos, já que o texto cita nomes, bilhetes e mensagens. (E) erra porque o texto não limita a tatuagem a formas simbólicas, e o segredo é o de uma mensagem específica."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#6",
+      "tipo": "me",
+      "numero": 6,
+      "texto": "T2",
+      "enunciado": "Na frase Quero ficar no teu corpo feito tatuagem, da canção de Chico Buarque e Ruy Guerra, deve-se entender que",
+      "alt": {
+        "A": "há o desejo de que essa mesma frase seja gravada no corpo da pessoa amada.",
+        "B": "a expressão feito tatuagem está empregada no sentido de tal e qual tatuagem.",
+        "C": "o corpo da pessoa amada deve aparecer a quem o olha como se fosse uma tatuagem.",
+        "D": "o amor pela pessoa amada acaba tendo a mesma efemeridade de uma tatuagem.",
+        "E": "há a esperança de que a paixão impossível acabe se representando numa tatuagem."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.semantica.contextual",
+        "portugues.figuras",
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "\"Feito\" tem aí valor comparativo (= como, **tal e qual**): o eu lírico quer ficar no corpo do outro como uma tatuagem fica, de forma permanente. É a (B). (A) toma a comparação ao pé da letra. (C) inverte os termos: quem quer ser como tatuagem é o eu lírico, e não o corpo amado. (D) contraria a ideia de permanência (\"uma pintura para toda a vida\"). (E) fala de paixão impossível, ideia que não está no texto."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#7",
+      "tipo": "me",
+      "numero": 7,
+      "texto": "T2",
+      "enunciado": "Além da beleza das formas e cores, há algo de simbólico nessas inscrições corporais.\nA frase acima ganha nova redação, na qual se mantêm a coerência básica, a clareza e a correção da linguagem, no seguinte caso:",
+      "alt": {
+        "A": "Nessas inscrições corporais, a despeito da beleza das formas e cores, ocorre-lhes algum simbolismo.",
+        "B": "Em tais inscrições corporais o simbolismo desperta-lhes igualmente a beleza das formas e cores simbólicas.",
+        "C": "Algo de simbólico se revela, além das belas formas e cores, nessas inscrições corporais.",
+        "D": "Essas formas simbólicas, em cujas há cores e beleza, apresentam-se como inscrições corporais.",
+        "E": "O simbólico dessas inscrições corporais manifesta-se para muito além das formas e cores que houverem."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.reescrita",
+        "portugues.classes.pronomes"
+      ],
+      "dispositivos": [],
+      "exp": "(C) mantém o sentido de adição (\"além das belas formas e cores\") e a afirmação de que há algo simbólico nas inscrições, com redação correta. (A) troca a adição por concessão (\"a despeito de\") e usa \"lhes\" sem função, repetindo \"Nessas inscrições\". (B) cria uma relação de causa que não existe e é redundante (\"cores simbólicas\"). (D) usa mal o \"cujas\", que exige um substantivo depois, e muda o sentido. (E) usa mal o futuro do subjuntivo (\"que houverem\") e exagera com \"para muito além\"."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#8",
+      "tipo": "me",
+      "numero": 8,
+      "texto": "T2",
+      "enunciado": "Está plenamente adequado o emprego de ambos os elementos sublinhados na frase:",
+      "alt": {
+        "A": "As economias que __provieram__ de seus salários, ele __as despendeu__ em sessões de tatuagem.",
+        "B": "Elas __interviram__ quando ele se dispôs a apagar uma tatuagem que __o__ custara tão caro.",
+        "C": "A propósito de tatuagens, o velho __lhes__ vê como __assessórios__ inúteis que marcam um corpo.",
+        "D": "Depois de se deixar seduzir __a uma__ tatuagem, conheceu o remorso __em cujo__ se martirizou.",
+        "E": "Ele diz não saber __porquê__ a tatuagem goza de tanto prestígio __aonde__ quer que surja."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.regencia.verbal",
+        "portugues.classes.pronomes",
+        "portugues.ortografia"
+      ],
+      "dispositivos": [],
+      "exp": "Em (A), \"provieram\" é a forma correta de provir (conjuga-se como vir: vieram/provieram), e \"as\" retoma \"As economias\", objeto direto de despender. As demais erram: (B) \"intervieram\" e \"lhe custara\" (custar, nesse sentido, pede objeto indireto); (C) \"os vê\" (ver é transitivo direto) e \"acessórios\"; (D) \"seduzir **por** uma tatuagem\", e \"em cujo\" sem substantivo depois (\"com o qual\"); (E) \"por que\" (interrogativa indireta) e \"onde\" (não há ideia de movimento)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#9",
+      "tipo": "me",
+      "numero": 9,
+      "enunciado": "Na tabela abaixo foram registradas as classificações obtidas por 50 alunos de uma turma.\n[Tabela — Classificação: Nº de Alunos — 1: 5; 2: 15; 3: 10; 4: 15; 5: 5]\nDe acordo com os dados apresentados,",
+      "alt": {
+        "A": "50% dos alunos obtiveram classificação 1, 2 ou 3.",
+        "B": "20% dos alunos obtiveram classificação 4 ou 5.",
+        "C": "30% dos alunos obtiveram classificação 4.",
+        "D": "15% dos alunos obtiveram classificação 1.",
+        "E": "90% dos alunos obtiveram classificação 3, 4 ou 5."
+      },
+      "gab": "C",
+      "temas": [
+        "matematica.graficos",
+        "matematica.porcentagem"
+      ],
+      "dispositivos": [],
+      "exp": "Classificação 4: 15/50 = **30%**, alternativa (C). As outras: 1, 2 ou 3 somam 5 + 15 + 10 = 30, ou 60% (A); 4 ou 5 somam 20, ou 40% (B); classificação 1: 5/50 = 10% (D); 3, 4 ou 5 somam 30, ou 60% (E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#10",
+      "tipo": "me",
+      "numero": 10,
+      "enunciado": "Ana, Beth, Carla, Diana e Natalina fazem aniversário, não necessariamente nessa ordem, em 1º de março, 17 de maio, 20 de julho, 20 de março e 25 de dezembro. Beth e Carla nasceram no mesmo mês, Ana e Carla nasceram no mesmo dia, mas em meses diferentes. Natalina recebeu seu nome devido ao dia de seu nascimento. Com certeza, quem nasceu em 17 de maio foi",
+      "alt": {
+        "A": "Natalina.",
+        "B": "Diana.",
+        "C": "Carla.",
+        "D": "Beth.",
+        "E": "Ana."
+      },
+      "gab": "B",
+      "temas": [
+        "raciocinio-logico.relacoes",
+        "raciocinio-logico.argumentacao.deducao"
+      ],
+      "dispositivos": [],
+      "exp": "Natalina nasceu em 25 de dezembro. Março é o único mês com duas datas, então Beth e Carla nasceram em março. Ana tem o mesmo dia de Carla em outro mês: o único dia repetido é 20, logo Carla nasceu em 20/3 e Ana em 20/7. Assim, Beth nasceu em 1º/3 e sobra 17 de maio para **Diana**, alternativa (B)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#11",
+      "tipo": "me",
+      "numero": 11,
+      "enunciado": "Somando-se 26 ao menor número de três algarismos e dividindo essa soma pelo maior número de um algarismo tem-se",
+      "alt": {
+        "A": "10.",
+        "B": "16.",
+        "C": "13.",
+        "D": "14.",
+        "E": "12."
+      },
+      "gab": "D",
+      "temas": [
+        "matematica.reais"
+      ],
+      "dispositivos": [],
+      "exp": "O menor número de três algarismos é 100 e o maior de um algarismo é 9: (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, alternativa (D)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#12",
+      "tipo": "me",
+      "numero": 12,
+      "enunciado": "Serão confeccionados números em cobre para numerar as portas dos apartamentos de um condomínio de 5 torres com 8 andares cada uma e com quatro apartamentos por andar. A numeração seguirá a seguinte regra: os apartamentos do andar k terão números k1, k2, k3 e k4, isto é, no primeiro andar de cada torre estarão os apartamentos 11, 12, 13 e 14. A quantidade de algarismos 3 que será confeccionada é igual a",
+      "alt": {
+        "A": "30.",
+        "B": "12.",
+        "C": "100.",
+        "D": "80.",
+        "E": "60."
+      },
+      "gab": "E",
+      "temas": [
+        "raciocinio-logico.contagem",
+        "matematica.problemas"
+      ],
+      "dispositivos": [],
+      "exp": "Em cada torre, o algarismo 3 aparece na posição das unidades uma vez por andar (k3), ou seja, 8 vezes. Na posição das dezenas, aparece nos 4 apartamentos do 3º andar (31 a 34), mais 4 vezes. São 12 por torre (o 33 conta duas vezes), e 12 × 5 = **60**, alternativa (E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#13",
+      "tipo": "me",
+      "numero": 13,
+      "enunciado": "Considere a seguinte situação hipotética: em 2018, determinada empresa concessionária de serviço de transporte coletivo não reservou assentos, devidamente identificados, aos idosos, gestantes, lactantes, pessoas portadoras de deficiência e pessoas acompanhadas por crianças de colo, razão pela qual foi multada, nos termos da Lei nº 10.048/2000. Em 2019, a empresa praticou a mesma infração, uma vez que alguns veículos de sua frota desrespeitaram a norma supracitada. Nos termos da Lei nº 10.048/2000, a empresa estará sujeita, por cada veículo que descumpriu a norma legal, ao pagamento de multa de",
+      "alt": {
+        "A": "R$ 500,00 a R$ 2.500,00.",
+        "B": "R$ 1.000,00 a R$ 5.000,00.",
+        "C": "R$ 250,00 a R$ 1.500,00.",
+        "D": "R$ 500,00 a R$ 2.000,00.",
+        "E": "R$ 250,00 a R$ 2.500,00."
+      },
+      "gab": "B",
+      "temas": [
+        "direitos-humanos.prioridade"
+      ],
+      "dispositivos": [
+        "L10048 6 II",
+        "L10048 6 p.ú.",
+        "L10048 3"
+      ],
+      "exp": "Pelo `L10048 6 II`, a concessionária que descumpre a reserva de assentos (`L10048 3`) paga multa de **R$ 500,00 a R$ 2.500,00 por veículo**. Como a empresa já havia sido multada em 2018, há reincidência, e o `L10048 6 p.ú.` **dobra** as penalidades: R$ 1.000,00 a R$ 5.000,00, alternativa (B). (A) é a faixa sem a reincidência, e as demais faixas não estão na lei."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#14",
+      "tipo": "me",
+      "numero": 14,
+      "enunciado": "De acordo com a Lei nº 13.146/2015, o processo de habilitação e reabilitação é um direito da pessoa com deficiência e baseia-se em avaliação multidisciplinar das necessidades, habilidades e potencialidades de cada pessoa, observada, dentre outras, a seguinte diretriz:",
+      "alt": {
+        "A": "adoção de medidas para compensar perda ou limitação funcional, buscando o desenvolvimento de aptidões.",
+        "B": "diagnóstico precoce e intervenção tardia.",
+        "C": "oferta de rede de serviços desarticulados, com atuação intrasetorial, nos diferentes níveis de complexidade, para atender às necessidades específicas da pessoa com deficiência.",
+        "D": "prestação de serviços próximo ao domicílio da pessoa com deficiência, exceto na zona rural, respeitadas a organização das Redes de Atenção à Saúde (RAS) nos territórios locais e as normas do Sistema Único de Saúde (SUS).",
+        "E": "atuação provisória e integrada de políticas públicas que possibilitem a plena participação social da pessoa com deficiência."
+      },
+      "gab": "A",
+      "temas": [
+        "direitos-humanos.pcd.direitos"
+      ],
+      "dispositivos": [
+        "L13146 15"
+      ],
+      "exp": "(A) reproduz o `L13146 15 II`. As demais deturpam outros incisos do mesmo artigo: o I prevê **diagnóstico e intervenção precoces**, e não intervenção tardia (B); o IV prevê rede de serviços **articulados**, com atuação **intersetorial** (C); o V prevê serviços próximos ao domicílio **inclusive na zona rural** (D); e o III prevê atuação **permanente**, integrada e articulada de políticas públicas (E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#15",
+      "tipo": "me",
+      "numero": 15,
+      "enunciado": "O conceito de desenvolvimento sustentável, tal como tratado no Relatório Brundtland, elaborado pela Comissão Mundial sobre o Meio Ambiente e Desenvolvimento criada pela Assembleia das Nações Unidas em 1983, predica que",
+      "alt": {
+        "A": "o modelo ecologicamente sustentável não se compatibiliza com desenvolvimento econômico, cabendo uma escolha ética pelo primeiro por parte das futuras gerações.",
+        "B": "os recursos naturais são finitos e toda forma de desenvolvimento que utilize esses insumos deve ser tida como deletéria.",
+        "C": "o desenvolvimento pressupõe degradação, daí porque os países mais desenvolvidos devem ser taxados e a receita revertida para países que optaram por preservar sua biodiversidade.",
+        "D": "se deve adequar, compulsoriamente, a velocidade das mudanças tecnológicas à capacidade de absorção pelo ecossistema dos impactos correspondentes.",
+        "E": "se deve satisfazer as necessidades presentes, sem comprometer a capacidade das gerações futuras de suprir suas próprias necessidades."
+      },
+      "gab": "E",
+      "temas": [
+        "sustentabilidade.desenvolvimento-sustentavel"
+      ],
+      "dispositivos": [],
+      "exp": "O Relatório Brundtland (\"Nosso Futuro Comum\", 1987) definiu desenvolvimento sustentável como o que **satisfaz as necessidades do presente sem comprometer a capacidade das gerações futuras de suprir as suas**: é a (E). As demais contrariam a ideia central do relatório, de que desenvolvimento econômico e preservação são compatíveis. (A) e (B) tratam o desenvolvimento como inconciliável com a preservação ou sempre deletério. (C) e (D) trazem propostas (taxação de países, adequação compulsória da tecnologia) que não fazem parte do conceito."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#16",
+      "tipo": "me",
+      "numero": 16,
+      "enunciado": "A Política Nacional de Resíduos Sólidos, prevista na Lei federal nº 12.305/2010, disciplina diversas ações, entre as quais a denominada logística reversa,",
+      "alt": {
+        "A": "imposta apenas aos comercializadores finais de produtos com potencial de contaminação, como agrotóxicos e outros produtos químicos, que devem arcar, às suas expensas, com os custos de recolhimento e destinação dos resíduos correspondentes.",
+        "B": "que constitui obrigação exclusiva dos fabricantes de produtos potencialmente poluidores, identificados em rol taxativo na lei, não recaindo sobre a cadeia de distribuição e consumo.",
+        "C": "cuja obrigação recai sobre agentes privados, mas que pode ser assumida pelo titular de serviço público de limpeza urbana e de manejo de resíduos sólidos, desde que as ações assumidas pelo poder público sejam devidamente remuneradas.",
+        "D": "aplicável exclusivamente aos agentes do setor farmacêutico e hospitalar, demandando o cumprimento de protocolos específicos de descarte, recolhimento e deposição dos resíduos, com compartilhamento dos custos entre o setor público e o privado.",
+        "E": "que envolve, de maneira compulsória, produtos potencialmente poluidores e suas embalagens, assim declarados em decreto regulamentar, impondo a obrigação de descarte e destruição integralmente às expensas dos agentes que os utilizam ao final da cadeia produtiva."
+      },
+      "gab": "C",
+      "temas": [
+        "sustentabilidade.residuos-solidos",
+        "ambiental.responsabilidade",
+        "ambiental.dano"
+      ],
+      "dispositivos": [
+        "L12305 33 §7º",
+        "L12305 33",
+        "L12305 30"
+      ],
+      "exp": "A logística reversa obriga **fabricantes, importadores, distribuidores e comerciantes** (`L12305 33`). O `L12305 33 §7º` permite que o titular do serviço público de limpeza urbana assuma essas atividades por acordo setorial ou termo de compromisso, mas as ações do poder público devem ser **devidamente remuneradas**: é a (C). (A), (B) e (D) restringem a obrigação a um só elo ou setor, quando a lei prevê **responsabilidade compartilhada** pelo ciclo de vida do produto (`L12305 30`), e o rol do art. 33 pode ser ampliado (§1º). (E) põe todo o custo sobre o consumidor final, que só tem o dever de devolver produtos e embalagens (§4º)."
+    }
+  ]
+}

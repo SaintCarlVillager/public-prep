@@ -1,0 +1,944 @@
+{
+  "prova": "vunesp/tj-sp/oficial-de-justica/2024",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#21",
+      "tipo": "me",
+      "numero": 21,
+      "enunciado": "Considere que um indivíduo está sendo processado por um determinado crime. Lei posterior ao fato criminoso deixa de considerá-lo crime. Para que a nova lei beneficie o acusado,",
+      "alt": {
+        "A": "é necessário que ela entre em vigor antes do oferecimento da denúncia.",
+        "B": "basta que ela entre em vigor a qualquer tempo, mesmo após o trânsito em julgado da decisão condenatória.",
+        "C": "é necessário que ela entre em vigor antes do recebimento da denúncia.",
+        "D": "é necessário que ela entre em vigor antes de proferida a sentença de primeiro grau.",
+        "E": "é necessário que ela entre em vigor antes do trânsito em julgado."
+      },
+      "gab": "B",
+      "temas": [
+        "penal.aplicacao"
+      ],
+      "dispositivos": [
+        "CP 2"
+      ],
+      "exp": "A abolitio criminis retroage a qualquer tempo, **mesmo após o trânsito em julgado**: cessam a execução e os efeitos penais da sentença (`CP 2`). Os efeitos civis permanecem. As demais alternativas inventam um marco final que a lei não tem.",
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei que deixa de considerar o fato crime (abolitio criminis) não tem marco final: retroage **a qualquer tempo**, até depois do trânsito em julgado, cessando a execução e os efeitos penais da condenação (`CP 2`). O oferecimento da denúncia é irrelevante.",
+        "B": "A abolitio criminis retroage **a qualquer tempo, mesmo após o trânsito em julgado**: cessam a execução e os efeitos penais da sentença condenatória (`CP 2`). Os efeitos civis permanecem.",
+        "C": "O recebimento da denúncia não limita a retroatividade. A abolitio criminis alcança o fato **a qualquer tempo**, inclusive depois do trânsito em julgado, cessando a execução e os efeitos penais da sentença (`CP 2`).",
+        "D": "A sentença de primeiro grau não é marco final. A lei que deixa de considerar o fato crime retroage **a qualquer tempo**, mesmo após o trânsito em julgado, cessando a execução e os efeitos penais da condenação (`CP 2`).",
+        "E": "Nem o trânsito em julgado limita a abolitio criminis: ela beneficia o condenado **mesmo depois** dele, cessando a execução e os efeitos penais da sentença (`CP 2`); só os efeitos civis permanecem."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#22",
+      "tipo": "me",
+      "numero": 22,
+      "enunciado": "As regras gerais do Código Penal (CP), por expressa disposição legal,",
+      "alt": {
+        "A": "não se aplicam aos fatos incriminados por outros diplomas legais.",
+        "B": "admitirão interpretação analógica.",
+        "C": "aplicam-se aos fatos incriminados por lei especial, se esta não dispuser de modo diverso.",
+        "D": "não podem ser aplicadas para fatos ocorridos fora do território nacional.",
+        "E": "admitirão interpretação extensiva."
+      },
+      "gab": "C",
+      "temas": [
+        "penal.aplicacao"
+      ],
+      "dispositivos": [
+        "CP 12"
+      ],
+      "exp": "`CP 12`: as regras gerais do Código aplicam-se aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**. (A) contraria o texto; (D) ignora a extraterritorialidade (`CP 7`); (B) e (E) não estão no artigo.",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Código diz o contrário: suas regras gerais **aplicam-se** aos fatos incriminados por lei especial, se esta não dispuser de modo diverso (`CP 12`).",
+        "B": "O `CP 12` não trata de interpretação analógica. O que ele dispõe expressamente é que as regras gerais do Código se aplicam aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**.",
+        "C": "É o texto do `CP 12`: as regras gerais do Código aplicam-se aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**.",
+        "D": "A lei penal brasileira alcança, em certos casos, crimes cometidos no estrangeiro: é a **extraterritorialidade** (`CP 7`). E o `CP 12` trata de outra coisa: aplicação das regras gerais aos fatos previstos em lei especial, salvo disposição diversa.",
+        "E": "O `CP 12` não trata de interpretação extensiva. O que ele dispõe expressamente é que as regras gerais do Código se aplicam aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#23",
+      "tipo": "me",
+      "numero": 23,
+      "enunciado": "A ação penal privada é promovida mediante      , de autoria do(a)        . Assinale a alternativa que completa, correta e respectivamente, as lacunas.",
+      "alt": {
+        "A": "denúncia … ofendido",
+        "B": "denúncia … Ministério Público",
+        "C": "notícia-crime … vítima",
+        "D": "requisição … Ministro da Justiça",
+        "E": "queixa … ofendido"
+      },
+      "gab": "E",
+      "temas": [
+        "penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CP 100 §2º"
+      ],
+      "exp": "`CP 100, §2º`: a ação penal privada é promovida mediante **queixa do ofendido** ou de quem tenha qualidade para representá-lo. Denúncia é a peça do MP; requisição do Ministro da Justiça é condição de certas ações públicas."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#24",
+      "tipo": "me",
+      "numero": 24,
+      "enunciado": "Imagine que determinado indivíduo fora vítima do crime de calúnia. O ofendido, contudo, decide fazer as pazes com o ofensor e até o convida para apadrinhar um filho seu. Depois da confraternização, todavia, ambos se desentendem por novo motivo – sem que nessa nova contenda haja fato que configure crime. Diante do cenário, o indivíduo que fora vítima da calúnia propõe ação penal privada contra o ofensor por aquele fato inicial. O ofensor prova ao juiz a relação de compadrio. Diante desse cenário, é correto afirmar que",
+      "alt": {
+        "A": "houve renúncia tácita, e o direito de ação penal privada não pode ser exercido.",
+        "B": "a renúncia pode ser retratada no prazo do oferecimento da ação penal privada.",
+        "C": "o direito de ação privada é exclusivo do ofendido, não importando a relação de compadrio.",
+        "D": "apesar da relação de compadrio, a ausência de renúncia expressa não obsta o seguimento da ação.",
+        "E": "o perdão apenas terá reflexos patrimoniais, não afastando o direto de ação penal privada do ofendido."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.acao-penal",
+        "penal.extincao-punibilidade"
+      ],
+      "dispositivos": [
+        "CP 104 p.ú.",
+        "CP 107 V"
+      ],
+      "exp": "Convidar o ofensor para padrinho do filho é ato **incompatível com a vontade de exercer o direito de queixa**: renúncia tácita (`CP 104, p.ú.`), que extingue a punibilidade (`CP 107, V`). A renúncia é irretratável (B errada) e não depende de forma expressa (D errada). Perdão (E) é instituto diferente, posterior à queixa.",
+      "recursos": 4,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Convidar o ofensor para padrinho do filho é ato **incompatível com a vontade de exercer o direito de queixa**: renúncia tácita (`CP 104 p.ú.`), que extingue a punibilidade (`CP 107 V`). A ação privada não pode mais ser proposta.",
+        "B": "A renúncia ao direito de queixa é **irretratável**: depois dela, o ofendido não pode voltar atrás. Aqui houve renúncia tácita pelo ato incompatível (`CP 104 p.ú.`), e a punibilidade está extinta (`CP 107 V`).",
+        "C": "A relação de compadrio importa: convidar o ofensor para padrinho é **ato incompatível** com a vontade de processá-lo, o que configura renúncia tácita ao direito de queixa (`CP 104 p.ú.`) e extingue a punibilidade (`CP 107 V`).",
+        "D": "A renúncia **não precisa ser expressa**: a prática de ato incompatível com a vontade de exercer o direito de queixa, como o convite para padrinho, importa renúncia tácita (`CP 104 p.ú.`), que extingue a punibilidade (`CP 107 V`).",
+        "E": "O caso não é de perdão, instituto diferente e posterior à queixa, mas de **renúncia tácita** anterior a ela (`CP 104 p.ú.`). E nenhum dos dois tem efeito só patrimonial: ambos extinguem a punibilidade na ação privada (`CP 107 V`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#25",
+      "tipo": "me",
+      "numero": 25,
+      "enunciado": "Determinado indivíduo, que tinha 20 anos na data do fato criminoso, é condenado à pena mínima por um crime que tem pena privativa de liberdade de 2 a 3 anos. Entre o fato e o recebimento da denúncia transcorreram 3 anos e um dia. Entre o recebimento da denúncia e a publicação da sentença condenatória transcorreram 2 anos e um dia. Houve trânsito em julgado. É correto afirmar que",
+      "alt": {
+        "A": "ocorreu prescrição no interregno transcorrido entre o fato e o recebimento da denúncia.",
+        "B": "a idade do indivíduo não influencia no cálculo da prescrição.",
+        "C": "não ocorreu prescrição.",
+        "D": "ocorreu prescrição no interregno transcorrido entre o recebimento da denúncia e a publicação da sentença.",
+        "E": "ocorreu prescrição em ambos os interregnos."
+      },
+      "gab": "D",
+      "temas": [
+        "penal.extincao-punibilidade"
+      ],
+      "dispositivos": [
+        "CP 109 V",
+        "CP 110 §1º",
+        "CP 115"
+      ],
+      "exp": "Pena concreta de 2 anos prescreve em 4 (`CP 109, V`); como o agente tinha **menos de 21 anos** na data do fato, o prazo cai à metade: **2 anos** (`CP 115`). O 1º intervalo (3 anos e 1 dia) não conta: a prescrição retroativa não pode ter termo inicial anterior à denúncia (`CP 110, §1º`). O 2º intervalo (2 anos e 1 dia) passa de 2 anos: prescreveu.",
+      "recursos": 29,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pena concreta de 2 anos prescreve em 4 (`CP 109 V`), reduzidos à metade, **2 anos**, porque o agente tinha menos de 21 na data do fato (`CP 115`). Mas o intervalo entre fato e denúncia **não conta**: a prescrição retroativa não pode ter termo inicial anterior à denúncia (`CP 110 §1º`).",
+        "B": "A idade influencia: o agente tinha **menos de 21 anos** na data do fato, então o prazo prescricional cai à metade (`CP 115`). A pena de 2 anos, que prescreveria em 4 (`CP 109 V`), prescreve em **2 anos**.",
+        "C": "Houve prescrição. Pena de 2 anos prescreve em 4 (`CP 109 V`), metade para quem tinha menos de 21 anos no fato: **2 anos** (`CP 115`). Entre o recebimento da denúncia e a sentença passaram 2 anos e 1 dia, mais que o prazo.",
+        "D": "Pena concreta de 2 anos prescreve em 4 (`CP 109 V`), que caem à metade, **2 anos**, porque o agente tinha menos de 21 anos no fato (`CP 115`). Entre o recebimento da denúncia e a sentença passaram 2 anos e 1 dia: 2 anos e 1 dia > 2 anos, prescreveu.",
+        "E": "Só o 2º intervalo conta. O prazo é de **2 anos** (4 anos do `CP 109 V`, reduzidos à metade pelo `CP 115`), mas a prescrição retroativa **não pode ter termo inicial anterior à denúncia** (`CP 110 §1º`), o que exclui o período entre fato e denúncia."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#26",
+      "tipo": "me",
+      "numero": 26,
+      "enunciado": "Figure homicídio culposo, no qual as consequências da infração atingem o próprio agente de forma tão grave que a sanção penal se torne desnecessária. Trata-se de hipótese de",
+      "alt": {
+        "A": "perdão judicial, diante da qual o juiz poderá deixar de aplicar a pena.",
+        "B": "atenuante, diante da qual a pena poderá ser reduzida de 1/6 a 2/3.",
+        "C": "atenuante, diante da qual o juiz poderá aplicar, somente, a pena de multa.",
+        "D": "causa de diminuição de pena, diante da qual a pena poderá ser reduzida de 1/6 a 2/3.",
+        "E": "causa de diminuição de pena, diante da qual o juiz poderá aplicar, somente, a pena de multa."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.pessoa",
+        "penal.extincao-punibilidade"
+      ],
+      "dispositivos": [
+        "CP 121 §5º",
+        "CP 107 IX"
+      ],
+      "exp": "`CP 121, §5º`: no homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la**: perdão judicial, causa de extinção da punibilidade (`CP 107, IX`). Não é atenuante nem causa de diminuição.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la** (`CP 121 §5º`): é o perdão judicial, causa de extinção da punibilidade (`CP 107 IX`).",
+        "B": "Não se trata de atenuante nem de redução de pena: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar a pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`).",
+        "C": "Não é atenuante nem substituição por multa: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar qualquer pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`).",
+        "D": "Não é causa de diminuição de pena: o juiz **pode deixar de aplicar a pena** por inteiro. É o perdão judicial do homicídio culposo (`CP 121 §5º`), causa de extinção da punibilidade (`CP 107 IX`).",
+        "E": "Não é causa de diminuição nem troca por multa: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar a pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#27",
+      "tipo": "me",
+      "numero": 27,
+      "enunciado": "Existe a possibilidade da aplicação de algum benefício legal na hipótese das lesões corporais serem recíprocas e não serem graves?",
+      "alt": {
+        "A": "Sim, o juiz pode substituir a pena de reclusão pela de detenção.",
+        "B": "Não.",
+        "C": "Sim, o juiz pode reduzir a pena de 1/6 a 1/3.",
+        "D": "Sim, mas apenas em caso de lesão culposa.",
+        "E": "Sim, o juiz pode substituir a pena de detenção pela de multa."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.pessoa"
+      ],
+      "dispositivos": [
+        "CP 129 §5º II"
+      ],
+      "exp": "`CP 129, §5º, II`: nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa**. Não há troca de reclusão por detenção (A) nem redução de 1/6 a 1/3 (C).",
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Não existe troca de reclusão por detenção. Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "B": "Existe benefício: nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "C": "O benefício previsto não é redução de 1/6 a 1/3. Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "D": "O benefício não se restringe à lesão culposa: basta que as lesões sejam **recíprocas e não graves** para o juiz poder substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "E": "Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#28",
+      "tipo": "me",
+      "numero": 28,
+      "enunciado": "Imagine que determinado indivíduo tenha sido condenado pelo crime de violação de domicílio. Considerando as elementares típicas do delito em questão, é possível afirmar que o fato",
+      "alt": {
+        "A": "ocorreu em local ermo ou com emprego de arma.",
+        "B": "ocorreu em aposento ocupado de habitação coletiva.",
+        "C": "ocorreu no período noturno.",
+        "D": "fora praticado mediante violência ou grave ameaça.",
+        "E": "fora praticado por duas ou mais pessoas."
+      },
+      "gab": "B",
+      "temas": [
+        "penal.liberdade"
+      ],
+      "dispositivos": [
+        "CP 150 §4º II",
+        "CP 150 §1º"
+      ],
+      "exp": "O tipo protege a **casa**, e o `CP 150, §4º, II` inclui no conceito o **aposento ocupado de habitação coletiva**: é elementar. Noite, lugar ermo, arma, violência e concurso de duas ou mais pessoas são **qualificadoras** (`§1º`), não elementares: o fato pode existir sem elas.",
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Lugar ermo e emprego de arma não são elementares: são **qualificadoras** da violação de domicílio (`CP 150 §1º`). O crime existe sem elas, então a condenação não permite afirmar que ocorreram.",
+        "B": "O tipo protege a **casa**, e a lei inclui nesse conceito o **aposento ocupado de habitação coletiva** (`CP 150 §4º II`). É elemento do próprio tipo, compatível com qualquer condenação por violação de domicílio.",
+        "C": "O período noturno não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que o fato ocorreu à noite.",
+        "D": "O emprego de violência não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que houve violência.",
+        "E": "O concurso de duas ou mais pessoas não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que houve concurso."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#29",
+      "tipo": "me",
+      "numero": 29,
+      "enunciado": "É crime “usar, como próprio, passaporte, título de eleitor, caderneta de reservista ou qualquer documento de identidade alheia”. Imagine que Remo utilizou ilicitamente o documento de seu irmão, Rômulo. E que esse documento tenha sido prévia e conscientemente cedido pela mãe de ambos, Capitolina, sem ciência de Rômulo. Diante desse cenário, nos termos do artigo 308 do CP, é correto afirmar que",
+      "alt": {
+        "A": "Remo e Capitolina cometeram crime contra a Administração Pública.",
+        "B": "Capitolina, Remo e Rômulo cometeram crime, mas Rômulo na modalidade culposa.",
+        "C": "apenas Remo e Capitolina cometeram crime.",
+        "D": "apenas Remo cometeu crime.",
+        "E": "apenas Remo e Capitolina cometeram crime, mas Capitolina é isenta de pena por expressa disposição legal."
+      },
+      "gab": "C",
+      "temas": [
+        "penal.fe-publica"
+      ],
+      "dispositivos": [
+        "CP 308"
+      ],
+      "exp": "`CP 308` pune quem **usa** como próprio documento alheio (Remo) e quem **cede** a outrem documento próprio ou **de terceiro** para que dele se utilize (Capitolina). Rômulo não sabia de nada: não há crime culposo nesse tipo. Não há isenção de pena para a mãe. É crime contra a fé pública, não contra a Administração.",
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O crime do `CP 308` é contra a **fé pública**, não contra a Administração Pública. Remo e Capitolina o cometem, mas o bem jurídico está errado.",
+        "B": "Rômulo não sabia que o documento foi cedido e **não há modalidade culposa** no `CP 308`. Só respondem Remo, que **usa** o documento alheio, e Capitolina, que o **cede** para uso de outrem.",
+        "C": "O `CP 308` pune quem **usa** como próprio documento de identidade alheio (Remo) e quem **cede** a outrem documento próprio ou **de terceiro** para que dele se utilize (Capitolina). Rômulo nada sabia e não comete crime.",
+        "D": "Capitolina também comete o crime: o `CP 308` pune não só quem usa documento alheio, mas também quem **cede** a outrem, para que dele se utilize, documento próprio ou **de terceiro**.",
+        "E": "O `CP 308` não prevê **isenção de pena** para quem cede o documento, nem para a mãe. Capitolina responde por ceder documento de terceiro para uso de outrem, e Remo por usá-lo como próprio."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#30",
+      "tipo": "me",
+      "numero": 30,
+      "enunciado": "São requisitos legais inafastáveis para a realização de acordo de não persecução penal:",
+      "alt": {
+        "A": "insignificância do bem jurídico lesado no caso concreto e aquiescência da vítima.",
+        "B": "reparação do dano e não ter gozado o agente, nos últimos 5 anos, do mesmo benefício.",
+        "C": "infração penal sem violência ou grave ameaça e pena mínima inferior a 4 anos.",
+        "D": "restituição da coisa à vítima e primariedade.",
+        "E": "inexistência de infrações penais pretéritas, ainda que insignificantes, e confissão formal da prática da infração penal."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CPP 28-A"
+      ],
+      "exp": "Requisitos do `CPP 28-A, caput`: não ser caso de arquivamento, **confissão formal e circunstancial**, infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**. Reparação do dano é condição do acordo, que pode ser dispensada se impossível (B); infrações pretéritas **insignificantes** não impedem o acordo (`§2º, II`), o que derruba (E).",
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Nem insignificância nem concordância da vítima estão entre os requisitos do acordo. O `CPP 28-A` exige não ser caso de arquivamento, **confissão formal e circunstancial**, infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**.",
+        "B": "A reparação do dano é **condição** do acordo e é dispensada quando impossível (`CPP 28-A I`), logo não é inafastável. Os requisitos do caput são confissão formal e circunstancial, infração sem violência ou grave ameaça e pena mínima inferior a 4 anos.",
+        "C": "O `CPP 28-A` exige infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**, além de confissão formal e circunstancial e de não ser caso de arquivamento.",
+        "D": "A restituição da coisa à vítima é **condição** do acordo, dispensada quando impossível (`CPP 28-A I`), logo não é inafastável. Os requisitos do caput são confissão formal e circunstancial, infração sem violência ou grave ameaça e pena mínima inferior a 4 anos.",
+        "E": "Infrações penais pretéritas **insignificantes não impedem** o acordo (`CPP 28-A §2º II`). A confissão formal e circunstancial é exigida, mas o primeiro requisito apontado não existe."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#31",
+      "tipo": "me",
+      "numero": 31,
+      "enunciado": "No caso de menor de 18 anos ofendido em crime que demanda ação penal privada e colidindo os interesses do menor com os de seu(s) representante(s) legal(is),",
+      "alt": {
+        "A": "será nomeado curador especial pelo juiz, de ofício ou a requerimento do Ministério Público.",
+        "B": "será nomeado tutor ad hoc pelo juiz, de ofício ou a requerimento do Ministério Público.",
+        "C": "a ação penal será pública, condicionada à representação de qualquer parente do ofendido.",
+        "D": "a ação penal será pública incondicionada.",
+        "E": "ficam suspensos os prazos de decadência e prescrição, até que o ofendido complete 18 anos."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CPP 33"
+      ],
+      "exp": "`CPP 33`: se o ofendido for menor de 18 anos (ou incapaz) e os interesses colidirem com os do representante legal, o direito de queixa poderá ser exercido por **curador especial**, nomeado pelo juiz **de ofício ou a requerimento do MP**. A ação não muda de natureza.",
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Se os interesses do ofendido menor de 18 anos colidem com os do representante legal, o direito de queixa pode ser exercido por **curador especial**, nomeado pelo juiz **de ofício ou a requerimento do MP** (`CPP 33`).",
+        "B": "A lei não fala em tutor ad hoc. Havendo colisão de interesses, o direito de queixa do menor é exercido por **curador especial**, nomeado pelo juiz de ofício ou a requerimento do MP (`CPP 33`).",
+        "C": "A colisão de interesses **não muda a natureza da ação**, que continua privada. A solução legal é a nomeação de **curador especial** pelo juiz, de ofício ou a requerimento do MP, para exercer o direito de queixa (`CPP 33`).",
+        "D": "A ação **continua privada**: a colisão de interesses não a transforma em pública. O direito de queixa passa a ser exercido por **curador especial**, nomeado pelo juiz de ofício ou a requerimento do MP (`CPP 33`).",
+        "E": "A lei não prevê suspensão de prazos até a maioridade. Para a colisão de interesses, a solução é a nomeação de **curador especial** pelo juiz, de ofício ou a requerimento do MP, para exercer o direito de queixa (`CPP 33`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#32",
+      "tipo": "me",
+      "numero": 32,
+      "enunciado": "No que concerne à competência, será determinada, de regra, pelo local da infração. Quando incerto o limite territorial entre duas ou mais jurisdições, ou quando incerta a jurisdição por ter sido a infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência se estabelecerá",
+      "alt": {
+        "A": "pelo endereço da autoridade policial que registrou a ocorrência.",
+        "B": "pelo domicílio da vítima.",
+        "C": "pelo domicílio do acusado.",
+        "D": "pela prevenção.",
+        "E": "na capital do respectivo Estado."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.competencia"
+      ],
+      "dispositivos": [
+        "CPP 70 §3º"
+      ],
+      "exp": "`CPP 70, §3º`: limite territorial incerto ou infração nas divisas de duas ou mais jurisdições → competência firmada pela **prevenção**.",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O endereço da autoridade policial não define competência. Com limite territorial incerto ou infração nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "B": "O domicílio da vítima não resolve esse caso. Com limite territorial incerto ou infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "C": "O domicílio do réu só regula a competência quando **não se conhece o lugar da infração** (`CPP 72`). Com limite territorial incerto ou infração nas divisas de jurisdições, vale a **prevenção** (`CPP 70 §3º`).",
+        "D": "Quando é incerto o limite territorial entre jurisdições, ou a infração foi consumada ou tentada nas divisas de duas ou mais delas, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "E": "A lei não desloca o caso para a capital do Estado. Com limite territorial incerto ou infração nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#33",
+      "tipo": "me",
+      "numero": 33,
+      "enunciado": "É possível a determinação, de ofício, da produção de provas antecipadas pelo juiz antes do início da ação penal?",
+      "alt": {
+        "A": "Não, por ausência de previsão legal e ofensa ao sistema inquisitório.",
+        "B": "Sim, mas depende de prévia consulta e concordância do Ministério Público.",
+        "C": "Não, por ausência de previsão legal.",
+        "D": "Sim, mas depende da urgência e relevância da prova, bem como da necessidade, adequação e proporcionalidade da medida.",
+        "E": "Sim, mas depende de prévia ciência do acusado, a fim de garantir o contraditório."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.prova"
+      ],
+      "dispositivos": [
+        "CPP 156 I"
+      ],
+      "exp": "`CPP 156, I`: o juiz pode, **de ofício**, mesmo **antes de iniciada a ação penal**, ordenar a produção antecipada de provas **urgentes e relevantes**, observando **necessidade, adequação e proporcionalidade**. A banca cobrou a letra da lei.",
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Há **previsão legal expressa**: o juiz pode, de ofício, mesmo antes de iniciada a ação penal, ordenar a produção antecipada de provas **urgentes e relevantes**, observando necessidade, adequação e proporcionalidade (`CPP 156 I`).",
+        "B": "A lei não condiciona a medida à concordância do MP. O juiz pode agir **de ofício**, mesmo antes da ação penal, se as provas forem **urgentes e relevantes** e a medida for necessária, adequada e proporcional (`CPP 156 I`).",
+        "C": "Há **previsão legal expressa**: o `CPP 156 I` permite ao juiz, de ofício e mesmo antes de iniciada a ação penal, ordenar a produção antecipada de provas urgentes e relevantes.",
+        "D": "O juiz pode, **de ofício**, mesmo **antes de iniciada a ação penal**, ordenar a produção antecipada de provas **urgentes e relevantes**, observando a **necessidade, adequação e proporcionalidade** da medida (`CPP 156 I`).",
+        "E": "A lei não exige prévia ciência do acusado. Os requisitos são provas **urgentes e relevantes** e medida necessária, adequada e proporcional; preenchidos, o juiz pode ordená-la de ofício antes da ação penal (`CPP 156 I`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#34",
+      "tipo": "me",
+      "numero": 34,
+      "enunciado": "Nos termos dos artigos 218 e 219, do Código de Processo Penal (CPP), a testemunha regularmente intimada que deixa de comparecer sem motivo justificado fica sujeita a",
+      "alt": {
+        "A": "ser conduzida por oficial de justiça; aplicação de multa; eventual processo penal por crime de desobediência; condenação ao pagamento das custas da diligência, apenas.",
+        "B": "eventual processo penal por crime de desobediência; condenação ao pagamento das custas da diligência, apenas.",
+        "C": "aplicação de multa; eventual processo penal por crime de desobediência; condenação ao pagamento das custas da diligência, apenas.",
+        "D": "condenação ao pagamento das custas da diligência, apenas.",
+        "E": "que sua apresentação seja requisitada à autoridade policial; ser conduzida por oficial de justiça; aplicação de multa; eventual processo penal por crime de desobediência; condenação ao pagamento das custas da diligência."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-penal.prova.testemunhas"
+      ],
+      "dispositivos": [
+        "CPP 218",
+        "CPP 219"
+      ],
+      "exp": "`CPP 218`: o juiz pode **requisitar à autoridade policial** a apresentação da testemunha ou determinar que seja **conduzida por oficial de justiça**. `CPP 219`: além disso, **multa**, processo por **desobediência** e **custas da diligência**. Só (E) lista todas as consequências.",
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A lista está incompleta e o \"apenas\" a torna errada: falta a possibilidade de o juiz **requisitar à autoridade policial** a apresentação da testemunha (`CPP 218`), ao lado de condução, multa, desobediência e custas (`CPP 219`).",
+        "B": "Faltam consequências: o juiz também pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`), e aplicar **multa** (`CPP 219`).",
+        "C": "Faltam consequências: o juiz também pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`).",
+        "D": "As custas da diligência não são a única consequência: cabem requisição à autoridade policial ou **condução por oficial de justiça** (`CPP 218`), além de **multa** e processo por **desobediência** (`CPP 219`).",
+        "E": "O juiz pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`), e ainda aplicar **multa**, sem prejuízo do processo por **desobediência**, e condená-la nas **custas** da diligência (`CPP 219`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#35",
+      "tipo": "me",
+      "numero": 35,
+      "enunciado": "De acordo com o artigo 284 do CPP, admite-se o emprego de força para a execução de prisão na(s) seguinte(s) hipótese(s):",
+      "alt": {
+        "A": "resistência do preso, apenas.",
+        "B": "resistência ou tentativa de fuga do preso, apenas.",
+        "C": "desobediência ou desacato ou resistência ou tentativa de fuga do preso, apenas.",
+        "D": "discrepância de força física entre o executor e o preso ou desobediência ou desacato ou resistência ou tentativa de fuga do preso.",
+        "E": "desacato ou resistência ou tentativa de fuga do preso, apenas."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-penal.prisao.cumprimento"
+      ],
+      "dispositivos": [
+        "CPP 284"
+      ],
+      "exp": "`CPP 284`: não se permite o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga** do preso. Desobediência e desacato não estão no artigo.",
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não é só a resistência: o emprego de força indispensável é admitido no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "B": "Na execução da prisão não se permite o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "C": "Desobediência e desacato não estão no artigo. O emprego de força só é permitido, na medida do indispensável, no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "D": "Diferença de força física, desobediência e desacato não autorizam força. Só se admite a força **indispensável** no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "E": "Desacato não está no artigo. O emprego de força só é permitido, na medida do indispensável, no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#36",
+      "tipo": "me",
+      "numero": 36,
+      "enunciado": "No que concerne ao serviço como juiz leigo (jurado) no Tribunal do Juri, a lei processual penal expressamente prevê:",
+      "alt": {
+        "A": "o fato de o cidadão prestar efetivo serviço não faz presumir sua idoneidade moral.",
+        "B": "o jurado convocado, mesmo que não compareça à sessão, não poderá ser descontado em vencimentos ou salário.",
+        "C": "a dispensa do serviço deve ser motivada e é realizada pelo Diretor da respectiva serventia.",
+        "D": "embora obrigatório, é possível a recusa ao serviço, fundada, por exemplo, em convicção política.",
+        "E": "o jurado é livre para exercer suas convicções no julgamento e, portanto, fica isento de qualquer responsabilidade civil ou criminal."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.procedimentos.juri"
+      ],
+      "dispositivos": [
+        "CPP 438",
+        "CPP 439",
+        "CPP 441",
+        "CPP 445"
+      ],
+      "exp": "`CPP 438`: a recusa ao serviço do júri **fundada em convicção religiosa, filosófica ou política** importa o dever de prestar serviço alternativo. (A) o efetivo exercício **presume** idoneidade moral (`CPP 439`); (B) o desconto é vedado ao jurado que **comparecer** (`CPP 441`); (E) o jurado responde criminalmente como os juízes togados (`CPP 445`).",
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É o contrário: o exercício efetivo da função de jurado constitui serviço público relevante e **estabelece presunção de idoneidade moral** (`CPP 439`).",
+        "B": "A vedação de desconto nos vencimentos ou salário protege só o jurado sorteado que **comparecer** à sessão do júri (`CPP 441`).",
+        "C": "Quem dispensa o jurado é o **juiz presidente**, por decisão motivada consignada na ata dos trabalhos (`CPP 444`), não o diretor da serventia.",
+        "D": "O serviço do júri é obrigatório, mas a lei admite a recusa **fundada em convicção religiosa, filosófica ou política**, que importa o dever de prestar **serviço alternativo** (`CPP 438`).",
+        "E": "O jurado não fica isento: no exercício da função ou a pretexto de exercê-la, **responde criminalmente** nos mesmos termos que os juízes togados (`CPP 445`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#37",
+      "tipo": "me",
+      "numero": 37,
+      "enunciado": "Determina ao oficial de justiça a lei processual penal que, no rito do Tribunal do Juri, a recolha das cédulas dos votos dos jurados seja feita em duas urnas: uma para os votos efetivos e uma outra para os descartes. De acordo com o texto legal, qual a justificativa de tal determinação?",
+      "alt": {
+        "A": "Evitar contradição nas respostas.",
+        "B": "Evitar confusão na quesitação.",
+        "C": "Garantir a incomunicabilidade dos jurados.",
+        "D": "Evitar intervenções inconvenientes.",
+        "E": "Assegurar o sigilo do voto."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-penal.procedimentos.juri",
+        "processo-penal.oficial-de-justica"
+      ],
+      "dispositivos": [
+        "CPP 487"
+      ],
+      "exp": "`CPP 487`: **para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas dos votos e as não utilizadas.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "B": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "C": "A incomunicabilidade dos jurados não é a razão dada pela lei para as duas urnas: elas servem **para assegurar o sigilo do voto** (`CPP 487`).",
+        "D": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "E": "**Para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas correspondentes aos votos e as não utilizadas (`CPP 487`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#38",
+      "tipo": "me",
+      "numero": 38,
+      "enunciado": "“As infrações penais de menor potencial ofensivo quando, por motivo de conexão ou continência, forem julgadas pelo Juízo Comum ou Tribunal do Júri, ficam sujeitas à aplicação dos institutos da transação penal e da composição civil dos danos.” Diante dessa afirmação e nesse contexto, assinale a alternativa correta.",
+      "alt": {
+        "A": "O Tribunal do Juri pode aplicar, apenas, o instituto da transação penal.",
+        "B": "O Juízo Comum não pode aplicar o instituto da composição civil dos danos.",
+        "C": "Todas as informações do texto são verdadeiras.",
+        "D": "Não é possível deslocar a competência do Juizado Especial Criminal para o Tribunal do Juri.",
+        "E": "Apenas o fenômeno da continência é que desloca a competência originária do Juizado Especial Criminal."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-penal.juizados"
+      ],
+      "dispositivos": [
+        "L9099 60 p.ú."
+      ],
+      "exp": "A frase reproduz o `art. 60, p.ú., da Lei 9.099/95`: na reunião de processos por conexão ou continência perante o juízo comum ou o júri, aplicam-se a **transação penal** e a **composição civil dos danos**. Tudo verdadeiro.",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não é só a transação penal: na reunião de processos perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis** (`L9099 60 p.ú.`).",
+        "B": "O juízo comum pode aplicar a composição civil: na reunião de processos perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis** (`L9099 60 p.ú.`).",
+        "C": "A frase reproduz o `L9099 60 p.ú.`: na reunião de processos por **conexão ou continência** perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis**.",
+        "D": "A lei prevê exatamente esse deslocamento: por **conexão ou continência**, a infração de menor potencial pode ser julgada no juízo comum ou no **tribunal do júri**, mantidas a transação penal e a composição civil (`L9099 60 p.ú.`).",
+        "E": "Não é só a continência: tanto a **conexão quanto a continência** podem levar a infração de menor potencial ofensivo ao juízo comum ou ao júri (`L9099 60 p.ú.`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#39",
+      "tipo": "me",
+      "numero": 39,
+      "enunciado": "Quando o juiz profere uma decisão de ofício acerca de uma questão de ordem pública, sem que sobre ela se tenha garantido às partes oportunidade para prévia manifestação, é correto dizer que a decisão estará",
+      "alt": {
+        "A": "simplesmente aplicando a regra processual constante do Código de Processo Civil que lhe autoriza decidir de ofício sobre matéria de ordem pública.",
+        "B": "garantindo a aplicação da tradicional e vigente regra processual da mihi factum, dabo tibi ius (“dá-me os fatos que te darei o direito”).",
+        "C": "sujeita ao chamado reexame necessário, momento no qual será aberta às partes a oportunidade de manifestação.",
+        "D": "dando aplicação ao princípio da eficiência e da duração razoável do processo, uma vez que isto contribui para a celeridade na prestação jurisdicional.",
+        "E": "agindo em violação ao princípio do contraditório, o qual envolve a participação com influência na formação do resultado e a chamada “não surpresa”."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-civil.normas"
+      ],
+      "dispositivos": [
+        "CPC 9",
+        "CPC 10"
+      ],
+      "exp": "`CPC 10`: o juiz não pode decidir com base em fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, **ainda que se trate de matéria que deva decidir de ofício**. É a vedação à decisão surpresa, ligada ao contraditório (`CPC 9`).",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Poder decidir **de ofício** não dispensa ouvir as partes: o `CPC 10` proíbe decidir com base em fundamento sobre o qual elas não tiveram oportunidade de se manifestar, **ainda que** a matéria seja daquelas que o juiz deve conhecer de ofício.",
+        "B": "Conhecer o direito não autoriza surpreender as partes: o `CPC 10` exige que elas possam se manifestar antes sobre o fundamento da decisão, mesmo em matéria de ordem pública. Decidir sem ouvi-las fere o **contraditório** (`CPC 9`), não aplica regra vigente.",
+        "C": "O reexame necessário (`CPC 496`) é condição de eficácia de certas sentenças contra a Fazenda Pública, não meio de corrigir decisão surpresa. A regra é ouvir as partes **antes** de decidir, mesmo em matéria de ofício (`CPC 10`).",
+        "D": "Celeridade e eficiência não autorizam suprimir o contraditório: o `CPC 10` veda decidir sobre fundamento não submetido às partes, **ainda que** se trate de matéria que o juiz deva decidir de ofício.",
+        "E": "O `CPC 10` proíbe a **decisão surpresa**: o juiz não pode decidir com base em fundamento sobre o qual as partes não puderam se manifestar, mesmo em matéria de ofício. É desdobramento do **contraditório** como participação com influência (`CPC 9`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#40",
+      "tipo": "me",
+      "numero": 40,
+      "enunciado": "João Paulo, brasileiro e domiciliado em São Paulo – SP, após realizar aposta em jogo virtual divulgado por influenciador na internet, sente-se lesado sob o argumento de que em nenhum momento o aplicativo ou o influenciador que divulgou o jogo informaram a ele adequadamente a respeito dos riscos e probabilidades de perdas envolvidos na aposta. O influenciador é brasileiro, mas domiciliado em Miami-EUA. Já a empresa dona do aplicativo utilizado para o jogo tem a sua sede administrativa em Londres, no Reino Unido, e todos os servidores e equipes operacionais localizados em Bucareste, na Romênia, não contando com representantes legais no Brasil. A respeito desta situação hipotética, é correto afirmar com base no Código de Processo Civil que",
+      "alt": {
+        "A": "compete à autoridade judiciária brasileira processar e julgar ações decorrentes de relações de consumo quando o consumidor, como no caso, tiver domicílio no Brasil.",
+        "B": "João Paulo terá de ingressar com ação judicial na justiça do estado americano da Flórida, para possibilitar a discussão de eventual responsabilidade do influenciador.",
+        "C": "não pode haver responsabilização do influenciador por falha na prestação de informações, por ser este um mero prestador de serviços contratado pela empresa londrina.",
+        "D": "a justiça brasileira poderá ser acionada por João Paulo contra o influenciador, em razão da nacionalidade brasileira do réu e também do autor da ação.",
+        "E": "não cabe à autoridade judiciária brasileira processar e julgar ações como as do caso, movidas contra réus domiciliados no exterior por fatos ocorridos no exterior."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-civil.jurisdicao"
+      ],
+      "dispositivos": [
+        "CPC 22 II"
+      ],
+      "exp": "`CPC 22, II`: compete à autoridade judiciária brasileira processar e julgar as ações decorrentes de **relações de consumo**, quando o **consumidor tiver domicílio ou residência no Brasil**. A nacionalidade das partes (D) não é critério de jurisdição.",
+      "recursos": 2,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo `CPC 22 II`, cabe à autoridade judiciária brasileira julgar as ações decorrentes de **relações de consumo** quando o consumidor tiver **domicílio ou residência no Brasil**, como João Paulo, domiciliado em São Paulo.",
+        "B": "João Paulo não precisa ir à Justiça da Flórida: como consumidor domiciliado no Brasil, pode propor a ação aqui, pois o `CPC 22 II` dá à autoridade judiciária brasileira competência para as ações decorrentes de **relações de consumo** nesse caso.",
+        "C": "O CPC não afasta a ação contra o influenciador: nas **relações de consumo** com consumidor domiciliado no Brasil, a Justiça brasileira pode julgar a causa (`CPC 22 II`), e eventual responsabilidade é questão de mérito, não de jurisdição.",
+        "D": "A **nacionalidade** das partes não é critério de jurisdição no CPC. O que atrai a Justiça brasileira no caso é a **relação de consumo** com consumidor domiciliado no Brasil (`CPC 22 II`).",
+        "E": "Mesmo com réus domiciliados no exterior, cabe à autoridade judiciária brasileira julgar ações decorrentes de **relações de consumo** quando o consumidor tiver domicílio ou residência no Brasil (`CPC 22 II`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#41",
+      "tipo": "me",
+      "numero": 41,
+      "enunciado": "O artigo 36, § 2o, do Código de Processo Civil prevê, ao tratar do procedimento da carta rogatória perante o Superior Tribunal de Justiça, que, em “qualquer hipótese, é vedada a revisão do mérito do pronunciamento judicial estrangeiro pela autoridade judiciária brasileira.” Neste contexto, é correto afirmar que o tipo de análise realizado nesses casos pela autoridade jurisdicional brasileira recebe o nome de:",
+      "alt": {
+        "A": "juízo prestacional.",
+        "B": "juízo perfunctório.",
+        "C": "juízo rogatório.",
+        "D": "juízo de delibação.",
+        "E": "análise preliminar."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.cooperacao",
+        "processo-civil.comunicacao.cartas"
+      ],
+      "dispositivos": [
+        "CPC 36 §2º"
+      ],
+      "exp": "Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, sem rever o mérito: é o **juízo de delibação** (`CPC 36, §2º`).",
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Juízo prestacional\" não é o nome dessa análise. Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, sem rever o mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "B": "\"Juízo perfunctório\" indica cognição superficial, não o nome técnico dessa análise. Na carta rogatória, o STJ verifica requisitos formais e ordem pública, sem rever o mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "C": "\"Juízo rogatório\" não é o nome dessa análise. Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, vedada a revisão do mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "D": "Na carta rogatória passiva, o STJ não rediscute o mérito da decisão estrangeira (`CPC 36 §2º`); verifica só requisitos formais e a ordem pública. Essa análise limitada chama-se **juízo de delibação**.",
+        "E": "\"Análise preliminar\" é expressão genérica, não o nome técnico. A verificação só de requisitos formais e da ordem pública, sem revisão do mérito (`CPC 36 §2º`), chama-se **juízo de delibação**."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#42",
+      "tipo": "me",
+      "numero": 42,
+      "enunciado": "Uma empresa pública estadual do setor de saneamento público é alienada, pelo estado da Federação que a controla, à União Federal, como parte de um processo de refinanciamento de dívidas deste estado junto à União, autorizado por lei complementar federal. Supondo a manutenção da totalidade do capital social da empresa sob titularidade da União, passando a empresa a ser uma empresa pública federal, é correto afirmar que as ações judiciais eventualmente existentes para reparação de danos, em trâmite na justiça comum estadual, que contem com a empresa como uma das partes",
+      "alt": {
+        "A": "não sofrerá qualquer modificação na sua tramitação, considerando o princípio processual da perpetuatio jurisdictionis.",
+        "B": "deverão ser remetidas à justiça federal, considerando-se modificação no estado de uma das partes capaz de alterar a competência absoluta em razão da pessoa.",
+        "C": "estarão sujeitas à suscitação de conflito de competência entre a justiça federal e estadual, a ser dirimido em caráter originário pelo Superior Tribunal de Justiça.",
+        "D": "deverão ser mantidas na justiça estadual, pois a mudança operada não modifica competência absoluta, mas apenas a competência relativa em razão da pessoa.",
+        "E": "terão o seu destino dependente da matéria de que tratem, devendo ser submetidas à justiça federal apenas as ações em que a própria União tenha algum interesse direto."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-civil.competencia.justica-federal"
+      ],
+      "dispositivos": [
+        "CPC 43",
+        "CPC 45",
+        "CF 109 I"
+      ],
+      "exp": "Competência em razão da pessoa é **absoluta** (`CF 109, I`). A perpetuatio jurisdictionis (`CPC 43`) cede quando houver alteração de competência absoluta, e o `CPC 45` manda remeter os autos à Justiça Federal quando intervier empresa pública federal.",
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A perpetuatio jurisdictionis (`CPC 43`) tem exceção: cede quando há alteração de **competência absoluta**. A competência da Justiça Federal em razão da pessoa é absoluta (`CF 109 I`), e o `CPC 45` manda remeter os autos quando intervém empresa pública federal.",
+        "B": "Competência em razão da pessoa é **absoluta** (`CF 109 I`); por isso a perpetuatio jurisdictionis cede (`CPC 43`), e o `CPC 45` manda **remeter os autos à Justiça Federal** quando nela intervier empresa pública federal.",
+        "C": "Não há conflito a suscitar: o `CPC 45` manda o juiz estadual **remeter os autos** à Justiça Federal quando intervier empresa pública federal, cuja presença fixa competência absoluta em razão da pessoa (`CF 109 I`).",
+        "D": "A competência da Justiça Federal em razão da pessoa é **absoluta**, não relativa (`CF 109 I`). Essa alteração afasta a perpetuatio jurisdictionis (`CPC 43`) e impõe a remessa dos autos (`CPC 45`).",
+        "E": "O critério é a **pessoa**, não a matéria nem o interesse direto da União: basta a empresa pública federal ser parte para atrair a Justiça Federal (`CF 109 I`), com remessa dos autos (`CPC 45`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#43",
+      "tipo": "me",
+      "numero": 43,
+      "enunciado": "A Prefeitura de um determinado Município, ao ser processada por um usuário do seu sistema de transporte coletivo por ônibus, identificando que a lesão ao usuário ocorreu por culpa grave do motorista, que não seguiu os protocolos de segurança estipulados pela Prefeitura, denuncia a lide a este. Caso a denunciação da lide não seja deferida pelo juiz da causa:",
+      "alt": {
+        "A": "a Prefeitura perderá o direito de exercer o seu direito regressivo em razão do trânsito em julgado da questão incidental suscitada.",
+        "B": "será porque, na situação prevista, não é admissível a denunciação da lide, mas sim o chamamento ao processo.",
+        "C": "não caberá recurso de tal decisão interlocutória pela Prefeitura ao Tribunal de Justiça competente.",
+        "D": "o eventual direito regressivo da Prefeitura contra o motorista poderá ser exercido por ação autônoma.",
+        "E": "será porque a denunciação da lide só é admitida nos casos de direito regressivo em razão de dolo do agente e não no caso de culpa grave."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.intervencao.denunciacao"
+      ],
+      "dispositivos": [
+        "CPC 125 §1º",
+        "CPC 1015 IX",
+        "CF 37 §6º"
+      ],
+      "exp": "`CPC 125, §1º`: indeferida a denunciação, o direito regressivo é exercido por **ação autônoma**. (C) cabe agravo de instrumento (`CPC 1.015, IX`); (E) o regresso cabe por **dolo ou culpa** (`CF 37, §6º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Indeferida a denunciação, a Prefeitura **não perde** o direito de regresso: o `CPC 125 §1º` prevê que ele será exercido por **ação autônoma**.",
+        "B": "O chamamento ao processo (`CPC 130`) serve ao fiador e aos devedores solidários, não ao regresso do ente contra o agente. A pretensão regressiva contra o motorista é típica de **denunciação da lide** (`CPC 125 II`).",
+        "C": "Cabe recurso: a decisão interlocutória que versa sobre **intervenção de terceiros** é impugnável por **agravo de instrumento** (`CPC 1015 IX`).",
+        "D": "Pelo `CPC 125 §1º`, se a denunciação for indeferida, deixar de ser promovida ou não for permitida, o direito regressivo será exercido por **ação autônoma**.",
+        "E": "O regresso do Poder Público contra o agente cabe nos casos de **dolo ou culpa** (`CF 37 §6º`), o que inclui a culpa grave do motorista."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#44",
+      "tipo": "me",
+      "numero": 44,
+      "enunciado": "A oitiva de testemunha que residir em comarca, seção ou subseção judiciária diversa daquela onde tramita o processo",
+      "alt": {
+        "A": "deverá ser realizada por carta precatória ao juiz da comarca na qual reside a testemunha.",
+        "B": "poderá ser realizada por meio de envio de depoimento por escrito da testemunha, representada necessariamente por advogado.",
+        "C": "não é autorizada no caso de ações relativas ao direito de família ou ao estado civil das pessoas.",
+        "D": "poderá ser realizada por qualquer recurso tecnológico de transmissão e recepção de sons e imagens em tempo real.",
+        "E": "deverá ser realizada por carta rogatória ao juiz da comarca na qual reside a testemunha."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.provas.testemunhal"
+      ],
+      "dispositivos": [
+        "CPC 453 §1º"
+      ],
+      "exp": "`CPC 453, §1º`: a oitiva de testemunha que reside em outra comarca, seção ou subseção **poderá** ser feita por videoconferência ou outro recurso de sons e imagens em tempo real. (A) torna obrigatória a precatória; (E) rogatória é para outro país.",
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A carta precatória não é obrigatória: o `CPC 453 §1º` permite que a testemunha de outra comarca, seção ou subseção seja ouvida **por videoconferência** ou outro recurso de sons e imagens em tempo real.",
+        "B": "O CPC não prevê depoimento escrito de testemunha representada por advogado: a testemunha depõe na audiência ou por carta (`CPC 453`), e a de outra comarca pode ser ouvida **por videoconferência** (`CPC 453 §1º`).",
+        "C": "Não há essa restrição para ações de família ou de estado: o `CPC 453 §1º` permite, de modo geral, ouvir a testemunha de outra comarca **por videoconferência** ou outro recurso de sons e imagens em tempo real.",
+        "D": "O `CPC 453 §1º` permite que a oitiva de testemunha residente em outra comarca, seção ou subseção judiciária seja feita **por videoconferência** ou outro recurso tecnológico de sons e imagens em tempo real.",
+        "E": "Carta rogatória é para ato a cumprir por **autoridade estrangeira** (`CPC 237 II`); para outra comarca no Brasil, usa-se precatória, e a oitiva pode ser feita **por videoconferência** (`CPC 453 §1º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "Uma empresa, “Construtora Alfa S.A.”, ajuíza ação de cobrança contra um município, buscando o pagamento de valores devidos por um contrato de obras públicas. Após o trâmite regular, a empresa obtém decisão judicial favorável, condenando o município a pagar R$ 10 milhões. Após o trânsito em julgado, a empresa inicia a execução da sentença, requerendo a intimação da Fazenda Pública para pagamento. Ao ser intimada, a Fazenda Pública impugna a execução argumentando que a obrigação de pagar os R$ 10 milhões é inexigível, pois se fundamenta em uma interpretação de lei que o Supremo Tribunal Federal (STF) considerou inconstitucional, em sede de controle difuso, em decisão com efeitos ex tunc, antes do trânsito em julgado da decisão que fixou a obrigação. Com base nesta situação hipotética, é correto afirmar que:",
+      "alt": {
+        "A": "ainda que a decisão não fosse proferida com efeitos ex tunc, mas sim ex nunc, seria procedente a alegação de inexigibilidade da dívida.",
+        "B": "caso a Fazenda também identifique que há excesso na execução de R$ 10 milhões, tal excesso deverá ser discutido posteriormente à expedição de eventual precatório.",
+        "C": "no caso descrito a dívida realmente deve ser considerada inexigível pelo juízo da execução, independentemente de ação rescisória.",
+        "D": "a decisão anterior do STF em controle difuso de constitucionalidade não afasta a exigibilidade da obrigação decorrente de ação judicial com trânsito em julgado.",
+        "E": "a apresentação de impugnação, no caso, não afasta a necessidade de apresentação da ação rescisória pela Fazenda Pública."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.execucao.fazenda"
+      ],
+      "dispositivos": [
+        "CPC 535 §5º",
+        "CPC 535 §7º",
+        "CPC 535 §8º"
+      ],
+      "exp": "`CPC 535, §5º`: é **inexigível** a obrigação fundada em lei declarada inconstitucional pelo STF, **em controle concentrado ou difuso**, e o `§7º` exige que a decisão do STF seja **anterior** ao trânsito em julgado, como no caso: basta a impugnação, sem rescisória (que só cabe se a decisão do STF for posterior, `§8º`). (B) o excesso de execução se alega na própria impugnação (`CPC 535, IV`).",
+      "recursos": 13,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A inexigibilidade do `CPC 535 §5º` depende de a decisão do STF alcançar a obrigação; o `CPC 535 §6º` permite ao STF **modular os efeitos** no tempo, e essa modulação pode preservar a obrigação. Não se pode afirmar que a alegação seria procedente com efeitos ex nunc.",
+        "B": "O excesso de execução não fica para depois do precatório: a Fazenda deve alegá-lo **na própria impugnação** (`CPC 535 IV`).",
+        "C": "É **inexigível** a obrigação fundada em lei declarada inconstitucional pelo STF em controle concentrado **ou difuso** (`CPC 535 §5º`), desde que a decisão do STF seja **anterior** ao trânsito em julgado (`CPC 535 §7º`), como no caso: basta a impugnação.",
+        "D": "Também o controle **difuso** gera inexigibilidade: o `CPC 535 §5º` abrange lei declarada inconstitucional pelo STF em controle concentrado ou difuso, e a decisão anterior ao trânsito em julgado pode ser alegada na impugnação (`CPC 535 §7º`).",
+        "E": "Como a decisão do STF é **anterior** ao trânsito em julgado, basta a impugnação (`CPC 535 §7º`). A ação rescisória só é necessária se a decisão do STF for **posterior** ao trânsito (`CPC 535 §8º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2024#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "Segundo estabelece a Lei no 9.099/1995 e com base na jurisprudência dos tribunais superiores no Brasil, nos processos em trâmite nos Juizados Especiais Cíveis, as intimações ocorrerão",
+      "alt": {
+        "A": "por qualquer meio idôneo de comunicação, o que inclui meios eletrônicos e virtuais.",
+        "B": "preferencialmente por correspondência com aviso de recebimento em mão própria ou de terceiros.",
+        "C": "necessariamente por correspondência com aviso de recebimento em mão própria.",
+        "D": "preferencialmente em audiência considerando-se cientes as partes a partir da sua oitiva.",
+        "E": "preferencialmente na pessoa do seu advogado devidamente constituído para a prática de atos processuais."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-civil.juizados"
+      ],
+      "dispositivos": [
+        "L9099 19"
+      ],
+      "exp": "`Lei 9.099/95, art. 19`: as intimações são feitas na forma prevista para a citação **ou por qualquer outro meio idôneo de comunicação**, o que a jurisprudência estende aos meios eletrônicos.",
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo `L9099 19`, as intimações nos Juizados se fazem na forma prevista para a citação **ou por qualquer outro meio idôneo de comunicação**, o que a jurisprudência estende aos meios eletrônicos.",
+        "B": "A lei não estabelece preferência pelo correio: as intimações podem ser feitas na forma da citação **ou por qualquer outro meio idôneo de comunicação** (`L9099 19`).",
+        "C": "Não há forma obrigatória: as intimações podem ser feitas na forma da citação **ou por qualquer outro meio idôneo de comunicação** (`L9099 19`).",
+        "D": "A lei não dá preferência à audiência: as partes só se consideram cientes desde logo dos **atos praticados na audiência** (`L9099 19 §1º`); fora daí, a intimação se faz por **qualquer meio idôneo** (`L9099 19`).",
+        "E": "A lei não prioriza a intimação do advogado, até porque nos Juizados a parte pode atuar sem ele em certas causas (`L9099 9`). As intimações se fazem por **qualquer meio idôneo de comunicação** (`L9099 19`)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "prova": "vunesp/tj-sp/oficial-de-justica/2023",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#79",
+      "tipo": "me",
+      "numero": 79,
+      "enunciado": "Juízes do Tribunal Penal Internacional (TPI) em Haia emitiram, nesta sexta-feira (17), mandados de prisão para o presidente russo, Vladimir Putin, e para a Comissária para os Direitos da Criança da Rússia, Alekseyevna Lvova-Belova, por crimes de guerra em áreas ocupadas na Ucrânia. Os analistas de assuntos internacionais, entretanto, consideram simbólico esse comunicado do TPI porque\n\n(G1. Disponível em: https://shre.ink/aFAX. Acesso em 29.07.2023. Adaptado)",
+      "alt": {
+        "A": "os mandados de prisão expedidos pelo Tribunal são secretos. A divulgação do mandado contra Putin e Alekseyevna anulou a sua aplicabilidade.",
+        "B": "as prisões determinadas pelo Tribunal só podem ser realizadas em Haia, local em que o Tribunal mantém uma força policial.",
+        "C": "o voto de qualidade do representante russo no TPI não foi considerado pelos demais membros do Tribunal.",
+        "D": "a condenação decretada pelo Tribunal deverá ser aprovada pela ONU para ter validade internacional.",
+        "E": "esse Tribunal só tem jurisdição sobre os países que assinaram o Estatuto de Roma, em 1998. A Rússia não é signatária do mencionado Estatuto."
+      },
+      "gab": "E",
+      "temas": [
+        "atualidades.2023"
+      ],
+      "dispositivos": [],
+      "exp": "Os mandados de 17 de março de 2023 foram vistos como simbólicos porque o TPI depende da cooperação dos **Estados-Partes do Estatuto de Roma** para prender acusados, e a Rússia não é parte do Estatuto (retirou sua assinatura em 2016), de modo que não entregará Putin (E). O TPI não tem força policial própria nem exige que a prisão ocorra em Haia (B); a publicidade não anula os mandados (A); não há \"voto de qualidade\" russo no Tribunal (C); e suas decisões não dependem de aprovação da ONU (D)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#80",
+      "tipo": "me",
+      "numero": 80,
+      "enunciado": "O governo brasileiro negou um pedido dos Estados Unidos para extradição de Sergey Vladimirovich Cherkasov, cidadão russo que é suspeito de atuar como espião. Cherkasov, que tem 36 anos, foi detido, em abril de 2022, ao tentar entrar em um país da União Europeia com um passaporte brasileiro em nome de Viktor Muller Ferreira.\n\n(G1. Disponível em https://shre.ink/aFId. Publicado em 27.07.2023. Acesso em 29.07.2023. Adaptado)\n\nO suposto espião russo foi detido",
+      "alt": {
+        "A": "na França.",
+        "B": "na Holanda.",
+        "C": "em Portugal.",
+        "D": "em Luxemburgo.",
+        "E": "na Espanha."
+      },
+      "gab": "B",
+      "temas": [
+        "atualidades.2023"
+      ],
+      "dispositivos": [],
+      "exp": "Cherkasov foi barrado no aeroporto de Amsterdã, na **Holanda** (Países Baixos), quando tentava entrar no país para um estágio no próprio Tribunal Penal Internacional, em Haia, usando a identidade falsa de \"Viktor Muller Ferreira\"; foi deportado ao Brasil, onde acabou condenado por uso de documento falso. França, Portugal, Luxemburgo e Espanha não têm relação com o caso."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#81",
+      "tipo": "me",
+      "numero": 81,
+      "enunciado": "De acordo com o disposto no Estatuto da Pessoa com Deficiência, Lei nº 13.146, de 6 de julho de 2015, profissional de apoio escolar é a pessoa que",
+      "alt": {
+        "A": "acompanha a pessoa com deficiência, podendo ou não desempenhar as funções de atendente pessoal.",
+        "B": "atua em todas as atividades escolares nas quais se fizer necessária, excluídas as atividades de alimentação, higiene e locomoção.",
+        "C": "assiste ou presta cuidados básicos e essenciais à pessoa com deficiência no exercício de suas atividades diárias.",
+        "D": "atua em todos os níveis e modalidades de ensino, em instituições públicas e privadas, excluídas as técnicas ou os procedimentos identificados com profissões legalmente estabelecidas.",
+        "E": "atua apenas nas modalidades escolares relativas às atividades intelectuais."
+      },
+      "gab": "D",
+      "temas": [
+        "direitos-humanos.pcd.conceitos",
+        "direitos-humanos.pcd"
+      ],
+      "dispositivos": [
+        "L13146 3 XIII",
+        "L13146 3 XII",
+        "L13146 3 XIV"
+      ],
+      "exp": "Pelo **art. 3º, XIII**, profissional de apoio escolar é quem exerce atividades de **alimentação, higiene e locomoção** do estudante com deficiência e atua em todas as atividades escolares necessárias, **em todos os níveis e modalidades de ensino, em instituições públicas e privadas, excluídas as técnicas ou os procedimentos identificados com profissões legalmente estabelecidas** (D). (A) é a definição de acompanhante (inciso XIV) e (C), a de atendente pessoal (inciso XII); (B) exclui justamente alimentação, higiene e locomoção, que integram a função; e (E) cria uma restrição inexistente."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#82",
+      "tipo": "me",
+      "numero": 82,
+      "enunciado": "A pessoa com deficiência tem assegurado o direito ao exercício de sua capacidade legal em igualdade de condições com as demais pessoas. No entanto, quando necessário, a pessoa com deficiência será submetida à curatela, conforme a lei.\n\nAcerca do tema, assinale a alternativa correta.",
+      "alt": {
+        "A": "Para emissão de documentos oficiais, não será exigida a situação de curatela da pessoa com deficiência.",
+        "B": "É facultado à pessoa com deficiência, desde que submetida à curatela, a adoção de processo de tomada de decisão apoiada.",
+        "C": "A definição da curatela não alcança o direito ao próprio corpo, à sexualidade, ao patrimônio, à privacidade, à educação, à saúde, ao trabalho e ao voto.",
+        "D": "A curatela afetará tão somente os atos relacionados aos direitos de natureza negocial.",
+        "E": "No caso de pessoa em situação de institucionalização, ao nomear curador, o juiz deve dar preferência, na seguinte ordem, a pessoa que tenha vínculo de natureza afetiva, familiar ou comunitária com o curatelado."
+      },
+      "gab": "A",
+      "temas": [
+        "direitos-humanos.pcd.capacidade-curatela",
+        "direitos-humanos.pcd"
+      ],
+      "dispositivos": [
+        "L13146 86",
+        "L13146 84 §2º",
+        "L13146 85",
+        "L13146 85 §1º",
+        "L13146 85 §3º"
+      ],
+      "exp": "(A) reproduz o **art. 86**: para emissão de documentos oficiais não se exige a situação de curatela. (B) erra porque a tomada de decisão apoiada é facultada à pessoa com deficiência sem depender de curatela (**art. 84, §2º**); (C) troca \"matrimônio\" por \"patrimônio\" (**art. 85, §1º**), e o patrimônio é justamente o que a curatela alcança; (D) omite os atos de natureza **patrimonial** (**art. 85, caput**); e (E) altera a redação do **art. 85, §3º**, que fala em vínculo de natureza familiar, afetiva ou comunitária, sem fixar ordem de preferência."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#83",
+      "tipo": "me",
+      "numero": 83,
+      "enunciado": "O gráfico apresenta o número de acertos na prova de Língua Portuguesa e de Matemática, aplicada a dois candidatos, A e B, em um concurso interno para promoção de cargo:\n\n[Gráfico de colunas \"Número de acertos\": Língua Portuguesa – Candidato A: 21, Candidato B: 15; Matemática – Candidato A: 25, Candidato B: 20.]\n\nSabendo-se que a prova de Língua Portuguesa tinha peso 2 e a de Matemática tinha peso 3 para o cargo em concurso, que cada uma das provas tinha 50 questões, e que a nota de cada prova é igual ao número de acertos correspondente, é correto afirmar que o número de questões de Matemática que o candidato B deveria ter acertado a mais, para que a média aritmética ponderada das notas das suas provas fosse igual à média aritmética ponderada das notas das provas do candidato A, é igual a",
+      "alt": {
+        "A": "20.",
+        "B": "29.",
+        "C": "27.",
+        "D": "9.",
+        "E": "10."
+      },
+      "gab": "D",
+      "temas": [
+        "matematica.media",
+        "matematica.graficos"
+      ],
+      "dispositivos": [],
+      "exp": "Média de A: (2·21 + 3·25)/5 = (42 + 75)/5 = 117/5. Para B igualar, com x acertos em Matemática: (2·15 + 3x)/5 = 117/5 → 30 + 3x = 117 → x = 29. Como B acertou 20, faltaram 29 − 20 = **9** questões (D). (B) 29 é o total de acertos necessário, não o acréscimo; as demais não resultam da conta.",
+      "imagens": [
+        "figuras/q83.png"
+      ],
+      "conferido_em": "prova.pdf p. 20 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#84",
+      "tipo": "me",
+      "numero": 84,
+      "enunciado": "Uma empresa executa serviços aos seus clientes somente de segunda-feira a sexta-feira, independentemente de haver feriado ou não. Para seu cliente X&W, ela executa serviços a cada 12 dias, excluindo-se sábados e domingos, enquanto que para seu cliente W&Z, ela executa serviços a cada 33 dias, também excluindo-se sábados e domingos. No dia 15 de agosto de 2023, uma terça-feira, essa empresa executou serviços para ambos os clientes. Isso significa que a vez imediatamente posterior em que ela executou os serviços para ambos os clientes, em um mesmo dia, foi uma",
+      "alt": {
+        "A": "quinta-feira.",
+        "B": "quarta-feira.",
+        "C": "terça-feira.",
+        "D": "sexta-feira.",
+        "E": "segunda-feira."
+      },
+      "gab": "A",
+      "temas": [
+        "matematica.mmc-mdc",
+        "raciocinio-logico.espacial-temporal"
+      ],
+      "dispositivos": [],
+      "exp": "Os serviços coincidem a cada MMC(12, 33) = 132 dias úteis (12 = 2²·3; 33 = 3·11; MMC = 2²·3·11 = 132). Contando só de segunda a sexta, 132 = 5·26 + 2: são 26 semanas completas (voltando a uma terça) mais 2 dias úteis, terça → quarta → **quinta-feira** (A)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#85",
+      "tipo": "me",
+      "numero": 85,
+      "enunciado": "No ano de 2022, 3 em cada 8 edifícios comercializados em determinada região foram adquiridos pelo empreendimento A&B, que investiu R$ 1,35 bilhão na compra desses edifícios, ao preço médio de R$ 15 milhões cada edifício. Dos edifícios não adquiridos pelo empreendimento A&B e que foram comercializados naquela região, o empreendimento R&T adquiriu metade, ao custo total R$ 1,23 bilhão, o que fez com que o preço médio, por edifício adquirido pela R&T, fosse de",
+      "alt": {
+        "A": "R$ 16,2 milhões.",
+        "B": "R$ 16,5 milhões.",
+        "C": "R$ 16,1 milhões.",
+        "D": "R$ 16,3 milhões.",
+        "E": "R$ 16,4 milhões."
+      },
+      "gab": "E",
+      "temas": [
+        "matematica.razao-proporcao",
+        "matematica.media",
+        "matematica.problemas"
+      ],
+      "dispositivos": [],
+      "exp": "A&B comprou 1 350 ÷ 15 = 90 edifícios, que são 3/8 do total: total = 90 · 8/3 = 240. Não adquiridos por A&B: 240 − 90 = 150; a R&T comprou metade, 75. Preço médio: 1 230 ÷ 75 = **R$ 16,4 milhões** (E)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#86",
+      "tipo": "me",
+      "numero": 86,
+      "enunciado": "Considere as informações apresentadas na tabela a seguir, relacionadas à produção de certa peça que é realizada apenas por máquinas iguais, trabalhando ao mesmo tempo, com a mesma capacidade de produção.\n\n[Tabela com colunas \"Produção em 30/08/2023\" e \"Produção em 31/08/2023\": Número de máquinas em funcionamento – 30/08: em branco; 31/08: 10. Carga horária trabalhada – 30/08: 5 horas; 31/08: em branco. Número de peças produzidas – 30/08: em branco; 31/08: 80 000.]\n\nSabendo-se que as informações apresentadas são proporcionais, que em 30/08/2023 o número de máquinas em funcionamento era um quinto maior que o número de máquinas trabalhando no dia seguinte, e que o número de peças produzidas em 31/08/2023 foi quatro terços do número de peças produzidas no dia anterior, é correto afirmar que a carga horária trabalhada no dia 31/08/2023 foi de",
+      "alt": {
+        "A": "7 horas e 30 minutos.",
+        "B": "8 horas e 30 minutos.",
+        "C": "8 horas.",
+        "D": "7 horas.",
+        "E": "9 horas."
+      },
+      "gab": "C",
+      "temas": [
+        "matematica.regra-de-tres"
+      ],
+      "dispositivos": [],
+      "exp": "Em 30/08 havia 10 + 10/5 = 12 máquinas, e as peças foram 80 000 ÷ (4/3) = 60 000. Produtividade: 60 000 ÷ (12 · 5) = 1 000 peças por máquina-hora. Em 31/08: h = 80 000 ÷ (10 · 1 000) = **8 horas** (C). Pela regra de três composta: h = 5 · (12/10) · (80 000/60 000) = 5 · 1,2 · 4/3 = 8.",
+      "imagens": [
+        "figuras/q86.png"
+      ],
+      "conferido_em": "prova.pdf p. 21 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#87",
+      "tipo": "me",
+      "numero": 87,
+      "enunciado": "Sabendo-se que é falsidade a afirmação “Se Nora trabalhou, então ela precisa descansar”, assinale a alternativa que apresenta uma afirmação verdadeira.",
+      "alt": {
+        "A": "Nora trabalhou e ela precisa descansar.",
+        "B": "Nora não trabalhou e ela precisa descansar.",
+        "C": "Nora não trabalhou ou ela precisa descansar.",
+        "D": "Nora não trabalhou e ela não precisa descansar.",
+        "E": "Nora trabalhou e ela não precisa descansar."
+      },
+      "gab": "E",
+      "temas": [
+        "raciocinio-logico.estruturas.condicional",
+        "raciocinio-logico.estruturas.negacao"
+      ],
+      "dispositivos": [],
+      "exp": "A condicional p → q só é falsa quando p é V e q é F: Nora **trabalhou** e **não precisa descansar**, que é exatamente (E) (a negação de p → q é p ∧ ~q). (A), (B) e (D) têm componente falso; (C) é ~p ∨ q, equivalente à própria condicional, logo também falsa."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#88",
+      "tipo": "me",
+      "numero": 88,
+      "enunciado": "Considere verdadeiras as seguintes premissas:\n\nI. Se Carla não é casada ou Pedro não é divorciado, então Cláudio é filho único.\nII. Se Sônia é mãe, então Carla não é casada.\nIII. Se Pedro não é divorciado, então Sergio não é administrador e Gerson é noivo.\nIV. Cláudio não é filho único.\n\nUma conclusão que decorre das premissas apresentadas e forma, juntamente com as premissas, um argumento válido é",
+      "alt": {
+        "A": "Sônia é mãe.",
+        "B": "Sergio é administrador.",
+        "C": "Sergio não é administrador.",
+        "D": "Sônia não é mãe.",
+        "E": "Gerson é noivo."
+      },
+      "gab": "D",
+      "temas": [
+        "raciocinio-logico.argumentacao.deducao",
+        "raciocinio-logico.argumentacao.validade"
+      ],
+      "dispositivos": [],
+      "exp": "De IV, o consequente de I é falso; por modus tollens, \"Carla não é casada ou Pedro não é divorciado\" é falso, isto é, Carla **é casada** e Pedro **é divorciado**. Em II, o consequente \"Carla não é casada\" é falso, logo **Sônia não é mãe** (D) e (A) é falsa. Como o antecedente de III é falso, nada se conclui sobre Sergio ou Gerson, e (B), (C) e (E) não decorrem das premissas."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#89",
+      "tipo": "me",
+      "numero": 89,
+      "enunciado": "Sobre um grupo de atletas sabe-se que 15 praticam natação, atletismo e ciclismo, 20 praticam somente natação e atletismo, 27 praticam somente natação e ciclismo, e 25 praticam somente atletismo e ciclismo. Se 70 atletas desse grupo praticam natação, 61 praticam atletismo, e 75 praticam ciclismo, então é verdade que, das alternativas a seguir, a que contém a porcentagem que mais se aproxima da relação entre o número de atletas que praticam um único esporte o número total de atletas desse grupo é",
+      "alt": {
+        "A": "18%",
+        "B": "14%",
+        "C": "20%",
+        "D": "12%",
+        "E": "16%"
+      },
+      "gab": "E",
+      "temas": [
+        "raciocinio-logico.diagramas",
+        "matematica.porcentagem"
+      ],
+      "dispositivos": [],
+      "exp": "Só natação: 70 − 15 − 20 − 27 = 8; só atletismo: 61 − 15 − 20 − 25 = 1; só ciclismo: 75 − 15 − 27 − 25 = 8. Um único esporte: 8 + 1 + 8 = 17. Total do grupo: 17 + 20 + 27 + 25 + 15 = 104. Relação: 17/104 ≈ 0,163, ou seja, cerca de **16%** (E).",
+      "observacoes": [
+        "enunciado literal tem a falha \"um único esporte o número total\" (falta \"e\"); mantida como na prova"
+      ]
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#90",
+      "tipo": "me",
+      "numero": 90,
+      "enunciado": "Na sequência numérica 1, 4, 7, 8, 11,14, 19, 22, 25, 26, 29, 32, 37, ..., o 1º elemento é o número 1. Mantida a regularidade, o 11 111º elemento é o número",
+      "alt": {
+        "A": "33 115.",
+        "B": "33 329.",
+        "C": "31 111.",
+        "D": "32 228.",
+        "E": "33 332."
+      },
+      "gab": "B",
+      "temas": [
+        "raciocinio-logico.sequencias"
+      ],
+      "dispositivos": [],
+      "exp": "As diferenças se repetem em ciclos de seis: +3, +3, +1, +3, +3, +5 (total 18). Assim, os termos vêm em blocos de 6 da forma 1 + 18k, 4 + 18k, 7 + 18k, 8 + 18k, 11 + 18k, 14 + 18k. Como 11 111 = 6 · 1 851 + 5, o termo é o 5º do bloco k = 1 851: 11 + 18 · 1 851 = 11 + 33 318 = **33 329** (B)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#91",
+      "tipo": "me",
+      "numero": 91,
+      "enunciado": "Considere a seguinte afirmação: “Ou durmo ou trabalho”. Uma negação lógica para a afirmação apresentada é",
+      "alt": {
+        "A": "Se não durmo, então não trabalho.",
+        "B": "Não trabalho e não durmo.",
+        "C": "Durmo se, e somente se, trabalho.",
+        "D": "Ou não durmo ou não trabalho.",
+        "E": "Trabalho ou durmo."
+      },
+      "gab": "C",
+      "temas": [
+        "raciocinio-logico.estruturas.negacao",
+        "raciocinio-logico.estruturas.equivalencias"
+      ],
+      "dispositivos": [],
+      "exp": "\"Ou p ou q\" é a disjunção exclusiva, verdadeira só quando exatamente um dos dois ocorre; sua negação é verdadeira quando ambos ocorrem ou nenhum ocorre, ou seja, a bicondicional **p ↔ q**: \"Durmo se, e somente se, trabalho\" (C). (B) cobre só o caso em que nenhum ocorre; (D) é equivalente à própria afirmação (~p ⊻ ~q ≡ p ⊻ q); (E) é a disjunção inclusiva; e (A) não nega a afirmação."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#92",
+      "tipo": "me",
+      "numero": 92,
+      "enunciado": "Considere verdadeira a afirmação “Se Marcelo é professor universitário, então Raquel é advogada” e falsa a afirmação “Marcelo é professor universitário e Raquel é advogada”.\n\nNessas condições, é necessariamente verdade que",
+      "alt": {
+        "A": "Marcelo é professor universitário.",
+        "B": "Raquel é advogada.",
+        "C": "Marcelo é professor universitário ou Raquel não é advogada.",
+        "D": "Raquel não é advogada.",
+        "E": "Marcelo não é professor universitário."
+      },
+      "gab": "E",
+      "temas": [
+        "raciocinio-logico.argumentacao.deducao",
+        "raciocinio-logico.estruturas.verdade"
+      ],
+      "dispositivos": [],
+      "exp": "Se Marcelo fosse professor (p V), a condicional verdadeira obrigaria Raquel a ser advogada (q V), e a conjunção p ∧ q seria verdadeira, contra o dado. Logo p é falso: **Marcelo não é professor universitário** (E). Sobre Raquel nada se garante (q pode ser V ou F), o que afasta (B) e (D); (A) é falsa; e (C) depende de Raquel não ser advogada, o que não é necessário."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#93",
+      "tipo": "me",
+      "numero": 93,
+      "enunciado": "Tem-se a seguinte estrutura de subpastas dentro da pasta C:\\TEMP, no Microsoft Windows 10, exibida no Explorador de Arquivos, ambos em sua configuração original.\n\n[Figura: árvore do Explorador de Arquivos com a pasta Temp expandida; dentro dela, Pasta A expandida (com as subpastas 1, 2 e 3) e Pasta B expandida (com as subpastas 100 e 101), ambas no mesmo nível.]\n\nUm usuário conectou no computador um Pen Drive vazio. Em seguida, usando o Explorador de Arquivos, clicou com o botão principal do mouse sobre a Pasta A e a arrastou para a unidade do Pen Drive, em sua raiz. Depois, clicou com o botão principal do mouse sobre a Pasta B e também a arrastou para a unidade do Pen Drive, igualmente em sua raiz. Considerando que a operação foi executada com sucesso, assinale a alternativa com a estrutura de pastas resultante no Pen Drive.",
+      "alt": {
+        "A": "[Figura: pastas 1, 2, 3, 100, 101, Pasta A e Pasta B, todas soltas no mesmo nível, sem hierarquia.]",
+        "B": "[Figura: Pasta A expandida contendo as subpastas 1, 2, 3, 100 e 101; não há Pasta B.]",
+        "C": "[Figura: Pasta A e Pasta B no mesmo nível, sem seta de expansão nem subpastas exibidas.]",
+        "D": "[Figura: Pasta A expandida com as subpastas 1, 2 e 3 e, no mesmo nível de Pasta A, Pasta B expandida com as subpastas 100 e 101.]",
+        "E": "[Figura: Pasta A expandida com as subpastas 1, 2 e 3 e, dentro de Pasta A, Pasta B expandida com as subpastas 100 e 101.]"
+      },
+      "gab": "D",
+      "temas": [
+        "informatica.windows"
+      ],
+      "dispositivos": [],
+      "exp": "Arrastar uma pasta para outra unidade **copia** a pasta com todo o seu conteúdo. Como as duas pastas foram soltas na raiz do pen drive, o resultado é Pasta A (com 1, 2 e 3) e Pasta B (com 100 e 101) lado a lado na raiz (D). (A) e (B) desfazem a hierarquia; (C) omite as subpastas, que são copiadas junto; e (E) coloca Pasta B dentro de Pasta A, o que não ocorreu porque ela foi solta na raiz.",
+      "observacoes": [
+        "q93-a: árvore do enunciado; q93-b: alternativas A e B; q93-c: alternativas C, D e E (coluna direita da página)."
+      ],
+      "imagens": [
+        "figuras/q93-a.png",
+        "figuras/q93-b.png",
+        "figuras/q93-c.png"
+      ],
+      "conferido_em": "prova.pdf p. 23 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#94",
+      "tipo": "me",
+      "numero": 94,
+      "enunciado": "No Microsoft Windows 10, em sua configuração padrão, um usuário criou um atalho na Área de Trabalho, para local C:\\TEMP\\Notas.txt. Ao apagar ______, ______ apagado(s).\n\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do enunciado.",
+      "alt": {
+        "A": "o atalho ... o arquivo Notas.txt será",
+        "B": "a pasta C:\\TEMP... o atalho e o arquivo Notas.txt serão",
+        "C": "a pasta C:\\TEMP ... o atalho será",
+        "D": "o atalho ... a pasta C:\\TEMP e o arquivo Notas.txt não serão",
+        "E": "o arquivo Notas.txt ... o atalho será"
+      },
+      "gab": "D",
+      "temas": [
+        "informatica.windows"
+      ],
+      "dispositivos": [],
+      "exp": "Um atalho é apenas um arquivo .lnk que aponta para o destino: apagá-lo **não afeta** a pasta C:\\TEMP nem o arquivo Notas.txt (D), o que torna (A) errada. No sentido inverso, apagar a pasta ou o arquivo de destino não apaga o atalho, que continua na Área de Trabalho, apenas \"quebrado\"; por isso (B), (C) e (E) erram."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#95",
+      "tipo": "me",
+      "numero": 95,
+      "enunciado": "Usando o Microsoft Word 365, em sua configuração padrão, tem-se um documento com uma palavra digitada, com uma certa formatação aplicada. Ao final dessa palavra, o usuário clicou nos ícones Negrito, Sublinhado e Itálico, pressionou espaço e digitou a palavra São Paulo, que ficou formatada apenas como itálico, como apresentado a seguir, sendo que a primeira palavra está propositalmente escondida.\n\n[Figura: trecho do documento no Word, com régua no topo; a primeira palavra aparece coberta por uma tarja escura, seguida de \"São Paulo\" em itálico, sem negrito nem sublinhado.]\n\nAssinale a alternativa com a formatação da primeira palavra.",
+      "alt": {
+        "A": "Itálico, apenas.",
+        "B": "Negrito, apenas.",
+        "C": "Negrito e sublinhado, apenas.",
+        "D": "Negrito, sublinhado e itálico.",
+        "E": "Sem formatação."
+      },
+      "gab": "C",
+      "temas": [
+        "informatica.word"
+      ],
+      "dispositivos": [],
+      "exp": "Os botões Negrito, Sublinhado e Itálico funcionam como **alternância**: com o cursor ao fim da palavra, o texto seguinte herda a formatação dela, e cada clique inverte o respectivo atributo. Como \"São Paulo\" saiu só em itálico, negrito e sublinhado foram desligados (estavam ativos) e o itálico foi ligado (estava inativo): a primeira palavra estava em **negrito e sublinhado, apenas** (C). Com qualquer outra formatação inicial, o resultado depois dos três cliques seria diferente de \"apenas itálico\".",
+      "imagens": [
+        "figuras/q95.png"
+      ],
+      "conferido_em": "prova.pdf p. 24 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#96",
+      "tipo": "me",
+      "numero": 96,
+      "enunciado": "Usando o Microsoft Excel 365, em sua configuração padrão, assinale a alternativa que apresenta o conteúdo a ser inserido na célula A5 de uma planilha chamada Dados, para que esta célula apresente o conteúdo da célula A1 da planilha Cidades, sendo que ambas estão no mesmo arquivo.",
+      "alt": {
+        "A": "=Cidades!A1",
+        "B": "=Cidades.A1",
+        "C": "=Cidades(A1)",
+        "D": "=Cidades:A1",
+        "E": "=A1@Cidades"
+      },
+      "gab": "A",
+      "temas": [
+        "informatica.excel"
+      ],
+      "dispositivos": [],
+      "exp": "No Excel, a referência a célula de outra planilha da mesma pasta de trabalho usa o **ponto de exclamação**: `=Cidades!A1` (A). O ponto (B) é a sintaxe do LibreOffice Calc; parênteses (C) indicam função; os dois-pontos (D) definem intervalos; e (E) não é sintaxe válida de referência."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#97",
+      "tipo": "me",
+      "numero": 97,
+      "enunciado": "Usando o Microsoft Excel 365, em sua configuração original, um usuário inseriu na célula E1 a fórmula =SE(CONT.SE(A1:C3;\">10\")>2;\"APROVADO\";\"NÃO APROVADO\") e o resultado foi APROVADO. Assinale a alternativa que apresenta a planilha correta que produz esse resultado.",
+      "alt": {
+        "A": "[Planilha A1:C3 – linha 1: 10, 10, 10; linha 2: 10, 10, 10; linha 3: 10, 10, 10.]",
+        "B": "[Planilha A1:C3 – linha 1: 11, 7, 10; linha 2: 3, 7, 11; linha 3: 11, 2, 4.]",
+        "C": "[Planilha A1:C3 – linha 1: 4, 7, 3; linha 2: 10, 11, 10; linha 3: 4, 3, 10.]",
+        "D": "[Planilha A1:C3 – linha 1: 2, 10, 2; linha 2: 10, 2, 10; linha 3: 2, 10, 2.]",
+        "E": "[Planilha A1:C3 – linha 1: 6, 5, 3; linha 2: 10, 4, 12; linha 3: 9, 7, 10.]"
+      },
+      "gab": "B",
+      "temas": [
+        "informatica.excel"
+      ],
+      "dispositivos": [],
+      "exp": "A fórmula retorna APROVADO se houver **mais de 2** células com valor **estritamente maior que 10** em A1:C3. Em (B) há três (11 em A1, 11 em C2 e 11 em A3), e 3 > 2. Em (A) e (D) nenhum valor passa de 10 (10 não é > 10); em (C) só o 11 de B2; em (E) só o 12 de C2.",
+      "observacoes": [
+        "Imagem reúne as cinco planilhas das alternativas (A a E). Fórmula conferida na imagem da página: =SE(CONT.SE(A1:C3;\">10\")>2;\"APROVADO\";\"NÃO APROVADO\"), aspas corretas; valores das planilhas conferidos (só B tem três valores >10)."
+      ],
+      "imagens": [
+        "figuras/q97.png"
+      ],
+      "conferido_em": "prova.pdf p. 24 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#98",
+      "tipo": "me",
+      "numero": 98,
+      "enunciado": "Tem-se os arquivos e seus status do Microsoft OneDrive, exibidos no Explorador de Arquivos do Microsoft Windows 10, todos em sua configuração original.\n\n[Figura: lista do Explorador de Arquivos com colunas Name e Status: Foto.jpg – círculo preenchido (escuro) com marca de seleção branca; Controle.xlsx – ícone de nuvem vazada; Projetos.zip – círculo vazado com marca de seleção. Ao lado de cada status, um ícone de pessoa (item compartilhado).]\n\nAssinale a alternativa com o(s) item(s) em que o Windows não precisará fazer o download quando o usuário der um duplo clique com o botão principal do mouse.",
+      "alt": {
+        "A": "Foto.jpg, Projetos.zip e Controle.xlsx, apenas.",
+        "B": "Foto.jpg, apenas.",
+        "C": "Controle.xlsx, apenas.",
+        "D": "Projetos.zip, apenas.",
+        "E": "Foto.jpg e Projetos.zip, apenas."
+      },
+      "gab": "E",
+      "temas": [
+        "informatica.onedrive"
+      ],
+      "dispositivos": [],
+      "exp": "No OneDrive, o círculo verde preenchido indica arquivo **sempre mantido neste dispositivo** (Foto.jpg) e o círculo vazado com marca verde indica arquivo **disponível localmente** (Projetos.zip); ambos já estão no disco e abrem sem download (E). A nuvem (Controle.xlsx) indica arquivo **somente online**, que precisa ser baixado ao ser aberto, o que elimina (A) e (C); (B) e (D) deixam de fora um dos dois arquivos locais.",
+      "observacoes": [
+        "A figura da prova é em tons de cinza; a descrição anterior citava cores (verde) que não aparecem."
+      ],
+      "imagens": [
+        "figuras/q98.png"
+      ],
+      "conferido_em": "prova.pdf p. 25 (recorte 200 dpi)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#99",
+      "tipo": "me",
+      "numero": 99,
+      "enunciado": "Ana redigiu uma mensagem de correio eletrônico para Paulo, usando o Microsoft Outlook 365, em sua configuração original. Ao terminar, Ana gravou a mensagem e em seguida a enviou. Paulo, ao receber a mensagem, também usando o Microsoft Outlook 365, em sua configuração original, a leu e a apagou. Assinale a alternativa que indica a última pasta em que a mensagem foi gravada no Outlook de Ana, e depois a última pasta em que a mensagem foi gravada no Outlook de Paulo, considerando que todas as operações foram executadas com sucesso.",
+      "alt": {
+        "A": "Ana: Itens Enviados.\nPaulo: Caixa de Saída.",
+        "B": "Ana: Caixa de Saída.\nPaulo: Caixa de Entrada.",
+        "C": "Ana: Itens Enviados.\nPaulo: Itens Excluídos.",
+        "D": "Ana: Caixa de Saída.\nPaulo: Itens Excluídos.",
+        "E": "Ana: Itens Enviados.\nPaulo: Itens Recebidos."
+      },
+      "gab": "C",
+      "temas": [
+        "informatica.email"
+      ],
+      "dispositivos": [],
+      "exp": "No Outlook de Ana, a mensagem gravada fica em Rascunhos e, depois de enviada com sucesso, passa pela Caixa de Saída e termina em **Itens Enviados**. No de Paulo, ela chega à Caixa de Entrada e, ao ser apagada, vai para **Itens Excluídos** (C). A Caixa de Saída só guarda mensagens ainda não enviadas (A, B, D), e o Outlook não tem pasta \"Itens Recebidos\" (E)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#100",
+      "tipo": "me",
+      "numero": 100,
+      "enunciado": "Tem-se o navegador Google Chrome 115, em sua configuração padrão, com a página principal do site do Tribunal de Justiça de São Paulo aberto em uma aba. O botão Voltar está inativo, indicando que este é o primeiro site aberto nesta aba. No site, existe um link para a página Institucional, onde um usuário clicou com o botão principal do mouse para abrir esta página em uma nova aba, mantendo, assim, o botão Voltar inativo na aba com a página principal do site do Tribunal de Justiça de São Paulo. O botão Voltar continua inativo porque",
+      "alt": {
+        "A": "o site está gravado nos favoritos.",
+        "B": "o usuário clicou no link junto com o botão CTRL pressionado.",
+        "C": "o site do Tribunal de Justiça de São Paulo é um site seguro.",
+        "D": "o usuário está em modo de navegação anônima.",
+        "E": "o site não está gravado nos favoritos."
+      },
+      "gab": "B",
+      "temas": [
+        "informatica.internet"
+      ],
+      "dispositivos": [],
+      "exp": "**CTRL + clique** em um link abre a página em uma **nova aba**, sem navegar na aba atual, cujo histórico continua só com a página principal; por isso o botão Voltar segue inativo (B). Estar ou não nos favoritos (A, E), ser um site seguro com HTTPS (C) ou usar navegação anônima (D) não altera o histórico de navegação da aba."
+    }
+  ]
+}
