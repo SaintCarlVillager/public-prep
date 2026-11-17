@@ -37,8 +37,8 @@
     "observacao": "O caderno traz também o tema da redação (texto dissertativo-argumentativo)."
   },
   "gabarito": {
-    "status": "preliminar",
-    "fonte": "gabarito-preliminar.pdf (Versão 1, de 08/12/2025; disponibilizado no DEJESP de 10/12/2025). Despacho de 29/01/2026 do presidente da Comissão Examinadora: conheceu de todos os recursos e indeferiu os listados. A cópia recebida do resultado dos recursos vai só até a questão 56 e não mostra a parte final do despacho; falta confirmar se houve deferimento (anulação ou troca de gabarito) antes de marcar como definitivo.",
+    "status": "definitivo",
+    "fonte": "gabarito-preliminar.pdf (Versão 1, de 08/12/2025; disponibilizado no DEJESP de 10/12/2025), mantido como definitivo: no despacho de 29/01/2026 o presidente da Comissão Examinadora conheceu de todos os recursos e não deferiu nenhum (confirmado pelo usuário em 17/11/2026).",
     "respostas": {
       "1": "A",
       "2": "B",
@@ -121,7 +121,7 @@
   "observacao": "Concurso TJSP2503: Escrevente Técnico Judiciário para a Comarca de São Paulo (Capital) e as Circunscrições Judiciárias da 1ª Região Administrativa Judiciária. texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever. O documento de resultado dos recursos traz nomes de candidatos e não é guardado no repositório.",
   "recursos": {
     "total_ate_q56": 4243,
-    "decisao": "indeferidos (todos os listados, questões 1 a 56)",
+    "decisao": "todos indeferidos",
     "despacho": "2026-01-29",
     "por_questao": {
       "1": 35,
@@ -181,6 +181,6 @@
       "55": 638,
       "56": 19
     },
-    "observacao": "Contagem de recursos por questão, sem dados dos candidatos. A cópia do resultado termina na questão 56: as questões 57 a 70 ficam sem contagem. Muitos recursos indicam questão polêmica ou com pegadinha."
+    "observacao": "Contagem de recursos por questão, sem dados dos candidatos. A cópia recebida do resultado termina na questão 56, então as questões 57 a 70 ficam sem contagem; nenhum recurso foi deferido. Muitos recursos indicam questão polêmica ou com pegadinha."
   }
 }

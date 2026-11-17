@@ -340,6 +340,15 @@ def validar_leis(normas):
     return leis
 
 
+def conferir_editais_na_lei(leis):
+    """Aviso, edital por edital, para cada norma cobrada que ainda não tem lei seca em leis/."""
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "editais", "**", "edital.json"), recursive=True)):
+        d = carregar(caminho) or {}
+        faltam = sorted({s for b in d.get("blocos", []) for c in b.get("cobertura", []) for s in c.get("normas", {}) if s not in leis})
+        if faltam:
+            avisos.append(f"lei seca: {d.get('id')} cobra {len(faltam)} norma(s) sem leis/: {', '.join(faltam)}")
+
+
 def conferir_dispositivos_na_lei(leis):
     """Aviso quando uma questão cita artigo que não existe na lei seca (renumerado, revogado ou erro)."""
     if not leis:
@@ -365,6 +374,7 @@ def main():
     n_questoes, n_pend = validar_provas(temas, normas)
     leis = validar_leis(normas)
     conferir_dispositivos_na_lei(leis)
+    conferir_editais_na_lei(leis)
     for a in avisos:
         print("aviso:", a)
     for e in erros:
