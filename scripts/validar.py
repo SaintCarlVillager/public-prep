@@ -12,8 +12,10 @@ import sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_NIVEIS = 3  # abaixo da matéria
 ART = r"\d+(?:-[A-Z]{1,2})?"
+# Artigo da lei seca ou de dispositivo: também "DT-1" (artigo das Disposições Transitórias de leis de SP).
+ART_LEI = r"(?:DT-)?\d+(?:-[A-Z]{1,2})?"
 INTERVALO = re.compile(rf"^(\*|{ART}(?:-{ART})?)$")
-DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>\d+(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
+DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>(?:DT-)?\d+(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
 
 erros, avisos = [], []
 
@@ -28,8 +30,9 @@ def carregar(caminho):
 
 
 def chave_art(a):
-    m = re.match(r"^(\d+)(?:-([A-Z]{1,2}))?$", a)
-    return (int(m.group(1)), m.group(2) or "")
+    """Ordem dos artigos: os das Disposições Transitórias ("DT-1") vêm depois dos permanentes."""
+    m = re.match(r"^(DT-)?(\d+)(?:-([A-Z]{1,2}))?$", a)
+    return (1 if m.group(1) else 0, int(m.group(2)), m.group(3) or "")
 
 
 def validar_taxonomia():
@@ -320,8 +323,8 @@ def validar_leis(normas):
         for i, a in enumerate(arts):
             onde = f"{rel} › artigos[{i}]"
             num = str(a.get("art", ""))
-            if not re.fullmatch(ART, num):
-                erros.append(f"{onde}: 'art' inválido '{num}' (ex.: '246', '396-A', sem º nem ponto)")
+            if not re.fullmatch(ART_LEI, num):
+                erros.append(f"{onde}: 'art' inválido '{num}' (ex.: '246', '396-A', 'DT-1', sem º nem ponto)")
                 continue
             if num in vistos:
                 erros.append(f"{onde}: artigo '{num}' repetido")

@@ -74,7 +74,7 @@ Campos opcionais da questão:
 }
 ```
 - Um arquivo por sigla de `normas/normas.json`, com o **texto vigente e literal**, tirado da fonte oficial; nada reescrito nem resumido. Revogado fica como a fonte mostra ("Art. 5º (Revogado)").
-- `art` no formato dos dispositivos (`"1015"`, `"396-A"`), único e na ordem da norma; `texto` com uma linha por dispositivo (caput, parágrafos, incisos); `local` é o caminho de títulos e capítulos.
+- `art` no formato dos dispositivos (`"1015"`, `"396-A"`; artigo das Disposições Transitórias das leis de SP: `"DT-1"`, citado como `LC1111 DT-1`), único e na ordem da norma; `texto` com uma linha por dispositivo (caput, parágrafos, incisos); `local` é o caminho de títulos e capítulos.
 - O validador avisa quando uma questão cita artigo que não está na lei seca (renumerado, revogado ou erro de etiqueta).
 - O app mostra o artigo ao tocar no dispositivo, depois da correção, e a aba **Lei seca** reúne os artigos que cada bloco do edital cobra.
 

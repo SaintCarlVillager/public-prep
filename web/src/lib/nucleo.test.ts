@@ -43,6 +43,7 @@ test("intervalos, artigos com letra e siglas com hífen", () => {
   assert.equal(parseDispositivo("CPC 246 §1º-A")?.artigo, "246");
   assert.equal(parseDispositivo("CNJ-R354 8")?.sigla, "CNJ-R354");
   assert.equal(parseDispositivo("CPP 396-A")?.artigo, "396-A");
+  assert.equal(parseDispositivo("LC1111 DT-1")?.artigo, "DT-1");
   assert.ok(temaCobre("a.b", "a.b.c") && !temaCobre("a.b", "a.bc"));
 });
 
