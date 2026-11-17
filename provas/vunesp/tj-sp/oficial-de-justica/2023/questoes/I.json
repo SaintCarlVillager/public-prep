@@ -42,7 +42,21 @@
         "portugues.interpretacao"
       ],
       "dispositivos": [],
-      "exp": "Lurdinha é **irresistível** e inspira \"amor no duro\"; o fantasma se apaixona, não pode casar, passa a suspirar fumando e acaba **\"fumando-se a si mesmo\"**: é a (B). Não havia romance iminente entre os dois, pois o amor era impossível (A). Os fantasmas pararam de fumar por causa do \"doloroso acidente\", não para evitar amores (C). O texto não fala em constrangimento das moças, que nem sabiam do fantasma invisível (D), nem em outra jovem (E)."
+      "exp": "Lurdinha é **irresistível** e inspira \"amor no duro\"; o fantasma se apaixona, não pode casar, passa a suspirar fumando e acaba **\"fumando-se a si mesmo\"**: é a (B). Não havia romance iminente entre os dois, pois o amor era impossível (A). Os fantasmas pararam de fumar por causa do \"doloroso acidente\", não para evitar amores (C). O texto não fala em constrangimento das moças, que nem sabiam do fantasma invisível (D), nem em outra jovem (E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O amor entre Lurdinha e o fantasma era **impossível**, não um romance iminente; o texto diz que ele nunca pôde casar com ela, e o infortúnio (fumar-se a si mesmo) veio da paixão, não a interrompeu.",
+        "B": "O texto diz que Lurdinha **inspira amor à primeira vista**, que o fantasma se apaixonou, suspirou e fumou tanto que \"acabou fumando-se a si mesmo\"; é o que o narrador deixa claro.",
+        "C": "Os fantasmas deixaram de fumar por causa do **\"doloroso acidente\"** no seu mundo, que foi o próprio fantasma fumar-se a si mesmo; não para evitar amores.",
+        "D": "O texto não fala em constrangimento das moças: o fantasma era **invisível** e elas nem o percebiam; o narrador o chama de \"antiquado\", sem condená-lo por indelicadeza.",
+        "E": "Para o fantasma, Lurdinha era **irresistível**; o texto não diz que ele sentisse que o coração era de outra jovem nem que a beleza dela lhe fosse insignificante."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#2",
@@ -63,7 +77,21 @@
         "portugues.semantica.contextual"
       ],
       "dispositivos": [],
-      "exp": "\"Amor no duro\" é amor de verdade, sem dúvida; \"até então\" marca que a mera contemplação divertida acabou naquele momento; \"um suspiro só\" traduz desalento e melancolia: é a (D). (B) e (C) põem dúvida (\"podia ser\", \"talvez\") onde o texto afirma. (A) erra nas duas últimas partes (não voltaria a se divertir). (E) erra a última: não há indiferença de Lurdinha, e sim a impossibilidade do casamento."
+      "exp": "\"Amor no duro\" é amor de verdade, sem dúvida; \"até então\" marca que a mera contemplação divertida acabou naquele momento; \"um suspiro só\" traduz desalento e melancolia: é a (D). (B) e (C) põem dúvida (\"podia ser\", \"talvez\") onde o texto afirma. (A) erra nas duas últimas partes (não voltaria a se divertir). (E) erra a última: não há indiferença de Lurdinha, e sim a impossibilidade do casamento.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Até então\" marca que a mera contemplação divertida **acabou** com a chegada do amor; o fantasma não estava prestes a se divertir de novo, e \"suspiro só\" mostra sofrimento, não novo amor.",
+        "B": "\"Amor no duro\" afirma um amor verdadeiro, não \"passageiro\"; e o fantasma não buscaria outras diversões nem estava ansioso para conhecer Lurdinha, que já conhecia.",
+        "C": "\"Amor no duro\" não deixa **dúvida** (\"talvez\" contraria o texto), e \"até então\" indica que as diversões acabaram naquele momento, não que um dia perderiam o interesse.",
+        "D": "\"Amor no duro\" é amor **sem dúvida**; \"até então\" marca o fim das diversões a partir dali; e \"vida ... um suspiro só\" traduz **desalento e melancolia**.",
+        "E": "Não há indiferença de Lurdinha no texto: o fantasma sofre pela **impossibilidade** do casamento, e não por mágoa com o desprezo dela."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#3",
@@ -83,7 +111,21 @@
         "portugues.colocacao"
       ],
       "dispositivos": [],
-      "exp": "Em (C), \"casar-se\" é ênclise ao infinitivo de locução verbal, permitida mesmo com o \"não\" antes do auxiliar, e \"pôs-se\" vem após sujeito sem atrativo. Nas demais: (A) inicia frase com pronome átono; (B) tem futuro do pretérito, que não admite ênclise, e o \"que\" atrai (\"se apaixonaria\"); (D) põe ênclise ao particípio, o que é vedado (\"Tendo-se verificado\"); (E) ignora a atração do advérbio \"Certamente\" e do relativo \"que\" (\"se tratava\", \"que se interessava\")."
+      "exp": "Em (C), \"casar-se\" é ênclise ao infinitivo de locução verbal, permitida mesmo com o \"não\" antes do auxiliar, e \"pôs-se\" vem após sujeito sem atrativo. Nas demais: (A) inicia frase com pronome átono; (B) tem futuro do pretérito, que não admite ênclise, e o \"que\" atrai (\"se apaixonaria\"); (D) põe ênclise ao particípio, o que é vedado (\"Tendo-se verificado\"); (E) ignora a atração do advérbio \"Certamente\" e do relativo \"que\" (\"se tratava\", \"que se interessava\").",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Início de frase com pronome átono é vedado na norma-padrão: o correto seria **\"Invisibilizava-se\"**, com ênclise.",
+        "B": "Com o \"que\" (palavra atrativa) e verbo no futuro do pretérito, o pronome vem antes e a ênclise não é admitida: **\"que se apaixonaria\"**.",
+        "C": "\"Casar-se\" traz ênclise ao infinitivo e \"pôs-se\" vem após o sujeito, sem palavra atrativa; ambas as colocações seguem a **norma-padrão**.",
+        "D": "Não se usa ênclise ao **particípio**: o correto é \"Tendo-se verificado\", com o pronome ligado ao auxiliar.",
+        "E": "O advérbio \"Certamente\" e o relativo \"que\" **atraem** o pronome: o correto é \"Certamente se tratava\" e \"que se interessava\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#4",
@@ -103,7 +145,21 @@
         "portugues.pontuacao"
       ],
       "dispositivos": [],
-      "exp": "Em (A), o adjunto adverbial deslocado \"certa noite\" vem entre vírgulas e as orações coordenadas assindéticas se separam por vírgula, com \"e\" antes da última. (B) separa o verbo \"ignoram\" do seu objeto direto (\"que Lurdinha...\"). (C) separa sujeito e verbo com uma só vírgula; a oração adjetiva explicativa pediria vírgula também antes de \"que\". (D) separa o sujeito \"Lurdinha\" do verbo. (E) separa o verbo \"superou\" do objeto direto, isolando o adjunto \"com o fantasma\" com vírgula só de um lado."
+      "exp": "Em (A), o adjunto adverbial deslocado \"certa noite\" vem entre vírgulas e as orações coordenadas assindéticas se separam por vírgula, com \"e\" antes da última. (B) separa o verbo \"ignoram\" do seu objeto direto (\"que Lurdinha...\"). (C) separa sujeito e verbo com uma só vírgula; a oração adjetiva explicativa pediria vírgula também antes de \"que\". (D) separa o sujeito \"Lurdinha\" do verbo. (E) separa o verbo \"superou\" do objeto direto, isolando o adjunto \"com o fantasma\" com vírgula só de um lado.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O adjunto adverbial deslocado \"certa noite\" vem **entre vírgulas** e as orações coordenadas se separam por vírgula, com \"e\" antes da última; pontuação correta.",
+        "B": "A vírgula **separa o verbo** \"ignoram\" do seu objeto direto (\"que Lurdinha é...\"), o que a norma-padrão não admite.",
+        "C": "Falta a vírgula antes de \"que\" na oração adjetiva explicativa, e a única vírgula depois dela **separa sujeito e verbo**.",
+        "D": "A vírgula depois de \"Lurdinha\" **separa o sujeito do verbo** \"era\", o que não se faz.",
+        "E": "O adjunto \"com o fantasma\" tem vírgula só de um lado e a vírgula **separa o verbo** \"superou\" do seu objeto direto."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#5",
@@ -124,7 +180,21 @@
         "portugues.interpretacao.ponto-de-vista"
       ],
       "dispositivos": [],
-      "exp": "A leitura equivocada vê a convivência só como **\"viver no semiárido, sofrendo\"** com o clima, ignorando o sentido real: transformar obstáculos em oportunidades, com organizações que qualificam os agricultores e práticas que evitam a desertificação. Desconsiderar essas potencialidades é a (B). As demais atribuem ao equívoco posições que o texto não menciona (combater a exploração, opor-se às injustiças, explorar demais a região) ou que contrariam o texto, como dizer que a vida ali independe da captação de chuva (E)."
+      "exp": "A leitura equivocada vê a convivência só como **\"viver no semiárido, sofrendo\"** com o clima, ignorando o sentido real: transformar obstáculos em oportunidades, com organizações que qualificam os agricultores e práticas que evitam a desertificação. Desconsiderar essas potencialidades é a (B). As demais atribuem ao equívoco posições que o texto não menciona (combater a exploração, opor-se às injustiças, explorar demais a região) ou que contrariam o texto, como dizer que a vida ali independe da captação de chuva (E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto não fala em combater a exploração de recursos naturais; a leitura equivocada é ver a convivência só como **viver sofrendo** com o clima.",
+        "B": "A visão equivocada vê só o sofrimento com o clima e **desconsidera** as potencialidades humanas e as práticas que evitam que a região vire deserto.",
+        "C": "O texto não trata de contrapor-se às injustiças como equívoco; ao contrário, a convivência busca **transformar** injustiças sociais em oportunidades.",
+        "D": "Qualificar pessoas faz parte do sentido **real** da expressão e não visa a esgotar recursos; nada no texto sugere a exploração excessiva da região.",
+        "E": "O texto defende a **captação de água de chuva** no semiárido e liga o clima ao modo de viver; dizer que não há relação contraria o texto."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#6",
@@ -144,7 +214,21 @@
         "portugues.semantica.denotacao"
       ],
       "dispositivos": [],
-      "exp": "**Arcabouço** é, no sentido próprio, a armação, o esqueleto de uma construção; aplicado a uma expressão, designa figuradamente a sua estrutura de sentido: é a (B). \"Produção\", \"deserto\", \"mudanças\" e \"caatinga\" estão no sentido literal (produção agrícola, desertificação real da região, alterações do clima, bioma)."
+      "exp": "**Arcabouço** é, no sentido próprio, a armação, o esqueleto de uma construção; aplicado a uma expressão, designa figuradamente a sua estrutura de sentido: é a (B). \"Produção\", \"deserto\", \"mudanças\" e \"caatinga\" estão no sentido literal (produção agrícola, desertificação real da região, alterações do clima, bioma).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Produção agroecológica\" é a produção agrícola real, em sentido **literal**.",
+        "B": "**Arcabouço** é, no sentido próprio, a armação ou esqueleto de uma construção; aplicado a uma expressão, designa a sua estrutura de sentido, em sentido **figurado**.",
+        "C": "\"Deserto\" é a desertificação **real** da região, em sentido literal.",
+        "D": "\"Mudanças climáticas\" são alterações efetivas do clima, em sentido **literal**.",
+        "E": "\"Caatinga\" é o bioma propriamente dito, em sentido **literal**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#7",
@@ -165,7 +249,21 @@
         "portugues.semantica.contextual"
       ],
       "dispositivos": [],
-      "exp": "Sofre-se **por causa** da problemática climática: \"com\" introduz a **causa** do sofrimento; e \"afligir\" é **atormentar**, angustiar: é a (E). \"Espairecer\" (B) é o oposto; \"prejudicar\", \"influenciar\" e \"devastar\" não traduzem a angústia expressa pelo verbo, e a preposição não indica comparação, modo, intensidade nem consequência."
+      "exp": "Sofre-se **por causa** da problemática climática: \"com\" introduz a **causa** do sofrimento; e \"afligir\" é **atormentar**, angustiar: é a (E). \"Espairecer\" (B) é o oposto; \"prejudicar\", \"influenciar\" e \"devastar\" não traduzem a angústia expressa pelo verbo, e a preposição não indica comparação, modo, intensidade nem consequência.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A preposição \"com\" não compara; indica a **causa** do sofrimento, e \"aflige\" não é \"prejudicar\" em sentido de dano material, mas angustiar.",
+        "B": "\"Afligir\" não é \"espairecer\" (distrair-se), que é quase o **oposto**; e \"com\" não indica modo.",
+        "C": "\"Com\" não expressa intensidade (o advérbio \"tanto\" é que a expressa), e \"afligir\" não é \"influenciar\".",
+        "D": "\"Com\" não indica consequência: sofre-se **por causa** das mudanças climáticas; e \"afligir\" é angustiar, não \"devastar\".",
+        "E": "\"Sofrendo **com** a problemática\" expressa **causa** do sofrimento, e \"afligir\" é **atormentar**, angustiar."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#8",
@@ -186,7 +284,21 @@
         "portugues.classes.pronomes"
       ],
       "dispositivos": [],
-      "exp": "**Isso** retoma a ideia anterior, \"viver buscando **transformar os obstáculos** [...] **em oportunidades**\", que inclui o cuidado ambiental; **Elas** retoma o antecedente feminino plural mais próximo que pode mobilizar pessoas: \"muitas **organizações sociais** nasceram\". É a (A). As outras indicam antecedentes que não fazem sentido como sujeito de \"mobilizam\" (alternativas, possibilidades, lutas, transformações) ou retomam trechos errados para \"Isso\"."
+      "exp": "**Isso** retoma a ideia anterior, \"viver buscando **transformar os obstáculos** [...] **em oportunidades**\", que inclui o cuidado ambiental; **Elas** retoma o antecedente feminino plural mais próximo que pode mobilizar pessoas: \"muitas **organizações sociais** nasceram\". É a (A). As outras indicam antecedentes que não fazem sentido como sujeito de \"mobilizam\" (alternativas, possibilidades, lutas, transformações) ou retomam trechos errados para \"Isso\".",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Isso\" retoma a ideia de **transformar os obstáculos em oportunidades**, que inclui o cuidado ambiental, e \"Elas\" retoma as **organizações sociais**, que mobilizam os agricultores.",
+        "B": "\"Isso\" não retoma \"sofrer com as mudanças climáticas\", pois a ideia que inclui o cuidado ambiental é a de transformar obstáculos; e \"alternativas\" não mobilizam agricultores.",
+        "C": "\"Isso\" não retoma a **compreensão equivocada**, que o texto contrapõe ao sentido real; e \"possibilidades de riqueza\" não é sujeito de \"mobilizam\".",
+        "D": "\"Elas\" não retoma \"lutas populares\" como agentes que mobilizam; o sujeito que mobiliza são as **organizações sociais** nascidas dessas lutas.",
+        "E": "\"Elas\" não retoma \"transformações no comportamento\", que não mobilizam pessoas; e \"Isso\" não se refere só a mudar as condições de vida."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#9",
@@ -206,7 +318,21 @@
         "portugues.crase"
       ],
       "dispositivos": [],
-      "exp": "Em (C), \"levar **a**\" + \"**a** compreensão\" (artigo, substantivo feminino determinado) gera **à**. Em (A), \"possibilitar\" é transitivo direto quanto à coisa (\"possibilitam a convivência\"). Não há crase antes de \"muitas\" (pronome indefinido plural, B), antes do pronome masculino \"seu\" (D) nem depois de outra preposição (\"para a construção\", E)."
+      "exp": "Em (C), \"levar **a**\" + \"**a** compreensão\" (artigo, substantivo feminino determinado) gera **à**. Em (A), \"possibilitar\" é transitivo direto quanto à coisa (\"possibilitam a convivência\"). Não há crase antes de \"muitas\" (pronome indefinido plural, B), antes do pronome masculino \"seu\" (D) nem depois de outra preposição (\"para a construção\", E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Possibilitar\" é transitivo direto quanto à coisa: **\"possibilitam a convivência\"**, sem crase.",
+        "B": "Não há crase antes de **\"muitas\"** (pronome indefinido plural): \"deram origem a muitas organizações\".",
+        "C": "\"Levar **a**\" (preposição) + **\"a** compreensão\" (artigo) forma **crase**: \"levar à compreensão\".",
+        "D": "Não há crase antes do pronome masculino **\"seu\"**: \"relacionado a seu real significado\".",
+        "E": "Depois de outra preposição não há crase: **\"para a construção\"**, sem acento."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#10",
@@ -228,7 +354,21 @@
         "portugues.tempos-modos"
       ],
       "dispositivos": [],
-      "exp": "Em (D), com \"um dos ... que\" o verbo pode ficar no singular (\"merece\") e \"interveio\" é a forma correta de **intervir** (conjuga-se como \"vir\"). Erros nas demais: (A) \"haver\" existencial é impessoal (\"haja\"); (B) \"fazer\" de tempo é impessoal (\"Já faz anos\"), \"famílias vêm\", \"ainda que ... considerem\" (subjuntivo) e \"existem adversidades\"; (C) voz passiva sintética (\"Geram-se riquezas\") e \"caso se mantenha\"; (E) o \"que\" retoma \"as mudanças ... e as injustiças\", logo \"compõem\"."
+      "exp": "Em (D), com \"um dos ... que\" o verbo pode ficar no singular (\"merece\") e \"interveio\" é a forma correta de **intervir** (conjuga-se como \"vir\"). Erros nas demais: (A) \"haver\" existencial é impessoal (\"haja\"); (B) \"fazer\" de tempo é impessoal (\"Já faz anos\"), \"famílias vêm\", \"ainda que ... considerem\" (subjuntivo) e \"existem adversidades\"; (C) voz passiva sintética (\"Geram-se riquezas\") e \"caso se mantenha\"; (E) o \"que\" retoma \"as mudanças ... e as injustiças\", logo \"compõem\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Haver\" no sentido de existir é **impessoal**: \"É preciso que haja trocas\", sem plural.",
+        "B": "Faltam ajustes: \"fazer\" indicando tempo é impessoal (\"Já faz anos\"), \"famílias **vêm**\", \"ainda que ... considerem\" e \"existem adversidades\".",
+        "C": "Deveria ser voz passiva sintética, **\"Geram-se riquezas\"**, e \"caso se mantenha\", com subjuntivo.",
+        "D": "Em \"um dos ... que\" o verbo pode ficar no singular (\"merece\"), e **\"interveio\"** é a forma correta de intervir, que se conjuga como \"vir\".",
+        "E": "O \"que\" retoma \"as mudanças ... e as injustiças\", plural: o verbo deve ser **\"compõem\"**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#11",
@@ -248,7 +388,21 @@
         "portugues.interpretacao.inferencia"
       ],
       "dispositivos": [],
-      "exp": "\"Nós não lhe ligávamos nenhuma. Ninguém brincava com ele\" e \"só queríamos que ele saísse do caminho e não nos viesse lamber\": o cão vivia **à margem** e era evitado pelos garotos, como diz a (E). Ninguém brincava com ele e ele comia as nêsperas podres (A); o narrador só supõe que ele talvez pensasse (B); nem os mais velhos lhe faziam festinha (C); o tio Joaquim é só alguém a quem o narrador poderia perguntar sobre vacina, e o cão nunca foi vacinado (D)."
+      "exp": "\"Nós não lhe ligávamos nenhuma. Ninguém brincava com ele\" e \"só queríamos que ele saísse do caminho e não nos viesse lamber\": o cão vivia **à margem** e era evitado pelos garotos, como diz a (E). Ninguém brincava com ele e ele comia as nêsperas podres (A); o narrador só supõe que ele talvez pensasse (B); nem os mais velhos lhe faziam festinha (C); o tio Joaquim é só alguém a quem o narrador poderia perguntar sobre vacina, e o cão nunca foi vacinado (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Ninguém brincava com o cão, e ele comia nêsperas **podres** que ninguém apanhava, não frescas que lhe davam.",
+        "B": "O narrador apenas **supõe** que o cão talvez pensasse, não afirma que ele raciocinasse; o isolamento vinha do desinteresse de todos, não de um raciocínio.",
+        "C": "Nem os adultos cuidavam dele: \"nem já os mais velhos lhe faziam só uma festinha\"; os **cuidados** de adultos não aparecem no texto.",
+        "D": "O tio Joaquim é só alguém a quem o narrador talvez perguntasse sobre vacina; o cão **nunca foi vacinado** e não recebia cuidados.",
+        "E": "\"Nós não lhe ligávamos nenhuma\" e \"só queríamos que ele saísse do caminho\": o cão vivia **à margem** e era evitado pelos garotos."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#12",
@@ -269,7 +423,21 @@
         "portugues.coesao.conectivos"
       ],
       "dispositivos": [],
-      "exp": "Em (B), \"**por** gritarmos ou **por** corrermos\" é a causa, realçada pela estrutura \"era ... que\", e o Kazukuta acordar é a consequência. Em (A), \"para lhe acudir as feridas\" exprime finalidade. Em (C), a alergia ou o medo são apenas hipótese (\"se calhar\", \"não sei\"), sem relação causal afirmada. (D) e (E) apenas descrevem hábitos e características do cão."
+      "exp": "Em (B), \"**por** gritarmos ou **por** corrermos\" é a causa, realçada pela estrutura \"era ... que\", e o Kazukuta acordar é a consequência. Em (A), \"para lhe acudir as feridas\" exprime finalidade. Em (C), a alergia ou o medo são apenas hipótese (\"se calhar\", \"não sei\"), sem relação causal afirmada. (D) e (E) apenas descrevem hábitos e características do cão.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Para lhe acudir as feridas\" exprime **finalidade**, não causa e consequência.",
+        "B": "\"Era mesmo **por** gritarmos ou **por** corrermos que ele acordava\": gritar e correr são a **causa** e o acordar é a consequência.",
+        "C": "Alergia e medo de vacina são só **hipótese** (\"se calhar\", \"não sei\"), sem relação de causa afirmada.",
+        "D": "A frase apenas **descreve** um hábito do cão, sem causa e consequência.",
+        "E": "O trecho apenas **descreve** as características desagradáveis do cão, sem relação causal."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#13",
@@ -290,7 +458,21 @@
         "portugues.classes.nomes"
       ],
       "dispositivos": [],
-      "exp": "\"Sempre\" é **advérbio** (de tempo), assim como **\"Normalmente\"**, advérbio que modifica \"comia\": é a (C). \"Andava\" é verbo (A); \"tristezas\" (B) e \"bocadinho\" (E) são substantivos; \"lento\" é adjetivo que caracteriza \"modo\" (D)."
+      "exp": "\"Sempre\" é **advérbio** (de tempo), assim como **\"Normalmente\"**, advérbio que modifica \"comia\": é a (C). \"Andava\" é verbo (A); \"tristezas\" (B) e \"bocadinho\" (E) são substantivos; \"lento\" é adjetivo que caracteriza \"modo\" (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Andava\" é **verbo**, e \"sempre\" é advérbio.",
+        "B": "\"Tristezas\" é **substantivo**, e \"sempre\" é advérbio.",
+        "C": "\"Normalmente\" é **advérbio** (de modo/frequência) que modifica \"comia\", como \"sempre\", advérbio de tempo.",
+        "D": "\"Lento\" é **adjetivo**, caracteriza \"modo\"; \"sempre\" é advérbio.",
+        "E": "\"Bocadinho\" é **substantivo**, e \"sempre\" é advérbio."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#14",
@@ -311,7 +493,21 @@
         "portugues.classes.pronomes"
       ],
       "dispositivos": [],
-      "exp": "Na norma-padrão, **lembrar-se** é pronominal e rege **de** (\"me lembro dele\"); sem pronome, \"lembrar\" é transitivo direto (\"lembro-o\"). Só a (C) está certa. (A) usa \"ele\" como objeto direto; (B) muda o sujeito e repete o erro; (D) usa \"lembrar de\" sem o pronome; (E) junta o pronominal com objeto direto e põe ênclise após o \"que\", que atrai o pronome."
+      "exp": "Na norma-padrão, **lembrar-se** é pronominal e rege **de** (\"me lembro dele\"); sem pronome, \"lembrar\" é transitivo direto (\"lembro-o\"). Só a (C) está certa. (A) usa \"ele\" como objeto direto; (B) muda o sujeito e repete o erro; (D) usa \"lembrar de\" sem o pronome; (E) junta o pronominal com objeto direto e põe ênclise após o \"que\", que atrai o pronome.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Lembrar\" sem pronome é transitivo direto e o pronome oblíquo seria \"o\" (\"lembro-o\"); **\"lembro ele\"** usa pronome reto como objeto, fora da norma-padrão.",
+        "B": "\"Lembra ele\" muda o sujeito para a terceira pessoa e **usa pronome reto** como objeto, fora da norma-padrão.",
+        "C": "**Lembrar-se** é pronominal e rege \"de\": \"me lembro dele\", forma correta da norma-padrão.",
+        "D": "\"Lembrar de\" sem o pronome reflexivo não segue a norma: o verbo pronominal pede **\"me lembro dele\"**.",
+        "E": "Não se combina o verbo pronominal \"me lembro\" com objeto direto \"-o\", e o \"que\" **atrai** o pronome, vedando a ênclise."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#15",
@@ -331,7 +527,21 @@
         "portugues.regencia.nominal"
       ],
       "dispositivos": [],
-      "exp": "\"À queda das nêsperas\" é complemento nominal do adjetivo \"atentos\" (atento a). Em (D), \"**de vacina**\" completa o substantivo abstrato \"medo\" (medo de algo), também complemento nominal: é a (D). Em (A) e (C), as expressões são adjuntos adverbiais (instrumento/meio, modo) dos verbos; em (B), \"de ramelas e moscas\" é adjunto adnominal que caracteriza \"olhar\"; em (E), \"para a fome dele\" liga-se ao verbo \"sobrar\", não a um nome."
+      "exp": "\"À queda das nêsperas\" é complemento nominal do adjetivo \"atentos\" (atento a). Em (D), \"**de vacina**\" completa o substantivo abstrato \"medo\" (medo de algo), também complemento nominal: é a (D). Em (A) e (C), as expressões são adjuntos adverbiais (instrumento/meio, modo) dos verbos; em (B), \"de ramelas e moscas\" é adjunto adnominal que caracteriza \"olhar\"; em (E), \"para a fome dele\" liga-se ao verbo \"sobrar\", não a um nome.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Com a baba dele\" é **adjunto adverbial** de meio ligado ao verbo \"lamber\", não complemento de um nome.",
+        "B": "\"De ramelas e moscas\" é **adjunto adnominal** que caracteriza \"olhar\", não complemento nominal.",
+        "C": "\"Com força\" é **adjunto adverbial** de modo do verbo \"gritarem\".",
+        "D": "\"Medo **de vacina**\": a expressão completa o sentido do substantivo abstrato \"medo\", como **complemento nominal**.",
+        "E": "\"Para a fome dele\" liga-se ao verbo \"sobrar\", como **adjunto adverbial**, não a um nome."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#16",
@@ -352,7 +562,21 @@
         "portugues.semantica.contextual"
       ],
       "dispositivos": [],
-      "exp": "\"Acudir-**lhe** as feridas\" equivale a \"acudir as feridas **dele**\": o \"lhe\" tem valor **possessivo**, o mesmo sentido de \"dele\" em \"a fome dele\" (E). Em (A), \"lhe\" é objeto indireto (faziam festinha a ele); em (B), \"nos\" é objeto direto de \"lamber\"; em (C), \"ninguém\" é pronome indefinido sujeito; em (D), \"se\" é parte do verbo pronominal \"mexer-se\"."
+      "exp": "\"Acudir-**lhe** as feridas\" equivale a \"acudir as feridas **dele**\": o \"lhe\" tem valor **possessivo**, o mesmo sentido de \"dele\" em \"a fome dele\" (E). Em (A), \"lhe\" é objeto indireto (faziam festinha a ele); em (B), \"nos\" é objeto direto de \"lamber\"; em (C), \"ninguém\" é pronome indefinido sujeito; em (D), \"se\" é parte do verbo pronominal \"mexer-se\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Em \"lhe faziam festinha\", o \"lhe\" é **objeto indireto** (faziam a ele), não possessivo.",
+        "B": "\"Nos\" é **objeto direto** de \"lamber\" (lamber a nós), não possessivo.",
+        "C": "\"Ninguém\" é **pronome indefinido** sujeito, sem valor possessivo.",
+        "D": "\"Se\" em \"mexia-se\" faz parte do **verbo pronominal**, não é possessivo.",
+        "E": "\"Acudir-**lhe** as feridas\" equivale a \"acudir as feridas **dele**\": o pronome tem valor **possessivo**, o mesmo de \"a fome dele\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#17",
@@ -395,7 +619,21 @@
         "portugues.semantica.contextual"
       ],
       "dispositivos": [],
-      "exp": "**Utopia** é ideal irrealizável, **quimera**; **abominar** é rejeitar com horror, **repelir**; **hegemonia** é predomínio, **supremacia**: é a (A). \"Submissão\" (B) é o oposto de hegemonia; \"querem\" e \"defendem\" (C, D) invertem o sentido de abominar; \"democracia\" e \"hierarquia\" não equivalem a hegemonia, e \"desatino\" (loucura) não é utopia."
+      "exp": "**Utopia** é ideal irrealizável, **quimera**; **abominar** é rejeitar com horror, **repelir**; **hegemonia** é predomínio, **supremacia**: é a (A). \"Submissão\" (B) é o oposto de hegemonia; \"querem\" e \"defendem\" (C, D) invertem o sentido de abominar; \"democracia\" e \"hierarquia\" não equivalem a hegemonia, e \"desatino\" (loucura) não é utopia.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Utopia** é ideal irrealizável, quimera; **abominar** é repelir; **hegemonia** é supremacia: os três sinônimos estão corretos.",
+        "B": "\"Submissão\" é o **oposto** de hegemonia, que é predomínio.",
+        "C": "\"Querem\" não é sinônimo de **abominam**, que é rejeitar com horror; sentido contrário.",
+        "D": "\"Defendem\" é o oposto de **abominam**, e \"democracia\" não equivale a hegemonia.",
+        "E": "\"Hierarquia\" não é sinônimo de **hegemonia** (predomínio, supremacia)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#19",
@@ -415,7 +653,21 @@
         "portugues.interpretacao.inferencia"
       ],
       "dispositivos": [],
-      "exp": "O texto cita o **fracasso** da Lei Seca e diz que a utopia de um mundo sem drogas foi ficando \"cada vez mais distante\", com **\"assombroso crescimento\"** do número de usuários: a guerra às drogas também falhou, como diz a (C) (\"recrudescimento\" = aumento). (A) e (E) afirmam um êxito do combate às drogas que o texto nega. (B) fala em mudança positiva do cenário social, que o texto não aponta. (D) contraria o texto: a Lei Seca aumentou e profissionalizou a criminalidade."
+      "exp": "O texto cita o **fracasso** da Lei Seca e diz que a utopia de um mundo sem drogas foi ficando \"cada vez mais distante\", com **\"assombroso crescimento\"** do número de usuários: a guerra às drogas também falhou, como diz a (C) (\"recrudescimento\" = aumento). (A) e (E) afirmam um êxito do combate às drogas que o texto nega. (B) fala em mudança positiva do cenário social, que o texto não aponta. (D) contraria o texto: a Lei Seca aumentou e profissionalizou a criminalidade.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto não apresenta êxito do combate às drogas: o número de usuários **cresceu** e a utopia ficou mais distante.",
+        "B": "O texto não aponta mudança **positiva** do cenário social: fala de fracasso, mais criminalidade e mais usuários.",
+        "C": "O texto diz que a Lei Seca **fracassou** e que o número de usuários teve \"assombroso crescimento\": o combate às drogas também falhou.",
+        "D": "A Lei Seca **aumentou e profissionalizou** a criminalidade, segundo o texto, em vez de acabar com ela.",
+        "E": "O texto nega a **eficácia** do combate às drogas e não diz que os princípios proibicionistas estavam ausentes na Lei Seca."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#20",
@@ -436,7 +688,21 @@
         "portugues.coesao.relacoes"
       ],
       "dispositivos": [],
-      "exp": "\"**Pois**\" anteposto ao verbo e intercalado justifica o uso de \"lados\": **explicação**; \"**desde que**\" = contanto que, **condição**; \"**em que pese**\" = embora, apesar de, **concessão**; \"**no entanto**\" marca **adversidade**. É a (B). \"Pois\" só seria conclusivo posposto ao verbo; nenhuma das expressões indica tempo, finalidade ou comparação."
+      "exp": "\"**Pois**\" anteposto ao verbo e intercalado justifica o uso de \"lados\": **explicação**; \"**desde que**\" = contanto que, **condição**; \"**em que pese**\" = embora, apesar de, **concessão**; \"**no entanto**\" marca **adversidade**. É a (B). \"Pois\" só seria conclusivo posposto ao verbo; nenhuma das expressões indica tempo, finalidade ou comparação.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Pois\" anteposto ao verbo e intercalado dá **explicação**, mas \"desde que\" é condição, não conclusão, e \"em que pese\" não indica causa.",
+        "B": "\"Pois\" dá **explicação**; \"desde que\" é **condição**; \"em que pese\" é **concessão**; \"no entanto\" marca **adversidade**.",
+        "C": "\"Pois\" posposto ao verbo seria conclusivo; aqui é **explicativo**, e \"em que pese\" exprime concessão, não finalidade.",
+        "D": "\"Desde que\" exprime **condição**, não tempo; \"em que pese\" é concessão, não comparação; \"no entanto\" é adversidade, não explicação.",
+        "E": "\"Pois\" não é adversativo aqui, mas **explicativo**; e \"desde que\" não é tempo nem \"em que pese\" é finalidade."
+      }
     }
   ]
 }
