@@ -19,7 +19,21 @@
         "administrativo.governanca-corporativa"
       ],
       "dispositivos": [],
-      "exp": "No Código do IBGC, **accountability** (prestação de contas) é o dever dos agentes de governança de prestar contas de sua atuação de modo claro, conciso, compreensível e tempestivo, **assumindo integralmente as consequências de seus atos e omissões**: é a (A). (B) descreve eficiência. (C) descreve conformidade contábil. (D) e (E) se aproximam do princípio da responsabilidade corporativa, que é outro princípio, e (E) ainda o deturpa ao pôr a responsabilidade social \"acima do lucro\"."
+      "exp": "No Código do IBGC, **accountability** (prestação de contas) é o dever dos agentes de governança de prestar contas de sua atuação de modo claro, conciso, compreensível e tempestivo, **assumindo integralmente as consequências de seus atos e omissões**: é a (A). (B) descreve eficiência. (C) descreve conformidade contábil. (D) e (E) se aproximam do princípio da responsabilidade corporativa, que é outro princípio, e (E) ainda o deturpa ao pôr a responsabilidade social \"acima do lucro\".",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É a definição do Código do IBGC: **accountability** é a prestação de contas dos agentes de governança, de modo claro, conciso, compreensível e tempestivo, **assumindo integralmente as consequências** de seus atos e omissões.",
+        "B": "Buscar o melhor uso dos insumos na produção de bens e serviços é a ideia de **eficiência**. Accountability, no Código do IBGC, é a **prestação de contas** dos agentes de governança, com responsabilidade pelos próprios atos e omissões.",
+        "C": "Elaborar demonstrações financeiras conforme as normas técnicas é **conformidade contábil**, não accountability. Esta é a **prestação de contas** clara, concisa, compreensível e tempestiva dos agentes de governança, que assumem as consequências de seus atos.",
+        "D": "Reduzir externalidades negativas e zelar pela sustentabilidade econômico-financeira é o conteúdo da **responsabilidade corporativa**, outro princípio do IBGC. Accountability é a **prestação de contas** dos agentes de governança.",
+        "E": "O texto deturpa a **responsabilidade corporativa**, outro princípio do IBGC, que não põe a responsabilidade social \"acima do lucro\". Accountability é a **prestação de contas** dos agentes de governança, que assumem as consequências de seus atos e omissões."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#18",
@@ -38,7 +52,21 @@
         "administrativo.governanca-corporativa"
       ],
       "dispositivos": [],
-      "exp": "Gerir riscos é **identificar as incertezas** dos processos, **medir a probabilidade** de ocorrência e **avaliar os impactos**, para depois tratá-los: é a (B). As demais restringem o conceito sem razão: (A) a só alguns tipos de risco (\"exclusivamente\"); (C) a identificar e classificar, como se a mitigação fosse do compliance; (D) a mitigar riscos gerenciáveis. (E) erra ao falar em eliminar todos os riscos, o que não é possível: a gestão trata os riscos dentro do apetite da organização."
+      "exp": "Gerir riscos é **identificar as incertezas** dos processos, **medir a probabilidade** de ocorrência e **avaliar os impactos**, para depois tratá-los: é a (B). As demais restringem o conceito sem razão: (A) a só alguns tipos de risco (\"exclusivamente\"); (C) a identificar e classificar, como se a mitigação fosse do compliance; (D) a mitigar riscos gerenciáveis. (E) erra ao falar em eliminar todos os riscos, o que não é possível: a gestão trata os riscos dentro do apetite da organização.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A gestão de riscos não se limita aos riscos de imagem e de integridade: alcança **todas as incertezas** dos processos da organização, de qualquer natureza (estratégicos, operacionais, financeiros, legais).",
+        "B": "Gerir riscos é **identificar as incertezas** dos processos da organização, **medir a probabilidade** de ocorrência e avaliar seus possíveis **impactos**, para então tratá-los.",
+        "C": "A gestão de riscos não para na identificação e na classificação: inclui **avaliar, tratar (mitigar) e monitorar** os riscos. O compliance é um apoio, e não o dono exclusivo da mitigação.",
+        "D": "A mitigação não se restringe a uma categoria de riscos \"gerenciáveis\": todos os riscos identificados são **avaliados e tratados** (mitigados, transferidos, evitados ou aceitos) conforme o apetite a risco da organização.",
+        "E": "Não é possível **eliminar** todos os riscos. A gestão de riscos identifica, mede e **trata** os riscos dentro do apetite da organização, e os riscos legais também entram nesse processo."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#19",
@@ -57,7 +85,21 @@
         "administrativo.gestao-estrategica"
       ],
       "dispositivos": [],
-      "exp": "O mapeamento de competências identifica a **lacuna (gap)** entre as competências necessárias aos objetivos e cargos da organização e as que ela já tem. Isso pode orientar o conteúdo dos concursos, a capacitação e a avaliação dos servidores, então a afirmação está equivocada, como diz a (D). (A) liga o mapeamento só à remuneração. (B) o confunde com recrutamento no mercado. (C) e (E) o desvinculam dos requisitos dos cargos ou o restringem à alta direção, o que não corresponde à metodologia."
+      "exp": "O mapeamento de competências identifica a **lacuna (gap)** entre as competências necessárias aos objetivos e cargos da organização e as que ela já tem. Isso pode orientar o conteúdo dos concursos, a capacitação e a avaliação dos servidores, então a afirmação está equivocada, como diz a (D). (A) liga o mapeamento só à remuneração. (B) o confunde com recrutamento no mercado. (C) e (E) o desvinculam dos requisitos dos cargos ou o restringem à alta direção, o que não corresponde à metodologia.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O mapeamento de competências não é etapa posterior ligada **só à remuneração**: ele identifica a lacuna entre as competências necessárias e as disponíveis, e orienta seleção, capacitação e avaliação.",
+        "B": "Mapear competências não é prospectar talentos no mercado: é identificar a **lacuna (gap)** entre as competências requeridas pelos cargos e as já existentes na organização, o que é compatível com o concurso público.",
+        "C": "O mapeamento está justamente **atrelado aos requisitos** dos cargos e da organização, e não é exclusivo do sistema de promoções. Ele identifica a **lacuna** entre as competências necessárias e as disponíveis.",
+        "D": "Mapear competências é identificar a **lacuna** entre as competências requeridas pelos cargos e as disponíveis na organização. Isso pode orientar o conteúdo dos concursos, respeitadas as atribuições legais, então a afirmação de que a etapa é inviável no setor público é **equivocada**.",
+        "E": "O mapeamento de competências não se restringe à **alta direção**: abrange todos os cargos e identifica a **lacuna** entre as competências que a organização precisa e as que já tem."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#20",
@@ -76,7 +118,21 @@
         "administrativo.gestao-estrategica"
       ],
       "dispositivos": [],
-      "exp": "A **missão** é a razão de ser da organização, seu propósito fundamental: por que ela existe e a quem serve. É a (E). (A) descreve valores e cultura organizacional. (B) descreve metas e objetivos estratégicos. (C) descreve a **visão** (o futuro desejado). (D) descreve a análise do ambiente externo (oportunidades e ameaças, da matriz SWOT)."
+      "exp": "A **missão** é a razão de ser da organização, seu propósito fundamental: por que ela existe e a quem serve. É a (E). (A) descreve valores e cultura organizacional. (B) descreve metas e objetivos estratégicos. (C) descreve a **visão** (o futuro desejado). (D) descreve a análise do ambiente externo (oportunidades e ameaças, da matriz SWOT).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Crenças, normas e padrões que formam a cultura vigente correspondem aos **valores** e à cultura organizacional, e não à missão, que é a **razão de ser** da entidade.",
+        "B": "Fixar metas de curto, médio e longo prazo é tarefa dos **objetivos e metas estratégicos**. A missão é a **razão de ser** da organização, seu propósito fundamental.",
+        "C": "O consenso sobre o futuro que se deseja para a organização é a **visão**. A missão é a **razão de ser** da entidade, seu propósito fundamental.",
+        "D": "Prospectar cenários e identificar oportunidades e ameaças é a **análise do ambiente externo** (matriz SWOT). A missão é a **razão de ser** da organização.",
+        "E": "A **missão** é a razão de ser da organização, seu **propósito fundamental**: por que ela existe e a quem serve."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#21",
@@ -99,7 +155,21 @@
         "L9784 12",
         "L9784 15"
       ],
-      "exp": "O `L9784 12` permite delegar parte da competência a outros órgãos ou titulares, \"**ainda que estes não lhe sejam hierarquicamente subordinados**\", ou seja, na forma vertical e na horizontal. Já o `L9784 15` só admite a avocação temporária de competência atribuída a **órgão hierarquicamente inferior**, ou seja, só na forma vertical. É a (C), e as demais combinações contrariam esses dois artigos."
+      "exp": "O `L9784 12` permite delegar parte da competência a outros órgãos ou titulares, \"**ainda que estes não lhe sejam hierarquicamente subordinados**\", ou seja, na forma vertical e na horizontal. Já o `L9784 15` só admite a avocação temporária de competência atribuída a **órgão hierarquicamente inferior**, ou seja, só na forma vertical. É a (C), e as demais combinações contrariam esses dois artigos.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A delegação vale nas duas modalidades (`L9784 12`: \"ainda que estes não lhe sejam hierarquicamente subordinados\"), mas a avocação só alcança competência de **órgão hierarquicamente inferior** (`L9784 15`), ou seja, só a vertical.",
+        "B": "Está invertido. A **delegação** admite as duas modalidades, porque pode ir a órgãos **não subordinados** (`L9784 12`); a **avocação** só é vertical, pois recai sobre competência de órgão hierarquicamente inferior (`L9784 15`).",
+        "C": "O `L9784 12` permite delegar a órgãos ou titulares \"**ainda que estes não lhe sejam hierarquicamente subordinados**\" (vertical e horizontal), e o `L9784 15` só admite avocar competência de **órgão hierarquicamente inferior** (vertical).",
+        "D": "A delegação não é só vertical: o `L9784 12` a admite **ainda que não haja subordinação**. E a avocação não é horizontal, mas vertical: recai sobre competência de **órgão hierarquicamente inferior** (`L9784 15`).",
+        "E": "A avocação não é horizontal: o `L9784 15` só permite avocar competência atribuída a **órgão hierarquicamente inferior**, ou seja, na linha hierárquica."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#22",
@@ -124,7 +194,21 @@
         "L8666 79 §2º",
         "L8666 80 III"
       ],
-      "exp": "O `L8666 78 XI` prevê como motivo de rescisão \"a alteração social ou a modificação da finalidade ou da estrutura da empresa, que prejudique a execução do contrato\": é a (B). (A) erra porque a rescisão também pode ser amigável ou judicial (`L8666 79`). Em (C), o caso fortuito ou força maior (`L8666 78 XVII`) autoriza rescisão unilateral **pela Administração** (`L8666 79 I`), não pelo contratado. Em (D), a rescisão por interesse público (inciso XII) é ato unilateral da Administração e não depende de processo judicial. (E) erra porque a garantia só é devolvida quando não há culpa do contratado (`L8666 79 §2º`); na rescisão por culpa dele, a garantia é executada (`L8666 80 III`)."
+      "exp": "O `L8666 78 XI` prevê como motivo de rescisão \"a alteração social ou a modificação da finalidade ou da estrutura da empresa, que prejudique a execução do contrato\": é a (B). (A) erra porque a rescisão também pode ser amigável ou judicial (`L8666 79`). Em (C), o caso fortuito ou força maior (`L8666 78 XVII`) autoriza rescisão unilateral **pela Administração** (`L8666 79 I`), não pelo contratado. Em (D), a rescisão por interesse público (inciso XII) é ato unilateral da Administração e não depende de processo judicial. (E) erra porque a garantia só é devolvida quando não há culpa do contratado (`L8666 79 §2º`); na rescisão por culpa dele, a garantia é executada (`L8666 80 III`).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A rescisão nem sempre é unilateral: também pode ser **amigável**, por acordo entre as partes, ou **judicial** (`L8666 79`). Hoje a regra está no `L14133 138`, que fala em extinção consensual, arbitral ou judicial.",
+        "B": "O `L8666 78 XI` arrola como motivo de rescisão \"a **alteração social** ou a modificação da finalidade ou da estrutura da empresa, que **prejudique a execução** do contrato\". A Lei 8.666/1993 foi revogada; a regra continua no `L14133 137 III`.",
+        "C": "O caso fortuito ou de força maior (`L8666 78 XVII`) autoriza a rescisão unilateral **pela Administração** (`L8666 79 I`), e não pelo contratado, que depende de acordo ou de decisão judicial.",
+        "D": "A rescisão por razões de interesse público (`L8666 78 XII`) é **ato unilateral da Administração** (`L8666 79 I`), exarado no processo administrativo do contrato, sem necessidade de processo judicial.",
+        "E": "A garantia só é devolvida quando a rescisão ocorre **sem culpa do contratado** (`L8666 79 §2º`). Na rescisão unilateral por falta dele, a garantia é **executada** para ressarcir a Administração (`L8666 80 III`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#23",
@@ -149,7 +233,21 @@
         "CF 37 §9º",
         "CF 100"
       ],
-      "exp": "A Lei das Estatais dispensa as sociedades de economia mista de licitar na comercialização, prestação ou execução, de forma direta, de produtos, serviços ou obras **ligados a seus objetos sociais** (`L13303 28 §3º I`): é a (A). (B) erra porque o prazo em dobro do `CPC 183` é só das pessoas jurídicas de direito público. (C) erra porque a suspensão de liminar ou de sentença é prerrogativa do poder público. (D) erra porque o teto só se aplica às estatais que recebem recursos públicos para despesas de pessoal ou de custeio (`CF 37 §9º`). (E) erra porque o regime de precatórios (`CF 100`) só alcança, segundo o STF, estatais que prestam serviço público essencial sem concorrência, e não todas \"independentemente da natureza de suas atividades\"."
+      "exp": "A Lei das Estatais dispensa as sociedades de economia mista de licitar na comercialização, prestação ou execução, de forma direta, de produtos, serviços ou obras **ligados a seus objetos sociais** (`L13303 28 §3º I`): é a (A). (B) erra porque o prazo em dobro do `CPC 183` é só das pessoas jurídicas de direito público. (C) erra porque a suspensão de liminar ou de sentença é prerrogativa do poder público. (D) erra porque o teto só se aplica às estatais que recebem recursos públicos para despesas de pessoal ou de custeio (`CF 37 §9º`). (E) erra porque o regime de precatórios (`CF 100`) só alcança, segundo o STF, estatais que prestam serviço público essencial sem concorrência, e não todas \"independentemente da natureza de suas atividades\".",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O `L13303 28 §3º I` dispensa as empresas públicas e sociedades de economia mista das regras de licitação na comercialização, prestação ou execução, de forma direta, de produtos, serviços ou obras **especificamente relacionados com seus objetos sociais**.",
+        "B": "O prazo em dobro e a intimação pessoal do `CPC 183` são da União, dos Estados, do DF, dos Municípios e de suas autarquias e fundações, ou seja, das **pessoas jurídicas de direito público**. A sociedade de economia mista é pessoa jurídica de **direito privado**.",
+        "C": "O pedido de suspensão de liminar ou de sentença é prerrogativa do **poder público** (pessoas jurídicas de direito público e Ministério Público), e não integra o regime jurídico das sociedades de economia mista.",
+        "D": "O teto remuneratório só alcança as estatais que **recebem recursos** da União, dos Estados, do DF ou dos Municípios para pagamento de despesas de pessoal ou de custeio em geral (`CF 37 §9º`).",
+        "E": "O regime de precatórios (`CF 100`) é próprio da Fazenda Pública. O STF só o estende a estatais que prestam **serviço público essencial**, sem concorrência e sem intuito de lucro, e não a todas, \"independentemente da natureza de suas atividades\"."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#24",
@@ -174,7 +272,21 @@
         "L8112 60-B VIII",
         "L8112 60-D"
       ],
-      "exp": "Um dos requisitos do auxílio-moradia é que o Município do novo cargo não se enquadre no `L8112 58 §3º`, ou seja, que não esteja na mesma região metropolitana, aglomeração urbana ou microrregião do local de residência (`L8112 60-B VI`): é a (D). (B) contraria o `L8112 60-B VIII`, que exclui o deslocamento por alteração de lotação ou nomeação para cargo efetivo. (C) contraria o `L8112 60-B III`, que exclui quem foi proprietário de imóvel no Município nos 12 meses anteriores. (E) erra o limite, que é de **25%** (`L8112 60-D`). (A) erra porque a vantagem está em vigor e não foi declarada inconstitucional."
+      "exp": "Um dos requisitos do auxílio-moradia é que o Município do novo cargo não se enquadre no `L8112 58 §3º`, ou seja, que não esteja na mesma região metropolitana, aglomeração urbana ou microrregião do local de residência (`L8112 60-B VI`): é a (D). (B) contraria o `L8112 60-B VIII`, que exclui o deslocamento por alteração de lotação ou nomeação para cargo efetivo. (C) contraria o `L8112 60-B III`, que exclui quem foi proprietário de imóvel no Município nos 12 meses anteriores. (E) erra o limite, que é de **25%** (`L8112 60-D`). (A) erra porque a vantagem está em vigor e não foi declarada inconstitucional.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O auxílio-moradia **está em vigor**, disciplinado nos `L8112 60-A` a `L8112 60-E`, e não foi declarado inconstitucional pelo STF.",
+        "B": "Um dos requisitos do auxílio-moradia é que o deslocamento **não** tenha sido por força de **alteração de lotação ou nomeação para cargo efetivo** (`L8112 60-B VIII`).",
+        "C": "O benefício é negado se o servidor ou seu cônjuge ou companheiro **seja ou tenha sido proprietário**, promitente comprador, cessionário ou promitente cessionário de imóvel no Município do novo cargo nos **doze meses** anteriores à nomeação (`L8112 60-B III`).",
+        "D": "O `L8112 60-B VI` exige que o Município do novo cargo **não** se enquadre no `L8112 58 §3º`, ou seja, que não esteja na **mesma região metropolitana**, aglomeração urbana ou microrregião do local de residência ou domicílio do servidor.",
+        "E": "O limite é de **25%**, e não de 50%, do valor do cargo em comissão, função comissionada ou cargo de Ministro de Estado ocupado (`L8112 60-D`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#25",
@@ -202,6 +314,20 @@
         "L11416 5 §7º"
       ],
       "exp": "(E) reproduz o `L11416 16 §2º`: quem exerce função comissionada ou cargo em comissão não recebe a **GAE**. (A) e (B) trocam os conceitos do `L11416 9`: a passagem de um padrão para o seguinte na mesma classe é a **progressão funcional** (§1º), e a passagem do último padrão de uma classe para o primeiro da seguinte é a **promoção** (§2º). (C) erra porque o `L11416 24 p.ú.` autoriza transformar, sem aumento de despesa, funções comissionadas e cargos em comissão, mas **vedada a transformação de função em cargo ou vice-versa**. (D) erra o percentual, que é de **50%** (`L11416 5 §7º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A movimentação de um padrão para o seguinte, dentro da mesma classe, é a **progressão funcional** (`L11416 9 §1º`), e não a promoção.",
+        "B": "A passagem do último padrão de uma classe para o primeiro padrão da classe seguinte é a **promoção** (`L11416 9 §2º`), e não a progressão funcional.",
+        "C": "A transformação, sem aumento de despesa, das funções comissionadas e dos cargos em comissão é autorizada, mas é **vedada a transformação de função em cargo ou vice-versa** (`L11416 24 p.ú.`).",
+        "D": "O percentual mínimo é de **50%** dos cargos em comissão de cada órgão, destinados a servidores efetivos do seu quadro (`L11416 5 §7º`).",
+        "E": "É o texto do `L11416 16 §2º`: é **vedada** a percepção da **GAE** pelo servidor designado para função comissionada ou nomeado para cargo em comissão."
+      },
       "observacoes": [
         "O parágrafo único do art. 24 aparece como '(VETADO)' na publicação original (DOU extra de 15/12/2006) e no texto atualizado da Câmara, mas a republicação integral da lei (DOU de 19/12/2006) o traz em vigor, e a republicação da mensagem de veto já não o inclui entre os dispositivos vetados; os tribunais o aplicam. Texto: 'Os órgãos de que trata este artigo ficam autorizados a transformar, sem aumento de despesa, no âmbito de suas competências, as funções comissionadas e os cargos em comissão de seu quadro de pessoal, vedada a transformação de função em cargo ou vice-versa.' Arts. 5º §7º, 9º e 16 §2º conferidos no texto atualizado."
       ],
@@ -225,7 +351,21 @@
         "administrativo.agentes"
       ],
       "dispositivos": [],
-      "exp": "Quem foi investido no cargo de forma irregular, mas com aparência de legalidade, é **funcionário (agente) de fato**. Pela teoria da aparência, da boa-fé dos administrados e da segurança jurídica, os atos que praticou são **válidos** perante terceiros: é a (A). Não há usurpação de função (B), que ocorre quando alguém sem investidura nenhuma exerce a função, e que geraria ato inexistente. Também não há vício de motivo (C), desvio de finalidade (D) ou objeto impossível (E): o vício está na investidura, e não no conteúdo dos atos."
+      "exp": "Quem foi investido no cargo de forma irregular, mas com aparência de legalidade, é **funcionário (agente) de fato**. Pela teoria da aparência, da boa-fé dos administrados e da segurança jurídica, os atos que praticou são **válidos** perante terceiros: é a (A). Não há usurpação de função (B), que ocorre quando alguém sem investidura nenhuma exerce a função, e que geraria ato inexistente. Também não há vício de motivo (C), desvio de finalidade (D) ou objeto impossível (E): o vício está na investidura, e não no conteúdo dos atos.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Quem é investido no cargo de forma irregular, mas com aparência de legalidade, é **funcionário de fato**. Pela teoria da aparência, da boa-fé e da segurança jurídica, os atos que praticou são **válidos** perante terceiros.",
+        "B": "Não há usurpação de função, que ocorre quando alguém **sem investidura nenhuma** exerce a função. O servidor foi empossado; a investidura apenas se revelou irregular, o que o torna **funcionário de fato**, com atos válidos.",
+        "C": "Não há vício de motivo nos atos: o defeito está na **investidura** do agente. Pela teoria do **funcionário de fato**, seus atos são válidos perante terceiros de boa-fé.",
+        "D": "Não há desvio de finalidade, pois os atos visaram ao interesse público. O vício está na **investidura**, e os atos do **funcionário de fato** são válidos.",
+        "E": "O objeto dos atos não é impossível: o vício está na **investidura** do agente. Pela teoria do **funcionário de fato**, os atos são válidos, e não inexistentes."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#27",
@@ -251,7 +391,21 @@
         "CF 102 I q",
         "CF 5 LXXII"
       ],
-      "exp": "Cabe ação popular para anular ato lesivo à moralidade administrativa e ao patrimônio público (`CF 5º LXXIII`). O STF entende que a competência originária do `CF 102 I r` para ações contra o CNJ se limita a mandado de segurança, habeas corpus, habeas data e mandado de injunção; a ação popular contra ato do CNJ (órgão da União) vai ao **juiz federal**. É a (E). (A) erra porque CPI estadual não está sob a jurisdição originária do STF. (B) erra porque o MS contra Comandante da Marinha é do **STJ** (`CF 105 I b`). (C) erra duas vezes: o mandado de injunção supre falta de norma regulamentadora, e não omissão administrativa, e o MI contra a Mesa da Câmara seria do STF (`CF 102 I q`). (D) erra porque o habeas data serve para informações sobre o próprio impetrante (`CF 5º LXXII`), e não para ter acesso a autos de PAD de terceiro."
+      "exp": "Cabe ação popular para anular ato lesivo à moralidade administrativa e ao patrimônio público (`CF 5º LXXIII`). O STF entende que a competência originária do `CF 102 I r` para ações contra o CNJ se limita a mandado de segurança, habeas corpus, habeas data e mandado de injunção; a ação popular contra ato do CNJ (órgão da União) vai ao **juiz federal**. É a (E). (A) erra porque CPI estadual não está sob a jurisdição originária do STF. (B) erra porque o MS contra Comandante da Marinha é do **STJ** (`CF 105 I b`). (C) erra duas vezes: o mandado de injunção supre falta de norma regulamentadora, e não omissão administrativa, e o MI contra a Mesa da Câmara seria do STF (`CF 102 I q`). (D) erra porque o habeas data serve para informações sobre o próprio impetrante (`CF 5º LXXII`), e não para ter acesso a autos de PAD de terceiro.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O STF não julga originariamente habeas corpus contra **CPI estadual**: sua competência para HC alcança pacientes e coatores ligados à esfera federal (`CF 102 I d` e `CF 102 I i`). Ato de CPI de Assembleia Legislativa é levado ao Tribunal de Justiça.",
+        "B": "Mandado de segurança contra ato de **Comandante da Marinha** é da competência originária do **STJ** (`CF 105 I b`), e não do TRF.",
+        "C": "O mandado de injunção supre a falta de **norma regulamentadora** (`CF 5 LXXI`), e não omissão administrativa como deixar de instaurar processo por quebra de decoro. E o MI contra a Mesa da Câmara seria do **STF** (`CF 102 I q`).",
+        "D": "O habeas data serve para conhecer ou retificar **informações relativas à pessoa do impetrante** (`CF 5 LXXII`), e não para obter acesso a autos de processo disciplinar contra terceiro.",
+        "E": "Cabe ação popular para anular ato lesivo à **moralidade administrativa** e ao patrimônio público (`CF 5 LXXIII`). Segundo o STF, a competência do `CF 102 I r` contra o CNJ se limita a MS, HC, HD e MI; a ação popular contra ato do CNJ, órgão da União, vai ao **juiz federal**."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#28",
@@ -277,7 +431,21 @@
         "L11417 6",
         "CPC 1030 I a"
       ],
-      "exp": "A súmula vinculante obriga os demais órgãos do Judiciário a partir de sua publicação (`CF 103-A`) e se aplica aos processos pendentes, então o TRF deve aplicá-la (o que afasta a B). Se a súmula for aplicada corretamente, não há reclamação, que só cabe contra ato que a contrarie ou a aplique indevidamente (`CF 103-A §3º`). O recurso extraordinário contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1.030 I a`), e a pessoa jurídica privada não está entre os legitimados a propor revisão do enunciado (`L11417 3`). É a (D). (A) e (E) admitem reclamação e RE nesse caso, o que está errado. (C) erra porque o TRF até é legitimado (`L11417 3 XI`), mas a proposta de revisão **não autoriza a suspensão** dos processos (`L11417 6`)."
+      "exp": "A súmula vinculante obriga os demais órgãos do Judiciário a partir de sua publicação (`CF 103-A`) e se aplica aos processos pendentes, então o TRF deve aplicá-la (o que afasta a B). Se a súmula for aplicada corretamente, não há reclamação, que só cabe contra ato que a contrarie ou a aplique indevidamente (`CF 103-A §3º`). O recurso extraordinário contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1.030 I a`), e a pessoa jurídica privada não está entre os legitimados a propor revisão do enunciado (`L11417 3`). É a (D). (A) e (E) admitem reclamação e RE nesse caso, o que está errado. (C) erra porque o TRF até é legitimado (`L11417 3 XI`), mas a proposta de revisão **não autoriza a suspensão** dos processos (`L11417 6`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Aplicada corretamente a súmula vinculante, **não cabe reclamação**, que só se volta contra ato que **contrarie** a súmula ou a **aplique indevidamente** (`CF 103-A §3º`).",
+        "B": "A súmula vinculante obriga os demais órgãos do Judiciário a partir da **publicação** (`CF 103-A`) e se aplica aos **processos pendentes**, ainda que a sentença seja anterior a ela.",
+        "C": "O TRF até é legitimado a propor a revisão da súmula (`L11417 3 XI`), mas a proposta **não autoriza a suspensão** dos processos em que se discuta a mesma questão (`L11417 6`).",
+        "D": "A súmula vinculante obriga o Judiciário desde a publicação (`CF 103-A`) e vale para os processos pendentes. Bem aplicada, não cabe **reclamação** (`CF 103-A §3º`), o **recurso extraordinário** contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1030 I a`) e a pessoa jurídica privada **não é legitimada** a propor a revisão (`L11417 3`).",
+        "E": "O recurso extraordinário contra acórdão que segue o entendimento do STF **é inadmitido** na origem (`CPC 1030 I a`). Não há espaço para reformar decisão que aplicou corretamente a súmula vinculante."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#29",
@@ -301,7 +469,21 @@
         "CF 36 §1º",
         "CF 36 §3º"
       ],
-      "exp": "Não aplicar o mínimo exigido em ações e serviços públicos de saúde é princípio sensível (`CF 34 VII e`), e a intervenção federal nesse caso depende de **provimento, pelo STF, de representação do PGR** (`CF 36 III`): é a (A), o que afasta a (E). A solicitação do Legislativo (B) serve para garantir o livre exercício dos Poderes (`CF 34 IV` e `CF 36 I`), e a requisição judicial (C) cabe em outras hipóteses do art. 36. (D) erra porque o decreto de intervenção federal é apreciado pelo **Congresso Nacional** (`CF 36 §1º`), e no caso do art. 34, VII, essa apreciação é dispensada quando a suspensão do ato basta (`CF 36 §3º`)."
+      "exp": "Não aplicar o mínimo exigido em ações e serviços públicos de saúde é princípio sensível (`CF 34 VII e`), e a intervenção federal nesse caso depende de **provimento, pelo STF, de representação do PGR** (`CF 36 III`): é a (A), o que afasta a (E). A solicitação do Legislativo (B) serve para garantir o livre exercício dos Poderes (`CF 34 IV` e `CF 36 I`), e a requisição judicial (C) cabe em outras hipóteses do art. 36. (D) erra porque o decreto de intervenção federal é apreciado pelo **Congresso Nacional** (`CF 36 §1º`), e no caso do art. 34, VII, essa apreciação é dispensada quando a suspensão do ato basta (`CF 36 §3º`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não aplicar o mínimo exigido em ações e serviços públicos de saúde ofende princípio sensível (`CF 34 VII e`), e a intervenção nesse caso depende de **provimento, pelo STF, de representação do Procurador-Geral da República** (`CF 36 III`).",
+        "B": "A solicitação do Poder Legislativo serve para garantir o **livre exercício dos Poderes** (`CF 34 IV` e `CF 36 I`). Na violação de princípio sensível, como o mínimo em saúde, a intervenção depende de **representação do PGR provida pelo STF** (`CF 36 III`).",
+        "C": "A requisição judicial cabe na coação contra o Judiciário ou na desobediência a ordem judicial (`CF 36 I` e `CF 36 II`). O descumprimento do mínimo em saúde (`CF 34 VII e`) exige **representação do PGR provida pelo STF** (`CF 36 III`).",
+        "D": "O decreto de intervenção **federal** é apreciado pelo **Congresso Nacional**, e não pela Assembleia Legislativa (`CF 36 §1º`). Na hipótese do art. 34, VII, essa apreciação é até dispensada quando a suspensão do ato basta (`CF 36 §3º`).",
+        "E": "Deixar de aplicar o mínimo exigido da receita estadual em **ações e serviços públicos de saúde** é hipótese expressa de intervenção federal, como princípio sensível (`CF 34 VII e`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#30",
@@ -349,7 +531,21 @@
         "CF 65 p.ú.",
         "CF 97"
       ],
-      "exp": "Emendado substancialmente pela Casa revisora, o projeto **deve voltar à Casa iniciadora** (`CF, art. 65, p.ú.`), de modo que há vício formal; e a sanção não convalida vício de processo legislativo, o que afasta C e D. Qualquer juiz pode declarar a inconstitucionalidade incidentalmente (controle difuso), o que derruba A. No tribunal, porém, vale a **reserva de plenário**: só a maioria absoluta do pleno ou do órgão especial declara a inconstitucionalidade (`CF, art. 97`), e a `Súmula Vinculante 10` proíbe o órgão fracionário de apenas \"afastar a aplicação\" da lei sem declará-la inconstitucional (erro de E)."
+      "exp": "Emendado substancialmente pela Casa revisora, o projeto **deve voltar à Casa iniciadora** (`CF, art. 65, p.ú.`), de modo que há vício formal; e a sanção não convalida vício de processo legislativo, o que afasta C e D. Qualquer juiz pode declarar a inconstitucionalidade incidentalmente (controle difuso), o que derruba A. No tribunal, porém, vale a **reserva de plenário**: só a maioria absoluta do pleno ou do órgão especial declara a inconstitucionalidade (`CF, art. 97`), e a `Súmula Vinculante 10` proíbe o órgão fracionário de apenas \"afastar a aplicação\" da lei sem declará-la inconstitucional (erro de E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No controle **difuso**, qualquer juiz ou tribunal pode declarar **incidentalmente** a inconstitucionalidade de lei, inclusive por vício formal, para resolver o caso concreto. Não é exclusividade do controle concentrado.",
+        "B": "Emendado substancialmente pela Casa revisora, o projeto **deve voltar à Casa iniciadora** (`CF 65 p.ú.`), então há vício formal. Qualquer juiz pode reconhecê-lo incidentalmente, mas no tribunal vale a **reserva de plenário**: só a maioria absoluta dos membros ou do órgão especial declara a inconstitucionalidade (`CF 97`).",
+        "C": "A sanção presidencial **não convalida** vício no processo legislativo. Se a Casa revisora emendou o projeto substancialmente, ele tinha de **voltar à Casa iniciadora** (`CF 65 p.ú.`).",
+        "D": "A sanção **não convalida** vício formal do processo legislativo: o projeto emendado pela Casa revisora deve **voltar à Casa iniciadora** (`CF 65 p.ú.`), e a lei é formalmente inconstitucional.",
+        "E": "O órgão fracionário não pode **afastar a aplicação** da lei sem declarar sua inconstitucionalidade: isso viola a **reserva de plenário** (`CF 97` e Súmula Vinculante 10)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#32",
@@ -373,7 +569,21 @@
         "L7347 5 II",
         "CF 134"
       ],
-      "exp": "A Defensoria tem legitimidade para a ação civil pública (`Lei 7.347/85, art. 5º, II`), inclusive para direitos difusos, bastando que, em tese, a tutela beneficie necessitados (STF, `ADI 3.943`); o que derruba B, D e E. A inconstitucionalidade da lei municipal é aqui **causa de pedir**, não o pedido: o objeto é manter creches e escolas abertas, e o STF admite o controle **incidental** em ACP nessas condições, de modo que A também erra."
+      "exp": "A Defensoria tem legitimidade para a ação civil pública (`Lei 7.347/85, art. 5º, II`), inclusive para direitos difusos, bastando que, em tese, a tutela beneficie necessitados (STF, `ADI 3.943`); o que derruba B, D e E. A inconstitucionalidade da lei municipal é aqui **causa de pedir**, não o pedido: o objeto é manter creches e escolas abertas, e o STF admite o controle **incidental** em ACP nessas condições, de modo que A também erra.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A inconstitucionalidade da lei municipal é **causa de pedir**, e não o pedido: o objeto da ação é manter creches e escolas abertas. Nessas condições, o STF admite o controle **incidental** em ação civil pública.",
+        "B": "Basta que a tutela beneficie, **em tese**, pessoas necessitadas para legitimar a Defensoria à ação civil pública de direitos difusos (`L7347 5 II`; STF, ADI 3.943). Não se exige provar que todos os titulares sejam necessitados.",
+        "C": "A Defensoria é legitimada à ação civil pública (`L7347 5 II`), inclusive para **direitos difusos** que beneficiem, em tese, necessitados. A inconstitucionalidade da lei é causa de pedir, e o controle **incidental** é admitido nessa sede.",
+        "D": "O Ministério Público não é o único legitimado: a **Defensoria Pública** também pode propor ação civil pública (`L7347 5 II`), inclusive para direitos difusos que beneficiem, em tese, pessoas necessitadas.",
+        "E": "A **Defensoria Pública** também é legitimada à ação civil pública (`L7347 5 II`), e a ação é cabível: a inconstitucionalidade é só **causa de pedir**, examinada em caráter incidental."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#33",
@@ -394,7 +604,21 @@
       "dispositivos": [
         "CC 150"
       ],
-      "exp": "É o **dolo recíproco** (ou bilateral): \"se ambas as partes procederem com dolo, **nenhuma pode alegá-lo** para anular o negócio, ou reclamar indenização\" (`CC, art. 150`). Ninguém pode se valer da própria torpeza, de modo que as demais alternativas, que permitem anular, indenizar ou privilegiar a parte mais prejudicada, contrariam a lei."
+      "exp": "É o **dolo recíproco** (ou bilateral): \"se ambas as partes procederem com dolo, **nenhuma pode alegá-lo** para anular o negócio, ou reclamar indenização\" (`CC, art. 150`). Ninguém pode se valer da própria torpeza, de modo que as demais alternativas, que permitem anular, indenizar ou privilegiar a parte mais prejudicada, contrariam a lei.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No **dolo recíproco**, nenhuma das partes pode alegá-lo **nem para anular** o negócio, nem para reclamar indenização (`CC 150`).",
+        "B": "Se ambas as partes procederam com dolo, **nenhuma pode alegá-lo** para anular o negócio ou reclamar indenização (`CC 150`).",
+        "C": "É o **dolo recíproco**: \"se ambas as partes procederem com dolo, **nenhuma pode alegá-lo** para anular o negócio, ou reclamar indenização\" (`CC 150`).",
+        "D": "No dolo recíproco, nenhuma das partes pode **reclamar indenização**, assim como não pode anular o negócio (`CC 150`).",
+        "E": "O Código não privilegia a parte mais prejudicada: no **dolo recíproco**, **nenhuma** delas pode alegá-lo para anular o negócio ou reclamar indenização (`CC 150`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#34",
@@ -418,7 +642,21 @@
         "CC 4 III",
         "CC 198 I"
       ],
-      "exp": "Depois do Estatuto da Pessoa com Deficiência, só o menor de 16 anos é absolutamente incapaz (`CC, art. 3º`); quem não pode exprimir sua vontade, por causa transitória **ou permanente**, é **relativamente incapaz** (`CC, art. 4º, III`). A prescrição só não corre contra os absolutamente incapazes do art. 3º (`CC, art. 198, I`), de modo que corre contra Ricardo. A e B o tratam como absolutamente incapaz, C erra quanto à prescrição e E nega a incapacidade."
+      "exp": "Depois do Estatuto da Pessoa com Deficiência, só o menor de 16 anos é absolutamente incapaz (`CC, art. 3º`); quem não pode exprimir sua vontade, por causa transitória **ou permanente**, é **relativamente incapaz** (`CC, art. 4º, III`). A prescrição só não corre contra os absolutamente incapazes do art. 3º (`CC, art. 198, I`), de modo que corre contra Ricardo. A e B o tratam como absolutamente incapaz, C erra quanto à prescrição e E nega a incapacidade.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Depois do Estatuto da Pessoa com Deficiência, só o **menor de 16 anos** é absolutamente incapaz (`CC 3`). Quem não pode exprimir sua vontade é **relativamente** incapaz (`CC 4 III`), e contra ele corre a prescrição.",
+        "B": "Ricardo não é absolutamente incapaz: hoje só o **menor de 16 anos** o é (`CC 3`). Quem não pode exprimir sua vontade, por causa transitória ou permanente, é **relativamente** incapaz (`CC 4 III`).",
+        "C": "Ricardo é relativamente incapaz (`CC 4 III`), mas a prescrição **corre** contra ele: só não corre contra os **absolutamente** incapazes do `CC 3` (`CC 198 I`).",
+        "D": "Quem não pode exprimir sua vontade, por causa transitória **ou permanente**, é **relativamente incapaz** (`CC 4 III`). A prescrição só não corre contra os absolutamente incapazes (`CC 198 I`), então **corre** contra Ricardo.",
+        "E": "Ricardo **é** relativamente incapaz, por não poder exprimir sua vontade (`CC 4 III`), e contra ele **corre** a prescrição, que só não corre contra os absolutamente incapazes (`CC 198 I`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#35",
@@ -443,7 +681,21 @@
         "CC 1436 II",
         "CC 1443"
       ],
-      "exp": "B reproduz o `CC, art. 1.429`: os sucessores do devedor não podem remir parcialmente o penhor na proporção dos seus quinhões, mas qualquer deles pode fazê-lo no todo. A erra porque o penhor comum se constitui pela **transferência efetiva da posse** (`art. 1.431`); C erra porque o instrumento deve ser registrado (`art. 1.432`); D erra porque o perecimento da coisa extingue o penhor (`art. 1.436, II`); e E contraria o `art. 1.443`, pelo qual o penhor sobre colheita pendente **abrange a imediatamente seguinte** se a dada em garantia se frustrar ou for insuficiente."
+      "exp": "B reproduz o `CC, art. 1.429`: os sucessores do devedor não podem remir parcialmente o penhor na proporção dos seus quinhões, mas qualquer deles pode fazê-lo no todo. A erra porque o penhor comum se constitui pela **transferência efetiva da posse** (`art. 1.431`); C erra porque o instrumento deve ser registrado (`art. 1.432`); D erra porque o perecimento da coisa extingue o penhor (`art. 1.436, II`); e E contraria o `art. 1.443`, pelo qual o penhor sobre colheita pendente **abrange a imediatamente seguinte** se a dada em garantia se frustrar ou for insuficiente.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O penhor comum se constitui pela **transferência efetiva da posse** da coisa móvel ao credor (`CC 1431`).",
+        "B": "É o texto do `CC 1429`: os sucessores do devedor **não podem remir parcialmente** o penhor na proporção dos seus quinhões, mas **qualquer deles pode fazê-lo no todo**.",
+        "C": "O instrumento do penhor **deve ser registrado** por qualquer dos contratantes; o do penhor comum, no Cartório de Títulos e Documentos (`CC 1432`).",
+        "D": "O penhor se extingue **perecendo a coisa** (`CC 1436 II`), seja qual for a causa do perecimento.",
+        "E": "O penhor agrícola sobre colheita pendente **abrange a imediatamente seguinte** se a dada em garantia se frustrar ou for insuficiente (`CC 1443`)."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#36",
@@ -467,6 +719,20 @@
         "CC 942 p.ú."
       ],
       "exp": "O empregador responde pelos atos do empregado no exercício do trabalho (`CC, art. 932, III`) **ainda que não haja culpa de sua parte** (`art. 933`): a responsabilidade é objetiva, e a culpa in eligendo deixou de ser exigida, o que derruba A e C. As pessoas do art. 932 são **solidariamente** responsáveis com os autores (`art. 942, p.ú.`), sem distinção entre dano material e moral, o que afasta B e E.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A responsabilidade do empregador não é subsidiária nem depende de **culpa in eligendo**: ele responde **ainda que não haja culpa** de sua parte (`CC 933`) e **solidariamente** com o empregado (`CC 942 p.ú.`).",
+        "B": "A responsabilidade independe de culpa (`CC 933`), mas não é subsidiária: o empregador responde **solidariamente** com o empregado (`CC 942 p.ú.`).",
+        "C": "A responsabilidade é solidária, mas não depende de **culpa in eligendo**: o empregador responde pelos atos do empregado **ainda que não haja culpa** de sua parte (`CC 932 III` e `CC 933`).",
+        "D": "O empregador responde pelos atos do empregado no exercício do trabalho (`CC 932 III`) **ainda que não haja culpa** de sua parte (`CC 933`), e **solidariamente** com o autor do dano (`CC 942 p.ú.`).",
+        "E": "O Código não distingue dano material e moral: o empregador responde **solidariamente** com o empregado por **todos** os danos (`CC 942 p.ú.`), independentemente de culpa (`CC 933`)."
+      },
       "observacoes": [
         "a expressão \"in eligendo\" está em itálico no PDF (alternativas A e C); o itálico não foi marcado no enunciado"
       ]
@@ -515,7 +781,21 @@
       "dispositivos": [
         "CC 850"
       ],
-      "exp": "Pelo `CC, art. 850`, é **nula** a transação a respeito de litígio decidido por sentença transitada em julgado **se dela não tinha ciência algum dos transatores**. Basta a ignorância de um deles, o que afasta B (que exige a de ambos); a sanção é nulidade, não anulabilidade (C); a transação não é sempre válida (D); e, se ambos sabiam da sentença, a lei não a declara nula (E)."
+      "exp": "Pelo `CC, art. 850`, é **nula** a transação a respeito de litígio decidido por sentença transitada em julgado **se dela não tinha ciência algum dos transatores**. Basta a ignorância de um deles, o que afasta B (que exige a de ambos); a sanção é nulidade, não anulabilidade (C); a transação não é sempre válida (D); e, se ambos sabiam da sentença, a lei não a declara nula (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É **nula** a transação a respeito de litígio decidido por sentença passada em julgado, **se dela não tinha ciência algum dos transatores** (`CC 850`).",
+        "B": "Não é preciso que ambos ignorem a sentença: basta que **algum** dos transatores não tivesse ciência dela para a transação ser **nula** (`CC 850`).",
+        "C": "A sanção não é anulabilidade, mas **nulidade**: é nula a transação sobre litígio já decidido por sentença transitada em julgado se algum dos transatores a ignorava (`CC 850`).",
+        "D": "A transação não é válida nesse caso: é **nula** se **algum** dos transatores não tinha ciência da sentença transitada em julgado (`CC 850`).",
+        "E": "A nulidade do `CC 850` depende de que **algum** dos transatores **não tivesse ciência** da sentença. Se ambos sabiam dela, a lei não declara a transação nula."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#39",
@@ -542,7 +822,21 @@
         "CF 102 I n",
         "CF 102 I q"
       ],
-      "exp": "Desde a EC 45/2004, a homologação de sentença estrangeira é da competência originária do STJ (`CF, art. 105, I, i`). O recurso especial é competência **recursal** (`art. 105, III`), não originária (A); os conflitos federativos (B) e as ações de interesse de toda a magistratura (C) são do **STF** (`art. 102, I, f e n`); e o mandado de injunção contra omissão de tribunal superior também é do STF (`art. 102, I, q`), cabendo ao STJ só o de órgão ou autoridade federal (`art. 105, I, h`), o que derruba D."
+      "exp": "Desde a EC 45/2004, a homologação de sentença estrangeira é da competência originária do STJ (`CF, art. 105, I, i`). O recurso especial é competência **recursal** (`art. 105, III`), não originária (A); os conflitos federativos (B) e as ações de interesse de toda a magistratura (C) são do **STF** (`art. 102, I, f e n`); e o mandado de injunção contra omissão de tribunal superior também é do STF (`art. 102, I, q`), cabendo ao STJ só o de órgão ou autoridade federal (`art. 105, I, h`), o que derruba D.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O recurso especial é competência **recursal** do STJ (`CF 105 III`), e não originária.",
+        "B": "Os conflitos entre a União e os Estados, a União e o DF, ou entre uns e outros, são da competência originária do **STF** (`CF 102 I f`).",
+        "C": "A ação em que todos os membros da magistratura sejam direta ou indiretamente interessados é da competência originária do **STF** (`CF 102 I n`).",
+        "D": "Quando a norma regulamentadora for atribuição de **tribunal superior**, o mandado de injunção é do **STF** (`CF 102 I q`). Ao STJ cabe o MI contra órgão, entidade ou autoridade federal fora dessas hipóteses (`CF 105 I h`).",
+        "E": "Desde a EC 45/2004, a **homologação de sentenças estrangeiras** é da competência originária do **STJ** (`CF 105 I i`)."
+      }
     }
   ]
 }
