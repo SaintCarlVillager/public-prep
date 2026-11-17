@@ -14,6 +14,7 @@ const ABAS = [
   ["/revisoes", "Revisões"],
   ["/treino", "Treino"],
   ["/banco", "Banco"],
+  ["/lei", "Lei seca"],
   ["/ajustes", "Ajustes"],
 ] as const;
 

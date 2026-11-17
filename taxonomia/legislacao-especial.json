@@ -31,6 +31,22 @@
     {
       "id": "legislacao-especial.atos-digitais",
       "nome": "Audiências e atos por meio digital (CNJ 354)"
+    },
+    {
+      "id": "legislacao-especial.teletrabalho",
+      "nome": "Teletrabalho no TJSP (Res. TJSP 850)"
+    },
+    {
+      "id": "legislacao-especial.eproc",
+      "nome": "Sistema eproc no TJSP (Res. TJSP 963)"
+    },
+    {
+      "id": "legislacao-especial.carreira-tjsp",
+      "nome": "Plano de cargos e carreiras do TJSP (LC 1.111)"
+    },
+    {
+      "id": "legislacao-especial.regimento-tjsp",
+      "nome": "Regimento Interno do TJSP"
     }
   ]
 }

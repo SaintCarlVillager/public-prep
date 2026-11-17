@@ -14,6 +14,7 @@ Instruções para qualquer agente de IA (Claude, Codex, Copilot…) que trabalhe
 | `normas/normas.json` | siglas das normas usadas nos dispositivos |
 | `editais/<órgão>/<cargo>/<ano>/edital.json` | o que o concurso cobra, blocos, notas de corte; PDFs ao lado |
 | `provas/<banca>/<órgão>/<cargo>/<ano>/` | `prova.json` (metadados e gabarito), `questoes.json`, `texto.txt`, PDFs |
+| `leis/<SIGLA>.json` | lei seca: texto oficial vigente de cada norma, artigo por artigo |
 | `scripts/validar.py` | validação de tudo acima |
 | `scripts/empacotar.py` | gera os dados que o app carrega (`web/public/dados/`, fora do git) |
 | `web/` | o app (Next.js, criado com create-t3-app): Painel, Sessão, Revisões, Treino, Banco, Ajustes |
@@ -60,6 +61,22 @@ Campos opcionais da questão:
 - `exp_alt`: o comentário de **cada alternativa com card** em `vf` (`{"A": "…", "B": "…"}`), que o Treino mostra depois do julgamento, sozinho. 1 a 3 frases: por que a alternativa está certa, ou o que erra e qual é a regra; cite o dispositivo em `código` e destaque a palavra-chave em **negrito**. Tem de funcionar sem as outras alternativas: não cite outras letras nem "as demais", e não comece com "Correta"/"Errada" (o app já mostra o veredito). Nunca contradiz `vf`, o gabarito ou `exp`. Ao tirar um card (`vf` vira `null`), tire também o seu `exp_alt`.
 
 **Destaques gráficos da prova** (termo em negrito ou sublinhado a que o enunciado se refere): `**negrito**` e `__sublinhado__`. Nunca HTML. Figuras, gráficos e tabelas que o texto não reproduz são descritos entre colchetes (`[Gráfico de setores: …]`) e registrados em `pendencias`.
+
+### Lei seca (`leis/<SIGLA>.json`)
+```json
+{
+  "sigla": "CPC", "nome": "<igual a normas/normas.json>",
+  "fonte": "<URL oficial do texto>", "consultado": "2026-11-17",
+  "observacao": "opcional: versão, limitações",
+  "artigos": [
+    {"art": "246", "local": "Parte Especial › Livro I › Título I › Capítulo IV", "texto": "Art. 246. A citação será feita: ...\n§ 1º ..."}
+  ]
+}
+```
+- Um arquivo por sigla de `normas/normas.json`, com o **texto vigente e literal**, tirado da fonte oficial; nada reescrito nem resumido. Revogado fica como a fonte mostra ("Art. 5º (Revogado)").
+- `art` no formato dos dispositivos (`"1015"`, `"396-A"`; artigo das Disposições Transitórias das leis de SP: `"DT-1"`, citado como `LC1111 DT-1`), único e na ordem da norma; `texto` com uma linha por dispositivo (caput, parágrafos, incisos); `local` é o caminho de títulos e capítulos.
+- O validador avisa quando uma questão cita artigo que não está na lei seca (renumerado, revogado ou erro de etiqueta).
+- O app mostra o artigo ao tocar no dispositivo, depois da correção, e a aba **Lei seca** reúne os artigos que cada bloco do edital cobra.
 
 ### Explicação (`exp`)
 2 a 5 frases. Diga por que o gabarito está certo e por que cada distratora relevante erra. Cite o dispositivo em `código`; destaque a palavra-chave em **negrito**; não use itálico de um asterisco. Em cálculo, mostre a conta.

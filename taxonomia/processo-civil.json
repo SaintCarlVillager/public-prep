@@ -354,7 +354,13 @@
     },
     {
       "id": "processo-civil.juizados",
-      "nome": "Juizados Especiais Cíveis"
+      "nome": "Juizados Especiais Cíveis",
+      "filhos": [
+        {
+          "id": "processo-civil.juizados.fazenda-publica",
+          "nome": "Juizados Especiais da Fazenda Pública (Lei 12.153)"
+        }
+      ]
     }
   ]
 }

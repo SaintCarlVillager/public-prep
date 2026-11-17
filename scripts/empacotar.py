@@ -162,6 +162,17 @@ def provas():
     return resumo, indice, figuras
 
 
+def leis():
+    """Copia a lei seca (leis/*.json) e devolve o resumo para o catálogo."""
+    resumo = {}
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "leis", "*.json"))):
+        d = ler(caminho)
+        sigla = d["sigla"]
+        gravar(os.path.join(SAIDA, "leis", f"{sigla}.json"), d)
+        resumo[sigla] = {"artigos": len(d.get("artigos", [])), "consultado": d.get("consultado"), "fonte": d.get("fonte")}
+    return resumo
+
+
 def tamanho_pasta(p):
     return sum(os.path.getsize(os.path.join(r, f)) for r, _, fs in os.walk(p) for f in fs)
 
@@ -187,12 +198,13 @@ def main():
         "editais": editais(),
         "provas": lista_provas,
         "indice": indice,
+        "leis": leis(),
     }
     gravar(os.path.join(SAIDA, "catalogo.json"), catalogo)
 
     n_q = sum(p["questoes"] for p in lista_provas)
     print(f"{len(lista_provas)} provas, {n_q} questões, {len(catalogo['editais'])} editais, "
-          f"{len(temas)} temas, {n_fig} figuras")
+          f"{len(temas)} temas, {n_fig} figuras, {len(catalogo['leis'])} leis")
     print(f"catálogo: {os.path.getsize(os.path.join(SAIDA, 'catalogo.json')) / 1024:.0f} KB · "
           f"total em {os.path.relpath(SAIDA, RAIZ)}/: {tamanho_pasta(SAIDA) / 1024:.0f} KB")
 

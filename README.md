@@ -12,6 +12,7 @@ Comece por [`ARQUITETURA.md`](ARQUITETURA.md). Agentes de IA: leiam [`AGENTS.md`
 | `normas/normas.json` | siglas das normas (`CPC`, `L8112`, `CNJ-R354`…) e seus nomes |
 | `editais/<órgão>/<cargo>/<ano>/` | o que cada concurso cobra |
 | `provas/<banca>/<órgão>/<cargo>/<ano>/` | provas reais e suas questões etiquetadas |
+| `leis/` | lei seca: texto oficial vigente de cada norma, artigo por artigo |
 | `scripts/` | `validar.py` e `empacotar.py` |
 | `web/` | o app (Next.js, criado com create-t3-app) |
 
