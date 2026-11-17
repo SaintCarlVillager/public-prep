@@ -200,8 +200,9 @@
       ],
       "exp": "Moisés **não é o líder** e foi o **primeiro** a prestar efetiva colaboração, hipótese em que o MP pode deixar de oferecer denúncia (`Lei 12.850/13, art. 4º, §4º`). O juiz não participa das negociações (`§6º`) e pode recusar a homologação (`§8º`), o que derruba A e B; nenhuma sentença condenatória se funda apenas nas declarações do colaborador (`§16`), o que afasta C; e o `caput` admite expressamente o **perdão judicial**, o que torna D errada.",
       "observacoes": [
-        "redação vigente em 2019, antes do Pacote Anticrime (Lei 13.964/2019), que alterou os §§4º, 8º e 16 do art. 4º; a resposta não muda"
-      ]
+        "redação vigente em 2019, antes do Pacote Anticrime (Lei 13.964/2019), que alterou os §§4º, 8º e 16 do art. 4º e acrescentou o §4º-A"
+      ],
+      "desatualizada": "A Lei 13.964/2019 mudou o `L12850 4 §4º` e criou o §4º-A: o MP só pode deixar de oferecer denúncia se a colaboração tratar de infração de cuja existência **não tinha prévio conhecimento**, e há conhecimento prévio quando já foi instaurado inquérito ou procedimento investigatório. No caso, a operação da Polícia Federal já estava em curso, então o gabarito (E) não vale mais."
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#46",
@@ -707,7 +708,8 @@
         "E": "A dedução do contribuinte individual que presta serviço a empresas é de **45%** da contribuição da empresa, e não de 50%, limitada a **9%** do salário de contribuição (`L8212 30 §4º`)."
       },
       "observacoes": [
-        "a alternativa B cita a Lei 8.213/1991, mas a regra é do art. 56 da Lei 8.212/1991 (\"a partir da publicação desta Lei\"); a banca a tratou como correta"
+        "a alternativa B cita a Lei 8.213/1991, mas a regra é do art. 56 da Lei 8.212/1991 (\"a partir da publicação desta Lei\"); a banca a tratou como correta",
+        "A Lei 14.148/2021 deu nova redação ao `L8212 47 §5º`: a certidão conjunta da Receita Federal e da PGFN vale por **até 180 dias**, contados da emissão. Hoje a alternativa C também estaria errada; por isso ela fica fora do Treino. O gabarito (E) continua errado pela lei atual."
       ]
     },
     {

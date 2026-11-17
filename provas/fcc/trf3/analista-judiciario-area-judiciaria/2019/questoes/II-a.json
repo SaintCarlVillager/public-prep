@@ -208,7 +208,10 @@
         "C": "O caso fortuito ou de força maior (`L8666 78 XVII`) autoriza a rescisão unilateral **pela Administração** (`L8666 79 I`), e não pelo contratado, que depende de acordo ou de decisão judicial.",
         "D": "A rescisão por razões de interesse público (`L8666 78 XII`) é **ato unilateral da Administração** (`L8666 79 I`), exarado no processo administrativo do contrato, sem necessidade de processo judicial.",
         "E": "A garantia só é devolvida quando a rescisão ocorre **sem culpa do contratado** (`L8666 79 §2º`). Na rescisão unilateral por falta dele, a garantia é **executada** para ressarcir a Administração (`L8666 80 III`)."
-      }
+      },
+      "observacoes": [
+        "A Lei 8.666/1993 foi revogada pela Lei 14.133/2021. As regras cobradas continuam, com outra redação, nos arts. 137 a 139 da Lei 14.133 (motivos de extinção, extinção unilateral, consensual, arbitral ou judicial, devolução e execução da garantia); os comentários das alternativas indicam a correspondência."
+      ]
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#23",
@@ -391,7 +394,7 @@
         "CF 102 I q",
         "CF 5 LXXII"
       ],
-      "exp": "Cabe ação popular para anular ato lesivo à moralidade administrativa e ao patrimônio público (`CF 5º LXXIII`). O STF entende que a competência originária do `CF 102 I r` para ações contra o CNJ se limita a mandado de segurança, habeas corpus, habeas data e mandado de injunção; a ação popular contra ato do CNJ (órgão da União) vai ao **juiz federal**. É a (E). (A) erra porque CPI estadual não está sob a jurisdição originária do STF. (B) erra porque o MS contra Comandante da Marinha é do **STJ** (`CF 105 I b`). (C) erra duas vezes: o mandado de injunção supre falta de norma regulamentadora, e não omissão administrativa, e o MI contra a Mesa da Câmara seria do STF (`CF 102 I q`). (D) erra porque o habeas data serve para informações sobre o próprio impetrante (`CF 5º LXXII`), e não para ter acesso a autos de PAD de terceiro.",
+      "exp": "Cabe ação popular para anular ato lesivo à moralidade administrativa e ao patrimônio público (`CF 5 LXXIII`). O STF entende que a competência originária do `CF 102 I r` para ações contra o CNJ se limita a mandado de segurança, habeas corpus, habeas data e mandado de injunção; a ação popular contra ato do CNJ (órgão da União) vai ao **juiz federal**. É a (E). (A) erra porque CPI estadual não está sob a jurisdição originária do STF. (B) erra porque o MS contra Comandante da Marinha é do **STJ** (`CF 105 I b`). (C) erra duas vezes: o mandado de injunção supre falta de norma regulamentadora, e não omissão administrativa, e o MI contra a Mesa da Câmara seria do STF (`CF 102 I q`). (D) erra porque o habeas data serve para informações sobre o próprio impetrante (`CF 5 LXXII`), e não para ter acesso a autos de PAD de terceiro.",
       "vf": {
         "A": false,
         "B": false,
@@ -431,7 +434,7 @@
         "L11417 6",
         "CPC 1030 I a"
       ],
-      "exp": "A súmula vinculante obriga os demais órgãos do Judiciário a partir de sua publicação (`CF 103-A`) e se aplica aos processos pendentes, então o TRF deve aplicá-la (o que afasta a B). Se a súmula for aplicada corretamente, não há reclamação, que só cabe contra ato que a contrarie ou a aplique indevidamente (`CF 103-A §3º`). O recurso extraordinário contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1.030 I a`), e a pessoa jurídica privada não está entre os legitimados a propor revisão do enunciado (`L11417 3`). É a (D). (A) e (E) admitem reclamação e RE nesse caso, o que está errado. (C) erra porque o TRF até é legitimado (`L11417 3 XI`), mas a proposta de revisão **não autoriza a suspensão** dos processos (`L11417 6`).",
+      "exp": "A súmula vinculante obriga os demais órgãos do Judiciário a partir de sua publicação (`CF 103-A`) e se aplica aos processos pendentes, então o TRF deve aplicá-la (o que afasta a B). Se a súmula for aplicada corretamente, não há reclamação, que só cabe contra ato que a contrarie ou a aplique indevidamente (`CF 103-A §3º`). O recurso extraordinário contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1030 I a`), e a pessoa jurídica privada não está entre os legitimados a propor revisão do enunciado (`L11417 3`). É a (D). (A) e (E) admitem reclamação e RE nesse caso, o que está errado. (C) erra porque o TRF até é legitimado (`L11417 3 XI`), mas a proposta de revisão **não autoriza a suspensão** dos processos (`L11417 6`).",
       "vf": {
         "A": false,
         "B": false,
@@ -508,7 +511,8 @@
         "CF 109 X",
         "CF 15 I"
       ],
-      "exp": "Na redação da época, o `CF 12 §4º I` previa a perda da nacionalidade do naturalizado que tivesse \"cancelada sua naturalização, por sentença judicial, em virtude de **atividade nociva ao interesse nacional**\", e a causa é da competência do **juiz federal** (`CF 109 X`). A perda dos direitos políticos exige **sentença transitada em julgado** (`CF 15 I`). É a (A), o que afasta a (B). (C), (D) e (E) erram ao dizer que o motivo é descabido ou que o juiz é incompetente. Observação: a EC 131/2023 mudou o inciso I do §4º, que hoje fala em fraude no processo de naturalização ou atentado contra a ordem constitucional e o Estado Democrático."
+      "exp": "Na redação da época, o `CF 12 §4º I` previa a perda da nacionalidade do naturalizado que tivesse \"cancelada sua naturalização, por sentença judicial, em virtude de **atividade nociva ao interesse nacional**\", e a causa é da competência do **juiz federal** (`CF 109 X`). A perda dos direitos políticos exige **sentença transitada em julgado** (`CF 15 I`). É a (A), o que afasta a (B). (C), (D) e (E) erram ao dizer que o motivo é descabido ou que o juiz é incompetente. Observação: a EC 131/2023 mudou o inciso I do §4º, que hoje fala em fraude no processo de naturalização ou atentado contra a ordem constitucional e o Estado Democrático.",
+      "desatualizada": "A EC 131/2023 deu nova redação ao `CF 12 §4º I`: hoje o cancelamento da naturalização só cabe por **fraude relacionada ao processo de naturalização** ou por **atentado contra a ordem constitucional e o Estado Democrático**. A \"atividade nociva ao interesse nacional\" deixou de ser causa, e o gabarito (A) não vale mais."
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#31",
