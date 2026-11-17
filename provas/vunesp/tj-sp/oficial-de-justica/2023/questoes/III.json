@@ -19,7 +19,21 @@
         "atualidades.2023"
       ],
       "dispositivos": [],
-      "exp": "Os mandados de 17 de março de 2023 foram vistos como simbólicos porque o TPI depende da cooperação dos **Estados-Partes do Estatuto de Roma** para prender acusados, e a Rússia não é parte do Estatuto (retirou sua assinatura em 2016), de modo que não entregará Putin (E). O TPI não tem força policial própria nem exige que a prisão ocorra em Haia (B); a publicidade não anula os mandados (A); não há \"voto de qualidade\" russo no Tribunal (C); e suas decisões não dependem de aprovação da ONU (D)."
+      "exp": "Os mandados de 17 de março de 2023 foram vistos como simbólicos porque o TPI depende da cooperação dos **Estados-Partes do Estatuto de Roma** para prender acusados, e a Rússia não é parte do Estatuto (retirou sua assinatura em 2016), de modo que não entregará Putin (E). O TPI não tem força policial própria nem exige que a prisão ocorra em Haia (B); a publicidade não anula os mandados (A); não há \"voto de qualidade\" russo no Tribunal (C); e suas decisões não dependem de aprovação da ONU (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Os mandados foram **divulgados** e a publicidade não anula sua aplicabilidade; o caráter simbólico vem da falta de cooperação de quem deveria prender.",
+        "B": "O TPI **não tem força policial própria** e a prisão não precisa ocorrer em Haia: depende da cooperação dos Estados.",
+        "C": "Não existe \"voto de qualidade\" de representante russo no TPI; a **Rússia não é parte** do Tribunal.",
+        "D": "As decisões do TPI **não dependem de aprovação da ONU** para valerem.",
+        "E": "O TPI só tem jurisdição sobre os **Estados-Partes do Estatuto de Roma** (1998), e a **Rússia não é signatária**: por isso não entregará Putin e o mandado é visto como simbólico."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#80",
@@ -38,7 +52,21 @@
         "atualidades.2023"
       ],
       "dispositivos": [],
-      "exp": "Cherkasov foi barrado no aeroporto de Amsterdã, na **Holanda** (Países Baixos), quando tentava entrar no país para um estágio no próprio Tribunal Penal Internacional, em Haia, usando a identidade falsa de \"Viktor Muller Ferreira\"; foi deportado ao Brasil, onde acabou condenado por uso de documento falso. França, Portugal, Luxemburgo e Espanha não têm relação com o caso."
+      "exp": "Cherkasov foi barrado no aeroporto de Amsterdã, na **Holanda** (Países Baixos), quando tentava entrar no país para um estágio no próprio Tribunal Penal Internacional, em Haia, usando a identidade falsa de \"Viktor Muller Ferreira\"; foi deportado ao Brasil, onde acabou condenado por uso de documento falso. França, Portugal, Luxemburgo e Espanha não têm relação com o caso.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O suposto espião foi barrado no aeroporto de Amsterdã, nos **Países Baixos**, e não na França.",
+        "B": "Cherkasov foi barrado no aeroporto de Amsterdã, na **Holanda**, ao tentar entrar para um estágio no Tribunal Penal Internacional, em Haia.",
+        "C": "O caso ocorreu na **Holanda** (Países Baixos), não em Portugal.",
+        "D": "A detenção foi em **Amsterdã**, na Holanda, e não em Luxemburgo.",
+        "E": "A detenção foi na **Holanda**, onde fica o TPI, e não na Espanha."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#81",
@@ -62,7 +90,21 @@
         "L13146 3 XII",
         "L13146 3 XIV"
       ],
-      "exp": "Pelo **art. 3º, XIII**, profissional de apoio escolar é quem exerce atividades de **alimentação, higiene e locomoção** do estudante com deficiência e atua em todas as atividades escolares necessárias, **em todos os níveis e modalidades de ensino, em instituições públicas e privadas, excluídas as técnicas ou os procedimentos identificados com profissões legalmente estabelecidas** (D). (A) é a definição de acompanhante (inciso XIV) e (C), a de atendente pessoal (inciso XII); (B) exclui justamente alimentação, higiene e locomoção, que integram a função; e (E) cria uma restrição inexistente."
+      "exp": "Pelo **art. 3º, XIII**, profissional de apoio escolar é quem exerce atividades de **alimentação, higiene e locomoção** do estudante com deficiência e atua em todas as atividades escolares necessárias, **em todos os níveis e modalidades de ensino, em instituições públicas e privadas, excluídas as técnicas ou os procedimentos identificados com profissões legalmente estabelecidas** (D). (A) é a definição de acompanhante (inciso XIV) e (C), a de atendente pessoal (inciso XII); (B) exclui justamente alimentação, higiene e locomoção, que integram a função; e (E) cria uma restrição inexistente.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Essa é a definição de **acompanhante** (`L13146 3 XIV`), que pode ou não exercer as funções de atendente pessoal, não de profissional de apoio escolar.",
+        "B": "O profissional de apoio escolar **exerce** justamente as atividades de alimentação, higiene e locomoção, e não as exclui (`L13146 3 XIII`).",
+        "C": "Essa é a definição de **atendente pessoal** (`L13146 3 XII`): quem presta cuidados básicos e essenciais à pessoa com deficiência.",
+        "D": "O profissional de apoio escolar atua em **todos os níveis e modalidades de ensino**, em instituições públicas e privadas, excluídas as técnicas ou procedimentos de profissões legalmente estabelecidas (`L13146 3 XIII`).",
+        "E": "Não há restrição a atividades intelectuais: o profissional atua em **todas as atividades escolares** necessárias (`L13146 3 XIII`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#82",
@@ -88,7 +130,21 @@
         "L13146 85 §1º",
         "L13146 85 §3º"
       ],
-      "exp": "(A) reproduz o **art. 86**: para emissão de documentos oficiais não se exige a situação de curatela. (B) erra porque a tomada de decisão apoiada é facultada à pessoa com deficiência sem depender de curatela (**art. 84, §2º**); (C) troca \"matrimônio\" por \"patrimônio\" (**art. 85, §1º**), e o patrimônio é justamente o que a curatela alcança; (D) omite os atos de natureza **patrimonial** (**art. 85, caput**); e (E) altera a redação do **art. 85, §3º**, que fala em vínculo de natureza familiar, afetiva ou comunitária, sem fixar ordem de preferência."
+      "exp": "(A) reproduz o **art. 86**: para emissão de documentos oficiais não se exige a situação de curatela. (B) erra porque a tomada de decisão apoiada é facultada à pessoa com deficiência sem depender de curatela (**art. 84, §2º**); (C) troca \"matrimônio\" por \"patrimônio\" (**art. 85, §1º**), e o patrimônio é justamente o que a curatela alcança; (D) omite os atos de natureza **patrimonial** (**art. 85, caput**); e (E) altera a redação do **art. 85, §3º**, que fala em vínculo de natureza familiar, afetiva ou comunitária, sem fixar ordem de preferência.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Para a emissão de documentos oficiais **não será exigida** a situação de curatela da pessoa com deficiência (`L13146 86`).",
+        "B": "A tomada de decisão apoiada é **alternativa à curatela**: é facultada à pessoa com deficiência sem depender de estar curatelada (`L13146 84 §2º`).",
+        "C": "A curatela **não alcança** o direito ao próprio corpo, à sexualidade, ao **matrimônio**, à privacidade, à educação, à saúde, ao trabalho e ao voto; o patrimônio é justamente o que ela alcança (`L13146 85 §1º`).",
+        "D": "A curatela afeta os atos relacionados aos direitos de natureza **patrimonial e negocial**, não só os negociais (`L13146 85`).",
+        "E": "O juiz dará preferência a pessoa com vínculo **familiar, afetivo ou comunitário** com o curatelado, sem fixar uma ordem entre eles (`L13146 85 §3º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#83",
@@ -109,6 +165,20 @@
       ],
       "dispositivos": [],
       "exp": "Média de A: (2·21 + 3·25)/5 = (42 + 75)/5 = 117/5. Para B igualar, com x acertos em Matemática: (2·15 + 3x)/5 = 117/5 → 30 + 3x = 117 → x = 29. Como B acertou 20, faltaram 29 − 20 = **9** questões (D). (B) 29 é o total de acertos necessário, não o acréscimo; as demais não resultam da conta.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A conta dá 9, e não 20: B precisaria de 29 acertos em Matemática, e já tinha 20.",
+        "B": "29 é o **total** de acertos necessário em Matemática, não o acréscimo: a pergunta é quantos a mais, e 29 − 20 = 9.",
+        "C": "Não resulta da conta: (2·15 + 3x)/5 = 117/5 dá x = 29, e o acréscimo sobre os 20 acertos é **9**.",
+        "D": "A média de A é (2·21 + 3·25)/5 = 117/5. Para B: 30 + 3x = 117, logo x = 29; como acertou 20, faltaram 29 − 20 = **9**.",
+        "E": "Não resulta da conta: o acréscimo é 29 − 20 = **9**, não 10."
+      },
       "imagens": [
         "figuras/q83.png"
       ],
@@ -132,7 +202,21 @@
         "raciocinio-logico.espacial-temporal"
       ],
       "dispositivos": [],
-      "exp": "Os serviços coincidem a cada MMC(12, 33) = 132 dias úteis (12 = 2²·3; 33 = 3·11; MMC = 2²·3·11 = 132). Contando só de segunda a sexta, 132 = 5·26 + 2: são 26 semanas completas (voltando a uma terça) mais 2 dias úteis, terça → quarta → **quinta-feira** (A)."
+      "exp": "Os serviços coincidem a cada MMC(12, 33) = 132 dias úteis (12 = 2²·3; 33 = 3·11; MMC = 2²·3·11 = 132). Contando só de segunda a sexta, 132 = 5·26 + 2: são 26 semanas completas (voltando a uma terça) mais 2 dias úteis, terça → quarta → **quinta-feira** (A).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "MMC(12, 33) = 132 dias úteis = 26 semanas + 2 dias úteis; a partir de uma terça, 2 dias úteis depois é **quinta-feira**.",
+        "B": "Os serviços coincidem a cada 132 dias úteis, ou 26 semanas completas e mais 2 dias úteis: terça + 2 dias úteis é quinta, não quarta.",
+        "C": "Terça-feira seria só se o intervalo fosse múltiplo de 5 dias úteis; 132 = 5·26 + 2, então sobram **2 dias úteis**.",
+        "D": "Terça + 2 dias úteis (restantes de 132 = 5·26 + 2) é quinta-feira; sexta exigiria 3.",
+        "E": "Segunda-feira exigiria sobrar 4 dias úteis; o resto de 132 por 5 é **2**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#85",
@@ -153,7 +237,21 @@
         "matematica.problemas"
       ],
       "dispositivos": [],
-      "exp": "A&B comprou 1 350 ÷ 15 = 90 edifícios, que são 3/8 do total: total = 90 · 8/3 = 240. Não adquiridos por A&B: 240 − 90 = 150; a R&T comprou metade, 75. Preço médio: 1 230 ÷ 75 = **R$ 16,4 milhões** (E)."
+      "exp": "A&B comprou 1 350 ÷ 15 = 90 edifícios, que são 3/8 do total: total = 90 · 8/3 = 240. Não adquiridos por A&B: 240 − 90 = 150; a R&T comprou metade, 75. Preço médio: 1 230 ÷ 75 = **R$ 16,4 milhões** (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "R$ 1,23 bilhão dividido por 75 edifícios dá **R$ 16,4 milhões**, não 16,2.",
+        "B": "1 230 ÷ 75 = **16,4**, e não 16,5 milhões.",
+        "C": "1 230 ÷ 75 = **16,4**, e não 16,1 milhões.",
+        "D": "1 230 ÷ 75 = **16,4**, e não 16,3 milhões.",
+        "E": "A&B comprou 1 350 ÷ 15 = 90 edifícios (3/8), o total é 240 e restam 150; a R&T comprou 75. Preço médio: 1 230 ÷ 75 = **R$ 16,4 milhões**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#86",
@@ -173,6 +271,20 @@
       ],
       "dispositivos": [],
       "exp": "Em 30/08 havia 10 + 10/5 = 12 máquinas, e as peças foram 80 000 ÷ (4/3) = 60 000. Produtividade: 60 000 ÷ (12 · 5) = 1 000 peças por máquina-hora. Em 31/08: h = 80 000 ÷ (10 · 1 000) = **8 horas** (C). Pela regra de três composta: h = 5 · (12/10) · (80 000/60 000) = 5 · 1,2 · 4/3 = 8.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A conta dá **8 horas**: 7 h 30 min não é resultado de 5 · 1,2 · 4/3.",
+        "B": "A conta dá **8 horas**, e não 8 h 30 min.",
+        "C": "Em 30/08: 12 máquinas e 60 000 peças, ou 1 000 peças por máquina-hora (60 000 ÷ 60). Em 31/08: 80 000 ÷ (10 · 1 000) = **8 horas**.",
+        "D": "A conta dá **8 horas**, e não 7: 5 · 1,2 · 4/3 = 8.",
+        "E": "A conta dá **8 horas**, e não 9: 80 000 ÷ (10 · 1 000) = 8."
+      },
       "imagens": [
         "figuras/q86.png"
       ],
@@ -196,7 +308,21 @@
         "raciocinio-logico.estruturas.negacao"
       ],
       "dispositivos": [],
-      "exp": "A condicional p → q só é falsa quando p é V e q é F: Nora **trabalhou** e **não precisa descansar**, que é exatamente (E) (a negação de p → q é p ∧ ~q). (A), (B) e (D) têm componente falso; (C) é ~p ∨ q, equivalente à própria condicional, logo também falsa."
+      "exp": "A condicional p → q só é falsa quando p é V e q é F: Nora **trabalhou** e **não precisa descansar**, que é exatamente (E) (a negação de p → q é p ∧ ~q). (A), (B) e (D) têm componente falso; (C) é ~p ∨ q, equivalente à própria condicional, logo também falsa.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Uma condicional só é falsa com antecedente verdadeiro e consequente falso; \"precisa descansar\" teria de ser falso, e então a conjunção seria **falsa**.",
+        "B": "Se a condicional é falsa, Nora **trabalhou**; dizer que não trabalhou é falso.",
+        "C": "\"~p ou q\" é **equivalente** à condicional, que é falsa; logo, esta afirmação é falsa.",
+        "D": "Se a condicional é falsa, Nora **trabalhou**; dizer que não trabalhou é falso.",
+        "E": "A condicional é falsa só quando o antecedente é V e o consequente é F: Nora **trabalhou** e **não precisa descansar**, que é a negação da condicional."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#88",
@@ -216,7 +342,21 @@
         "raciocinio-logico.argumentacao.validade"
       ],
       "dispositivos": [],
-      "exp": "De IV, o consequente de I é falso; por modus tollens, \"Carla não é casada ou Pedro não é divorciado\" é falso, isto é, Carla **é casada** e Pedro **é divorciado**. Em II, o consequente \"Carla não é casada\" é falso, logo **Sônia não é mãe** (D) e (A) é falsa. Como o antecedente de III é falso, nada se conclui sobre Sergio ou Gerson, e (B), (C) e (E) não decorrem das premissas."
+      "exp": "De IV, o consequente de I é falso; por modus tollens, \"Carla não é casada ou Pedro não é divorciado\" é falso, isto é, Carla **é casada** e Pedro **é divorciado**. Em II, o consequente \"Carla não é casada\" é falso, logo **Sônia não é mãe** (D) e (A) é falsa. Como o antecedente de III é falso, nada se conclui sobre Sergio ou Gerson, e (B), (C) e (E) não decorrem das premissas.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "De IV e I, Carla é casada; em II o consequente \"Carla não é casada\" é falso, logo \"Sônia é mãe\" é **falsa**, e não decorre das premissas.",
+        "B": "Como o antecedente de III é falso, a premissa não diz nada sobre Sergio: **não decorre** das premissas.",
+        "C": "Como o antecedente de III é falso (Pedro é divorciado), nada se conclui sobre Sergio: **não decorre** das premissas.",
+        "D": "De IV, Cláudio não é filho único, então Carla é casada e Pedro é divorciado; como em II \"Carla não é casada\" é falso, **Sônia não é mãe**.",
+        "E": "Como o antecedente de III é falso, a premissa não afirma nada sobre Gerson: **não decorre** das premissas."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#89",
@@ -237,6 +377,20 @@
       ],
       "dispositivos": [],
       "exp": "Só natação: 70 − 15 − 20 − 27 = 8; só atletismo: 61 − 15 − 20 − 25 = 1; só ciclismo: 75 − 15 − 27 − 25 = 8. Um único esporte: 8 + 1 + 8 = 17. Total do grupo: 17 + 20 + 27 + 25 + 15 = 104. Relação: 17/104 ≈ 0,163, ou seja, cerca de **16%** (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Só um esporte: 8 + 1 + 8 = 17 atletas, de 104; 17/104 ≈ 16,3%, e não 18%.",
+        "B": "17 de 104 atletas dá cerca de 16,3%, que está mais perto de 16% do que de 14%.",
+        "C": "17/104 ≈ 16,3% está mais longe de 20% do que de 16%.",
+        "D": "17/104 ≈ 16,3% está mais longe de 12% do que de 16%.",
+        "E": "Só natação: 70 − 15 − 20 − 27 = 8; só atletismo: 61 − 15 − 20 − 25 = 1; só ciclismo: 75 − 15 − 27 − 25 = 8. Total 104 e 17/104 ≈ **16%**."
+      },
       "observacoes": [
         "enunciado literal tem a falha \"um único esporte o número total\" (falta \"e\"); mantida como na prova"
       ]
@@ -258,7 +412,21 @@
         "raciocinio-logico.sequencias"
       ],
       "dispositivos": [],
-      "exp": "As diferenças se repetem em ciclos de seis: +3, +3, +1, +3, +3, +5 (total 18). Assim, os termos vêm em blocos de 6 da forma 1 + 18k, 4 + 18k, 7 + 18k, 8 + 18k, 11 + 18k, 14 + 18k. Como 11 111 = 6 · 1 851 + 5, o termo é o 5º do bloco k = 1 851: 11 + 18 · 1 851 = 11 + 33 318 = **33 329** (B)."
+      "exp": "As diferenças se repetem em ciclos de seis: +3, +3, +1, +3, +3, +5 (total 18). Assim, os termos vêm em blocos de 6 da forma 1 + 18k, 4 + 18k, 7 + 18k, 8 + 18k, 11 + 18k, 14 + 18k. Como 11 111 = 6 · 1 851 + 5, o termo é o 5º do bloco k = 1 851: 11 + 18 · 1 851 = 11 + 33 318 = **33 329** (B).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O termo é **33 329**: 11 111 = 6 · 1 851 + 5 e o 5º do bloco é 11 + 18 · 1 851.",
+        "B": "As diferenças se repetem (+3, +3, +1, +3, +3, +5, total 18); o 11 111º é o 5º termo do bloco k = 1 851: 11 + 18 · 1 851 = **33 329**.",
+        "C": "O termo é **33 329**: com ciclos de 18 a cada 6 elementos, o 11 111º está perto de 3 · 11 111 = 33 333, não de 31 111.",
+        "D": "O termo é **33 329**; com ciclos de 18 a cada 6 elementos, o valor aproximado é 3 vezes a posição, e não 32 228.",
+        "E": "O termo é **33 329**: 33 332 = 14 + 18 · 1 851 é o 6º elemento do bloco, ou seja, o 11 112º, e não o 11 111º."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#91",
@@ -278,7 +446,21 @@
         "raciocinio-logico.estruturas.equivalencias"
       ],
       "dispositivos": [],
-      "exp": "\"Ou p ou q\" é a disjunção exclusiva, verdadeira só quando exatamente um dos dois ocorre; sua negação é verdadeira quando ambos ocorrem ou nenhum ocorre, ou seja, a bicondicional **p ↔ q**: \"Durmo se, e somente se, trabalho\" (C). (B) cobre só o caso em que nenhum ocorre; (D) é equivalente à própria afirmação (~p ⊻ ~q ≡ p ⊻ q); (E) é a disjunção inclusiva; e (A) não nega a afirmação."
+      "exp": "\"Ou p ou q\" é a disjunção exclusiva, verdadeira só quando exatamente um dos dois ocorre; sua negação é verdadeira quando ambos ocorrem ou nenhum ocorre, ou seja, a bicondicional **p ↔ q**: \"Durmo se, e somente se, trabalho\" (C). (B) cobre só o caso em que nenhum ocorre; (D) é equivalente à própria afirmação (~p ⊻ ~q ≡ p ⊻ q); (E) é a disjunção inclusiva; e (A) não nega a afirmação.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Se não durmo, então não trabalho\" não nega a exclusiva: é falsa quando exatamente um ocorre, mas também quando só se trabalha.",
+        "B": "\"Não trabalho e não durmo\" cobre só o caso em que **nenhum** ocorre, mas a negação da exclusiva inclui também o caso em que ambos ocorrem.",
+        "C": "A negação de \"ou p ou q\" é verdadeira quando ambos ocorrem ou nenhum ocorre: a **bicondicional** \"durmo se, e somente se, trabalho\".",
+        "D": "\"Ou não durmo ou não trabalho\" é **equivalente** à exclusiva original (~p ⊻ ~q ≡ p ⊻ q), não a nega.",
+        "E": "\"Trabalho ou durmo\" é a disjunção inclusiva, verdadeira quando exatamente um ocorre: não é a negação da exclusiva."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#92",
@@ -298,7 +480,21 @@
         "raciocinio-logico.estruturas.verdade"
       ],
       "dispositivos": [],
-      "exp": "Se Marcelo fosse professor (p V), a condicional verdadeira obrigaria Raquel a ser advogada (q V), e a conjunção p ∧ q seria verdadeira, contra o dado. Logo p é falso: **Marcelo não é professor universitário** (E). Sobre Raquel nada se garante (q pode ser V ou F), o que afasta (B) e (D); (A) é falsa; e (C) depende de Raquel não ser advogada, o que não é necessário."
+      "exp": "Se Marcelo fosse professor (p V), a condicional verdadeira obrigaria Raquel a ser advogada (q V), e a conjunção p ∧ q seria verdadeira, contra o dado. Logo p é falso: **Marcelo não é professor universitário** (E). Sobre Raquel nada se garante (q pode ser V ou F), o que afasta (B) e (D); (A) é falsa; e (C) depende de Raquel não ser advogada, o que não é necessário.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Se Marcelo fosse professor, a condicional obrigaria Raquel a ser advogada e a conjunção seria **verdadeira**, contra o dado; logo ele não é professor.",
+        "B": "Nada garante que Raquel seja advogada: como Marcelo não é professor, a condicional é verdadeira de qualquer modo.",
+        "C": "\"p ou ~q\" depende de Raquel não ser advogada, o que **não é necessário**; com p falso, só se sabe de ~q.",
+        "D": "Com Marcelo não sendo professor, Raquel pode ser ou não advogada: **não é necessário** que não seja.",
+        "E": "Se Marcelo fosse professor, Raquel seria advogada e a conjunção seria verdadeira; como é falsa, **Marcelo não é professor universitário**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#93",
@@ -365,6 +561,20 @@
       ],
       "dispositivos": [],
       "exp": "Os botões Negrito, Sublinhado e Itálico funcionam como **alternância**: com o cursor ao fim da palavra, o texto seguinte herda a formatação dela, e cada clique inverte o respectivo atributo. Como \"São Paulo\" saiu só em itálico, negrito e sublinhado foram desligados (estavam ativos) e o itálico foi ligado (estava inativo): a primeira palavra estava em **negrito e sublinhado, apenas** (C). Com qualquer outra formatação inicial, o resultado depois dos três cliques seria diferente de \"apenas itálico\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com itálico apenas na palavra inicial, os três cliques ligariam negrito e sublinhado e **desligariam** o itálico: o texto seguinte sairia em negrito e sublinhado, não em itálico.",
+        "B": "Com só negrito ativo, os cliques o desligariam e ligariam sublinhado e itálico: o texto seguinte sairia **sublinhado e em itálico**, não só em itálico.",
+        "C": "Os botões são alternância: para \"São Paulo\" sair só em itálico, negrito e sublinhado estavam **ativos** (foram desligados) e o itálico estava inativo (foi ligado).",
+        "D": "Se os três estivessem ativos, três cliques os desligariam e o texto sairia **sem formatação**, e não em itálico.",
+        "E": "Sem formatação, três cliques ligariam negrito, sublinhado e itálico, e o texto sairia com **os três**, não só em itálico."
+      },
       "imagens": [
         "figuras/q95.png"
       ],
@@ -387,7 +597,21 @@
         "informatica.excel"
       ],
       "dispositivos": [],
-      "exp": "No Excel, a referência a célula de outra planilha da mesma pasta de trabalho usa o **ponto de exclamação**: `=Cidades!A1` (A). O ponto (B) é a sintaxe do LibreOffice Calc; parênteses (C) indicam função; os dois-pontos (D) definem intervalos; e (E) não é sintaxe válida de referência."
+      "exp": "No Excel, a referência a célula de outra planilha da mesma pasta de trabalho usa o **ponto de exclamação**: `=Cidades!A1` (A). O ponto (B) é a sintaxe do LibreOffice Calc; parênteses (C) indicam função; os dois-pontos (D) definem intervalos; e (E) não é sintaxe válida de referência.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No Excel, a referência a outra planilha da mesma pasta usa **ponto de exclamação**: `=Cidades!A1`.",
+        "B": "O **ponto** como separador de planilha é sintaxe do LibreOffice Calc, não do Excel.",
+        "C": "**Parênteses** indicam argumentos de função, não referência a outra planilha.",
+        "D": "**Dois-pontos** definem intervalos de células (A1:A5), não referência a outra planilha.",
+        "E": "Não é sintaxe válida: o `@` não liga célula e planilha no Excel."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#97",
@@ -458,7 +682,21 @@
         "informatica.email"
       ],
       "dispositivos": [],
-      "exp": "No Outlook de Ana, a mensagem gravada fica em Rascunhos e, depois de enviada com sucesso, passa pela Caixa de Saída e termina em **Itens Enviados**. No de Paulo, ela chega à Caixa de Entrada e, ao ser apagada, vai para **Itens Excluídos** (C). A Caixa de Saída só guarda mensagens ainda não enviadas (A, B, D), e o Outlook não tem pasta \"Itens Recebidos\" (E)."
+      "exp": "No Outlook de Ana, a mensagem gravada fica em Rascunhos e, depois de enviada com sucesso, passa pela Caixa de Saída e termina em **Itens Enviados**. No de Paulo, ela chega à Caixa de Entrada e, ao ser apagada, vai para **Itens Excluídos** (C). A Caixa de Saída só guarda mensagens ainda não enviadas (A, B, D), e o Outlook não tem pasta \"Itens Recebidos\" (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Caixa de **Saída** só guarda mensagens ainda não enviadas; a mensagem apagada por Paulo vai para Itens Excluídos, não para a Caixa de Saída dele.",
+        "B": "Depois de enviada, a mensagem de Ana termina em **Itens Enviados**, não na Caixa de Saída; e a apagada por Paulo sai da Caixa de Entrada.",
+        "C": "Enviada, a mensagem de Ana fica em **Itens Enviados**; apagada por Paulo, vai da Caixa de Entrada para **Itens Excluídos**.",
+        "D": "A Caixa de **Saída** é para mensagens ainda não enviadas; depois do envio, a de Ana vai para Itens Enviados.",
+        "E": "O Outlook **não tem** pasta \"Itens Recebidos\": a mensagem apagada por Paulo vai para Itens Excluídos."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#100",
@@ -477,7 +715,21 @@
         "informatica.internet"
       ],
       "dispositivos": [],
-      "exp": "**CTRL + clique** em um link abre a página em uma **nova aba**, sem navegar na aba atual, cujo histórico continua só com a página principal; por isso o botão Voltar segue inativo (B). Estar ou não nos favoritos (A, E), ser um site seguro com HTTPS (C) ou usar navegação anônima (D) não altera o histórico de navegação da aba."
+      "exp": "**CTRL + clique** em um link abre a página em uma **nova aba**, sem navegar na aba atual, cujo histórico continua só com a página principal; por isso o botão Voltar segue inativo (B). Estar ou não nos favoritos (A, E), ser um site seguro com HTTPS (C) ou usar navegação anônima (D) não altera o histórico de navegação da aba.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Estar nos favoritos **não altera** o histórico da aba nem o botão Voltar.",
+        "B": "**CTRL + clique** em um link abre a página em uma **nova aba**, sem navegar na aba atual: o botão Voltar segue inativo.",
+        "C": "Ser um site seguro (HTTPS) **não influencia** o histórico de navegação da aba.",
+        "D": "A navegação anônima **não impede** o botão Voltar de ficar ativo ao navegar na mesma aba.",
+        "E": "Não estar nos favoritos **não altera** o histórico da aba nem o botão Voltar."
+      }
     }
   ]
 }
