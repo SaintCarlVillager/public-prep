@@ -33,7 +33,21 @@
         "portugues.interpretacao"
       ],
       "dispositivos": [],
-      "exp": "O último parágrafo conclui que a validade de qualquer resposta \"estará presa à **validação do critério** que a sustenta\": sem parâmetro válido, nenhuma definição se aceita, como diz a (D). (A) erra o defeito da primeira definição, que é ser ampla demais e não separar o efêmero do persistente, e não formular ideais. (B) atribui à segunda noção o defeito da primeira; a segunda é que é limitada demais. (C) inverte a terceira noção, que valoriza relações **esperadas ou ideais**, não as reais ou pragmáticas. (E) fala de \"análise de caso\", ideia que o texto não traz."
+      "exp": "O último parágrafo conclui que a validade de qualquer resposta \"estará presa à **validação do critério** que a sustenta\": sem parâmetro válido, nenhuma definição se aceita, como diz a (D). (A) erra o defeito da primeira definição, que é ser ampla demais e não separar o efêmero do persistente, e não formular ideais. (B) atribui à segunda noção o defeito da primeira; a segunda é que é limitada demais. (C) inverte a terceira noção, que valoriza relações **esperadas ou ideais**, não as reais ou pragmáticas. (E) fala de \"análise de caso\", ideia que o texto não traz.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O defeito da primeira definição é ser **ampla demais**: não distingue o efêmero do persistente. Ela não formula ideais de conduta, que é característica da terceira noção.",
+        "B": "Não distinguir o transitório do duradouro é o defeito da definição **ampla demais** do primeiro parágrafo. A noção do segundo parágrafo é criticada por ser **limitada demais**, pois exclui, por exemplo, a família.",
+        "C": "A terceira noção valoriza as relações **esperadas ou ideais**, e não as relações reais já estabelecidas. Dizer que ela valoriza as relações pragmáticas inverte o texto.",
+        "D": "O último parágrafo conclui que a validade de qualquer resposta \"estará presa à **validação do critério** que a sustenta\": sem um parâmetro válido, a definição não se aceita.",
+        "E": "O texto não fala em \"análise de caso\" nem em validar o conceito antes de toda análise. O que ele diz é que a validade de cada definição **depende da validade do critério** que a sustenta."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#2",
@@ -54,7 +68,21 @@
         "portugues.reescrita"
       ],
       "dispositivos": [],
-      "exp": "\"Estará presa à validação do critério\" equivale a **dependerá da aceitabilidade do parâmetro**: é a (E). (A) troca relações entre pessoas por soma de individualidades. (B) troca \"persistem\" por \"difundem\", que não tem o mesmo sentido. (C) inverte o sentido, pois \"não tanto\" diminui a ênfase e \"sobremaneira\" a aumenta. (D) cria um \"desmembramento\" que o texto não diz."
+      "exp": "\"Estará presa à validação do critério\" equivale a **dependerá da aceitabilidade do parâmetro**: é a (E). (A) troca relações entre pessoas por soma de individualidades. (B) troca \"persistem\" por \"difundem\", que não tem o mesmo sentido. (C) inverte o sentido, pois \"não tanto\" diminui a ênfase e \"sobremaneira\" a aumenta. (D) cria um \"desmembramento\" que o texto não diz.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "\"Rede de todas as relações de pessoa-a-pessoa\" fala de **relações entre pessoas**, e \"somatória de individualidades\" fala de indivíduos somados, sem relação entre eles. O sentido muda.",
+        "B": "\"Persistem\" quer dizer **continuam, duram**. \"Difundem uma permanência gerativa\" troca a ideia de duração por espalhamento e não tem sentido equivalente.",
+        "C": "\"Não tanto\" **diminui** a ênfase nas relações reais, ao passo que \"releva sobremaneira\" a **aumenta**. A paráfrase inverte o sentido.",
+        "D": "\"Permite exercerem\" significa deixar que os membros exerçam suas atividades. \"Faculta o desmembramento do exercício\" inventa uma ideia de **divisão** que o texto não traz.",
+        "E": "\"Estará presa à validação do critério\" quer dizer que a resposta **dependerá da aceitabilidade do parâmetro**: \"presa\" equivale a \"dependerá\", e \"validação do critério\" a \"aceitabilidade do parâmetro\"."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#3",
@@ -76,7 +104,21 @@
         "portugues.crase"
       ],
       "dispositivos": [],
-      "exp": "(B) está clara e correta: sujeito plural (\"Os diferentes critérios\") com \"são julgados\" e predicativo \"insatisfatórios\" no plural. (A) erra a concordância (\"se siga algum critério\") e é confusa. (C) também erra a concordância (\"Há quem julgue\") e é incoerente. Em (D), o sujeito de \"obter\" é \"a validade\", logo \"se **obtém**\". (E) tem crase antes de verbo (\"à crer\") e mistura tempos (\"adotássemos\" com \"terá\")."
+      "exp": "(B) está clara e correta: sujeito plural (\"Os diferentes critérios\") com \"são julgados\" e predicativo \"insatisfatórios\" no plural. (A) erra a concordância (\"se siga algum critério\") e é confusa. (C) também erra a concordância (\"Há quem julgue\") e é incoerente. Em (D), o sujeito de \"obter\" é \"a validade\", logo \"se **obtém**\". (E) tem crase antes de verbo (\"à crer\") e mistura tempos (\"adotássemos\" com \"terá\").",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O verbo \"seguir\" concorda com \"algum critério\" (singular): \"A menos que se **siga** algum critério\". A frase ainda fica confusa ao chamar os estudiosos de \"problemáticos\".",
+        "B": "O sujeito plural \"Os diferentes critérios\" concorda com \"são julgados\" e com o predicativo \"insatisfatórios\": redação **clara e correta**.",
+        "C": "Com \"Há quem\", o verbo fica no singular: \"Há quem **julgue**\". A frase também é incoerente ao falar em relações sociais como um \"produto\".",
+        "D": "O sujeito de \"obter\" é \"a validade de uma estrutura\", singular: \"que se **obtém**\", e não \"obtêm\".",
+        "E": "Não há crase antes de verbo: \"levar-nos **a** crer\". Também há desencontro de tempos verbais entre \"adotássemos\" e \"terá\"."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#4",
@@ -97,7 +139,21 @@
         "portugues.vozes"
       ],
       "dispositivos": [],
-      "exp": "Em (C), o sujeito de \"dever caber\" é a oração \"definir açodadamente o que seja uma estrutura social\", e sujeito oracional leva o verbo ao singular: \"Não **deve** caber\". Nas demais, o verbo vai ao plural: (A) \"que se aguardam\" (o \"que\" retoma \"respostas\"), (B) \"se afligem os antropólogos\", (D) \"que hão de\" (\"que\" retoma \"Àqueles\") e (E) \"que se apresentam\" (\"que\" retoma \"critérios\")."
+      "exp": "Em (C), o sujeito de \"dever caber\" é a oração \"definir açodadamente o que seja uma estrutura social\", e sujeito oracional leva o verbo ao singular: \"Não **deve** caber\". Nas demais, o verbo vai ao plural: (A) \"que se aguardam\" (o \"que\" retoma \"respostas\"), (B) \"se afligem os antropólogos\", (D) \"que hão de\" (\"que\" retoma \"Àqueles\") e (E) \"que se apresentam\" (\"que\" retoma \"critérios\").",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O \"que\" retoma \"as respostas\" (plural), objeto de \"aguardar\": \"que se **aguardam**\". O verbo vai ao plural.",
+        "B": "O sujeito de \"afligir\" é \"os antropólogos\", plural: \"com que se **afligem** os antropólogos\".",
+        "C": "O sujeito de \"dever caber\" é a oração \"definir açodadamente o que seja uma estrutura social\", e sujeito oracional pede o verbo no **singular**: \"Não **deve** caber\".",
+        "D": "O \"que\" retoma \"Àqueles\" (plural): \"Àqueles que **hão** de pesquisar\". O verbo \"haver\" vai ao plural.",
+        "E": "O \"que\" retoma \"os critérios\" (plural): \"que se **apresentam**\". O verbo vai ao plural."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#5",
@@ -118,7 +174,21 @@
         "portugues.interpretacao.ponto-de-vista"
       ],
       "dispositivos": [],
-      "exp": "Para o observador à beira-mar, \"cada tatuagem é **uma descoberta, uma viagem do olhar**\", e numa só manhã ele viu tatuagens de vários tipos: é a (D). (A) contraria o texto, que data a tatuagem do paleolítico. (B) inventa que o autor se tatuou. (C) erra ao falar em fidelidade exclusiva aos primeiros símbolos, já que o texto cita nomes, bilhetes e mensagens. (E) erra porque o texto não limita a tatuagem a formas simbólicas, e o segredo é o de uma mensagem específica."
+      "exp": "Para o observador à beira-mar, \"cada tatuagem é **uma descoberta, uma viagem do olhar**\", e numa só manhã ele viu tatuagens de vários tipos: é a (D). (A) contraria o texto, que data a tatuagem do paleolítico. (B) inventa que o autor se tatuou. (C) erra ao falar em fidelidade exclusiva aos primeiros símbolos, já que o texto cita nomes, bilhetes e mensagens. (E) erra porque o texto não limita a tatuagem a formas simbólicas, e o segredo é o de uma mensagem específica.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto data a tatuagem do **paleolítico**, o que a torna um fenômeno antigo, e não recente. Também não atribui sua difusão a artistas plásticos.",
+        "B": "O texto não diz que o autor se tatuou nem que a tatuagem lhe cause dissabores. Ele a observa **à beira-mar**, como espectador.",
+        "C": "O texto cita nomes próprios, adjetivos, bilhetes e mensagens cifradas, e não só os símbolos antigos. A tatuagem **não** conserva fidelidade exclusiva aos primeiros símbolos.",
+        "D": "Para o observador à beira-mar, \"cada tatuagem é **uma descoberta, uma viagem do olhar**\", e em uma só manhã ele viu tatuagens de vários tipos: uma revelação contínua de elementos novos.",
+        "E": "O texto não limita a tatuagem a formas simbólicas: ela traz também nomes, adjetivos e bilhetes. O mistério citado é o de **uma mensagem específica**, e não de algo que a tatuagem oculte em si mesma."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#6",
@@ -140,7 +210,21 @@
         "portugues.interpretacao.inferencia"
       ],
       "dispositivos": [],
-      "exp": "\"Feito\" tem aí valor comparativo (= como, **tal e qual**): o eu lírico quer ficar no corpo do outro como uma tatuagem fica, de forma permanente. É a (B). (A) toma a comparação ao pé da letra. (C) inverte os termos: quem quer ser como tatuagem é o eu lírico, e não o corpo amado. (D) contraria a ideia de permanência (\"uma pintura para toda a vida\"). (E) fala de paixão impossível, ideia que não está no texto."
+      "exp": "\"Feito\" tem aí valor comparativo (= como, **tal e qual**): o eu lírico quer ficar no corpo do outro como uma tatuagem fica, de forma permanente. É a (B). (A) toma a comparação ao pé da letra. (C) inverte os termos: quem quer ser como tatuagem é o eu lírico, e não o corpo amado. (D) contraria a ideia de permanência (\"uma pintura para toda a vida\"). (E) fala de paixão impossível, ideia que não está no texto.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A canção compara o desejo de permanecer no corpo amado a uma tatuagem. Ela **não** pede que a frase seja gravada na pele.",
+        "B": "Em \"feito tatuagem\", \"feito\" tem valor **comparativo** (= como, tal e qual): o eu lírico quer ficar no corpo do outro como uma tatuagem fica.",
+        "C": "Quem quer ser como tatuagem é o **eu lírico**, e não o corpo amado. A comparação não trata de como o corpo aparece a quem o olha.",
+        "D": "A tatuagem é \"uma pintura para toda a vida\": a comparação expressa **permanência**, e não efemeridade.",
+        "E": "Nada na frase ou no texto sugere paixão **impossível**. A comparação exprime o desejo de permanecer, como a tatuagem permanece."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#7",
@@ -161,7 +245,21 @@
         "portugues.classes.pronomes"
       ],
       "dispositivos": [],
-      "exp": "(C) mantém o sentido de adição (\"além das belas formas e cores\") e a afirmação de que há algo simbólico nas inscrições, com redação correta. (A) troca a adição por concessão (\"a despeito de\") e usa \"lhes\" sem função, repetindo \"Nessas inscrições\". (B) cria uma relação de causa que não existe e é redundante (\"cores simbólicas\"). (D) usa mal o \"cujas\", que exige um substantivo depois, e muda o sentido. (E) usa mal o futuro do subjuntivo (\"que houverem\") e exagera com \"para muito além\"."
+      "exp": "(C) mantém o sentido de adição (\"além das belas formas e cores\") e a afirmação de que há algo simbólico nas inscrições, com redação correta. (A) troca a adição por concessão (\"a despeito de\") e usa \"lhes\" sem função, repetindo \"Nessas inscrições\". (B) cria uma relação de causa que não existe e é redundante (\"cores simbólicas\"). (D) usa mal o \"cujas\", que exige um substantivo depois, e muda o sentido. (E) usa mal o futuro do subjuntivo (\"que houverem\") e exagera com \"para muito além\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"A despeito de\" troca a ideia de **adição** por concessão. Além disso, \"ocorre-lhes algum simbolismo\" é construção forçada, com \"lhes\" sem função clara e repetição de \"Nessas inscrições\".",
+        "B": "A frase cria uma relação de **causa** (o simbolismo \"desperta\" a beleza) que o original não tem, e \"cores simbólicas\" acrescenta algo que o original não diz.",
+        "C": "Mantém a adição (\"além das belas formas e cores\") e a afirmação de que há algo simbólico nas inscrições, com redação **clara e correta**.",
+        "D": "O pronome \"cujas\" exige um substantivo logo depois (\"em cujas formas\"), o que não ocorre. Além disso, a frase muda o sentido do original.",
+        "E": "O futuro do subjuntivo \"houverem\" é inadequado aqui: o correto seria \"que houver\" ou \"que há\". A expressão \"para muito além\" também exagera o sentido original."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#8",
@@ -183,7 +281,21 @@
         "portugues.ortografia"
       ],
       "dispositivos": [],
-      "exp": "Em (A), \"provieram\" é a forma correta de provir (conjuga-se como vir: vieram/provieram), e \"as\" retoma \"As economias\", objeto direto de despender. As demais erram: (B) \"intervieram\" e \"lhe custara\" (custar, nesse sentido, pede objeto indireto); (C) \"os vê\" (ver é transitivo direto) e \"acessórios\"; (D) \"seduzir **por** uma tatuagem\", e \"em cujo\" sem substantivo depois (\"com o qual\"); (E) \"por que\" (interrogativa indireta) e \"onde\" (não há ideia de movimento)."
+      "exp": "Em (A), \"provieram\" é a forma correta de provir (conjuga-se como vir: vieram/provieram), e \"as\" retoma \"As economias\", objeto direto de despender. As demais erram: (B) \"intervieram\" e \"lhe custara\" (custar, nesse sentido, pede objeto indireto); (C) \"os vê\" (ver é transitivo direto) e \"acessórios\"; (D) \"seduzir **por** uma tatuagem\", e \"em cujo\" sem substantivo depois (\"com o qual\"); (E) \"por que\" (interrogativa indireta) e \"onde\" (não há ideia de movimento).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Provieram\" é a forma correta do pretérito de **provir** (conjuga-se como vir), e \"as\" retoma \"As economias\", objeto direto de \"despender\".",
+        "B": "O pretérito de \"intervir\" é \"**intervieram**\", e \"custar\" pede objeto indireto: \"que **lhe** custara tão caro\". Os dois elementos estão errados.",
+        "C": "\"Ver\" é transitivo direto, então o pronome é **\"os\"** (\"o velho os vê\"), e o substantivo é \"**acessórios**\". Os dois elementos estão errados.",
+        "D": "\"Seduzir\" rege **por** (\"seduzir-se por uma tatuagem\"), e \"em cujo\" exige substantivo depois dele; o correto seria \"**no qual**\". Os dois elementos estão errados.",
+        "E": "A interrogativa indireta pede \"**por que**\" (separado), e \"aonde\" indica movimento: a frase pede \"**onde**\", pois não há deslocamento."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#9",
@@ -203,7 +315,21 @@
         "matematica.porcentagem"
       ],
       "dispositivos": [],
-      "exp": "Classificação 4: 15/50 = **30%**, alternativa (C). As outras: 1, 2 ou 3 somam 5 + 15 + 10 = 30, ou 60% (A); 4 ou 5 somam 20, ou 40% (B); classificação 1: 5/50 = 10% (D); 3, 4 ou 5 somam 30, ou 60% (E)."
+      "exp": "Classificação 4: 15/50 = **30%**, alternativa (C). As outras: 1, 2 ou 3 somam 5 + 15 + 10 = 30, ou 60% (A); 4 ou 5 somam 20, ou 40% (B); classificação 1: 5/50 = 10% (D); 3, 4 ou 5 somam 30, ou 60% (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Classificações 1, 2 ou 3 somam 5 + 15 + 10 = 30 alunos, e 30/50 = **60%**, e não 50%.",
+        "B": "Classificações 4 ou 5 somam 15 + 5 = 20 alunos, e 20/50 = **40%**, e não 20%.",
+        "C": "Obtiveram classificação 4 um total de 15 alunos: 15/50 = **30%**.",
+        "D": "Obteve classificação 1 um total de 5 alunos: 5/50 = **10%**, e não 15%.",
+        "E": "Classificações 3, 4 ou 5 somam 10 + 15 + 5 = 30 alunos, e 30/50 = **60%**, e não 90%."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#10",
@@ -223,7 +349,21 @@
         "raciocinio-logico.argumentacao.deducao"
       ],
       "dispositivos": [],
-      "exp": "Natalina nasceu em 25 de dezembro. Março é o único mês com duas datas, então Beth e Carla nasceram em março. Ana tem o mesmo dia de Carla em outro mês: o único dia repetido é 20, logo Carla nasceu em 20/3 e Ana em 20/7. Assim, Beth nasceu em 1º/3 e sobra 17 de maio para **Diana**, alternativa (B)."
+      "exp": "Natalina nasceu em 25 de dezembro. Março é o único mês com duas datas, então Beth e Carla nasceram em março. Ana tem o mesmo dia de Carla em outro mês: o único dia repetido é 20, logo Carla nasceu em 20/3 e Ana em 20/7. Assim, Beth nasceu em 1º/3 e sobra 17 de maio para **Diana**, alternativa (B).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Natalina recebeu esse nome por ter nascido no **Natal**, 25 de dezembro, e não em 17 de maio.",
+        "B": "Natalina nasceu em 25/12. Beth e Carla nasceram em março (único mês com duas datas), Carla em 20/3 e Beth em 1º/3. Ana, com o mesmo dia de Carla em outro mês, nasceu em 20/7. Sobra 17 de maio para **Diana**.",
+        "C": "Beth e Carla nasceram no mesmo mês, e o único mês com duas datas é **março**. Carla não nasceu em maio, mas em 20 de março.",
+        "D": "Beth e Carla nasceram no mesmo mês, e o único mês com duas datas é **março**. Beth não nasceu em maio, mas em 1º de março.",
+        "E": "Ana tem o mesmo dia de Carla, mas em outro mês: o único dia repetido é o **20**, então Ana nasceu em 20 de julho, e não em 17 de maio."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#11",
@@ -242,7 +382,21 @@
         "matematica.reais"
       ],
       "dispositivos": [],
-      "exp": "O menor número de três algarismos é 100 e o maior de um algarismo é 9: (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, alternativa (D)."
+      "exp": "O menor número de três algarismos é 100 e o maior de um algarismo é 9: (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, alternativa (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O resultado é (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, e não 10.",
+        "B": "O resultado é (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, e não 16.",
+        "C": "O resultado é (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, e não 13.",
+        "D": "O menor número de três algarismos é 100 e o maior de um algarismo é 9: (100 + 26) ÷ 9 = 126 ÷ 9 = **14**.",
+        "E": "O resultado é (100 + 26) ÷ 9 = 126 ÷ 9 = **14**, e não 12."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#12",
@@ -262,7 +416,21 @@
         "matematica.problemas"
       ],
       "dispositivos": [],
-      "exp": "Em cada torre, o algarismo 3 aparece na posição das unidades uma vez por andar (k3), ou seja, 8 vezes. Na posição das dezenas, aparece nos 4 apartamentos do 3º andar (31 a 34), mais 4 vezes. São 12 por torre (o 33 conta duas vezes), e 12 × 5 = **60**, alternativa (E)."
+      "exp": "Em cada torre, o algarismo 3 aparece na posição das unidades uma vez por andar (k3), ou seja, 8 vezes. Na posição das dezenas, aparece nos 4 apartamentos do 3º andar (31 a 34), mais 4 vezes. São 12 por torre (o 33 conta duas vezes), e 12 × 5 = **60**, alternativa (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Em cada torre, o algarismo 3 aparece 8 vezes nas unidades (k3) e 4 nas dezenas (31 a 34), 12 no total; em 5 torres são 12 × 5 = **60**, e não 30.",
+        "B": "São 12 algarismos 3 **por torre**: 8 nas unidades e 4 nas dezenas. Com 5 torres, são 12 × 5 = **60**.",
+        "C": "Em cada torre há 8 algarismos 3 nas unidades (k3) e 4 nas dezenas (31 a 34): 12 por torre. Com 5 torres, são 12 × 5 = **60**, e não 100.",
+        "D": "Em cada torre há 8 algarismos 3 nas unidades (k3) e 4 nas dezenas (31 a 34): 12 por torre. Com 5 torres, são 12 × 5 = **60**, e não 80.",
+        "E": "Por torre: 8 algarismos 3 nas unidades (k3, com k de 1 a 8) mais 4 nas dezenas (31, 32, 33 e 34), 12 ao todo. Com 5 torres, 12 × 5 = **60**."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#13",
@@ -285,7 +453,21 @@
         "L10048 6 p.ú.",
         "L10048 3"
       ],
-      "exp": "Pelo `L10048 6 II`, a concessionária que descumpre a reserva de assentos (`L10048 3`) paga multa de **R$ 500,00 a R$ 2.500,00 por veículo**. Como a empresa já havia sido multada em 2018, há reincidência, e o `L10048 6 p.ú.` **dobra** as penalidades: R$ 1.000,00 a R$ 5.000,00, alternativa (B). (A) é a faixa sem a reincidência, e as demais faixas não estão na lei."
+      "exp": "Pelo `L10048 6 II`, a concessionária que descumpre a reserva de assentos (`L10048 3`) paga multa de **R$ 500,00 a R$ 2.500,00 por veículo**. Como a empresa já havia sido multada em 2018, há reincidência, e o `L10048 6 p.ú.` **dobra** as penalidades: R$ 1.000,00 a R$ 5.000,00, alternativa (B). (A) é a faixa sem a reincidência, e as demais faixas não estão na lei.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A faixa de R$ 500,00 a R$ 2.500,00 é a multa do `L10048 6 II` **sem** reincidência. Como a empresa foi multada em 2018, a multa deve ser dobrada.",
+        "B": "A multa do `L10048 6 II` é de R$ 500,00 a R$ 2.500,00 por veículo, e o `L10048 6 p.ú.` a eleva ao **dobro** em caso de reincidência: de R$ 1.000,00 a R$ 5.000,00.",
+        "C": "Essa faixa não consta do `L10048 6`. A multa de R$ 500,00 a R$ 2.500,00 é **dobrada** na reincidência.",
+        "D": "Essa faixa não consta do `L10048 6`. A multa de R$ 500,00 a R$ 2.500,00 é **dobrada** na reincidência.",
+        "E": "Essa faixa não consta do `L10048 6`. A multa de R$ 500,00 a R$ 2.500,00 é **dobrada** na reincidência."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#14",
@@ -306,7 +488,21 @@
       "dispositivos": [
         "L13146 15"
       ],
-      "exp": "(A) reproduz o `L13146 15 II`. As demais deturpam outros incisos do mesmo artigo: o I prevê **diagnóstico e intervenção precoces**, e não intervenção tardia (B); o IV prevê rede de serviços **articulados**, com atuação **intersetorial** (C); o V prevê serviços próximos ao domicílio **inclusive na zona rural** (D); e o III prevê atuação **permanente**, integrada e articulada de políticas públicas (E)."
+      "exp": "(A) reproduz o `L13146 15 II`. As demais deturpam outros incisos do mesmo artigo: o I prevê **diagnóstico e intervenção precoces**, e não intervenção tardia (B); o IV prevê rede de serviços **articulados**, com atuação **intersetorial** (C); o V prevê serviços próximos ao domicílio **inclusive na zona rural** (D); e o III prevê atuação **permanente**, integrada e articulada de políticas públicas (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É diretriz do `L13146 15 II`: \"adoção de medidas para compensar perda ou limitação funcional, buscando o desenvolvimento de aptidões\".",
+        "B": "O `L13146 15 I` prevê diagnóstico e intervenção **precoces**, e não intervenção tardia.",
+        "C": "O `L13146 15 IV` prevê rede de serviços **articulados**, com atuação **intersetorial**, e não desarticulados nem intrasetorial.",
+        "D": "O `L13146 15 V` prevê serviços próximos ao domicílio, **inclusive na zona rural**, e não com exceção dela.",
+        "E": "O `L13146 15 III` prevê atuação **permanente**, integrada e articulada das políticas públicas, e não provisória."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#15",
@@ -325,7 +521,21 @@
         "sustentabilidade.desenvolvimento-sustentavel"
       ],
       "dispositivos": [],
-      "exp": "O Relatório Brundtland (\"Nosso Futuro Comum\", 1987) definiu desenvolvimento sustentável como o que **satisfaz as necessidades do presente sem comprometer a capacidade das gerações futuras de suprir as suas**: é a (E). As demais contrariam a ideia central do relatório, de que desenvolvimento econômico e preservação são compatíveis. (A) e (B) tratam o desenvolvimento como inconciliável com a preservação ou sempre deletério. (C) e (D) trazem propostas (taxação de países, adequação compulsória da tecnologia) que não fazem parte do conceito."
+      "exp": "O Relatório Brundtland (\"Nosso Futuro Comum\", 1987) definiu desenvolvimento sustentável como o que **satisfaz as necessidades do presente sem comprometer a capacidade das gerações futuras de suprir as suas**: é a (E). As demais contrariam a ideia central do relatório, de que desenvolvimento econômico e preservação são compatíveis. (A) e (B) tratam o desenvolvimento como inconciliável com a preservação ou sempre deletério. (C) e (D) trazem propostas (taxação de países, adequação compulsória da tecnologia) que não fazem parte do conceito.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O Relatório Brundtland **concilia** desenvolvimento econômico e sustentabilidade, e não os trata como incompatíveis. Também não impõe escolha às gerações futuras.",
+        "B": "O relatório não condena todo desenvolvimento que use recursos naturais. Ele propõe um desenvolvimento que **use** esses recursos sem comprometer as gerações futuras.",
+        "C": "A ideia de taxar países desenvolvidos para compensar os que preservam a biodiversidade não faz parte do **conceito** de desenvolvimento sustentável do relatório, que não parte da premissa de que desenvolvimento pressupõe degradação.",
+        "D": "A adequação **compulsória** da velocidade das mudanças tecnológicas não faz parte do conceito do relatório, que tem como ideia central atender as necessidades atuais sem comprometer as futuras.",
+        "E": "O relatório define o desenvolvimento sustentável como o que **satisfaz as necessidades do presente sem comprometer a capacidade das gerações futuras** de suprir as suas."
+      }
     },
     {
       "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#16",
@@ -350,7 +560,21 @@
         "L12305 33",
         "L12305 30"
       ],
-      "exp": "A logística reversa obriga **fabricantes, importadores, distribuidores e comerciantes** (`L12305 33`). O `L12305 33 §7º` permite que o titular do serviço público de limpeza urbana assuma essas atividades por acordo setorial ou termo de compromisso, mas as ações do poder público devem ser **devidamente remuneradas**: é a (C). (A), (B) e (D) restringem a obrigação a um só elo ou setor, quando a lei prevê **responsabilidade compartilhada** pelo ciclo de vida do produto (`L12305 30`), e o rol do art. 33 pode ser ampliado (§1º). (E) põe todo o custo sobre o consumidor final, que só tem o dever de devolver produtos e embalagens (§4º)."
+      "exp": "A logística reversa obriga **fabricantes, importadores, distribuidores e comerciantes** (`L12305 33`). O `L12305 33 §7º` permite que o titular do serviço público de limpeza urbana assuma essas atividades por acordo setorial ou termo de compromisso, mas as ações do poder público devem ser **devidamente remuneradas**: é a (C). (A), (B) e (D) restringem a obrigação a um só elo ou setor, quando a lei prevê **responsabilidade compartilhada** pelo ciclo de vida do produto (`L12305 30`), e o rol do art. 33 pode ser ampliado (§1º). (E) põe todo o custo sobre o consumidor final, que só tem o dever de devolver produtos e embalagens (§4º).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A obrigação **não** recai apenas sobre os comercializadores finais: o `L12305 33` obriga fabricantes, importadores, distribuidores e comerciantes. A responsabilidade é compartilhada (`L12305 30`).",
+        "B": "O `L12305 33` obriga também importadores, distribuidores e comerciantes, e não só os fabricantes. O rol pode ser **estendido** por regulamento ou acordos setoriais (§1º), então não é taxativo.",
+        "C": "O `L12305 33` põe a obrigação sobre agentes privados, e o `L12305 33 §7º` admite que o titular do serviço de limpeza urbana a assuma, desde que as ações do poder público sejam **devidamente remuneradas**.",
+        "D": "A logística reversa **não** se limita aos setores farmacêutico e hospitalar: o `L12305 33` inclui agrotóxicos, pilhas, pneus, óleos, lâmpadas e eletroeletrônicos, entre outros.",
+        "E": "O `L12305 33` põe a obrigação sobre fabricantes, importadores, distribuidores e comerciantes, e não sobre quem usa o produto ao final da cadeia. O consumidor só deve **devolver** produtos e embalagens (§4º)."
+      }
     }
   ]
 }
