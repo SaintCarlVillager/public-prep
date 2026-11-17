@@ -2,3 +2,4 @@ web/public/dados/
 __pycache__/
 *.pyc
 .claude/worktrees/
+revisao/dados/
