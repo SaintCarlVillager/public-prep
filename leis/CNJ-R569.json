@@ -1,0 +1,39 @@
+{
+  "sigla": "CNJ-R569",
+  "nome": "Resolução CNJ 569/2024 (comunicação processual eletrônica)",
+  "fonte": "https://atos.cnj.jus.br/atos/detalhar/5691",
+  "consultado": "2026-11-17",
+  "observacao": "O portal de atos do CNJ não traz texto compilado para este ato (situação \"Vigente\", sem alterações registradas); texto da versão original (PDF), consultado em 17/11/2026. É resolução que apenas altera a Resolução CNJ 455/2022: os artigos 1º a 4º trazem, entre aspas, a redação que passa a constar na 455 (reproduzida em CNJ-R455, já compilada); as reticências (\"...\") substituem o trecho não alterado, como na fonte. As notas de alteração (redação dada, incluído, revogado) ficam como na fonte; preâmbulo/considerandos, assinaturas, anexos e rubricas foram omitidos. O ordinal (sobrescrito no PDF) foi normalizado para º e nº; a hifenização de fim de linha foi desfeita.",
+  "artigos": [
+    {
+      "art": "1",
+      "local": "",
+      "texto": "Art. 1º O art. 11, § 3º, da Resolução CNJ nº 455/2022 passa a vigorar com a seguinte redação:\nArt. 11. ... ...\n§ 3º Nos casos em que a lei não exigir vista ou intimação pessoal, os prazos processuais serão contados a partir da publicação no DJEN, na forma do art. 224, §§ 1º e 2º, do CPC, possuindo valor meramente informacional a eventual concomitância de intimação ou comunicação por outros meios. (NR)"
+    },
+    {
+      "art": "2",
+      "local": "",
+      "texto": "Art. 2º O art. 18 da Resolução CNJ nº 455/2022 passa a vigorar com a seguinte redação:\nArt. 18. O Domicílio Judicial Eletrônico será utilizado exclusivamente para citação por meio eletrônico e comunicações processuais que exijam vista, ciência ou intimação pessoal da parte ou de terceiros, com exceção da citação por edital, a ser realizada via DJEN. (NR)"
+    },
+    {
+      "art": "3",
+      "local": "",
+      "texto": "Art. 3º Ficam acrescidos ao art. 20 da Resolução CNJ nº 455/2022 os §§ 3º-A e 3º-B, com o seguinte teor:\nArt. 20. ... ...\n§ 3º-A. No caso das pessoas jurídicas de direito público, não havendo consulta no prazo de até 10 (dez) dias corridos, contados do envio da citação ao Domicílio Judicial Eletrônico, o ente será considerado automaticamente citado na data do término desse prazo, não se aplicando o disposto no art. 219 do CPC a esse período.\n§ 3º-B. No caso de consulta à citação eletrônica dentro dos prazos previstos nos §§ 3º e 3º-A, o prazo para resposta começa a correr no quinto dia útil seguinte à confirmação, na forma do art. 231, IX, do CPC. (NR)"
+    },
+    {
+      "art": "4",
+      "local": "",
+      "texto": "Art. 4º O art. 20, § 4º, da Resolução CNJ nº 455/2022 passa a vigorar com o seguinte teor:\nArt. 20. ... ...\n§ 4º Para os demais casos que exijam intimação pessoal, não havendo aperfeiçoamento em até 10 (dez) dias corridos a partir da data do envio da comunicação processual ao Domicílio Judicial Eletrônico, esta será considerada automaticamente realizada na data do término desse prazo, nos termos do art. 5º, § 3º, da Lei nº 11.419/2006, não se aplicando o disposto no art. 219 do CPC a esse período. (NR)"
+    },
+    {
+      "art": "5",
+      "local": "",
+      "texto": "Art. 5º Os tribunais e conselhos deverão, no prazo de até 90 (noventa) dias, adaptar seus procedimentos e sistemas às alterações promovidas por esta Resolução."
+    },
+    {
+      "art": "6",
+      "local": "",
+      "texto": "Art. 6º Esta Resolução entra em vigor na data de sua publicação."
+    }
+  ]
+}
