@@ -1,0 +1,266 @@
+<title>Revisão ServentIA</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Fila de revisão: uma coluna de cartões, filtros no topo, decisão no pé de cada cartão.
+   Tokens do design edenprep do app (DESIGN.md): papel quente, tinta, grifo; certo em azul, corrigir em laranja. */
+:root {
+  --paper: #faf8f3; --sheet: #ffffff; --sunken: #f1ede4; --ink: #1c2430; --muted: #575e6b;
+  --rule: #e2dccf; --rule-strong: #8a8478; --grifo: #f2c94c; --on-grifo: #1c2430;
+  --good: #1f5a96; --good-soft: #e7eef7; --bad: #a8400c; --bad-soft: #faebe2; --warn: #7a5300; --warn-soft: #f8eed3;
+  --display: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #14171c; --sheet: #1c2027; --sunken: #0f1115; --ink: #ece8df; --muted: #a5abb5; --rule: #2b3039; --rule-strong: #6e7581;
+  --grifo: #e8bf45; --good: #86b6ea; --good-soft: #182a3e; --bad: #f0965f; --bad-soft: #3a2316; --warn: #e6b955; --warn-soft: #30270f;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #14171c; --sheet: #1c2027; --sunken: #0f1115; --ink: #ece8df; --muted: #a5abb5; --rule: #2b3039; --rule-strong: #6e7581;
+  --grifo: #e8bf45; --good: #86b6ea; --good-soft: #182a3e; --bad: #f0965f; --bad-soft: #3a2316; --warn: #e6b955; --warn-soft: #30270f;
+  color-scheme: dark }
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { overflow-x: hidden; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--display); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 920px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.topo .wrap { padding-block: 24px 16px; display: grid; gap: 12px; border-bottom: 1px solid var(--rule); }
+h1 { margin: 0; font-size: 26px; line-height: 32px; font-weight: 600; letter-spacing: -.01em; text-wrap: balance; }
+h1 .ia { padding: 0 2px; background: linear-gradient(transparent 55%, var(--grifo) 55%, var(--grifo) 88%, transparent 88%); }
+.eyebrow { font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.mono { font-variant-numeric: tabular-nums; }
+.resumo { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; color: var(--muted); }
+.resumo b { color: var(--ink); font-variant-numeric: tabular-nums; }
+main .wrap { padding-block: 16px 64px; display: grid; gap: 16px; }
+.filtros { display: grid; gap: 10px; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { font: inherit; font-size: 14px; font-weight: 600; min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--muted); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.seg button .n { font-variant-numeric: tabular-nums; opacity: .8; margin-left: 4px; }
+.aviso { padding: 12px 16px; border-radius: 10px; background: var(--sunken); font-size: 15px; }
+.aviso.ruim { background: var(--bad-soft); }
+.lista { display: grid; gap: 16px; }
+.item { background: var(--sheet); border: 1px solid var(--rule); border-radius: 16px; padding: 20px; display: grid; gap: 12px; min-width: 0; }
+.item.feito { border-color: var(--rule); opacity: .92; }
+.item-topo { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.item-topo h2 { margin: 0; font-size: 17px; line-height: 24px; font-weight: 600; flex: 1 1 260px; min-width: 0; }
+.pill { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .04em; line-height: 16px; padding: 2px 8px; border-radius: 6px; background: var(--sunken); color: var(--muted); border: 1px solid var(--rule); white-space: nowrap; }
+.pill.certo { background: var(--good-soft); color: var(--good); border-color: transparent; }
+.pill.corrigir { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+.pill.aplicada { background: var(--grifo); color: var(--on-grifo); border-color: transparent; }
+.pill.cat { background: var(--sheet); color: var(--ink); border-color: var(--rule-strong); }
+.pergunta { font-weight: 600; margin: 0; }
+.detalhe { margin: 0; font-family: var(--body); font-size: 16px; line-height: 25px; padding: 10px 14px; border-radius: 6px; background: var(--warn-soft); overflow-wrap: break-word; }
+details.bloco { border-top: 1px solid var(--rule); padding-top: 10px; }
+details.bloco > summary { cursor: pointer; font-weight: 600; font-size: 14px; min-height: 32px; color: var(--ink); }
+.questao { display: grid; gap: 12px; margin-top: 10px; }
+.leitura { font-family: var(--body); font-size: 16px; line-height: 26px; overflow-wrap: break-word; max-width: 72ch; }
+.leitura p { margin: 0 0 .6em; } .leitura p:last-child { margin: 0; }
+.alts { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.alts li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px 10px; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 10px; }
+.alts li.gab { border: 2px solid var(--good); background: var(--good-soft); padding: 9px 11px; }
+.alts .l { font-weight: 600; width: 28px; height: 28px; border-radius: 6px; display: grid; place-items: center; border: 1px solid var(--rule-strong); font-size: 14px; }
+.alts li.gab .l { border-color: var(--good); color: var(--good); }
+.alts .txt { font-family: var(--body); font-size: 16px; line-height: 25px; overflow-wrap: break-word; }
+.alts .com { grid-column: 2; font-size: 14px; line-height: 21px; color: var(--muted); }
+.alts .vf { font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.caixa { padding: 10px 14px; border-radius: 6px; background: var(--sunken); }
+.artigo { padding: 10px 14px; border-radius: 6px; background: var(--sunken); font-family: var(--body); font-size: 15px; line-height: 23px; white-space: pre-line; overflow-wrap: break-word; }
+code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .86em; background: var(--sunken); padding: 1px 5px; border-radius: 4px; }
+.decisao { display: grid; gap: 10px; border-top: 1px solid var(--rule); padding-top: 12px; }
+.acoes { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { font: inherit; font-size: 15px; font-weight: 600; min-height: 48px; padding: 10px 18px; border-radius: 10px; border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink); cursor: pointer; }
+.btn.certo[aria-pressed="true"] { background: var(--good); color: var(--paper); border-color: var(--good); }
+.btn.corrigir[aria-pressed="true"] { background: var(--bad); color: var(--paper); border-color: var(--bad); }
+.btn.ignorar[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.btn.salvar { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+textarea { width: 100%; min-height: 88px; font: inherit; font-family: var(--body); font-size: 16px; line-height: 24px; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink); resize: vertical; }
+.salvo { font-size: 14px; color: var(--muted); }
+.salvo .nota { display: block; margin-top: 4px; font-family: var(--body); color: var(--ink); white-space: pre-line; }
+.rodape { color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); padding-top: 16px; }
+.vazio { color: var(--muted); margin: 0; }
+button:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+@media (max-width: 520px) { .item { padding: 16px; } }
+</style>
+
+<header class="topo">
+  <div class="wrap">
+    <span class="eyebrow">Servent<span>IA</span> · administração</span>
+    <h1>Fila de <span class="ia">revisão</span></h1>
+    <div class="resumo" id="resumo">Carregando a fila…</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div id="status" class="aviso" hidden></div>
+    <div class="filtros">
+      <div class="seg" id="f-cat" role="group" aria-label="Tipo"></div>
+      <div class="seg" id="f-status" role="group" aria-label="Situação"></div>
+    </div>
+    <div class="lista" id="lista"></div>
+    <p class="rodape">
+      Cada decisão fica guardada aqui. Para levar ao repositório, diga ao Claude, numa sessão do Claude Code:
+      <b>“aplica as revisões do painel”</b>. Ele lê as decisões, corrige as questões num PR e marca cada uma como aplicada.
+      A fila é gerada do repositório por <code>scripts/revisao.py</code> e muda quando o Claude republica este painel.
+    </p>
+  </div>
+</main>
+
+<script>
+const CATS = [
+  ["pendencia", "Pendências", "Conferir e resolver a pendência"],
+  ["recursos", "Muito recorridas", "Explicação para questão polêmica"],
+  ["desatualizada", "Desatualizadas", "Lei mudou depois da prova"],
+  ["observacao", "Observações", "Notas que podem mudar a questão"],
+  ["lei", "Lei seca faltante", "Norma cobrada sem texto"],
+  ["gabarito", "Gabaritos", "Gabarito ainda não definitivo"],
+];
+const NOME_CAT = Object.fromEntries(CATS.map(([k, n]) => [k, n]));
+const SITUACOES = [["aberto", "A decidir"], ["decidido", "Decididos"], ["todos", "Todos"]];
+const ROTULO = { certo: "Está certo", corrigir: "Corrigir", ignorar: "Ignorado" };
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function mdInline(s) {
+  return String(s ?? "").split(/(`[^`\n]+`)/).map((p) => p.length > 2 && p.startsWith("`") && p.endsWith("`")
+    ? `<code>${esc(p.slice(1, -1))}</code>`
+    : esc(p).replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>").replace(/(?<!_)__(?!_)([^_]+?)__(?!_)/g, "<u>$1</u>")).join("").replace(/\n/g, "<br>");
+}
+const md = (s) => String(s ?? "").split(/\n[ \t]*\n/).filter((p) => p.trim()).map((p) => `<p>${mdInline(p.trim())}</p>`).join("");
+const docId = (id) => id.replace(/[^A-Za-z0-9_-]/g, (c) => "~" + c.charCodeAt(0).toString(16).padStart(2, "0"));
+const ls = { get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+             set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+const S = { dados: null, decisoes: {}, db: null, podeEscrever: false, rascunho: {}, cat: ls.get("rev-cat", "pendencia"), sit: ls.get("rev-sit", "aberto"), salvando: null };
+
+function status(msg, ruim) { const el = $("status"); el.hidden = !msg; el.className = "aviso" + (ruim ? " ruim" : ""); el.textContent = msg || ""; }
+const decisao = (it) => S.decisoes[docId(it.id)];
+const aberto = (it) => !decisao(it);
+
+function renderFiltros() {
+  const itens = S.dados?.itens || [];
+  const conta = (cat) => itens.filter((i) => (cat === "todas" || i.cat === cat) && aberto(i)).length;
+  const cats = [["todas", "Todas"], ...CATS.filter(([k]) => itens.some((i) => i.cat === k)).map(([k, n]) => [k, n])];
+  if (!cats.some(([k]) => k === S.cat)) S.cat = "todas";
+  $("f-cat").innerHTML = cats.map(([k, n]) => `<button type="button" data-cat="${k}" aria-pressed="${S.cat === k}">${esc(n)}<span class="n">${conta(k)}</span></button>`).join("");
+  $("f-status").innerHTML = SITUACOES.map(([k, n]) => `<button type="button" data-sit="${k}" aria-pressed="${S.sit === k}">${esc(n)}</button>`).join("");
+  const abertos = itens.filter(aberto).length, aplicadas = Object.values(S.decisoes).filter((d) => d.aplicada).length;
+  const quando = S.dados ? new Date(S.dados.gerado).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" }) : "";
+  $("resumo").innerHTML = `<span><b>${abertos}</b> a decidir</span><span><b>${itens.length - abertos}</b> decididos</span><span><b>${aplicadas}</b> aplicados no repositório</span><span>fila gerada em <b>${esc(quando)}</b></span>`;
+}
+
+function questaoHTML(it) {
+  const q = it.q; if (!q) return "";
+  const vf = q.vf || {}, ea = q.exp_alt || {};
+  const alts = Object.entries(q.alt || {}).map(([L, t]) => {
+    const card = vf[L] === true ? "verdadeiro" : vf[L] === false ? "falso" : vf[L] === null ? "fora do treino" : "";
+    return `<li class="${L === q.gab ? "gab" : ""}"><span class="l">${L}</span><span class="txt">${mdInline(t)}</span>
+      ${card || ea[L] ? `<span class="com">${card ? `<span class="vf">Treino: ${card}</span>${ea[L] ? " · " : ""}` : ""}${ea[L] ? mdInline(ea[L]) : ""}</span>` : ""}</li>`;
+  }).join("");
+  const texto = it.texto ? `<details class="bloco"><summary>Texto-base: ${esc(it.texto.titulo || "sem título")}</summary><div class="leitura" style="margin-top:8px">${md(it.texto.texto)}</div></details>` : "";
+  const arts = (it.artigos || []).map((a) => `<details class="bloco"><summary><code>${esc(a.disp)}</code>${a.texto ? "" : " · sem lei seca"}</summary>${a.texto ? `<div class="artigo" style="margin-top:8px">${esc(a.texto)}</div>` : ""}</details>`).join("");
+  const obs = (q.observacoes || []).length ? `<div class="caixa"><span class="eyebrow">Observações</span><div class="leitura">${q.observacoes.map((o) => `<p>${mdInline(o)}</p>`).join("")}</div></div>` : "";
+  const desat = q.desatualizada ? `<div class="caixa"><span class="eyebrow">Desatualizada</span><div class="leitura"><p>${mdInline(q.desatualizada)}</p></div></div>` : "";
+  return `<details class="bloco" ${it.cat === "pendencia" || it.cat === "recursos" ? "open" : ""}><summary>Questão completa · gabarito ${esc(q.gab)}${q.recursos ? ` · ${q.recursos} recursos` : ""}</summary>
+    <div class="questao">${texto}<div class="leitura">${md(q.enunciado)}</div>${q.imagens?.length ? `<p class="vazio">Tem figura (${esc(q.imagens.join(", "))}): veja no PDF da prova.</p>` : ""}
+    <ul class="alts">${alts}</ul>
+    ${q.exp ? `<div class="caixa"><span class="eyebrow">Explicação</span><div class="leitura">${md(q.exp)}</div></div>` : ""}
+    ${desat}${obs}${arts}
+    <p class="vazio" style="font-size:13px">Arquivo: <code>${esc(it.arquivo)}</code> · temas: ${esc((q.temas || []).join(", "))}</p></div></details>`;
+}
+
+function decisaoHTML(it) {
+  const d = decisao(it), id = docId(it.id), r = S.rascunho[id] || {};
+  if (d && !r.editando) {
+    const em = d.em ? new Date(d.em).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" }) : "";
+    return `<div class="decisao"><div class="salvo">Decisão: <b>${esc(ROTULO[d.status] || d.status)}</b> · ${esc(em)}${d.aplicada ? ` · aplicada no repositório${d.aplicada.pr ? ` (${esc(d.aplicada.pr)})` : ""}` : ""}
+      ${d.nota ? `<span class="nota">${esc(d.nota)}</span>` : ""}</div>
+      ${S.podeEscrever && !d.aplicada ? `<div class="acoes"><button type="button" class="btn" data-acao="editar" data-id="${id}">Mudar decisão</button></div>` : ""}</div>`;
+  }
+  if (!S.podeEscrever) return `<div class="decisao"><p class="vazio">${S.db ? "Só o dono do painel registra decisões." : "Abra este painel no claude.ai, com a sua conta, para registrar decisões."}</p></div>`;
+  const st = r.status || d?.status || "", nota = r.nota ?? d?.nota ?? "";
+  const precisaNota = st === "corrigir" && !nota.trim();
+  return `<div class="decisao">
+    <div class="acoes" role="group" aria-label="Decisão">
+      <button type="button" class="btn certo" data-acao="status" data-v="certo" data-id="${id}" aria-pressed="${st === "certo"}">Está certo</button>
+      <button type="button" class="btn corrigir" data-acao="status" data-v="corrigir" data-id="${id}" aria-pressed="${st === "corrigir"}">Corrigir</button>
+      <button type="button" class="btn ignorar" data-acao="status" data-v="ignorar" data-id="${id}" aria-pressed="${st === "ignorar"}">Ignorar</button>
+    </div>
+    <label class="eyebrow" for="nota-${id}">${st === "corrigir" ? "O que corrigir (obrigatório)" : "Nota (opcional)"}</label>
+    <textarea id="nota-${id}" data-nota="${id}" placeholder="${st === "corrigir" ? "Ex.: a alternativa A também está certa pelo art. 9º, §1º; anular o card A." : "Ex.: conferido no DOU de 26/11/2025."}">${esc(nota)}</textarea>
+    <div class="acoes"><button type="button" class="btn salvar" data-acao="salvar" data-id="${id}" ${!st || precisaNota || S.salvando === id ? "disabled" : ""}>${S.salvando === id ? "Salvando…" : "Salvar decisão"}</button>
+    ${d ? `<button type="button" class="btn" data-acao="cancelar" data-id="${id}">Cancelar</button>` : ""}</div></div>`;
+}
+
+function render() {
+  renderFiltros();
+  if (!S.dados) return;
+  const lista = S.dados.itens.filter((i) => (S.cat === "todas" || i.cat === S.cat)
+    && (S.sit === "todos" || (S.sit === "aberto" ? aberto(i) : !aberto(i))));
+  $("lista").innerHTML = lista.map((it) => {
+    const d = decisao(it);
+    const pill = d ? `<span class="pill ${d.aplicada ? "aplicada" : d.status}">${d.aplicada ? "aplicada" : esc(ROTULO[d.status] || d.status)}</span>` : `<span class="pill">a decidir</span>`;
+    return `<article class="item ${d ? "feito" : ""}" id="i-${docId(it.id)}">
+      <div class="item-topo"><span class="pill cat">${esc(NOME_CAT[it.cat] || it.cat)}</span><h2>${esc(it.titulo)}</h2>${pill}</div>
+      <p class="pergunta">${esc(it.pergunta)}</p>${it.detalhe ? `<p class="detalhe">${mdInline(it.detalhe)}</p>` : ""}
+      ${questaoHTML(it)}${decisaoHTML(it)}</article>`;
+  }).join("") || `<p class="vazio">${S.sit === "aberto" ? "Nada a decidir neste filtro." : "Nenhum item neste filtro."}</p>`;
+}
+
+function rerenderItem(id) {
+  const foco = document.activeElement?.dataset?.nota === id;
+  render(); if (foco) $("nota-" + id)?.focus();
+}
+
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.cat) { S.cat = b.dataset.cat; ls.set("rev-cat", S.cat); return render(); }
+  if (b.dataset.sit) { S.sit = b.dataset.sit; ls.set("rev-sit", S.sit); return render(); }
+  const id = b.dataset.id, acao = b.dataset.acao; if (!id || !acao) return;
+  const r = (S.rascunho[id] ||= {});
+  if (acao === "editar") { const d = S.decisoes[id]; Object.assign(r, { editando: true, status: d?.status, nota: d?.nota || "" }); return render(); }
+  if (acao === "cancelar") { delete S.rascunho[id]; return render(); }
+  if (acao === "status") { r.editando = true; r.status = b.dataset.v; r.nota = $("nota-" + id)?.value ?? r.nota; return rerenderItem(id); }
+  if (acao === "salvar") {
+    const it = S.dados.itens.find((i) => docId(i.id) === id);
+    const nota = ($("nota-" + id)?.value || "").trim();
+    if (!r.status || (r.status === "corrigir" && !nota)) return;
+    S.salvando = id; render();
+    try {
+      await S.db.collection("decisoes").doc(id).set({ item: it.id, cat: it.cat, titulo: it.titulo, status: r.status, nota, em: new Date().toISOString(), fila: S.dados.gerado });
+      delete S.rascunho[id]; status("");
+    } catch (err) { status("Não consegui salvar a decisão. Verifique a conexão e tente de novo; o texto continua no campo.", true); }
+    S.salvando = null; render();
+  }
+});
+document.addEventListener("input", (e) => { const id = e.target.dataset?.nota; if (!id) return;
+  const r = (S.rascunho[id] ||= {}); r.nota = e.target.value; r.editando = true;
+  const btn = document.querySelector(`button[data-acao="salvar"][data-id="${id}"]`);
+  if (btn) btn.disabled = !r.status || (r.status === "corrigir" && !r.nota.trim()); });
+
+async function boot() {
+  try {
+    const resp = await fetch("revisao.json");
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    S.dados = await resp.json();
+  } catch { status("Não consegui carregar a fila (revisao.json). Peça ao Claude para republicar o painel.", true); }
+  render();
+  const claude = window.claude;
+  if (!claude?.use) { status("Abra este painel no claude.ai para registrar decisões. Aqui dá só para ler.", false); return; }
+  const timer = setTimeout(() => { if (!S.db) status("O banco de decisões não respondeu. Recarregue a página.", true); }, 10000);
+  const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+  S.db = db;
+  if (!db) { clearTimeout(timer); status("Entre com a sua conta do claude.ai para ver e registrar decisões.", false); render(); return; }
+  S.podeEscrever = user ? await user.canEdit() : false;
+  db.collection("decisoes").onSnapshot((snap) => {
+    clearTimeout(timer);
+    S.decisoes = Object.fromEntries(snap.docs.map((d) => [d.id, d.data()]));
+    const foco = document.activeElement?.dataset?.nota;
+    render(); if (foco) $("nota-" + foco)?.focus();
+  }, () => { clearTimeout(timer); status("Não consegui ler as decisões salvas. Recarregue a página.", true); });
+}
+boot();
+</script>
