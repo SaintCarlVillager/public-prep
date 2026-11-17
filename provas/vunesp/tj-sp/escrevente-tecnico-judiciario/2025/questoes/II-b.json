@@ -1,0 +1,594 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#32",
+      "tipo": "me",
+      "numero": 32,
+      "enunciado": "A respeito das ações constitucionais, assinale a alternativa correta.",
+      "alt": {
+        "A": "O autor da ação popular, inexistente situação de comprovada má-fé, bem como os impetrantes de habeas data não estão sujeitos ao pagamento de custas processuais.",
+        "B": "Mandado de segurança coletivo pode ser proposto por entidade sindical ou partido político com representação na assembleia legislativa.",
+        "C": "São gratuitas as ações de mandado de segurança e habeas corpus.",
+        "D": "Ocorrendo ilegalidade ou abuso de poder por autoridade pública que viole a liberdade de locomoção, a ação cabível será o mandado de segurança.",
+        "E": "Na ação popular, salvo comprovada má-fé, tanto o autor popular como o réu estarão isentos do pagamento de custas processuais e ônus sucumbenciais."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.remedios"
+      ],
+      "dispositivos": [
+        "CF 5 LXXIII",
+        "CF 5 LXXVII",
+        "CF 5 LXX",
+        "CF 5 LXVIII"
+      ],
+      "exp": "O autor da ação popular fica, **salvo comprovada má-fé**, isento de custas e do ônus da sucumbência (`CF 5 LXXIII`), e são **gratuitas** as ações de habeas corpus e habeas data (`CF 5 LXXVII`). O mandado de segurança não é gratuito, e a isenção da ação popular é só do **autor**, não do réu. O MS coletivo cabe a partido com representação no **Congresso Nacional** (`CF 5 LXX`), e a liberdade de locomoção é protegida por **habeas corpus** (`CF 5 LXVIII`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O autor popular fica isento de custas e do ônus da sucumbência, **salvo comprovada má-fé** (`CF 5 LXXIII`), e são **gratuitas** as ações de habeas corpus e habeas data (`CF 5 LXXVII`).",
+        "B": "O mandado de segurança coletivo pode ser impetrado por partido político com representação no **Congresso Nacional**, não na assembleia legislativa (`CF 5 LXX a`); a entidade sindical também é legitimada (`CF 5 LXX b`).",
+        "C": "A Constituição declara gratuitas as ações de **habeas corpus e habeas data** (`CF 5 LXXVII`); o mandado de segurança não está entre elas.",
+        "D": "Contra ilegalidade ou abuso de poder que viole ou ameace a **liberdade de locomoção** cabe **habeas corpus** (`CF 5 LXVIII`); o mandado de segurança é residual e não ampara esse direito (`CF 5 LXIX`).",
+        "E": "A isenção de custas e do ônus da sucumbência, salvo comprovada má-fé, é só do **autor** da ação popular (`CF 5 LXXIII`); o réu vencido responde normalmente por eles."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#33",
+      "tipo": "me",
+      "numero": 33,
+      "enunciado": "Joaquim, integrante da carreira diplomática portuguesa, prestando serviço em Angola, foi casado em primeiras núpcias com a atriz portuguesa Catarina, tendo nascido a filha Josefina. Posteriormente, Joaquim se separou e casou-se com Rúbia, tenista e brasileira naturalizada, tendo nascido da união a filha Sandra. Josefina e Sandra nasceram em Angola quando apenas o genitor estava a serviço de Portugal.\n\nTendo interesse que as filhas sigam a carreira diplomática, mas pela República Federativa do Brasil, assinale a alternativa correta à luz das disposições da Constituição de 1988.",
+      "alt": {
+        "A": "Josefina pode se tornar brasileira naturalizada se comprovar idoneidade moral e vier a residir por um ano na República Federativa do Brasil, sendo permitido seguir a carreira diplomática brasileira.",
+        "B": "Josefina e Sandra não podem ser consideradas brasileiras natas, não sendo, assim, permitido seguir a carreira diplomática brasileira.",
+        "C": "Caso Sandra tenha sido registrada na repartição competente brasileira em Angola, será considerada brasileira naturalizada, podendo seguir a carreira diplomática.",
+        "D": "Sandra poderá seguir a carreira diplomática brasileira, se vier a residir no Brasil e optar, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.",
+        "E": "Josefina e Sandra podem seguir a carreira diplomática brasileira se adquirirem a nacionalidade brasileira e houver reciprocidade em favor dos brasileiros, exigida residência permanente no Brasil."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.nacionalidade"
+      ],
+      "dispositivos": [
+        "CF 12 I c",
+        "CF 12 §3º V",
+        "CF 12 II a",
+        "CF 12 §1º"
+      ],
+      "exp": "Sandra é filha de **mãe brasileira** (a naturalizada também é brasileira) nascida no estrangeiro: será **brasileira nata** se for registrada em repartição brasileira competente ou se vier a residir no Brasil e optar, depois da maioridade, pela nacionalidade brasileira (`CF 12 I c`). Como nata, pode seguir a **carreira diplomática**, privativa de brasileiro nato (`CF 12 §3º V`). Josefina, filha de pais portugueses, só pode se naturalizar (`CF 12 II a`) ou receber o tratamento do português com residência permanente (`CF 12 §1º`), e em nenhum dos casos pode ser diplomata; o registro de Sandra a torna nata, não naturalizada.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A naturalização com um ano de residência e idoneidade moral, prevista para originários de países de língua portuguesa (`CF 12 II a`), não abre a carreira diplomática, que é **privativa de brasileiro nato** (`CF 12 §3º V`).",
+        "B": "Sandra é filha de **mãe brasileira** (ainda que naturalizada) e pode ser **brasileira nata** pelo registro em repartição brasileira competente ou pela residência no Brasil seguida de opção (`CF 12 I c`); como nata, pode ser diplomata (`CF 12 §3º V`).",
+        "C": "O nascido no estrangeiro de mãe brasileira e registrado em repartição brasileira competente é **brasileiro nato**, não naturalizado (`CF 12 I c`).",
+        "D": "Nascida no estrangeiro de **mãe brasileira**, Sandra é brasileira nata se vier a residir no Brasil e **optar**, em qualquer tempo depois da maioridade, pela nacionalidade brasileira (`CF 12 I c`); como nata, pode seguir a carreira diplomática (`CF 12 §3º V`).",
+        "E": "A reciprocidade em favor de brasileiros, com residência permanente, dá ao **português** os direitos inerentes ao brasileiro, salvo os casos previstos na Constituição (`CF 12 §1º`); a carreira diplomática é **privativa de brasileiro nato** (`CF 12 §3º V`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#34",
+      "tipo": "me",
+      "numero": 34,
+      "enunciado": "O engenheiro Alípio foi admitido como servidor público concursado de autarquia estadual, tendo se efetivado.\n\nÉ correto afirmar, à luz do disposto na Constituição de 1988, que Alípio",
+      "alt": {
+        "A": "não estará sujeito a teto remuneratório mensal máximo por ser servidor público da administração indireta estadual.",
+        "B": "estará sujeito ao limite remuneratório mensal máximo pago a título de subsídio ao Governador do Estado.",
+        "C": "caso instituído pelo estado-membro, poderá aderir a plano de previdência complementar na modalidade benefício definido, observado o limite máximo previsto para o regime geral da previdência social.",
+        "D": "estará sujeito ao teto remuneratório mensal máximo pago a título de subsídio aos Desembargadores do Tribunal de Justiça Estadual.",
+        "E": "poderá ter seus proventos de aposentadoria do regime próprio de previdência superiores ao limite máximo fixado pelo Regime Geral de Previdência Social, observadas as normas constitucionais relativas ao regime de previdência complementar."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 37 XI",
+        "CF 37 §12",
+        "CF 40 §14",
+        "CF 40 §15"
+      ],
+      "exp": "O teto do `CF 37 XI` alcança os servidores da administração direta, **autárquica** e fundacional; nos Estados, no âmbito do Poder Executivo, o limite é o **subsídio mensal do Governador**. O subsídio dos Desembargadores é o teto do Judiciário (e do MP, Procuradores e Defensores), e só vale como limite único se o Estado o adotar por emenda à sua Constituição (`CF 37 §12`). A previdência complementar do servidor é oferecida na modalidade **contribuição definida** (`CF 40 §15`), e, instituída, os benefícios do regime próprio ficam limitados ao teto do RGPS (`CF 40 §14`).",
+      "observacoes": [
+        "A alternativa E ficou fora do Treino: com o regime de previdência complementar instituído, as aposentadorias do regime próprio ficam limitadas ao teto do RGPS (CF 40 §14), mas quem ingressou antes pode não ter aderido (CF 40 §16) e receber acima dele, de modo que a afirmação isolada é ambígua."
+      ],
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": null
+      },
+      "exp_alt": {
+        "A": "O teto remuneratório alcança os ocupantes de cargos da administração direta, **autárquica** e fundacional (`CF 37 XI`); ser servidor de autarquia não afasta o limite.",
+        "B": "Nos Estados, no âmbito do **Poder Executivo**, o limite remuneratório é o **subsídio mensal do Governador** (`CF 37 XI`), e ele alcança o servidor de autarquia estadual.",
+        "C": "A previdência complementar do servidor público é oferecida por meio de entidade que ofereça plano na modalidade **contribuição definida** (`CF 40 §15`), não benefício definido.",
+        "D": "O subsídio dos Desembargadores é o teto do **Poder Judiciário** (e do MP, Procuradores e Defensores); para o servidor do Executivo estadual o limite é o subsídio do **Governador** (`CF 37 XI`), salvo se o Estado adotar limite único por emenda à sua Constituição (`CF 37 §12`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#35",
+      "tipo": "me",
+      "numero": 35,
+      "enunciado": "João trabalhava como empregado da empresa Alfa em regime ininterrupto de revezamento, sendo filiado ao respectivo sindicato. Através de negociação coletiva firmada pelos sindicatos representativos das categorias, foi fixada jornada superior a seis horas por turno, bem como acordada redução salarial.\n\nTendo ocorrido a extinção do vínculo laboral recentemente, e pretendendo João ingressar com reclamação trabalhista para cobrança de diversas verbas em face da empresa, pode-se afirmar que a Constituição de 1988",
+      "alt": {
+        "A": "não permite negociação coletiva estabelecendo redução salarial, mas permite mediante negociação coletiva a fixação de jornada superior a seis horas por turno, dispondo João do prazo máximo de 05 anos, após a extinção do contrato de trabalho, para ingressar com reclamação trabalhista.",
+        "B": "permite negociação coletiva estabelecendo redução salarial e aumento da jornada de trabalho, e João terá direito de ação quanto aos créditos resultantes da relação de trabalho com prazo prescricional de 10 anos após a data de extinção do contrato de trabalho.",
+        "C": "permite negociação coletiva estabelecendo a redução salarial, mas não permite negociação para fixação de jornada superior a seis horas por turno, e João deverá ingressar com reclamação trabalhista no prazo máximo de 02 anos após a extinção do contrato de trabalho.",
+        "D": "não autoriza negociação coletiva estabelecendo jornada superior a seis horas por turno, devendo a empresa indenizá-lo pelas horas extraordinárias, dispondo João do prazo máximo de 02 anos após a extinção do contrato de trabalho para ingressar com reclamação trabalhista.",
+        "E": "permite negociação coletiva fixando jornada superior a seis horas por turno e também redução salarial mediante convenção ou acordo coletivo, e João poderá ingressar com reclamação trabalhista no prazo máximo de 02 anos após a extinção do contrato de trabalho para a cobrança de verbas trabalhistas."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.direitos-sociais"
+      ],
+      "dispositivos": [
+        "CF 7 VI",
+        "CF 7 XIV",
+        "CF 7 XXIX"
+      ],
+      "exp": "O salário é irredutível, **salvo o disposto em convenção ou acordo coletivo** (`CF 7 VI`), e a jornada de seis horas nos turnos ininterruptos de revezamento cede à **negociação coletiva** (`CF 7 XIV`). A ação sobre créditos trabalhistas prescreve em cinco anos, **até o limite de dois anos após a extinção do contrato** (`CF 7 XXIX`). Erram, portanto, as alternativas que vedam uma das negociações e as que falam em 5 ou 10 anos após a extinção.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A redução salarial é admitida por **convenção ou acordo coletivo** (`CF 7 VI`), e, extinto o contrato, a ação deve ser proposta em até **dois anos** (`CF 7 XXIX`), não cinco.",
+        "B": "As duas negociações são válidas (`CF 7 VI` e `CF 7 XIV`), mas a ação trabalhista prescreve em cinco anos, **até o limite de dois anos após a extinção do contrato** (`CF 7 XXIX`); não há prazo de dez anos.",
+        "C": "A jornada de seis horas nos turnos ininterruptos de revezamento vale **salvo negociação coletiva** (`CF 7 XIV`), que pode fixar jornada maior.",
+        "D": "A Constituição admite, por **negociação coletiva**, jornada superior a seis horas nos turnos ininterruptos de revezamento (`CF 7 XIV`), de modo que essas horas não são extraordinárias por si só.",
+        "E": "A redução salarial é possível por **convenção ou acordo coletivo** (`CF 7 VI`), a jornada dos turnos ininterruptos pode ser ampliada por **negociação coletiva** (`CF 7 XIV`), e a ação prescreve em cinco anos, até o limite de **dois anos após a extinção do contrato** (`CF 7 XXIX`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#36",
+      "tipo": "me",
+      "numero": 36,
+      "enunciado": "João, servidor público do Estado de São Paulo, é um atleta de destaque em sua modalidade esportiva. Ele recebeu um convite para participar de duas competições importantes: (1) os Jogos Sul-Americanos, que acontecerão na Colômbia, onde representará o Brasil, conforme requisição formal da Confederação Brasileira de sua modalidade; e (2) o torneio interestadual, em Minas Gerais, no qual a equipe do clube esportivo que irá representar, baseada em São Paulo, irá competir com chances reais de pódio. O clube esportivo fez a solicitação de seu afastamento para o segundo caso. Supondo que João buscou a devida autorização junto à autoridade competente, é correto afirmar, com base no Estatuto dos Funcionários Públicos Civis do Estado de São Paulo (Lei no 10.261/1968), que o afastamento de João para participar",
+      "alt": {
+        "A": "de ambas as competições será com prejuízo do vencimento ou remuneração, por se tratar de atividades esportivas não relacionadas diretamente às atribuições do cargo, independentemente de autorização da autoridade competente.",
+        "B": "dos Jogos Sul-Americanos será com prejuízo do vencimento ou remuneração, pois se trata de uma competição internacional.",
+        "C": "dos Jogos Sul-Americanos será sem prejuízo do vencimento ou remuneração, e o torneio interestadual de clubes será com prejuízo do vencimento ou remuneração, sempre mediante autorização do governador.",
+        "D": "dos Jogos Sul-Americanos será sem prejuízo do vencimento ou remuneração, e o torneio interestadual de clubes será igualmente sem prejuízo, em virtude da relevância esportiva.",
+        "E": "de ambas as competições será sem prejuízo do vencimento ou remuneração, desde que haja a devida autorização do governador."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.direitos"
+      ],
+      "dispositivos": [
+        "L10261 75",
+        "L10261 75 §2º I",
+        "L10261 75 §2º II"
+      ],
+      "exp": "O funcionário, **autorizado pelo Governador**, pode afastar-se para competições desportivas dentro ou fora do Estado (`L10261 75`). O afastamento é **sem prejuízo** do vencimento quando ele **representa o Brasil ou o Estado** em competição oficial (`L10261 75 §2º I`), como nos Jogos Sul-Americanos, e **com prejuízo** em quaisquer outros casos (`L10261 75 §2º II`), como no torneio do clube. Por isso erram as alternativas que tratam as duas competições do mesmo modo ou dispensam a autorização.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O afastamento para competições desportivas depende de **autorização do Governador** (`L10261 75`) e é **sem prejuízo** do vencimento quando o funcionário representa o Brasil ou o Estado em competição oficial (`L10261 75 §2º I`).",
+        "B": "Ao representar o **Brasil** em competição desportiva oficial, o funcionário se afasta **sem prejuízo** do vencimento ou remuneração (`L10261 75 §2º I`); ser internacional não gera desconto.",
+        "C": "Representando o **Brasil** em competição oficial, o afastamento é sem prejuízo do vencimento (`L10261 75 §2º I`); pelo clube, é **com prejuízo**, por ser \"qualquer outro caso\" (`L10261 75 §2º II`), e sempre com **autorização do Governador** (`L10261 75`).",
+        "D": "Só é sem prejuízo do vencimento o afastamento para representar o **Brasil ou o Estado** em competição oficial (`L10261 75 §2º I`); competir por clube é \"qualquer outro caso\", **com prejuízo** (`L10261 75 §2º II`).",
+        "E": "A competição por clube não é representação do Brasil ou do Estado, por isso o afastamento é **com prejuízo** do vencimento (`L10261 75 §2º II`), ainda que autorizado pelo Governador."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#37",
+      "tipo": "me",
+      "numero": 37,
+      "enunciado": "Maria, recém-aprovada em concurso público para o cargo civil no Governo do Estado de São Paulo, tomou posse em 15 de agosto de 2025. No entanto, em 10 de setembro de 2025, Maria sofreu um acidente doméstico e necessitou de repouso absoluto, impossibilitando sua entrada em exercício no prazo. No dia 12 de setembro de 2025, sua advogada protocolou um requerimento solicitando a prorrogação do prazo para início do exercício por mais 90 dias. Não houve qualquer pedido de licença por motivo de saúde por parte de Maria. A autoridade competente, avaliando o caso, concedeu a prorrogação solicitada para o início do exercício, porém, apenas até 14 de outubro de 2025. De acordo com o Estatuto dos Funcionários Públicos Civis do Estado de São Paulo (Lei no 10.261/1968) e com a situação hipotética descrita, é correto afirmar que",
+      "alt": {
+        "A": "a autoridade competente agiu corretamente ao fixar o prazo para início do exercício em 14 de outubro, posto que o prazo regular é de 45 dias, postergável por mais 15.",
+        "B": "se, porventura, Maria não entrar em exercício dentro do prazo estabelecido, será considerada sem efeito a sua nomeação, sendo dispensado o ato de exoneração.",
+        "C": "se, porventura, Maria não entrar em exercício dentro do prazo estabelecido será exonerada do cargo.",
+        "D": "a autoridade competente agiu errado ao fixar o prazo limite, posto que a legislação não fixa prazo máximo para a prorrogação do início do exercício em cargo público.",
+        "E": "se, porventura, Maria não entrar em exercício dentro do prazo estabelecido nada ocorrerá, posto que o afastamento de Maria se deve por questão de saúde."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.provimento"
+      ],
+      "dispositivos": [
+        "L10261 60",
+        "L10261 60 §1º",
+        "L10261 60 §4º",
+        "L10261 86 §1º",
+        "L10261 52 §3º"
+      ],
+      "exp": "O exercício deve começar em **30 dias** da posse, prorrogáveis por mais **30**, a requerimento e a juízo da autoridade (`L10261 60` e `§1º`): da posse em 15/08 o prazo ia a 14/09 e, prorrogado, a **14/10**, data fixada corretamente. Quem não entra em exercício no prazo **será exonerado** (`L10261 60 §4º`; `L10261 86 §1º` item 3), sem ressalva para o problema de saúde, já que não houve licença. Tornar sem efeito o ato de provimento é a consequência de não tomar **posse** no prazo (`L10261 52 §3º`), e o prazo de 45 + 15 dias não existe no Estatuto.",
+      "observacoes": [
+        "Contagem: posse em 15/08/2025 + 30 dias = 14/09/2025; prorrogação de 30 dias = 14/10/2025, data fixada pela autoridade."
+      ],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O prazo para entrar em exercício é de **30 dias** da posse, prorrogável por mais **30** a juízo da autoridade (`L10261 60` e `§1º`); não há prazo de 45 dias postergável por 15.",
+        "B": "Tornar **sem efeito** o ato de provimento é a consequência de não tomar **posse** no prazo (`L10261 52 §3º`); quem já tomou posse e não entra em exercício no prazo **é exonerado** (`L10261 60 §4º`).",
+        "C": "O funcionário que não entrar em exercício dentro do prazo **será exonerado** (`L10261 60 §4º`); é uma das hipóteses de exoneração do Estatuto (`L10261 86 §1º`, item 3).",
+        "D": "O Estatuto limita a prorrogação do prazo para início do exercício a **30 dias** (`L10261 60 §1º`), somados aos 30 dias contados da posse (`L10261 60`).",
+        "E": "Quem não entra em exercício no prazo **será exonerado** (`L10261 60 §4º`); a lei não abre exceção para problema de saúde sem licença concedida."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#38",
+      "tipo": "me",
+      "numero": 38,
+      "enunciado": "De acordo com a Lei no 10.261/1968 (Estatuto dos Funcionários Públicos Civis do Estado de São Paulo), a reintegração de servidor público estadual é",
+      "alt": {
+        "A": "o reingresso no serviço público, decorrente da decisão judicial passada em julgado, com ressarcimento de prejuízos resultantes do afastamento.",
+        "B": "feita para cargo do mesmo padrão de vencimento ou de igual remuneração, ressalvados os casos de reintegração a pedido.",
+        "C": "feita para cargo do mesmo padrão de vencimento ou superior, ainda que se trate de reintegração a pedido.",
+        "D": "considerada ato privativo do governador do Estado de São Paulo, após análise e parecer conclusivo do procurador-geral do Estado.",
+        "E": "o reingresso no serviço público, decorrente da decisão administrativa transitada em julgado, com ou sem ressarcimento de prejuízos resultantes do afastamento."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.provimento"
+      ],
+      "dispositivos": [
+        "L10261 30",
+        "L10261 31",
+        "L10261 32"
+      ],
+      "exp": "A alternativa A reproduz `L10261 30`: reintegração é o reingresso decorrente de **decisão judicial passada em julgado**, **com ressarcimento** dos prejuízos do afastamento. Ela se faz no **cargo anteriormente ocupado** ou no cargo resultante de sua transformação (`L10261 31`), sem falar em padrão de vencimento nem em reintegração \"a pedido\". Transitada em julgado a sentença, expede-se o decreto em até 30 dias (`L10261 32`); não há exigência de parecer do Procurador-Geral nem reintegração por decisão administrativa sem ressarcimento.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É a definição de `L10261 30`: o reingresso no serviço público decorrente de **decisão judicial passada em julgado**, **com ressarcimento** dos prejuízos resultantes do afastamento.",
+        "B": "A reintegração é feita no **cargo anteriormente ocupado** ou, se transformado, no cargo resultante (`L10261 31`); o Estatuto não prevê reintegração \"a pedido\", pois ela decorre de decisão judicial (`L10261 30`).",
+        "C": "A reintegração é feita no **cargo anteriormente ocupado** ou no resultante de sua transformação (`L10261 31`), não em cargo de padrão superior, e decorre de **decisão judicial**, não de pedido (`L10261 30`).",
+        "D": "O Estatuto apenas manda expedir o decreto de reintegração em até **30 dias** do trânsito em julgado da sentença (`L10261 32`); não exige análise nem parecer do Procurador-Geral do Estado.",
+        "E": "A reintegração decorre de **decisão judicial** passada em julgado e se dá sempre **com ressarcimento** dos prejuízos do afastamento (`L10261 30`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#39",
+      "tipo": "me",
+      "numero": 39,
+      "enunciado": "A empresa Construções Rápidas Ltda., uma construtora de médio porte com atuação predominante em projetos de infraestrutura básica em pequenos municípios do interior, foi processada por ato de improbidade administrativa, na modalidade de lesão ao erário, em razão de superfaturamento comprovado em contrato de pavimentação de vias urbanas com a Prefeitura Municipal de Y. Auditoria do Tribunal de Contas competente confirmou o dano ao patrimônio público. Durante a fase de fixação das sanções, a defesa da Construções Rápidas Ltda. demonstrou que a empresa é a principal empregadora da cidade, gerando centenas de postos de trabalho diretos e indiretos, e que sua falência, decorrente de uma sanção excessivamente severa, causaria um grave impacto social e econômico no município, com o fechamento de postos de trabalho, a interrupção de projetos em andamento e a perda de arrecadação de impostos. Com base na situação hipotética e nas disposições da Lei no 8.429/1992 (Lei de Improbidade Administrativa), assinale a alternativa correta.",
+      "alt": {
+        "A": "A manutenção das atividades da pessoa jurídica é um critério a ser considerado na aplicação das sanções, mas apenas se o dano ao erário for de pequena monta e não houver dolo comprovado.",
+        "B": "A Lei de Improbidade Administrativa não permite que o juiz leve em consideração os efeitos econômicos e sociais na aplicação das sanções à pessoa jurídica, devendo focar na reparação integral do dano ao erário.",
+        "C": "A possibilidade de consideração pelo juiz dos efeitos econômicos e sociais das sanções sobre pessoas jurídicas apenadas nos termos da Lei de Improbidade Administrativa aplica-se exclusivamente às entidades sem fins lucrativos.",
+        "D": "Na fixação das sanções à empresa Construções Rápidas Ltda., o juiz deverá considerar os efeitos econômicos e sociais das penalidades, buscando viabilizar a manutenção das atividades da empresa, mesmo diante do superfaturamento.",
+        "E": "A preocupação com os efeitos econômicos e sociais das sanções é um critério que só pode ser invocado pela defesa da pessoa jurídica em fase recursal, após a fixação da pena em primeira instância."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.improbidade.sancoes-processo",
+        "administrativo.improbidade.dano-erario"
+      ],
+      "dispositivos": [
+        "L8429 12 §3º",
+        "L8429 10"
+      ],
+      "exp": "Na responsabilização da pessoa jurídica, **deverão ser considerados os efeitos econômicos e sociais** das sanções, de modo a **viabilizar a manutenção de suas atividades** (`L8429 12 §3º`). A regra vale para qualquer pessoa jurídica condenada, inclusive pela lesão ao erário do `L8429 10`, e é aplicada pelo juiz na própria dosimetria. A lei não a restringe a dano de pequena monta, a entidades sem fins lucrativos nem à fase recursal.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Lei de Improbidade manda considerar os **efeitos econômicos e sociais** das sanções à pessoa jurídica para viabilizar a manutenção de suas atividades (`L8429 12 §3º`), sem limitar a regra a dano de pequena monta ou à ausência de dolo.",
+        "B": "Na responsabilização da pessoa jurídica, **deverão ser considerados** os efeitos econômicos e sociais das sanções, de modo a viabilizar a manutenção de suas atividades (`L8429 12 §3º`).",
+        "C": "O dever de considerar os **efeitos econômicos e sociais** das sanções vale para a **pessoa jurídica** responsabilizada em geral (`L8429 12 §3º`), sem distinção entre entidades com ou sem fins lucrativos.",
+        "D": "Na responsabilização da pessoa jurídica, o juiz **deverá considerar os efeitos econômicos e sociais** das sanções, de modo a **viabilizar a manutenção de suas atividades** (`L8429 12 §3º`), mesmo condenada por lesão ao erário (`L8429 10`).",
+        "E": "Os efeitos econômicos e sociais das sanções devem ser considerados na própria **aplicação das sanções** à pessoa jurídica (`L8429 12 §3º`), não só em grau de recurso."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#40",
+      "tipo": "me",
+      "numero": 40,
+      "enunciado": "A Organização da Sociedade Civil Esperança Viva, pessoa jurídica de direito privado sem fins lucrativos, celebrou com a Prefeitura Municipal de X o instrumento jurídico apropriado para a gestão de um projeto social de atendimento a crianças e adolescentes em situação de vulnerabilidade, utilizando integralmente recursos provenientes do erário público municipal. Durante a execução do projeto, verificou-se que o Sr. João da Silva, presidente da Esperança Viva, em conluio com a Sra. Maria Souza, servidora pública municipal responsável pela fiscalização do termo de parceria, desviou parte dos recursos repassados pela prefeitura para fins pessoais, por meio da apresentação de notas fiscais falsas relativas a serviços nunca prestados. Tal conduta gerou um prejuízo significativo aos cofres públicos e comprometeu o atendimento às crianças e aos adolescentes beneficiados pelo projeto. Com base na situação hipotética e nas disposições da Lei no 8.429/1992 (Lei de Improbidade Administrativa), assinale a alternativa correta.",
+      "alt": {
+        "A": "A Sra. Maria Souza é a única, no caso, que pode ser responsabilizada por ato de improbidade administrativa, pois a lei não alcança instituições sem fins lucrativos.",
+        "B": "O Sr. João da Silva, em razão de celebrar instrumento jurídico com a Administração e utilizar recursos de origem pública, sujeita-se às sanções da Lei de Improbidade Administrativa.",
+        "C": "A conduta do Sr. João da Silva configura meramente um ilícito civil, não estando abrangida pelas disposições da Lei de Improbidade Administrativa, que se restringe a atos dolosos praticados especificamente por agentes públicos diretos e equiparados.",
+        "D": "A Lei de Improbidade Administrativa não se aplica ao Sr. João da Silva, por não ser este considerado como agente público nos termos desta Lei.",
+        "E": "Somente a Organização da Sociedade Civil Esperança Viva pode ser responsabilizada, por ser a entidade que celebrou o instrumento jurídico, não podendo haver automática desconsideração da personalidade jurídica."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.improbidade",
+        "administrativo.improbidade.dano-erario"
+      ],
+      "dispositivos": [
+        "L8429 2 p.ú.",
+        "L8429 3",
+        "L8429 3 §1º",
+        "L8429 1 §7º"
+      ],
+      "exp": "No que se refere a **recursos de origem pública**, sujeita-se às sanções da lei o **particular** que celebra com a Administração convênio, contrato de repasse, contrato de gestão, **termo de parceria** ou ajuste equivalente (`L8429 2 p.ú.`). Além disso, a lei alcança quem, mesmo não sendo agente público, **induza ou concorra dolosamente** para o ato (`L8429 3`), e o dirigente da pessoa jurídica responde quando houver **participação e benefícios diretos** (`L8429 3 §1º`), como o presidente que desviou os recursos. A entidade privada custeada pelo erário também é protegida pela lei (`L8429 1 §7º`), de modo que nem Maria é a única responsável nem só a entidade responde.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei alcança o **particular** que celebra termo de parceria ou ajuste com a Administração quanto a **recursos de origem pública** (`L8429 2 p.ú.`) e quem concorre dolosamente para o ato (`L8429 3`); entidades sem fins lucrativos não ficam de fora.",
+        "B": "No que se refere a **recursos de origem pública**, sujeita-se às sanções da Lei de Improbidade o **particular** que celebra com a Administração convênio, **termo de parceria** ou ajuste equivalente (`L8429 2 p.ú.`).",
+        "C": "Desviar dolosamente, com notas falsas, recursos públicos repassados por termo de parceria é improbidade também para o **particular**, que se sujeita à lei quando celebra ajuste com a Administração (`L8429 2 p.ú.`) ou **concorre dolosamente** com o agente público (`L8429 3`).",
+        "D": "Mesmo não sendo agente público, o particular que celebra ajuste com a Administração envolvendo **recursos de origem pública** (`L8429 2 p.ú.`) ou que **concorre dolosamente** para o ato (`L8429 3`) sujeita-se à Lei de Improbidade.",
+        "E": "O dirigente da pessoa jurídica responde pessoalmente quando houver **participação e benefícios diretos** no ato (`L8429 3 §1º`), como no desvio feito pelo próprio presidente; não é preciso desconsiderar a personalidade jurídica."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#41",
+      "tipo": "me",
+      "numero": 41,
+      "enunciado": "João é servidor público municipal concursado e no momento ocupa a função de secretário Municipal de Obras e Serviços Públicos de uma pequena cidade. Aproveitando-se de sua posição, João solicitou e recebeu de um empresário local, que frequentemente participava das licitações do município, um “presente” de grande valor, a título de “ajuda de custo” para uma viagem particular que faria com sua família. Em troca, João agilizou e facilitou a aprovação de projetos do referido empresário na prefeitura, sem seguir os trâmites regulares, e inclusive “fechou os olhos” para algumas irregularidades que deveriam ser fiscalizadas por sua secretaria, garantindo que a empresa do empresário fosse sempre beneficiada em futuros contratos. Com base nesta situação hipotética, é correto afirmar que",
+      "alt": {
+        "A": "João está sujeito, entre outras sanções, à perda dos bens ou valores acrescidos ilicitamente ao patrimônio, perda da função pública, suspensão dos direitos políticos por até 14 anos, pagamento de multa civil equivalente ao valor do acréscimo patrimonial.",
+        "B": "a simples demonstração de recebimento, por João, de vantagem oriunda de pessoa com interesse em decisão da Secretaria de Obras e Serviços Públicos é razão suficiente para a condenação por improbidade, sendo desnecessária a demonstração da conexão entre a vantagem recebida e a expectativa da prática de ato ilegal.",
+        "C": "ainda que a conduta de João possa, em tese, figurar como ato de improbidade que importa violação de princípio da Administração Pública, como agente político, não está João sujeito à Lei de Improbidade Administrativa (Lei no 8.429/1992), mas sim à lei de crimes de responsabilidade dos prefeitos.",
+        "D": "João não está sujeito a sanções com base na Lei de Improbidade Administrativa (Lei no 8.429/1992), pois as condutas descritas não se amoldam perfeitamente à tipologia fixada nesta lei, a qual exige correspondência direta entre a conduta descrita e a praticada para que se possa falar em improbidade, considerando-se o princípio da legalidade estrita.",
+        "E": "eventual não apresentação de ação civil por improbidade administrativa pelo Ministério Público, após análise em inquérito civil especialmente aberto para a apuração das condutas descritas no enunciado, tem como efeito o bloqueio da aplicação, pela própria Administração, de sanções disciplinares a João."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.improbidade.enriquecimento",
+        "administrativo.improbidade.sancoes-processo"
+      ],
+      "dispositivos": [
+        "L8429 9 I",
+        "L8429 12 I",
+        "L8429 2",
+        "L8429 1 §2º",
+        "L8429 12"
+      ],
+      "exp": "Receber vantagem econômica de quem tem interesse que pode ser atingido pelas atribuições do agente é **enriquecimento ilícito** (`L8429 9 I`), punido com **perda dos bens acrescidos**, **perda da função**, **suspensão dos direitos políticos até 14 anos**, **multa civil equivalente ao acréscimo patrimonial** e proibição de contratar (`L8429 12 I`). O secretário municipal, agente político, é agente público para a lei (`L8429 2`), e a conduta se amolda ao tipo do art. 9º. As sanções da lei aplicam-se independentemente das sanções administrativas (`L8429 12`), de modo que o arquivamento pelo MP não impede a punição disciplinar. A alternativa B erra ao dispensar o elo entre a vantagem e a atuação funcional, ignorando que a improbidade exige **dolo** (`L8429 1 §2º`).",
+      "observacoes": [
+        "A alternativa B ficou fora do Treino: a dispensa do vínculo entre a vantagem e a atuação funcional é ponto de interpretação do art. 9º, I, à luz da exigência de dolo (art. 1º, §§1º a 3º), e a afirmação isolada não tem resposta segura só pelo texto da lei."
+      ],
+      "vf": {
+        "A": true,
+        "B": null,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Receber vantagem de quem tem interesse atingível pelas atribuições do agente é enriquecimento ilícito (`L8429 9 I`), punido com **perda dos bens acrescidos**, perda da função, **suspensão dos direitos políticos até 14 anos** e **multa civil equivalente ao acréscimo patrimonial** (`L8429 12 I`).",
+        "C": "Agentes políticos, como o secretário municipal, são **agentes públicos** para a Lei de Improbidade (`L8429 2`); a eventual responsabilidade política não os exclui das sanções da lei.",
+        "D": "Solicitar e receber vantagem econômica de quem tem interesse que pode ser atingido pelas atribuições do agente está descrito expressamente como **enriquecimento ilícito** (`L8429 9 I`), sujeito às sanções de `L8429 12 I`.",
+        "E": "As sanções da Lei de Improbidade aplicam-se **independentemente** das sanções penais, civis e administrativas (`L8429 12`); a decisão do MP de não propor a ação não impede a punição disciplinar pela Administração."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#42",
+      "tipo": "me",
+      "numero": 42,
+      "enunciado": "Considere que o juiz diretor realizou reunião para informar os servidores da Comarca sobre a implantação do sistema eproc. A ideia era reforçar a importância de que todos os servidores conheçam as condições de funcionamento do sistema e consigam orientar partes e advogados sobre os passos a serem seguidos para o protocolo correto de petições. Logo após a divulgação do cronograma de implantação, Fabiana, escrevente judiciária, foi designada para atender o público externo e esclarecer dúvidas sobre o assunto.\n\nCom base na Resolução no 963/2025, Fabiana poderá afirmar corretamente que",
+      "alt": {
+        "A": "o protocolo de petição em sistema processual equivocado não produzirá prejuízo às partes, pois houve o direcionamento do ato ao Poder Judiciário; portanto, caso comprovado o equívoco, a Secretaria da Vara deve intimar o representante processual para que regularize o ato, no prazo de 05 (cinco) dias.",
+        "B": "as ações poderão, na fase de implantação do sistema, ser propostas no eproc e no esaj, pelo prazo de 60 (sessenta) dias, findo o qual somente será admitido o uso do sistema eproc.",
+        "C": "os processos com tramitação no esaj serão migrados para o eproc, devendo as partes promover a transmissão dos arquivos do processo para o novo sistema, de acordo com as condições previstas na Resolução.",
+        "D": "o cumprimento definitivo de sentença oriundo de processo que tramitou no sistema legado deverá ser iniciado no sistema eproc, mediante o protocolo de petição inicial autônoma e juntada de cópia integral do processo de conhecimento.",
+        "E": "os processos ajuizados antes da implantação do sistema eproc, bem como os recursos, incidentes e processos dependentes ou conexos, continuarão tramitando no sistema legado até o seu encerramento, ressalvada a hipótese de migração."
+      },
+      "gab": "E",
+      "temas": [
+        "legislacao-especial.eproc"
+      ],
+      "dispositivos": [
+        "TJSP-R963 11",
+        "TJSP-R963 11 §2º",
+        "TJSP-R963 10",
+        "TJSP-R963 12",
+        "TJSP-R963 14"
+      ],
+      "exp": "A alternativa E reproduz `TJSP-R963 11`: os processos anteriores à implantação, com seus recursos, incidentes e processos dependentes ou conexos, **continuam no sistema legado até o encerramento**, ressalvada a migração. Implantado o eproc numa competência, novos processos só entram **exclusivamente** por ele (`TJSP-R963 10`), sem período de convivência com o esaj. A identificação do sistema correto compete **exclusivamente ao peticionante**, sob pena de o ato não produzir efeitos (`TJSP-R963 14`); a migração segue ato conjunto da Presidência e da Corregedoria (`TJSP-R963 12`), não providência das partes; e o cumprimento de sentença de processo do legado começa **no próprio legado** (`TJSP-R963 11 §2º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A identificação do sistema processual correto compete **exclusivamente ao peticionante**, sob pena de **não produção dos efeitos** jurídicos do ato (`TJSP-R963 14`); a resolução não prevê intimação para regularizar.",
+        "B": "Implantado o eproc numa competência de uma unidade, o ajuizamento de novos processos é admitido **exclusivamente** por meio do eproc (`TJSP-R963 10`); não há prazo de convivência com o esaj.",
+        "C": "A migração de processos do sistema legado para o eproc segue os procedimentos de **ato conjunto da Presidência e da Corregedoria** (`TJSP-R963 12`); não cabe às partes transmitir os arquivos.",
+        "D": "O cumprimento definitivo de sentença oriundo de processo do sistema legado deve ser iniciado **nesse mesmo sistema**, até que o eproc tenha funcionalidade específica (`TJSP-R963 11 §2º`).",
+        "E": "Os processos ajuizados antes da implantação do eproc, com seus recursos, incidentes e processos dependentes ou conexos, **continuam no sistema legado até o encerramento**, ressalvada a **migração** (`TJSP-R963 11`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#43",
+      "tipo": "me",
+      "numero": 43,
+      "enunciado": "Felipe é escrevente técnico judiciário e tem o interesse de desempenhar as suas atividades no regime de teletrabalho. Por estar no exercício do cargo há dois anos (estágio probatório) e lotado no gabinete da magistrada titular da Vara, ele tem dúvidas sobre a real possibilidade de ser enquadrado no regime, motivo pelo qual procura sua colega de trabalho, Fernanda, para sanar dúvidas sobre o assunto.\n\nCom base na situação hipotética e no disposto na Resolução no 850/2021, Fernanda poderá afirmar corretamente que",
+      "alt": {
+        "A": "Felipe, após enquadrado no teletrabalho, somente poderá trabalhar no regime presencial caso autorizado pela juíza titular da Vara.",
+        "B": "ele não pode ser enquadrado no regime, por estar em estágio probatório.",
+        "C": "o colega, caso passe ao regime de teletrabalho, perderá o auxílio-transporte relativo ao dia em teletrabalho, mas não o auxílio-alimentação.",
+        "D": "Felipe poderá ser enquadrado no teletrabalho, desde que menos de 50% do quadro de servidores da unidade esteja em trabalho remoto.",
+        "E": "o servidor, em regime de teletrabalho, tem o direito ao auxílio tecnológico, a ser utilizado na aquisição dos bens e serviços necessários ao exercício de suas atividades funcionais em ambiente remoto."
+      },
+      "gab": "C",
+      "temas": [
+        "legislacao-especial.teletrabalho"
+      ],
+      "dispositivos": [
+        "TJSP-R850 3",
+        "TJSP-R850 8 §2º",
+        "TJSP-R850 11 VI",
+        "TJSP-R850 9 IV",
+        "TJSP-R850 19 I",
+        "TJSP-R850 5",
+        "TJSP-R850 20"
+      ],
+      "exp": "O teletrabalho assegura os mesmos direitos do regime presencial, **inclusive o auxílio-alimentação**, **exceto o auxílio-transporte** (`TJSP-R850 3`; `TJSP-R850 8 §2º`). A vedação alcança só quem está no **primeiro ano** do estágio probatório (`TJSP-R850 11 VI`), e Felipe já tem dois anos; nos **gabinetes**, o número de servidores em teletrabalho é definido pelo magistrado (`TJSP-R850 9 IV`), sem o limite de 50% das unidades de primeiro grau. O servidor custeia seus equipamentos e o Tribunal não arca com custo algum (`TJSP-R850 5`; `TJSP-R850 20`), e ele pode deixar o teletrabalho a qualquer tempo, a pedido (`TJSP-R850 19 I`).",
+      "observacoes": [
+        "Texto da Resolução 850/2021 conferido na compilação de 25/04/2022 (com a Resolução 864/2022) em leis/TJSP-R850.json; não foi possível verificar alterações posteriores até a data da prova."
+      ],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O servidor pode ser desligado do teletrabalho **a qualquer tempo, por pedido pessoal** (`TJSP-R850 19 I`), voltando ao regime presencial; não depende de autorização do magistrado.",
+        "B": "A vedação ao teletrabalho alcança só quem está no **primeiro ano** do estágio probatório (`TJSP-R850 11 VI`); depois dele, o servidor em estágio probatório pode ser enquadrado.",
+        "C": "O dia em teletrabalho vale para todos os fins, **incluído o auxílio-alimentação** e **excluído o auxílio-transporte** (`TJSP-R850 8 §2º`; `TJSP-R850 3`).",
+        "D": "Nos **gabinetes**, o número de servidores em teletrabalho é definido pelo **juiz ou desembargador** (`TJSP-R850 9 IV`); o limite de 50% vale para as demais unidades de primeiro grau (`TJSP-R850 9 III`).",
+        "E": "O servidor em teletrabalho providencia **às suas expensas** os equipamentos e serviços necessários (`TJSP-R850 5`), e o Tribunal **não arca com nenhum custo** na aquisição de bens ou serviços (`TJSP-R850 20`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#44",
+      "tipo": "me",
+      "numero": 44,
+      "enunciado": "Tânia é escrevente judiciária e tem a intenção de se tornar chefe de seção judiciária.\n\nCom base nessa informação e no disposto na Lei Complementar no 1.111/2010, é correto afirmar:",
+      "alt": {
+        "A": "Tânia deve ter dez anos de carreira, formação em Direito, Economia ou Administração e não ter sofrido penalidade disciplinar nos últimos cinco anos para ser nomeada.",
+        "B": "para ser nomeada ao cargo, Tânia deve ser indicada pelo juiz diretor do foro.",
+        "C": "Tânia não pode ocupar o cargo, por se tratar de função reservada a magistrados.",
+        "D": "para concorrer ao cargo, Tânia deve participar de processo seletivo promovido pelo Comitê de Recursos Humanos, a ser composto de entrevista com os candidatos e avaliação escrita.",
+        "E": "Tânia deve ter exercido anteriormente cargos dessa natureza, ainda que em substituição, ou comprovar experiência adequada, de acordo com critérios estabelecidos pelo Comitê de Recursos Humanos para ser nomeada."
+      },
+      "gab": "E",
+      "temas": [
+        "legislacao-especial.carreira-tjsp"
+      ],
+      "dispositivos": [
+        "LC1111 31",
+        "LC1111 30 I",
+        "LC1111 32",
+        "LC1111 33"
+      ],
+      "exp": "A alternativa E reproduz `LC1111 31`: os candidatos a cargos em comissão de chefia devem ter **exercido anteriormente cargos dessa natureza, ainda que em substituição**, ou **comprovar experiência adequada**, segundo critérios do **Comitê de Recursos Humanos**. O cargo de Chefe de Seção Judiciário é reservado, **em sua totalidade**, a servidores efetivos do Quadro do TJSP (`LC1111 30 I`), não a magistrados. Os demais requisitos são os de `LC1111 32` (declaração de interesse, habilitação legal, avaliações de desempenho positivas e cursos), e o Acesso é processado pela Secretaria de Recursos Humanos (`LC1111 33`); a lei não fala em dez anos de carreira, indicação do juiz diretor, entrevista ou prova escrita.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A lei exige experiência anterior ou adequada (`LC1111 31`), declaração de interesse, **habilitação legal**, **avaliações de desempenho positivas** nos três últimos processos e cursos (`LC1111 32`); não fixa dez anos de carreira nem formação em áreas específicas.",
+        "B": "A lei não condiciona o provimento à indicação do juiz diretor; exige **experiência** anterior ou adequada (`LC1111 31`) e os requisitos de qualificação de `LC1111 32`.",
+        "C": "Os cargos de Chefe de Seção Judiciário são reservados, **em sua totalidade**, a **servidores titulares de cargos efetivos** do Quadro do Tribunal (`LC1111 30 I`), não a magistrados.",
+        "D": "O Acesso é processado pela **Secretaria de Recursos Humanos** (`LC1111 33`), e o Comitê de Recursos Humanos só fixa os critérios de **experiência adequada** (`LC1111 31`); a lei não prevê entrevista nem avaliação escrita.",
+        "E": "Os candidatos a cargos em comissão de chefia devem ter **exercido anteriormente cargos dessa natureza, ainda que em substituição**, ou comprovar **experiência adequada**, segundo critérios do Comitê de Recursos Humanos (`LC1111 31`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "Em relação às normas relacionadas a sessões, reuniões, audiências, pauta e ordem dos trabalhos, previstas no Regimento Interno do Tribunal de Justiça de São Paulo, assinale a alternativa correta.",
+      "alt": {
+        "A": "Nenhum feito será julgado na ausência do relator, ainda que já tenha proferido voto, salvo se, iniciado o julgamento, vier ele a se afastar, computando-se os votos proferidos.",
+        "B": "A ata da sessão de julgamento mencionará a data e a hora de início e de encerramento, quem presidiu os trabalhos, os nomes, pela ordem de antiguidade, dos desembargadores presentes e do representante do Ministério Público, devendo ser aprovada e assinada no final da própria sessão.",
+        "C": "Para cada sessão, será organizada uma pauta de julgamento, com observância da ordem de apresentação dos feitos, em relação aos da mesma classe; os apresentados no mesmo dia serão inscritos segundo a ordem ascendente numérica, e somente podem ser julgados, sem prévia inclusão em pauta, o habeas corpus e os embargos de declaração em matéria criminal.",
+        "D": "Salvo deliberação em contrário, recaindo a data da sessão em feriado ou dia em que não haja expediente forense, os feitos incluídos em pauta serão julgados na sessão ordinária seguinte, mediante nova publicação.",
+        "E": "Quando, na votação de questão indecomponível ou de questões distintas, formarem-se correntes divergentes, sem que se alcance a maioria exigida, prevalecerá o voto do presidente do órgão responsável pelo julgamento."
+      },
+      "gab": "A",
+      "temas": [
+        "legislacao-especial.regimento-tjsp"
+      ],
+      "dispositivos": [
+        "RITJSP 134",
+        "RITJSP 120",
+        "RITJSP 121",
+        "RITJSP 123 §2º",
+        "RITJSP 123 §3º",
+        "RITJSP 124",
+        "RITJSP 138"
+      ],
+      "exp": "A alternativa A reproduz `RITJSP 134`: **nenhum feito será julgado na ausência do relator**, ainda que já tenha votado, salvo se ele se afastar depois de iniciado o julgamento. A ata é **submetida à aprovação na sessão subsequente** (`RITJSP 120`; conteúdo em `RITJSP 121`), não ao final da própria sessão. Independem de pauta também o **desaforamento** e os **conflitos** de jurisdição, competência ou atribuição (`RITJSP 123 §3º`), e os embargos de declaração das demais matérias na sessão subsequente (`§4º`). Na sessão em feriado, os feitos passam à sessão seguinte **independentemente de nova publicação** (`RITJSP 124`), e o empate de correntes se resolve pela **média dos votos ou voto intermediário** (`RITJSP 138`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Reproduz `RITJSP 134`: **nenhum feito será julgado na ausência do relator**, ainda que já tenha votado, salvo se ele se afastar depois de **iniciado o julgamento**, computando-se os votos proferidos.",
+        "B": "O conteúdo da ata está em `RITJSP 121`, mas as atas são **submetidas à aprovação do colegiado na sessão subsequente** (`RITJSP 120`), não ao final da própria sessão.",
+        "C": "Além do habeas corpus e dos embargos de declaração em matéria criminal, independem de pauta o **desaforamento** e os **conflitos de jurisdição, competência ou atribuição** (`RITJSP 123 §3º`), e os embargos nas demais matérias julgados na sessão subsequente (`RITJSP 123 §4º`).",
+        "D": "Recaindo a sessão em feriado ou dia sem expediente, os feitos em pauta são julgados na sessão ordinária seguinte **independentemente de nova publicação** (`RITJSP 124`).",
+        "E": "Formadas correntes divergentes sem a maioria exigida, **prevalecerá a média dos votos ou o voto intermediário** (`RITJSP 138`), não o voto do presidente."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "Cesar é escrevente técnico judiciário e foi responsável por elaborar um ofício de comunicação, direcionado ao chefe do Poder Executivo do município X, contendo decisão judicial que ordena o fornecimento de relação descrevendo todas as notas fiscais emitidas nos últimos cinco anos por uma empresa executada em processo judicial.\n\nCom base na situação hipotética e no disposto nas normas da Corregedoria Geral de Justiça, é correto afirmar que",
+      "alt": {
+        "A": "Cesar pode assinar o ofício de comunicação, pois a decisão é subscrita pelo juiz competente.",
+        "B": "o ofício deverá ser assinado pelo juiz, por se tratar de ato direcionado a uma autoridade.",
+        "C": "o ofício precisará ser assinado pelo juiz, pois as informações solicitadas estão protegidas por sigilo fiscal.",
+        "D": "Cesar não pode assinar ofícios de comunicação, pois a sua competência legal é para redigir os seus termos.",
+        "E": "Cesar deve assinar o ofício de comunicação, independentemente da matéria e do destinatário, por se tratar de mera execução de ato ordinatório."
+      },
+      "gab": "B",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 85",
+        "NSCGJ 85 §1º III"
+      ],
+      "exp": "Os ofícios gerais de comunicação expedidos em cumprimento de ato judicial são, em regra, **assinados pelo escrivão**, por ordem do juiz (`NSCGJ 85`). A **subscrição do juiz é obrigatória**, porém, quando o documento for **dirigido a autoridades**, como o **chefe do Poder Executivo** (`NSCGJ 85 §1º III`). O motivo é o destinatário, não o sigilo fiscal das informações; e o cartório pode, sim, assinar ofícios fora dessas hipóteses.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A subscrição do juiz é **obrigatória** quando o ofício for **dirigido a autoridades**, como o chefe do Poder Executivo (`NSCGJ 85 §1º III`), ainda que a decisão comunicada já tenha sido assinada por ele.",
+        "B": "A subscrição do juiz é **obrigatória** quando os documentos forem **dirigidos a autoridades**, entre elas o **chefe do Poder Executivo** (`NSCGJ 85 §1º III`).",
+        "C": "O que exige a assinatura do juiz é o ofício ser **dirigido a autoridade**, como o chefe do Poder Executivo (`NSCGJ 85 §1º III`); as Normas não ligam essa exigência ao sigilo fiscal das informações.",
+        "D": "Em regra, os ofícios gerais de comunicação expedidos em cumprimento de ato judicial são **assinados pelos escrivães**, por ordem do juiz (`NSCGJ 85`); a assinatura do juiz só é exigida nas hipóteses do `NSCGJ 85 §1º`.",
+        "E": "A assinatura do cartório não vale para qualquer destinatário: a subscrição do juiz é **obrigatória** nos ofícios **dirigidos a autoridades**, como o chefe do Poder Executivo (`NSCGJ 85 §1º III`)."
+      }
+    }
+  ]
+}
