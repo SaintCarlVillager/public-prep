@@ -21,7 +21,21 @@
       "dispositivos": [
         "CF 1 III"
       ],
-      "exp": "A dignidade da pessoa humana é **fundamento** da República (`CF 1º, III`), ao lado de soberania, cidadania, valores sociais do trabalho e da livre-iniciativa e pluralismo político. (C) os **objetivos** fundamentais estão no `art. 3º` (construir sociedade livre, justa e solidária etc.). (A) e (D) nomeiam o Capítulo I e o Título II, que não a mencionam expressamente; (E) não é categoria do texto constitucional para esse fim."
+      "exp": "A dignidade da pessoa humana é **fundamento** da República (`CF 1º, III`), ao lado de soberania, cidadania, valores sociais do trabalho e da livre-iniciativa e pluralismo político. (C) os **objetivos** fundamentais estão no `art. 3º` (construir sociedade livre, justa e solidária etc.). (A) e (D) nomeiam o Capítulo I e o Título II, que não a mencionam expressamente; (E) não é categoria do texto constitucional para esse fim.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Direitos e deveres individuais e coletivos são o Capítulo I do Título II, que não menciona a dignidade de forma expressa; ela é **fundamento** da República (`CF 1 III`).",
+        "B": "A dignidade da pessoa humana é um dos **fundamentos** da República Federativa do Brasil, ao lado de soberania, cidadania, valores sociais do trabalho e da livre iniciativa e pluralismo político (`CF 1 III`).",
+        "C": "Os **objetivos fundamentais** estão no `CF 3` (sociedade livre, justa e solidária, desenvolvimento nacional etc.); a dignidade da pessoa humana é **fundamento** (`CF 1 III`).",
+        "D": "Direitos e garantias fundamentais é o nome do Título II; a CF arrola a dignidade da pessoa humana, de forma expressa, entre os **fundamentos** da República (`CF 1 III`).",
+        "E": "\"Direitos humanos\" não é a categoria em que a CF põe a dignidade da pessoa humana: ela é **fundamento** da República (`CF 1 III`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#48",
@@ -43,7 +57,21 @@
         "CF 5 XXXI",
         "LINDB 10 §1º"
       ],
-      "exp": "`CF 5º, XXXI`: a sucessão de bens de estrangeiros situados no País é regulada pela **lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes seja mais favorável a lei pessoal do de cujus** (no mesmo sentido, `LINDB 10, §1º`). (A) ignora a ressalva da lei mais favorável; (B) não beneficia outros herdeiros; (C) e (E) afastam indevidamente a regra constitucional."
+      "exp": "`CF 5º, XXXI`: a sucessão de bens de estrangeiros situados no País é regulada pela **lei brasileira em benefício do cônjuge ou dos filhos brasileiros, sempre que não lhes seja mais favorável a lei pessoal do de cujus** (no mesmo sentido, `LINDB 10, §1º`). (A) ignora a ressalva da lei mais favorável; (B) não beneficia outros herdeiros; (C) e (E) afastam indevidamente a regra constitucional.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei brasileira só se aplica em benefício do cônjuge ou dos filhos brasileiros **sempre que não lhes seja mais favorável a lei pessoal do de cujus** (`CF 5 XXXI`); a lei do país de origem não é indiferente.",
+        "B": "O benefício é do **cônjuge ou dos filhos brasileiros**, não de outros herdeiros, e cede quando a lei pessoal do de cujus lhes for mais favorável (`CF 5 XXXI`).",
+        "C": "Os bens de estrangeiro situados no País seguem a **lei brasileira** em benefício do cônjuge ou dos filhos brasileiros, salvo se a lei pessoal do de cujus lhes for **mais favorável** (`CF 5 XXXI`).",
+        "D": "A sucessão de bens de estrangeiros situados no País é regulada pela **lei brasileira em benefício do cônjuge ou dos filhos brasileiros**, sempre que não lhes seja **mais favorável a lei pessoal do de cujus** (`CF 5 XXXI`; no mesmo sentido, `LINDB 10 §1º`).",
+        "E": "Não há remissão a tratado entre os países: a CF manda aplicar a **lei brasileira** em benefício do cônjuge ou dos filhos brasileiros, ressalvada a lei pessoal do de cujus mais favorável (`CF 5 XXXI`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#49",
@@ -90,7 +118,21 @@
         "CF 8 IV",
         "CF 8 VI"
       ],
-      "exp": "`CF 8º, VII`: **o aposentado filiado tem direito a votar e ser votado** nas organizações sindicais. (A) a participação dos sindicatos nas negociações coletivas é **obrigatória** (`inc. VI`); (B) a lei **não pode** exigir autorização do Estado (`inc. I`); (D) a contribuição confederativa é fixada pela **assembleia geral**, não por lei (`inc. IV`); (E) vigora a **unicidade sindical** na mesma base territorial (`inc. II`)."
+      "exp": "`CF 8º, VII`: **o aposentado filiado tem direito a votar e ser votado** nas organizações sindicais. (A) a participação dos sindicatos nas negociações coletivas é **obrigatória** (`inc. VI`); (B) a lei **não pode** exigir autorização do Estado (`inc. I`); (D) a contribuição confederativa é fixada pela **assembleia geral**, não por lei (`inc. IV`); (E) vigora a **unicidade sindical** na mesma base territorial (`inc. II`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É **obrigatória** a participação dos sindicatos nas negociações coletivas de trabalho (`CF 8 VI`).",
+        "B": "A lei **não poderá** exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente (`CF 8 I`).",
+        "C": "O **aposentado filiado** tem direito a **votar e ser votado** nas organizações sindicais (`CF 8 VII`).",
+        "D": "Quem fixa a contribuição confederativa descontada em folha é a **assembleia geral**, independentemente da contribuição prevista em lei (`CF 8 IV`).",
+        "E": "Vigora a **unicidade sindical**: é vedada a criação de mais de uma organização sindical, em qualquer grau, da mesma categoria na mesma base territorial, que não pode ser inferior à área de um Município (`CF 8 II`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#51",
@@ -111,7 +153,21 @@
       "dispositivos": [
         "CF 14 §3º VI d"
       ],
-      "exp": "`CF 14, §3º, VI, d`: a idade mínima para **Vereador** é de **dezoito anos**. As demais idades são de outros cargos: 21 anos para Deputado, Prefeito e Vice e juiz de paz (`alínea c`); 30 para Governador e Vice (`alínea b`); 35 para Presidente, Vice e Senador (`alínea a`)."
+      "exp": "`CF 14, §3º, VI, d`: a idade mínima para **Vereador** é de **dezoito anos**. As demais idades são de outros cargos: 21 anos para Deputado, Prefeito e Vice e juiz de paz (`alínea c`); 30 para Governador e Vice (`alínea b`); 35 para Presidente, Vice e Senador (`alínea a`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Trinta anos é a idade mínima para **Governador e Vice-Governador** (`CF 14 §3º VI b`); para Vereador são **dezoito anos** (`CF 14 §3º VI d`).",
+        "B": "A CF não fixa vinte anos para nenhum cargo; para Vereador a idade mínima é de **dezoito anos** (`CF 14 §3º VI d`).",
+        "C": "Vinte e um anos é a idade para **Deputado, Prefeito, Vice-Prefeito e juiz de paz** (`CF 14 §3º VI c`); para Vereador são **dezoito anos** (`CF 14 §3º VI d`).",
+        "D": "Trinta e cinco anos é a idade para **Presidente, Vice-Presidente e Senador** (`CF 14 §3º VI a`); para Vereador são **dezoito anos** (`CF 14 §3º VI d`).",
+        "E": "A idade mínima para **Vereador** é de **dezoito anos** (`CF 14 §3º VI d`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#52",
@@ -132,7 +188,21 @@
       "dispositivos": [
         "CF 15"
       ],
-      "exp": "`CF 15`: **é vedada a cassação de direitos políticos**, cuja **perda ou suspensão** só se dará nos casos do próprio artigo. Condenação criminal transitada em julgado (`inc. III`), improbidade (`inc. V`) e incapacidade civil absoluta (`inc. II`) geram **suspensão**; o cancelamento da naturalização (`inc. I`) gera **perda**, não cassação."
+      "exp": "`CF 15`: **é vedada a cassação de direitos políticos**, cuja **perda ou suspensão** só se dará nos casos do próprio artigo. Condenação criminal transitada em julgado (`inc. III`), improbidade (`inc. V`) e incapacidade civil absoluta (`inc. II`) geram **suspensão**; o cancelamento da naturalização (`inc. I`) gera **perda**, não cassação.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A condenação criminal transitada em julgado gera **suspensão** dos direitos políticos enquanto durarem seus efeitos (`CF 15 III`); a **cassação é vedada**.",
+        "B": "O cancelamento da naturalização por sentença transitada em julgado gera **perda** dos direitos políticos (`CF 15 I`), não cassação, que é **vedada**.",
+        "C": "A improbidade administrativa gera **suspensão** dos direitos políticos (`CF 15 V`); a **cassação é vedada** pela CF.",
+        "D": "O `CF 15` diz que **é vedada a cassação** de direitos políticos, cuja **perda ou suspensão** só se dá nos casos que ele enumera.",
+        "E": "A incapacidade civil absoluta é caso de **perda ou suspensão** dos direitos políticos (`CF 15 II`); a **cassação é vedada**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#53",
@@ -154,7 +224,21 @@
         "CF 37 XVI",
         "CF 37 XVII"
       ],
-      "exp": "`CF 37, XVI, b`: com compatibilidade de horários, admite-se **um cargo de professor com outro técnico ou científico**. (B) são **dois** cargos de professor (`alínea a`); (E) são **dois** cargos ou empregos privativos de profissionais de saúde (`alínea c`); (C) a vedação tem exceções; (D) a proibição **abrange** empregos e funções (`inc. XVII`)."
+      "exp": "`CF 37, XVI, b`: com compatibilidade de horários, admite-se **um cargo de professor com outro técnico ou científico**. (B) são **dois** cargos de professor (`alínea a`); (E) são **dois** cargos ou empregos privativos de profissionais de saúde (`alínea c`); (C) a vedação tem exceções; (D) a proibição **abrange** empregos e funções (`inc. XVII`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com **compatibilidade de horários**, a CF admite acumular **um cargo de professor com outro técnico ou científico** (`CF 37 XVI b`, na redação vigente em 2023). Desde a EC 138/2025, a alínea admite professor com cargo **de qualquer natureza**, o que mantém a hipótese.",
+        "B": "A CF admite acumular **dois** cargos de professor, com compatibilidade de horários (`CF 37 XVI a`), não três.",
+        "C": "A vedação de acumular cargos públicos tem **exceções**, com compatibilidade de horários: dois de professor, professor com outro cargo e dois privativos de profissionais de saúde (`CF 37 XVI`).",
+        "D": "A proibição de acumular **estende-se a empregos e funções** e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, subsidiárias e controladas (`CF 37 XVII`).",
+        "E": "São **dois** cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas, e não três (`CF 37 XVI c`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#54",
@@ -175,7 +259,21 @@
       "dispositivos": [
         "CF 38 III"
       ],
-      "exp": "`CF 38, III`: investido no mandato de **Vereador**, havendo **compatibilidade de horários**, o servidor **perceberá as vantagens de seu cargo, sem prejuízo da remuneração do cargo eletivo**; não havendo, aplica-se a regra do Prefeito (afastamento com opção pela remuneração). (A), (C) e (D) ignoram a acumulação permitida; (B) o tempo de serviço conta para todos os efeitos, exceto promoção por merecimento (`inc. IV`)."
+      "exp": "`CF 38, III`: investido no mandato de **Vereador**, havendo **compatibilidade de horários**, o servidor **perceberá as vantagens de seu cargo, sem prejuízo da remuneração do cargo eletivo**; não havendo, aplica-se a regra do Prefeito (afastamento com opção pela remuneração). (A), (C) e (D) ignoram a acumulação permitida; (B) o tempo de serviço conta para todos os efeitos, exceto promoção por merecimento (`inc. IV`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O Vereador só se afasta se **não houver compatibilidade de horários**, e então pode optar pela remuneração do cargo; havendo, acumula as vantagens do cargo com a remuneração do mandato (`CF 38 III`).",
+        "B": "No afastamento para mandato eletivo, o tempo de serviço **conta para todos os efeitos legais**, exceto para **promoção por merecimento** (`CF 38 IV`).",
+        "C": "Havendo compatibilidade de horários, o Vereador não escolhe uma remuneração: **recebe as vantagens do cargo sem prejuízo da remuneração do cargo eletivo** (`CF 38 III`); a opção existe só quando não há compatibilidade.",
+        "D": "O afastamento do Vereador **não é necessário**: havendo compatibilidade de horários, ele mantém o cargo e acumula as remunerações (`CF 38 III`).",
+        "E": "Investido no mandato de **Vereador**, havendo **compatibilidade de horários**, o servidor perceberá as vantagens de seu cargo **sem prejuízo da remuneração do cargo eletivo** (`CF 38 III`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#55",
@@ -200,7 +298,21 @@
         "L10261 13"
       ],
       "exp": "`Lei 10.261/68, art. 3º`: funcionário público, para o Estatuto, é **a pessoa legalmente investida em cargo público** (D). (B) o `art. 4º` define apenas **cargo público** como o conjunto de atribuições e responsabilidades cometidas a um funcionário, não \"emprego público\"; (C) pelo `art. 13`, a nomeação vitalícia só ocorre **nos casos expressamente previstos na Constituição**, ao lado das nomeações em comissão e em caráter efetivo. (A) o `art. 1º` institui o regime dos funcionários públicos **civis**; (E) o `art. 1º, p.ú.` manda aplicar o Estatuto **diretamente** aos funcionários **dos 3 Poderes** e do Tribunal de Contas, salvo no que colidir com a legislação especial, e não fala em aplicação subsidiária nem ao Ministério Público.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto institui o regime jurídico dos funcionários públicos **civis** do Estado (`L10261 1`), não dos militares.",
+        "B": "O Estatuto define só **cargo público** como o conjunto de atribuições e responsabilidades cometidas a um funcionário (`L10261 4`); não trata de emprego público nesse conceito.",
+        "C": "A nomeação é **vitalícia** só nos casos **expressamente previstos na Constituição**; as demais são em comissão ou em caráter efetivo, conforme o cargo (`L10261 13`).",
+        "D": "Para os fins do Estatuto, funcionário público é **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "E": "O Estatuto aplica-se **diretamente** aos funcionários **dos 3 Poderes** e do Tribunal de Contas, salvo no que colidir com a legislação especial (`L10261 1 p.ú.`); não fala em aplicação subsidiária nem no Ministério Público."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#56",
@@ -228,7 +340,21 @@
       "observacoes": [
         "Inciso VI do art. 47 com redação da LC 1.123/2010 (ASO para cargo em comissão), vigente na data da prova."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O **Atestado de Saúde Ocupacional** só substitui a inspeção por órgão médico oficial do Estado no provimento de **cargo em comissão** (`L10261 47 VI`); para cargo efetivo, vale a inspeção oficial.",
+        "B": "A **deficiência da capacidade física, comprovadamente estacionária**, não impede a posse, desde que **não impeça o desempenho normal das funções** do cargo (`L10261 47 p.ú.`).",
+        "C": "O Estatuto exige **boa conduta** para a posse (`L10261 47 V`), mas não lista certidão negativa cível e criminal entre os requisitos.",
+        "D": "**Gozar de boa saúde**, comprovada em inspeção médica, é **requisito para a posse** em cargo público (`L10261 47 VI`).",
+        "E": "O Estatuto exige **boa conduta** (`L10261 47 V`), mas não diz que o mero **indiciamento** em inquérito por contravenção a afaste."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#57",
@@ -251,7 +377,21 @@
         "L10261 57"
       ],
       "exp": "`Lei 10.261/68, art. 57`: **exercício** é o ato pelo qual o funcionário **assume as atribuições e responsabilidades do cargo** (A). A **nomeação** é forma de provimento (`art. 11, I`) e a **posse** é o ato que **investe o cidadão em cargo público** (`art. 46`), precedendo o exercício; \"desempenho\" e \"progressão\" não designam esse ato.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Exercício** é o ato pelo qual o funcionário **assume as atribuições e responsabilidades do cargo** (`L10261 57`).",
+        "B": "A **nomeação** é forma de provimento do cargo (`L10261 11`); o ato de assumir as atribuições e responsabilidades é o **exercício** (`L10261 57`).",
+        "C": "A **posse** é o ato que **investe** o cidadão em cargo público (`L10261 46`) e precede o **exercício**, que é quando ele assume as atribuições e responsabilidades (`L10261 57`).",
+        "D": "\"Desempenho\" não designa ato do Estatuto: o ato pelo qual o funcionário assume as atribuições e responsabilidades do cargo é o **exercício** (`L10261 57`).",
+        "E": "Progressão não é o ato de assumir o cargo: o ato pelo qual o funcionário assume as atribuições e responsabilidades é o **exercício** (`L10261 57`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#58",
@@ -281,7 +421,21 @@
       "observacoes": [
         "Art. 176 §3º: na data da prova (2023) valia a redação da LC 1.361/2021 (faltas justificadas e injustificadas). A LC 1.437/2025 alterou depois o §2º do art. 176 e os arts. 177, 178 p.ú. e 179 (fracionamento em até 3 períodos etc.), sem afetar o gabarito."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As férias **são reduzidas para 20 dias** se o funcionário teve, no exercício anterior, mais de 10 não comparecimentos por **faltas justificadas** e injustificadas ou por certas licenças (`L10261 176 §3º`).",
+        "B": "As férias são de **30 dias** anuais (`L10261 176`), e o direito a elas só se adquire **depois do primeiro ano de exercício** (`L10261 178`).",
+        "C": "As férias são consideradas de **efetivo exercício** (`L10261 78 I`), e durante elas o funcionário tem **direito a todas as vantagens**, como se estivesse em exercício (`L10261 176 §4º`).",
+        "D": "O Estatuto **não prevê** conversão de férias em pecúnia por autorização da chefia; admite só a **acumulação** por absoluta necessidade do serviço, até 2 anos (`L10261 176 §2º`).",
+        "E": "O Estatuto **não trata** de auxílio-alimentação nem de auxílio-transporte; o que ele garante nas férias é o **efetivo exercício** e **todas as vantagens** do cargo (`L10261 78 I`, `L10261 176 §4º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#59",
@@ -308,7 +462,21 @@
         "L10261 241 VII"
       ],
       "exp": "`Lei 10.261/68, art. 243, VI`: a proibição de comerciar ou ter parte em sociedades comerciais limita-se às condições do inciso II (empresas que mantêm relações com o Governo etc.), **podendo, em qualquer caso, ser acionista, quotista ou comanditário** (D). São proibições **retirar, sem prévia permissão da autoridade competente, qualquer documento** da repartição (`art. 242, II`), **incitar greves ou a elas aderir** (`art. 243, VII`) e **constituir-se procurador de partes** perante repartição pública, salvo interesse de cônjuge ou parente **até segundo grau** (`art. 243, IX`), o que afasta (A), (B) e (E). (C) o dever é **residir no local onde exerce o cargo ou onde autorizado** (`art. 241, VII`), sem regra de 60 km.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É **proibido** ao funcionário **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto** da repartição (`L10261 242 II`), haja ou não prejuízo.",
+        "B": "É **proibido** ao funcionário **incitar greves ou a elas aderir**, ou praticar atos de sabotagem contra o serviço público (`L10261 243 VII`).",
+        "C": "O dever é **residir no local onde exerce o cargo ou onde autorizado** (`L10261 241 VII`); o Estatuto não fixa distância de 60 km.",
+        "D": "A proibição de comerciar ou ter parte em sociedades comerciais vale só nas condições do inciso II (sociedades que mantêm relações com o Governo etc.), **podendo, em qualquer caso, ser acionista, quotista ou comanditário** (`L10261 243 VI`).",
+        "E": "É proibido constituir-se **procurador de partes** perante repartição pública, salvo interesse de cônjuge ou parente **até segundo grau** (`L10261 243 IX`); o terceiro grau não está na exceção."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#60",
@@ -331,7 +499,21 @@
         "L8429 9 III",
         "L8429 1 §1º"
       ],
-      "exp": "Perceber vantagem econômica, **direta ou indireta**, para facilitar a **permuta** de bem com a Administração é ato de **enriquecimento ilícito** (`Lei 8.429/92, art. 9º, II e III`), e desde a Lei 14.230/21 só há improbidade em conduta **dolosa** (`art. 1º, §1º`). (A) não existe improbidade culposa; (E) a lei fala em vantagem direta **ou indireta**; (D) a conduta é tipificada; (C) o rol do art. 9º é exemplificativo e o próprio texto prevê também a permuta por preço **superior** ao de mercado (`inc. II`)."
+      "exp": "Perceber vantagem econômica, **direta ou indireta**, para facilitar a **permuta** de bem com a Administração é ato de **enriquecimento ilícito** (`Lei 8.429/92, art. 9º, II e III`), e desde a Lei 14.230/21 só há improbidade em conduta **dolosa** (`art. 1º, §1º`). (A) não existe improbidade culposa; (E) a lei fala em vantagem direta **ou indireta**; (D) a conduta é tipificada; (C) o rol do art. 9º é exemplificativo e o próprio texto prevê também a permuta por preço **superior** ao de mercado (`inc. II`).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Desde a Lei 14.230/2021, só são atos de improbidade as condutas **dolosas** tipificadas nos arts. 9º, 10 e 11 (`L8429 1 §1º`); **não há improbidade culposa**.",
+        "B": "Perceber vantagem econômica, **direta ou indireta**, para facilitar a **permuta** de bem com a Administração é ato de **enriquecimento ilícito** (`L8429 9 II`, `L8429 9 III`), punível quando **doloso** (`L8429 1 §1º`).",
+        "C": "O rol do `L8429 9` é exemplificativo (\"notadamente\"), e o próprio texto prevê a permuta tanto por preço **inferior** (`L8429 9 III`) quanto por preço **superior** ao de mercado (`L8429 9 II`).",
+        "D": "A conduta é **tipificada**: perceber vantagem econômica, direta ou indireta, para facilitar **permuta** de bem é **enriquecimento ilícito** (`L8429 9 II`, `L8429 9 III`).",
+        "E": "A lei pune a vantagem econômica **direta ou indireta** para facilitar a permuta de bem (`L8429 9 II`, `L8429 9 III`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#61",
@@ -352,7 +534,21 @@
       "dispositivos": [
         "L8429 9 VIII"
       ],
-      "exp": "A conduta descrita reproduz o `art. 9º, VIII, da Lei 8.429/92`: é ato de improbidade que importa **enriquecimento ilícito**. (B) não é ato contra princípios (`art. 11`); (E) não há modalidade culposa após a Lei 14.230/21; (C) a lei não exige proibição de atividade privada fora do expediente; (A) contraria o texto legal."
+      "exp": "A conduta descrita reproduz o `art. 9º, VIII, da Lei 8.429/92`: é ato de improbidade que importa **enriquecimento ilícito**. (B) não é ato contra princípios (`art. 11`); (E) não há modalidade culposa após a Lei 14.230/21; (C) a lei não exige proibição de atividade privada fora do expediente; (A) contraria o texto legal.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Aceitar emprego, comissão ou consultoria para quem tenha interesse suscetível de ser atingido pelas atribuições do agente é ato de improbidade que importa **enriquecimento ilícito** (`L8429 9 VIII`).",
+        "B": "A conduta é ato de improbidade que importa **enriquecimento ilícito** (`L8429 9 VIII`), e não ato que atenta contra os princípios da Administração (`L8429 11`).",
+        "C": "A lei não exige que o agente esteja proibido de exercer atividade privada fora do expediente: basta aceitar o emprego ou a consultoria para quem tenha **interesse suscetível de ser atingido** por suas atribuições, **durante a atividade** (`L8429 9 VIII`).",
+        "D": "A conduta reproduz o `L8429 9 VIII`: é ato de improbidade administrativa que importa **enriquecimento ilícito**.",
+        "E": "Desde a Lei 14.230/2021, só há improbidade em conduta **dolosa** (`L8429 1 §1º`); **não existe improbidade culposa**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#62",
@@ -375,7 +571,21 @@
         "L8429 13 §2º",
         "L8429 13 §3º"
       ],
-      "exp": "`Lei 8.429/92, art. 13`: **a posse e o exercício** de agente público ficam **condicionados à apresentação** da declaração de imposto de renda entregue à Receita Federal (E). (A) a recusa sujeita à pena de **demissão** (`§3º`); (C) a atualização é **anual** por força da lei e também **na data em que o agente deixar o exercício** (`§2º`), o que torna (D) errada; (B) a lei atual não prevê formulário aprovado pela autoridade máxima do órgão."
+      "exp": "`Lei 8.429/92, art. 13`: **a posse e o exercício** de agente público ficam **condicionados à apresentação** da declaração de imposto de renda entregue à Receita Federal (E). (A) a recusa sujeita à pena de **demissão** (`§3º`); (C) a atualização é **anual** por força da lei e também **na data em que o agente deixar o exercício** (`§2º`), o que torna (D) errada; (B) a lei atual não prevê formulário aprovado pela autoridade máxima do órgão.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A recusa em prestar a declaração de bens no prazo, ou a declaração falsa, sujeita o agente à pena de **demissão** (`L8429 13 §3º`).",
+        "B": "A declaração exigida é a de **imposto de renda e proventos de qualquer natureza** apresentada à Receita Federal (`L8429 13`); a lei não prevê formulário aprovado pela autoridade máxima do órgão.",
+        "C": "A atualização é **anual por força da lei**, e também na data em que o agente deixar o exercício (`L8429 13 §2º`); não depende de determinação da chefia.",
+        "D": "A declaração é atualizada anualmente **e também na data em que o agente deixar o exercício** do mandato, cargo, emprego ou função (`L8429 13 §2º`).",
+        "E": "A **posse e o exercício** de agente público ficam **condicionados à apresentação** da declaração de imposto de renda apresentada à Receita Federal (`L8429 13`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#63",
@@ -398,7 +608,21 @@
         "CC 44",
         "CC 43"
       ],
-      "exp": "(A) reproduz o `CC 45`. (B) o prazo de três anos para anular a constituição da pessoa jurídica é de **decadência** (`CC 45, p.ú.`: \"decai\"); (C) as EIRELIs foram retiradas do rol do `CC 44` (Lei 14.382/2022); (D) a regra do direito de regresso \"se houver culpa ou dolo\" é do `CC 43`, para pessoas jurídicas de direito **público**; (E) é **vedado** ao poder público negar reconhecimento ou registro às organizações religiosas (`CC 44, §1º`)."
+      "exp": "(A) reproduz o `CC 45`. (B) o prazo de três anos para anular a constituição da pessoa jurídica é de **decadência** (`CC 45, p.ú.`: \"decai\"); (C) as EIRELIs foram retiradas do rol do `CC 44` (Lei 14.382/2022); (D) a regra do direito de regresso \"se houver culpa ou dolo\" é do `CC 43`, para pessoas jurídicas de direito **público**; (E) é **vedado** ao poder público negar reconhecimento ou registro às organizações religiosas (`CC 44, §1º`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Reproduz o `CC 45`: a existência legal da pessoa jurídica de direito privado começa com a **inscrição do ato constitutivo** no registro, precedida, quando necessário, de **autorização ou aprovação do Poder Executivo**.",
+        "B": "O prazo de três anos para anular a constituição da pessoa jurídica de direito privado é de **decadência**, não de prescrição: \"decai em três anos\" (`CC 45 p.ú.`).",
+        "C": "As **empresas individuais de responsabilidade limitada** saíram do rol do `CC 44` (inciso VI revogado pela MP 1.085/2021, convertida na Lei 14.382/2022).",
+        "D": "O direito de regresso condicionado a **culpa ou dolo** do agente está no `CC 43` e vale para as pessoas jurídicas de **direito público** interno, não para associações; e a regra não se limita ao dolo.",
+        "E": "É **vedado** ao poder público negar reconhecimento ou registro dos atos constitutivos e necessários ao funcionamento das organizações religiosas (`CC 44 §1º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#64",
@@ -421,7 +645,21 @@
         "CC 50 §4º",
         "CC 50 §5º"
       ],
-      "exp": "`CC 50`: o abuso da personalidade caracteriza-se por **desvio de finalidade ou confusão patrimonial**, e a **transferência de ativos ou de passivos sem efetivas contraprestações** configura confusão patrimonial (`§2º, II`), bastando para a desconsideração (C). (A) os requisitos são **alternativos**; (B) basta benefício **direto ou indireto** dos sócios; (D) a **mera alteração da finalidade original** não é desvio de finalidade (`§5º`); (E) a teoria **menor** é a do CDC, não a do Código Civil, que adota a teoria maior."
+      "exp": "`CC 50`: o abuso da personalidade caracteriza-se por **desvio de finalidade ou confusão patrimonial**, e a **transferência de ativos ou de passivos sem efetivas contraprestações** configura confusão patrimonial (`§2º, II`), bastando para a desconsideração (C). (A) os requisitos são **alternativos**; (B) basta benefício **direto ou indireto** dos sócios; (D) a **mera alteração da finalidade original** não é desvio de finalidade (`§5º`); (E) a teoria **menor** é a do CDC, não a do Código Civil, que adota a teoria maior.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O abuso da personalidade se caracteriza pelo desvio de finalidade **ou** pela confusão patrimonial (`CC 50`): os requisitos são **alternativos**, não cumulativos.",
+        "B": "A desconsideração alcança administradores ou sócios **beneficiados direta ou indiretamente** pelo abuso (`CC 50`); não se exige benefício direto.",
+        "C": "A **transferência de ativos ou de passivos sem efetivas contraprestações** caracteriza **confusão patrimonial** (`CC 50 §2º II`), que basta para configurar o abuso da personalidade jurídica (`CC 50`).",
+        "D": "**Não** constitui desvio de finalidade a **mera expansão ou alteração da finalidade original** da atividade econômica da pessoa jurídica (`CC 50 §5º`).",
+        "E": "O Código Civil adota a **teoria maior**, que exige abuso por desvio de finalidade ou confusão patrimonial (`CC 50`); a teoria **menor**, que se contenta com a insolvência ou o obstáculo ao ressarcimento, é a do CDC."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#65",
@@ -446,7 +684,21 @@
         "CC 89",
         "CC 97"
       ],
-      "exp": "(C) reproduz o `CC 93`, conceito de **pertenças**. (A) em regra os negócios sobre o principal **não abrangem** as pertenças (`CC 94`); (B) é o conceito de bens **singulares** (`CC 89`); (D) frutos e produtos podem ser objeto de negócio **ainda que não separados** (`CC 95`); (E) melhoramentos sem intervenção do proprietário, possuidor ou detentor **não** são benfeitorias (`CC 97`)."
+      "exp": "(C) reproduz o `CC 93`, conceito de **pertenças**. (A) em regra os negócios sobre o principal **não abrangem** as pertenças (`CC 94`); (B) é o conceito de bens **singulares** (`CC 89`); (D) frutos e produtos podem ser objeto de negócio **ainda que não separados** (`CC 95`); (E) melhoramentos sem intervenção do proprietário, possuidor ou detentor **não** são benfeitorias (`CC 97`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Em regra, os negócios jurídicos sobre o bem principal **não abrangem as pertenças**, salvo se o contrário resultar da lei, da vontade ou das circunstâncias (`CC 94`).",
+        "B": "Bens que, embora reunidos, se consideram de per si, independentemente dos demais, são os **singulares** (`CC 89`), não os acessórios.",
+        "C": "Reproduz o `CC 93`: **pertenças** são os bens que, **não constituindo partes integrantes**, se destinam, de modo duradouro, ao uso, ao serviço ou ao aformoseamento de outro.",
+        "D": "Frutos e produtos podem ser objeto de negócio jurídico **ainda que não separados** do bem principal (`CC 95`).",
+        "E": "Os melhoramentos ou acréscimos sobrevindos **sem a intervenção** do proprietário, possuidor ou detentor **não se consideram benfeitorias** (`CC 97`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#66",
@@ -470,7 +722,21 @@
         "CC 154",
         "CC 171 II"
       ],
-      "exp": "A confissão é **irrevogável**, mas **pode ser anulada** se decorreu de erro de fato ou de **coação** (`CC 214`). A ameaça partiu do marido de Maria, terceiro, mas a beneficiária tinha conhecimento (foi ela quem a pediu), o que vicia o ato (`CC 154`); a coação gera **anulabilidade** (`CC 171, II`), não nulidade (A) nem inexistência (E). (C) a confissão é irrevogável; (D) o vício impede considerá-la válida."
+      "exp": "A confissão é **irrevogável**, mas **pode ser anulada** se decorreu de erro de fato ou de **coação** (`CC 214`). A ameaça partiu do marido de Maria, terceiro, mas a beneficiária tinha conhecimento (foi ela quem a pediu), o que vicia o ato (`CC 154`); a coação gera **anulabilidade** (`CC 171, II`), não nulidade (A) nem inexistência (E). (C) a confissão é irrevogável; (D) o vício impede considerá-la válida.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A coação vicia o negócio, inclusive a exercida por terceiro com conhecimento da parte beneficiada (`CC 154`), e gera **anulabilidade**, não nulidade (`CC 171 II`).",
+        "B": "A confissão é irrevogável, mas **pode ser anulada** se decorreu de **coação** (`CC 214`); a coação do marido, pedida pela própria Maria, vicia o ato (`CC 154`) e o torna **anulável** (`CC 171 II`).",
+        "C": "A confissão é **irrevogável**; obtida sob coação, ela pode ser **anulada** (`CC 214`).",
+        "D": "A confissão obtida mediante **coação** pode ser anulada (`CC 214`); a coação de terceiro, conhecida da beneficiária, vicia o ato (`CC 154`).",
+        "E": "A confissão coagida existe, mas tem vício de vontade: é **anulável** (`CC 214`, `CC 171 II`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#67",
@@ -519,7 +785,21 @@
         "CC 1784",
         "CC 1206"
       ],
-      "exp": "`CC 1.197`: a posse direta de quem tem a coisa temporariamente em virtude de direito pessoal (a locatária Isabela) **não anula a indireta** de quem aquela foi havida, e o possuidor direto pode **defender a sua posse contra o indireto**. Rafael, herdeiro, sucede na posse do locador (`CC 1.784` e `1.206`) e é **possuidor indireto** (B). (A) e (C) invertem as posições; (D) Isabela pode defender a posse contra Rafael; (E) a posse direta é, por natureza, temporária."
+      "exp": "`CC 1.197`: a posse direta de quem tem a coisa temporariamente em virtude de direito pessoal (a locatária Isabela) **não anula a indireta** de quem aquela foi havida, e o possuidor direto pode **defender a sua posse contra o indireto**. Rafael, herdeiro, sucede na posse do locador (`CC 1.784` e `1.206`) e é **possuidor indireto** (B). (A) e (C) invertem as posições; (D) Isabela pode defender a posse contra Rafael; (E) a posse direta é, por natureza, temporária.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A locatária, que tem a coisa temporariamente em seu poder por direito pessoal, é **possuidora direta**, e o possuidor direto **pode defender a sua posse contra o indireto** (`CC 1197`).",
+        "B": "O herdeiro sucede na posse do locador (`CC 1784`, `CC 1206`) e é **possuidor indireto**; a posse direta da locatária **não anula a indireta** de quem ela foi havida (`CC 1197`).",
+        "C": "O herdeiro do locador é **possuidor indireto**; a posse direta é da locatária, que pode **defendê-la contra o indireto** (`CC 1197`).",
+        "D": "O possuidor direto **pode defender a sua posse contra o indireto** (`CC 1197`).",
+        "E": "A posse direta é, por definição, **temporária**, e mesmo assim o possuidor direto pode defendê-la contra o indireto (`CC 1197`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#69",
@@ -543,7 +823,21 @@
         "CC 1469",
         "CC 1470"
       ],
-      "exp": "Os hospedeiros são credores pignoratícios, **independentemente de convenção**, sobre bagagens, móveis, joias ou dinheiro dos hóspedes (`CC 1.467, I`) e podem **fazer efetivo o penhor antes de recorrer à autoridade judiciária**, se houver **perigo na demora**, dando comprovante dos bens (`CC 1.470`) (A). (B) a tabela de preços impressa e exposta é o que dá base à conta (`CC 1.468`), não causa nulidade; (C) o hospedeiro não é quirografário, e sim pignoratício; (D) o penhor é **legal**; (E) só se tomam objetos **até o valor da dívida** (`CC 1.469`)."
+      "exp": "Os hospedeiros são credores pignoratícios, **independentemente de convenção**, sobre bagagens, móveis, joias ou dinheiro dos hóspedes (`CC 1.467, I`) e podem **fazer efetivo o penhor antes de recorrer à autoridade judiciária**, se houver **perigo na demora**, dando comprovante dos bens (`CC 1.470`) (A). (B) a tabela de preços impressa e exposta é o que dá base à conta (`CC 1.468`), não causa nulidade; (C) o hospedeiro não é quirografário, e sim pignoratício; (D) o penhor é **legal**; (E) só se tomam objetos **até o valor da dívida** (`CC 1.469`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os hospedeiros, credores pignoratícios das bagagens e bens dos hóspedes, podem **fazer efetivo o penhor antes de recorrer à autoridade judiciária**, se houver **perigo na demora**, dando comprovante dos bens (`CC 1470`).",
+        "B": "O penhor é **nulo** quando a conta **não** segue a tabela impressa, prévia e ostensivamente exposta na casa (`CC 1468`); com a tabela exposta, ele é válido.",
+        "C": "O hospedeiro não é credor quirografário: é **credor pignoratício**, independentemente de convenção, sobre bagagens, móveis, joias ou dinheiro do hóspede (`CC 1467 I`).",
+        "D": "O hospedeiro é credor pignoratício **independentemente de convenção** (`CC 1467 I`): o penhor é **legal**.",
+        "E": "O credor pode tomar em garantia um ou mais objetos **até o valor da dívida** (`CC 1469`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#70",
@@ -564,7 +858,20 @@
       "dispositivos": [
         "CC 1775"
       ],
-      "exp": "(D) reproduz o `CC 1.775`: o cônjuge ou companheiro, não separado judicialmente ou de fato, é, de direito, curador do outro. Na falta, é curador legítimo **o pai ou a mãe** (C fala em \"qualquer um dos ascendentes\"); na falta destes, o **descendente que se demonstrar mais apto** (`§1º`), o que torna (E) imprecisa. Na falta de todos, **compete ao juiz** a escolha do curador (`§3º`), não ao Ministério Público (B); colaterais não são curadores legítimos (A)."
+      "exp": "(D) reproduz o `CC 1.775`: o cônjuge ou companheiro, não separado judicialmente ou de fato, é, de direito, curador do outro. Na falta, é curador legítimo **o pai ou a mãe** (C fala em \"qualquer um dos ascendentes\"); na falta destes, o **descendente que se demonstrar mais apto** (`§1º`), o que torna (E) imprecisa. Na falta de todos, **compete ao juiz** a escolha do curador (`§3º`), não ao Ministério Público (B); colaterais não são curadores legítimos (A).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": null
+      },
+      "exp_alt": {
+        "A": "Os colaterais **não** são curadores legítimos: na falta do cônjuge ou companheiro, do pai ou da mãe e dos descendentes, **compete ao juiz** a escolha do curador (`CC 1775 §3º`).",
+        "B": "Na falta das pessoas indicadas pela lei, **compete ao juiz** a escolha do curador (`CC 1775 §3º`), e não ao Ministério Público.",
+        "C": "Na falta do cônjuge ou companheiro, é curador legítimo **o pai ou a mãe** (`CC 1775 §1º`), e não qualquer ascendente.",
+        "D": "Reproduz o `CC 1775`: o **cônjuge ou companheiro**, não separado judicialmente ou de fato, é, **de direito**, curador do outro, quando interdito."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#71",
@@ -584,13 +891,27 @@
         "tributario.execucao-fiscal.citacao"
       ],
       "dispositivos": [
-        "L6830 8 IV",
+        "L6830 8 §1º",
         "L6830 8 §2º",
         "L6830 7 III",
         "L6830 2 §3º",
         "L6830 2 §8º"
       ],
-      "exp": "(E): o despacho que ordena a citação **interrompe a prescrição** (`Lei 6.830/80, art. 8º, §2º`) e o executado **ausente do País** é citado por **edital com prazo de 60 dias** (`art. 8º, IV`). (A) o prazo é de **5 dias** (`art. 8º`); (B) se o executado não tiver domicílio ou dele se ocultar, cabe **arresto**, já ordenado pelo despacho inicial (`art. 7º, III`); (C) a CDA pode ser emendada ou substituída **até a decisão de primeira instância** (`art. 2º, §8º`); (D) a suspensão é de **180 dias** (`art. 2º, §3º`)."
+      "exp": "(E): o despacho que ordena a citação **interrompe a prescrição** (`Lei 6.830/80, art. 8º, §2º`) e o executado **ausente do País** é citado por **edital com prazo de 60 dias** (`L6830 8 §1º`; o edital comum, de 30 dias, é o do `L6830 8 IV`). (A) o prazo é de **5 dias** (`art. 8º`); (B) se o executado não tiver domicílio ou dele se ocultar, cabe **arresto**, já ordenado pelo despacho inicial (`art. 7º, III`); (C) a CDA pode ser emendada ou substituída **até a decisão de primeira instância** (`art. 2º, §8º`); (D) a suspensão é de **180 dias** (`art. 2º, §3º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Na execução fiscal, o executado é citado para pagar ou garantir a execução no prazo de **5 dias** (`L6830 8`).",
+        "B": "Se o executado não tiver domicílio ou dele se ocultar, o despacho que deferir a inicial **já importa em ordem de arresto** (`L6830 7 III`); não há pedido de autorização ao juízo.",
+        "C": "A CDA pode ser emendada ou substituída **até a decisão de primeira instância**, devolvendo-se ao executado o prazo para embargos (`L6830 2 §8º`).",
+        "D": "A inscrição em dívida ativa suspende a prescrição por **180 dias**, ou até a distribuição da execução fiscal, se esta ocorrer antes (`L6830 2 §3º`).",
+        "E": "O despacho do juiz que ordenar a citação **interrompe a prescrição** (`L6830 8 §2º`), e o executado **ausente do País** é citado por **edital com prazo de 60 dias** (`L6830 8 §1º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#72",
@@ -620,7 +941,21 @@
       "observacoes": [
         "O CNJ-R354 10 §2º diz só 'Salvo ocultação, é vedado o cumprimento eletrônico de atos processuais por meio de mensagens públicas'; não menciona parte em local incerto, como dizia a exp anterior. Arts. 8º a 10 sem alteração de redação desde 2020."
       ],
-      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579"
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Resolução veda o cumprimento eletrônico de atos processuais por mensagens públicas **salvo ocultação** (`CNJ-R354 10 §2º`): na ocultação, o uso é admitido.",
+        "B": "Os endereços eletrônicos devem ser informados **na primeira intervenção nos autos** e mantidos atualizados durante todo o processo (`CNJ-R354 9`), não até a sentença.",
+        "C": "Nos casos em que cabível a citação e a intimação pelo correio, **por oficial de justiça** ou pelo escrivão, o ato **poderá ser cumprido por meio eletrônico** que assegure ter o destinatário tomado conhecimento do seu conteúdo (`CNJ-R354 8`).",
+        "D": "A Resolução prevê comunicação por **aplicativos de mensagens, redes sociais** e correspondência eletrônica (`CNJ-R354 9 p.ú.`); não há vedação aos aplicativos.",
+        "E": "O cumprimento eletrônico das citações e intimações pode ser feito **pela secretaria do juízo ou pelos oficiais de justiça** (`CNJ-R354 10 §1º`); não é ato privativo do oficial."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#73",
@@ -643,7 +978,21 @@
         "L11608 5 p.ú."
       ],
       "exp": "`Lei 11.608/03, art. 5º, IV`: nos **embargos à execução**, o recolhimento da taxa judiciária é **diferido para depois da satisfação da execução** quando comprovada, por meio idôneo, a **momentânea impossibilidade financeira**, ainda que parcial, e o `p.ú.` estende a regra a **pessoas físicas e jurídicas** (B). Por isso (A), (C) e (D) erram, e (E) acrescenta exigência de garantia que a lei não prevê.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Nos **embargos à execução**, a lei admite o **diferimento** da taxa judiciária para depois da satisfação da execução, comprovada a momentânea impossibilidade financeira (`L11608 5 IV`).",
+        "B": "Nos **embargos à execução**, a taxa é **diferida para depois da satisfação da execução** quando comprovada, por meio idôneo, a **momentânea impossibilidade financeira**, ainda que parcial (`L11608 5 IV`), regra que vale para **pessoas físicas e jurídicas** (`L11608 5 p.ú.`).",
+        "C": "Os **embargos à execução** estão expressamente entre as hipóteses de diferimento da taxa judiciária (`L11608 5 IV`).",
+        "D": "O diferimento da taxa judiciária aplica-se **a pessoas físicas e a pessoas jurídicas** (`L11608 5 p.ú.`).",
+        "E": "Para o diferimento basta comprovar, por meio idôneo, a **momentânea impossibilidade financeira** (`L11608 5`); a lei não exige garantia do futuro pagamento."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#74",
@@ -667,7 +1016,21 @@
         "L11608 7 III"
       ],
       "exp": "`Lei 11.608/03, art. 7º`: **não incide** a taxa judiciária nas causas **da jurisdição de menores** (I), **de acidentes do trabalho** (II) e nas **ações de alimentos** cuja prestação mensal **não supere 2 salários-mínimos** (III) (D). As ações de alimentos em geral só têm o recolhimento **diferido** (`art. 5º, I`), o que afasta (B) e (E); inventários e arrolamentos, ações indenizatórias e ações contra a Fazenda Pública não estão no rol, e a isenção do `art. 6º` beneficia os entes públicos, não a causa.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Nas causas de **acidentes do trabalho** não incide a taxa (`L11608 7 II`), mas **inventários e arrolamentos** pagam a taxa antes da adjudicação ou da homologação da partilha (`L11608 4 §7º`).",
+        "B": "**Inventários e arrolamentos** pagam a taxa (`L11608 4 §7º`), e nas ações de alimentos a taxa só não incide se a prestação mensal **não superar 2 salários-mínimos** (`L11608 7 III`); nas demais, o recolhimento pode ser **diferido** (`L11608 5 I`).",
+        "C": "Ações indenizatórias não estão no rol de não incidência; a lei afasta a taxa nas causas **da jurisdição de menores**, de **acidentes do trabalho** e nas ações de alimentos de até 2 salários-mínimos mensais (`L11608 7`).",
+        "D": "Não incide a taxa judiciária nas causas **da jurisdição de menores** e nas **de acidentes do trabalho** (`L11608 7 I`, `L11608 7 II`).",
+        "E": "A **isenção** do `L11608 6` beneficia os entes públicos e o Ministério Público, não a causa em que a Fazenda está no polo passivo; e as ações de alimentos só ficam livres da taxa se a prestação **não superar 2 salários-mínimos** (`L11608 7 III`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#75",
@@ -731,7 +1094,21 @@
         "Art. 310 está no Cap. IV, Seção VI (ofícios das Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; o edital 2026 cita 'NSCGJ 310'.",
         "§5º na redação do Prov. CG 36/2020 (45 dias; antes eram 30 dias prorrogáveis). Demais parágrafos do Prov. CGJ 11/2002. Redação igual em 2023 e na versão de 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Nas 24 horas anteriores ao vencimento, sem poder ultimar a diligência, o oficial **deve pedir dilação** do prazo, justificando a demora, **vedada a devolução sem integral cumprimento**, salvo autorização judicial (`NSCGJ 310 §6º`).",
+        "B": "O sistema de **carga única** é **mensal** e depende de autorização e controle do **Juiz Corregedor Permanente** (`NSCGJ 310 §4º`).",
+        "C": "Sem prazo na ordem judicial, os mandados são cumpridos em **45 dias**, ressalvado prazo menor genérico fixado pelo **Juiz Corregedor Permanente** (`NSCGJ 310 §5º`).",
+        "D": "Além da certidão e da assinatura do oficial no livro (`NSCGJ 310 §1º`), anotam-se **no sistema informatizado** a data da distribuição do mandado e o nome do oficial (`NSCGJ 310 §3º`).",
+        "E": "**Existindo seção designada** para as cargas, certifica-se nos autos só a expedição do mandado e remete-se o mandado à seção, que **vela pelo lançamento da assinatura** do oficial no livro próprio (`NSCGJ 310 §2º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#77",
@@ -759,7 +1136,21 @@
       "observacoes": [
         "Art. 410 está no Cap. IV, Seção XII (mandados de prisão e alvarás de soltura). Caput e §1º na redação do Prov. CGJ 43/2021, vigente na prova (2023) e na versão de 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O alvará de soltura é enviado à autoridade da custódia **obrigatoriamente por correio eletrônico institucional** do ofício de justiça (`NSCGJ 410`), que **confirma o recebimento por telefone** e anota nos autos quem recebeu, data e hora (`NSCGJ 410 §1º`).",
+        "B": "O envio é **obrigatoriamente por correio eletrônico institucional** (`NSCGJ 410`); não há escolha do juiz pelo mandado, e o oficial de plantão só atua se **não for obtida a confirmação** telefônica (`NSCGJ 410 §1º`).",
+        "C": "O alvará endereçado ao **juiz corregedor da cadeia ou presídio**, por carta precatória, e-mail ou fac-símile, é o de preso recolhido **em outra unidade da Federação** (`NSCGJ 410 §3º`).",
+        "D": "O alvará vai **por correio eletrônico institucional** (`NSCGJ 410`); o oficial de justiça de plantão só o cumpre quando **não se obtém a confirmação** telefônica do recebimento (`NSCGJ 410 §1º`).",
+        "E": "A confirmação do recebimento é feita pelo próprio ofício de justiça, **por telefone** (`NSCGJ 410 §1º`); não há confirmação por oficial de justiça em 48 horas."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2023#78",
@@ -786,7 +1177,21 @@
       "observacoes": [
         "Na prova (15/10/2023) a regra estava no art. 995 §§3º e 4º (redação do Prov. CG 17/2016). O Prov. CG 27/2023 (reforma do Cap. VII; data exata de vigência não confirmada, mas o gabarito da Q75/2023 segue o texto anterior a ele) suprimiu esses parágrafos (o art. 995 atual traz definições) e levou a mesma regra para o art. 1.000 §§3º e 4º ('NSCGJ 1000 §3º', 'NSCGJ 1000 §4º'), com redação equivalente. Se o coordenador preferir a numeração atual, troque os dispositivos."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O mandado para **audiência de conciliação** é cumprido e devolvido até **20 dias úteis** antes da data designada, e o de **qualquer outra audiência**, até **10 dias úteis** antes (`NSCGJ 995 §3º` e `NSCGJ 995 §4º` em 2023; hoje `NSCGJ 1000 §3º` e `NSCGJ 1000 §4º`).",
+        "B": "O mandado para **audiência de instrução e julgamento** é cumprido e devolvido até **10 dias úteis** antes da data designada, não 15 (`NSCGJ 995 §4º` em 2023; hoje `NSCGJ 1000 §4º`).",
+        "C": "O mandado para **audiência de conciliação** é cumprido e devolvido até **20 dias úteis** antes da data designada (`NSCGJ 995 §3º`), e o de **qualquer outra audiência**, como a de instrução, até **10 dias úteis** antes (`NSCGJ 995 §4º`). Hoje a regra está no `NSCGJ 1000 §3º` e no `NSCGJ 1000 §4º`, com o mesmo conteúdo.",
+        "D": "Os prazos são de **20 dias úteis** para a audiência de conciliação e de **10 dias úteis** para qualquer outra audiência, antes da data designada (`NSCGJ 995 §3º` e `NSCGJ 995 §4º` em 2023; hoje `NSCGJ 1000 §3º` e `NSCGJ 1000 §4º`).",
+        "E": "Os prazos contam-se para trás a partir da **data designada** para a audiência, não do recebimento do mandado: 20 dias úteis antes para a conciliação e 10 para as demais (`NSCGJ 995 §3º` e `NSCGJ 995 §4º` em 2023; hoje `NSCGJ 1000 §3º` e `NSCGJ 1000 §4º`)."
+      }
     }
   ]
 }
