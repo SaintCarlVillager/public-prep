@@ -1,0 +1,564 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025",
+  "textos": {
+    "T1": {
+      "titulo": "",
+      "texto": "A Universidade de Cambridge, onde Stephen Hawking realizou boa parte de suas contribuições, enfatizou que ele era uma “inspiração para milhões” de pessoas e deixa ao mundo “um legado indelével”. Em um comunicado, Stephen Toope, vice-reitor dessa instituição acadêmica, disse que o renomado professor era um “indivíduo único”, que será lembrado com “calor e carinho”, não só na universidade, mas também em todo o mundo.\n\n“Suas contribuições excepcionais para o conhecimento científico e a popularidade da ciência e da matemática deixaram um legado indelével”, afirmou a academia da universidade.",
+      "fonte": "https://www.estadao.com.br/ciencia, 14.03.2018. Adaptado"
+    },
+    "T2": {
+      "titulo": "Epidemia de violência de gênero tem de ser contida",
+      "texto": "Com a realização do Agosto Lilás, o Brasil dedicou um mês para desenvolver campanhas de conscientização e combate à violência contra a mulher, celebrando a Lei Maria da Penha. Mas, infelizmente, a realidade cruel que envolve esse tipo de crime se mostra implacável e, em meio aos eventos, a divulgação do Mapa Nacional da Violência de Gênero comprova que ainda há muito a ser feito.\n\nDivulgados na última semana, números organizados a partir de dados extraídos do Ministério da Justiça e Segurança Pública revelam que o país apresentou média de quatro feminicídios e 187 estupros de mulheres por dia no primeiro semestre de 2025. O levantamento detalha, ainda, que 718 mulheres morreram em razão do gênero de janeiro a junho deste ano, conforme os registros de ocorrências. O bárbaro diagnóstico expõe a falha nos mecanismos de proteção e escancara a gravidade desse contexto.\n\nUm recorte mais amplo mostra que, desde a criação da Lei do Feminicídio, em 2015, o Brasil contabilizou 12.380 vítimas desse crime, e a média de quatro homicídios por dia se repete há cinco anos. Esse roteiro de horror permanente precisa ser interrompido. É urgente que sejam adotadas medidas para melhorar a articulação para o enfrentamento da violência de gênero.\n\nAs estatísticas assustadoras não podem ser consideradas de interesse apenas da parcela da população que diariamente está na mira dos abusos domésticos e dos ataques nas ruas. E o tema não pode continuar sendo tratado como algo da esfera da moral e particular. Acabar com a violência contra as mulheres é uma responsabilidade da gestão pública e precisa ser encarada como prioridade.\n\nA sociedade brasileira não pode aceitar que o país se transforme, cada vez mais, em um território de perigo para meninas e mulheres. Essa epidemia de violência precisa ser contida, e o Estado, o Judiciário e as forças de segurança, especialmente as polícias especializadas, têm que executar ações de forma conjunta diante do quadro alarmante.\n\nO abuso sexual, a morte e a agressão por gênero não podem fazer parte do cotidiano nacional. As políticas públicas precisam amparar as mulheres presas em relacionamentos violentos, oferecendo a elas a certeza de que há caminho longe desse horror.",
+      "fonte": "Editorial. https://www.correiobraziliense.com.br/opiniao, 01.09.2025. Adaptado"
+    },
+    "T3": {
+      "titulo": "Passaporte da cultura",
+      "texto": "Ao lado dos brasileiros, o povo mais musical que tive o privilégio de conhecer são os cabo-verdianos. O amor incondicional que nutrem pelo país e pelos seus ritmos não tem paralelo. Um amor libertador, que não precisa possuir para se validar. Um amor não exigente, mas que se faz presente na língua que todos aprendem a falar desde o berço — ou melhor, a declamar e a cantar desde o ventre. Não é exagero: todos os cabo-verdianos que conheço são poetas.\n\nEmbora se reconheça Cesária Évora como sendo a voz que revelou a alma do arquipélago, existe nas montanhas longínquas do interior de Santiago um gênero que já sofrera os seus desafios de silenciamento. Uma música catártica, crua e negra com a qual gerações novas se reconciliaram e aprenderam a reivindicar a sua herança africana. A música continua a ser o passaporte da cultura cabo-verdiana no mundo. Está presente em todos os momentos marcantes da história do país, e é por meio dela que as memórias ancestrais são catalogadas e transportadas para o futuro.\n\nUm dos músicos mais celebrados da nação é Orlando Pantera, um cometa que viveu na terra por escassos 33 anos. Não gravou nenhum álbum, morreu no dia em que iniciaria, em Paris, as gravações do disco que confirmaria aquilo que os habitantes da ilha de Santiago já sabiam: era um gênio. E um dos poucos que conseguiu transportar para a canção o sentir das gentes dos campos, os esquecidos, os seus ritmos e desejos.",
+      "fonte": "Kalaf Epalanga. Minha pátria é a língua pretuguesa: Crônicas. 2023. Adaptado"
+    }
+  },
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#1",
+      "tipo": "me",
+      "numero": 1,
+      "texto": "T1",
+      "enunciado": "Com as informações do texto, conclui-se corretamente que Stephen Hawking",
+      "alt": {
+        "A": "é celebrado pela sua colaboração para a ciência e para a matemática.",
+        "B": "é considerado um professor renomado devido a seu carisma e carinho.",
+        "C": "teve um papel insignificante no desenvolvimento da ciência e da matemática.",
+        "D": "contribuiu para Stephen Toope tornar-se um renomado professor.",
+        "E": "foi incapaz de garantir mais popularidade à ciência e à matemática."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O 2º parágrafo cita as “contribuições excepcionais” de Hawking “para o conhecimento científico e a popularidade da ciência e da matemática”, o que mostra que ele é celebrado por essa colaboração. **Carinho** é como ele será lembrado, não a razão de ser renomado. Toope é só o vice-reitor que o elogia, e o texto afirma o contrário de **insignificante** e **incapaz**.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto diz que suas contribuições excepcionais ao conhecimento científico e à popularidade da ciência e da matemática deixaram um legado indelével: ele é celebrado por isso.",
+        "B": "O texto não atribui a fama do professor a **carisma**; “calor e carinho” é a forma como ele será lembrado, não a razão de ser renomado.",
+        "C": "O texto fala em “contribuições excepcionais” e “legado indelével”, o oposto de um papel **insignificante**.",
+        "D": "Toope é apenas o vice-reitor que comenta a importância de Hawking; o texto não diz que Hawking tenha contribuído para **ele** se tornar professor.",
+        "E": "O texto afirma que as contribuições de Hawking ampliaram a **popularidade** da ciência e da matemática, e não que ele foi incapaz de garanti-la."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#2",
+      "tipo": "me",
+      "numero": 2,
+      "texto": "T1",
+      "enunciado": "A Universidade de Cambridge, ______ Stephen Hawking dedicou boa parte de suas contribuições, considera o renomado professor como uma inspiração ______, ______ quais deixa um legado indelével.\n\nDe acordo com a norma-padrão, as lacunas da frase devem ser preenchidas, respectivamente, com:",
+      "alt": {
+        "A": "a qual … à pessoas em geral … as",
+        "B": "à qual … a milhões de pessoas … às",
+        "C": "à que … às pessoas do mundo … as",
+        "D": "à qual … à muitas pessoas … às",
+        "E": "a qual … as muitas pessoas … às"
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.crase"
+      ],
+      "dispositivos": [],
+      "exp": "“Dedicar algo **a** alguém” pede a preposição a; diante do relativo feminino “a qual” (a universidade) ela se funde com o artigo: “**à qual**”. Em “inspiração **a** milhões de pessoas” há só a preposição, pois “milhões” é masculino e não há crase diante de palavra masculina. “Deixar algo a alguém” com “as quais” (as pessoas) resulta em “**às** quais”.",
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#3",
+      "tipo": "me",
+      "numero": 3,
+      "texto": "T1",
+      "enunciado": "Na frase do 2º parágrafo “Suas contribuições **excepcionais** para o conhecimento científico e a popularidade da ciência e da matemática deixaram um legado **indelével**”..., os termos destacados significam, correta e respectivamente:",
+      "alt": {
+        "A": "brilhantes; permanente.",
+        "B": "relevantes; efêmero.",
+        "C": "prescindíveis; raro.",
+        "D": "excelentes; transitório.",
+        "E": "profícuas; transformador."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "“Excepcionais” é o que foge à regra por ser muito bom, daí **brilhantes**. “Indelével” é o que não se pode apagar, ou seja, **permanente**. As demais trazem o sentido contrário (“efêmero”, “transitório”, “prescindíveis”) ou outro sentido (“raro”, “profícuas”, “transformador”).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Excepcionais** é sinônimo de brilhantes, e **indelével** é o que não se apaga, é permanente.",
+        "B": "**Indelével** é o que não pode ser apagado, o oposto de **efêmero** (passageiro).",
+        "C": "Contribuições excepcionais são valiosas, o contrário de **prescindíveis** (dispensáveis); e indelével não é “raro”, mas duradouro.",
+        "D": "**Indelével** significa que não se apaga; **transitório** (passageiro) é seu antônimo.",
+        "E": "**Indelével** significa duradouro, que não se apaga; **transformador** é o que muda algo, outro sentido."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#4",
+      "tipo": "me",
+      "numero": 4,
+      "texto": "T1",
+      "enunciado": "Assinale a alternativa que atende à norma-padrão de concordância verbal, de regência e de colocação pronominal.",
+      "alt": {
+        "A": "A universidade e o mundo todo lembrarão de Stephen Hawking, o que é coerente ao seu perfil inspirador.",
+        "B": "Se lembrará a universidade e o mundo todo de Stephen Hawking, o que é coerente perante o seu perfil inspirador.",
+        "C": "A universidade e o mundo todo lembrar-se-ão de Stephen Hawking, o que é coerente com o seu perfil inspirador.",
+        "D": "Lembrarão-se de Stephen Hawking a universidade e o mundo todo, o que é coerente sobre o seu perfil inspirador.",
+        "E": "A universidade e o mundo todo se lembrará de Stephen Hawking, o que é coerente do seu perfil inspirador."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.concordancia.verbal",
+        "portugues.regencia.nominal",
+        "portugues.colocacao"
+      ],
+      "dispositivos": [],
+      "exp": "O sujeito composto (“a universidade e o mundo todo”) pede o verbo no plural. “Lembrar-se de” é pronominal e, no futuro do presente, o pronome vai em **mesóclise** (“lembrar-se-ão”), pois a ênclise não é admitida nesse tempo. O adjetivo “coerente” rege a preposição **com**. As demais erram a regência de “coerente” (“ao”, “perante”, “sobre”, “do”) e, conforme o caso, a concordância ou a colocação do pronome.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Coerente” não rege **a**; a regência é “coerente com”. Além disso, “lembrar-se de” é pronominal e, no futuro, pede mesóclise.",
+        "B": "Oração não pode começar por pronome átono (“Se lembrará”); o verbo deveria ir ao plural, e “coerente” rege **com**, e não “perante”.",
+        "C": "O sujeito composto leva o verbo ao plural, “lembrar-se de” fica em mesóclise no futuro e “coerente com” traz a regência correta.",
+        "D": "No futuro do presente a ênclise não é admitida (“lembrarão-se”); o certo é a mesóclise. Além disso, “coerente” rege **com**, e não “sobre”.",
+        "E": "O sujeito composto exige verbo no plural (“lembrarão”), e “coerente” rege **com**, e não “de”."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#5",
+      "tipo": "me",
+      "numero": 5,
+      "texto": "T1",
+      "enunciado": "Assinale a alternativa que atende à norma-padrão de pontuação e de emprego de pronome.",
+      "alt": {
+        "A": "Stephen Hawking contribuiu muito com a Universidade de Cambridge e era, uma inspiração para milhões de pessoas, deixando-as um legado indelével.",
+        "B": "Stephen Hawking que contribuiu muito com a Universidade de Cambridge, era uma inspiração para milhões de pessoas, deixando-lhes um legado indelével.",
+        "C": "Stephen Hawking, contribuiu muito com a Universidade de Cambridge, e era uma inspiração para milhões de pessoas, deixando-as um legado indelével.",
+        "D": "Stephen Hawking, que contribuiu muito com a Universidade de Cambridge, era uma inspiração para milhões de pessoas, deixando-lhes um legado indelével.",
+        "E": "Stephen Hawking contribuiu muito com a Universidade de Cambridge e era uma inspiração para milhões de pessoas, deixando-nas um legado indelével."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.pontuacao",
+        "portugues.classes.pronomes"
+      ],
+      "dispositivos": [],
+      "exp": "A oração adjetiva explicativa “que contribuiu muito com a Universidade de Cambridge” deve vir entre vírgulas. “Deixar algo a alguém” tem objeto indireto de pessoa, então o pronome é **lhes** (“deixando-lhes”); “as” e “nas” são formas de objeto direto. As demais separam termos que não se separam (verbo e predicativo, sujeito e verbo), omitem a vírgula antes de “que” ou usam o pronome errado.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A vírgula separa o verbo “era” de seu predicativo, o que é incorreto; além disso, “deixando-as” usa pronome de objeto direto onde se exige **lhes**.",
+        "B": "Sem a vírgula antes de “que”, a oração explicativa fica aberta, e a vírgula depois de “Cambridge” separa indevidamente o sujeito do verbo “era”.",
+        "C": "A vírgula depois de “Hawking” abre uma oração sem “que” e separa sujeito e verbo; além disso, “deixando-as” usa objeto direto onde se exige **lhes**.",
+        "D": "A oração explicativa está entre vírgulas, e “deixar algo a alguém” pede o pronome de objeto indireto **lhes**.",
+        "E": "“Deixar um legado a alguém” pede objeto indireto (**lhes**); além disso, a forma “nas” só aparece depois de verbo terminado em som nasal."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#6",
+      "tipo": "me",
+      "numero": 6,
+      "texto": "T2",
+      "enunciado": "As informações do editorial permitem inferir corretamente que",
+      "alt": {
+        "A": "as autoridades governamentais vêm demonstrando certa fragilidade no combate à violência contra a mulher, razão pela qual os dados confirmam a presença do feminicídio de forma tão intensa.",
+        "B": "o fato de a questão da violência contra as mulheres ser uma responsabilidade da gestão pública significa que o tema deva deixar de ser tratado como algo também da esfera da moral e particular.",
+        "C": "a criação da Lei do Feminicídio, em 2015, foi um marco relevante no combate à violência contra a mulher, e, desde então, os estudos comprovam que não houve uma escalada dos casos.",
+        "D": "a realização do Agosto Lilás coincidiu com a divulgação do Mapa Nacional da Violência de Gênero, que comprova que as Leis Maria da Penha e do Feminicídio obtiveram êxito além do esperado.",
+        "E": "os problemas relativos ao combate à violência contra a mulher interessam a um grupo específico da sociedade, então, as autoridades governamentais desconhecem as necessidades desse grupo."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O editorial diz que os números “expõem a falha nos mecanismos de proteção” e cobra ação da gestão pública; infere-se que há fragilidade no combate e que ela se reflete na intensidade do feminicídio. As demais distorcem o texto: o tema **não pode** ser tratado apenas como assunto moral e particular; a média de quatro mortes por dia se mantém há cinco anos; o Mapa mostra que “há muito a ser feito”; e o texto rejeita que a questão interesse só a um grupo.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O editorial fala em “falha nos mecanismos de proteção” e cobra ação do poder público, o que permite inferir fragilidade no combate, refletida nos números de feminicídios.",
+        "B": "O texto diz que o tema “não pode continuar” sendo tratado como assunto da esfera moral e particular, o que contradiz a ideia de que ele **também** deva ser tratado assim.",
+        "C": "O texto afirma que a média de quatro homicídios por dia se repete há cinco anos, o que indica que **não houve** queda; não se fala em estudos que provem ausência de escalada.",
+        "D": "O Mapa mostra que “ainda há muito a ser feito”, ou seja, não indica que as leis tenham tido **êxito além do esperado**.",
+        "E": "O texto diz que as estatísticas **não** são de interesse só de uma parcela da população e não afirma que as autoridades desconhecem as necessidades dela."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#7",
+      "tipo": "me",
+      "numero": 7,
+      "texto": "T2",
+      "enunciado": "No texto, o assombro com a violência que vitima as mulheres aparece expresso em palavras por meio de um substantivo, um adjetivo e um advérbio, correta e respectivamente destacados nas passagens:",
+      "alt": {
+        "A": "... as mulheres presas em **relacionamentos** violentos... (6º parágrafo) / ... diante do quadro **alarmante**. (5º parágrafo) / ... **diariamente** está na mira... (4º parágrafo)",
+        "B": "... há caminho longe desse **horror**... (6º parágrafo) / O **bárbaro** diagnóstico expõe a falha... (2º parágrafo) / Mas, **infelizmente**, a realidade cruel... (1º parágrafo)",
+        "C": "Um **recorte** mais amplo mostra... (3º parágrafo) / As estatísticas **assustadoras** não podem... (4º parágrafo) / ... há caminho **longe** desse horror... (6º parágrafo)",
+        "D": "... escancara a **gravidade** desse contexto. (3º parágrafo) / Esse roteiro de horror **permanente**... (3º parágrafo) / ... **especialmente** as polícias especializadas... (5º parágrafo)",
+        "E": "O bárbaro **diagnóstico** expõe a falha... (2º parágrafo) / Um recorte mais **amplo** mostra... (3º parágrafo) / ... **ainda** há muito a ser feito. (1º parágrafo)"
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.classes.nomes",
+        "portugues.classes.adverbios"
+      ],
+      "dispositivos": [],
+      "exp": "Na alternativa B, “horror” é substantivo que traduz o assombro, “bárbaro” é adjetivo que qualifica “diagnóstico” e “infelizmente” é advérbio de modo que expressa a avaliação negativa. Nas demais aparecem palavras neutras (“relacionamentos”, “recorte”, “diagnóstico”), adjetivos sem carga de assombro (“amplo”, “permanente”) ou advérbios que não o expressam (“diariamente”, “longe”, “especialmente”, “ainda”).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Relacionamentos” e “diariamente” não expressam assombro; apenas “alarmante” (adjetivo) traduz essa ideia.",
+        "B": "“Horror” (substantivo), “bárbaro” (adjetivo) e “infelizmente” (advérbio) expressam, nessa ordem, o assombro com a violência.",
+        "C": "“Recorte” é substantivo neutro, e “longe” é advérbio de lugar, sem carga de assombro.",
+        "D": "“Permanente” e “especialmente” não manifestam assombro; o primeiro indica duração, e o segundo, destaque.",
+        "E": "“Diagnóstico” e “amplo” não exprimem assombro, e “ainda” é advérbio de tempo."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#8",
+      "tipo": "me",
+      "numero": 8,
+      "texto": "T2",
+      "enunciado": "Na oração do 1º parágrafo “... a realidade cruel que envolve esse tipo de crime se mostra **implacável**...”, o termo destacado é antônimo de",
+      "alt": {
+        "A": "arrojada.",
+        "B": "intolerante.",
+        "C": "compassiva.",
+        "D": "impassiva.",
+        "E": "exigente."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "“Implacável” é o que não se deixa abrandar, não tem piedade. Seu antônimo é **compassiva**, aquela que sente compaixão. “Intolerante”, “impassiva” e “exigente” são próximas de “implacável”, e “arrojada” (ousada) não tem relação de oposição.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Arrojada** quer dizer ousada, corajosa; não é oposta a implacável.",
+        "B": "**Intolerante** é quem não admite o diferente, sentido próximo (não oposto) ao de implacável.",
+        "C": "**Compassiva** é a que sente compaixão e se deixa abrandar, o oposto de implacável.",
+        "D": "**Impassiva** é a que não se abala, ideia próxima à de implacável, e não oposta.",
+        "E": "**Exigente** é quem cobra muito, sentido que se aproxima de implacável."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#9",
+      "tipo": "me",
+      "numero": 9,
+      "texto": "T2",
+      "enunciado": "Com a realização do Agosto Lilás, o Brasil dedicou um mês para desenvolver campanhas de conscientização e combate à violência contra a mulher, celebrando a Lei Maria da Penha. Mas, infelizmente, a realidade cruel que envolve esse tipo de crime se mostra implacável e, em meio aos eventos, a divulgação do Mapa Nacional da Violência de Gênero comprova que ainda há muito a ser feito. (1º parágrafo)\n\nOs termos “**Com**”, “**para**”, “**Mas**” e “**e**” estabelecem, correta e respectivamente, relações de sentido de:",
+      "alt": {
+        "A": "meio, conformidade, conclusão e oposição.",
+        "B": "modo, conformidade, oposição e conclusão.",
+        "C": "causa, consequência, adição e conclusão.",
+        "D": "modo, finalidade, conclusão e adição.",
+        "E": "meio, finalidade, oposição e adição."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.coesao.conectivos",
+        "portugues.coesao.relacoes"
+      ],
+      "dispositivos": [],
+      "exp": "“Com a realização do Agosto Lilás” indica o **meio** pelo qual o Brasil dedicou um mês às campanhas; “para desenvolver campanhas” indica **finalidade**; “Mas” opõe a realidade cruel ao que foi celebrado (**oposição**); e “e” liga duas informações do mesmo grupo (**adição**).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "“Para” indica finalidade, e não conformidade; “mas” expressa oposição, e não conclusão; “e” soma ideias, e não opõe.",
+        "B": "“Com” traz o meio da ação, e não o modo; “para” exprime finalidade, e não conformidade; e “e” soma, sem concluir.",
+        "C": "“Com” não indica causa, “para” não marca consequência, e “mas” exprime oposição, e não adição.",
+        "D": "“Com” indica o meio, e não o modo, e “mas” expressa oposição, e não conclusão.",
+        "E": "“Com” indica o meio, “para” a finalidade, “mas” a oposição e “e” a adição."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#10",
+      "tipo": "me",
+      "numero": 10,
+      "texto": "T2",
+      "enunciado": "Há uma relação de consequência e causa, nessa ordem, explicitada na passagem:",
+      "alt": {
+        "A": "... desde a criação da Lei do Feminicídio, em 2015, o Brasil contabilizou 12.380 vítimas desse crime... (3º parágrafo)",
+        "B": "... o Estado, o Judiciário e as forças de segurança, especialmente as polícias especializadas, têm que executar ações de forma conjunta... (5º parágrafo)",
+        "C": "... 718 mulheres morreram em razão do gênero de janeiro a junho deste ano, conforme os registros de ocorrências. (2º parágrafo)",
+        "D": "... a divulgação do Mapa Nacional da Violência de Gênero comprova que ainda há muito a ser feito. (1º parágrafo)",
+        "E": "... o país apresentou média de quatro feminicídios e 187 estupros de mulheres por dia no primeiro semestre de 2025. (2º parágrafo)"
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.coesao.relacoes"
+      ],
+      "dispositivos": [],
+      "exp": "Em “718 mulheres morreram **em razão do** gênero”, a primeira parte (as mortes) é a consequência, e o que vem depois da locução “em razão de” (o gênero) é a causa. Em “conforme os registros” há conformidade, não causa. As demais passagens não trazem essa relação: marcam tempo (“desde”), modo (“de forma conjunta”), constatação ou apenas apresentam dados.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Desde” marca ponto de partida no tempo, e não causa.",
+        "B": "“De forma conjunta” expressa modo, sem relação de causa e consequência.",
+        "C": "A locução “em razão de” introduz a causa (o gênero) das mortes, que são a consequência.",
+        "D": "A passagem relaciona a divulgação e a constatação de que falta muito a fazer, sem expressar causa ou consequência.",
+        "E": "A passagem apresenta dados de um período, sem conectivo de causa ou consequência."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#11",
+      "tipo": "me",
+      "numero": 11,
+      "texto": "T3",
+      "enunciado": "Da perspectiva apresentada pelo cronista, conclui-se corretamente que",
+      "alt": {
+        "A": "brasileiros e cabo-verdianos são povos intensamente musicais, sendo estes caracterizados por expressarem por meio das canções o seu amor ao país em que vivem.",
+        "B": "memórias ancestrais encontram na música dos brasileiros e dos cabo-verdianos a forma de serem transportadas para o futuro, sendo a voz daqueles a mais celebrada.",
+        "C": "montanhas longínquas do interior de Santiago abrigam as tristezas do povo cabo-verdiano, que busca inspirações nas canções dos brasileiros para romper o silenciamento.",
+        "D": "todos os cabo-verdianos nutrem amor pela música, que passam a amar intensamente depois de nascerem e por meio da qual buscam expressar suas memórias.",
+        "E": "cantores como Cesária Évora e Orlando Pantera ratificam a superioridade de Cabo Verde em relação a outros países, principalmente o Brasil, cujo povo é bem musical."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O cronista diz que, “ao lado dos brasileiros”, os cabo-verdianos são o povo mais musical que conheceu, e que o amor deles pelo país e pelos ritmos se expressa na língua e na música. A alternativa A resume isso. As outras extrapolam o texto: as memórias ancestrais são ligadas só à música cabo-verdiana, o amor vem “desde o berço”, o gênero das montanhas de Santiago não busca inspiração no Brasil e não há afirmação de superioridade.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto coloca brasileiros e cabo-verdianos como os povos mais musicais e mostra o amor dos cabo-verdianos pelo país e por seus ritmos expresso na música.",
+        "B": "O texto liga as memórias ancestrais à música cabo-verdiana, sem comparar qual das vozes é a mais celebrada entre os dois povos.",
+        "C": "O texto cita montanhas de Santiago como origem de um gênero musical, sem falar em tristezas nem em inspiração buscada nas canções dos brasileiros.",
+        "D": "O texto diz que os cabo-verdianos aprendem a língua “desde o berço” e a cantar “desde o ventre”: o amor não surge depois de nascerem.",
+        "E": "O cronista não afirma superioridade de Cabo Verde sobre outros países; apenas coloca os dois povos lado a lado como muito musicais."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#12",
+      "tipo": "me",
+      "numero": 12,
+      "texto": "T3",
+      "enunciado": "Identifica-se termo empregado em sentido figurado, destacado em negrito, na passagem:",
+      "alt": {
+        "A": "Um dos músicos mais celebrados da nação é Orlando Pantera, um **cometa** que viveu na terra... (2º parágrafo)",
+        "B": "O amor incondicional que nutrem pelo **país** e pelos seus ritmos não tem paralelo... (1º parágrafo)",
+        "C": "Embora se reconheça Cesária Évora como sendo a voz que revelou a alma do **arquipélago**... (2º parágrafo)",
+        "D": "A **música** continua a ser o passaporte da cultura cabo-verdiana no mundo. (2º parágrafo)",
+        "E": "... as gravações do disco que confirmaria aquilo que os **habitantes** da ilha de Santiago já sabiam... (3º parágrafo)"
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.semantica.denotacao",
+        "portugues.figuras"
+      ],
+      "dispositivos": [],
+      "exp": "Em “um **cometa** que viveu na terra por escassos 33 anos”, o cantor é comparado a um corpo celeste que passa rápido e brilha: sentido figurado (metáfora). “País”, “arquipélago”, “música” e “habitantes” aparecem no sentido próprio, de dicionário.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Cometa” não designa aqui o astro, mas Orlando Pantera, que brilhou e viveu pouco: metáfora, ou seja, sentido figurado.",
+        "B": "“País” está no sentido próprio, o território e a nação de Cabo Verde.",
+        "C": "“Arquipélago” designa literalmente o conjunto de ilhas de Cabo Verde; o sentido figurado está em “alma”, e não no termo destacado.",
+        "D": "“Música” é empregada no sentido próprio, como arte; o figurado está em “passaporte”.",
+        "E": "“Habitantes” indica literalmente quem vive na ilha, no sentido próprio."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#13",
+      "tipo": "me",
+      "numero": 13,
+      "texto": "T3",
+      "enunciado": "Considere as passagens:\n\n• O amor **incondicional** que nutrem pelo país e pelos seus ritmos não tem paralelo. (1º parágrafo)\n• Uma música **catártica**, crua e negra com a qual gerações novas se reconciliaram e aprenderam a reivindicar a sua herança africana. (2º parágrafo)\n• E um dos poucos que conseguiu **transportar** para a canção o sentir das gentes dos campos, os esquecidos, os seus ritmos e desejos. (3º parágrafo)\n\nNo contexto em que estão empregados, os termos destacados significam, correta e respectivamente:",
+      "alt": {
+        "A": "impingido; imutável; comunicar.",
+        "B": "consensual; intensa; remontar.",
+        "C": "ilimitado; perturbadora; restringir.",
+        "D": "irrestrito; libertadora; passar.",
+        "E": "hesitante; antiquada, levar."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.semantica.contextual",
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "“Incondicional” é o que não depende de condições, **irrestrito**. “Catártica” liga-se a catarse, purificação, daí **libertadora**. “Transportar para a canção” é levar, **passar** o sentir das gentes para a música. As outras trazem sentidos que o contexto não autoriza (“impingido”, “imutável”, “perturbadora”, “restringir”, “hesitante”, “antiquada”).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Incondicional** não é “impingido” (imposto), e **catártica** não significa “imutável”.",
+        "B": "**Incondicional** não é “consensual”, e **catártica** não indica intensidade, mas purificação, libertação.",
+        "C": "**Catártica** vem de catarse, que liberta; não significa “perturbadora”, e **transportar** não equivale a “restringir”.",
+        "D": "**Incondicional** é sem condições, irrestrito; **catártica** é purificadora, libertadora; e **transportar** a canção é passar o sentir das gentes para ela.",
+        "E": "**Incondicional** não significa “hesitante” (que duvida), e **catártica** não significa “antiquada” (ultrapassada)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#14",
+      "tipo": "me",
+      "numero": 14,
+      "texto": "T3",
+      "enunciado": "A concordância verbal está em conformidade com a norma-padrão em:",
+      "alt": {
+        "A": "Orlando Pantera transpõem para a canção o sentir das gentes dos campos, os esquecidos.",
+        "B": "Para os cabo-verdianos, o país e os seus ritmos conta com um amor que não tem paralelo.",
+        "C": "Todos os momentos marcantes da história de Cabo Verde dispõe da presença da música.",
+        "D": "Em Cabo Verde, houveram artistas cujas músicas remetem às memórias ancestrais.",
+        "E": "São poucos que mantêm uma relação com o sentir das gentes, como Orlando Pantera."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.concordancia.verbal"
+      ],
+      "dispositivos": [],
+      "exp": "Em “São poucos que mantêm”, o verbo “ser” concorda com o predicativo “poucos”, e “mantêm” (plural, com acento) concorda com o relativo “que”, cujo antecedente é “poucos”. Nas demais: o sujeito de “transpõe” é singular (“Orlando Pantera”); o sujeito composto exige “contam”; “momentos” exige “dispõem”; e “haver” no sentido de existir é impessoal (“houve”).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O sujeito é singular (“Orlando Pantera”), então o verbo deve ficar no singular: transpõe.",
+        "B": "O sujeito composto “o país e os seus ritmos” exige verbo no plural: contam.",
+        "C": "O sujeito “Todos os momentos marcantes” é plural, e o verbo deve ficar no plural: dispõem.",
+        "D": "“Haver” com o sentido de existir é impessoal e fica no singular: houve.",
+        "E": "O verbo “ser” concorda com o predicativo plural “poucos”, e “mantêm” concorda com o relativo “que”, que retoma “poucos”."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#15",
+      "tipo": "me",
+      "numero": 15,
+      "texto": "T3",
+      "enunciado": "Considere as passagens:\n\n• ... mas que se faz presente na língua que todos aprendem a falar desde o berço — ou melhor, a declamar e a cantar desde o ventre. (1º parágrafo)\n• ... morreu no dia em que iniciaria, em Paris, as gravações do disco... (3º parágrafo)\n\nAs vírgulas empregadas nas passagens transcritas apresentam o mesmo motivo de emprego, respectivamente, nas expressões destacadas em:",
+      "alt": {
+        "A": "O que o cidadão pretende, **por enquanto**, é que se acelerem as principais obras urbanas. / Tudo que ele via naquele momento, **na entrada de casa**, era seus bons amigos chegando.",
+        "B": "Durante a conversa com leitores, o autor explorou grandes temas, **a saber**, política, liberdade e justiça. / O livro era um marco na história da editora que, **bem famosa**, seria reinaugurada.",
+        "C": "Ao ponderar sobre os negócios, **no entanto**, ele não sabia que havia informações obscuras. / Era preciso entender que, **na condição precária do carro**, um acidente era quase inevitável.",
+        "D": "Todos esperavam um reajuste no salário, **por isso**, já estavam fazendo planos com o dinheiro. / O rosto do rapaz estava marcado, **de fato**, **por lágrimas**, que sugeriam seu sofrimento.",
+        "E": "O livro que ele escreveu era muito ruim, **isto é**, nem deveria ter sido publicado. / Era preciso que a professora organizasse, **na sala**, um debate sobre o tema."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.pontuacao"
+      ],
+      "dispositivos": [],
+      "exp": "Na primeira passagem, as vírgulas isolam a expressão de retificação/explicação “ou melhor”; na segunda, isolam o adjunto adverbial de lugar “em Paris”, intercalado. Na alternativa E, “isto é” é expressão explicativa, e “na sala” é adjunto adverbial de lugar intercalado: os mesmos motivos, na mesma ordem. As demais combinam motivos diferentes (adjunto de tempo, conjunção, aposto, adjunto de modo, expressão de realce).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "“Por enquanto” é adjunto adverbial de tempo, e não expressão de retificação ou explicação como “ou melhor”.",
+        "B": "“A saber” é expressão explicativa, mas “bem famosa” é termo explicativo intercalado, e não adjunto adverbial de lugar como “em Paris”.",
+        "C": "“No entanto” é conjunção adversativa intercalada, e “na condição precária do carro” é adjunto adverbial de modo; nenhum coincide com os motivos pedidos.",
+        "D": "“Por isso” é conjunção conclusiva, e “de fato” é expressão de realce; nenhuma corresponde a expressão de retificação nem a adjunto de lugar.",
+        "E": "“Isto é” é expressão explicativa, como “ou melhor”, e “na sala” é adjunto adverbial de lugar intercalado, como “em Paris”."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2025#16",
+      "tipo": "me",
+      "numero": 16,
+      "enunciado": "Considere as informações:\n\n• Estigma ______ por mulheres asiáticas que pedem divórcio\n(https://www.terra.com.br/noticias, 31.08.2025. Adaptado.)\n\n• Quando, a energia elétrica caiu em praticamente toda a Península Ibérica, em Madri, era meio-dia e ______. O que se seguiu a partir daí foi o que se espera em situações como essa: caos.\n(https://www.nexojornal.com.br, 30.04.2025. Adaptado.)\n\n• NASA trouxe para Terra ______ gramas de um tipo de asteroide que “pode ter acelerado o surgimento da vida”\n(https://expresso.pt/sociedade/ciencia, 27.09.2023. Adaptado)\n\nDe acordo com a norma-padrão, as lacunas das frases devem ser preenchidas, respectivamente, com:",
+      "alt": {
+        "A": "enfrentada … meia … duzentas e cinquenta",
+        "B": "enfrentado … meia … duzentos e cinquenta",
+        "C": "enfrentado … meio … duzentos e cinquenta",
+        "D": "enfrentados … meio … duzentas e cinquenta",
+        "E": "enfrentada … meio … duzentas e cinquenta"
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.concordancia.nominal",
+        "portugues.classes.nomes"
+      ],
+      "dispositivos": [],
+      "exp": "No título, o particípio concorda com “estigma”, substantivo masculino singular: **enfrentado**. Em “meio-dia e meia”, “meia” subentende “meia hora”, feminino. Na norma-padrão, “grama” (unidade de massa) é substantivo masculino, e o numeral concorda no masculino: **duzentos** e cinquenta gramas.",
+      "observacoes": [
+        "Pela norma-padrão, “grama” como unidade de massa é masculino (“o grama”), o que sustenta o gabarito; o uso corrente no feminino (“duzentas gramas”) é popular."
+      ],
+      "pendencias": []
+    }
+  ]
+}
