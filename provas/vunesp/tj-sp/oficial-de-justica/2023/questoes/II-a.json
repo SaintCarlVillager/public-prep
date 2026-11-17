@@ -1,0 +1,614 @@
+{
+  "prova": "vunesp/tj-sp/oficial-de-justica/2023",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#21",
+      "tipo": "me",
+      "numero": 21,
+      "enunciado": "Imagine que, pelo mesmo fato e crime, acusado fora condenado no Brasil à pena de 4 anos e no estrangeiro à pena de 3 anos, ambas transitadas em julgado. Depois de ter cumprido 2 anos de pena no estrangeiro, o acusado foge e é capturado no Brasil. Aqui, cumprirá mais",
+      "alt": {
+        "A": "1 ano.",
+        "B": "4 anos.",
+        "C": "1 ano, mas apenas se homologado o cumprimento da sentença estrangeira ao Brasil.",
+        "D": "5 anos.",
+        "E": "2 anos."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.aplicacao",
+        "penal.penas"
+      ],
+      "dispositivos": [
+        "CP 8"
+      ],
+      "exp": "Pela regra do `CP 8`, a pena cumprida no estrangeiro **é computada** na imposta no Brasil quando idênticas (e a atenua quando diversas). Como ambas são privativas de liberdade, desconta-se o tempo cumprido: 4 − 2 = **2 anos**. A (1 ano) desconta erradamente a pena estrangeira inteira (4 − 3); B e D ignoram o cômputo; C inventa a exigência de homologação, que o `CP 9` só prevê para outros efeitos da sentença estrangeira."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#22",
+      "tipo": "me",
+      "numero": 22,
+      "enunciado": "O dia do começo _____ no cômputo do prazo. Contam-se os dias, os meses e os anos pelo calendário _____. Desprezam-se, nas penas privativas de liberdade e nas restritivas de direitos, as frações de _____.\nAssinale a alternativa que completa, correta e respectivamente, as lacunas.",
+      "alt": {
+        "A": "exclui-se ... civil ... hora",
+        "B": "exclui-se ... comum ... dia",
+        "C": "inclui-se ... civil ... hora",
+        "D": "exclui-se ... comercial ... dia",
+        "E": "inclui-se ... comum ... dia"
+      },
+      "gab": "E",
+      "temas": [
+        "penal.penas",
+        "penal.aplicacao"
+      ],
+      "dispositivos": [
+        "CP 10",
+        "CP 11"
+      ],
+      "exp": "O `CP 10` manda **incluir** o dia do começo no cômputo do prazo penal e contar dias, meses e anos pelo **calendário comum**; o `CP 11` manda desprezar, nas penas privativas de liberdade e restritivas de direitos, as **frações de dia** (e, na multa, as frações de cruzeiro). As alternativas com \"exclui-se\" confundem com a regra do prazo processual (`CPP 798 §1º`), e \"civil\", \"comercial\" e \"hora\" não constam da lei."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#23",
+      "tipo": "me",
+      "numero": 23,
+      "enunciado": "Nos exatos termos do art. 100, § 3º, do CP, a ação de iniciativa privada pode intentar-se nos crimes de ação pública, se",
+      "alt": {
+        "A": "houver dúvida quanto à tipificação legal.",
+        "B": "o Ministério Público requerer o arquivamento dos autos.",
+        "C": "for oferecido acordo de não persecução penal ao acusado.",
+        "D": "o Ministério Público não oferecer denúncia no prazo legal.",
+        "E": "a vítima, ou seu representante legal, não concordar com o arquivamento do inquérito policial."
+      },
+      "gab": "D",
+      "temas": [
+        "penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CP 100 §3º"
+      ],
+      "exp": "Literal do `CP 100 §3º`: a ação privada subsidiária cabe quando **o Ministério Público não oferece denúncia no prazo legal** (também `CPP 29` e `CF 5º LIX`). Pressupõe inércia do MP: se ele pede arquivamento (B), não houve inércia, e a discordância da vítima com o arquivamento (E) não abre a via subsidiária. Dúvida de tipificação (A) e oferta de ANPP (C) também não são hipóteses legais."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#24",
+      "tipo": "me",
+      "numero": 24,
+      "enunciado": "As penas restritivas de direitos",
+      "alt": {
+        "A": "prescrevem nos mesmos prazos previstos para a pena privativa de liberdade.",
+        "B": "não prescrevem.",
+        "C": "prescrevem nos prazos estabelecidos na lei civil, por não terem natureza penal.",
+        "D": "prescrevem nos mesmos prazos previstos para a pena de multa.",
+        "E": "prescrevem em 2 (dois) anos, quando as restritivas de direitos forem as únicas cominadas ou aplicadas."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.extincao-punibilidade",
+        "penal.penas"
+      ],
+      "dispositivos": [
+        "CP 109 p.ú."
+      ],
+      "exp": "Segundo o `CP 109 p.ú.`, aplicam-se às penas restritivas de direitos **os mesmos prazos previstos para as privativas de liberdade**. Por isso erram B (elas prescrevem), C (têm natureza penal e seguem o CP), D e E (o prazo de 2 anos do `CP 114 I` é o da pena de multa quando for a única cominada ou aplicada)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#25",
+      "tipo": "me",
+      "numero": 25,
+      "enunciado": "A pena do homicídio é aumentada de 1/3 (um terço) até a metade se o crime for cometido contra pessoa com deficiência ou com doença que implique o aumento de sua vulnerabilidade, desde que a vítima seja, ainda,",
+      "alt": {
+        "A": "tutelada ou curatelada pelo autor.",
+        "B": "descendente do autor.",
+        "C": "menor de 14 anos.",
+        "D": "mulher e o homicídio seja praticado em situação de menosprezo ou discriminação à condição de mulher.",
+        "E": "mulher e o homicídio seja praticado em situação de violência doméstica ou familiar."
+      },
+      "gab": "C",
+      "temas": [
+        "penal.pessoa"
+      ],
+      "dispositivos": [
+        "CP 121 §2º IX",
+        "CP 121 §2º-B I",
+        "CP 121-A §1º"
+      ],
+      "exp": "O `CP 121 §2º-B I`, incluído pela Lei 14.344/2022 (Lei Henry Borel), aumenta de 1/3 até a metade a pena do homicídio **contra menor de 14 anos** (qualificadora do `CP 121 §2º IX`) se a vítima é pessoa com deficiência ou com doença que implique aumento de sua vulnerabilidade. Ser descendente ou tutelado/curatelado do autor (B e A) leva a outra majorante, de 2/3 (`CP 121 §2º-B II`), e não é a hipótese do inciso I. D e E descrevem as **razões da condição de sexo feminino** do feminicídio, hoje crime autônomo (`CP 121-A §1º`), e não a majorante perguntada.",
+      "observacoes": [
+        "O §2º-B do CP 121 manteve numeração e redação após a Lei 14.994/2024. Na data da prova (2023), o feminicídio era qualificadora do CP 121 §2º VI, com as razões de condição de sexo feminino no §2º-A I e II (violência doméstica e familiar; menosprezo ou discriminação à condição de mulher); a Lei 14.994/2024 revogou esses dispositivos e criou o crime autônomo do CP 121-A, cujo §1º I e II reproduz as duas hipóteses."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html (planalto.gov.br recusou a conexão duas vezes)"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#26",
+      "tipo": "me",
+      "numero": 26,
+      "enunciado": "Sob a denominação de lesão corporal grave o CP agrupa dois níveis de consequências. O primeiro, que tem pena de 1 a 5 anos, e o segundo, que tem pena de 2 a 8 anos. Assinale a alternativa que apresenta, apenas, hipóteses de lesão corporal do primeiro grupo.",
+      "alt": {
+        "A": "Perigo de vida; debilidade permanente de membro, sentido ou função.",
+        "B": "Aborto; perigo de vida.",
+        "C": "Deformidade permanente; incapacidade permanente para o trabalho.",
+        "D": "Aceleração de parto; enfermidade incurável.",
+        "E": "Inutilização do membro, sentido ou função; incapacidade para as ocupações habituais, por mais de trinta dias."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.pessoa"
+      ],
+      "dispositivos": [
+        "CP 129 §1º",
+        "CP 129 §2º"
+      ],
+      "exp": "A lesão grave do `CP 129 §1º` (reclusão de 1 a 5 anos) abrange incapacidade para as ocupações habituais por mais de 30 dias, **perigo de vida**, **debilidade permanente** de membro, sentido ou função e aceleração de parto. O `CP 129 §2º` (reclusão de 2 a 8 anos, a chamada gravíssima) traz incapacidade permanente para o trabalho, enfermidade incurável, perda ou inutilização de membro, sentido ou função, deformidade permanente e aborto. B, C, D e E misturam hipóteses do §2º."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#27",
+      "tipo": "me",
+      "numero": 27,
+      "enunciado": "Crime que tem a pena aumentada quando cometido por funcionário público que se prevalece do cargo:",
+      "alt": {
+        "A": "reprodução ou adulteração de selo ou peça filatélica.",
+        "B": "falsificação do selo ou sinal público.",
+        "C": "falsidade material de atestado ou certidão.",
+        "D": "falsificação de documento particular.",
+        "E": "falsidade de atestado médico."
+      },
+      "gab": "B",
+      "temas": [
+        "penal.fe-publica"
+      ],
+      "dispositivos": [
+        "CP 296 §2º"
+      ],
+      "exp": "O `CP 296 §2º` aumenta de sexta parte a pena da **falsificação do selo ou sinal público** se o agente é funcionário público e comete o crime prevalecendo-se do cargo (regra que também existe para o documento público, `CP 297 §1º`). Os tipos de falsificação de documento particular (`CP 298`), falsidade material de atestado ou certidão (`CP 301 §1º`), falsidade de atestado médico (`CP 302`) e reprodução ou adulteração de selo ou peça filatélica (`CP 303`) não têm essa causa de aumento."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#28",
+      "tipo": "me",
+      "numero": 28,
+      "enunciado": "Imagine que um funcionário público tenha a posse de um automóvel particular, em função do cargo que exerce. Imagine, ainda, que tendo ciência de que o proprietário do automóvel faleceu, o funcionário apropria-se de tal bem. É correto afirmar que houve",
+      "alt": {
+        "A": "prevaricação.",
+        "B": "excesso de exação.",
+        "C": "conduta atípica, passível de apuração na esfera funcional.",
+        "D": "concussão.",
+        "E": "peculato."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.administracao-publica.funcionario"
+      ],
+      "dispositivos": [
+        "CP 312"
+      ],
+      "exp": "Há **peculato-apropriação** (`CP 312`): o funcionário se apropria de bem móvel, **público ou particular**, de que tem a posse em razão do cargo. Não é concussão (`CP 316`), que exige a exigência de vantagem indevida; nem excesso de exação (`CP 316 §1º`), ligado à cobrança de tributo; nem prevaricação (`CP 319`), que é retardar ou deixar de praticar ato de ofício para satisfazer interesse pessoal. A conduta é típica, por isso C erra."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#29",
+      "tipo": "me",
+      "numero": 29,
+      "enunciado": "Configura-se o crime de denunciação caluniosa na seguinte hipótese:",
+      "alt": {
+        "A": "provocar a ação de autoridade, comunicando-lhe a ocorrência de crime ou de contravenção que sabe não se ter verificado.",
+        "B": "acusar-se, perante a autoridade, de crime inexistente.",
+        "C": "dar causa à instauração de processo administrativo disciplinar contra alguém, imputando-lhe infração ético-disciplinar de que o sabe inocente.",
+        "D": "acusar-se, perante a autoridade, de crime praticado por outrem.",
+        "E": "caluniar alguém, imputando-lhe falsamente fato definido como crime."
+      },
+      "gab": "C",
+      "temas": [
+        "penal.administracao-justica"
+      ],
+      "dispositivos": [
+        "CP 339",
+        "CP 340",
+        "CP 341",
+        "CP 138"
+      ],
+      "exp": "Pelo `CP 339`, com a redação da Lei 14.110/2020, a denunciação caluniosa abrange dar causa à instauração de **processo administrativo disciplinar** contra alguém, imputando-lhe crime, infração ético-disciplinar ou ato ímprobo de que o sabe inocente. A descreve a comunicação falsa de crime ou de contravenção (`CP 340`); B e D, a autoacusação falsa (`CP 341`); E, a calúnia (`CP 138`), crime contra a honra."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#30",
+      "tipo": "me",
+      "numero": 30,
+      "enunciado": "Assinale a alternativa correta no que concerne à ação penal, segundo o Código de Processo Penal (CPP, art. 24 a 42).",
+      "alt": {
+        "A": "Seja qual for o crime, quando praticado em detrimento do patrimônio ou interesse da União, Estado e Município, dependerá de requisição do órgão ofendido.",
+        "B": "A representação será retratável a qualquer momento.",
+        "C": "No caso de morte do ofendido ou quando declarado ausente por decisão judicial, o direito de representação se extingue.",
+        "D": "Nos crimes de ação pública, esta será promovida por denúncia do Ministério Público.",
+        "E": "Nos crimes de ação pública condicionada, esta será promovida por queixa do ofendido."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.acao-penal",
+        "penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CPP 24",
+        "CPP 25",
+        "CPP 30"
+      ],
+      "exp": "Nos crimes de ação pública, esta é promovida por **denúncia do Ministério Público** (`CPP 24`), e por isso D está certa. A erra porque, no crime contra patrimônio ou interesse da União, Estado ou Município, a ação penal **será pública**, sem exigência de requisição (`CPP 24 §2º`). B erra porque a representação é irretratável depois de oferecida a denúncia (`CPP 25`). C erra porque, com a morte ou ausência do ofendido, o direito passa ao cônjuge, ascendente, descendente ou irmão (`CPP 24 §1º`). Na ação condicionada, a peça também é a denúncia; queixa (E) é própria da ação privada (`CPP 30`)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#31",
+      "tipo": "me",
+      "numero": 31,
+      "enunciado": "No caso de morte do acusado, para que o juiz declare extinta sua punibilidade, nos termos do art. 62 do CPP, necessita-se, apenas, da",
+      "alt": {
+        "A": "juntada da certidão de óbito e manifestação do Ministério Público.",
+        "B": "juntada de certidão de óbito, oitiva judicial do médico que o declarou e manifestação do Ministério Público.",
+        "C": "juntada de certidão de óbito e de laudo elaborado por perito oficial.",
+        "D": "juntada da certidão de óbito.",
+        "E": "manifestação favorável do Ministério Público."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.extincao-punibilidade",
+        "processo-penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CPP 62",
+        "CP 107 I"
+      ],
+      "exp": "Pelo `CPP 62`, o juiz declara extinta a punibilidade **à vista da certidão de óbito e depois de ouvido o Ministério Público** (causa de extinção do `CP 107 I`). A certidão sozinha (D) ou só a manifestação do MP (E) não bastam; o laudo pericial (C) e a oitiva do médico (B) não são exigidos.",
+      "observacoes": [
+        "O CPP 62 fecha o Título III do Livro I (Da Ação Penal, arts. 24 a 62), e não o título das questões e processos incidentes (arts. 92 a 154); por isso troquei processo-penal.incidentes por processo-penal.acao-penal. Texto conferido: 'No caso de morte do acusado, o juiz somente à vista da certidão de óbito, e depois de ouvido o Ministério Público, declarará extinta a punibilidade.' Dispositivos (CPP 62, CP 107 I) e exp mantidos."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-3689-3-outubro-1941-322206-normaatualizada-pe.html"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#32",
+      "tipo": "me",
+      "numero": 32,
+      "enunciado": "O sequestro de bens imóveis poderá ser realizado de ofício,",
+      "alt": {
+        "A": "bastando a existência de indícios veementes da proveniência ilícita dos bens e a punição do crime com reclusão.",
+        "B": "a requerimento do Ministério Público ou do ofendido, ou mediante representação da autoridade policial, em qualquer fase do processo mesmo antes de oferecida a denúncia ou queixa.",
+        "C": "a requerimento do Ministério Público ou mediante representação da autoridade policial, em qualquer fase do processo, mesmo antes de oferecida a denúncia, mas não é possível em ações penais privadas.",
+        "D": "a requerimento do Ministério Público ou do ofendido, ou mediante representação da autoridade policial, em qualquer fase do processo, mas apenas após oferecida a denúncia ou queixa.",
+        "E": "contudo, é vedado caso os bens já tenham sido transferidos a terceiros."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-penal.incidentes"
+      ],
+      "dispositivos": [
+        "CPP 127",
+        "CPP 125",
+        "CPP 126"
+      ],
+      "exp": "O `CPP 127` permite ao juiz ordenar o sequestro de ofício, **a requerimento do MP ou do ofendido, ou mediante representação da autoridade policial**, em qualquer fase do processo **ou ainda antes de oferecida a denúncia ou queixa**. A erra porque o `CPP 126` exige só indícios veementes da proveniência ilícita, sem limitar a medida a crimes punidos com reclusão. C exclui o ofendido e a ação privada, e D exige denúncia já oferecida, contra o texto do `CPP 127`. E contraria o `CPP 125`: cabe o sequestro ainda que os bens já tenham sido transferidos a terceiro."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#33",
+      "tipo": "me",
+      "numero": 33,
+      "enunciado": "Com relação à prova testemunhal e o regramento que lhe dá o CPP (art. 202 a 204), é correto afirmar:",
+      "alt": {
+        "A": "toda pessoa pode ser testemunha.",
+        "B": "o depoimento de qualquer testemunha pode ser apresentado por escrito, desde que com qualificação e firma reconhecida.",
+        "C": "a testemunha tem obrigação de dizer a verdade, mas não é obrigada a declarar dados que a possam identificar como, por exemplo, local onde exerce sua atividade.",
+        "D": "o depoimento de qualquer testemunha pode ser prestado oralmente ou por escrito.",
+        "E": "o depoimento de qualquer testemunha deve ser prestado oralmente, vedada a consulta a apontamentos."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-penal.prova.testemunhas"
+      ],
+      "dispositivos": [
+        "CPP 202",
+        "CPP 203",
+        "CPP 204"
+      ],
+      "exp": "O `CPP 202` diz que **toda pessoa poderá ser testemunha**. B e D erram porque o depoimento é prestado **oralmente**, não sendo permitido trazê-lo por escrito (`CPP 204`). E erra porque o `CPP 204 p.ú.` não veda breve consulta a apontamentos. C erra porque a testemunha deve declarar, entre outros dados, sua residência, sua profissão e o **lugar onde exerce sua atividade** (`CPP 203`)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#34",
+      "tipo": "me",
+      "numero": 34,
+      "enunciado": "No que diz respeito ao regramento que o CPP dispensa à busca (CPP, art. 240 a 250), é correto afirmar:",
+      "alt": {
+        "A": "em nenhuma hipótese será permitida a apreensão de documento em poder do defensor do acusado.",
+        "B": "no caso de prisão, a busca pessoal só é permitida se houver expressa autorização no respectivo mandado.",
+        "C": "se, concomitantemente, houver ordem de prisão, constará do próprio texto do mandado de busca.",
+        "D": "não sendo encontrada a coisa procurada, mas havendo fundada suspeita, a diligência pode ser imediatamente realizada em novo endereço, sem necessidade de expedição de novo mandado.",
+        "E": "descoberta a coisa que se procura, será imediatamente apreendida e levada à presença da autoridade judicial."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-penal.busca-apreensao.mandado",
+        "processo-penal.busca-apreensao"
+      ],
+      "dispositivos": [
+        "CPP 243 §1º",
+        "CPP 243 §2º",
+        "CPP 244",
+        "CPP 245 §6º"
+      ],
+      "exp": "Pelo `CPP 243 §1º`, havendo ordem de prisão, ela **constará do próprio texto do mandado de busca**. A erra porque o `CPP 243 §2º` só proíbe a apreensão de documento em poder do defensor **salvo** quando constituir elemento do corpo de delito. B erra porque a busca pessoal independe de mandado no caso de prisão (`CPP 244`). D não tem base legal: outro endereço exige nova ordem. E erra porque a coisa descoberta é apreendida e posta sob custódia da autoridade ou de seus agentes (`CPP 245 §6º`), e não levada ao juiz."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#35",
+      "tipo": "me",
+      "numero": 35,
+      "enunciado": "O art. 283 do CPP prevê três modalidades de prisão, quais sejam:",
+      "alt": {
+        "A": "flagrante delito; dívida de alimentos; condenação criminal transitada em julgado.",
+        "B": "prisão processual; prisão cautelar e prisão definitiva.",
+        "C": "flagrante delito; prisão cautelar; condenação criminal transitada em julgado.",
+        "D": "flagrante delito; prisão preventiva; prisão temporária.",
+        "E": "flagrante delito; prisão provisória; dívida de alimentos."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-penal.prisao"
+      ],
+      "dispositivos": [
+        "CPP 283"
+      ],
+      "exp": "O `CPP 283`, com a redação da Lei 13.964/2019, permite a prisão em **flagrante delito**, por ordem escrita e fundamentada da autoridade judiciária competente **em decorrência de prisão cautelar** ou **em virtude de condenação criminal transitada em julgado**. A e E incluem a prisão civil por alimentos, que não está no CPP. B usa categorias doutrinárias. D detalha espécies de prisão cautelar (preventiva e temporária) e omite a prisão-pena."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#36",
+      "tipo": "me",
+      "numero": 36,
+      "enunciado": "Completada a citação com hora certa, se o acusado não comparecer,",
+      "alt": {
+        "A": "ser-lhe-á nomeado curador.",
+        "B": "será publicado edital de citação.",
+        "C": "será decretada a prisão preventiva.",
+        "D": "ficarão suspensos o processo e o curso do prazo prescricional.",
+        "E": "ser-lhe-á nomeado defensor dativo."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-penal.comunicacao.hora-certa"
+      ],
+      "dispositivos": [
+        "CPP 362 p.ú.",
+        "CPP 366"
+      ],
+      "exp": "Completada a citação com hora certa, se o acusado não comparecer, **ser-lhe-á nomeado defensor dativo** (`CPP 362 p.ú.`). A suspensão do processo e da prescrição (D) é efeito da citação **por edital** sem comparecimento (`CPP 366`), e não da hora certa, que é citação ficta válida. Não se publica edital (B), não há curador (A) e a ausência não autoriza, por si só, prisão preventiva (C)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#37",
+      "tipo": "me",
+      "numero": 37,
+      "enunciado": "Nos termos do art. 406 do CPP, o prazo de 10 dias para o acusado apresentar resposta escrita à acusação, ao lado de outra possibilidade, conta-se",
+      "alt": {
+        "A": "da outorga de procuração ao advogado.",
+        "B": "da decisão que analisar a defesa prévia.",
+        "C": "da decisão que designar audiência de instrução.",
+        "D": "a partir do efetivo cumprimento do mandado.",
+        "E": "da juntada aos autos do mandado de citação."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.procedimentos.juri",
+        "processo-penal.comunicacao.citacao"
+      ],
+      "dispositivos": [
+        "CPP 406 §1º"
+      ],
+      "exp": "No procedimento do júri, o prazo de 10 dias para a resposta à acusação conta-se **a partir do efetivo cumprimento do mandado** ou do comparecimento em juízo do acusado ou de defensor constituído, no caso de citação inválida ou por edital (`CPP 406 §1º`). E traz a regra do processo civil (juntada do mandado aos autos, `CPC 231 II`), que não se aplica ao processo penal. A, B e C não têm base legal."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#38",
+      "tipo": "me",
+      "numero": 38,
+      "enunciado": "É de menor potencial ofensivo, nos termos do art. 61 da Lei nº 9.099/95, a seguinte hipotética infração penal:",
+      "alt": {
+        "A": "crime culposo, com pena de 1 ano a 3 anos e multa.",
+        "B": "crime doloso, com pena de 1 ano a 3 anos.",
+        "C": "crime doloso, com pena de 6 meses a 3 anos e multa.",
+        "D": "crime culposo, com pena de 2 anos a 4 anos.",
+        "E": "crime doloso, com pena de 1 ano a 2 anos e multa."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-penal.juizados"
+      ],
+      "dispositivos": [
+        "L9099 61"
+      ],
+      "exp": "São infrações de menor potencial ofensivo as contravenções e os crimes com **pena máxima não superior a 2 anos**, cumulada ou não com multa (`L9099 61`). Só E (1 a 2 anos e multa) cabe no limite. Nas demais, a pena máxima é de 3 ou 4 anos, e ser crime culposo ou doloso não altera o critério, que é só o da pena máxima."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#39",
+      "tipo": "me",
+      "numero": 39,
+      "enunciado": "Lucas, Martha e Fabiana são amigos de longa data e juntos decidem abrir uma cafeteria. Para isso, eles assinam um contrato no qual consta que eles serão devedores solidários em relação às despesas do empreendimento, assim como pelo pagamento das dívidas relacionadas ao negócio. Após um tempo de funcionamento, a cafeteria começa a enfrentar dificuldades financeiras devido a um declínio nas vendas. Como resultado, uma dívida significativa se acumula com o fornecedor de café, que se mostra impaciente em relação ao pagamento e decide propor ação judicial para cobrar a dívida pendente, incluindo no polo passivo apenas Lucas, uma vez que Martha era sua cunhada e Fabiana reside em outra comarca. Diante da situação hipotética, Lucas, devidamente citado, deverá",
+      "alt": {
+        "A": "requerer o chamamento de Martha e Fabiana, que deverão ser citadas no prazo de trinta dias e dois meses, respectivamente.",
+        "B": "apresentar contestação requerendo a extinção da ação sem julgamento do mérito em razão da ilegitimidade das partes.",
+        "C": "denunciar à lide Martha e Fabiana nos próprios autos.",
+        "D": "chamar ao processo Martha e Fabiana por meio de incidente em autos apartados.",
+        "E": "apresentar contestação chamando ao processo Martha e Fabiana, sendo certo que a citação de ambas deve ser promovida no prazo de 30 (trinta) dias sob pena de ficar sem efeito o chamamento."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-civil.intervencao.chamamento",
+        "processo-civil.intervencao"
+      ],
+      "dispositivos": [
+        "CPC 130 III",
+        "CPC 131 p.ú.",
+        "CC 275"
+      ],
+      "exp": "Na solidariedade passiva, o devedor demandado pode **chamar ao processo** os demais devedores solidários (`CPC 130 III`). A citação dos chamados deve ser promovida em **30 dias**, ou em **2 meses** se o chamado residir em **outra comarca** (`CPC 131 p.ú.`): 30 dias para Martha e 2 meses para Fabiana, como diz (A). (E) erra ao dar 30 dias para as duas. Não é denunciação da lide (C, `CPC 125`), não corre em autos apartados (D), e não há ilegitimidade, porque o credor pode cobrar a dívida toda de um só devedor solidário (B, `CC 275`)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#40",
+      "tipo": "me",
+      "numero": 40,
+      "enunciado": "Incumbe ao oficial de justiça",
+      "alt": {
+        "A": "entregar o mandado em cartório em até 3 (três) dias após seu cumprimento.",
+        "B": "auxiliar o juiz na manutenção da ordem.",
+        "C": "fazer pessoalmente citações, prisões, penhoras, arrestos e demais diligências próprias do seu ofício, sempre que possível, na presença de uma testemunha, certificando no mandado o ocorrido, com menção ao lugar, ao dia e à hora.",
+        "D": "executar as ordens de qualquer juiz da comarca.",
+        "E": "certificar, em mandado, proposta de autocomposição apresentada por qualquer das partes, imediatamente e em ato próprio."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-civil.auxiliares.oficial-de-justica"
+      ],
+      "dispositivos": [
+        "CPC 154 I",
+        "CPC 154 III",
+        "CPC 154 IV",
+        "CPC 154 V",
+        "CPC 154 VI"
+      ],
+      "exp": "Incumbe ao oficial de justiça **auxiliar o juiz na manutenção da ordem** (`CPC 154 V`). A erra porque o `CPC 154 III` manda entregar o mandado em cartório após o cumprimento, sem prazo de 3 dias. C erra porque o `CPC 154 I` diz na presença de **2 testemunhas**. D erra porque o oficial executa as ordens do **juiz a que estiver subordinado** (`CPC 154 IV`). E erra porque a proposta de autocomposição é certificada **na ocasião de realizar ato de comunicação** que lhe couber (`CPC 154 VI`), e não em ato próprio."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#41",
+      "tipo": "me",
+      "numero": 41,
+      "enunciado": "No que diz respeito às ações de família, assinale a alternativa correta.",
+      "alt": {
+        "A": "O mandado de citação conterá apenas os dados necessários à audiência e deverá estar acompanhado de cópia da petição inicial.",
+        "B": "Na audiência, as partes deverão estar acompanhadas de seus advogados ou de defensores públicos.",
+        "C": "A citação será feita na pessoa do réu ou de seu advogado.",
+        "D": "A citação ocorrerá com antecedência mínima de 30 (trinta) dias da data designada para a audiência.",
+        "E": "Recebida a petição inicial e, se for o caso, tomadas as providências referentes à tutela provisória, o juiz ordenará a citação do réu, na pessoa de seu advogado, para comparecer à audiência de mediação e conciliação."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-civil.procedimentos-especiais.outros"
+      ],
+      "dispositivos": [
+        "CPC 695 §1º",
+        "CPC 695 §2º",
+        "CPC 695 §3º",
+        "CPC 695 §4º"
+      ],
+      "exp": "Nas ações de família, as partes devem estar **acompanhadas de seus advogados ou de defensores públicos** na audiência (`CPC 695 §4º`). A erra porque o mandado vai **desacompanhado** de cópia da petição inicial (`CPC 695 §1º`). C e E erram porque a citação é feita **na pessoa do réu** (`CPC 695 §3º`). D erra porque a antecedência mínima é de **15 dias** (`CPC 695 §2º`)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#42",
+      "tipo": "me",
+      "numero": 42,
+      "enunciado": "Intimação é o ato pelo qual se dá ciência a alguém dos atos e dos termos do processo. Acerca do tema, assinale a alternativa correta.",
+      "alt": {
+        "A": "A parte arguirá a nulidade da intimação em capítulo preliminar do próprio ato que lhe caiba praticar, o qual será tido por tempestivo mesmo se o vício não for reconhecido.",
+        "B": "Se inviável a intimação por meio eletrônico e não houver na localidade publicação em órgão oficial, incumbirá ao oficial de justiça intimar de todos os atos do processo os advogados das partes pessoalmente, se tiverem domicílio na sede do juízo.",
+        "C": "Os advogados poderão requerer que, na intimação a eles dirigida, figure apenas o nome da sociedade a que pertençam, desde que devidamente registrada na Ordem dos Advogados do Brasil.",
+        "D": "Não dispondo a lei de outro modo, as intimações serão feitas às partes, aos seus representantes legais, aos advogados e aos demais sujeitos do processo por oficial de justiça ou, se presentes em cartório, diretamente pelo escrivão ou chefe de secretaria.",
+        "E": "Em processos pendentes, desde que a pedido da parte ou do Ministério Público, o juiz determinará as intimações."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.comunicacao.intimacao"
+      ],
+      "dispositivos": [
+        "CPC 271",
+        "CPC 272 §1º",
+        "CPC 272 §8º",
+        "CPC 273 I",
+        "CPC 274"
+      ],
+      "exp": "Os advogados podem requerer que figure na intimação apenas o nome da **sociedade de advogados registrada na OAB** (`CPC 272 §1º`). A erra porque o ato só é tido por tempestivo **se o vício for reconhecido** (`CPC 272 §8º`). B erra porque essa intimação pessoal incumbe ao **escrivão ou chefe de secretaria** (`CPC 273 I`). D erra porque a regra é a intimação **pelo correio** (`CPC 274`). E erra porque o juiz determina as intimações **de ofício** (`CPC 271`)."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#43",
+      "tipo": "me",
+      "numero": 43,
+      "enunciado": "Acerca da competência no processo de execução, de acordo com o disposto no Código de Processo Civil, assinale a alternativa correta.",
+      "alt": {
+        "A": "Sempre que, para efetivar a execução, for necessário o emprego de força policial, o oficial de justiça a requisitará.",
+        "B": "A inscrição será cancelada definitivamente, no prazo de quinze dias, se for efetuado o pagamento ou se a execução for extinta por qualquer outro motivo.",
+        "C": "A inscrição no cadastro de inadimplentes será suspensa se for garantida a execução.",
+        "D": "O juiz, de ofício, pode determinar a inclusão do nome do executado em cadastros de inadimplentes.",
+        "E": "O oficial de justiça poderá cumprir os atos executivos determinados pelo juiz também nas comarcas contíguas, de fácil comunicação."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-civil.execucao"
+      ],
+      "dispositivos": [
+        "CPC 782 §1º",
+        "CPC 782 §2º",
+        "CPC 782 §3º",
+        "CPC 782 §4º"
+      ],
+      "exp": "O oficial de justiça pode cumprir os atos executivos também nas **comarcas contíguas, de fácil comunicação**, e nas da mesma região metropolitana (`CPC 782 §1º`). A erra porque quem requisita força policial é **o juiz** (`CPC 782 §2º`). D erra porque a inclusão em cadastro de inadimplentes depende de **requerimento da parte** (`CPC 782 §3º`). B e C erram porque a inscrição é cancelada **imediatamente** se houver pagamento, se a execução for garantida ou se for extinta por outro motivo (`CPC 782 §4º`). Apesar do enunciado falar em competência, o assunto da questão é o `CPC 782`."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#44",
+      "tipo": "me",
+      "numero": 44,
+      "enunciado": "Acerca da avaliação da penhora, assinale a alternativa correta.",
+      "alt": {
+        "A": "Após a avaliação, o juiz poderá, de ofício e liminarmente, mandar ampliar a penhora ou transferi-la para outros bens mais valiosos, se o valor dos bens penhorados for inferior ao crédito do exequente.",
+        "B": "Não é admitida nova avaliação ainda que se verifique, posteriormente à avaliação, que houve majoração ou diminuição no valor do bem.",
+        "C": "A avaliação será feita pelo oficial de justiça. No entanto, se forem necessários conhecimentos especializados, o juiz nomeará avaliador, fixando-lhe prazo não superior a 15 (quinze) dias para entrega do laudo.",
+        "D": "Quando uma das partes aceitar a estimativa feita pela outra, em regra não se procederá à avaliação, podendo ser realizada se houver fundada dúvida do juiz quanto ao real valor do bem.",
+        "E": "A avaliação será feita por avaliador quando se tratar de títulos ou de mercadorias que tenham cotação em bolsa."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.execucao.avaliacao"
+      ],
+      "dispositivos": [
+        "CPC 870 p.ú.",
+        "CPC 871 I",
+        "CPC 871 II",
+        "CPC 871 p.ú.",
+        "CPC 873 II",
+        "CPC 874 II"
+      ],
+      "exp": "Pelo `CPC 871 I`, não se procede à avaliação se uma parte aceitar a estimativa da outra, mas ela pode ser feita **se houver fundada dúvida do juiz** quanto ao real valor do bem (`CPC 871 p.ú.`). A erra porque a ampliação ou transferência da penhora se faz **a requerimento do interessado e ouvida a parte contrária** (`CPC 874 II`), não de ofício. B contraria o `CPC 873 II`, que admite nova avaliação em caso de majoração ou diminuição posterior do valor. C erra o prazo, que é **não superior a 10 dias** (`CPC 870 p.ú.`). E erra porque títulos ou mercadorias com cotação em bolsa **dispensam** avaliação (`CPC 871 II`).",
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13105-16-marco-2015-780273-normaatualizada-pl.html"
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "O juiz da 3ª vara cível da comarca X proferiu o seguinte despacho: “trata-se de ação de cobrança movida por A em face de B. Após análise dos autos, verificou-se que o valor pleiteado pela autora A é de R$ 5.000,00 (cinco mil reais), conforme petição inicial. No entanto, observo que, no cálculo da inicial, foi atribuído erroneamente o valor de R$ 1.000,00 (mil reais). Cite-se a parte ré B para complementação dos valores devidos”. Diante da situação hipotética, considerando o disposto no Código de Processo Civil, assinale a alternativa que corresponde ao recurso cabível.",
+      "alt": {
+        "A": "Embargos de declaração em razão da contradição.",
+        "B": "Embargos de declaração para corrigir erro material.",
+        "C": "Não cabe recurso.",
+        "D": "Embargos de declaração em razão da obscuridade.",
+        "E": "Embargos de declaração em razão da omissão."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.recursos"
+      ],
+      "dispositivos": [
+        "CPC 1001",
+        "CPC 203 §3º"
+      ],
+      "exp": "O ato do juiz é **despacho**, pois apenas manda citar, sem conteúdo decisório (`CPC 203 §3º`). Dos despachos **não cabe recurso** (`CPC 1.001`). As alternativas de embargos de declaração (A, B, D e E) pressupõem uma decisão com obscuridade, contradição, omissão ou erro material (`CPC 1.022`), o que não é o caso de um despacho de mero expediente."
+    },
+    {
+      "id": "vunesp/tj-sp/oficial-de-justica/2023#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "Juliano, maior de dezoito anos, capaz, decidiu propor ação de indenização por danos materiais e morais em face da companhia aérea Voemais S.A. em razão do cancelamento do seu voo para Fernando de Noronha, onde iria passar as férias. Em razão do cancelamento, Juliano teve que arcar com as despesas das reservas de hotéis e passeios, razão pela qual requereu o valor de indenização em vinte salários mínimos. A ação foi proposta por ele mesmo, sem a assistência de advogado, perante o Juizado Especial Cível da sua comarca. Diante da situação hipotética, considerando o disposto na Lei nº 9.099 de 26 de setembro de 1995, assinale a alternativa correta.",
+      "alt": {
+        "A": "Juliano poderá ser autor, independentemente de assistência, inclusive para fins de conciliação.",
+        "B": "A companhia aérea Voemais S.A. deverá ser representada por preposto credenciado, munido de carta de preposição com poderes para transigir, com necessidade de vínculo empregatício.",
+        "C": "Caso Juliano decida contratar um advogado para acompanhar a causa, o mandato poderá ser verbal, inclusive quanto aos poderes especiais.",
+        "D": "A companhia aérea Voemais S.A. não poderá ser ré em ações propostas perante o Juizado Especial Cível, uma vez que tal procedimento especial se presta para as pessoas enquadradas como microempreendedores individuais, microempresas e empresas de pequeno porte.",
+        "E": "Considerando ser a companhia aérea Voemais S.A. uma pessoa jurídica, Juliano, em razão da sua hipossuficiência, deverá ter assistência judiciária prestada por órgão instituído junto ao Juizado Especial."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-civil.juizados",
+        "processo-civil.sujeitos"
+      ],
+      "dispositivos": [
+        "L9099 8 §1º",
+        "L9099 8 §2º",
+        "L9099 9 §1º",
+        "L9099 9 §3º",
+        "L9099 9 §4º"
+      ],
+      "exp": "O maior de 18 anos pode ser autor no Juizado, **independentemente de assistência, inclusive para fins de conciliação** (`L9099 8 §2º`). B erra porque o preposto não precisa ter vínculo empregatício (`L9099 9 §4º`). C erra porque o mandato pode ser verbal, **salvo quanto aos poderes especiais** (`L9099 9 §3º`). D erra porque o `L9099 8 §1º` restringe só quem pode **propor** a ação, e não quem pode ser réu. E erra porque, sendo o réu pessoa jurídica, a parte contrária terá assistência judiciária **se quiser** (`L9099 9 §1º`): é uma faculdade, e não depende de hipossuficiência."
+    }
+  ]
+}

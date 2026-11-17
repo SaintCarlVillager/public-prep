@@ -1,0 +1,653 @@
+{
+  "prova": "fcc/trf3/analista-judiciario-area-judiciaria/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#40",
+      "tipo": "me",
+      "numero": 40,
+      "enunciado": "XYZ Indústria Farmacêutica S.A. ajuizou, perante a Justiça Comum, pedido de recuperação judicial, cujo processamento foi deferido pelo juiz. No curso do processo, a União compareceu nos autos informando ter interesse no feito, por ter contratado a recuperanda para o fornecimento de medicamentos em âmbito nacional, cuja interrupção comprometeria o sistema de saúde do país. Nesse caso, o processo deverá",
+      "alt": {
+        "A": "ser remetido à Justiça Federal, desde que tenha havido requerimento da União nesse sentido; no entanto, caso o Juízo Federal não vislumbre interesse jurídico da União, deverá devolver o processo à Justiça Comum.",
+        "B": "ser remetido à Justiça Federal, desde que tenha havido requerimento da União nesse sentido; no entanto, caso o Juízo Federal não vislumbre interesse jurídico da União, deverá suscitar conflito de competência.",
+        "C": "ser remetido à Justiça Federal, independentemente de requerimento da União nesse sentido; no entanto, caso o Juízo Federal não vislumbre interesse jurídico da União, deverá devolver o processo à Justiça Comum.",
+        "D": "ser remetido à Justiça Federal, independentemente de requerimento da União nesse sentido; no entanto, caso o Juízo Federal não vislumbre interesse jurídico da União, deverá suscitar conflito de competência.",
+        "E": "permanecer tramitando na Justiça Comum, ainda que a União tenha expressamente requerido sua remessa à Justiça Federal."
+      },
+      "gab": "E",
+      "temas": [
+        "processo-civil.competencia.justica-federal"
+      ],
+      "dispositivos": [
+        "CPC 45 I",
+        "CF 109 I"
+      ],
+      "exp": "A intervenção da União desloca o processo para a Justiça Federal (`CPC, art. 45`), mas o próprio dispositivo **excetua as recuperações judiciais**, falências e insolvências civis (`art. 45, I`), como já fazia a `CF, art. 109, I`. Assim, o processo permanece na Justiça Comum ainda que a União peça a remessa; as alternativas A a D partem da premissa errada de que haveria remessa."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#41",
+      "tipo": "me",
+      "numero": 41,
+      "enunciado": "Determinada autarquia federal moveu contra uma mesma associação privada duas ações distintas, com pedidos e causas de pedir diversos uma da outra, mas ambas versando sobre o mesmo bem. Os processos das ações foram distribuídos a diferentes Varas da Justiça Federal. Nesse caso,",
+      "alt": {
+        "A": "existe conexão entre os processos, que deverão ser reunidos para julgamento conjunto, ainda que um deles já tenha sido sentenciado.",
+        "B": "existe conexão entre os processos, que deverão ser reunidos para julgamento conjunto, salvo se algum deles tiver sido sentenciado.",
+        "C": "existe conexão entre os processos, mas nenhum deles poderá ser reunido ao outro, dado que distribuídos a juízos distintos.",
+        "D": "não existe conexão entre os processos, mas eles deverão ser reunidos para julgamento conjunto, caso exista o risco de prolação de decisões conflitantes ou contraditórias, salvo se um deles já houver sido sentenciado.",
+        "E": "como não existe conexão entre os processos, eles não poderão ser reunidos para julgamento conjunto em nenhuma hipótese."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.competencia.modificacao"
+      ],
+      "dispositivos": [
+        "CPC 55",
+        "CPC 55 §1º",
+        "CPC 55 §3º"
+      ],
+      "exp": "Só há conexão quando é comum o pedido **ou** a causa de pedir (`CPC, art. 55`); versar sobre o mesmo bem não basta, o que afasta A, B e C. Ainda assim, o `§3º` manda reunir processos que possam gerar **decisões conflitantes ou contraditórias**, mesmo sem conexão, o que derruba E. A ressalva do processo já sentenciado (`§1º`, aplicada também à reunião do §3º) completa a alternativa D."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#42",
+      "tipo": "me",
+      "numero": 42,
+      "enunciado": "Renato ajuizou ação de cobrança contra ZWXY Construções Ltda., requerendo, na própria petição inicial, a desconsideração da sua personalidade jurídica, com a demonstração preliminar do preenchimento dos pressupostos legais específicos. Nesse caso, de acordo com o Código de Processo Civil,",
+      "alt": {
+        "A": "deverá ser determinada a instauração do incidente de desconsideração da personalidade jurídica, com a suspensão do processo.",
+        "B": "deverá ser determinada a instauração do incidente de desconsideração da personalidade jurídica, sem a suspensão do processo.",
+        "C": "dispensa-se a instauração do incidente de desconsideração da personalidade jurídica, mas o processo deverá permanecer suspenso até a decisão desse requerimento.",
+        "D": "dispensa-se a instauração do incidente de desconsideração da personalidade jurídica e o processo não será suspenso.",
+        "E": "o requerimento deverá ser liminarmente rejeitado, pois o incidente de desconsideração da personalidade jurídica só pode ser instaurado na fase de cumprimento de sentença."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-civil.intervencao.desconsideracao"
+      ],
+      "dispositivos": [
+        "CPC 134",
+        "CPC 134 §2º",
+        "CPC 134 §3º"
+      ],
+      "exp": "Requerida a desconsideração **na petição inicial**, dispensa-se a instauração do incidente e cita-se o sócio ou a pessoa jurídica (`CPC, art. 134, §2º`). A suspensão do processo só decorre da instauração do incidente, \"salvo na hipótese do §2º\" (`§3º`), de modo que o processo segue sem suspensão. A, B e C erram quanto ao incidente ou à suspensão, e E contraria o `caput`, que admite o incidente em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#43",
+      "tipo": "me",
+      "numero": 43,
+      "enunciado": "Considere as seguintes proposições acerca das nulidades:\nI. Se a parte interessada na declaração da nulidade deixar de alegá-la na primeira oportunidade em que lhe couber falar nos autos, ocorrerá a preclusão, ainda que se trate de nulidade que o juiz deva decretar de ofício.\nII. Se o processo tiver tramitado sem conhecimento do membro do Ministério Público, em feito no qual devesse intervir, o juiz deverá decretar a invalidade dos atos praticados a partir do momento em que ele deveria ter sido intimado; entretanto, a nulidade só pode ser decretada após a intimação do Ministério Público, que se manifestará sobre a existência ou a inexistência de prejuízo.\nIII. A decretação da nulidade por descumprimento da forma prevista em lei poderá ser requerida pela parte que lhe deu causa, mas ela responderá pelas custas do retardamento do processo, além de incorrer nas sanções previstas para a litigância de má-fé.\nIV. Nos casos em que puder decidir o mérito a favor da parte a quem aproveite a decretação da nulidade, o juiz não deverá pronunciá-la nem mandará repetir o ato ou suprir-lhe a falta.\nV. Quando a lei prescrever determinada forma, o juiz considerará válido o ato se, realizado de outro modo, lhe alcançar a finalidade, desde que haja a concordância de todas as partes.\nDe acordo com o Código de Processo Civil, está correto o que consta APENAS de",
+      "alt": {
+        "A": "I e II.",
+        "B": "I e III.",
+        "C": "II e IV.",
+        "D": "III e V.",
+        "E": "IV e V."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.atos.nulidades"
+      ],
+      "dispositivos": [
+        "CPC 276",
+        "CPC 277",
+        "CPC 278 p.ú.",
+        "CPC 279 §1º",
+        "CPC 279 §2º",
+        "CPC 282 §2º"
+      ],
+      "exp": "Estão certas **II** (`CPC, art. 279, §§1º e 2º`: invalidam-se os atos desde quando o MP deveria ter sido intimado, mas só depois de ele se manifestar sobre o prejuízo) e **IV** (`art. 282, §2º`: se o mérito puder ser decidido a favor de quem aproveitaria a nulidade, o juiz não a pronuncia). I erra porque a preclusão **não se aplica** às nulidades que o juiz deve decretar de ofício (`art. 278, p.ú.`); III erra porque a parte que deu causa à nulidade **não pode requerê-la** (`art. 276`); V erra porque o aproveitamento do ato que alcança a finalidade (`art. 277`) não depende da concordância das partes."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#44",
+      "tipo": "me",
+      "numero": 44,
+      "enunciado": "Em ação de obrigação de fazer movida pela União contra Francisco, o juiz proferiu sentença acolhendo o pedido e deferindo, no mesmo ato, a antecipação dos efeitos da tutela, para que o réu desse cumprimento à obrigação no prazo de dez dias, sob pena de multa diária. O réu então interpôs, tempestivamente, embargos de declaração, arguindo omissão da sentença acerca da ocorrência de prescrição, matéria que até então não fora suscitada no processo. Nesse caso, os embargos declaratórios",
+      "alt": {
+        "A": "não são cabíveis, pois não poderia haver omissão quanto a matéria que nem mesmo fora invocada pelas partes; ainda assim, a mera interposição dos embargos suspende o prazo para a interposição do recurso de apelação, bem como a eficácia da sentença embargada.",
+        "B": "não são cabíveis, pois não poderia haver omissão quanto a matéria que nem mesmo fora invocada pelas partes; ainda assim, a mera interposição dos embargos interrompe o prazo para a interposição do recurso de apelação, mas não suspende a eficácia da sentença embargada.",
+        "C": "são cabíveis, pois a prescrição é matéria sobre a qual o juiz deve se pronunciar de ofício; ademais, a mera interposição dos embargos interrompe o prazo para a interposição do recurso de apelação, mas não suspende a eficácia da sentença embargada.",
+        "D": "são cabíveis, pois a prescrição é matéria sobre a qual o juiz deve se pronunciar de ofício; ademais, a mera interposição dos embargos suspende o prazo para a interposição do recurso de apelação, mas não a eficácia da sentença embargada.",
+        "E": "são cabíveis, pois a prescrição é matéria sobre a qual o juiz deve se pronunciar de ofício; ademais, a mera interposição dos embargos interrompe o prazo para a interposição do recurso de apelação, além de suspender a eficácia da sentença embargada."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-civil.recursos.embargos-declaracao"
+      ],
+      "dispositivos": [
+        "CPC 1022 II",
+        "CPC 1026",
+        "CPC 487 II"
+      ],
+      "exp": "Cabem embargos para suprir omissão sobre ponto ou questão de que o juiz devia se pronunciar **de ofício ou a requerimento** (`CPC, art. 1.022, II`), e a prescrição é conhecível de ofício (`art. 487, II`), o que derruba A e B. Os embargos **não têm efeito suspensivo** e **interrompem** o prazo para outros recursos (`art. 1.026`); por isso D erra ao falar em suspensão do prazo e E erra ao suspender a eficácia da sentença."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "No início do ano de 2019, a Polícia Federal deflagrou uma operação que desmantelou uma organização criminosa de 20 pessoas, estruturalmente ordenada e caracterizada pela divisão de tarefas, destinada à lavagem de dinheiro ilícito obtido de empresas públicas federais. Dentre os componentes da organização criminosa, foram identificados e presos 15 indivíduos. Moisés era um dos indivíduos que compunha a organização criminosa, liderada por Rodolfo, ambos presos na operação. Ainda no curso das investigações, Moisés, por meio do seu advogado, foi o primeiro dentre os integrantes da organização a procurar o Ministério Público Federal para realização da colaboração premiada, permitindo, com as suas informações, a identificação dos demais coautores da organização criminosa e a recuperação de parte do proveito das infrações penais praticadas pela organização. O pedido de homologação do acordo de colaboração premiada foi sigilosamente distribuído ao juiz competente. Nesse caso, nos termos preconizados pela Lei nº 12.850/2013,",
+      "alt": {
+        "A": "o juiz poderá participar das negociações realizadas entre as partes para a formalização do acordo de colaboração.",
+        "B": "o juiz não poderá recusar homologação à proposta, mas pode adequá-la ao caso concreto.",
+        "C": "a sentença condenatória poderá ser proferida pelo magistrado com fundamento apenas nas declarações do agente colaborador Moisés.",
+        "D": "homologado o acordo de colaboração premiada, o juiz poderá, na sentença, reduzir em até 2/3 a pena privativa de liberdade ou substituí-la por restritiva de direitos, sendo vedada a concessão de perdão judicial.",
+        "E": "homologado o acordo de colaboração premiada pelo magistrado, o Ministério Público Federal poderá deixar de oferecer denúncia contra o colaborador Moisés."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.organizacoes-criminosas"
+      ],
+      "dispositivos": [
+        "L12850 4",
+        "L12850 4 §4º",
+        "L12850 4 §6º",
+        "L12850 4 §8º",
+        "L12850 4 §16"
+      ],
+      "exp": "Moisés **não é o líder** e foi o **primeiro** a prestar efetiva colaboração, hipótese em que o MP pode deixar de oferecer denúncia (`Lei 12.850/13, art. 4º, §4º`). O juiz não participa das negociações (`§6º`) e pode recusar a homologação (`§8º`), o que derruba A e B; nenhuma sentença condenatória se funda apenas nas declarações do colaborador (`§16`), o que afasta C; e o `caput` admite expressamente o **perdão judicial**, o que torna D errada.",
+      "observacoes": [
+        "redação vigente em 2019, antes do Pacote Anticrime (Lei 13.964/2019), que alterou os §§4º, 8º e 16 do art. 4º; a resposta não muda"
+      ]
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "Ricardo e Mauro, donos de uma madeireira no estado de Goiás, cortaram árvores e promoveram incêndios criminosos na floresta do Parque Nacional da Chapada dos Veadeiros, e foram presos em flagrante pela polícia, seguindo-se o indiciamento pelos crimes dos artigos 39 (Cortar árvores em floresta considerada de preservação permanente, sem permissão da autoridade competente) e 41 (Provocar incêndio em mata ou floresta), ambos da Lei nº 9.605/1998. Para os fatos imputados a Ricardo e Mauro, se os crimes foram cometidos durante a noite,",
+      "alt": {
+        "A": "a pena é aumentada de um sexto a um terço.",
+        "B": "a pena é aumentada em até um sexto.",
+        "C": "a pena é aumentada até a metade.",
+        "D": "não haverá qualquer aumento na pena prevista para os dois tipos penais.",
+        "E": "a pena de detenção será substituída pela de reclusão, com majoração de um a dois terços."
+      },
+      "gab": "A",
+      "temas": [
+        "penal.ambientais"
+      ],
+      "dispositivos": [
+        "L9605 53 II e",
+        "L9605 39",
+        "L9605 41"
+      ],
+      "exp": "Os arts. 39 e 41 estão na Seção dos crimes contra a flora, e para eles o `Lei 9.605/98, art. 53, II, e` prevê que a pena é **aumentada de um sexto a um terço** se o crime é cometido **durante a noite**. As demais frações (B, C, E) não constam da lei, e D ignora a causa de aumento."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#47",
+      "tipo": "me",
+      "numero": 47,
+      "enunciado": "Considere as seguintes situações hipotéticas de crimes de furto e roubo:\nI. Paulo, durante o período noturno, ingressou no quarto do seu pai, João, de 70 anos de idade, e subtraiu a quantia de R$ 3.000,00 em dinheiro que estava ocultada no guarda-roupas.\nII. Mariano, policial militar, apontou a arma de fogo para a esposa Rita, com quem é regularmente casado e convive na mesma residência, e subtraiu diversas joias em ouro pertencentes a ela, fugindo em seguida.\nIII. Os irmãos Michael e Josué estavam em uma festa na cidade de São Paulo, que acontecia em uma casa noturna. No curso da festa, Michael saiu da casa noturna e furtou o veículo de propriedade de Josué, entregando o bem para um comparsa, retornando para a festa logo em seguida.\nIV. Davi, em comparsaria com Felício, praticou furto noturno, mediante arrombamento, contra o estabelecimento comercial de propriedade de Rodolfo, filho legítimo de Davi.\nDe acordo com o Código Penal, o Ministério Público poderá ajuizar ação penal pública incondicionada, e postular a aplicação das sanções previstas, contra Mariano",
+      "alt": {
+        "A": "Paulo, Davi e Felício.",
+        "B": "Michael e Davi.",
+        "C": "Paulo e Michael.",
+        "D": "Paulo e Felício.",
+        "E": "Michael e Felício."
+      },
+      "gab": "D",
+      "temas": [
+        "penal.patrimonio",
+        "penal.acao-penal"
+      ],
+      "dispositivos": [
+        "CP 181 II",
+        "CP 182 II",
+        "CP 183 I",
+        "CP 183 II",
+        "CP 183 III"
+      ],
+      "exp": "As imunidades dos arts. 181 e 182 não alcançam o roubo, crime com grave ameaça (`CP, art. 183, I`), por isso Mariano responde; também não alcançam o estranho que participa do crime (`art. 183, II`), daí Felício; nem o crime contra vítima com **60 anos ou mais** (`art. 183, III`), daí Paulo. Davi furtou o filho e tem imunidade absoluta (`art. 181, II`), e Michael furtou o irmão, caso em que a ação depende de **representação** (`art. 182, II`). Logo, além de Mariano, a ação incondicionada cabe contra **Paulo e Felício**."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#48",
+      "tipo": "me",
+      "numero": 48,
+      "enunciado": "Miguel e Mauro viajaram para Foz do Iguaçu, no estado do Paraná, e lá atravessaram a Ponte Internacional da Amizade para ingresso no Paraguai, em Ciudad del Este, onde compraram um carregamento de 100 mil pacotes de cigarros, para revender no Brasil, e precisavam retornar ao território nacional com a mercadoria, mas não possuíam autorização para importação. Para tanto, Miguel, que é piloto de aeronave, e Mauro alugaram um avião e realizaram o transporte aéreo da mercadoria do Paraguai para uma fazenda situada no estado do Paraná, próxima a Foz do Iguaçu. No momento em que aterrizaram, e desembarcaram em território nacional, com a mercadoria, Miguel e Mauro foram presos em flagrante pela Polícia Federal. No caso hipotético apresentado, Miguel e Mauro cometeram crime de",
+      "alt": {
+        "A": "descaminho, e estão sujeitos à pena de 01 a 04 anos de reclusão, sem qualquer majoração, pois o descaminho foi praticado em avião clandestino.",
+        "B": "descaminho, e estão sujeitos à pena de 01 a 04 anos de reclusão, que deverá ser aplicada em dobro, pois o descaminho foi realizado em transporte aéreo.",
+        "C": "contrabando, e estão sujeitos à pena de 02 a 05 anos de reclusão, que deverá ser majorada de 1/3 a metade, pois o contrabando foi realizado em transporte aéreo.",
+        "D": "descaminho, e estão sujeitos à pena de 01 a 04 anos de reclusão, que deverá ser majorada de 1/3 a metade, pois o descaminho foi realizado em transporte aéreo.",
+        "E": "contrabando, e estão sujeitos à pena de 02 a 05 anos de reclusão, que deverá ser aplicada em dobro, pois o contrabando foi realizado em transporte aéreo."
+      },
+      "gab": "E",
+      "temas": [
+        "penal.administracao-publica.particular"
+      ],
+      "dispositivos": [
+        "CP 334-A",
+        "CP 334-A §3º"
+      ],
+      "exp": "Importar cigarros sem autorização é **contrabando** (mercadoria proibida, ainda que relativamente), segundo a jurisprudência do STJ e do STF, e não descaminho, que é a sonegação de tributos sobre mercadoria permitida; isso afasta A, B e D. O contrabando tem pena de **reclusão de 2 a 5 anos** (`CP, art. 334-A`), aplicada **em dobro** se praticado em transporte aéreo, marítimo ou fluvial (`§3º`), e não aumentada de 1/3 à metade, como diz C."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#49",
+      "tipo": "me",
+      "numero": 49,
+      "enunciado": "Mariana e Paula, sócias proprietárias da empresa “X”, estão respondendo processo criminal pelo crime de apropriação indébita previdenciária (artigo 168-A, do Código Penal), pois deixaram de repassar à previdência social as contribuições recolhidas dos contribuintes, no prazo e forma legal. No curso do processo, entendendo que estavam presentes todos os requisitos previstos no Código Penal, o magistrado competente concedeu o perdão judicial e julgou extintas as punibilidades de Mariana e Paula. Inconformado com a decisão, o Ministério Público poderá interpor recurso",
+      "alt": {
+        "A": "em sentido estrito, no prazo de dez dias.",
+        "B": "de apelação, no prazo de cinco dias.",
+        "C": "em sentido estrito, no prazo de cinco dias.",
+        "D": "de apelação, no prazo de dez dias.",
+        "E": "de apelação, no prazo de quinze dias."
+      },
+      "gab": "C",
+      "temas": [
+        "processo-penal.recursos",
+        "penal.extincao-punibilidade"
+      ],
+      "dispositivos": [
+        "CPP 581 VIII",
+        "CPP 586",
+        "CP 168-A §3º",
+        "CP 107 IX"
+      ],
+      "exp": "A decisão que julga extinta a punibilidade desafia **recurso em sentido estrito** (`CPP, art. 581, VIII`), e o perdão judicial é causa de extinção da punibilidade (`CP, art. 107, IX`, e `art. 168-A, §3º`). O RESE é interposto no prazo de **cinco dias** (`CPP, art. 586`), o que afasta A (dez dias) e as alternativas de apelação (B, D e E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#50",
+      "tipo": "me",
+      "numero": 50,
+      "enunciado": "Sobre o procedimento sumaríssimo, previsto para julgamento de crimes de menor potencial ofensivo, de competência dos Juizados Especiais Federais Criminais, na esteira das Leis nº 10.259/2001 e nº 9.099/1995,",
+      "alt": {
+        "A": "interposto recurso de apelação pela parte se a sentença for confirmada pelos próprios fundamentos, a súmula do julgamento servirá de acórdão.",
+        "B": "caberá agravo de instrumento no prazo de dez dias contra a decisão que rejeitar a denúncia.",
+        "C": "os embargos de declaração opostos contra sentença condenatória proferida suspendem o prazo para interposição de recurso.",
+        "D": "o recurso de apelação será interposto no prazo de quinze dias, contados da ciência pelo Ministério Público, pelo réu e seu defensor, por petição contando as razões e o pedido do recorrente.",
+        "E": "nenhum ato será adiado, sendo vedada a condução coercitiva de testemunha arrolada."
+      },
+      "gab": "A",
+      "temas": [
+        "processo-penal.juizados"
+      ],
+      "dispositivos": [
+        "L9099 82",
+        "L9099 82 §1º",
+        "L9099 82 §5º",
+        "L9099 83 §2º",
+        "L9099 80",
+        "L10259 1"
+      ],
+      "exp": "Se a sentença for confirmada pelos próprios fundamentos, **a súmula do julgamento servirá de acórdão** (`Lei 9.099/95, art. 82, §5º`), aplicável aos JEFs criminais por força da `Lei 10.259/01, art. 1º`. Contra a rejeição da denúncia cabe **apelação**, e não agravo (`art. 82`), o que derruba B; o prazo da apelação é de **dez dias** (`§1º`), o que derruba D; os embargos **interrompem** o prazo (`art. 83, §2º`, na redação do CPC/2015), o que afasta C; e o `art. 80` autoriza a condução coercitiva quando imprescindível, o que afasta E.",
+      "observacoes": [
+        "\"contando\" na alternativa D está assim no caderno (por \"contendo\")"
+      ]
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#51",
+      "tipo": "me",
+      "numero": 51,
+      "enunciado": "Tácito, empresário, residente na cidade de Campo Grande-MS, durante uma fiscalização realizada em sua empresa por um auditor fiscal da receita federal, no mês de novembro de 2018, ofereceu ao referido funcionário público a quantia de R$ 20.000,00 para que sua empresa não fosse autuada após a constatação de sonegação tributária, cometendo, portanto, o crime de corrupção ativa, disposto no artigo 333 do Código Penal. No curso das investigações, Tácito foi eleito no último pleito eleitoral para o cargo de Senador da República. O inquérito policial foi relatado e o Ministério Público Federal deverá oferecer denúncia. Nesse caso hipotético, a competência para processar e julgar a ação penal que será instaurada contra o atual Senador Tácito será",
+      "alt": {
+        "A": "do Supremo Tribunal Federal.",
+        "B": "de uma das Varas Federais de Campo Grande-MS, com competência criminal.",
+        "C": "do Superior Tribunal de Justiça.",
+        "D": "do Tribunal Regional Federal da 3ª Região.",
+        "E": "de uma das varas criminais da Justiça Comum Estadual, da comarca de Campo Grande-MS."
+      },
+      "gab": "B",
+      "temas": [
+        "processo-penal.competencia"
+      ],
+      "dispositivos": [
+        "CF 102 I b",
+        "CF 109 IV",
+        "CP 333"
+      ],
+      "exp": "Pelo entendimento do STF na `AP 937 QO` (2018), o foro por prerrogativa de parlamentar (`CF, art. 102, I, b`) só alcança crimes cometidos **durante o exercício do cargo e relacionados às funções**; o crime de Tácito é anterior à diplomação, o que afasta A, C e D. A corrupção ativa contra auditor da Receita Federal ofende interesse da União, o que atrai a **Justiça Federal** (`CF, art. 109, IV`) do local do fato, Campo Grande-MS, e não a Justiça Estadual (E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#52",
+      "tipo": "me",
+      "numero": 52,
+      "enunciado": "O Ministério Público Federal, por intermédio dos Procuradores da República Manoel e Joaquim, ajuizou ação penal contra Ricardo, Rodrigo e Pedro, donos de uma empreiteira com sede na cidade de São Paulo, pelos crimes de tráfico de influência, formação de quadrilha e lavagem de dinheiro. A denúncia foi distribuída para uma das varas da Justiça Federal de São Paulo, com competência criminal, e recebida pelo magistrado federal competente. No curso da ação penal, os advogados de Ricardo, Rodrigo e Pedro apresentaram exceção de suspeição dos Procuradores da República Manoel e Joaquim. Nesse caso, o juiz, depois de ouvir os Procuradores da República, decidirá a exceção,",
+      "alt": {
+        "A": "com possibilidade de recurso em sentido estrito, não cabendo qualquer dilação probatória, devendo a parte que suscitar o incidente apresentar todas as provas com a petição que instruir o pedido.",
+        "B": "com possibilidade de recurso em sentido estrito, podendo antes admitir a produção de provas no prazo de três dias.",
+        "C": "sem recurso, não cabendo qualquer dilação probatória, devendo a parte que suscitar o incidente apresentar todas as provas com a petição que instruir o pedido.",
+        "D": "sem recurso, podendo antes admitir a produção de provas no prazo de três dias.",
+        "E": "com possibilidade de recurso em sentido estrito, podendo antes admitir a produção de provas no prazo de 20 dias."
+      },
+      "gab": "D",
+      "temas": [
+        "processo-penal.incidentes"
+      ],
+      "dispositivos": [
+        "CPP 104"
+      ],
+      "exp": "Arguida a suspeição do órgão do Ministério Público, o juiz, depois de ouvi-lo, decidirá **sem recurso**, podendo antes admitir a produção de provas **no prazo de três dias** (`CPP, art. 104`). Por isso erram as alternativas que preveem recurso em sentido estrito (A, B e E) e a que veda a dilação probatória (C)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#53",
+      "tipo": "me",
+      "numero": 53,
+      "enunciado": "Considerando o disposto nos artigos 96 a 100 do Código Tributário Nacional e a hierarquia das normas, as fontes do Direito Tributário podem ser classificadas em fontes primárias e secundárias. Tendo em vista tal classificação, são fontes primárias do Direito Tributário, dentre outras,",
+      "alt": {
+        "A": "as emendas constitucionais, as leis complementares e ordinárias, os decretos-legislativos e os tratados internacionais.",
+        "B": "as resoluções do Senado, as portarias, o decreto-regulamentar, as instruções normativas e o costume.",
+        "C": "o decreto-lei, os decretos do Executivo, o decreto-legislativo, as portarias e os pareceres normativos.",
+        "D": "a emenda constitucional, as leis e os decretos, as instruções normativas e as portarias expedidas pelas autoridades competentes.",
+        "E": "os decretos do Executivo que alteram alíquotas e regulamentam tributos, as portarias, as instruções normativas e os pareceres sobre matéria tributária."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.fontes"
+      ],
+      "dispositivos": [
+        "CTN 96",
+        "CTN 98",
+        "CTN 99",
+        "CTN 100"
+      ],
+      "exp": "Fontes primárias são as que **inovam** na ordem jurídica: Constituição e emendas, leis complementares e ordinárias, medidas provisórias, decretos legislativos, resoluções do Senado e tratados internacionais (`CTN, arts. 96 e 98`). Decretos regulamentares (`art. 99`), portarias, instruções normativas, pareceres e costumes (normas complementares do `art. 100`) são fontes **secundárias**, e cada uma das alternativas B a E inclui algum deles."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#54",
+      "tipo": "me",
+      "numero": 54,
+      "enunciado": "O Código Tributário Nacional (CTN) traz regras sobre a aplicação e interpretação da lei tributária, dispondo que:\nI. a legislação tributária é aplicada imediatamente aos fatos geradores futuros e aos pendentes, assim entendidos somente aqueles que se encontram suspensos por medida liminar judicial, decorrente de mandado de segurança ou de outra ação judicial prevista em nossa legislação.\nII. como o lançamento se reporta à data da ocorrência do fato gerador da obrigação e rege-se pela lei então vigente, a lei tributária nunca pode ser aplicada a ato ou fato pretérito, tendo em vista o princípio constitucional da irretroatividade da lei tributária.\nIII. a lei tributária que define infrações ou lhe comina penalidades é interpretada da maneira mais favorável ao acusado, em caso de dúvida quanto à capitulação legal do fato e à autoria, à imputabilidade ou à punibilidade do acusado, além de outras hipóteses previstas no CTN.\nIV. interpreta-se literalmente a legislação tributária que disponha sobre suspensão ou exclusão do crédito tributário, sobre outorga de isenção e sobre a dispensa do cumprimento de obrigações tributárias acessórias.\nEstá correto o que consta APENAS de",
+      "alt": {
+        "A": "I e III.",
+        "B": "II e IV.",
+        "C": "I e II.",
+        "D": "II, III e IV.",
+        "E": "III e IV."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.norma"
+      ],
+      "dispositivos": [
+        "CTN 105",
+        "CTN 106",
+        "CTN 111",
+        "CTN 112",
+        "CTN 144 §1º"
+      ],
+      "exp": "Estão certas **III** (`CTN, art. 112`: interpretação mais favorável ao acusado nas leis que definem infrações) e **IV** (`art. 111`: interpretação literal para suspensão e exclusão do crédito, isenção e dispensa de obrigações acessórias). I erra porque fatos geradores pendentes são os que **tiveram início mas não se completaram** (`art. 105`), e não os suspensos por liminar; II erra porque o `art. 106` admite a aplicação a ato pretérito da lei interpretativa e da lei penal mais benéfica ainda não definitivamente julgada (veja também o `art. 144, §1º`)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#55",
+      "tipo": "me",
+      "numero": 55,
+      "enunciado": "A relação jurídica tributária tem como sujeito ativo o Estado-fiscal e, como sujeito passivo, o contribuinte ou o responsável, dispondo o Código Tributário Nacional que",
+      "alt": {
+        "A": "não é considerado contribuinte, mas, simplesmente, responsável o sujeito passivo que tem relação pessoal e direta com a situação que constitua o respectivo fato gerador.",
+        "B": "o sujeito ativo competente para criar o tributo pode, através de lei, atribuir as funções de arrecadar ou de fiscalizar tributos a outra pessoa jurídica de direito público.",
+        "C": "o sujeito ativo da relação jurídica tributária tem o dever de exercer a competência que lhe foi atribuída, dispondo a Constituição Federal que o seu não-exercício autoriza que outro ente federado exerça tal competência tributária.",
+        "D": "o sujeito passivo da obrigação principal é a pessoa obrigada às prestações que constituam o seu objeto, prestações essas que não se confundem com o pagamento de tributo ou de penalidade pecuniária.",
+        "E": "as convenções entre particulares podem ser utilizadas para modificar a definição legal do sujeito passivo das obrigações tributárias, inclusive para alterar a responsabilidade pelo pagamento de tributos, podendo ser opostas à Fazenda Pública sem necessidade de autorização de lei."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.sistema-nacional.competencia",
+        "tributario.obrigacao"
+      ],
+      "dispositivos": [
+        "CTN 7",
+        "CTN 8",
+        "CTN 121",
+        "CTN 123"
+      ],
+      "exp": "A competência tributária é indelegável, **salvo** a atribuição das funções de **arrecadar ou fiscalizar** tributos de uma pessoa jurídica de direito público a outra (`CTN, art. 7º`). Quem tem relação pessoal e direta com o fato gerador é **contribuinte**, não responsável (`art. 121, p.ú., I`), o que derruba A; o não exercício da competência não a transfere a outro ente (`art. 8º`), o que derruba C; o sujeito passivo da obrigação principal é obrigado justamente ao **pagamento de tributo ou penalidade** (`art. 121`), o que derruba D; e as convenções particulares não são oponíveis à Fazenda (`art. 123`), o que derruba E."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#56",
+      "tipo": "me",
+      "numero": 56,
+      "enunciado": "O Código Tributário Nacional define tributo como toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada, dispondo, também,",
+      "alt": {
+        "A": "que a natureza jurídica específica do tributo é determinada pelo fato gerador da respectiva obrigação, sendo que, para qualificá-la, há necessidade de se levar em conta sua denominação e demais características formais previstas em lei, bem como a destinação legal do produto da sua arrecadação.",
+        "B": "de forma expressa, que são tributos: o imposto, a taxa, a contribuição de melhoria, as contribuições sociais, a contribuição para o custeio do serviço de iluminação pública, a contribuição sobre movimentação financeira e a tarifa de pedágio.",
+        "C": "que as taxas têm como fato gerador o exercício regular do poder de polícia, ou a utilização, efetiva ou potencial, de serviço público específico e divisível, prestado ao contribuinte ou posto à sua disposição.",
+        "D": "que a taxa pode ter base de cálculo ou fato gerador idênticos aos que correspondam a imposto, podendo ser calculada em função do capital das empresas.",
+        "E": "que somente os Municípios podem instituir contribuição de melhoria para fazer face ao custo de obras públicas de que decorra valorização imobiliária, tendo como limite individual a despesa realizada e como limite total o acréscimo de valor que da obra resultar para cada imóvel beneficiado."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.tributo"
+      ],
+      "dispositivos": [
+        "CTN 3",
+        "CTN 4",
+        "CTN 5",
+        "CTN 77",
+        "CTN 77 p.ú.",
+        "CTN 81"
+      ],
+      "exp": "C reproduz o `CTN, art. 77`: o fato gerador das taxas é o exercício regular do poder de polícia ou a utilização, efetiva ou potencial, de serviço público específico e divisível. A erra porque a denominação e a destinação da arrecadação são **irrelevantes** para qualificar o tributo (`art. 4º`); B erra porque o CTN só enumera imposto, taxa e contribuição de melhoria (`art. 5º`); D contraria o `art. 77, p.ú.`, que veda essa identidade de base de cálculo ou fato gerador e o cálculo em função do capital das empresas; e E erra porque a contribuição de melhoria pode ser instituída por União, Estados, DF e Municípios, e os limites estão invertidos (`art. 81`: limite **total** é a despesa realizada e o **individual** é o acréscimo de valor de cada imóvel)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#57",
+      "tipo": "me",
+      "numero": 57,
+      "enunciado": "Joana, que é empregada em empresa privada, quer informações sobre sua aposentadoria, sendo que em 16 de",
+      "alt": {
+        "A": "dezembro de 2002, Joana completou 22 anos de contribuição e não mais contribuiu para o INSS em nenhum dos regimes de Previdência Social. Ela não fará jus à aposentadoria proporcional, pois não havia completado 25 anos (no mínimo) de contribuição em 16 de dezembro de 1998, não havendo direito adquirido. Nesse caso, também houve a perda da qualidade de segurado.",
+        "B": "dezembro de 1998, Joana completou 20 anos de contribuição e não mais contribuiu para o INSS em nenhum dos regimes de Previdência Social. Para conquistar o direito à aposentadoria proporcional pela regra de transição da Emenda Constitucional nº 20 de 1998, a partir de hoje deverá possuir no mínimo 48 anos de idade, 25 anos de contribuição (no mínimo) para o regime geral de Previdência Social, além de um pedágio de dois anos de contribuição, o que totaliza 27 anos de contribuição. Para o cálculo da aposentadoria proporcional incidirá o fator previdenciário.",
+        "C": "dezembro de 1998, Joana completou 20 anos de contribuição e não mais contribuiu para o INSS em nenhum dos regimes de Previdência Social. Para conquistar o direito à aposentadoria proporcional, pela regra de transição da Emenda Constitucional nº 20 de 1998, a partir de hoje, deverá possuir no mínimo 48 anos de idade, 25 anos de contribuição (no mínimo) para o regime geral de Previdência Social, além de um pedágio de dois anos de contribuição, o que totaliza 27 anos de contribuição. Para o cálculo da aposentadoria proporcional não incide o fator previdenciário.",
+        "D": "janeiro de 2000, Joana efetuou sua primeira contribuição para o Regime Geral de Previdência Social fazendo seu pagamento sem qualquer atraso. Dessa forma, poderá se aposentar proporcionalmente em 2025 com o total de 25 anos de contribuição e 48 anos de idade (no mínimo).",
+        "E": "dezembro de 1998, Joana completou 20 anos de contribuição e não mais contribuiu para o INSS em nenhum dos regimes de Previdência Social. Para conquistar o direito à aposentadoria proporcional, pela regra de transição da Emenda Constitucional nº 20 de 1998, a partir de hoje, deverá possuir (no mínimo) 52 anos de idade, 25 anos de contribuição (no mínimo) para o regime geral de Previdência Social, além de um pedágio de três anos de contribuição, o que totaliza 28 anos de contribuição. Para o cálculo da aposentadoria proporcional incidirá o fator previdenciário."
+      },
+      "gab": "B",
+      "temas": [
+        "previdenciario.rgps.beneficios",
+        "previdenciario.constitucional"
+      ],
+      "dispositivos": [
+        "EC20 9 §1º",
+        "L8213 29 I",
+        "L8213 29 §7º"
+      ],
+      "exp": "Pela regra de transição da `EC 20/98, art. 9º, §1º`, a mulher filiada até 16/12/1998 obtinha a aposentadoria proporcional com **48 anos de idade**, **25 anos de contribuição** e pedágio de **40% do tempo que faltava** em 16/12/1998: faltavam 25 − 20 = 5 anos, e 40% × 5 = **2 anos**, o que dá 27 anos no total. Sobre ela incide o **fator previdenciário** (`Lei 8.213/91, art. 29, I e §7º`), o que derruba C. E erra a idade e o pedágio; D erra porque a transição só valia para quem era filiado até 16/12/1998; e A erra porque a falta de direito adquirido não impedia a regra de transição, e a perda da qualidade de segurado não é obstáculo à aposentadoria por tempo de contribuição (`Lei 10.666/03, art. 3º`).",
+      "desatualizada": "questão desatualizada: a EC 103/2019 (em vigor desde 13/11/2019, antes da prova de 01/12/2019) revogou o art. 9º da EC 20/1998 e extinguiu a aposentadoria proporcional; a exp segue o gabarito oficial, sem notícia de anulação"
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#58",
+      "tipo": "me",
+      "numero": 58,
+      "enunciado": "As mini-reformas previdenciárias introduziram diversas alterações para a legislação previdenciária em 2019. Sobre as recentes modificações legais,",
+      "alt": {
+        "A": "a pensão por morte para o servidor público será devida ao conjunto dos dependentes do segurado que falecer, aposentado ou não, a contar da data do óbito, quando requerida em até 120 dias após o óbito, para os filhos menores de 16 anos, ou em até 60 dias após o óbito, para os demais dependentes; a contar do requerimento, quando requerida após o prazo acima previsto ou da decisão judicial, na hipótese de morte presumida.",
+        "B": "o Instituto Nacional do Seguro Social (INSS) manterá programa permanente de revisão da concessão e da manutenção dos benefícios por ele administrados, a fim de apurar irregularidades ou erros materiais. Na hipótese de haver indícios de irregularidade ou erros materiais na concessão, na manutenção ou na revisão do benefício, o INSS notificará o beneficiário, o seu representante legal (ou o seu procurador) para apresentar defesa, provas ou documentos dos quais dispuser, no prazo de 45 dias, no caso de trabalhador urbano, e 90 dias, no caso de trabalhador rural individual e avulso, agricultor familiar ou segurado especial.",
+        "C": "as provas de união estável e de dependência econômica exigem início de prova material contemporânea dos fatos, produzido em período não superior a 24 meses anterior à data do óbito ou do recolhimento à prisão do segurado, não admitida a prova exclusivamente testemunhal, sem exceção.",
+        "D": "o segurado manterá a sua qualidade quando estiver recebendo benefício previdenciário, exceto quando estiver percebendo auxílio-acidente. Sendo assim, para que o segurado mantenha a sua qualidade, deverá contribuir mensalmente para o Regime Geral de Previdência Social.",
+        "E": "o salário de benefício do segurado que contribuir em razão de atividades concomitantes será calculado com base na soma integral dos salários de contribuição da atividade principal e proporcionalidade dos salários de contribuição das atividades secundárias exercidas na data do requerimento ou do óbito, ou no período básico de cálculo. Este valor será limitado ao teto previdenciário."
+      },
+      "gab": "D",
+      "temas": [
+        "previdenciario.rgps.beneficiarios",
+        "previdenciario.rgps.beneficios",
+        "previdenciario.rpps"
+      ],
+      "dispositivos": [
+        "L8213 15 I",
+        "L8112 219 I",
+        "L8212 69 §1º",
+        "L8213 16 §5º",
+        "L8213 32"
+      ],
+      "exp": "A Lei 13.846/2019 deu nova redação ao `L8213 15 I`: mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de benefício, **exceto do auxílio-acidente**; quem recebe só esse benefício precisa contribuir para manter a qualidade (D). A erra os prazos, que são de **180 dias** para os filhos menores de 16 anos e **90 dias** para os demais dependentes (`L8112 219 I`, na redação da mesma lei). B erra porque os prazos de defesa são de **30 e 60 dias** (`L8212 69 §1º`); C erra porque o `L8213 16 §5º` ressalva a **força maior ou caso fortuito**; E erra porque o `L8213 32` manda **somar** os salários de contribuição das atividades concomitantes, sem a antiga regra de atividade principal e secundárias.",
+      "observacoes": [
+        "L8112 219 caput e incisos I a III com redação/inclusão pela MP 871/2019, convertida na Lei 13.846/2019: I - do óbito, se requerida em até 180 dias (filhos menores de 16) ou 90 dias (demais dependentes); II - do requerimento, se após esse prazo; III - da decisão judicial, na morte presumida. Os dispositivos das Leis 8.212 e 8.213 não foram reconferidos (fora do escopo); a exp só passou as citações para o formato de sigla."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#59",
+      "tipo": "me",
+      "numero": 59,
+      "enunciado": "Sobre o custeio do Regime Geral de Previdência Social, é INCORRETO afirmar que",
+      "alt": {
+        "A": "a contribuição do empregador doméstico incidente sobre o salário de contribuição do empregado doméstico a seu serviço é de 8%; e 0,8% para o financiamento do seguro contra acidentes de trabalho.",
+        "B": "a inexistência de débitos em relação às contribuições devidas ao Instituto Nacional do Seguro Social (INSS), a partir da publicação da Lei nº 8.213/1991, é condição necessária para que os Estados, o Distrito Federal e os Municípios possam receber as transferências dos recursos do Fundo de Participação dos Estados e do Distrito Federal (FPE) e do Fundo de Participação dos Municípios (FPM), celebrar acordos, contratos, convênios ou ajustes, bem como receber empréstimos, financiamentos, avais e subvenções em geral de órgãos ou entidades da Administração direta e indireta da União.",
+        "C": "o prazo de validade da Certidão Negativa de Débito (CND) é de sessenta dias, contados da sua emissão, podendo ser ampliado por regulamento para até cento e oitenta dias. No entanto, independem de prova de inexistência de débito a lavratura ou assinatura de instrumento, ato ou contrato que constitua retificação, ratificação ou efetivação de outro anterior para o qual já foi feita a prova; a constituição de garantia para concessão de crédito rural, em qualquer de suas modalidades, por instituição de crédito pública ou privada, desde que o contribuinte referido em lei não seja responsável direto pelo recolhimento de contribuições sobre a sua produção para a Seguridade Social; a averbação prevista em lei, relativa a imóvel cuja construção tenha sido concluída antes de 22 de novembro de 1966; o recebimento pelos Municípios de transferência de recursos destinados a ações de assistência social, educação, saúde e em caso de calamidade pública, e a averbação da construção civil localizada em área objeto de regularização fundiária de interesse social.",
+        "D": "o contribuinte individual que pretenda contar como tempo de contribuição, para fins de obtenção de benefício no Regime Geral de Previdência Social ou de contagem recíproca do tempo de contribuição, período de atividade remunerada alcançada pela decadência deverá indenizar o INSS.",
+        "E": "na hipótese de o contribuinte individual prestar serviço a uma ou mais empresas, poderá deduzir, da sua contribuição mensal, cinquenta por cento da contribuição da empresa, efetivamente recolhida ou declarada, incidente sobre a remuneração que esta lhe tenha pago ou creditado, limitada a dedução a nove por cento do respectivo salário-de-contribuição."
+      },
+      "gab": "E",
+      "temas": [
+        "previdenciario.rgps.custeio"
+      ],
+      "dispositivos": [
+        "L8212 30 §4º",
+        "L8212 24",
+        "L8212 56",
+        "L8212 47 §5º",
+        "L8212 47 §6º",
+        "L8212 45-A"
+      ],
+      "exp": "A incorreta é E: a dedução prevista no `Lei 8.212/91, art. 30, §4º` é de **45%** da contribuição da empresa, e não de 50%, limitada a 9% do salário de contribuição. As demais reproduzem a Lei 8.212/91: A (`art. 24`, 8% mais 0,8% para o seguro de acidentes), B (`art. 56`), C (`art. 47, §§5º e 6º`) e D (`art. 45-A`, indenização do período alcançado pela decadência).",
+      "observacoes": [
+        "a alternativa B cita a Lei 8.213/1991, mas a regra é do art. 56 da Lei 8.212/1991 (\"a partir da publicação desta Lei\"); a banca a tratou como correta"
+      ]
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#60",
+      "tipo": "me",
+      "numero": 60,
+      "enunciado": "A empresa Karoteca Indústria e Comércio possui um quadro de 201 empregados celetistas, entre os quais seis empregados com deficiência, para atender os requisitos do art. 93 da Lei nº 8.213/1991. Diante da crise econômica e financeira, resolveu dispensar um empregado com deficiência. Em face da obrigatoriedade estabelecida por aquele dispositivo legal, a empresa Karoteca",
+      "alt": {
+        "A": "tem o direito de dispensar o empregado com deficiência, pois está com excesso de empregados com deficiência exigidos pelo art. 93 da Lei nº 8.213/1991 (Lei de quotas de deficientes).",
+        "B": "não tem o direito de dispensar o empregado com deficiência, pois não está cumprindo integralmente o art. 93 da Lei nº 8.213/1991 (Lei de quotas de deficientes).",
+        "C": "poderá dispensar o empregado com deficiência, somente se este tiver sido contratado por prazo determinado de mais de 90 dias.",
+        "D": "poderá dispensar o empregado com deficiência, somente se este tiver sido contratado por prazo indeterminado.",
+        "E": "poderá dispensar o empregado com deficiência, somente se este for beneficiário reabilitado da Previdência Social."
+      },
+      "gab": "B",
+      "temas": [
+        "previdenciario.rgps.cota-pcd",
+        "previdenciario.rgps.beneficios"
+      ],
+      "dispositivos": [
+        "L8213 93 II",
+        "L8213 93 §1º"
+      ],
+      "exp": "Empresa com 201 a 500 empregados deve preencher **3%** dos cargos com pessoas com deficiência ou reabilitados (`Lei 8.213/91, art. 93, II`): 3% × 201 = 6,03, e a fração arredonda para cima, o que exige **7** empregados. Com seis, a cota já não está cumprida, o que derruba A. Além disso, a dispensa sem justa causa só pode ocorrer **após a contratação de substituto** em condição semelhante (`art. 93, §1º`), qualquer que seja a modalidade do contrato, o que derruba C, D e E."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#d1",
+      "tipo": "disc",
+      "numero": "d1",
+      "enunciado": "QUESTÃO 1\nAlguns trabalhadores de um município estão em dúvida quanto à concessão de benefícios previdenciários, conforme abaixo.\na. João laborou 10 anos em sua pequena propriedade rural de dois módulos rurais em conjunto com sua família. Após tal período, em busca de melhores condições salariais, passou a trabalhar como empregado em um supermercado, onde acumulou 05 anos de registro. Fatigado do trabalho na cidade, retornou ao trabalho rural em sua propriedade, dedicando-se ao plantio de feijão. Atualmente com 66 anos de idade, quer saber se tem direito a algum benefício previdenciário.\nLevando em consideração a situação descrita, responda, fundamentadamente:\na1. Em qual espécie de segurado se enquadraria João Paulo?\na2. Há direito a algum benefício da Seguridade Social? Em caso de resposta positiva, explique os requisitos para o benefício em questão.\na3. Quais provas deverão ser produzidas por João, considerando que a Lei nº 13.846/2019 afastou o poder probatório das declarações de sindicato rural?\nb. Lucila 56 anos de idade e viúva há 03 anos trabalha há mais de 20 anos na produção artesanal de potes de palha em sua pequena casa, localizada na zona rural de uma cidade. Vende sua produção no comércio local cujo produto redunda em valores inferiores ao mínimo. O falecido marido de Lucila sempre laborou como boia fria em diversas cidades. Por falta de prova material de atividade rural para a concessão da aposentadoria por idade rural, João recebeu o beneficio assistencial LOAS antes de falecer.\nLevando em consideração a situação descrita, responda, fundamentadamente:\nb1. Em qual espécie de segurada se enquadraria Lucila?\nb2. Há direito a algum benefício da Seguridade Social? Em caso de resposta positiva, explique os requisitos para o benefício em questão.\nb3. Lucila também quer saber se faria jus a algum benefício decorrente da morte de seu marido. Em caso de resposta positiva, explicar quais seriam os procedimentos necessários para a concessão do benefício em questão. A que Lucila teria direito?\nb3.1. Quais os meios comprobatórios necessários para tal concessão?\nb4. Seria possível cumular o benefício de Lucila com o benefício decorrente da morte do falecido marido?",
+      "limite_linhas": 30,
+      "temas": [
+        "previdenciario.rgps.beneficiarios",
+        "previdenciario.rgps.beneficios",
+        "previdenciario.assistencia-bpc"
+      ],
+      "dispositivos": [
+        "L8213 11 VII",
+        "L8213 11 §9º",
+        "L8213 48 §1º",
+        "L8213 48 §2º",
+        "L8213 48 §3º",
+        "L8213 39 I",
+        "L8213 25 II",
+        "L8213 38-A",
+        "L8213 38-B",
+        "L8213 106",
+        "L8213 55 §3º",
+        "L8213 108",
+        "L8213 16 I",
+        "L8213 16 §4º",
+        "L8213 74",
+        "L8213 77 §2º V",
+        "L8213 102 §2º",
+        "L8213 124",
+        "L8742 20",
+        "L8742 20 §4º",
+        "L8742 21 §1º",
+        "CF 201 §7º II",
+        "EC103 24"
+      ],
+      "padrao_resposta": "**a1.** João é **segurado especial** (`Lei 8.213/91, art. 11, VII, a, 1`): pequeno produtor rural que trabalha em regime de economia familiar em imóvel de até 4 módulos fiscais (o enunciado fala em dois módulos rurais). No período no supermercado foi segurado **empregado** (`art. 11, I, a`); voltou à condição de segurado especial ao retomar o trabalho rural.\n\n**a2.** Sim: **aposentadoria por idade híbrida** (`art. 48, §3º`, incluído pela Lei 11.718/2008). Requisitos: 65 anos (homem), idade urbana, sem a redução de 5 anos do trabalhador rural; e carência de 180 meses (`art. 25, II`), somando tempo rural e urbano. João tem 66 anos e 10 anos rurais + 5 urbanos = 15 anos = 180 meses. O STJ admite computar o tempo rural remoto, mesmo sem contribuições e qualquer que seja a atividade no momento do requerimento (`Tema 1.007`, REsp 1.674.221/SP, 2019). O cálculo segue o `art. 48, §4º`. A aposentadoria rural pura (`art. 48, §§1º e 2º`, 60 anos e 15 anos de atividade rural imediatamente anterior) não se aplica, porque falta tempo rural suficiente. Vale mencionar que a EC 103/2019 manteve os requisitos de 65 anos e 15 anos para o homem já filiado.\n\n**a3.** Com a Lei 13.846/2019, a declaração do sindicato deixou de valer como prova (revogação do `art. 106, III`). A prova do trabalho rural passa a ser feita por **autodeclaração** do segurado, ratificada por entidades do PRONATER ou por órgãos públicos (`arts. 38-B, §2º, e 106`), e pelo cadastro do segurado especial no **CNIS** (`arts. 38-A e 38-B`). Servem como **início de prova material** contemporânea os documentos do `art. 106`: contratos de arrendamento ou parceria, DAP ou CAF, bloco de notas do produtor, notas fiscais de venda da produção, CCIR e ITR, comprovantes de cadastro no INCRA, documentos em nome do grupo familiar etc. Esse início é complementado por **prova testemunhal** e, se for o caso, por justificação administrativa (`art. 108`). A prova exclusivamente testemunhal não basta (`art. 55, §3º`; `Súmula 149 do STJ`). O vínculo urbano se prova pelo CNIS e pela CTPS.\n\n**b1.** Lucila pode ser enquadrada como **segurada especial** (`art. 11, VII`), como trabalhadora rural em regime de economia familiar cuja atividade artesanal com matéria-prima rural (palha) e renda inferior ao mínimo não descaracteriza a condição (`art. 11, §9º, VII`, e `§8º`). Uma boa resposta pode registrar que, se o artesanato não estiver ligado à atividade rural do grupo familiar, ela seria **contribuinte individual** (`art. 11, V, h`), o que exigiria contribuições.\n\n**b2.** Como segurada especial: **aposentadoria por idade rural**, com **55 anos** (mulher) e **180 meses** de efetivo exercício de atividade rural, ainda que descontínuo, no período imediatamente anterior ao requerimento ou ao implemento da idade (`arts. 39, I, 48, §§1º e 2º, e 143`; `CF, art. 201, §7º, II`). O valor é de um salário mínimo. Ela tem 56 anos e mais de 20 anos de atividade. O BPC/LOAS não cabe, porque exige 65 anos ou deficiência (`Lei 8.742/93, art. 20`).\n\n**b3.** O BPC recebido pelo marido é **assistencial**, personalíssimo, e **não gera pensão por morte** (`Lei 8.742/93, art. 21, §1º`; `Decreto 6.214/2007, art. 23`). Ainda assim, Lucila pode pedir **pensão por morte** (`Lei 8.213/91, art. 74`) se demonstrar que o marido, boia-fria (segurado especial ou empregado rural, conforme a jurisprudência), já preenchia em vida os requisitos da aposentadoria por idade rural, ou seja, que o LOAS foi concedido em lugar do benefício previdenciário devido (`art. 102, §2º`; `Súmula 416 do STJ`). Procedimento: requerimento administrativo prévio ao INSS (STF, `RE 631.240`); habilitação como cônjuge, dependente de classe I com dependência econômica presumida (`art. 16, I e §4º`); prova da condição de segurado do falecido ou de seu direito adquirido; se necessário, justificação administrativa e, depois, ação judicial. Como foi requerida mais de 90 dias após o óbito, a pensão é devida desde o **requerimento** (`art. 74, II`). A duração segue o `art. 77, §2º, V`: viúva com 44 anos ou mais na data do óbito, o que a torna vitalícia se houver 18 contribuições ou equivalente e 2 anos de casamento. O valor é de um salário mínimo.\n\n**b3.1.** Meios de prova: certidões de casamento e de óbito; início de prova material da atividade rural do falecido, como CTPS com vínculos rurais, certidões (casamento, nascimento dos filhos) com a profissão de lavrador, documentos do `art. 106` e cadastros; complementação por testemunhas e justificação administrativa (`art. 108`). Para o boia-fria, o STJ abranda a exigência do início de prova material, mas não a dispensa (`Tema 554`, REsp 1.321.493/PR; `Súmula 149 do STJ`).\n\n**b4.** Sim: a aposentadoria por idade própria e a pensão por morte do cônjuge são cumuláveis, porque o `art. 124` da Lei 8.213/91 não veda essa cumulação. Após a EC 103/2019, a cumulação é permitida com recebimento integral do benefício mais vantajoso e de parte do outro, por faixas (`EC 103/2019, art. 24, §§1º, II, e 2º`); com benefícios de um salário mínimo, o efeito prático é limitado. Já o BPC não se acumula com nenhum benefício previdenciário (`Lei 8.742/93, art. 20, §4º`).",
+      "criterios": [
+        {
+          "descricao": "a1: enquadramento de João como segurado especial (economia familiar, até 4 módulos fiscais), com menção ao período como empregado",
+          "pontos": 1.0
+        },
+        {
+          "descricao": "a2: aposentadoria por idade híbrida (art. 48, §3º), com idade de 65 anos, carência de 180 meses somando rural e urbano e cômputo do tempo rural remoto (Tema 1.007 do STJ)",
+          "pontos": 2.0
+        },
+        {
+          "descricao": "a3: autodeclaração ratificada, CNIS, documentos do art. 106 como início de prova material, prova testemunhal complementar e Súmula 149 do STJ",
+          "pontos": 1.5
+        },
+        {
+          "descricao": "b1: enquadramento de Lucila como segurada especial (artesanato com matéria-prima rural e renda inferior ao mínimo), com ressalva sobre o contribuinte individual",
+          "pontos": 1.0
+        },
+        {
+          "descricao": "b2: aposentadoria por idade rural (55 anos, 180 meses de atividade rural imediatamente anterior, valor de um salário mínimo) e não cabimento do BPC",
+          "pontos": 1.5
+        },
+        {
+          "descricao": "b3 e b3.1: BPC não gera pensão; pensão por morte se provado o direito adquirido do marido à aposentadoria rural (Súmula 416 do STJ); requerimento ao INSS, habilitação como dependente presumida, termo inicial e meios de prova (início de prova material abrandado para o boia-fria, testemunhas, justificação administrativa)",
+          "pontos": 2.0
+        },
+        {
+          "descricao": "b4: cumulação possível de aposentadoria e pensão (art. 124 da Lei 8.213/91; EC 103/2019, art. 24) e vedação de cumular o BPC",
+          "pontos": 1.0
+        }
+      ],
+      "observacoes": [
+        "a grade de correção da FCC não está no caderno (é divulgada só na vista de prova): padrao_resposta e criterios são proposta própria, a conferir com o espelho oficial, se for obtido",
+        "a pontuação proposta soma 10 pontos de conteúdo; o edital (item 9.5) dá 0 a 10 por questão, sem indicar o peso da correção gramatical",
+        "o enunciado chama o segurado de \"João\" e, no item a1, de \"João Paulo\"; e chama o marido falecido de Lucila também de \"João\": inconsistências do próprio caderno, transcritas como estão",
+        "o enquadramento de Lucila (segurada especial ou contribuinte individual) é discutível; a proposta adota segurada especial",
+        "prova aplicada em 01/12/2019, logo após a EC 103/2019: conferir se a banca considerou as regras novas na cumulação (item b4)"
+      ]
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#d2",
+      "tipo": "disc",
+      "numero": "d2",
+      "enunciado": "QUESTÃO 2\nServidor público federal, ocupante de cargo efetivo e classificado em unidade administrativa com atribuições decisórias em determinado Ministério foi denunciado anonimamente como sujeito ativo de infração disciplinar. Segundo narrado pela denúncia anônima, o servidor facilitava a emissão de decisões favoráveis aos requerentes mediante ocultação e adulteração de documentos. Pelo que indicava a denúncia, havia recebimento de gratificação pelo servidor. Diante da repercussão negativa na mídia para a Administração pública, a instauração, apuração e decisão do caso por meio de processo administrativo disciplinar ocorreu em tempo recorde. Ao servidor foi dado conhecimento sobre a tramitação do processo na mesma decisão que determinou seu afastamento do cargo. Não lhe foi permitida a constituição de advogado para apresentação de defesa, de forma que o próprio servidor o fez por conta própria, mediante razões escritas, precedido de vista de parte dos documentos que instruíam os autos do processo disciplinar. Após decisão condenatória que culminou em pena de demissão e imediata extinção do vínculo funcional, foi dada vista ao servidor, que então pôde constituir advogado para apresentação de recurso.\nDe acordo com a narrativa trazida aos autos, responda, fundamentadamente:\na. A decisão que afastou o servidor público do cargo está amparada na legalidade?\nb. A extinção do vínculo funcional decretada na decisão condenatória da infração disciplinar possui fundamento legal?\nc. Há vício formal ou material no processo disciplinar no que concerne à garantia da ampla defesa e do contraditório?",
+      "limite_linhas": 30,
+      "temas": [
+        "administrativo.pad",
+        "administrativo.servidores.regime-disciplinar",
+        "constitucional.direitos-individuais.processuais"
+      ],
+      "dispositivos": [
+        "L8112 147",
+        "L8112 144",
+        "L8112 117 IX",
+        "L8112 117 XII",
+        "L8112 132 IV",
+        "L8112 132 XI",
+        "L8112 127 III",
+        "L8112 33 II",
+        "L8112 109",
+        "L8112 143",
+        "L8112 151",
+        "L8112 153",
+        "L8112 156",
+        "L8112 161 §1º",
+        "L8112 169",
+        "L8112 28",
+        "L8112 137",
+        "CF 5 LV"
+      ],
+      "padrao_resposta": "**Preliminar.** A denúncia anônima pode dar início à apuração, desde que a instauração do PAD seja motivada e amparada em investigação ou sindicância preliminar (`Súmula 611 do STJ`; `Lei 8.112/90, art. 144` exige identificação do denunciante, o que a jurisprudência relativiza).\n\n**a.** Sim, em tese. O **afastamento preventivo** é medida cautelar prevista no `Lei 8.112/90, art. 147`: a autoridade instauradora pode afastar o servidor por **até 60 dias, prorrogáveis por igual prazo**, **sem prejuízo da remuneração**, para que ele não influa na apuração. É justificável no caso, porque o servidor tem atribuições decisórias e há suspeita de ocultação e adulteração de documentos. A medida deve ser motivada, e não é sanção, de modo que não exige contraditório prévio. Seria ilegal se suprimisse a remuneração ou excedesse os prazos.\n\n**b.** Sim, a extinção do vínculo tem fundamento legal. As condutas descritas configuram valer-se do cargo para lograr proveito e receber propina (`art. 117, IX e XII`), além de improbidade e corrupção (`art. 132, IV e XI`), e o `art. 132` comina **demissão** (`art. 127, III`). A demissão é forma de **vacância** (`art. 33, II`) e extingue o vínculo; o recurso administrativo, em regra, não tem efeito suspensivo (`art. 109`). A penalidade, porém, só é válida se aplicada em processo regular, e no caso a nulidade do processo contamina a demissão (item c). Ponto extra possível: o impedimento de retorno ao serviço público federal (`art. 137`), cujo parágrafo único o STF declarou inconstitucional em 2020 (`ADI 2.975`), após a prova.\n\n**c.** Há **vício formal** grave, por violação do contraditório e da ampla defesa (`CF, art. 5º, LV`; `Lei 8.112/90, arts. 143 e 153`). (i) **Impedir a constituição de advogado** afronta o direito de acompanhar o processo pessoalmente **ou por procurador** (`art. 156`). A `Súmula Vinculante 5` torna facultativa a defesa técnica, mas não autoriza proibi-la. (ii) A **vista parcial** dos autos viola o `art. 161, §1º`, que assegura vista do processo na repartição para a defesa escrita após a indiciação, e o `art. 156`, que garante acompanhar todas as fases, produzir provas e arrolar e reinquirir testemunhas. (iii) A celeridade \"em tempo recorde\", por pressão da mídia, sugere supressão de fases (instauração, inquérito com instrução, indiciação, defesa e relatório, e julgamento: `art. 151`) e dos prazos de defesa (`art. 161`). (iv) Dar vista e permitir advogado **só depois** da decisão, para o recurso, não sana o vício. Consequência: **nulidade** total ou parcial do processo, com novo processo por outra comissão (`art. 169`), e eventual reintegração (`art. 28`) por via administrativa ou judicial (controle de legalidade, `CF, art. 5º, XXXV`). Pode-se mencionar ainda a exigência de motivação e o princípio da impessoalidade diante da pressão midiática (`CF, art. 37`; `Lei 9.784/99, art. 2º`).",
+      "criterios": [
+        {
+          "descricao": "a: afastamento preventivo como medida cautelar (art. 147 da Lei 8.112/90), com até 60 dias prorrogáveis, sem prejuízo da remuneração, finalidade de não influir na apuração e necessidade de motivação",
+          "pontos": 3.0
+        },
+        {
+          "descricao": "b: enquadramento das condutas (arts. 117, IX e XII, e 132, IV e XI), demissão como forma de vacância (art. 33, II) e ressalva de que a penalidade depende de processo regular",
+          "pontos": 3.0
+        },
+        {
+          "descricao": "c: vício formal por violação do contraditório e da ampla defesa (CF, art. 5º, LV; arts. 153, 156 e 161 da Lei 8.112/90): proibição de procurador (sem confundir com a SV 5), vista parcial, defesa só após a decisão e consequente nulidade (art. 169)",
+          "pontos": 4.0
+        }
+      ],
+      "observacoes": [
+        "a grade de correção da FCC não está no caderno (é divulgada só na vista de prova): padrao_resposta e criterios são proposta própria, a conferir com o espelho oficial, se for obtido"
+      ]
+    }
+  ]
+}

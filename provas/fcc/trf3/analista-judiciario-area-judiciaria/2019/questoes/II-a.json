@@ -1,0 +1,548 @@
+{
+  "prova": "fcc/trf3/analista-judiciario-area-judiciaria/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#17",
+      "tipo": "me",
+      "numero": 17,
+      "enunciado": "De acordo com as publicações mais reconhecidas sobre o tema, como o Código de Melhores Práticas de Governança Corporativa publicado pelo Instituto Brasileiro de Governança Corporativa (IBGC), os princípios básicos de governança corporativa relacionam-se diretamente com a identidade da organização, influenciando a deliberação ética e norteando a atuação dos agentes de governança e o funcionamento do sistema de compliance. Um desses princípios básicos é a accountability, que significa:",
+      "alt": {
+        "A": "a prestação de contas, pelos agentes da governança, de sua atuação de modo claro, conciso, compreensível e tempestivo, assumindo integralmente as consequências de seus atos e omissões.",
+        "B": "ter como objetivo precípuo o melhor uso dos insumos na produção de bens e serviços, com a busca constante de aperfeiçoamento da entidade e de seus colaboradores.",
+        "C": "a elaboração das demonstrações financeiras e dos demais documentos contábeis e registros patrimoniais com a observância das normas técnicas e das boas práticas internacionais.",
+        "D": "a obrigação de reduzir as externalidades negativas e gerenciar os fatores de risco, buscando a sustentabilidade econômico-financeira da entidade, no curto, médio e longo prazo.",
+        "E": "responsabilidade social, que deve ser colocada acima do lucro aos acionistas, e ambiental, com a busca da sustentabilidade e perenidade da organização, em face da sua missão atual e com as futuras gerações."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.governanca-corporativa"
+      ],
+      "dispositivos": [],
+      "exp": "No Código do IBGC, **accountability** (prestação de contas) é o dever dos agentes de governança de prestar contas de sua atuação de modo claro, conciso, compreensível e tempestivo, **assumindo integralmente as consequências de seus atos e omissões**: é a (A). (B) descreve eficiência. (C) descreve conformidade contábil. (D) e (E) se aproximam do princípio da responsabilidade corporativa, que é outro princípio, e (E) ainda o deturpa ao pôr a responsabilidade social \"acima do lucro\"."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#18",
+      "tipo": "me",
+      "numero": 18,
+      "enunciado": "O conceito de gestão de riscos atrelado às boas práticas de governança corporativa contempla",
+      "alt": {
+        "A": "o monitoramento, avaliação e classificação exclusivamente dos riscos de imagem e de integridade.",
+        "B": "a identificação das incertezas nos processos da organização, a medição da probabilidade de danos e seus possíveis impactos.",
+        "C": "apenas medidas de identificação e classificação dos riscos, cabendo ao sistema de compliance as medidas de mitigação.",
+        "D": "medidas de mitigação de riscos, aplicáveis apenas àqueles riscos classificados como gerenciáveis.",
+        "E": "a eliminação dos riscos aos quais a organização está exposta, salvo os riscos legais, que são tratados no bojo do programa de conformidade."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.governanca-corporativa"
+      ],
+      "dispositivos": [],
+      "exp": "Gerir riscos é **identificar as incertezas** dos processos, **medir a probabilidade** de ocorrência e **avaliar os impactos**, para depois tratá-los: é a (B). As demais restringem o conceito sem razão: (A) a só alguns tipos de risco (\"exclusivamente\"); (C) a identificar e classificar, como se a mitigação fosse do compliance; (D) a mitigar riscos gerenciáveis. (E) erra ao falar em eliminar todos os riscos, o que não é possível: a gestão trata os riscos dentro do apetite da organização."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#19",
+      "tipo": "me",
+      "numero": 19,
+      "enunciado": "Considere a seguinte afirmação sobre a implementação, no setor público, da metodologia de gestão por competências, amplamente aplicada no setor privado: “A etapa de mapeamento de competências, própria de tal metodologia, é inviável para o poder público por várias razões, especialmente em função do mandamento constitucional de contratação mediante concurso público, salvo para os cargos de livre provimento”. À luz do conteúdo dessa etapa, tal assertiva afigura-se",
+      "alt": {
+        "A": "equivocada, eis que o mapeamento por competências é uma etapa posterior à contratação de pessoal, ligada única e exclusivamente à remuneração por resultados, o que pode ser implementado, ainda que parcialmente, em carreiras públicas, nos termos da lei.",
+        "B": "correta, eis que o mapeamento de competências consiste na prospecção dos melhores talentos disponíveis no mercado, o que em nada se aproveita na sistemática de concurso público para seleção e provimento de cargos efetivos, que pressupõe a ampla competição.",
+        "C": "parcialmente correta, eis que o mapeamento de competências, embora não atrelado a requisitos necessários ou desejáveis para o provimento dos cargos da organização, é mandatório para o sistema de promoção dos seus integrantes, o que não se coaduna com o regime público de promoções por merecimento e antiguidade.",
+        "D": "equivocada, eis que o mapeamento nada mais é do que a identificação da lacuna existente entre as competências requeridas pelos cargos e aquelas efetivamente disponíveis na organização, o que pode ser levado em conta na elaboração do conteúdo de concursos públicos, observadas as atribuições legais dos cargos.",
+        "E": "correta, pois o mapeamento de competências destina-se ao provimento apenas de posições da alta direção das organizações, o que, no setor público, se dá pela escolha e nomeação de agentes políticos, como Ministros e Secretários de Estado, e não pela sistemática de seleção de talentos."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.gestao-estrategica"
+      ],
+      "dispositivos": [],
+      "exp": "O mapeamento de competências identifica a **lacuna (gap)** entre as competências necessárias aos objetivos e cargos da organização e as que ela já tem. Isso pode orientar o conteúdo dos concursos, a capacitação e a avaliação dos servidores, então a afirmação está equivocada, como diz a (D). (A) liga o mapeamento só à remuneração. (B) o confunde com recrutamento no mercado. (C) e (E) o desvinculam dos requisitos dos cargos ou o restringem à alta direção, o que não corresponde à metodologia."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#20",
+      "tipo": "me",
+      "numero": 20,
+      "enunciado": "Suponha que determinada entidade pública tenha contratado uma consultoria especializada, objetivando a implementação de metodologia Balanced Scorecard (BSC), a fim de obter melhorias em sua atuação. Na fase inicial dos trabalhos, a consultoria envolveu todos os servidores e gestores públicos para estabelecer a missão da entidade, o que significa",
+      "alt": {
+        "A": "identificar as crenças, normas e padrões estabelecidos, formadores da cultura vigente na organização.",
+        "B": "fixar as metas a serem perseguidas pela entidade, no curto, médio e longo prazo.",
+        "C": "estabelecer um consenso entre os membros da organização sobre o futuro que se deseja para a mesma.",
+        "D": "prospectar os cenários potenciais para a atuação da organização, identificando oportunidades e ameaças.",
+        "E": "identificar, com clareza, a razão de ser da entidade, ou seja, seu propósito fundamental."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.gestao-estrategica"
+      ],
+      "dispositivos": [],
+      "exp": "A **missão** é a razão de ser da organização, seu propósito fundamental: por que ela existe e a quem serve. É a (E). (A) descreve valores e cultura organizacional. (B) descreve metas e objetivos estratégicos. (C) descreve a **visão** (o futuro desejado). (D) descreve a análise do ambiente externo (oportunidades e ameaças, da matriz SWOT)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#21",
+      "tipo": "me",
+      "numero": 21,
+      "enunciado": "No tocante à delegação e avocação de competências administrativas, a Lei Federal de Processo Administrativo - Lei nº 9.784/1999, quanto ao uso de tais mecanismos na modalidade vertical (observando a linha hierárquica) ou na modalidade horizontal (sem observar a linha hierárquica), admite a",
+      "alt": {
+        "A": "avocação e a delegação em ambas as modalidades.",
+        "B": "avocação em ambas as modalidades, mas a delegação apenas na modalidade vertical.",
+        "C": "delegação em ambas as modalidades, mas a avocação apenas na modalidade vertical.",
+        "D": "delegação apenas na modalidade vertical e a avocação apenas na modalidade horizontal.",
+        "E": "delegação em ambas as modalidades, mas a avocação apenas na modalidade horizontal."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.processo-administrativo",
+        "administrativo.poderes.disciplinar"
+      ],
+      "dispositivos": [
+        "L9784 12",
+        "L9784 15"
+      ],
+      "exp": "O `L9784 12` permite delegar parte da competência a outros órgãos ou titulares, \"**ainda que estes não lhe sejam hierarquicamente subordinados**\", ou seja, na forma vertical e na horizontal. Já o `L9784 15` só admite a avocação temporária de competência atribuída a **órgão hierarquicamente inferior**, ou seja, só na forma vertical. É a (C), e as demais combinações contrariam esses dois artigos."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#22",
+      "tipo": "me",
+      "numero": 22,
+      "enunciado": "Nos termos da Lei nº 8.666/1993, a rescisão dos contratos administrativos",
+      "alt": {
+        "A": "sempre ocorrerá por ato unilateral da Administração pública, em vista da supremacia do interesse público.",
+        "B": "pode decorrer de alteração societária do contratado que prejudique a execução do contrato.",
+        "C": "pode ocorrer de forma unilateral, pelo contratado, quando se configurar caso fortuito ou de força maior, regularmente comprovada, impeditiva da execução do contrato.",
+        "D": "pode decorrer de razões de interesse público, de alta relevância e amplo conhecimento, justificadas e determinadas pela máxima autoridade da esfera administrativa a que está subordinado o contratante, e necessariamente mediante processo judicial ajuizado para essa finalidade.",
+        "E": "implica em imediata devolução da garantia, seja qual for a causa da rescisão."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [
+        "L8666 78 XI",
+        "L8666 78 XVII",
+        "L8666 79 I",
+        "L8666 79 §2º",
+        "L8666 80 III"
+      ],
+      "exp": "O `L8666 78 XI` prevê como motivo de rescisão \"a alteração social ou a modificação da finalidade ou da estrutura da empresa, que prejudique a execução do contrato\": é a (B). (A) erra porque a rescisão também pode ser amigável ou judicial (`L8666 79`). Em (C), o caso fortuito ou força maior (`L8666 78 XVII`) autoriza rescisão unilateral **pela Administração** (`L8666 79 I`), não pelo contratado. Em (D), a rescisão por interesse público (inciso XII) é ato unilateral da Administração e não depende de processo judicial. (E) erra porque a garantia só é devolvida quando não há culpa do contratado (`L8666 79 §2º`); na rescisão por culpa dele, a garantia é executada (`L8666 80 III`)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#23",
+      "tipo": "me",
+      "numero": 23,
+      "enunciado": "Nos termos da Constituição Federal de 1988 e da legislação aplicável, o regime jurídico das sociedades de economia mista confere a essas entidades",
+      "alt": {
+        "A": "a dispensa de realizar licitações quando se tratar da comercialização, prestação ou execução, de forma direta, de produtos, serviços ou obras especificamente relacionados com seus respectivos objetos sociais.",
+        "B": "o privilégio processual de prazo em dobro para todas as suas manifestações processuais, cuja contagem terá início a partir da intimação pessoal.",
+        "C": "a prerrogativa de pleitear ao presidente do tribunal ao qual couber o conhecimento do respectivo recurso a suspensão da execução da liminar ou de sentença, de modo a evitar grave lesão à ordem, à saúde, à segurança e à economia públicas.",
+        "D": "a obrigação de sempre observar o teto remuneratório constitucional na remuneração de seus agentes.",
+        "E": "a sujeição ao regime de pagamento de suas dívidas por precatório, nos termos do art. 100 da Constituição Federal, independentemente da natureza de suas atividades."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.organizacao",
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [
+        "L13303 28 §3º I",
+        "CPC 183",
+        "CF 37 §9º",
+        "CF 100"
+      ],
+      "exp": "A Lei das Estatais dispensa as sociedades de economia mista de licitar na comercialização, prestação ou execução, de forma direta, de produtos, serviços ou obras **ligados a seus objetos sociais** (`L13303 28 §3º I`): é a (A). (B) erra porque o prazo em dobro do `CPC 183` é só das pessoas jurídicas de direito público. (C) erra porque a suspensão de liminar ou de sentença é prerrogativa do poder público. (D) erra porque o teto só se aplica às estatais que recebem recursos públicos para despesas de pessoal ou de custeio (`CF 37 §9º`). (E) erra porque o regime de precatórios (`CF 100`) só alcança, segundo o STF, estatais que prestam serviço público essencial sem concorrência, e não todas \"independentemente da natureza de suas atividades\"."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#24",
+      "tipo": "me",
+      "numero": 24,
+      "enunciado": "A Lei nº 8.112/1990, que estabelece o regime jurídico aplicável aos servidores públicos federais, estatui uma série de normas relacionadas à parcela denominada Auxílio-Moradia, que “consiste no ressarcimento das despesas comprovadamente realizadas pelo servidor com aluguel de moradia ou com meio de hospedagem administrado por empresa hoteleira” (art. 60-A). Tal vantagem",
+      "alt": {
+        "A": "não mais vigora, pois foi declarada inconstitucional pelo Supremo Tribunal Federal.",
+        "B": "será paga, ainda que o deslocamento tenha sido realizado por força de alteração de lotação ou nomeação para cargo efetivo.",
+        "C": "será paga, mesmo que o servidor ou seu cônjuge ou companheiro tenha sido proprietário, promitente comprador, cessionário ou promitente cessionário de imóvel no Município aonde for exercer o cargo.",
+        "D": "não será paga, caso o deslocamento ocorra dentro da mesma região metropolitana, aglomeração urbana ou microrregião, constituídas por municípios limítrofes e regularmente instituídas, da qual faça parte o local de residência ou domicílio do servidor.",
+        "E": "é limitada ao valor correspondente a 50% do valor do cargo em comissão, função comissionada ou cargo de Ministro de Estado ocupado."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.servidores.direitos"
+      ],
+      "dispositivos": [
+        "L8112 60-B VI",
+        "L8112 58 §3º",
+        "L8112 60-B III",
+        "L8112 60-B VIII",
+        "L8112 60-D"
+      ],
+      "exp": "Um dos requisitos do auxílio-moradia é que o Município do novo cargo não se enquadre no `L8112 58 §3º`, ou seja, que não esteja na mesma região metropolitana, aglomeração urbana ou microrregião do local de residência (`L8112 60-B VI`): é a (D). (B) contraria o `L8112 60-B VIII`, que exclui o deslocamento por alteração de lotação ou nomeação para cargo efetivo. (C) contraria o `L8112 60-B III`, que exclui quem foi proprietário de imóvel no Município nos 12 meses anteriores. (E) erra o limite, que é de **25%** (`L8112 60-D`). (A) erra porque a vantagem está em vigor e não foi declarada inconstitucional."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#25",
+      "tipo": "me",
+      "numero": 25,
+      "enunciado": "A Lei nº 11.416/2006 dispõe sobre as Carreiras dos Servidores do Poder Judiciário da União e estatui o seguinte:",
+      "alt": {
+        "A": "A promoção é a movimentação do servidor de um padrão para o seguinte dentro de uma mesma classe, observado o interstício de um ano, sob os critérios fixados em regulamento e de acordo com o resultado de avaliação formal de desempenho.",
+        "B": "A progressão funcional é a movimentação do servidor do último padrão de uma classe para o primeiro padrão da classe seguinte, observado o interstício de um ano em relação à progressão funcional imediatamente anterior, dependendo, cumulativamente, do resultado de avaliação formal de desempenho e da participação em curso de aperfeiçoamento oferecido, preferencialmente, pelo órgão, na forma prevista em regulamento.",
+        "C": "Os órgãos do Poder Judiciário da União fixarão em ato próprio a lotação dos cargos efetivos, das funções comissionadas e dos cargos em comissão nas unidades componentes de sua estrutura, admitida a transformação, sem aumento de despesa, de função comissionada em cargo em comissão ou vice-versa.",
+        "D": "70%, pelo menos, dos cargos em comissão nos Quadros de Pessoal dos órgãos do Poder Judiciário serão destinados a servidores efetivos integrantes de seu quadro de pessoal, na forma prevista em regulamento.",
+        "E": "É vedada a percepção da Gratificação de Atividade Externa pelo servidor designado para o exercício de função comissionada ou nomeado para cargo em comissão."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.servidores.carreiras-pju",
+        "administrativo.servidores",
+        "administrativo.servidores.direitos"
+      ],
+      "dispositivos": [
+        "L11416 16 §2º",
+        "L11416 9 §1º",
+        "L11416 9 §2º",
+        "L11416 24 p.ú.",
+        "L11416 5 §7º"
+      ],
+      "exp": "(E) reproduz o `L11416 16 §2º`: quem exerce função comissionada ou cargo em comissão não recebe a **GAE**. (A) e (B) trocam os conceitos do `L11416 9`: a passagem de um padrão para o seguinte na mesma classe é a **progressão funcional** (§1º), e a passagem do último padrão de uma classe para o primeiro da seguinte é a **promoção** (§2º). (C) erra porque o `L11416 24 p.ú.` autoriza transformar, sem aumento de despesa, funções comissionadas e cargos em comissão, mas **vedada a transformação de função em cargo ou vice-versa**. (D) erra o percentual, que é de **50%** (`L11416 5 §7º`).",
+      "observacoes": [
+        "O parágrafo único do art. 24 aparece como '(VETADO)' na publicação original (DOU extra de 15/12/2006) e no texto atualizado da Câmara, mas a republicação integral da lei (DOU de 19/12/2006) o traz em vigor, e a republicação da mensagem de veto já não o inclui entre os dispositivos vetados; os tribunais o aplicam. Texto: 'Os órgãos de que trata este artigo ficam autorizados a transformar, sem aumento de despesa, no âmbito de suas competências, as funções comissionadas e os cargos em comissão de seu quadro de pessoal, vedada a transformação de função em cargo ou vice-versa.' Arts. 5º §7º, 9º e 16 §2º conferidos no texto atualizado."
+      ],
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11416-15-dezembro-2006-548306-republicacao-63470-pl.html; https://www2.camara.leg.br/legin/fed/lei/2006/lei-11416-15-dezembro-2006-548306-veto-republicacao-63471-pl.html; https://www2.camara.leg.br/legin/fed/lei/2006/lei-11416-15-dezembro-2006-548306-normaatualizada-pl.html"
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#26",
+      "tipo": "me",
+      "numero": 26,
+      "enunciado": "Abílio Silva foi empossado em cargo público efetivo e praticou diversos atos administrativos no exercício de tal cargo. Todavia, o concurso que gerou o provimento do cargo foi anulado, sem que ele tenha contribuído para a nulidade. Nessa situação, os atos praticados por ele são",
+      "alt": {
+        "A": "válidos, visto que atuou como funcionário de fato.",
+        "B": "nulos, pois praticados com usurpação de poder.",
+        "C": "anuláveis, pois praticados com vício de motivo.",
+        "D": "irregulares, por desvio de finalidade.",
+        "E": "inexistentes, pois praticados com objeto juridicamente impossível."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.ato",
+        "administrativo.agentes"
+      ],
+      "dispositivos": [],
+      "exp": "Quem foi investido no cargo de forma irregular, mas com aparência de legalidade, é **funcionário (agente) de fato**. Pela teoria da aparência, da boa-fé dos administrados e da segurança jurídica, os atos que praticou são **válidos** perante terceiros: é a (A). Não há usurpação de função (B), que ocorre quando alguém sem investidura nenhuma exerce a função, e que geraria ato inexistente. Também não há vício de motivo (C), desvio de finalidade (D) ou objeto impossível (E): o vício está na investidura, e não no conteúdo dos atos."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#27",
+      "tipo": "me",
+      "numero": 27,
+      "enunciado": "À luz da Constituição Federal de 1988 e da jurisprudência do Supremo Tribunal Federal, caberá",
+      "alt": {
+        "A": "habeas corpus, de competência originária do Supremo Tribunal Federal, impetrado contra ato de Comissão Parlamentar de Inquérito instaurada no âmbito de Assembleia Legislativa, para assegurar o direito ao silêncio a dirigente de autarquia estadual intimado a comparecer como testemunha.",
+        "B": "mandado de segurança, de competência originária de Tribunal Regional Federal, em face de ato do Comandante da Marinha que teria indeferido pedido de promoção na carreira militar a que, pelos critérios legais, faria jus o impetrante.",
+        "C": "mandado de injunção, de competência originária do Superior Tribunal de Justiça, ajuizado por Deputado Federal, diante da omissão da Mesa da Câmara dos Deputados em instaurar processo administrativo para apuração de quebra de decoro parlamentar de outro Deputado Federal.",
+        "D": "habeas data, de competência originária do Superior Tribunal de Justiça, impetrado contra ato de Ministro de Estado que negou, à empresa mencionada em sede de processo administrativo disciplinar instaurado contra servidor do órgão, acesso aos autos respectivos.",
+        "E": "ação popular, de competência de juiz federal, ajuizada por cidadão, visando à anulação de ato do Conselho Nacional de Justiça, lesivo à moralidade administrativa e ao erário público."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.remedios",
+        "constitucional.judiciario.orgaos"
+      ],
+      "dispositivos": [
+        "CF 5 LXXIII",
+        "CF 102 I r",
+        "CF 105 I b",
+        "CF 102 I q",
+        "CF 5 LXXII"
+      ],
+      "exp": "Cabe ação popular para anular ato lesivo à moralidade administrativa e ao patrimônio público (`CF 5º LXXIII`). O STF entende que a competência originária do `CF 102 I r` para ações contra o CNJ se limita a mandado de segurança, habeas corpus, habeas data e mandado de injunção; a ação popular contra ato do CNJ (órgão da União) vai ao **juiz federal**. É a (E). (A) erra porque CPI estadual não está sob a jurisdição originária do STF. (B) erra porque o MS contra Comandante da Marinha é do **STJ** (`CF 105 I b`). (C) erra duas vezes: o mandado de injunção supre falta de norma regulamentadora, e não omissão administrativa, e o MI contra a Mesa da Câmara seria do STF (`CF 102 I q`). (D) erra porque o habeas data serve para informações sobre o próprio impetrante (`CF 5º LXXII`), e não para ter acesso a autos de PAD de terceiro."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#28",
+      "tipo": "me",
+      "numero": 28,
+      "enunciado": "Considere que, em sede de primeira instância, tenha sido proferida sentença por juiz federal julgando procedente ação em que o autor, pessoa jurídica de direito privado, pretendia eximir-se do cumprimento de determinada obrigação legal, sob o fundamento de inconstitucionalidade da lei federal que a impunha. Enquanto pendente de julgamento recurso perante o Tribunal Regional Federal (TRF) competente, foi publicada súmula vinculante do Supremo Tribunal Federal (STF) sobre a matéria, afirmando ser constitucional a exigência constante da referida lei, sem ressalvas quanto à produção de efeitos ou à eficácia do enunciado respectivo. Nessa hipótese, à luz da disciplina normativa pertinente e da jurisprudência do STF, ao julgar o recurso, o TRF",
+      "alt": {
+        "A": "deverá decidir em conformidade com o teor da súmula vinculante, aplicando-a ao caso, sendo dado ao autor da ação ajuizar reclamação perante o STF, para cassação da decisão de segunda instância, caso pretenda restabelecer a sentença.",
+        "B": "não estará obrigado a decidir em conformidade com o teor da súmula vinculante, uma vez que a sentença foi proferida em primeira instância antes de a súmula ter sido editada e publicada.",
+        "C": "estará legitimado a propor a revisão da súmula vinculante ao STF, o que autoriza a suspensão do processo pendente de julgamento em segunda instância, até decisão final do STF sobre a revisão do enunciado.",
+        "D": "deverá decidir em conformidade com o teor da súmula vinculante, aplicando-a ao caso, não sendo cabível ao autor da ação, diante da aplicação devida da súmula, interpor recurso extraordinário, reclamação ou proposta de revisão do enunciado perante o STF.",
+        "E": "deverá decidir em conformidade com o teor da súmula vinculante, aplicando-a ao caso, sendo dado ao autor da ação interpor recurso extraordinário, para reforma da decisão de segunda instância, caso pretenda restabelecer a sentença, presumida a repercussão geral."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.controle",
+        "constitucional.judiciario.orgaos"
+      ],
+      "dispositivos": [
+        "CF 103-A",
+        "CF 103-A §3º",
+        "L11417 3",
+        "L11417 6",
+        "CPC 1030 I a"
+      ],
+      "exp": "A súmula vinculante obriga os demais órgãos do Judiciário a partir de sua publicação (`CF 103-A`) e se aplica aos processos pendentes, então o TRF deve aplicá-la (o que afasta a B). Se a súmula for aplicada corretamente, não há reclamação, que só cabe contra ato que a contrarie ou a aplique indevidamente (`CF 103-A §3º`). O recurso extraordinário contra acórdão conforme o entendimento do STF é inadmitido (`CPC 1.030 I a`), e a pessoa jurídica privada não está entre os legitimados a propor revisão do enunciado (`L11417 3`). É a (D). (A) e (E) admitem reclamação e RE nesse caso, o que está errado. (C) erra porque o TRF até é legitimado (`L11417 3 XI`), mas a proposta de revisão **não autoriza a suspensão** dos processos (`L11417 6`)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#29",
+      "tipo": "me",
+      "numero": 29,
+      "enunciado": "No exercício de sua função de fiscalização financeira, contábil e orçamentária, a Assembleia Legislativa de determinado Estado da federação apurou que, contrariamente ao informado pelo Executivo, em prestação de contas, o Estado teria deixado de observar o percentual mínimo exigido na aplicação de recursos em ações e serviços públicos de saúde. Políticos de oposição ao governo estadual alegam haver no caso razões para intervenção da União no referido Estado. Nessa hipótese, à luz da disciplina constitucional da matéria, a decretação da intervenção é, em tese,",
+      "alt": {
+        "A": "cabível, e dependerá de provimento, pelo Supremo Tribunal Federal, de representação do Procurador-Geral da República.",
+        "B": "cabível, e dependerá de solicitação do Poder Legislativo do referido Estado ao Presidente da República.",
+        "C": "cabível, e dependerá de requisição do Poder Judiciário do referido Estado ao Presidente da República.",
+        "D": "cabível, devendo o decreto ser submetido à apreciação da Assembleia Legislativa no prazo de 24 horas, salvo se a suspensão do ato impugnado bastar ao restabelecimento da normalidade.",
+        "E": "descabida, uma vez que, embora o Estado não tenha observado a aplicação do mínimo exigido da receita estadual nas ações e serviços públicos de saúde, essa hipótese não enseja a decretação de intervenção federal."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.intervencao"
+      ],
+      "dispositivos": [
+        "CF 34 VII e",
+        "CF 36 III",
+        "CF 36 §1º",
+        "CF 36 §3º"
+      ],
+      "exp": "Não aplicar o mínimo exigido em ações e serviços públicos de saúde é princípio sensível (`CF 34 VII e`), e a intervenção federal nesse caso depende de **provimento, pelo STF, de representação do PGR** (`CF 36 III`): é a (A), o que afasta a (E). A solicitação do Legislativo (B) serve para garantir o livre exercício dos Poderes (`CF 34 IV` e `CF 36 I`), e a requisição judicial (C) cabe em outras hipóteses do art. 36. (D) erra porque o decreto de intervenção federal é apreciado pelo **Congresso Nacional** (`CF 36 §1º`), e no caso do art. 34, VII, essa apreciação é dispensada quando a suspensão do ato basta (`CF 36 §3º`)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#30",
+      "tipo": "me",
+      "numero": 30,
+      "enunciado": "Sentença proferida por juiz federal declarou o cancelamento da naturalização de brasileiro naturalizado, em virtude de atividade nociva ao interesse nacional. Nessa hipótese, considerada a Constituição Federal de 1988, o cancelamento da naturalização deu-se",
+      "alt": {
+        "A": "pela razão cabível, por decisão de órgão competente, sendo que somente após o trânsito em julgado respectivo acarreta a perda dos direitos políticos.",
+        "B": "pela razão cabível, por decisão de órgão competente, acarretando, independentemente do trânsito em julgado, perda dos direitos políticos e possibilidade de extradição.",
+        "C": "por motivo descabido, embora a decisão tenha sido proferida por órgão competente, cabendo ao Tribunal Regional Federal da jurisdição respectiva julgar a causa, em grau de recurso.",
+        "D": "pela razão cabível, embora a decisão tenha sido proferida por órgão incompetente, cabendo ao Superior Tribunal de Justiça processar e julgar o respectivo conflito de competência.",
+        "E": "por motivo descabido, ademais de a decisão ter sido proferida por órgão incompetente, cabendo reclamação ao Supremo Tribunal Federal para sua cassação."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.nacionalidade",
+        "constitucional.direitos-politicos",
+        "constitucional.judiciario.justica-federal"
+      ],
+      "dispositivos": [
+        "CF 12 §4º I",
+        "CF 109 X",
+        "CF 15 I"
+      ],
+      "exp": "Na redação da época, o `CF 12 §4º I` previa a perda da nacionalidade do naturalizado que tivesse \"cancelada sua naturalização, por sentença judicial, em virtude de **atividade nociva ao interesse nacional**\", e a causa é da competência do **juiz federal** (`CF 109 X`). A perda dos direitos políticos exige **sentença transitada em julgado** (`CF 15 I`). É a (A), o que afasta a (B). (C), (D) e (E) erram ao dizer que o motivo é descabido ou que o juiz é incompetente. Observação: a EC 131/2023 mudou o inciso I do §4º, que hoje fala em fraude no processo de naturalização ou atentado contra a ordem constitucional e o Estado Democrático."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#31",
+      "tipo": "me",
+      "numero": 31,
+      "enunciado": "Determinada empresa ajuizou ação visando à anulação de penalidade que lhe havia sido imposta por órgão da Administração federal, sob a alegação de que a lei em que prevista resultara de projeto que, após aprovado com alterações substanciais pela Casa legislativa revisora, teria seguido diretamente à sanção presidencial, sem antes retornar à Casa inicial, razão pela qual seria formalmente inconstitucional. A ação foi julgada procedente em primeira instância, com fundamento na inconstitucionalidade da lei em que prevista a penalidade. Tendo sido interposto recurso, o processo aguarda julgamento por órgão fracionário do Tribunal Regional Federal (TRF) respectivo. Nessa hipótese, diante da Constituição Federal de 1988 e da jurisprudência do Supremo Tribunal Federal (STF),",
+      "alt": {
+        "A": "embora tenha havido irregularidade no trâmite do projeto legislativo, não compete aos órgãos judiciais declarar em caráter incidental a inconstitucionalidade formal da lei, o que somente se admite em sede de controle concentrado, exercido por meio de ação direta de competência originária do STF.",
+        "B": "houve, de fato, irregularidade no trâmite do projeto de lei, possuindo os órgãos judiciais competência para reconhecer incidentalmente a inconstitucionalidade da lei, embora no âmbito do TRF a declaração respectiva dependa de decisão da maioria absoluta dos membros do Tribunal ou de seu órgão especial.",
+        "C": "embora tenha havido irregularidade no trâmite do projeto legislativo, a sanção presidencial teria o condão de convalidá-la, não havendo que se falar por esse motivo em inconstitucionalidade da lei, possuindo o TRF competência para reconhecer sua constitucionalidade por meio de órgão fracionário.",
+        "D": "embora tenha havido irregularidade no trâmite do projeto legislativo, a sanção presidencial teria o condão de convalidá-la, não havendo que se falar por esse motivo em inconstitucionalidade da lei, possuindo o TRF competência para reconhecer sua constitucionalidade, desde que observada a cláusula de reserva de plenário.",
+        "E": "houve, de fato, irregularidade no trâmite do projeto de lei, possuindo os órgãos judiciais competência para afastar a aplicação da lei ao caso concreto, inclusive órgão fracionário do TRF, desde que não declare sua inconstitucionalidade."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.controle",
+        "constitucional.poderes"
+      ],
+      "dispositivos": [
+        "CF 65 p.ú.",
+        "CF 97"
+      ],
+      "exp": "Emendado substancialmente pela Casa revisora, o projeto **deve voltar à Casa iniciadora** (`CF, art. 65, p.ú.`), de modo que há vício formal; e a sanção não convalida vício de processo legislativo, o que afasta C e D. Qualquer juiz pode declarar a inconstitucionalidade incidentalmente (controle difuso), o que derruba A. No tribunal, porém, vale a **reserva de plenário**: só a maioria absoluta do pleno ou do órgão especial declara a inconstitucionalidade (`CF, art. 97`), e a `Súmula Vinculante 10` proíbe o órgão fracionário de apenas \"afastar a aplicação\" da lei sem declará-la inconstitucional (erro de E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#32",
+      "tipo": "me",
+      "numero": 32,
+      "enunciado": "Determinada Defensoria Pública estadual ajuizou ação civil pública, visando compelir Município localizado no Estado em que atua a manter em funcionamento creches e escolas da rede municipal de forma ininterrupta, sob o fundamento de inconstitucionalidade de lei municipal que autorizaria a suspensão de seu funcionamento durante períodos de férias escolares. À luz da disciplina normativa pertinente e da jurisprudência do Supremo Tribunal Federal na matéria,",
+      "alt": {
+        "A": "a Defensoria Pública estaria legitimada em tese para a propositura de ação civil pública, embora, no caso, a ação não seja cabível, por ter por objeto o controle de constitucionalidade de lei municipal em abstrato.",
+        "B": "a Defensoria Pública estaria legitimada em tese para a propositura de ação civil pública, embora, no caso, a ação não seja cabível, por não ser possível demonstrar que os titulares dos direitos difusos tutelados sejam pessoas necessitadas.",
+        "C": "a Defensoria Pública está legitimada para a propositura da referida ação civil pública, que tem por objeto a tutela de direitos difusos de que são titulares, em tese, pessoas necessitadas, sendo admissível o controle de constitucionalidade de lei nesta sede, em caráter incidental.",
+        "D": "o Ministério Público, e não a Defensoria Pública, estaria legitimado para a propositura de ação civil pública tendo por objeto a tutela de direitos difusos, embora seja admissível o controle de constitucionalidade de lei nesta sede, em caráter incidental.",
+        "E": "o Ministério Público, e não a Defensoria Pública, estaria legitimado para a propositura de ação civil pública visando à tutela de direitos difusos, ademais de, no caso, a ação não ser cabível, por ter por objeto o controle de constitucionalidade de lei municipal em abstrato."
+      },
+      "gab": "C",
+      "temas": [
+        "constitucional.controle",
+        "processo-civil.coletivo",
+        "constitucional.funcoes-essenciais"
+      ],
+      "dispositivos": [
+        "L7347 5 II",
+        "CF 134"
+      ],
+      "exp": "A Defensoria tem legitimidade para a ação civil pública (`Lei 7.347/85, art. 5º, II`), inclusive para direitos difusos, bastando que, em tese, a tutela beneficie necessitados (STF, `ADI 3.943`); o que derruba B, D e E. A inconstitucionalidade da lei municipal é aqui **causa de pedir**, não o pedido: o objeto é manter creches e escolas abertas, e o STF admite o controle **incidental** em ACP nessas condições, de modo que A também erra."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#33",
+      "tipo": "me",
+      "numero": 33,
+      "enunciado": "Na celebração de contrato de compra e venda, vendedor e comprador procederam com dolo, que foi a causa do negócio. Nesse caso, de acordo com o Código Civil,",
+      "alt": {
+        "A": "qualquer das partes poderá invocar o dolo da outra para anular o negócio, mas nenhuma delas poderá reclamar indenização.",
+        "B": "qualquer das partes poderá invocar o dolo da outra para anular o negócio, ou reclamar indenização.",
+        "C": "nenhuma das partes poderá invocar o dolo da outra para anular o negócio, ou reclamar indenização.",
+        "D": "qualquer das partes poderá invocar o dolo da outra para reclamar indenização, mas não para anular o negócio.",
+        "E": "somente a parte mais prejudicada poderá invocar o dolo da outra para anular o negócio, ou reclamar indenização."
+      },
+      "gab": "C",
+      "temas": [
+        "civil.fatos-negocios.defeitos"
+      ],
+      "dispositivos": [
+        "CC 150"
+      ],
+      "exp": "É o **dolo recíproco** (ou bilateral): \"se ambas as partes procederem com dolo, **nenhuma pode alegá-lo** para anular o negócio, ou reclamar indenização\" (`CC, art. 150`). Ninguém pode se valer da própria torpeza, de modo que as demais alternativas, que permitem anular, indenizar ou privilegiar a parte mais prejudicada, contrariam a lei."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#34",
+      "tipo": "me",
+      "numero": 34,
+      "enunciado": "Ricardo, maior de 16 anos, não consegue, por causa permanente, exprimir sua vontade. Nesse caso, de acordo com o Código Civil, Ricardo",
+      "alt": {
+        "A": "é absolutamente incapaz de exercer pessoalmente os atos da vida civil, não correndo contra ele a prescrição.",
+        "B": "é absolutamente incapaz de exercer pessoalmente os atos da vida civil, mas contra ele corre a prescrição.",
+        "C": "é incapaz, relativamente a certos atos ou à maneira de os exercer, não correndo contra ele a prescrição.",
+        "D": "é incapaz, relativamente a certos atos ou à maneira de os exercer, mas contra ele corre a prescrição.",
+        "E": "não é incapaz, absoluta ou relativamente, mas contra ele não corre a prescrição."
+      },
+      "gab": "D",
+      "temas": [
+        "civil.pessoas.capacidade",
+        "civil.prescricao-decadencia"
+      ],
+      "dispositivos": [
+        "CC 3",
+        "CC 4 III",
+        "CC 198 I"
+      ],
+      "exp": "Depois do Estatuto da Pessoa com Deficiência, só o menor de 16 anos é absolutamente incapaz (`CC, art. 3º`); quem não pode exprimir sua vontade, por causa transitória **ou permanente**, é **relativamente incapaz** (`CC, art. 4º, III`). A prescrição só não corre contra os absolutamente incapazes do art. 3º (`CC, art. 198, I`), de modo que corre contra Ricardo. A e B o tratam como absolutamente incapaz, C erra quanto à prescrição e E nega a incapacidade."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#35",
+      "tipo": "me",
+      "numero": 35,
+      "enunciado": "De acordo com o Código Civil, o penhor",
+      "alt": {
+        "A": "constitui-se pelo contrato, independentemente da efetiva transferência da posse da coisa dada em garantia.",
+        "B": "não pode ser parcialmente remido pelos sucessores do devedor na proporção dos seus quinhões, mas qualquer deles pode fazê-lo no todo.",
+        "C": "dispensa qualquer tipo de registro.",
+        "D": "não se extingue pelo perecimento da coisa empenhada por culpa do devedor.",
+        "E": "agrícola que recai sobre colheita pendente não abrange a imediatamente seguinte, mesmo no caso de frustrar-se ou ser insuficiente a que se deu em garantia."
+      },
+      "gab": "B",
+      "temas": [
+        "civil.direitos-reais.penhor"
+      ],
+      "dispositivos": [
+        "CC 1429",
+        "CC 1431",
+        "CC 1432",
+        "CC 1436 II",
+        "CC 1443"
+      ],
+      "exp": "B reproduz o `CC, art. 1.429`: os sucessores do devedor não podem remir parcialmente o penhor na proporção dos seus quinhões, mas qualquer deles pode fazê-lo no todo. A erra porque o penhor comum se constitui pela **transferência efetiva da posse** (`art. 1.431`); C erra porque o instrumento deve ser registrado (`art. 1.432`); D erra porque o perecimento da coisa extingue o penhor (`art. 1.436, II`); e E contraria o `art. 1.443`, pelo qual o penhor sobre colheita pendente **abrange a imediatamente seguinte** se a dada em garantia se frustrar ou for insuficiente."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#36",
+      "tipo": "me",
+      "numero": 36,
+      "enunciado": "Luciano, empregado de XPTO Carretos e Mudanças Ltda., dirigia o caminhão da empresa, a fim de realizar a mudança de determinado cliente, quando, por imperícia e imprudência, atropelou Renata, que sofreu, por conta do acidente, lesões corporais graves. Nesse caso, de acordo com o Código Civil, a empresa XPTO responde",
+      "alt": {
+        "A": "subsidiariamente a Luciano pelos danos causados a Renata, somente se tiver procedido com culpa in eligendo.",
+        "B": "subsidiariamente a Luciano pelos danos causados a Renata, independentemente de culpa.",
+        "C": "solidariamente com Luciano pelos danos causados a Renata, somente se tiver procedido com culpa in eligendo.",
+        "D": "solidariamente com Luciano pelos danos causados a Renata, independentemente de culpa.",
+        "E": "solidariamente com Luciano pelos danos materiais causados a Renata, mas subsidiariamente a ele pelos danos morais, independentemente de culpa em qualquer dos casos."
+      },
+      "gab": "D",
+      "temas": [
+        "civil.responsabilidade"
+      ],
+      "dispositivos": [
+        "CC 932 III",
+        "CC 933",
+        "CC 942 p.ú."
+      ],
+      "exp": "O empregador responde pelos atos do empregado no exercício do trabalho (`CC, art. 932, III`) **ainda que não haja culpa de sua parte** (`art. 933`): a responsabilidade é objetiva, e a culpa in eligendo deixou de ser exigida, o que derruba A e C. As pessoas do art. 932 são **solidariamente** responsáveis com os autores (`art. 942, p.ú.`), sem distinção entre dano material e moral, o que afasta B e E.",
+      "observacoes": [
+        "a expressão \"in eligendo\" está em itálico no PDF (alternativas A e C); o itálico não foi marcado no enunciado"
+      ]
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#37",
+      "tipo": "me",
+      "numero": 37,
+      "enunciado": "Considere as seguintes proposições acerca dos contratos:\nI. Nos contratos de adesão, serão válidas as cláusulas que estipulem a renúncia antecipada do aderente a direito resultante da natureza do negócio, desde que redigidas de forma clara e com destaque.\nII. É vedado, em qualquer hipótese, celebrar contrato que tenha por objeto a herança de pessoa viva.\nIII. Considera-se celebrado o contrato no lugar em que foi aceito, se diverso daquele onde foi proposto.\nIV. Se o contrato for aleatório, por se referir a coisas existentes, mas expostas a risco, assumido pelo adquirente, o alienante terá direito a todo o preço mesmo que a coisa já não existisse no dia do contrato.\nV. O contrato preliminar deve conter, inclusive quanto à forma, todos os requisitos essenciais ao contrato a ser celebrado.\nDe acordo com o Código Civil, está correto o que consta APENAS de",
+      "alt": {
+        "A": "I e II.",
+        "B": "I e III.",
+        "C": "II e IV.",
+        "D": "III e V.",
+        "E": "IV e V."
+      },
+      "gab": "C",
+      "temas": [
+        "civil.contratos"
+      ],
+      "dispositivos": [
+        "CC 424",
+        "CC 426",
+        "CC 435",
+        "CC 460",
+        "CC 462"
+      ],
+      "exp": "Estão certas **II** (`CC, art. 426`: não pode ser objeto de contrato a herança de pessoa viva) e **IV** (`art. 460`: no contrato aleatório sobre coisa existente exposta a risco, o alienante tem direito a todo o preço, ainda que a coisa já não existisse no dia do contrato). I erra porque tais cláusulas são **nulas** (`art. 424`); III erra porque o contrato se reputa celebrado **no lugar em que foi proposto** (`art. 435`); V erra porque o contrato preliminar deve ter os requisitos essenciais do definitivo, **exceto quanto à forma** (`art. 462`)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#38",
+      "tipo": "me",
+      "numero": 38,
+      "enunciado": "Fernanda e Joaquim celebraram transação a respeito de litígio que já havia sido decidido por sentença passada em julgado. Nesse caso, a transação é",
+      "alt": {
+        "A": "nula, se algum dos transatores não tinha ciência dessa sentença.",
+        "B": "nula, desde que ambos os transatores não tivessem ciência dessa sentença.",
+        "C": "anulável, no prazo decadencial de quatro anos, por iniciativa de qualquer dos transatores que não tivesse ciência dessa sentença.",
+        "D": "válida, ainda que os transatores não tivessem ciência dessa sentença.",
+        "E": "nula, mesmo que ambos os transatores tivessem ciência dessa sentença."
+      },
+      "gab": "A",
+      "temas": [
+        "civil.contratos.outros"
+      ],
+      "dispositivos": [
+        "CC 850"
+      ],
+      "exp": "Pelo `CC, art. 850`, é **nula** a transação a respeito de litígio decidido por sentença transitada em julgado **se dela não tinha ciência algum dos transatores**. Basta a ignorância de um deles, o que afasta B (que exige a de ambos); a sanção é nulidade, não anulabilidade (C); a transação não é sempre válida (D); e, se ambos sabiam da sentença, a lei não a declara nula (E)."
+    },
+    {
+      "id": "fcc/trf3/analista-judiciario-area-judiciaria/2019#39",
+      "tipo": "me",
+      "numero": 39,
+      "enunciado": "Insere-se na competência originária do Superior Tribunal de Justiça processar e julgar",
+      "alt": {
+        "A": "o recurso especial interposto contra acórdão dos tribunais regionais federais.",
+        "B": "os conflitos entre a União e os Estados, a União e o Distrito Federal, ou entre uns e outros.",
+        "C": "a ação em que todos os membros da magistratura sejam direta ou indiretamente interessados.",
+        "D": "o mandado de injunção, quando a elaboração da norma regulamentadora for atribuição de outro tribunal superior, com exceção do Supremo Tribunal Federal.",
+        "E": "os pedidos de homologação de sentença estrangeira."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.judiciario.orgaos",
+        "processo-civil.competencia"
+      ],
+      "dispositivos": [
+        "CF 105 I i",
+        "CF 105 I h",
+        "CF 105 III",
+        "CF 102 I f",
+        "CF 102 I n",
+        "CF 102 I q"
+      ],
+      "exp": "Desde a EC 45/2004, a homologação de sentença estrangeira é da competência originária do STJ (`CF, art. 105, I, i`). O recurso especial é competência **recursal** (`art. 105, III`), não originária (A); os conflitos federativos (B) e as ações de interesse de toda a magistratura (C) são do **STF** (`art. 102, I, f e n`); e o mandado de injunção contra omissão de tribunal superior também é do STF (`art. 102, I, q`), cabendo ao STJ só o de órgão ou autoridade federal (`art. 105, I, h`), o que derruba D."
+    }
+  ]
+}
