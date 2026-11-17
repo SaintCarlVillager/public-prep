@@ -155,7 +155,8 @@
       ],
       "exp": "O `CP 121 §2º-B I`, incluído pela Lei 14.344/2022 (Lei Henry Borel), aumenta de 1/3 até a metade a pena do homicídio **contra menor de 14 anos** (qualificadora do `CP 121 §2º IX`) se a vítima é pessoa com deficiência ou com doença que implique aumento de sua vulnerabilidade. Ser descendente ou tutelado/curatelado do autor (B e A) leva a outra majorante, de 2/3 (`CP 121 §2º-B II`), e não é a hipótese do inciso I. D e E descrevem as **razões da condição de sexo feminino** do feminicídio, hoje crime autônomo (`CP 121-A §1º`), e não a majorante perguntada.",
       "observacoes": [
-        "O §2º-B do CP 121 manteve numeração e redação após a Lei 14.994/2024. Na data da prova (2023), o feminicídio era qualificadora do CP 121 §2º VI, com as razões de condição de sexo feminino no §2º-A I e II (violência doméstica e familiar; menosprezo ou discriminação à condição de mulher); a Lei 14.994/2024 revogou esses dispositivos e criou o crime autônomo do CP 121-A, cujo §1º I e II reproduz as duas hipóteses."
+        "O §2º-B do CP 121 manteve numeração e redação após a Lei 14.994/2024. Na data da prova (2023), o feminicídio era qualificadora do CP 121 §2º VI, com as razões de condição de sexo feminino no §2º-A I e II (violência doméstica e familiar; menosprezo ou discriminação à condição de mulher); a Lei 14.994/2024 revogou esses dispositivos e criou o crime autônomo do CP 121-A, cujo §1º I e II reproduz as duas hipóteses.",
+        "Na data da prova (2023), o `CP 121 §7º` II também aumentava de 1/3 até a metade a pena do feminicídio praticado contra pessoa com deficiência, o que tornava defensáveis as alternativas D e E; o gabarito oficial (C) segue a letra do `CP 121 §2º-B` I. Por ser discutível, a questão fica sem cards no Treino."
       ],
       "conferido_em": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-2848-7-dezembro-1940-412868-normaatualizada-pe.html (planalto.gov.br recusou a conexão duas vezes)"
     },
@@ -693,12 +694,12 @@
       ],
       "dispositivos": [
         "CPC 154 I",
+        "CPC 154 II",
         "CPC 154 III",
         "CPC 154 IV",
-        "CPC 154 V",
         "CPC 154 VI"
       ],
-      "exp": "Incumbe ao oficial de justiça **auxiliar o juiz na manutenção da ordem** (`CPC 154 V`). A erra porque o `CPC 154 III` manda entregar o mandado em cartório após o cumprimento, sem prazo de 3 dias. C erra porque o `CPC 154 I` diz na presença de **2 testemunhas**. D erra porque o oficial executa as ordens do **juiz a que estiver subordinado** (`CPC 154 IV`). E erra porque a proposta de autocomposição é certificada **na ocasião de realizar ato de comunicação** que lhe couber (`CPC 154 VI`), e não em ato próprio.",
+      "exp": "Incumbe ao oficial de justiça **auxiliar o juiz na manutenção da ordem** (`CPC 154 IV`). A erra porque o `CPC 154 III` manda entregar o mandado em cartório após o cumprimento, sem prazo de 3 dias. C erra porque o `CPC 154 I` diz na presença de **2 testemunhas**. D erra porque o oficial executa as ordens do **juiz a que estiver subordinado** (`CPC 154 II`). E erra porque a proposta de autocomposição é certificada **na ocasião de realizar ato de comunicação** que lhe couber (`CPC 154 VI`), e não em ato próprio.",
       "vf": {
         "A": false,
         "B": true,
