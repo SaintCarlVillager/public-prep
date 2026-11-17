@@ -69,6 +69,8 @@ export interface Catalogo {
   editais: Edital[];
   provas: ResumoProva[];
   indice: Record<string, Omit<IndiceQuestao, "prova">[]>;
+  /** Normas com lei seca publicada (leis/<SIGLA>.json). */
+  leis?: Record<string, { artigos: number; consultado?: string; fonte?: string }>;
 }
 
 export interface TextoBase {
@@ -103,4 +105,22 @@ export interface ArquivoProva {
   prova: Record<string, unknown>;
   textos: Record<string, TextoBase>;
   questoes: Questao[];
+}
+
+/** Lei seca: texto oficial de uma norma, artigo por artigo (leis/<SIGLA>.json). */
+export interface ArtigoLei {
+  /** Número no formato dos dispositivos: "246", "396-A". */
+  art: string;
+  /** Títulos e capítulos em que o artigo está ("Livro I › Título II"). */
+  local?: string;
+  /** Texto vigente e literal, uma linha por dispositivo. */
+  texto: string;
+}
+export interface Lei {
+  sigla: string;
+  nome: string;
+  fonte: string;
+  consultado: string;
+  observacao?: string;
+  artigos: ArtigoLei[];
 }

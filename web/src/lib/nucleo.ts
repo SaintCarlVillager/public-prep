@@ -40,9 +40,9 @@ export function intervaloCobre(intervalo: string, artigo: string | Artigo): bool
   return cmpArtigo(art, ini) >= 0 && cmpArtigo(art, fim) <= 0;
 }
 
-/** "CPC 246 §1º-A" → {sigla: "CPC", artigo: "246"}; "CNJ-R354 8" → sigla "CNJ-R354". */
+/** "CPC 246 §1º-A" → {sigla: "CPC", artigo: "246"}; "CNJ-R354 8" → sigla "CNJ-R354"; "LC1111 DT-1" → artigo "DT-1". */
 export function parseDispositivo(d: string): { sigla: string; artigo: string } | null {
-  const m = /^(\S+)\s+(\d+(?:-[A-Z]{1,2})?)(?=$|[\s,;])/.exec(String(d).trim());
+  const m = /^(\S+)\s+((?:DT-)?\d+(?:-[A-Z]{1,2})?)(?=$|[\s,;])/.exec(String(d).trim());
   return m?.[1] && m[2] ? { sigla: m[1], artigo: m[2] } : null;
 }
 

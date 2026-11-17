@@ -240,3 +240,22 @@ fieldset.editais legend { padding: 0; margin-bottom: 6px; }
 .marca { font-weight: 600; letter-spacing: -.01em; }
 .marca .ia { padding: 0 2px; margin: 0 -1px; background: linear-gradient(transparent 55%, var(--grifo) 55%, var(--grifo) 88%, transparent 88%); }
 @media (max-width: 600px) { .clock { text-align: left; } }
+
+/* Lei seca: dispositivos citados (abrem o artigo) e páginas de leitura */
+.dispositivos { display: grid; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: inherit; font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; min-height: 44px; padding: 8px 14px; border-radius: 6px; border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink); cursor: pointer; }
+.chip[aria-expanded="true"] { border: 2px solid var(--ink); padding: 7px 13px; }
+.chip.sem { cursor: default; display: inline-flex; align-items: center; color: var(--muted); border-style: dashed; border-color: var(--rule); }
+.artigo-aberto { display: grid; gap: 8px; padding: 12px 16px; border-radius: 6px; background: var(--sunken); }
+.artigo-aberto a, .lei-fonte a, .lei-grupo a { color: var(--ink); }
+.lei-texto { font-family: var(--body); font-size: 16px; line-height: 1.6; overflow-wrap: break-word; max-width: 70ch; }
+.lei-texto p { margin: 0 0 .35em; }
+.lei-grupo { display: grid; gap: 8px; }
+.lei-grupo h3 { font-size: 16px; line-height: 22px; font-weight: 600; }
+.lei-norma summary { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; }
+.lei-norma .sub, .lei-fonte { color: var(--muted); font-size: 13px; font-weight: 400; }
+.lei-norma .lei-nome { flex-basis: 100%; }
+.artigos { display: grid; margin-top: 8px; }
+.artigo { display: grid; gap: 4px; padding: 14px 0; border-top: 1px solid var(--rule); scroll-margin-top: 16px; }
+.artigo:first-of-type { border-top: 0; }

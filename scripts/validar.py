@@ -1,4 +1,4 @@
-"""Valida taxonomia, normas e editais do framework.
+"""Valida taxonomia, normas, editais, provas e lei seca do framework.
 
 Uso: python3 scripts/validar.py
 Sai com código 1 se encontrar erros. Avisos não reprovam.
@@ -12,8 +12,10 @@ import sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_NIVEIS = 3  # abaixo da matéria
 ART = r"\d+(?:-[A-Z]{1,2})?"
+# Artigo da lei seca ou de dispositivo: também "DT-1" (artigo das Disposições Transitórias de leis de SP).
+ART_LEI = r"(?:DT-)?\d+(?:-[A-Z]{1,2})?"
 INTERVALO = re.compile(rf"^(\*|{ART}(?:-{ART})?)$")
-DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>\d+(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
+DISPOSITIVO = re.compile(r"^(?P<norma>[A-Z][A-Za-z0-9-]*) (?P<art>(?:DT-)?\d+(?:-[A-Z]{1,2})?)(?P<resto>(?:[- ].*)?)$")
 
 erros, avisos = [], []
 
@@ -28,8 +30,9 @@ def carregar(caminho):
 
 
 def chave_art(a):
-    m = re.match(r"^(\d+)(?:-([A-Z]{1,2}))?$", a)
-    return (int(m.group(1)), m.group(2) or "")
+    """Ordem dos artigos: os das Disposições Transitórias ("DT-1") vêm depois dos permanentes."""
+    m = re.match(r"^(DT-)?(\d+)(?:-([A-Z]{1,2}))?$", a)
+    return (1 if m.group(1) else 0, int(m.group(2)), m.group(3) or "")
 
 
 def validar_taxonomia():
@@ -290,18 +293,85 @@ def validar_provas(temas, normas):
     return total, pendentes
 
 
+DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def validar_leis(normas):
+    """leis/<SIGLA>.json: texto oficial de cada norma, artigo por artigo. Devolve {sigla: {artigos}}."""
+    leis = {}
+    for caminho in sorted(glob.glob(os.path.join(RAIZ, "leis", "*.json"))):
+        rel = os.path.relpath(caminho, RAIZ)
+        d = carregar(caminho)
+        if d is None:
+            continue
+        sigla = os.path.splitext(os.path.basename(caminho))[0]
+        if d.get("sigla") != sigla:
+            erros.append(f"{rel}: 'sigla' deve ser '{sigla}' (o nome do arquivo)")
+        if sigla not in normas:
+            erros.append(f"{rel}: norma '{sigla}' não está em normas/normas.json")
+        elif d.get("nome") != normas[sigla]:
+            avisos.append(f"{rel}: 'nome' difere de normas/normas.json ('{normas[sigla]}')")
+        if not isinstance(d.get("fonte"), str) or not d["fonte"].strip():
+            erros.append(f"{rel}: falta 'fonte' (de onde o texto saiu)")
+        if not DATA.match(str(d.get("consultado", ""))):
+            erros.append(f"{rel}: 'consultado' deve ser uma data AAAA-MM-DD")
+        arts = d.get("artigos")
+        if not isinstance(arts, list) or not arts:
+            erros.append(f"{rel}: 'artigos' deve ser uma lista não vazia")
+            continue
+        vistos, anterior, fora_de_ordem = set(), None, 0
+        for i, a in enumerate(arts):
+            onde = f"{rel} › artigos[{i}]"
+            num = str(a.get("art", ""))
+            if not re.fullmatch(ART_LEI, num):
+                erros.append(f"{onde}: 'art' inválido '{num}' (ex.: '246', '396-A', 'DT-1', sem º nem ponto)")
+                continue
+            if num in vistos:
+                erros.append(f"{onde}: artigo '{num}' repetido")
+            vistos.add(num)
+            if not isinstance(a.get("texto"), str) or not a["texto"].strip():
+                erros.append(f"{onde}: artigo '{num}' sem 'texto'")
+            if anterior is not None and chave_art(num) < chave_art(anterior):
+                fora_de_ordem += 1
+            anterior = num
+        if fora_de_ordem:
+            avisos.append(f"{rel}: {fora_de_ordem} artigo(s) fora da ordem numérica")
+        leis[sigla] = vistos
+    return leis
+
+
+def conferir_dispositivos_na_lei(leis):
+    """Aviso quando uma questão cita artigo que não existe na lei seca (renumerado, revogado ou erro)."""
+    if not leis:
+        return
+    faltam = {}
+    arquivos = glob.glob(os.path.join(RAIZ, "provas", "**", "questoes.json"), recursive=True) \
+        + glob.glob(os.path.join(RAIZ, "provas", "**", "questoes", "*.json"), recursive=True)
+    for caminho in arquivos:
+        d = carregar(caminho) or {}
+        for q in d.get("questoes", []):
+            for disp in q.get("dispositivos", []):
+                m = DISPOSITIVO.match(disp)
+                if m and m.group("norma") in leis and m.group("art") not in leis[m.group("norma")]:
+                    faltam.setdefault(f"{m.group('norma')} {m.group('art')}", []).append(q.get("id"))
+    for disp, ids in sorted(faltam.items()):
+        avisos.append(f"lei seca: '{disp}' não está em leis/ (citado por {', '.join(ids[:3])}{'…' if len(ids) > 3 else ''})")
+
+
 def main():
     temas = validar_taxonomia()
     normas = validar_normas()
     validar_editais(temas, normas)
     n_questoes, n_pend = validar_provas(temas, normas)
+    leis = validar_leis(normas)
+    conferir_dispositivos_na_lei(leis)
     for a in avisos:
         print("aviso:", a)
     for e in erros:
         print("erro:", e)
     n_editais = len(glob.glob(os.path.join(RAIZ, "editais", "**", "edital.json"), recursive=True))
     print(f"{len(temas)} temas, {len(normas)} normas, {n_editais} editais, "
-          f"{n_questoes} questões ({n_pend} com pendência): "
+          f"{n_questoes} questões ({n_pend} com pendência), {len(leis)} leis: "
           + ("ok" if not erros else f"{len(erros)} erro(s)"))
     sys.exit(1 if erros else 0)
 

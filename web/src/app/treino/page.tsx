@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import { ComCatalogo, IconeCerto, IconeErrado, Md, SelosEdital } from "~/components/Comum";
+import { Dispositivos } from "~/components/LeiSeca";
 import { julgarCard } from "~/lib/acoes";
 import { carregarProva, type Base, type ProvaCarregada } from "~/lib/catalogo";
 import { estadoTreino, ordemNovos, placarTreino, todosCards } from "~/lib/estudo";
@@ -185,6 +186,7 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
               <Md texto={q.exp} />
             </div>
           ) : null}
+          <Dispositivos base={base} lista={q.dispositivos} />
           <button ref={proximo} className="btn" type="button" onClick={() => setR({ ...r, pos: r.pos + 1, resposta: null })}>
             {r.pos + 1 < r.cards.length ? "Próximo card" : "Ver resultado"}
           </button>
