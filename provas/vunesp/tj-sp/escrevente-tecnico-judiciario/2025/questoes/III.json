@@ -20,6 +20,7 @@
       ],
       "dispositivos": [],
       "exp": "A ofensiva israelense de junho de 2025 foi apresentada por Netanyahu como um ataque preventivo: o objetivo era **impedir o avanço do programa nuclear iraniano**, que Israel considera uma ameaça existencial. Por isso os alvos incluíram instalações nucleares e militares e cientistas ligados ao programa. As demais alternativas trazem justificativas que o governo israelense não usou.",
+      "recursos": 8,
       "vf": {
         "A": false,
         "B": false,
@@ -56,6 +57,7 @@
       ],
       "dispositivos": [],
       "exp": "O projeto da reforma do Imposto de Renda de 2025 amplia a faixa de isenção: quem ganha **até R$ 5 mil por mês** fica isento, e entre R$ 5 mil e R$ 7,35 mil há desconto decrescente (redutor). A compensação vem de uma tributação mínima sobre as altas rendas, que sobe gradualmente a partir de R$ 600 mil anuais e chega a 10% em R$ 1,2 milhão por ano. Os números das demais alternativas não correspondem ao texto do projeto.",
+      "recursos": 3,
       "vf": {
         "A": false,
         "B": false,
@@ -92,6 +94,7 @@
       ],
       "dispositivos": [],
       "exp": "Segundo o gabarito oficial, o país fundador que busca protagonismo é a **China**, maior economia do bloco, que quer ver o **yuan** como moeda de transações do BRICS. É isso que gera atrito interno, pois os demais membros não aceitam uma moeda dominada por um único país. As outras alternativas atribuem a moedas nacionais um papel que não é o apontado pelos analistas.",
+      "recursos": 211,
       "vf": {
         "A": true,
         "B": false,
@@ -133,6 +136,7 @@
         "L13146 9 §1º"
       ],
       "exp": "A deficiência não afeta a plena capacidade civil da pessoa, inclusive para **adotar** como adotante (`L13146 6` VI). O atendimento prioritário abrange a tramitação processual (`L13146 9` VII), mas essa prioridade **não se estende ao acompanhante** (`L13146 9` §1º). A avaliação da deficiência é biopsicossocial e a pesquisa com pessoa curatelada é admitida quando não há alternativa de eficácia comparável, razão pela qual B e A erram; o impedimento exige interação com uma ou mais barreiras (não três), e o atendimento sem consentimento só ocorre em risco de morte ou emergência.",
+      "recursos": 23,
       "vf": {
         "A": false,
         "B": false,
@@ -173,6 +177,7 @@
       ],
       "dispositivos": [],
       "exp": "Sejam p apenas pianistas, v apenas violonistas e b os que tocam os dois. Como p/v = 4/7, p = 4k e v = 7k. Os pianistas no total são 4k + b e os violonistas, 7k + b, com (4k + b)/(7k + b) = 7/10, o que dá 40k + 10b = 49k + 7b e b = 3k. O total é 4k + 7k + 3k = 14k = 84, logo k = 6 e v = 7 × 6 = **42**, cujo algarismo das unidades é 2.",
+      "recursos": 60,
       "vf": {
         "A": false,
         "B": true,
@@ -208,6 +213,7 @@
       ],
       "dispositivos": [],
       "exp": "Nos 9 primeiros dias foram 9 × 27 = 243 processos, que são 36% do total; o total é 243 ÷ 0,36 = 675. Restam 675 − 243 = 432 processos para os 33 − 9 = 24 dias seguintes, e N = 432 ÷ 24 = **18**, cujo algarismo das unidades é 8.",
+      "recursos": 6,
       "vf": {
         "A": false,
         "B": false,
@@ -243,6 +249,7 @@
       ],
       "dispositivos": [],
       "exp": "Sejam x e y as dimensões dos retângulos: o retângulo em pé tem altura y e o deitado tem largura y e altura x. O lado do quadrado é S = y + 10 (base) e S = 4 + y + x (lado esquerdo), logo x = 6. A área livre é S² − 2xy = 253, ou seja, (y + 10)² − 12y = 253, que dá y² + 8y − 153 = 0 e y = 9. O perímetro de cada retângulo é 2 × (6 + 9) = **30 cm**.",
+      "recursos": 229,
       "vf": {
         "A": false,
         "B": true,
@@ -281,6 +288,7 @@
       ],
       "dispositivos": [],
       "exp": "Com n atletas, no primeiro dia treinaram n − 2 deles e a soma foi 48(n − 2). Com André (a), são n − 1 atletas e média 50, então a = 50(n − 1) − 48(n − 2) = 2n + 46. Com Carlos (c), são n atletas e média 49, então c = 49n − 50(n − 1) = 50 − n. Como a − c = 53, (2n + 46) − (50 − n) = 53, logo 3n = 57 e n = **19**.",
+      "recursos": 15,
       "vf": {
         "A": true,
         "B": false,
@@ -315,6 +323,7 @@
       ],
       "dispositivos": [],
       "exp": "Pelos Arquivos Sob Demanda do OneDrive, o arquivo disponível localmente (não fixado em “Sempre manter neste dispositivo”) pode voltar a ser só online quando o **dispositivo fica sem espaço**: o Windows, pelo Sensor de Armazenamento, libera a cópia local sem ação do usuário. Problemas no servidor, queda de internet ou saída da sessão não apagam a cópia local.",
+      "recursos": 638,
       "vf": {
         "A": false,
         "B": false,
@@ -349,6 +358,7 @@
       ],
       "dispositivos": [],
       "exp": "No Word, o menu de contexto de uma lista numerada se abre com o **botão secundário** (direito) sobre o número. No primeiro item, a opção **“Definir Valor de Numeração...”** abre a janela em que se informa o valor inicial (20), e toda a lista é renumerada. O botão primário apenas posiciona o cursor, e remover a lista item por item é desnecessário.",
+      "recursos": 19,
       "vf": {
         "A": false,
         "B": false,

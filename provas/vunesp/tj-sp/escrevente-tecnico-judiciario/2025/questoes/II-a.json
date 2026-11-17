@@ -23,6 +23,7 @@
         "CP 293 §2º"
       ],
       "exp": "Suprimir, em papel legítimo, **carimbo ou sinal indicativo de sua inutilização**, com o fim de torná-lo novamente utilizável, é crime autônomo previsto no `CP 293 §2º`, com pena própria (reclusão de 1 a 4 anos), menor que a do caput (2 a 8 anos). Por isso a conduta é típica (D). Erram (B) e (E), porque há previsão expressa; (A), porque a pena não é a mesma; e (C), porque a punição não vem do caput com o inciso IV, mas do §2º.",
+      "recursos": 157,
       "vf": {
         "A": false,
         "B": false,
@@ -60,6 +61,7 @@
         "CP 308"
       ],
       "exp": "A falsa identidade é crime **expressamente subsidiário**: a pena do `CP 307` incide \"se o fato não constitui elemento de crime mais grave\". É crime comum (qualquer pessoa o comete), formal (basta o fim de obter vantagem ou causar dano, sem exigir prejuízo efetivo) e não depende de concurso com quem cede a identidade (ceder documento próprio para uso alheio é outro crime, `CP 308`).",
+      "recursos": 16,
       "vf": {
         "A": true,
         "B": false,
@@ -96,6 +98,7 @@
         "CP 313-A"
       ],
       "exp": "O `CP 313-A` pune o funcionário autorizado que insere ou **facilita** a inserção de dados falsos, ou **altera ou exclui** indevidamente dados corretos, \"**com o fim de** obter vantagem indevida para si ou para outrem ou para causar dano\". A vantagem e o dano são apenas finalidade: o crime é formal e não exige resultado (C). (A) e (E) ignoram os verbos facilitar e excluir; (B) e (D) exigem um dano que a lei não exige.",
+      "recursos": 7,
       "vf": {
         "A": false,
         "B": false,
@@ -134,6 +137,7 @@
         "CP 317"
       ],
       "exp": "O `CP 320` descreve a condescendência criminosa: \"Deixar o funcionário, **por indulgência**, de responsabilizar subordinado...\". É a tolerância por clemência que distingue o crime. Agir \"para satisfazer interesse ou sentimento pessoal\" é elemento da prevaricação (`CP 319`), e a promessa de vantagem indevida remete à corrupção passiva (`CP 317`); prejuízo ao serviço e \"nobreza\" não constam do tipo.",
+      "recursos": 5,
       "vf": {
         "A": false,
         "B": false,
@@ -174,6 +178,7 @@
         "CPP 254 III"
       ],
       "exp": "Ter **aconselhado qualquer das partes** é causa de **suspeição** (`CPP 254 IV`). Ser credor, devedor, tutor ou curador de parte também é suspeição (`CPP 254 V`), não impedimento; já ter funcionado como juiz de outra instância e ter o cônjuge diretamente interessado no feito são **impedimentos** (`CPP 252 III` e `IV`). Parente que responde a processo a ser julgado por uma das partes gera suspeição, não impedimento, e só até o terceiro grau (`CPP 254 III`), o que não alcança o primo (quarto grau).",
+      "recursos": 21,
       "vf": {
         "A": true,
         "B": false,
@@ -214,6 +219,7 @@
         "CPP 265"
       ],
       "exp": "Pelo `CPP 266`, a constituição de defensor **independerá de instrumento de mandato** se o acusado o indicar no interrogatório. (A) erra porque a autodefesa técnica exige **habilitação** (`CPP 263`), isto é, inscrição na OAB; (B), porque nenhum acusado, **ainda que ausente ou foragido**, será processado sem defensor (`CPP 261`); (C), porque o advogado nomeado é obrigado a patrocinar, salvo **motivo relevante** (`CPP 264`); (D), porque o abandono sujeita o defensor a multa (`CPP 265`), sem sobrestamento do processo.",
+      "recursos": 7,
       "vf": {
         "A": false,
         "B": false,
@@ -253,6 +259,7 @@
         "CPP 361"
       ],
       "exp": "Pelo `CPP 358`, a citação do **militar** far-se-á **por intermédio do chefe do respectivo serviço**. O funcionário público acusado é notificado **assim a ele como ao chefe** de sua repartição (`CPP 359`); o réu preso é **pessoalmente citado** (`CPP 360`); e o réu não encontrado é citado por **edital com prazo de 15 dias** (`CPP 361`), não por carta-convite.",
+      "recursos": 6,
       "vf": {
         "A": false,
         "B": true,
@@ -292,6 +299,7 @@
         "CPP 394-A"
       ],
       "exp": "(B) reproduz o `CPP 396`: recebida a denúncia ou queixa, o acusado é citado para **responder à acusação, por escrito, em 10 dias**. O procedimento comum é **ordinário** quando a pena máxima é **igual ou superior a 4 anos** e **sumário** quando é **inferior a 4 anos** (`CPP 394 §1º`), o que inverte (A) e (D); e ele se divide em ordinário, sumário e sumaríssimo, sendo o especial outra categoria (`CPP 394`). A prioridade de tramitação do `CPP 394-A` não depende de requerimento.",
+      "recursos": 9,
       "vf": {
         "A": false,
         "B": true,
@@ -333,6 +341,7 @@
         "L9099 83 §3º"
       ],
       "exp": "Pelo `L9099 82 §2º`, o recorrido será intimado para oferecer **resposta escrita no prazo de dez dias**. Da rejeição da denúncia ou queixa cabe **apelação**, não recurso em sentido estrito (`L9099 82`), e a apelação é interposta em **10 dias**, com as razões (`L9099 82 §1º`). Os embargos de declaração **interrompem** o prazo do recurso (`L9099 83 §2º`), são opostos em **5 dias** (`L9099 83 §1º`), e os erros materiais **podem ser corrigidos de ofício** (`L9099 83 §3º`).",
+      "recursos": 20,
       "vf": {
         "A": false,
         "B": false,
@@ -373,6 +382,7 @@
         "CF 5 XI"
       ],
       "exp": "Os atos processuais realizam-se em dias úteis, das 6 às 20 horas (`CPC 212`), mas, **independentemente de autorização judicial**, citações, intimações e **penhoras** podem ser feitas nas férias forenses, nos **feriados** ou fora desse horário (`CPC 212 §2º`), e o sábado é feriado para efeito forense (`CPC 216`). Por isso a penhora no sábado às 21h é válida (C), e não nula (A, D, E). O fundamento não é a urgência do ato (B), mas a autorização expressa da lei, ressalvada a inviolabilidade do domicílio à noite (`CF 5 XI`).",
+      "recursos": 231,
       "vf": {
         "A": false,
         "B": false,
@@ -416,6 +426,7 @@
         "CPC 532"
       ],
       "exp": "Pelo `CPC 529 §3º`, o débito em atraso pode ser descontado dos rendimentos do executado **de forma parcelada**, contanto que, somado à parcela mensal, **não ultrapasse 50% dos ganhos líquidos**: 50% de R$ 6.000,00 = **R$ 3.000,00** (A). O prazo para pagar é de **3 dias** (`CPC 528`), não cinco; o desconto em folha não depende de atraso (`CPC 529`); a ciência ao MP da conduta procrastinatória independe de requerimento (`CPC 532`); e os alimentos fixados em sentença ainda não transitada em julgado se executam em **autos apartados** (`CPC 531 §1º`).",
+      "recursos": 754,
       "vf": {
         "A": true,
         "B": false,
@@ -457,6 +468,7 @@
         "CPC 313 I"
       ],
       "exp": "Pelo `CPC 1004`, se durante o prazo do recurso sobrevier o **falecimento da parte ou de seu advogado**, o prazo será **restituído** em proveito da parte, contra quem **começará a correr novamente depois da intimação**. A lei não manda retomar o prazo de onde parou (A, C), nem o prorroga em 15 dias (B); e a morte do procurador suspende o processo (`CPC 313 I`), o contrário de (E).",
+      "recursos": 78,
       "vf": {
         "A": false,
         "B": false,
@@ -499,6 +511,7 @@
         "L9099 9 §1º"
       ],
       "exp": "(B) reproduz o `L9099 16`: registrado o pedido, **independentemente de distribuição e autuação**, a Secretaria designa a sessão de conciliação, a realizar-se **no prazo de quinze dias**. Os pedidos podem ser **alternativos ou cumulados** (`L9099 15`); se as partes comparecem juntas, a conciliação se instaura **desde logo** (`L9099 17`); o pedido contraposto é admitido (`L9099 17 p.ú.` e `L9099 31`); e, na causa de até 20 salários-mínimos, a assistência por advogado é facultativa, cabendo à outra parte assistência judiciária se o réu for pessoa jurídica (`L9099 9 §1º`).",
+      "recursos": 34,
       "vf": {
         "A": false,
         "B": true,
@@ -544,6 +557,7 @@
         "L12153 13 I"
       ],
       "exp": "No Juizado Especial da Fazenda Pública **não há prazo diferenciado** para as pessoas jurídicas de direito público, inclusive para recorrer (`L12153 7`); aplica-se subsidiariamente a Lei 9.099/1995 (`L12153 27`), com recurso em **10 dias** (`L9099 42`) contados em **dias úteis** (`L9099 12-A`). A microempresa pode ser autora e a fundação municipal ré, numa causa de 50 salários-mínimos (`L12153 2` e `L12153 5`); **não há reexame necessário** (`L12153 11`); cabe recurso contra a sentença (`L12153 4`); e a obrigação de pequeno valor se paga em até **60 dias** da requisição (`L12153 13 I`).",
+      "recursos": 815,
       "vf": {
         "A": false,
         "B": false,
@@ -580,6 +594,7 @@
         "CF 5 XI"
       ],
       "exp": "Pelo `CF 5 XI`, sem consentimento do morador só se entra na casa **em caso de flagrante delito** ou desastre, ou para prestar socorro, a qualquer hora, ou, **durante o dia, por determinação judicial**. Assim, Severo pode entrar à noite na casa de Pernalonga, onde há flagrante, mas o mandado de prisão contra Carcará só autoriza o ingresso **durante o dia** (E). (A) e (B) estendem a ordem judicial à noite; (C) e (D) negam a entrada noturna em caso de flagrante.",
+      "recursos": 19,
       "vf": {
         "A": false,
         "B": false,
