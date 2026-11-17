@@ -164,7 +164,7 @@
       },
       "gab": "A",
       "temas": [
-        "processo-penal"
+        "processo-penal.sujeitos.juiz"
       ],
       "dispositivos": [
         "CPP 254 IV",
@@ -204,7 +204,7 @@
       },
       "gab": "E",
       "temas": [
-        "processo-penal"
+        "processo-penal.sujeitos.acusado-defensor"
       ],
       "dispositivos": [
         "CPP 266",
