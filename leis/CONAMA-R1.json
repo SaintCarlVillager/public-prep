@@ -1,0 +1,69 @@
+{
+  "sigla": "CONAMA-R1",
+  "nome": "Resolução CONAMA 1/1986 (EIA-RIMA)",
+  "fonte": "https://conama.mma.gov.br/index.php?option=com_sisconama&task=arquivo.download&id=23",
+  "consultado": "2026-11-17",
+  "observacao": "Texto do PDF do site do CONAMA (livro \"Resoluções do CONAMA\", versão com notas de alteração), consultado em 17/11/2026. Foram omitidos o texto tachado no PDF (redações substituídas: inciso XVI antigo do art. 2º e trechos dos incisos XII e XV; corpo dos arts. 3º e 7º, revogados pela Resolução 237/1997, que ficam só com a nota de revogação), as marcas e notas de rodapé, os cabeçalhos de página, o preâmbulo e a assinatura. Os incisos XVI a XVIII do art. 2º mantêm as notas de alteração (Resoluções 11/1986 e 5/1987). Erros de digitação da fonte (\"Empreendimentso\") foram mantidos; \"Xl\" e \"lV\" (numeração romana digitada com a letra l) foram lidos como XI e IV. O ordinal (sobrescrito no PDF) foi normalizado para º e nº; a hifenização de fim de linha foi desfeita.",
+  "artigos": [
+    {
+      "art": "1",
+      "local": "",
+      "texto": "Art. 1º Para efeito desta Resolução, considera-se impacto ambiental qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente, causada por qualquer forma de matéria ou energia resultante das atividades humanas que, direta ou indiretamente, afetam:\nI - a saúde, a segurança e o bem-estar da população;\nII - as atividades sociais e econômicas;\nIII - a biota;\nIV - as condições estéticas e sanitárias do meio ambiente;\nV - a qualidade dos recursos ambientais."
+    },
+    {
+      "art": "2",
+      "local": "",
+      "texto": "Art. 2º Dependerá de elaboração de estudo de impacto ambiental e respectivo relatório de impacto ambiental - RIMA, a serem submetidos à aprovação do órgão estadual competente, e da Secretaria Especial do Meio Ambiente - SEMA em caráter supletivo, o licenciamento de atividades modificadoras do meio ambiente, tais como:\nI - Estradas de rodagem com duas ou mais faixas de rolamento;\nII - Ferrovias;\nIII - Portos e terminais de minério, petróleo e produtos químicos;\nIV - Aeroportos, conforme definidos pelo inciso 1, artigo 48, do Decreto-Lei nº 32, de 18 de setembro de 1966;\nV - Oleodutos, gasodutos, minerodutos, troncos coletores e emissários de esgotos sanitários;\nVI - Linhas de transmissão de energia elétrica, acima de 230KV;\nVII - Obras hidráulicas para exploração de recursos hídricos, tais como: barragem para fins hidrelétricos, acima de 10MW, de saneamento ou de irrigação, abertura de canais para navegação, drenagem e irrigação, retificação de cursos d’água, abertura de barras e embocaduras, transposição de bacias, diques;\nVIII - Extração de combustível fóssil (petróleo, xisto, carvão);\nIX - Extração de minério, inclusive os da classe II, definidas no Código de Mineração;\nX - Aterros sanitários, processamento e destino final de resíduos tóxicos ou perigosos;\nXI - Usinas de geração de eletricidade, qualquer que seja a fonte de energia primária, acima de 10MW;\nXII - Complexo e unidades industriais e agro-industriais (petroquímicos, siderúrgicos, cloroquímicos, destilarias de álcool, hulha, extração e cultivo de recursos hidróbios?);\nXIII - Distritos industriais e zonas estritamente industriais - ZEI;\nXIV - Exploração econômica de madeira ou de lenha, em áreas acima de 100 hectares ou menores, quando atingir áreas significativas em termos percentuais ou de importância do ponto de vista ambiental;\nXV - Projetos urbanísticos, acima de 100 ha ou em áreas consideradas de relevante interesse ambiental a critério da SEMA e dos órgãos estaduais ou municipais;\nXVI - Qualquer atividade que utilizar carvão vegetal, derivados ou produtos similares, em quantidade superior a dez toneladas por dia. (nova redação dada pela Resolução nº 11/86)\nXVII - Projetos Agropecuários que contemplem áreas acima de 1.000 ha. ou menores, neste caso, quando se tratar de áreas significativas em termos percentuais ou de importância do ponto de vista ambiental, inclusive nas áreas de proteção ambiental. (inciso acrescentado pela Resolução nº 11/86)\nXVIII - Empreendimentso potencialmente lesivos ao patrimônio espeleológico nacional. (inciso acrescentado pela Resolução nº 5/87)"
+    },
+    {
+      "art": "3",
+      "local": "",
+      "texto": "Art. 3º (Revogado pela Resolução nº 237/97)"
+    },
+    {
+      "art": "4",
+      "local": "",
+      "texto": "Art. 4º Os órgãos ambientais competentes e os órgãos setoriais do SISNAMA deverão compatibilizar os processos de licenciamento com as etapas de planejamento e implantação das atividades modificadoras do meio ambiente, respeitados os critérios e diretrizes estabelecidos por esta Resolução e tendo por base a natureza o porte e as peculiaridades de cada atividade."
+    },
+    {
+      "art": "5",
+      "local": "",
+      "texto": "Art. 5º O estudo de impacto ambiental, além de atender à legislação, em especial os princípios e objetivos expressos na Lei de Política Nacional do Meio Ambiente, obedecerá às seguintes diretrizes gerais:\nI - Contemplar todas as alternativas tecnológicas e de localização do projeto, confrontando-as com a hipótese de não execução do projeto;\nII - Identificar e avaliar sistematicamente os impactos ambientais gerados nas fases de implantação e operação da atividade;\nIII - Definir os limites da área geográfica a ser direta ou indiretamente afetada pelos impactos, denominada área de influência do projeto, considerando, em todos os casos, a bacia hidrográfica na qual se localiza;\nIV - Considerar os planos e programas governamentais, propostos e em implantação na área de influência do projeto, e sua compatibilidade.\nParágrafo único. Ao determinar a execução do estudo de impacto ambiental o órgão estadual competente, ou a SEMA ou, no que couber ao Município, fixará as diretrizes adicionais que, pelas peculiaridades do projeto e características ambientais da área, forem julgadas necessárias, inclusive os prazos para conclusão e análise dos estudos."
+    },
+    {
+      "art": "6",
+      "local": "",
+      "texto": "Art. 6º O estudo de impacto ambiental desenvolverá, no mínimo, as seguintes atividades técnicas:\nI - Diagnóstico ambiental da área de influência do projeto completa descrição e análise dos recursos ambientais e suas interações, tal como existem, de modo a caracterizar a situação ambiental da área, antes da implantação do projeto, considerando:\na) o meio físico - o subsolo, as águas, o ar e o clima, destacando os recursos minerais, a topografia, os tipos e aptidões do solo, os corpos d’água, o regime hidrológico, as correntes marinhas, as correntes atmosféricas;\nb) o meio biológico e os ecossistemas naturais - a fauna e a flora, destacando as espécies indicadoras da qualidade ambiental, de valor científico e econômico, raras e ameaçadas de extinção e as áreas de preservação permanente;\nc) o meio sócio-econômico - o uso e ocupação do solo, os usos da água e a sócio-economia, destacando os sítios e monumentos arqueológicos, históricos e culturais da comunidade, as relações de dependência entre a sociedade local, os recursos ambientais e a potencial utilização futura desses recursos.\nII - Análise dos impactos ambientais do projeto e de suas alternativas, através de identificação, previsão da magnitude e interpretação da importância dos prováveis impactos relevantes, discriminando: os impactos positivos e negativos (benéficos e adversos), diretos e indiretos, imediatos e a médio e longo prazos, temporários e permanentes; seu grau de reversibilidade; suas propriedades cumulativas e sinérgicas; a distribuição dos ônus e benefícios sociais.\nIII - Definição das medidas mitigadoras dos impactos negativos, entre elas os equipamentos de controle e sistemas de tratamento de despejos, avaliando a eficiência de cada uma delas.\nIV - Elaboração do programa de acompanhamento e monitoramento dos impactos positivos e negativos, indicando os fatores e parâmetros a serem considerados.\nParágrafo único. Ao determinar a execução do estudo de impacto ambiental, o órgão estadual competente; ou a SEMA ou quando couber, o Município fornecerá as instruções adicionais que se fizerem necessárias, pelas peculiaridades do projeto e características ambientais da área."
+    },
+    {
+      "art": "7",
+      "local": "",
+      "texto": "Art. 7º (Revogado pela Resolução nº 237/97)"
+    },
+    {
+      "art": "8",
+      "local": "",
+      "texto": "Art. 8º Correrão por conta do proponente do projeto todas as despesas e custos referentes à realização do estudo de impacto ambiental, tais como: coleta e aquisição dos dados e informações, trabalhos e inspeções de campo, análises de laboratório, estudos técnicos e científicos e acompanhamento e monitoramento dos impactos, elaboração do RIMA e fornecimento de pelo menos 5 (cinco) cópias."
+    },
+    {
+      "art": "9",
+      "local": "",
+      "texto": "Art. 9º O relatório de impacto ambiental - RIMA refletirá as conclusões do estudo de impacto ambiental e conterá, no mínimo:\nI - Os objetivos e justificativas do projeto, sua relação e compatibilidade com as políticas setoriais, planos e programas governamentais;\nII - A descrição do projeto e suas alternativas tecnológicas e locacionais, especificando para cada um deles, nas fases de construção e operação a área de influência, as matérias primas, e mão-de-obra, as fontes de energia, os processos e técnicas operacionais, os prováveis efluentes, emissões, resíduos e perdas de energia, os empregos diretos e indiretos a serem gerados;\nIII - A síntese dos resultados dos estudos de diagnósticos ambiental da área de influência do projeto;\nIV - A descrição dos prováveis impactos ambientais da implantação e operação da atividade, considerando o projeto, suas alternativas, os horizontes de tempo de incidência dos impactos e indicando os métodos, técnicas e critérios adotados para sua identificação, quantificação e interpretação;\nV - A caracterização da qualidade ambiental futura da área de influência, comparando as diferentes situações da adoção do projeto e suas alternativas, bem como com a hipótese de sua não realização;\nVI - A descrição do efeito esperado das medidas mitigadoras previstas em relação aos impactos negativos, mencionando aqueles que não puderem ser evitados, e o grau de alteração esperado;\nVII - O programa de acompanhamento e monitoramento dos impactos;\nVIII - Recomendação quanto à alternativa mais favorável (conclusões e comentários de ordem geral).\nParágrafo único. O RIMA deve ser apresentado de forma objetiva e adequada a sua compreensão. As informações devem ser traduzidas em linguagem acessível, ilustradas por mapas, cartas, quadros, gráficos e demais técnicas de comunicação visual, de modo que se possam entender as vantagens e desvantagens do projeto, bem como todas as conseqüências ambientais de sua implementação."
+    },
+    {
+      "art": "10",
+      "local": "",
+      "texto": "Art. 10. O órgão estadual competente, ou a SEMA ou, quando couber, o Município terá um prazo para se manifestar de forma conclusiva sobre o RIMA apresentado.\nParágrafo único. O prazo a que se refere o caput deste artigo terá o seu termo inicial na data do recebimento pelo órgão estadual competente ou pela SEMA do estudo do impacto ambiental e seu respectivo RIMA."
+    },
+    {
+      "art": "11",
+      "local": "",
+      "texto": "Art. 11. Respeitado o sigilo industrial, assim solicitando e demonstrando pelo interessado o RIMA será acessível ao público. Suas cópias permanecerão à disposição dos interessados, nos centros de documentação ou bibliotecas da SEMA e do órgão estadual de controle ambiental correspondente, inclusive durante o período de análise técnica.\n§ 1º Os órgãos públicos que manifestarem interesse, ou tiverem relação direta com o projeto, receberão cópia do RIMA, para conhecimento e manifestação.\n§ 2º Ao determinar a execução do estudo de impacto ambiental e apresentação do RIMA, o órgão estadual competente ou a SEMA ou, quando couber o Município, determinará o prazo para recebimento dos comentários a serem feitos pelos órgãos públicos e demais interessados e, sempre que julgar necessário, promoverá a realização de audiência pública para informação sobre o projeto e seus impactos ambientais e discussão do RIMA."
+    },
+    {
+      "art": "12",
+      "local": "",
+      "texto": "Art. 12. Esta Resolução entra em vigor na data de sua publicação."
+    }
+  ]
+}
