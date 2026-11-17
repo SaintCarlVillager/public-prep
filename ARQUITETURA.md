@@ -6,8 +6,8 @@ Proposta para transformar o `public-prep` num **template**: cada pessoa copia o 
 
 | Pergunta | Decisão |
 |---|---|
-| Como um colega usa | **Cada um com sua cópia** do template. Melhorias no banco de questões voltam por pull request. |
-| Quem monta a sessão | **O painel e o Claude.** O painel monta sozinho as sessões de revisão a partir do banco; Claude escreve as mini-aulas, marca as provas novas e corrige as discursivas. Quem não usa Claude ainda consegue estudar. |
+| Como um colega usa | **Um só painel, um perfil por pessoa** (a conta do claude.ai de quem abre). O dono compartilha o artifact com nível Contributor; o progresso de cada um é privado, até para o dono. Substitui a decisão anterior, "cada um com sua cópia do template" (17/11/2026). |
+| Quem monta a sessão | **O painel.** Ele monta as sessões e as revisões espaçadas; o gabarito, o comentário por alternativa e o Treino substituem a correção pelo Claude, que foi desligada (17/11/2026). Claude continua etiquetando provas e escrevendo comentários no repositório. |
 | Visibilidade | **Repositório privado**, compartilhado por convite. Pode guardar o texto integral das provas. |
 | Formatos | **Múltipla escolha (A–E), Certo/Errado e discursiva/estudo de caso.** |
 | Etiquetas | **Temas** (em níveis) e **dispositivos** citados, por questão. **Banca** vem da prova. A relevância para cada concurso é **calculada**, nunca etiquetada. |
@@ -221,27 +221,24 @@ O painel continua sendo um único artifact com banco, agora genérico:
   2. temas fracos, com peso pelo bloco do edital mais próximo;
   3. temas ainda não vistos que o edital cobre;
   nunca repete questão real antes do prazo de revisão, e respeita filtros (banca, edital, matéria).
-- **Sessão do Claude**: quando existe, aparece primeiro, com a mini-aula.
-- **Três formatos** na tela: A–E, C/E (com a nota líquida Cebraspe) e discursiva (campo de texto e contador de linhas; a correção fica pendente até Claude corrigir pelos critérios).
+- **Sessão do Claude**: as antigas, com mini-aula, continuam visíveis; não são mais criadas automaticamente.
+- **Treino**: cada alternativa marcada em `vf` vira um card de verdadeiro ou falso, com revisão espaçada própria.
+- **Três formatos** na tela: A–E, C/E (com a nota líquida Cebraspe) e discursiva (campo de texto e contador de linhas; depois da entrega, o padrão de resposta e os critérios para autoavaliação).
 
 ### Onde fica cada dado
 
 | Dado | Onde | Tamanho |
 |---|---|---|
 | Questões, provas, taxonomia, editais | **arquivos publicados com o painel** (vindos do repo) | ~2 KB por questão; 10 mil questões ≈ 20 MB, dentro dos 256 MB por versão |
-| `sessoes/<id>` (ids das questões e mini-aula) | banco do painel | 1 por dia |
-| `respostas/<id>` | banco do painel | 1 por dia |
-| `estado/questoes` (revisão espaçada e dificuldade pessoal, agregadas) | banco do painel | poucos documentos |
-| `meta/painel`, `meta/revisoes` | banco do painel | 2 |
+| Progresso de cada pessoa (sessões, respostas, estado das revisões, Treino, discursivas, ajustes) | banco do painel, em `data/users/<id>/` (privado) | ~2 documentos por dia de estudo, por pessoa |
 
-O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as questões fora dele, um ano de estudo diário usa menos de mil documentos. Uma questão nova entra no painel com um commit no repo e uma republicação dos arquivos; o progresso no banco não é tocado.
+O banco do artifact aceita **25.000 documentos** de até **256 KB**, somando todas as pessoas. Com as questões fora dele, um ano de estudo diário usa menos de mil documentos por pessoa: cabe com folga um grupo de dez colegas. Uma questão nova entra no painel com um commit no repo e uma republicação dos arquivos; o progresso no banco não é tocado.
 
 ## Para um colega começar
 
-1. Copiar o repositório (template).
-2. Cadastrar os editais em `editais/` (Claude ajuda a partir do PDF do edital, ligando cada item do conteúdo programático a temas da taxonomia).
-3. Rodar o script de importação, que cria o painel do colega com o banco já carregado.
-4. Estudar. Provas novas etiquetadas por qualquer um podem voltar ao template por pull request.
+1. O dono compartilha o painel pelo menu Share do artifact, com nível **Contributor**.
+2. O colega abre o link com a própria conta do claude.ai e escolhe, em Ajustes, os editais que estuda.
+3. Edital ou prova que ainda não está no banco: o dono cadastra no repositório (Claude ajuda a partir do PDF) e republica o painel; o progresso de ninguém é tocado.
 
 ## Ponto de partida
 

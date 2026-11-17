@@ -305,7 +305,7 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
       </div>
       <div id="s-main" class="stack"></div>
       <section class="card" id="s-discs-card">
-        <header><h2>Suas discursivas</h2><span class="eyebrow">Claude corrige pelos critérios da banca</span></header>
+        <header><h2>Suas discursivas</h2><span class="eyebrow">compare com o padrão de resposta</span></header>
         <ul class="rows" id="s-discs"></ul>
       </section>
     </div>
@@ -489,11 +489,15 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
 
   const S = {
     cat: null, editais: [], provas: {}, idx: {}, inline: {}, provaCache: {}, relMemo: new Map(),
-    db: null, config: null, historico: null, estado: {}, sessoes: [], respostas: {}, discursivas: [],
-    mcp: null, cfgClaude: null, pedidos: {}, correcoes: {}, treino: {},
+    db: null, uid: null, config: null, historico: null, estado: {}, sessoes: [], respostas: {}, discursivas: [],
+    correcoes: {}, treino: {},
     ed: ls.get("mde-edital", null), current: ls.get("mde-sessao", null), modo: "sessao", discQ: null, salvando: false,
   };
 
+  // Cada pessoa tem o próprio progresso em data/users/<id>/: privado até para o dono do artefato.
+  // O banco de questões (dados/) é o mesmo para todos.
+  const meuDoc = (nome) => S.db.doc(`data/users/${S.uid}/${nome}`);
+  const minhaCol = (nome) => S.db.collection(`data/users/${S.uid}/mde/${nome}`);
   const status = (msg, tipo = "") => { const el = $("status"); el.hidden = !msg; el.className = "notice " + tipo; el.textContent = msg || ""; };
 
   /* ---------- catálogo ---------- */
@@ -715,7 +719,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     const editais_ativos = [...document.querySelectorAll("[data-aj-ed]")].filter((c) => c.checked).map((c) => c.dataset.ajEd);
     const tamanho_sessao = Math.max(5, Math.min(60, Number($("aj-tam").value) || 20));
     e.target.disabled = true; e.target.textContent = "Salvando…";
-    try { await S.db.doc("meta/config").set({ editais_ativos, tamanho_sessao }); e.target.textContent = "Ajustes salvos"; }
+    try { await meuDoc("config").set({ editais_ativos, tamanho_sessao }); e.target.textContent = "Ajustes salvos"; }
     catch (err) { erroBanco(err, "salvar os ajustes"); e.target.textContent = "Salvar ajustes"; }
     e.target.disabled = false;
   });
@@ -792,7 +796,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     const id = novoIdSessao();
     const doc = { titulo, data: hoje(), origem: "auto", aula: [], questoes: qs.map((q) => q.id), inline: [] };
     try {
-      await S.db.collection("sessoes").doc(id).set(doc);
+      await minhaCol("sessoes").doc(id).set(doc);
       if (!S.sessoes.some((s) => s.id === id)) S.sessoes.push({ id, ...doc });
       S.current = id; S.modo = "sessao"; ls.set("mde-sessao", id);
       status("");
@@ -975,7 +979,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     }
     S.salvando = true; btn.disabled = true; btn.textContent = "Entregando…";
     try {
-      await S.db.collection("respostas").doc(id).set({ sessao: id, respostas: d, acertos, total, entregueEm: new Date().toISOString() });
+      await minhaCol("respostas").doc(id).set({ sessao: id, respostas: d, acertos, total, entregueEm: new Date().toISOString() });
       for (const [slug, itens] of Object.entries(porSlug)) {
         const cur = JSON.parse(JSON.stringify(S.estado[slug] || {}));
         for (const [qid, ok, letra] of itens) {
@@ -984,7 +988,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
           e.u = hj; e.i = proximoIntervalo(e.i, ok); e.p = addDias(hj, e.i); e.r = letra || "";
           cur[qid] = e;
         }
-        await S.db.collection("estado").doc(slug).set(cur);
+        await minhaCol("estado").doc(slug).set(cur);
         S.estado[slug] = cur;
       }
       S.respostas[id] ??= { respostas: d, acertos, total, entregueEm: new Date().toISOString() };
@@ -992,7 +996,6 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       setTimeout(() => { if ($("status").textContent.startsWith("Sessão entregue")) status(""); }, 4000);
       renderTudo(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
-      chamarClaude("sessao", id);
     } catch (err) {
       btn.disabled = false; btn.textContent = "Entregar sessão";
       erroBanco(err, "salvar a entrega (suas marcações continuam aqui)");
@@ -1000,80 +1003,16 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
   }
 
 
-  /* ---------- correção automática pelo Claude (Claude Code na nuvem) ---------- */
-  // meta/claude: {ativo, environment_id, source_url, painel_url, modelo?}. Sem ele, nada é chamado.
-  // claude/<id>: trava e situação do pedido; correcoes/<id>: comentário escrito pelo Claude.
-  const CC = "Claude Code Remote";
-  function instrucaoClaude(tipo, id) {
-    const c = S.cfgClaude || {};
-    const alvo = tipo === "sessao" ? `a sessão "${id}" (respostas/${id})` : `a discursiva "${id}" (discursivas/${id})`;
-    return [
-      `Você foi chamado automaticamente pelo painel de estudo do repositório public-prep. O candidato acabou de entregar ${alvo}.`,
-      `Painel (Artifact do claude.ai, com banco de dados): ${c.painel_url}. Use a ferramenta de dados do artifact (ArtifactData) com essa URL.`,
-      `Antes de tudo, leia AGENTS.md (seção "Estudo do dia a dia" e "Correção automática") e estudo/progresso.md.`,
-      tipo === "sessao"
-        ? `Siga a rotina "corrigi a <sessão>" para "${id}": grave o comentário dos erros em correcoes/${id}, monte e grave a próxima sessão (origem "claude") e registre o id dela em correcoes/${id}.proxima.`
-        : `Corrija a discursiva pelos critérios do edital e da questão e grave "nota" (número), "max" e "feedback" (texto) em discursivas/${id}; grave também um resumo em correcoes/${id}.`,
-      `Depois atualize estudo/progresso.md (e estudo/sessoes/ quando criar sessão), valide (python3 scripts/validar.py), faça commit e push na main.`,
-      `Ao terminar, atualize claude/${id}: status "pronto" (ou "erro" com o campo "motivo"). Só mexa no banco do painel e na pasta estudo/.`,
-    ].join("\n\n");
-  }
+  /* ---------- comentários antigos do Claude ---------- */
+  // A correção pelo Claude foi desligada: o gabarito, o comentário por alternativa e as revisões fazem esse papel.
+  // Comentários que ele escreveu antes (correcoes/<id>) continuam aparecendo nas sessões entregues.
   function cartaoClaude(tipo, id) {
-    const c = S.cfgClaude, p = S.pedidos[id], cor = S.correcoes[id];
-    let h = "";
-    if (cor?.texto) {
-      const prox = cor.proxima && S.sessoes.some((x) => x.id === cor.proxima) ? ` <button type="button" class="btn ghost" data-abrir-sessao="${esc(cor.proxima)}">Abrir a próxima sessão</button>` : "";
-      h += `<div class="lesson" style="margin-top:12px"><h3>Comentário do Claude</h3>${md(cor.texto)}${prox ? `<p>${prox}</p>` : ""}</div>`;
-    }
-    if (c?.modo === "agendado") {
-      if (!cor?.texto) h += `<p class="notice" style="margin-top:12px">${tipo === "sessao" ? "O Claude corrige esta sessão e prepara a próxima" : "O Claude corrige esta discursiva"} na próxima rodada agendada (${esc(c.rodadas || "duas vezes por dia, por volta das 7h e das 21h")}). O comentário aparece aqui sozinho.</p>`;
-      return h;
-    }
-    if (!c?.ativo) return h;
-    if (!p) {
-      h += S.mcp ? `<p class="mono" style="margin-top:12px"><button type="button" class="btn ghost" data-chamar="${esc(tipo)}|${esc(id)}">Chamar o Claude para corrigir</button></p>` : "";
-    } else if (p.status === "pedido" || p.status === "em andamento") {
-      h += `<p class="notice" style="margin-top:12px">O Claude está corrigindo e preparando a próxima sessão. Leva alguns minutos; ela aparece aqui sozinha.</p>`;
-    } else if (p.status === "erro") {
-      h += `<p class="notice bad" style="margin-top:12px">${esc(p.motivo || "Não deu para chamar o Claude.")} <button type="button" class="btn ghost" data-chamar="${esc(tipo)}|${esc(id)}">Tentar de novo</button></p>`;
-    }
-    return h;
-  }
-  async function chamarClaude(tipo, id, forcar = false) {
-    const c = S.cfgClaude;
-    if (!c?.ativo || c?.modo === "agendado" || !S.db) return;
-    const atual = S.pedidos[id];
-    if (atual && !forcar && atual.status !== "erro") return; // trava: um pedido por entrega
-    if (!S.mcp) { await S.db.collection("claude").doc(id).set({ tipo, status: "erro", motivo: "A conexão com o Claude Code não está disponível nesta visualização. Abra o painel no claude.ai.", em: new Date().toISOString() }).catch(() => {}); return; }
-    const pedido = { tipo, status: "pedido", em: new Date().toISOString() };
-    try { await S.db.collection("claude").doc(id).set(pedido); } catch (err) { erroBanco(err, "registrar o pedido de correção"); return; }
-    const entrada = { prompt: instrucaoClaude(tipo, id), title: `Correção automática: ${tipo === "sessao" ? "sessão" : "discursiva"} ${id}`, source_url: c.source_url, environment_id: c.environment_id, permission_mode: c.permission_mode || "auto", tags: ["public-prep", "correcao-automatica"] };
-    if (c.modelo) entrada.model = c.modelo;
-    try {
-      const r = await S.mcp.callTool(CC, "create_session", entrada);
-      const pl = r?.payload;
-      const sid = (pl && typeof pl === "object" && (pl.session_id || pl.id || pl.session?.id)) || (typeof pl === "string" ? (pl.match(/session_[A-Za-z0-9]+/) || [""])[0] : "");
-      await S.db.collection("claude").doc(id).set({ ...pedido, status: "em andamento", sessao: sid || null, iniciadoEm: new Date().toISOString() });
-    } catch (err) {
-      const code = err?.code || "upstream_error";
-      const motivo = {
-        approval_required: "O claude.ai precisa da sua autorização para o painel abrir sessões do Claude Code.",
-        consent_required: "O claude.ai precisa da sua autorização para o painel abrir sessões do Claude Code.",
-        not_in_manifest: "O uso do Claude Code foi recusado para este painel. Libere em Permissões do artifact.",
-        server_not_connected: "O conector Claude Code Remote não está disponível na sua conta do claude.ai.",
-        needs_reauth: "Reconecte o Claude Code em Configurações → Conectores do claude.ai.",
-        blocked_by_policy: "A política da sua organização bloqueia abrir sessões do Claude Code a partir de páginas.",
-        not_granted: "Este painel não pode usar conectores nesta visualização. Abra-o no claude.ai.",
-        capability_disabled: "Este painel não pode usar conectores nesta visualização. Abra-o no claude.ai.",
-        tool_error: "O Claude Code recusou abrir a sessão" + (err?.message ? `: ${String(err.message).slice(0, 200)}` : "."),
-        server_unavailable: "O Claude Code não respondeu a tempo. A sessão pode ter sido aberta mesmo assim: confira sua lista de sessões antes de tentar de novo.",
-      }[code] || "Não deu para chamar o Claude" + (err?.message ? `: ${String(err.message).slice(0, 200)}` : ".");
-      await S.db.collection("claude").doc(id).set({ ...pedido, status: "erro", codigo: code, motivo }).catch(() => {});
-    }
+    const cor = S.correcoes[id];
+    if (!cor?.texto) return "";
+    const prox = cor.proxima && S.sessoes.some((x) => x.id === cor.proxima) ? ` <button type="button" class="btn ghost" data-abrir-sessao="${esc(cor.proxima)}">Abrir a próxima sessão</button>` : "";
+    return `<div class="lesson" style="margin-top:12px"><h3>Comentário do Claude</h3>${md(cor.texto)}${prox ? `<p>${prox}</p>` : ""}</div>`;
   }
   document.addEventListener("click", (e) => {
-    const b = e.target.closest("[data-chamar]");
-    if (b) { const [tipo, id] = b.dataset.chamar.split("|"); b.disabled = true; chamarClaude(tipo, id, true); return; }
     const a = e.target.closest("[data-abrir-sessao]");
     if (a) { S.current = a.dataset.abrirSessao; S.modo = "sessao"; ls.set("mde-sessao", S.current); renderSessao(true); window.scrollTo({ top: 0, behavior: "smooth" }); }
   });
@@ -1109,8 +1048,8 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       <article class="q"><div class="meta"><span class="num">${esc(q.numero)}</span><span class="eyebrow">${esc(nomeMateria(materiaDe(q)))} · até ${lim} linhas${q.max ? " · vale " + q.max : ""}</span>${seloFonte(q)}</div>
         <div class="stem">${md(q.enunciado)}</div></article>
       <label class="field eyebrow" for="d-texto">Sua resposta<textarea id="d-texto" spellcheck="true" placeholder="Escreva como na folha de resposta. Cada linha da folha tem cerca de 75 caracteres.">${esc(texto)}</textarea></label>
-      <div class="submitbar"><span class="counter" id="d-cont"></span><button class="btn" type="button" id="d-entregar" ${S.db ? "" : "disabled"}>Entregar para correção</button></div>
-      ${q.criterios?.length ? `<details class="texto"><summary>Como será corrigida</summary><div class="corpo"><ul>${q.criterios.map((c) => `<li>${mdInline(c.descricao || c)}${c.pontos != null ? ` <span class="pill mute">${esc(c.pontos)} pts</span>` : ""}</li>`).join("")}</ul></div></details>` : ""}`;
+      <div class="submitbar"><span class="counter" id="d-cont"></span><button class="btn" type="button" id="d-entregar" ${S.db ? "" : "disabled"}>Entregar</button></div>
+      ${q.criterios?.length ? `<details class="texto"><summary>Critérios de correção da banca</summary><div class="corpo"><ul>${q.criterios.map((c) => `<li>${mdInline(c.descricao || c)}${c.pontos != null ? ` <span class="pill mute">${esc(c.pontos)} pts</span>` : ""}</li>`).join("")}</ul></div></details>` : ""}`;
     const atualizar = () => {
       const v = $("d-texto").value, n = contarLinhas(v);
       $("d-cont").textContent = `${n} de ${lim} linhas · ${v.length} caracteres`;
@@ -1129,25 +1068,38 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       const id = `${hoje()}-${String(d.getHours()).padStart(2, "0")}${String(d.getMinutes()).padStart(2, "0")}-${String(q.numero).replace(/[^A-Za-z0-9_.-]/g, "-")}`;
       e.target.disabled = true; e.target.textContent = "Entregando…";
       try {
-        await S.db.collection("discursivas").doc(id).set({ questao: qid, texto: v, linhas: contarLinhas(v), entregueEm: d.toISOString(), nota: null, feedback: null });
+        await minhaCol("discursivas").doc(id).set({ questao: qid, texto: v, linhas: contarLinhas(v), entregueEm: d.toISOString(), nota: null, feedback: null });
         clearTimeout(tmr); ls.set("mde-disc-" + qid, "");
         if (!S.discursivas.some((x) => x.id === id)) S.discursivas.push({ id, questao: qid, texto: v, linhas: contarLinhas(v), entregueEm: d.toISOString(), nota: null, feedback: null });
-        status("Discursiva entregue. A nota e o comentário aparecem em “Suas discursivas” quando o Claude corrigir.");
+        status("Discursiva entregue. Compare a sua resposta com o padrão de resposta em “Suas discursivas”, logo abaixo.");
         S.modo = "sessao"; S.discQ = null;
         renderSessao(true);
-        chamarClaude("discursiva", id);
-      } catch (err) { e.target.disabled = false; e.target.textContent = "Entregar para correção"; erroBanco(err, "salvar a discursiva"); }
+      } catch (err) { e.target.disabled = false; e.target.textContent = "Entregar"; erroBanco(err, "salvar a discursiva"); }
     });
   }
   function renderDiscursivas() {
     const l = S.discursivas.slice().sort((a, b) => String(b.entregueEm).localeCompare(String(a.entregueEm)));
     $("s-discs").innerHTML = l.map((d) => {
       const m = meta(d.questao);
-      const nota = d.nota != null ? `<span class="pill">${esc(d.nota)}${m?.max ? "/" + esc(m.max) : ""}</span>` : `<span class="pill warn">aguardando correção</span>`;
+      const nota = d.nota != null ? `<span class="pill">${esc(d.nota)}${m?.max ? "/" + esc(m.max) : ""}</span>` : `<span class="pill mute">autoavaliação</span>`;
       return `<li><span><b>${esc(rotuloQ(d.questao))}</b> <span class="sub">· ${esc(d.linhas)} linhas · ${esc(d.entregueEm ? new Date(d.entregueEm).toLocaleDateString("pt-BR") : "")}</span>
+        <details><summary class="sub">sua resposta</summary><div class="fb">${md(d.texto)}</div></details>
+        <details data-padrao="${esc(d.questao)}"><summary class="sub">padrão de resposta e critérios</summary><div class="fb">Carregando…</div></details>
         ${d.feedback ? `<details><summary class="sub">comentário do Claude</summary><div class="fb">${md(d.feedback)}</div></details>` : ""}</span><span class="right">${nota}</span></li>`;
     }).join("") || `<li class="empty">Nenhuma discursiva entregue. Use “Treinar discursiva” para escrever uma.</li>`;
   }
+  // O padrão de resposta fica no arquivo da prova: carrega só quando a pessoa abre.
+  $("s-discs").addEventListener("click", async (e) => {
+    const det = e.target.closest("summary")?.parentElement;
+    if (!det?.dataset.padrao || det.dataset.carregado) return;
+    det.dataset.carregado = "1";
+    const qid = det.dataset.padrao, box = det.querySelector(".fb");
+    try {
+      const q = (await carregarProva(slugDe(qid))).porId[qid];
+      box.innerHTML = (q?.padrao_resposta ? md(q.padrao_resposta) : "<p>Esta questão não tem padrão de resposta registrado.</p>")
+        + (q?.criterios?.length ? `<ul>${q.criterios.map((c) => `<li>${mdInline(c.descricao || c)}${c.pontos != null ? ` <span class="pill mute">${esc(c.pontos)} pts</span>` : ""}</li>`).join("")}</ul>` : "");
+    } catch { box.textContent = "Não consegui carregar o padrão de resposta. Recarregue a página."; delete det.dataset.carregado; }
+  });
 
   /* ---------- revisões ---------- */
   function revisoesVencidas() {
@@ -1307,7 +1259,7 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
     const e = cur[c.k] || { t: 0, a: 0 };
     e.t = (e.t || 0) + 1; e.a = (e.a || 0) + (ok ? 1 : 0); e.u = hj; e.i = proximoIntervalo(e.i, ok); e.p = addDias(hj, e.i);
     cur[c.k] = e;
-    try { await S.db.collection("treino").doc(slug).set(cur); S.treino[slug] = cur; }
+    try { await minhaCol("treino").doc(slug).set(cur); S.treino[slug] = cur; }
     catch (err) { erroBanco(err, "salvar o card (a resposta vale aqui, mas não foi gravada)"); }
     T.salvando = false;
     if (T.rodada[T.pos] === c) { mostrarCard(); renderTreino(); }
@@ -1415,18 +1367,15 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       agendar();
     };
     const falha = (err) => { terminou = true; clearTimeout(timer); erroBanco(err, "acompanhar seu progresso (a conexão com o banco caiu; recarregue a página)"); };
-    db.doc("meta/config").onSnapshot((s) => { S.config = s.exists ? s.data() : null; ok("config", s); }, falha);
-    db.doc("meta/historico").onSnapshot((s) => { S.historico = s.exists ? s.data() : null; ok("historico", s); }, falha);
-    db.collection("estado").onSnapshot((q) => { S.estado = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); ok("estado", q); }, falha);
-    db.collection("sessoes").onSnapshot((q) => { S.sessoes = q.docs.map((d) => ({ id: d.id, ...d.data() })); ok("sessoes", q); }, falha);
-    db.collection("respostas").onSnapshot((q) => { S.respostas = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); ok("respostas", q); }, falha);
-    db.collection("discursivas").onSnapshot((q) => { S.discursivas = q.docs.map((d) => ({ id: d.id, ...d.data() })); ok("discursivas", q); }, falha);
-    // Correção automática pelo Claude (fora do controle de carregamento: podem não existir)
-    db.doc("meta/claude").onSnapshot((s) => { S.cfgClaude = s.exists ? s.data() : null; agendar(); }, () => {});
-    db.collection("claude").onSnapshot((q) => { S.pedidos = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
-    db.collection("correcoes").onSnapshot((q) => { S.correcoes = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
-    // Treino de verdadeiro/falso (fora do controle de carregamento: a coleção nasce no primeiro card respondido)
-    db.collection("treino").onSnapshot((q) => { S.treino = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
+    meuDoc("config").onSnapshot((s) => { S.config = s.exists ? s.data() : null; ok("config", s); }, falha);
+    meuDoc("historico").onSnapshot((s) => { S.historico = s.exists ? s.data() : null; ok("historico", s); }, falha);
+    minhaCol("estado").onSnapshot((q) => { S.estado = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); ok("estado", q); }, falha);
+    minhaCol("sessoes").onSnapshot((q) => { S.sessoes = q.docs.map((d) => ({ id: d.id, ...d.data() })); ok("sessoes", q); }, falha);
+    minhaCol("respostas").onSnapshot((q) => { S.respostas = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); ok("respostas", q); }, falha);
+    minhaCol("discursivas").onSnapshot((q) => { S.discursivas = q.docs.map((d) => ({ id: d.id, ...d.data() })); ok("discursivas", q); }, falha);
+    // Fora do controle de carregamento: podem não existir (comentários antigos do Claude; o Treino nasce no primeiro card).
+    minhaCol("correcoes").onSnapshot((q) => { S.correcoes = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
+    minhaCol("treino").onSnapshot((q) => { S.treino = Object.fromEntries(q.docs.map((d) => [d.id, d.data()])); agendar(); }, () => {});
   }
   // Questões que vêm completas na sessão (autorais do Claude) entram no índice para placar e revisões.
   function reindexarInline() {
@@ -1460,8 +1409,15 @@ window.MDE = { temaCobre, parseArtigo, intervaloCobre, parseDispositivo, relevan
       renderTudo(true);
       return;
     }
-    S.db = db;
-    window.claude?.use?.("mcp").then((m) => { S.mcp = m || null; agendar(); }).catch(() => { S.mcp = null; });
+    // O perfil é a conta do claude.ai de quem abre o painel.
+    let uid = null;
+    try { const user = await window.claude?.use?.("user"); uid = user ? await user.id() : null; } catch { uid = null; }
+    if (!uid) {
+      status("Não consegui identificar a sua conta: dá para ver as questões, mas o seu progresso não é salvo. Abra o painel no claude.ai, entrando com a sua conta.", "bad");
+      renderTudo(true);
+      return;
+    }
+    S.db = db; S.uid = uid;
     status("Carregando seu progresso…");
     conectarBanco(db);
     renderTudo(true);

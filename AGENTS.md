@@ -80,47 +80,36 @@ Campos opcionais da questão:
 
 ### Publicar o painel
 1. `python3 scripts/empacotar.py` (valida e gera `painel/dados/`: catálogo, uma prova por arquivo, figuras).
-2. Publique `painel/index.html` como Artifact do claude.ai com a capability `db` e **todos os arquivos de `painel/dados/`** como arquivos do artifact (caminhos `dados/...`). Republique no **mesmo link** registrado em `estudo/progresso.md`, para não perder o progresso salvo no banco.
-3. O progresso (sessões, respostas, revisões, discursivas) fica no banco do artifact, não no repositório.
+2. Publique `painel/index.html` como Artifact do claude.ai com **todos os arquivos de `painel/dados/`** como arquivos do artifact (caminhos `dados/...`) e as capabilities abaixo. Republique no **mesmo link** registrado em `estudo/progresso.md`, para não perder o progresso salvo no banco.
+   ```json
+   {"db": {"rules": [{"path": "", "read": "admin", "write": "admin"},
+                     {"path": "data/users/{self}", "read": "interact", "write": "interact"}]},
+    "user": {}}
+   ```
+3. O progresso fica no banco do artifact, não no repositório.
 
-### Estudo do dia a dia (com o candidato)
-Comece por `estudo/progresso.md`. Banco do painel (ferramenta de dados do artifact):
+### Vários perfis
+O painel é **um só artifact para várias pessoas**. O perfil é a **conta do claude.ai** de quem abre: cada pessoa tem o próprio placar, sessões, revisões, Treino, discursivas e ajustes, em `data/users/<id da pessoa>/`, **privado até para o dono do artefato**. O banco de questões (`dados/`) é o mesmo para todos.
+
+- Para alguém estudar, o dono compartilha o artifact pelo menu Share com nível **Contributor** ("pode usar"). Quem só pode ver consegue ler as questões, mas o progresso não é salvo.
+- Nada de estudo fica fora de `data/users/`: o painel não grava em nenhuma área comum, e a regra da raiz (`read`/`write` `admin`) impede que um colega leia o que estiver lá.
+- Não há correção pelo Claude: o gabarito, o comentário por alternativa (`exp_alt`), o Treino e as revisões espaçadas fazem esse papel. Discursiva entregue mostra o padrão de resposta e os critérios para a pessoa se autoavaliar.
+
+### Banco de cada pessoa
+Caminhos relativos a `data/users/<id>/` (na ferramenta de dados do artifact, `data/users/me/...` é a própria pessoa):
 
 | Documento | Conteúdo |
 |---|---|
-| `meta/config` | editais ativos e tamanho da sessão |
-| `sessoes/<id>` | `{titulo, data, origem: "claude"|"auto", aula, questoes: [ids], inline: [questões autorais]}` |
-| `respostas/<id>` | respostas entregues (`{idQuestão: letra}`), acertos, total |
-| `estado/<prova>` | por questão: tentativas, acertos, última, próxima revisão, intervalo |
-| `discursivas/<id>` | texto do candidato; `nota` e `feedback` preenchidos na correção |
-| `meta/historico` | agregados do painel antigo |
-| `meta/claude` | configuração da correção automática |
-| `claude/<id>` | trava e situação do pedido de correção (`pedido`, `em andamento`, `pronto`, `erro`) |
-| `correcoes/<id>` | comentário do Claude sobre a entrega e id da próxima sessão |
-| `treino/<prova>` | cards de verdadeiro/falso por `"<id da questão>\|<letra>"`: tentativas, acertos, última, próxima revisão, intervalo |
+| `config` | editais ativos e tamanho da sessão |
+| `historico` | agregados do painel antigo (só o do dono) |
+| `mde/sessoes/<id>` | `{titulo, data, origem: "claude"\|"auto", aula, questoes: [ids], inline: [questões autorais]}` |
+| `mde/respostas/<id>` | respostas entregues (`{idQuestão: letra}`), acertos, total |
+| `mde/estado/<prova>` | por questão: tentativas, acertos, última, próxima revisão, intervalo |
+| `mde/treino/<prova>` | cards de verdadeiro/falso por `"<id da questão>\|<letra>"`: tentativas, acertos, última, próxima revisão, intervalo |
+| `mde/discursivas/<id>` | texto entregue; `nota` e `feedback` só nas antigas, corrigidas pelo Claude |
+| `mde/correcoes/<id>` | comentários antigos do Claude sobre entregas (só leitura no painel) |
 
-Quando o candidato disser **"corrigi a <sessão>"**:
-1. Leia `respostas/<id>` e as questões; para cada erro, diga o que marcou, o certo e a regra em uma linha.
-2. Monte a próxima sessão com **exatamente o número de questões configurado em `meta/config.tamanho_sessao`** (leia antes de montar; o candidato muda esse número no painel) e com **questões reais do catálogo** (temas fracos, revisões vencidas, nunca vistas relevantes ao edital mais próximo; sem repetir questões de sessões ainda abertas), com mini-aula começando pelos erros; grave em `sessoes/<id>` com `origem: "claude"`. Autoral só quando faltar questão real, em `inline` com `autoral: true`.
-3. Discursiva entregue: corrija pelos critérios do edital, grave `nota` e `feedback` em `discursivas/<id>`. Cobre texto corrido e uso do espaço.
-4. Atualize o placar e os temas fracos em `estudo/progresso.md` e faça o commit.
-
-### Correção automática
-Há dois modos, escolhidos em `meta/claude` no banco do painel:
-
-- **`"modo": "agendado"`** (o que está em uso): uma **tarefa agendada** do claude.ai ("Correção automática do public-prep", duas vezes por dia, por volta das 7h e das 21h, horário de Brasília) abre uma sessão do Claude Code, anexa este repositório e corrige o que estiver pendente: `respostas/<id>` sem `claude/<id>` com `status: "pronto"`, e `discursivas/<id>` com `nota: null`. Sem pendência, ela encerra sem escrever nada. O painel mostra "na próxima rodada agendada" no cartão da sessão.
-- **Pelo painel, na hora da entrega:** o painel abriria a sessão sozinho pelo conector **Claude Code Remote** (`create_session`). Exige que esse conector exista na conta do claude.ai; na conta atual ele não existe, e a página recebe "connector access isn't confirmed". Para voltar a este modo, declare a capability `mcp` com esse conector ao publicar e tire `"modo": "agendado"`.
-
-Em qualquer dos modos, a sessão que corrige:
-
-1. Siga a rotina acima ("corrigi a <sessão>") para a entrega indicada.
-2. Grave o comentário em `correcoes/<id>`: `{"texto": "markdown curto: nota, cada erro com o que marcou, o certo e a regra em uma linha", "proxima": "<id da sessão nova>", "criadaEm": ISO}`. O painel mostra esse texto no cartão da sessão entregue, com o botão "Abrir a próxima sessão".
-3. Discursiva: grave `nota`, `max` e `feedback` em `discursivas/<id>`.
-4. Atualize `estudo/progresso.md` (e `estudo/sessoes/<id>.json` da sessão nova), valide, commit e push na `main`.
-5. Por último, `claude/<id>`: `{"status": "pronto"}`; se falhar, `{"status": "erro", "motivo": "…"}`.
-6. Mexa só no banco do painel e em `estudo/`. Se outra sessão já estiver corrigindo a mesma entrega (`claude/<id>` com `status: "pronto"`), pare.
-
-Configuração em `meta/claude`: `{"ativo": true, "modo": "agendado", "rodadas": "texto mostrado no painel", "environment_id": "env_…", "source_url": "https://github.com/<dono>/<repo>", "painel_url": "<link do painel>", "permission_mode": "auto", "modelo": opcional}`. Com `ativo: false` e sem `modo`, o painel não menciona correção automática e mostra só o gabarito. A instrução completa da rodada agendada está na própria tarefa agendada; se mudar a rotina aqui, atualize também a tarefa.
+Quando o dono pedir, numa conversa, **"corrigi a <sessão>"** ou uma sessão montada à mão, o Claude age como o dono na ferramenta de dados e só alcança `data/users/me/`: nunca o progresso de um colega. Monte a sessão com **exatamente** `config.tamanho_sessao` questões reais do catálogo e grave em `mde/sessoes/<id>` com `origem: "claude"`.
 
 ## Subagentes
 
