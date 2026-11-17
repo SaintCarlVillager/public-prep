@@ -480,7 +480,21 @@
         "CP 2"
       ],
       "exp": "A abolitio criminis retroage a qualquer tempo, **mesmo após o trânsito em julgado**: cessam a execução e os efeitos penais da sentença (`CP 2`). Os efeitos civis permanecem. As demais alternativas inventam um marco final que a lei não tem.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei que deixa de considerar o fato crime (abolitio criminis) não tem marco final: retroage **a qualquer tempo**, até depois do trânsito em julgado, cessando a execução e os efeitos penais da condenação (`CP 2`). O oferecimento da denúncia é irrelevante.",
+        "B": "A abolitio criminis retroage **a qualquer tempo, mesmo após o trânsito em julgado**: cessam a execução e os efeitos penais da sentença condenatória (`CP 2`). Os efeitos civis permanecem.",
+        "C": "O recebimento da denúncia não limita a retroatividade. A abolitio criminis alcança o fato **a qualquer tempo**, inclusive depois do trânsito em julgado, cessando a execução e os efeitos penais da sentença (`CP 2`).",
+        "D": "A sentença de primeiro grau não é marco final. A lei que deixa de considerar o fato crime retroage **a qualquer tempo**, mesmo após o trânsito em julgado, cessando a execução e os efeitos penais da condenação (`CP 2`).",
+        "E": "Nem o trânsito em julgado limita a abolitio criminis: ela beneficia o condenado **mesmo depois** dele, cessando a execução e os efeitos penais da sentença (`CP 2`); só os efeitos civis permanecem."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#22",
@@ -502,7 +516,21 @@
         "CP 12"
       ],
       "exp": "`CP 12`: as regras gerais do Código aplicam-se aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**. (A) contraria o texto; (D) ignora a extraterritorialidade (`CP 7`); (B) e (E) não estão no artigo.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Código diz o contrário: suas regras gerais **aplicam-se** aos fatos incriminados por lei especial, se esta não dispuser de modo diverso (`CP 12`).",
+        "B": "O `CP 12` não trata de interpretação analógica. O que ele dispõe expressamente é que as regras gerais do Código se aplicam aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**.",
+        "C": "É o texto do `CP 12`: as regras gerais do Código aplicam-se aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**.",
+        "D": "A lei penal brasileira alcança, em certos casos, crimes cometidos no estrangeiro: é a **extraterritorialidade** (`CP 7`). E o `CP 12` trata de outra coisa: aplicação das regras gerais aos fatos previstos em lei especial, salvo disposição diversa.",
+        "E": "O `CP 12` não trata de interpretação extensiva. O que ele dispõe expressamente é que as regras gerais do Código se aplicam aos fatos incriminados por **lei especial, se esta não dispuser de modo diverso**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#23",
@@ -547,7 +575,21 @@
         "CP 107 V"
       ],
       "exp": "Convidar o ofensor para padrinho do filho é ato **incompatível com a vontade de exercer o direito de queixa**: renúncia tácita (`CP 104, p.ú.`), que extingue a punibilidade (`CP 107, V`). A renúncia é irretratável (B errada) e não depende de forma expressa (D errada). Perdão (E) é instituto diferente, posterior à queixa.",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Convidar o ofensor para padrinho do filho é ato **incompatível com a vontade de exercer o direito de queixa**: renúncia tácita (`CP 104 p.ú.`), que extingue a punibilidade (`CP 107 V`). A ação privada não pode mais ser proposta.",
+        "B": "A renúncia ao direito de queixa é **irretratável**: depois dela, o ofendido não pode voltar atrás. Aqui houve renúncia tácita pelo ato incompatível (`CP 104 p.ú.`), e a punibilidade está extinta (`CP 107 V`).",
+        "C": "A relação de compadrio importa: convidar o ofensor para padrinho é **ato incompatível** com a vontade de processá-lo, o que configura renúncia tácita ao direito de queixa (`CP 104 p.ú.`) e extingue a punibilidade (`CP 107 V`).",
+        "D": "A renúncia **não precisa ser expressa**: a prática de ato incompatível com a vontade de exercer o direito de queixa, como o convite para padrinho, importa renúncia tácita (`CP 104 p.ú.`), que extingue a punibilidade (`CP 107 V`).",
+        "E": "O caso não é de perdão, instituto diferente e posterior à queixa, mas de **renúncia tácita** anterior a ela (`CP 104 p.ú.`). E nenhum dos dois tem efeito só patrimonial: ambos extinguem a punibilidade na ação privada (`CP 107 V`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#25",
@@ -571,7 +613,21 @@
         "CP 115"
       ],
       "exp": "Pena concreta de 2 anos prescreve em 4 (`CP 109, V`); como o agente tinha **menos de 21 anos** na data do fato, o prazo cai à metade: **2 anos** (`CP 115`). O 1º intervalo (3 anos e 1 dia) não conta: a prescrição retroativa não pode ter termo inicial anterior à denúncia (`CP 110, §1º`). O 2º intervalo (2 anos e 1 dia) passa de 2 anos: prescreveu.",
-      "recursos": 29
+      "recursos": 29,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pena concreta de 2 anos prescreve em 4 (`CP 109 V`), reduzidos à metade, **2 anos**, porque o agente tinha menos de 21 na data do fato (`CP 115`). Mas o intervalo entre fato e denúncia **não conta**: a prescrição retroativa não pode ter termo inicial anterior à denúncia (`CP 110 §1º`).",
+        "B": "A idade influencia: o agente tinha **menos de 21 anos** na data do fato, então o prazo prescricional cai à metade (`CP 115`). A pena de 2 anos, que prescreveria em 4 (`CP 109 V`), prescreve em **2 anos**.",
+        "C": "Houve prescrição. Pena de 2 anos prescreve em 4 (`CP 109 V`), metade para quem tinha menos de 21 anos no fato: **2 anos** (`CP 115`). Entre o recebimento da denúncia e a sentença passaram 2 anos e 1 dia, mais que o prazo.",
+        "D": "Pena concreta de 2 anos prescreve em 4 (`CP 109 V`), que caem à metade, **2 anos**, porque o agente tinha menos de 21 anos no fato (`CP 115`). Entre o recebimento da denúncia e a sentença passaram 2 anos e 1 dia: 2 anos e 1 dia > 2 anos, prescreveu.",
+        "E": "Só o 2º intervalo conta. O prazo é de **2 anos** (4 anos do `CP 109 V`, reduzidos à metade pelo `CP 115`), mas a prescrição retroativa **não pode ter termo inicial anterior à denúncia** (`CP 110 §1º`), o que exclui o período entre fato e denúncia."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#26",
@@ -594,7 +650,21 @@
         "CP 121 §5º",
         "CP 107 IX"
       ],
-      "exp": "`CP 121, §5º`: no homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la**: perdão judicial, causa de extinção da punibilidade (`CP 107, IX`). Não é atenuante nem causa de diminuição."
+      "exp": "`CP 121, §5º`: no homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la**: perdão judicial, causa de extinção da punibilidade (`CP 107, IX`). Não é atenuante nem causa de diminuição.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No homicídio culposo, se as consequências atingem o agente de forma tão grave que a pena se torna desnecessária, o juiz **pode deixar de aplicá-la** (`CP 121 §5º`): é o perdão judicial, causa de extinção da punibilidade (`CP 107 IX`).",
+        "B": "Não se trata de atenuante nem de redução de pena: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar a pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`).",
+        "C": "Não é atenuante nem substituição por multa: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar qualquer pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`).",
+        "D": "Não é causa de diminuição de pena: o juiz **pode deixar de aplicar a pena** por inteiro. É o perdão judicial do homicídio culposo (`CP 121 §5º`), causa de extinção da punibilidade (`CP 107 IX`).",
+        "E": "Não é causa de diminuição nem troca por multa: é **perdão judicial**, pelo qual o juiz pode deixar de aplicar a pena (`CP 121 §5º`), extinguindo a punibilidade (`CP 107 IX`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#27",
@@ -616,7 +686,21 @@
         "CP 129 §5º II"
       ],
       "exp": "`CP 129, §5º, II`: nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa**. Não há troca de reclusão por detenção (A) nem redução de 1/6 a 1/3 (C).",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Não existe troca de reclusão por detenção. Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "B": "Existe benefício: nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "C": "O benefício previsto não é redução de 1/6 a 1/3. Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "D": "O benefício não se restringe à lesão culposa: basta que as lesões sejam **recíprocas e não graves** para o juiz poder substituir a pena de detenção pela de **multa** (`CP 129 §5º II`).",
+        "E": "Nas lesões **recíprocas e não graves**, o juiz pode substituir a pena de detenção pela de **multa** (`CP 129 §5º II`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#28",
@@ -639,7 +723,21 @@
         "CP 150 §1º"
       ],
       "exp": "O tipo protege a **casa**, e o `CP 150, §4º, II` inclui no conceito o **aposento ocupado de habitação coletiva**: é elementar. Noite, lugar ermo, arma, violência e concurso de duas ou mais pessoas são **qualificadoras** (`§1º`), não elementares: o fato pode existir sem elas.",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Lugar ermo e emprego de arma não são elementares: são **qualificadoras** da violação de domicílio (`CP 150 §1º`). O crime existe sem elas, então a condenação não permite afirmar que ocorreram.",
+        "B": "O tipo protege a **casa**, e a lei inclui nesse conceito o **aposento ocupado de habitação coletiva** (`CP 150 §4º II`). É elemento do próprio tipo, compatível com qualquer condenação por violação de domicílio.",
+        "C": "O período noturno não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que o fato ocorreu à noite.",
+        "D": "O emprego de violência não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que houve violência.",
+        "E": "O concurso de duas ou mais pessoas não é elementar: é **qualificadora** da violação de domicílio (`CP 150 §1º`). O crime existe sem ela, então a condenação não permite afirmar que houve concurso."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#29",
@@ -661,7 +759,21 @@
         "CP 308"
       ],
       "exp": "`CP 308` pune quem **usa** como próprio documento alheio (Remo) e quem **cede** a outrem documento próprio ou **de terceiro** para que dele se utilize (Capitolina). Rômulo não sabia de nada: não há crime culposo nesse tipo. Não há isenção de pena para a mãe. É crime contra a fé pública, não contra a Administração.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O crime do `CP 308` é contra a **fé pública**, não contra a Administração Pública. Remo e Capitolina o cometem, mas o bem jurídico está errado.",
+        "B": "Rômulo não sabia que o documento foi cedido e **não há modalidade culposa** no `CP 308`. Só respondem Remo, que **usa** o documento alheio, e Capitolina, que o **cede** para uso de outrem.",
+        "C": "O `CP 308` pune quem **usa** como próprio documento de identidade alheio (Remo) e quem **cede** a outrem documento próprio ou **de terceiro** para que dele se utilize (Capitolina). Rômulo nada sabia e não comete crime.",
+        "D": "Capitolina também comete o crime: o `CP 308` pune não só quem usa documento alheio, mas também quem **cede** a outrem, para que dele se utilize, documento próprio ou **de terceiro**.",
+        "E": "O `CP 308` não prevê **isenção de pena** para quem cede o documento, nem para a mãe. Capitolina responde por ceder documento de terceiro para uso de outrem, e Remo por usá-lo como próprio."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#30",
@@ -683,7 +795,21 @@
         "CPP 28-A"
       ],
       "exp": "Requisitos do `CPP 28-A, caput`: não ser caso de arquivamento, **confissão formal e circunstancial**, infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**. Reparação do dano é condição do acordo, que pode ser dispensada se impossível (B); infrações pretéritas **insignificantes** não impedem o acordo (`§2º, II`), o que derruba (E).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Nem insignificância nem concordância da vítima estão entre os requisitos do acordo. O `CPP 28-A` exige não ser caso de arquivamento, **confissão formal e circunstancial**, infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**.",
+        "B": "A reparação do dano é **condição** do acordo e é dispensada quando impossível (`CPP 28-A I`), logo não é inafastável. Os requisitos do caput são confissão formal e circunstancial, infração sem violência ou grave ameaça e pena mínima inferior a 4 anos.",
+        "C": "O `CPP 28-A` exige infração **sem violência ou grave ameaça** e **pena mínima inferior a 4 anos**, além de confissão formal e circunstancial e de não ser caso de arquivamento.",
+        "D": "A restituição da coisa à vítima é **condição** do acordo, dispensada quando impossível (`CPP 28-A I`), logo não é inafastável. Os requisitos do caput são confissão formal e circunstancial, infração sem violência ou grave ameaça e pena mínima inferior a 4 anos.",
+        "E": "Infrações penais pretéritas **insignificantes não impedem** o acordo (`CPP 28-A §2º II`). A confissão formal e circunstancial é exigida, mas o primeiro requisito apontado não existe."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#31",
@@ -705,7 +831,21 @@
         "CPP 33"
       ],
       "exp": "`CPP 33`: se o ofendido for menor de 18 anos (ou incapaz) e os interesses colidirem com os do representante legal, o direito de queixa poderá ser exercido por **curador especial**, nomeado pelo juiz **de ofício ou a requerimento do MP**. A ação não muda de natureza.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Se os interesses do ofendido menor de 18 anos colidem com os do representante legal, o direito de queixa pode ser exercido por **curador especial**, nomeado pelo juiz **de ofício ou a requerimento do MP** (`CPP 33`).",
+        "B": "A lei não fala em tutor ad hoc. Havendo colisão de interesses, o direito de queixa do menor é exercido por **curador especial**, nomeado pelo juiz de ofício ou a requerimento do MP (`CPP 33`).",
+        "C": "A colisão de interesses **não muda a natureza da ação**, que continua privada. A solução legal é a nomeação de **curador especial** pelo juiz, de ofício ou a requerimento do MP, para exercer o direito de queixa (`CPP 33`).",
+        "D": "A ação **continua privada**: a colisão de interesses não a transforma em pública. O direito de queixa passa a ser exercido por **curador especial**, nomeado pelo juiz de ofício ou a requerimento do MP (`CPP 33`).",
+        "E": "A lei não prevê suspensão de prazos até a maioridade. Para a colisão de interesses, a solução é a nomeação de **curador especial** pelo juiz, de ofício ou a requerimento do MP, para exercer o direito de queixa (`CPP 33`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#32",
@@ -727,7 +867,21 @@
         "CPP 70 §3º"
       ],
       "exp": "`CPP 70, §3º`: limite territorial incerto ou infração nas divisas de duas ou mais jurisdições → competência firmada pela **prevenção**.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O endereço da autoridade policial não define competência. Com limite territorial incerto ou infração nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "B": "O domicílio da vítima não resolve esse caso. Com limite territorial incerto ou infração consumada ou tentada nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "C": "O domicílio do réu só regula a competência quando **não se conhece o lugar da infração** (`CPP 72`). Com limite territorial incerto ou infração nas divisas de jurisdições, vale a **prevenção** (`CPP 70 §3º`).",
+        "D": "Quando é incerto o limite territorial entre jurisdições, ou a infração foi consumada ou tentada nas divisas de duas ou mais delas, a competência se firma pela **prevenção** (`CPP 70 §3º`).",
+        "E": "A lei não desloca o caso para a capital do Estado. Com limite territorial incerto ou infração nas divisas de duas ou mais jurisdições, a competência se firma pela **prevenção** (`CPP 70 §3º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#33",
@@ -749,7 +903,21 @@
         "CPP 156 I"
       ],
       "exp": "`CPP 156, I`: o juiz pode, **de ofício**, mesmo **antes de iniciada a ação penal**, ordenar a produção antecipada de provas **urgentes e relevantes**, observando **necessidade, adequação e proporcionalidade**. A banca cobrou a letra da lei.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Há **previsão legal expressa**: o juiz pode, de ofício, mesmo antes de iniciada a ação penal, ordenar a produção antecipada de provas **urgentes e relevantes**, observando necessidade, adequação e proporcionalidade (`CPP 156 I`).",
+        "B": "A lei não condiciona a medida à concordância do MP. O juiz pode agir **de ofício**, mesmo antes da ação penal, se as provas forem **urgentes e relevantes** e a medida for necessária, adequada e proporcional (`CPP 156 I`).",
+        "C": "Há **previsão legal expressa**: o `CPP 156 I` permite ao juiz, de ofício e mesmo antes de iniciada a ação penal, ordenar a produção antecipada de provas urgentes e relevantes.",
+        "D": "O juiz pode, **de ofício**, mesmo **antes de iniciada a ação penal**, ordenar a produção antecipada de provas **urgentes e relevantes**, observando a **necessidade, adequação e proporcionalidade** da medida (`CPP 156 I`).",
+        "E": "A lei não exige prévia ciência do acusado. Os requisitos são provas **urgentes e relevantes** e medida necessária, adequada e proporcional; preenchidos, o juiz pode ordená-la de ofício antes da ação penal (`CPP 156 I`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#34",
@@ -772,7 +940,21 @@
         "CPP 219"
       ],
       "exp": "`CPP 218`: o juiz pode **requisitar à autoridade policial** a apresentação da testemunha ou determinar que seja **conduzida por oficial de justiça**. `CPP 219`: além disso, **multa**, processo por **desobediência** e **custas da diligência**. Só (E) lista todas as consequências.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A lista está incompleta e o \"apenas\" a torna errada: falta a possibilidade de o juiz **requisitar à autoridade policial** a apresentação da testemunha (`CPP 218`), ao lado de condução, multa, desobediência e custas (`CPP 219`).",
+        "B": "Faltam consequências: o juiz também pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`), e aplicar **multa** (`CPP 219`).",
+        "C": "Faltam consequências: o juiz também pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`).",
+        "D": "As custas da diligência não são a única consequência: cabem requisição à autoridade policial ou **condução por oficial de justiça** (`CPP 218`), além de **multa** e processo por **desobediência** (`CPP 219`).",
+        "E": "O juiz pode **requisitar à autoridade policial** a apresentação da testemunha ou mandar **conduzi-la por oficial de justiça** (`CPP 218`), e ainda aplicar **multa**, sem prejuízo do processo por **desobediência**, e condená-la nas **custas** da diligência (`CPP 219`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#35",
@@ -794,7 +976,21 @@
         "CPP 284"
       ],
       "exp": "`CPP 284`: não se permite o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga** do preso. Desobediência e desacato não estão no artigo.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não é só a resistência: o emprego de força indispensável é admitido no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "B": "Na execução da prisão não se permite o emprego de força, **salvo a indispensável no caso de resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "C": "Desobediência e desacato não estão no artigo. O emprego de força só é permitido, na medida do indispensável, no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "D": "Diferença de força física, desobediência e desacato não autorizam força. Só se admite a força **indispensável** no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`).",
+        "E": "Desacato não está no artigo. O emprego de força só é permitido, na medida do indispensável, no caso de **resistência ou de tentativa de fuga** do preso (`CPP 284`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#36",
@@ -819,7 +1015,21 @@
         "CPP 445"
       ],
       "exp": "`CPP 438`: a recusa ao serviço do júri **fundada em convicção religiosa, filosófica ou política** importa o dever de prestar serviço alternativo. (A) o efetivo exercício **presume** idoneidade moral (`CPP 439`); (B) o desconto é vedado ao jurado que **comparecer** (`CPP 441`); (E) o jurado responde criminalmente como os juízes togados (`CPP 445`).",
-      "recursos": 9
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É o contrário: o exercício efetivo da função de jurado constitui serviço público relevante e **estabelece presunção de idoneidade moral** (`CPP 439`).",
+        "B": "A vedação de desconto nos vencimentos ou salário protege só o jurado sorteado que **comparecer** à sessão do júri (`CPP 441`).",
+        "C": "Quem dispensa o jurado é o **juiz presidente**, por decisão motivada consignada na ata dos trabalhos (`CPP 444`), não o diretor da serventia.",
+        "D": "O serviço do júri é obrigatório, mas a lei admite a recusa **fundada em convicção religiosa, filosófica ou política**, que importa o dever de prestar **serviço alternativo** (`CPP 438`).",
+        "E": "O jurado não fica isento: no exercício da função ou a pretexto de exercê-la, **responde criminalmente** nos mesmos termos que os juízes togados (`CPP 445`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#37",
@@ -841,7 +1051,21 @@
       "dispositivos": [
         "CPP 487"
       ],
-      "exp": "`CPP 487`: **para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas dos votos e as não utilizadas."
+      "exp": "`CPP 487`: **para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas dos votos e as não utilizadas.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "B": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "C": "A incomunicabilidade dos jurados não é a razão dada pela lei para as duas urnas: elas servem **para assegurar o sigilo do voto** (`CPP 487`).",
+        "D": "A lei dá outra razão para as duas urnas: o oficial de justiça recolhe separadamente as cédulas dos votos e as não utilizadas **para assegurar o sigilo do voto** (`CPP 487`).",
+        "E": "**Para assegurar o sigilo do voto**, o oficial de justiça recolhe em urnas separadas as cédulas correspondentes aos votos e as não utilizadas (`CPP 487`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#38",
@@ -863,7 +1087,21 @@
         "L9099 60 p.ú."
       ],
       "exp": "A frase reproduz o `art. 60, p.ú., da Lei 9.099/95`: na reunião de processos por conexão ou continência perante o juízo comum ou o júri, aplicam-se a **transação penal** e a **composição civil dos danos**. Tudo verdadeiro.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não é só a transação penal: na reunião de processos perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis** (`L9099 60 p.ú.`).",
+        "B": "O juízo comum pode aplicar a composição civil: na reunião de processos perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis** (`L9099 60 p.ú.`).",
+        "C": "A frase reproduz o `L9099 60 p.ú.`: na reunião de processos por **conexão ou continência** perante o juízo comum ou o júri, observam-se a **transação penal e a composição dos danos civis**.",
+        "D": "A lei prevê exatamente esse deslocamento: por **conexão ou continência**, a infração de menor potencial pode ser julgada no juízo comum ou no **tribunal do júri**, mantidas a transação penal e a composição civil (`L9099 60 p.ú.`).",
+        "E": "Não é só a continência: tanto a **conexão quanto a continência** podem levar a infração de menor potencial ofensivo ao juízo comum ou ao júri (`L9099 60 p.ú.`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#39",
@@ -886,7 +1124,21 @@
         "CPC 10"
       ],
       "exp": "`CPC 10`: o juiz não pode decidir com base em fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, **ainda que se trate de matéria que deva decidir de ofício**. É a vedação à decisão surpresa, ligada ao contraditório (`CPC 9`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Poder decidir **de ofício** não dispensa ouvir as partes: o `CPC 10` proíbe decidir com base em fundamento sobre o qual elas não tiveram oportunidade de se manifestar, **ainda que** a matéria seja daquelas que o juiz deve conhecer de ofício.",
+        "B": "Conhecer o direito não autoriza surpreender as partes: o `CPC 10` exige que elas possam se manifestar antes sobre o fundamento da decisão, mesmo em matéria de ordem pública. Decidir sem ouvi-las fere o **contraditório** (`CPC 9`), não aplica regra vigente.",
+        "C": "O reexame necessário (`CPC 496`) é condição de eficácia de certas sentenças contra a Fazenda Pública, não meio de corrigir decisão surpresa. A regra é ouvir as partes **antes** de decidir, mesmo em matéria de ofício (`CPC 10`).",
+        "D": "Celeridade e eficiência não autorizam suprimir o contraditório: o `CPC 10` veda decidir sobre fundamento não submetido às partes, **ainda que** se trate de matéria que o juiz deva decidir de ofício.",
+        "E": "O `CPC 10` proíbe a **decisão surpresa**: o juiz não pode decidir com base em fundamento sobre o qual as partes não puderam se manifestar, mesmo em matéria de ofício. É desdobramento do **contraditório** como participação com influência (`CPC 9`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#40",
@@ -908,7 +1160,21 @@
         "CPC 22 II"
       ],
       "exp": "`CPC 22, II`: compete à autoridade judiciária brasileira processar e julgar as ações decorrentes de **relações de consumo**, quando o **consumidor tiver domicílio ou residência no Brasil**. A nacionalidade das partes (D) não é critério de jurisdição.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo `CPC 22 II`, cabe à autoridade judiciária brasileira julgar as ações decorrentes de **relações de consumo** quando o consumidor tiver **domicílio ou residência no Brasil**, como João Paulo, domiciliado em São Paulo.",
+        "B": "João Paulo não precisa ir à Justiça da Flórida: como consumidor domiciliado no Brasil, pode propor a ação aqui, pois o `CPC 22 II` dá à autoridade judiciária brasileira competência para as ações decorrentes de **relações de consumo** nesse caso.",
+        "C": "O CPC não afasta a ação contra o influenciador: nas **relações de consumo** com consumidor domiciliado no Brasil, a Justiça brasileira pode julgar a causa (`CPC 22 II`), e eventual responsabilidade é questão de mérito, não de jurisdição.",
+        "D": "A **nacionalidade** das partes não é critério de jurisdição no CPC. O que atrai a Justiça brasileira no caso é a **relação de consumo** com consumidor domiciliado no Brasil (`CPC 22 II`).",
+        "E": "Mesmo com réus domiciliados no exterior, cabe à autoridade judiciária brasileira julgar ações decorrentes de **relações de consumo** quando o consumidor tiver domicílio ou residência no Brasil (`CPC 22 II`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#41",
@@ -931,7 +1197,21 @@
         "CPC 36 §2º"
       ],
       "exp": "Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, sem rever o mérito: é o **juízo de delibação** (`CPC 36, §2º`).",
-      "recursos": 50
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Juízo prestacional\" não é o nome dessa análise. Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, sem rever o mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "B": "\"Juízo perfunctório\" indica cognição superficial, não o nome técnico dessa análise. Na carta rogatória, o STJ verifica requisitos formais e ordem pública, sem rever o mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "C": "\"Juízo rogatório\" não é o nome dessa análise. Na carta rogatória passiva, o STJ só verifica requisitos formais e a ordem pública, vedada a revisão do mérito (`CPC 36 §2º`): é o **juízo de delibação**.",
+        "D": "Na carta rogatória passiva, o STJ não rediscute o mérito da decisão estrangeira (`CPC 36 §2º`); verifica só requisitos formais e a ordem pública. Essa análise limitada chama-se **juízo de delibação**.",
+        "E": "\"Análise preliminar\" é expressão genérica, não o nome técnico. A verificação só de requisitos formais e da ordem pública, sem revisão do mérito (`CPC 36 §2º`), chama-se **juízo de delibação**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#42",
@@ -955,7 +1235,21 @@
         "CF 109 I"
       ],
       "exp": "Competência em razão da pessoa é **absoluta** (`CF 109, I`). A perpetuatio jurisdictionis (`CPC 43`) cede quando houver alteração de competência absoluta, e o `CPC 45` manda remeter os autos à Justiça Federal quando intervier empresa pública federal.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A perpetuatio jurisdictionis (`CPC 43`) tem exceção: cede quando há alteração de **competência absoluta**. A competência da Justiça Federal em razão da pessoa é absoluta (`CF 109 I`), e o `CPC 45` manda remeter os autos quando intervém empresa pública federal.",
+        "B": "Competência em razão da pessoa é **absoluta** (`CF 109 I`); por isso a perpetuatio jurisdictionis cede (`CPC 43`), e o `CPC 45` manda **remeter os autos à Justiça Federal** quando nela intervier empresa pública federal.",
+        "C": "Não há conflito a suscitar: o `CPC 45` manda o juiz estadual **remeter os autos** à Justiça Federal quando intervier empresa pública federal, cuja presença fixa competência absoluta em razão da pessoa (`CF 109 I`).",
+        "D": "A competência da Justiça Federal em razão da pessoa é **absoluta**, não relativa (`CF 109 I`). Essa alteração afasta a perpetuatio jurisdictionis (`CPC 43`) e impõe a remessa dos autos (`CPC 45`).",
+        "E": "O critério é a **pessoa**, não a matéria nem o interesse direto da União: basta a empresa pública federal ser parte para atrair a Justiça Federal (`CF 109 I`), com remessa dos autos (`CPC 45`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#43",
@@ -978,7 +1272,21 @@
         "CPC 1015 IX",
         "CF 37 §6º"
       ],
-      "exp": "`CPC 125, §1º`: indeferida a denunciação, o direito regressivo é exercido por **ação autônoma**. (C) cabe agravo de instrumento (`CPC 1.015, IX`); (E) o regresso cabe por **dolo ou culpa** (`CF 37, §6º`)."
+      "exp": "`CPC 125, §1º`: indeferida a denunciação, o direito regressivo é exercido por **ação autônoma**. (C) cabe agravo de instrumento (`CPC 1.015, IX`); (E) o regresso cabe por **dolo ou culpa** (`CF 37, §6º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Indeferida a denunciação, a Prefeitura **não perde** o direito de regresso: o `CPC 125 §1º` prevê que ele será exercido por **ação autônoma**.",
+        "B": "O chamamento ao processo (`CPC 130`) serve ao fiador e aos devedores solidários, não ao regresso do ente contra o agente. A pretensão regressiva contra o motorista é típica de **denunciação da lide** (`CPC 125 II`).",
+        "C": "Cabe recurso: a decisão interlocutória que versa sobre **intervenção de terceiros** é impugnável por **agravo de instrumento** (`CPC 1015 IX`).",
+        "D": "Pelo `CPC 125 §1º`, se a denunciação for indeferida, deixar de ser promovida ou não for permitida, o direito regressivo será exercido por **ação autônoma**.",
+        "E": "O regresso do Poder Público contra o agente cabe nos casos de **dolo ou culpa** (`CF 37 §6º`), o que inclui a culpa grave do motorista."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#44",
@@ -1000,7 +1308,21 @@
         "CPC 453 §1º"
       ],
       "exp": "`CPC 453, §1º`: a oitiva de testemunha que reside em outra comarca, seção ou subseção **poderá** ser feita por videoconferência ou outro recurso de sons e imagens em tempo real. (A) torna obrigatória a precatória; (E) rogatória é para outro país.",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A carta precatória não é obrigatória: o `CPC 453 §1º` permite que a testemunha de outra comarca, seção ou subseção seja ouvida **por videoconferência** ou outro recurso de sons e imagens em tempo real.",
+        "B": "O CPC não prevê depoimento escrito de testemunha representada por advogado: a testemunha depõe na audiência ou por carta (`CPC 453`), e a de outra comarca pode ser ouvida **por videoconferência** (`CPC 453 §1º`).",
+        "C": "Não há essa restrição para ações de família ou de estado: o `CPC 453 §1º` permite, de modo geral, ouvir a testemunha de outra comarca **por videoconferência** ou outro recurso de sons e imagens em tempo real.",
+        "D": "O `CPC 453 §1º` permite que a oitiva de testemunha residente em outra comarca, seção ou subseção judiciária seja feita **por videoconferência** ou outro recurso tecnológico de sons e imagens em tempo real.",
+        "E": "Carta rogatória é para ato a cumprir por **autoridade estrangeira** (`CPC 237 II`); para outra comarca no Brasil, usa-se precatória, e a oitiva pode ser feita **por videoconferência** (`CPC 453 §1º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#45",
@@ -1024,7 +1346,21 @@
         "CPC 535 §8º"
       ],
       "exp": "`CPC 535, §5º`: é **inexigível** a obrigação fundada em lei declarada inconstitucional pelo STF, **em controle concentrado ou difuso**, e o `§7º` exige que a decisão do STF seja **anterior** ao trânsito em julgado, como no caso: basta a impugnação, sem rescisória (que só cabe se a decisão do STF for posterior, `§8º`). (B) o excesso de execução se alega na própria impugnação (`CPC 535, IV`).",
-      "recursos": 13
+      "recursos": 13,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A inexigibilidade do `CPC 535 §5º` depende de a decisão do STF alcançar a obrigação; o `CPC 535 §6º` permite ao STF **modular os efeitos** no tempo, e essa modulação pode preservar a obrigação. Não se pode afirmar que a alegação seria procedente com efeitos ex nunc.",
+        "B": "O excesso de execução não fica para depois do precatório: a Fazenda deve alegá-lo **na própria impugnação** (`CPC 535 IV`).",
+        "C": "É **inexigível** a obrigação fundada em lei declarada inconstitucional pelo STF em controle concentrado **ou difuso** (`CPC 535 §5º`), desde que a decisão do STF seja **anterior** ao trânsito em julgado (`CPC 535 §7º`), como no caso: basta a impugnação.",
+        "D": "Também o controle **difuso** gera inexigibilidade: o `CPC 535 §5º` abrange lei declarada inconstitucional pelo STF em controle concentrado ou difuso, e a decisão anterior ao trânsito em julgado pode ser alegada na impugnação (`CPC 535 §7º`).",
+        "E": "Como a decisão do STF é **anterior** ao trânsito em julgado, basta a impugnação (`CPC 535 §7º`). A ação rescisória só é necessária se a decisão do STF for **posterior** ao trânsito (`CPC 535 §8º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#46",
@@ -1046,7 +1382,21 @@
         "L9099 19"
       ],
       "exp": "`Lei 9.099/95, art. 19`: as intimações são feitas na forma prevista para a citação **ou por qualquer outro meio idôneo de comunicação**, o que a jurisprudência estende aos meios eletrônicos.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo `L9099 19`, as intimações nos Juizados se fazem na forma prevista para a citação **ou por qualquer outro meio idôneo de comunicação**, o que a jurisprudência estende aos meios eletrônicos.",
+        "B": "A lei não estabelece preferência pelo correio: as intimações podem ser feitas na forma da citação **ou por qualquer outro meio idôneo de comunicação** (`L9099 19`).",
+        "C": "Não há forma obrigatória: as intimações podem ser feitas na forma da citação **ou por qualquer outro meio idôneo de comunicação** (`L9099 19`).",
+        "D": "A lei não dá preferência à audiência: as partes só se consideram cientes desde logo dos **atos praticados na audiência** (`L9099 19 §1º`); fora daí, a intimação se faz por **qualquer meio idôneo** (`L9099 19`).",
+        "E": "A lei não prioriza a intimação do advogado, até porque nos Juizados a parte pode atuar sem ele em certas causas (`L9099 9`). As intimações se fazem por **qualquer meio idôneo de comunicação** (`L9099 19`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#47",
@@ -1070,7 +1420,21 @@
         "CF 12 §3º"
       ],
       "exp": "`CF 12, §5º` (EC 131/2023): a renúncia não impede readquirir a nacionalidade **originária**; volta a ser nato e pode ser Ministro do STF (`§3º, IV`). (A) a naturalização extraordinária depende de requerimento; (B) não se exige trabalho; (C) são 15 anos; (D) o cancelamento hoje é por **fraude** ou **atentado contra a ordem constitucional e o Estado Democrático** (`§4º, I`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Não há naturalização automática: a extraordinária exige residência por mais de quinze anos ininterruptos, ausência de condenação penal e **requerimento** do interessado (`CF 12 II b`).",
+        "B": "Ao originário de país de língua portuguesa a CF exige só **residência por um ano ininterrupto** e **idoneidade moral** (`CF 12 II a`); não há exigência de estar trabalhando.",
+        "C": "O prazo da naturalização extraordinária é de mais de **quinze anos** de residência ininterrupta, sem condenação penal e com requerimento (`CF 12 II b`), não vinte anos.",
+        "D": "Peculato não gera cancelamento da naturalização. Desde a EC 131/2023, ela só é cancelada por sentença judicial em razão de **fraude** no processo de naturalização ou de **atentado contra a ordem constitucional e o Estado Democrático** (`CF 12 §4º I`).",
+        "E": "A renúncia não impede que o brasileiro **readquira a nacionalidade originária** (`CF 12 §5º`, EC 131/2023); voltando a ser nato, Rodrigo pode ser Ministro do STF, cargo privativo de brasileiro nato (`CF 12 §3º IV`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#48",
@@ -1092,7 +1456,21 @@
         "CF 18 §4º"
       ],
       "exp": "`CF 18, §4º`: fusão de municípios por **lei estadual**, no período determinado por **lei complementar federal**, após **plebiscito** das populações envolvidas e divulgação dos **Estudos de Viabilidade Municipal**.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A **fusão** de municípios é admitida, ao lado da criação, da incorporação e do desmembramento, por lei estadual, no período fixado em lei complementar federal, após plebiscito e Estudos de Viabilidade Municipal (`CF 18 §4º`).",
+        "B": "O `CF 18 §4º` permite a fusão de municípios por **lei estadual**, no período fixado em **lei complementar federal**, após **plebiscito** das populações envolvidas e divulgação dos **Estudos de Viabilidade Municipal**.",
+        "C": "A fusão exige **lei estadual** no período fixado em **lei complementar federal** e consulta prévia por **plebiscito**, não referendo, após os Estudos de Viabilidade Municipal (`CF 18 §4º`).",
+        "D": "Não há vedação: a CF admite a criação, a incorporação, a **fusão** e o desmembramento de municípios, por lei estadual, no período fixado em lei complementar federal e após plebiscito (`CF 18 §4º`).",
+        "E": "A fusão se faz por **lei estadual** no período fixado em **lei complementar federal**, após consulta por **plebiscito** e divulgação dos **Estudos de Viabilidade Municipal** (`CF 18 §4º`); não basta pesquisa de interesse."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#49",
@@ -1118,7 +1496,21 @@
         "CF 37 V"
       ],
       "exp": "`CF 38, I` e `V`: no mandato estadual o servidor fica afastado do cargo e, se segurado de RPPS, **permanece filiado a esse regime no ente de origem**. (A) a incorporação de vantagens de função de confiança é vedada (`CF 39, §9º`); (B) o vereador sem compatibilidade de horários **pode optar** pela remuneração (`CF 38, III`); (E) funções de confiança são **exclusivas de servidores efetivos** (`CF 37, V`).",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É **vedada** a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança à remuneração do cargo efetivo (`CF 39 §9º`), qualquer que seja o tempo de exercício.",
+        "B": "O vereador sem compatibilidade de horários é afastado do cargo, mas **pode optar** pela remuneração do cargo (`CF 38 III`, que remete ao inciso II).",
+        "C": "No mandato estadual, o servidor fica **afastado do cargo** (`CF 38 I`) e, se segurado de regime próprio, **permanece filiado a esse regime** no ente de origem (`CF 38 V`).",
+        "D": "Não são só dois critérios: a fixação dos vencimentos observa a natureza, o grau de responsabilidade e a complexidade dos cargos, os **requisitos para a investidura** e as **peculiaridades dos cargos** (`CF 39 §1º`).",
+        "E": "As funções de confiança são exercidas **exclusivamente por servidores ocupantes de cargo efetivo** (`CF 37 V`); Luciana, concursada, podia aceitá-la."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#50",
@@ -1145,7 +1537,21 @@
         "CF 40 §14"
       ],
       "exp": "`CF 40, §20`: é **vedada** a existência de mais de um RPPS e de mais de uma entidade gestora em cada ente federativo. (B) a iniciativa da previdência complementar é do **Executivo** (`§14`); (C) o reajuste segue critérios **da lei** (`§8º`); (D) e (E) idade e tempo diferenciados dependem de **lei complementar** (`§4º-A`, `§4º-C`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O `CF 40 §20` **veda** a existência de mais de um regime próprio de previdência e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais.",
+        "B": "A lei que institui o regime de previdência complementar dos servidores é de iniciativa do **Poder Executivo** de cada ente (`CF 40 §14`), não do Legislativo.",
+        "C": "O reajustamento que preserva o valor real dos benefícios segue critérios estabelecidos **em lei** (`CF 40 §8º`), não em decreto anual do Executivo.",
+        "D": "Idade e tempo de contribuição diferenciados para quem trabalha exposto a agentes químicos, físicos e biológicos prejudiciais à saúde **poderão** ser fixados por **lei complementar** do ente (`CF 40 §4º-C`); não há lei ordinária obrigatória nem prazo até 2025.",
+        "E": "Para servidores com deficiência, idade e tempo de contribuição diferenciados **poderão** ser fixados por **lei complementar** do ente, após avaliação biopsicossocial (`CF 40 §4º-A`), não por lei ordinária obrigatória."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#51",
@@ -1171,7 +1577,21 @@
         "CF 98 II"
       ],
       "exp": "`CF 99, §4º`: proposta orçamentária fora dos limites da LDO → o **Executivo faz os ajustes**. (A) o órgão especial tem de 11 a **25** membros (`CF 93, XI`); (B) decisões disciplinares por **maioria absoluta** (`CF 93, X`); (C) quarentena de **3** anos (`CF 95, p.ú., V`); (E) a justiça de paz não julga divórcio (`CF 98, II`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O órgão especial tem no mínimo onze e no máximo **vinte e cinco** membros, não vinte e três, e sua criação nos tribunais com mais de vinte e cinco julgadores é **facultativa** (`CF 93 XI`).",
+        "B": "As decisões administrativas dos tribunais são motivadas e tomadas em sessão pública, mas as **disciplinares** exigem o voto da **maioria absoluta** dos membros (`CF 93 X`), não de dois terços.",
+        "C": "A quarentena do juiz que se afasta por aposentadoria ou exoneração é de **três anos** (`CF 95 p.ú. V`), não cinco.",
+        "D": "Se a proposta orçamentária do tribunal vier em desacordo com os limites da Lei de Diretrizes Orçamentárias, o **Poder Executivo** fará os ajustes necessários para consolidar a proposta orçamentária anual (`CF 99 §4º`).",
+        "E": "A justiça de paz celebra casamentos, verifica a habilitação e exerce atribuições conciliatórias, **sem caráter jurisdicional** (`CF 98 II`); não julga pedidos de **divórcio**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#52",
@@ -1194,7 +1614,21 @@
         "CF 93 II"
       ],
       "exp": "`CF 93, VIII-B` (EC 130/2023): admite-se a **permuta** de magistrados de comarca de igual entrância, no mesmo segmento de justiça, **inclusive entre tribunais diferentes**, observando no que couber os critérios de merecimento do `art. 93, II` (desempenho, produtividade, presteza e cursos de aperfeiçoamento).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O número está errado: o `CF 93 II` fala em **três** vezes consecutivas ou cinco alternadas em lista de merecimento, e isso trata da promoção obrigatória. Para a permuta, o `CF 93 VIII-B` manda observar os critérios do inciso II apenas **no que couber**.",
+        "B": "As regras da permuta estão na própria Constituição (`CF 93 VIII-B`, EC 130/2023), que manda observar, no que couber, os critérios de merecimento do `CF 93 II`; não há exigência de cinco anos na mesma entrância.",
+        "C": "Desde a EC 130/2023, admite-se a **permuta** de magistrados de comarca de igual entrância no mesmo segmento de justiça, **inclusive entre tribunais diferentes** (`CF 93 VIII-B`).",
+        "D": "A permuta não se limita ao segundo grau: o `CF 93 VIII-B` (EC 130/2023) admite a de magistrados de comarca de **igual entrância**, inclusive entre tribunais diferentes.",
+        "E": "O `CF 93 VIII-B` (EC 130/2023) admite a **permuta** entre magistrados de comarca de igual entrância, inclusive de tribunais diferentes, observando no que couber o merecimento do `CF 93 II`: desempenho, **produtividade e presteza** e cursos de aperfeiçoamento."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#53",
@@ -1215,7 +1649,21 @@
       "dispositivos": [
         "CF 127 §6º"
       ],
-      "exp": "`CF 127, §6º`: durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas mediante a abertura de créditos suplementares ou especiais**. Autonomia funcional e administrativa não afastam essa regra."
+      "exp": "`CF 127, §6º`: durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas mediante a abertura de créditos suplementares ou especiais**. Autonomia funcional e administrativa não afastam essa regra.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Durante a execução orçamentária, o MP não pode realizar despesas que extrapolem os limites da LDO, **exceto se previamente autorizadas** mediante abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "B": "A Constituição não prevê exceção por força maior: despesas além dos limites da LDO exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "C": "A exceção não é autorização direta do Chefe do Executivo: as despesas que extrapolam a LDO só são admitidas se previamente autorizadas mediante abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "D": "A autonomia do MP não afasta os limites da LDO: despesas acima deles exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`).",
+        "E": "Nem caso fortuito nem a autonomia do MP afastam a regra: despesas acima dos limites da LDO exigem **prévia** abertura de **créditos suplementares ou especiais** (`CF 127 §6º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#54",
@@ -1237,7 +1685,21 @@
         "CF 125 §3º"
       ],
       "exp": "`CF 125, §3º`: a **lei estadual**, mediante **proposta do Tribunal de Justiça**, pode criar a Justiça Militar estadual. Não há participação do CNJ nem lei complementar; a EC 133 tratou de partidos políticos.",
-      "recursos": 5
+      "recursos": 5,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não há participação do CNJ: a Justiça Militar estadual pode ser criada por **lei estadual**, mediante **proposta do Tribunal de Justiça** (`CF 125 §3º`).",
+        "B": "Pelo `CF 125 §3º`, a **lei estadual**, mediante **proposta do Tribunal de Justiça**, pode criar a Justiça Militar estadual.",
+        "C": "A Justiça Militar **estadual** é criada por **lei estadual**, mediante proposta do **Tribunal de Justiça** (`CF 125 §3º`), não por lei federal proposta pelo STF.",
+        "D": "Basta **lei estadual**, não complementar, mediante **proposta do Tribunal de Justiça**, sem autorização do CNJ (`CF 125 §3º`).",
+        "E": "Não há vedação: a **lei estadual**, mediante proposta do Tribunal de Justiça, pode criar a Justiça Militar estadual (`CF 125 §3º`). A EC 133 tratou de partidos políticos."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#55",
@@ -1263,7 +1725,21 @@
       "observacoes": [
         "Dispositivo conferido: art. 3º correto."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Esse é o conceito amplo do Direito Penal (`CP 327`). Para o Estatuto paulista, funcionário público é apenas **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "B": "O Estatuto não exige carreira nem concurso para definir funcionário público: basta ser **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "C": "É a definição do Estatuto: funcionário público é **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "D": "Quem exerce cargo em entidade paraestatal é **equiparado** a funcionário público para fins penais (`CP 327 §1º`). Para o Estatuto, funcionário é **a pessoa legalmente investida em cargo público** (`L10261 3`).",
+        "E": "Quem trabalha em empresa contratada ou conveniada para atividade típica da Administração é **equiparado** a funcionário só para fins penais (`CP 327 §1º`). O Estatuto considera funcionário **a pessoa legalmente investida em cargo público** (`L10261 3`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#56",
@@ -1288,7 +1764,21 @@
       ],
       "exp": "`Lei 10.261/68, art. 13`: as nomeações serão feitas **em caráter vitalício** (nos casos previstos na Constituição), **em comissão** e **em caráter efetivo** (B), o que também afasta (E). Transferência, acesso, reversão, reintegração e aproveitamento são **outras formas de provimento** listadas no `art. 11`, ao lado da nomeação, e não formas de nomeação.",
       "recursos": 2,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Transferência, acesso e reversão são **formas de provimento** listadas ao lado da nomeação (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "B": "O Estatuto prevê nomeações em caráter **vitalício** (nos casos da Constituição), **em comissão** e em caráter **efetivo** (`L10261 13`).",
+        "C": "Reversão e reintegração são **outras formas de provimento** (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "D": "Aproveitamento e reintegração são **outras formas de provimento** (`L10261 11`), não modalidades de nomeação. A nomeação é feita em caráter **vitalício**, **em comissão** ou em caráter **efetivo** (`L10261 13`).",
+        "E": "O \"apenas\" exclui a nomeação em caráter **vitalício**, também prevista no Estatuto ao lado da nomeação em comissão e em caráter efetivo (`L10261 13`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#57",
@@ -1312,7 +1802,21 @@
       ],
       "exp": "`Lei 10.261/68, art. 14, p.ú.`: as provas serão avaliadas na escala de 0 a 100 pontos e **aos títulos serão atribuídos, no máximo, 50 pontos** (D). A proposta de 100 pontos para títulos viola essa limitação expressa; o próprio `art. 14` admite concurso **de provas e títulos** para cargo efetivo, o que afasta (A), (C) e (E).",
       "recursos": 1,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto admite expressamente concurso **de provas e títulos** para cargo efetivo (`L10261 14`); o que ele faz é limitar a pontuação dos títulos a **50 pontos** (`L10261 14 p.ú.`).",
+        "B": "A lei não fixa uma proporção entre as fases: fixa limites absolutos. As provas vão de 0 a 100 pontos e aos títulos se atribuem **no máximo 50 pontos** (`L10261 14 p.ú.`), o que impede os 100 pontos propostos.",
+        "C": "A análise de títulos não é exclusiva da magistratura: o Estatuto admite concurso **de provas e títulos** para cargos efetivos em geral (`L10261 14`), com títulos limitados a 50 pontos (`L10261 14 p.ú.`).",
+        "D": "As provas são avaliadas de 0 a 100 pontos e aos títulos se atribuem, **no máximo, 50 pontos** (`L10261 14 p.ú.`); a proposta de 100 pontos para títulos viola esse limite expresso.",
+        "E": "Há previsão legal: as provas são avaliadas de 0 a 100 pontos e aos títulos cabem, **no máximo, 50 pontos** (`L10261 14 p.ú.`). A banca não pode distribuir os pontos livremente."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#58",
@@ -1341,7 +1845,21 @@
       "observacoes": [
         "Dispositivo \"L10261 47\" estava correto; detalhado por inciso."
       ],
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O Estatuto exige apenas **ser brasileiro**, nato ou naturalizado (`L10261 47 I`); a naturalização de Roberto não o impede de tomar posse.",
+        "B": "A aprovação em concurso é requisito da **nomeação** (`L10261 14`), e não um dos requisitos da posse listados no `L10261 47`; além disso, não estudar antes não é obstáculo legal.",
+        "C": "Para a posse, basta ter **18 anos** completos (`L10261 47 II`); com 19 anos, Roberto atende a esse requisito.",
+        "D": "O Estatuto não exige ter votado nas últimas duas eleições. Roberto **justificou** a ausência, o que regulariza sua obrigação eleitoral (`L10261 47`).",
+        "E": "**Ter boa conduta** é requisito para a posse (`L10261 47 V`), e a pena restritiva de direitos ainda em cumprimento pode ser obstáculo a essa exigência."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#59",
@@ -1366,7 +1884,21 @@
       ],
       "exp": "`Lei 10.261/68, art. 120, §2º`: **é vedado dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e o `§3º` responsabiliza a autoridade que expedir a ordem (A). (B) o ponto é o registro pelo qual se verifica, **diariamente, a entrada e saída** do funcionário (`art. 120`); (D) o uso de meios mecânicos é apenas preferencial (`§1º`) e não é a única desconformidade. O Estatuto não fala em sandbox (C) nem em administração gerencial (E).",
       "recursos": 3,
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto **veda dispensar o funcionário do registro do ponto**, salvo os casos expressamente previstos em lei, e responsabiliza a autoridade que der a ordem (`L10261 120 §2º` e `§3º`). A boa intenção e os resultados não afastam a ilegalidade.",
+        "B": "O ponto é o registro pelo qual se verificam, **diariamente, a entrada e a saída** do funcionário (`L10261 120`), e não só a carga semanal; e é vedado dispensar o registro do ponto (`L10261 120 §2º`).",
+        "C": "O Estatuto não prevê nenhum **sandbox regulatório de gestão**. Ele **veda** dispensar o funcionário do registro do ponto, salvo os casos previstos em lei (`L10261 120 §2º`).",
+        "D": "O uso de meios mecânicos é apenas **preferencial** (`L10261 120 §1º`). A desconformidade central é a **dispensa do registro do ponto**, vedada pelo Estatuto (`L10261 120 §2º`).",
+        "E": "O Estatuto não menciona administração gerencial. Ao contrário, **veda** dispensar o funcionário do registro do ponto, salvo os casos previstos em lei (`L10261 120 §2º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#60",
@@ -1390,7 +1922,21 @@
         "L10261 242 VIII"
       ],
       "exp": "`Lei 10.261/68, art. 242, II`: é proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto existente na repartição**, e Abelardo levava documentos para casa sem conhecimento da chefia (D). (C) erra ao negar essa violação; (B) e (E) ignoram também a proibição de **empregar material do serviço público em serviço particular** (`art. 242, VIII`); (A) o Estatuto não traz a proibição de cursos nos termos descritos.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/lei-10261-28.10.1968.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto não traz proibição de cursos nesses termos. A violação expressa está em **retirar documentos da repartição sem prévia permissão** da autoridade competente (`L10261 242 II`).",
+        "B": "Abelardo viola a proibição de **retirar, sem prévia permissão, documentos da repartição** (`L10261 242 II`) e a de **empregar material do serviço público em serviço particular** (`L10261 242 VIII`).",
+        "C": "Levar documentos para casa sem conhecimento da chefia é justamente o que o Estatuto proíbe: **retirar, sem prévia permissão da autoridade competente, qualquer documento** da repartição (`L10261 242 II`).",
+        "D": "É proibido **retirar, sem prévia permissão da autoridade competente, qualquer documento ou objeto** da repartição (`L10261 242 II`), e Abelardo levava documentos para casa sem conhecimento da chefia.",
+        "E": "Ser estudante não dá esse direito: o Estatuto proíbe **empregar material do serviço público em serviço particular** (`L10261 242 VIII`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#61",
@@ -1413,7 +1959,21 @@
         "L8429 1 §2º"
       ],
       "exp": "Receber, **para si ou para outrem**, presente de quem tenha interesse que possa ser atingido por ação ou omissão do agente é **enriquecimento ilícito** (`Lei 8.429/92, art. 9º, I`). Desde a Lei 14.230/21, exige **dolo**: vontade livre e consciente (`art. 1º, §2º`). Compromisso implícito não afasta o dolo (D); improbidade independe do resultado do PAD (E).",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A questão pede a análise pela Lei 8.429/92, que trata de **improbidade**, não de crimes: receber presentes de quem tem interesse em ação do agente é ato de **enriquecimento ilícito** (`L8429 9 I`).",
+        "B": "A lei pune quem recebe a vantagem **para si ou para outrem** (`L8429 9 I`); receber os presentes para terceiros também configura enriquecimento ilícito.",
+        "C": "Receber presente de quem tem interesse que possa ser atingido pela ação do agente é **enriquecimento ilícito** (`L8429 9 I`), e desde a Lei 14.230/21 exige-se **dolo**, a vontade livre e consciente (`L8429 1 §2º`).",
+        "D": "Compromisso implícito não afasta o **dolo**: basta a vontade livre e consciente de alcançar o resultado ilícito (`L8429 1 §2º`), e o recebimento de presentes para favorecer é enriquecimento ilícito (`L8429 9 I`).",
+        "E": "As sanções de improbidade aplicam-se **independentemente** das sanções administrativas (`L8429 12`); não dependem do resultado do processo disciplinar."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#62",
@@ -1434,7 +1994,21 @@
       "dispositivos": [
         "L8429 13"
       ],
-      "exp": "`Lei 8.429/92, art. 13`: a **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal. Vale para qualquer agente público, de qualquer nível e Poder."
+      "exp": "`Lei 8.429/92, art. 13`: a **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal. Vale para qualquer agente público, de qualquer nível e Poder.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A exigência é **legal**: a posse e o exercício do agente público ficam condicionados à apresentação da declaração de imposto de renda, arquivada no serviço de pessoal (`L8429 13`).",
+        "B": "A **posse e o exercício** ficam condicionados à apresentação da **declaração de imposto de renda** entregue à Receita Federal, arquivada no serviço de pessoal (`L8429 13`).",
+        "C": "A regra vale para **qualquer agente público**, de qualquer Poder, inclusive o Judiciário (`L8429 13`); a separação de poderes não a afasta.",
+        "D": "A lei não distingue nível de escolaridade: a posse em **qualquer** cargo público depende da declaração de imposto de renda (`L8429 13`).",
+        "E": "Exige-se a declaração **que tenha sido apresentada à Receita Federal** (`L8429 13`); uma versão modificada para a posse não cumpre a exigência."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#63",
@@ -1456,7 +2030,21 @@
         "CC 25"
       ],
       "exp": "`CC 25`: o cônjuge é curador legítimo **se não separado judicialmente**; na falta, os pais e depois os descendentes. Josué estava separado e não tem pais nem descendentes: **compete ao juiz a escolha do curador** (`§3º`), parente ou não. Ser irmão não dá preferência legal.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O irmão não tem preferência legal. Na falta de cônjuge não separado, pais e descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "B": "O cônjuge só é curador legítimo **se não estiver separado judicialmente** (`CC 25`); Marisa, separada, perdeu essa posição.",
+        "C": "O Código não manda nomear parente até o 3º grau nem o mais velho. Sem cônjuge não separado, pais ou descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "D": "Não há ordem legal para colaterais até o 4º grau. Sem cônjuge não separado, pais ou descendentes, **compete ao juiz a escolha do curador** (`CC 25 §3º`).",
+        "E": "Josué está separado judicialmente e não tem pais nem descendentes; assim, **compete ao juiz a escolha do curador** (`CC 25 §3º`), parente ou não."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#64",
@@ -1478,7 +2066,21 @@
         "CC 76"
       ],
       "exp": "`CC 76, p.ú.`: o domicílio do **incapaz** é o do seu representante ou assistente. (A) marítimo: onde o navio estiver **matriculado**; (B) servidor: onde exerce **permanentemente** suas funções; (C) preso: onde **cumprir a sentença**; (E) militar da Aeronáutica: a **sede do comando** a que se encontrar imediatamente subordinado.",
-      "recursos": 50
+      "recursos": 50,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O domicílio do marítimo é onde o navio estiver **matriculado** (`CC 76 p.ú.`), não onde estiver ancorado.",
+        "B": "O domicílio do servidor público é o lugar em que exerce **permanentemente** suas funções (`CC 76 p.ú.`); funções transitórias não fixam domicílio necessário.",
+        "C": "O domicílio do preso é o lugar em que **cumprir a sentença** (`CC 76 p.ú.`), não onde ela transitou em julgado.",
+        "D": "Aos 17 anos, Vitória é incapaz, e o domicílio do **incapaz** é o do seu **representante ou assistente** (`CC 76 p.ú.`).",
+        "E": "O militar da Aeronáutica tem domicílio na **sede do comando a que se encontrar imediatamente subordinado** (`CC 76 p.ú.`); \"onde servir\" é a regra do militar do Exército."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#65",
@@ -1501,7 +2103,21 @@
         "CC 158"
       ],
       "exp": "Fraude contra credores em negócio **oneroso** (`CC 159`): anulável quando a insolvência for notória ou houver motivo para ser conhecida do outro contratante. Marina sabia: o banco pode pedir a **anulação**. (B) é anulável, não nulo; (C) fraude à execução é instituto processual diferente; (D) a notoriedade basta; (E) a fraude alcança negócios onerosos.",
-      "recursos": 39
+      "recursos": 39,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Em negócio **oneroso**, a fraude contra credores torna o contrato **anulável** quando a insolvência for notória ou o outro contratante tiver motivo para conhecê-la (`CC 159`); Marina sabia da situação.",
+        "B": "Fraude contra credores gera **anulabilidade**, não nulidade (`CC 171 II`); o banco pode pedir a anulação da venda (`CC 159`).",
+        "C": "O caso é de **fraude contra credores** (`CC 159`), defeito do negócio jurídico; fraude à execução é instituto processual distinto (`CPC 792`), que pressupõe processo em curso.",
+        "D": "O `CC 159` dispensa a prova do conhecimento efetivo: basta que a insolvência seja **notória** ou que haja **motivo para ser conhecida** do outro contratante.",
+        "E": "A fraude contra credores alcança também negócios **onerosos** (`CC 159`); a transmissão gratuita é apenas outra hipótese (`CC 158`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#66",
@@ -1523,7 +2139,21 @@
         "CC 214"
       ],
       "exp": "`CC 214`: a confissão é **irrevogável**, mas pode ser **anulada** se decorreu de **erro de fato** ou de coação.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A confissão existe; o que ocorre é um vício: confissão decorrente de **erro de fato** pode ser **anulada** (`CC 214`).",
+        "B": "A confissão é irrevogável, mas, decorrendo de **erro de fato**, pode ser **anulada** (`CC 214`); não é simplesmente válida.",
+        "C": "O erro de fato não gera nulidade: a confissão é **anulável** (`CC 214`).",
+        "D": "A confissão é **irrevogável**, mas pode ser **anulada** se decorreu de **erro de fato** ou de coação (`CC 214`).",
+        "E": "O Código trata a confissão viciada por **erro de fato** como **anulável** (`CC 214`), não como ineficaz."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#67",
@@ -1546,7 +2176,21 @@
         "CC 1170"
       ],
       "exp": "`CC 1.169`: o preposto não pode, **sem autorização escrita**, fazer-se substituir, sob pena de responder pessoalmente pelos atos do substituto e pelas obrigações por ele contraídas. `CC 1.170`: negociar por conta própria ou de terceiro exige **autorização expressa**.",
-      "recursos": 17
+      "recursos": 17,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As regras do Código Civil sobre prepostos (`CC 1169` e `CC 1170`) não exigem cargo de direção ou chefia; o gerente é apenas uma espécie de preposto (`CC 1172`).",
+        "B": "Para negociar por conta própria ou de terceiro, o preposto precisa de **autorização expressa** (`CC 1170`); autorização tácita não basta.",
+        "C": "O preposto não pode, **sem autorização escrita**, fazer-se substituir, sob pena de responder **pessoalmente** pelos atos do substituto e pelas obrigações por ele contraídas (`CC 1169`).",
+        "D": "A nomeação, por si só, não basta: negociar por conta própria ou de terceiro exige **autorização expressa** (`CC 1170`).",
+        "E": "A substituição exige **autorização escrita** (`CC 1169`); autorização verbal não basta."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#68",
@@ -1571,7 +2215,21 @@
         "CC 1447"
       ],
       "exp": "`CC 1.445`: no penhor pecuário, o devedor não pode alienar os animais **sem prévio consentimento, por escrito, do credor**. (A) penhor recai sobre coisa **móvel** (`CC 1.431`); (C) no penhor mercantil as coisas ficam em poder do **devedor** (`CC 1.431, p.ú.`); (D) o registro pode ser feito por **qualquer dos contratantes** (`CC 1.432`); (E) máquinas podem ser empenhadas **com ou sem** os acessórios (`CC 1.447`).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O penhor recai sobre coisa **móvel** (`CC 1431`), não sobre imóvel.",
+        "B": "No penhor pecuário, o devedor não pode alienar os animais **sem prévio consentimento, por escrito, do credor** (`CC 1445`).",
+        "C": "No penhor mercantil, as coisas empenhadas continuam em poder do **devedor** (`CC 1431 p.ú.`).",
+        "D": "O registro do instrumento pode ser feito por **qualquer dos contratantes** (`CC 1432`), não só pelo devedor.",
+        "E": "Máquinas, aparelhos, materiais e instrumentos instalados e em funcionamento podem ser empenhados **com ou sem** os acessórios (`CC 1447`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#69",
@@ -1593,7 +2251,21 @@
         "CC 1728 I"
       ],
       "exp": "`CC 1.728, I`: os filhos menores são postos em tutela com o falecimento dos pais ou **sendo estes julgados ausentes**. Os demais casos são de **curatela** (adultos) ou nem isso: deficiência, por si só, não afeta a capacidade civil.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Tutela é para **filhos menores** (`CC 1728`). Pessoa que não pode exprimir sua vontade fica sujeita a **curatela** (`CC 1767 I`).",
+        "B": "Tutela é para **filhos menores** (`CC 1728`). O pródigo fica sujeito a **curatela** (`CC 1767 V`).",
+        "C": "Tutela é para **filhos menores** (`CC 1728`). O ébrio habitual fica sujeito a **curatela** (`CC 1767 III`).",
+        "D": "Tutela é para **filhos menores** (`CC 1728`), e a deficiência, por si só, não afeta a capacidade civil (`L13146 6`).",
+        "E": "Os filhos menores são postos em tutela com o falecimento dos pais ou **sendo estes julgados ausentes** (`CC 1728 I`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#70",
@@ -1615,7 +2287,21 @@
         "CC 1997"
       ],
       "exp": "`CC 1.997, §2º`: reservados bens pelo juiz, o credor deve iniciar a ação de cobrança em **30 dias**, sob pena de a providência ficar sem efeito. (C) a reserva se dá quando **houver impugnação** não fundada em pagamento (`§1º`); (A) e (B) antes da partilha responde **a herança**, e não os herdeiros (`caput`).",
-      "recursos": 9
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Antes da partilha, quem responde pelas dívidas do falecido é **a herança** (`CC 1997`); o credor não precisa aguardar a partilha para cobrar.",
+        "B": "Antes da partilha responde **a herança** (`CC 1997`); só depois dela cada herdeiro responde na proporção da parte que lhe coube.",
+        "C": "A reserva de bens ocorre quando **houver impugnação** que não se funde em pagamento (`CC 1997 §1º`), e não quando o pedido não é impugnado.",
+        "D": "Havendo impugnação não fundada em pagamento, **o juiz** manda reservar bens suficientes em poder do inventariante (`CC 1997 §1º`); não fica a critério do inventariante.",
+        "E": "Reservados bens pelo juiz, o credor deve iniciar a ação de cobrança em **30 dias**, sob pena de a providência ficar sem efeito (`CC 1997 §2º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#71",
@@ -1642,7 +2328,21 @@
         "L6830 13"
       ],
       "exp": "(A) reproduz o `art. 2º, §8º`. (B) o arresto é para o executado que **não tem domicílio ou dele se oculta** (`art. 7º, III`); (C) a avaliação é feita **pelo próprio oficial** no termo ou auto de penhora (`art. 13`); (D) o prazo é de **5 dias** (`art. 8º`); (E) plantações e edifícios em construção podem ser penhorados excepcionalmente (`art. 11, §1º`).",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Certidão da Dívida Ativa pode ser **emendada ou substituída até a decisão de primeira instância**, assegurada ao executado a devolução do prazo para embargos (`L6830 2 §8º`).",
+        "B": "O arresto é para o executado que **não tiver domicílio ou dele se ocultar** (`L6830 7`), não para quem se recusa a pagar.",
+        "C": "A avaliação é feita **pelo próprio oficial de justiça**, no termo ou auto de penhora (`L6830 13`); não se devolve o mandado para nomear perito.",
+        "D": "O prazo para pagar ou garantir a execução é de **5 dias** (`L6830 8`), não de 10.",
+        "E": "Plantações e edifícios em construção podem ser penhorados **excepcionalmente** (`L6830 11 §1º`); não há a vedação afirmada."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#72",
@@ -1673,7 +2373,21 @@
       "observacoes": [
         "O CNJ-R354 10 §2º só excetua a ocultação; a menção a 'local incerto e não sabido' na alternativa E não está no texto da Resolução."
       ],
-      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579"
+      "conferido_em": "https://atos.cnj.jus.br/atos/detalhar/3579",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Quem requer a citação ou intimação deve fornecer, além da qualificação, os dados para **comunicação eletrônica por aplicativos de mensagens, redes sociais e e-mail**, salvo impossibilidade (`CNJ-R354 9 p.ú.`).",
+        "B": "Nesses casos, o ato **poderá** ser cumprido por meio eletrônico (`CNJ-R354 8`); não há vedação.",
+        "C": "O cumprimento eletrônico cabe **à secretaria do juízo ou aos oficiais de justiça** (`CNJ-R354 10 §1º`), sem exigir concordância das partes nem reservar aos oficiais os atos destinados a menores.",
+        "D": "Os endereços eletrônicos são informados **na primeira intervenção nos autos** e mantidos atualizados durante todo o processo (`CNJ-R354 9`); não há prazo de 10 dias da distribuição.",
+        "E": "A vedação às mensagens públicas tem exceção: **salvo ocultação** (`CNJ-R354 10 §2º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#73",
@@ -1696,7 +2410,21 @@
         "L11608 5 p.ú."
       ],
       "exp": "`Lei 11.608/03, art. 5º, III`: na **declaratória incidental**, o recolhimento da taxa judiciária é **diferido** para depois da satisfação da execução quando comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (C). O `p.ú.` aplica a regra a **pessoas físicas e jurídicas**, o que afasta (A); (B) erra quanto ao tipo de ação, (E) dispensa a comprovação exigida e (D) cria requisito inexistente.",
-      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html"
+      "conferido_em": "https://www.al.sp.gov.br/repositorio/legislacao/lei/2003/lei-11608-29.12.2003.html",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O diferimento aplica-se a **pessoas físicas e jurídicas** (`L11608 5 p.ú.`); a empresa pode obtê-lo se comprovar a impossibilidade financeira.",
+        "B": "A **ação declaratória incidental** está entre as hipóteses de diferimento da taxa judiciária para depois da satisfação da execução (`L11608 5 III`).",
+        "C": "Na **declaratória incidental**, a taxa é **diferida** para depois da satisfação da execução se comprovada, por meio idôneo, a momentânea impossibilidade financeira, **ainda que parcial** (`L11608 5 III`), regra que vale para pessoas jurídicas (`L11608 5 p.ú.`).",
+        "D": "A lei não impõe carência de cinco anos. Basta comprovar, por meio idôneo, a **momentânea impossibilidade financeira** (`L11608 5 III`).",
+        "E": "O diferimento depende de **comprovação, por meio idôneo**, da momentânea impossibilidade financeira (`L11608 5 III`); não basta o critério do juiz."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#74",
@@ -1724,7 +2452,21 @@
       "observacoes": [
         "Art. 196 XX está no Cap. IV (ofícios cíveis, atos ordinatórios) e é o que o edital 2026 cita ('196, XX'); o art. 1.024 §§2º-3º (Cap. VII, Prov. CG 27/2023) tem regra equivalente (antes estava no art. 1.079, revogado). Redação igual em 12/2024 e em 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O oficial não arromba diretamente nem aciona a polícia: apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **serve de requisição da força policial** (`NSCGJ 196 XX`).",
+        "B": "Constatada a necessidade, o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, **servirá de requisição da força policial**, com cópia entranhada aos autos (`NSCGJ 196 XX`; `NSCGJ 1024 §2º` e `§3º`).",
+        "C": "O requerimento padronizado é apresentado **independentemente da devolução do mandado** (`NSCGJ 196 XX`); a devolução não é obrigatória.",
+        "D": "As Normas exigem **requerimento em modelo padronizado**, que, se deferido, serve de requisição da força policial (`NSCGJ 196 XX`).",
+        "E": "Não é preciso devolver o mandado, e o reforço não é pedido diretamente à polícia: o oficial apresenta ao juízo **requerimento em modelo padronizado**, que, se deferido, serve de requisição (`NSCGJ 196 XX`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#75",
@@ -1750,7 +2492,21 @@
       "observacoes": [
         "Art. 310 está no Cap. IV, Seção VI (Varas das Execuções Fiscais da Fazenda Pública da Capital), não no Cap. VII; §4º do Prov. CGJ 11/2002, sem alteração até 22/10/2026."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os mandados urgentes são justamente **ressalvados** do sistema de carga única, que é **mensal** (`NSCGJ 310 §4º`).",
+        "B": "A carga única é **mensal**, não quinzenal (`NSCGJ 310 §4º`).",
+        "C": "As Normas não vedam a carga única: **ressalvados os mandados urgentes**, ela pode ser adotada mensalmente, com autorização e controle do Juiz Corregedor Permanente (`NSCGJ 310 §4º`).",
+        "D": "**Ressalvados os mandados urgentes**, em razão do volume do expediente e com autorização e controle do **Juiz Corregedor Permanente**, pode-se adotar a carga única **mensalmente** (`NSCGJ 310 §4º`).",
+        "E": "A carga única **exclui os mandados urgentes** (`NSCGJ 310 §4º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#76",
@@ -1777,7 +2533,21 @@
       "observacoes": [
         "Art. 315 está no Cap. IV, Seção VI (Execuções Fiscais da Capital); redação sem alteração até 22/10/2026. No Cap. VII, o art. 1.016 trata do aditamento em geral (só enquanto o mandado está com o oficial)."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Expedido novo mandado, é **a parte** quem fornece as peças necessárias (`NSCGJ 315 §2º`), não o cartório.",
+        "B": "A dispensa do desentranhamento e aditamento depende do **critério do juiz** (`NSCGJ 315 §2º`); não há dispensa da apreciação judicial.",
+        "C": "A norma não condiciona o pedido à impossibilidade de novo mandado nem trata de custas: o aditamento **pode ser dispensado, a critério do juiz**, expedindo-se novo mandado (`NSCGJ 315 §2º`).",
+        "D": "A escolha é do **juiz**, não do escrivão: o desentranhamento e aditamento pode ser dispensado **a critério do juiz** (`NSCGJ 315 §2º`).",
+        "E": "O desentranhamento e aditamento **poderá ser dispensado, a critério do juiz**, expedindo-se **novo mandado**, com as peças fornecidas **pela parte** (`NSCGJ 315 §2º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#77",
@@ -1808,7 +2578,21 @@
       "observacoes": [
         "Arts. 439 e 440 estão no Cap. IV, Seção XIV (intimações, ofícios criminais). O caput do art. 439 foi alterado pelo Prov. CG 33/2024 (ressalva do cumprimento remoto, art. 1.029); os §§1º a 4º e o art. 440 (Prov. CGJ 32/2000) não mudaram."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Comparecendo o réu ou apenado à audiência, as intimações dos atos nela praticados são feitas **na própria audiência** (`NSCGJ 439 §4º`).",
+        "B": "Presos em estabelecimentos fora da comarca são intimados por **carta precatória**, não rogatória (`NSCGJ 439 §3º`).",
+        "C": "Quando vítimas ou testemunhas derem conta de **coação ou grave ameaça**, os mandados de intimação, após deferimento do juiz, são elaborados **em separado, individualizados** (`NSCGJ 440`).",
+        "D": "O impresso com termo de recurso e de renúncia é levado ao réu **preso** (`NSCGJ 439 §1º`), não ao réu solto.",
+        "E": "Se o réu não souber escrever, colhe-se a impressão digital e assina a rogo terceira pessoa, com **duas testemunhas** (`NSCGJ 439 §2º`); a regra não põe o oficial de justiça como testemunha."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#78",
@@ -1842,7 +2626,21 @@
       "observacoes": [
         "Arts. 997-999 (Cap. VII) na redação do Prov. CG 27/2023, vigente na prova (15/12/2024); só o art. 997 IX foi alterado depois (Prov. CG 36/2024), sem reflexo na questão."
       ],
-      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)"
+      "conferido_em": "NSCGJ Tomo I, portal TJSP (tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais): 'Texto atualizado até 22/10/2026' (api.tjsp.jus.br/Handlers/Handler/FileFetch.ashx?codigo=203718) e versão 'contendo a íntegra do dispositivo anterior' (codigo=203719)",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O oficial não recebe mandados nos **15 dias** anteriores às férias, não 5, e entra em férias sem mandados, **vedada a baixa** para redistribuição (`NSCGJ 999 §1º` e `§2º`).",
+        "B": "Cancelados férias ou afastamento, o oficial deve cumprir **dias adicionais de plantão** equivalentes aos dias em que ficou sem distribuição (`NSCGJ 999 §5º`).",
+        "C": "As Normas **vedam** o rodízio no controle de acesso à sala de audiências (`NSCGJ 998 §5º`).",
+        "D": "O plantão regular destina-se ao cumprimento de **medidas urgentes** (`NSCGJ 998 I`), não de medidas ordinárias.",
+        "E": "O oficial **pode recusar** o repasse do número do celular, caso em que deve comparecer diariamente ao Fórum (`NSCGJ 997 §4º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#79",
@@ -1862,7 +2660,21 @@
       ],
       "dispositivos": [],
       "exp": "Segundo a reportagem, entre junho de 2023 e junho de 2024 o PIB brasileiro cresceu 2,5% e só ficou atrás de Índia, Indonésia, China, Rússia e Estados Unidos, **empatando com a Turquia**, que também cresceu 2,5% no período. França, Canadá, Reino Unido e Alemanha tiveram crescimento bem menor no mesmo intervalo (a Alemanha chegou a ficar perto de zero).",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Segundo a reportagem, entre junho de 2023 e junho de 2024 o Brasil cresceu 2,5% e só ficou atrás de Índia, Indonésia, China, Rússia e Estados Unidos. O crescimento da **França** foi bem menor que o brasileiro, então não houve empate.",
+        "B": "O crescimento do **Canadá** no período foi bem menor que os 2,5% do Brasil, segundo a reportagem; o Brasil não se igualou a ele, apenas o superou.",
+        "C": "O crescimento do **Reino Unido** no período ficou bem abaixo dos 2,5% do Brasil, segundo a reportagem, de modo que não há igualdade de índices.",
+        "D": "A reportagem aponta que, entre junho de 2023 e junho de 2024, o Brasil cresceu 2,5% e ficou atrás apenas de Índia, Indonésia, China, Rússia e Estados Unidos, **empatando com a Turquia**, que também cresceu 2,5%.",
+        "E": "A **Alemanha** teve crescimento bem menor que o do Brasil no período, chegando a ficar perto de zero, segundo a reportagem; portanto não se igualou aos 2,5% brasileiros."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#80",
@@ -1881,7 +2693,21 @@
         "atualidades.2024"
       ],
       "dispositivos": [],
-      "exp": "**Alemanha e Espanha** são os principais defensores europeus do acordo UE-Mercosul, interessados em ampliar a exportação de bens industriais (máquinas, automóveis, fármacos). As demais duplas não correspondem aos apoiadores apontados pela imprensa na época; Polônia, Áustria, Irlanda, Bélgica e Holanda, ao contrário, figuraram entre os países com resistências ao tratado, ao lado da França."
+      "exp": "**Alemanha e Espanha** são os principais defensores europeus do acordo UE-Mercosul, interessados em ampliar a exportação de bens industriais (máquinas, automóveis, fármacos). As demais duplas não correspondem aos apoiadores apontados pela imprensa na época; Polônia, Áustria, Irlanda, Bélgica e Holanda, ao contrário, figuraram entre os países com resistências ao tratado, ao lado da França.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Alemanha e Espanha** são os principais defensores europeus do acordo UE-Mercosul, interessados em ampliar a exportação de bens industriais, como máquinas, automóveis e fármacos.",
+        "B": "A **Polônia** figurou entre os países com resistências ao tratado, ao lado da França; por isso a dupla não reúne apenas apoiadores do acordo.",
+        "C": "A **Irlanda** figurou entre os países com resistências ao tratado, ao lado da França; a dupla não corresponde aos apoiadores apontados pela imprensa na época.",
+        "D": "**Holanda e Bélgica** figuraram entre os países com resistências ao tratado, ao lado da França, e não entre os que se manifestavam favoravelmente.",
+        "E": "A **Áustria** figurou entre os países com resistências ao tratado, ao lado da França; a dupla não corresponde aos apoiadores apontados pela imprensa na época."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#81",
@@ -1912,7 +2738,21 @@
       "observacoes": [
         "Os dois dispositivos de 2023 estão no próprio Estatuto: art. 2º §3º (telemedicina ou análise documental), acrescido pela Lei 14.724, de 14/11/2023; art. 2º-A (cordão de girassóis), acrescido pela Lei 14.624, de 17/7/2023, que só alterou a Lei 13.146. Não é preciso sigla nova."
       ],
-      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf"
+      "conferido_em": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.pdf",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A avaliação biopsicossocial não considera **exclusivamente** esses dois fatores: também os impedimentos nas funções e estruturas do corpo e os fatores socioambientais, psicológicos e pessoais (`L13146 2 §1º`).",
+        "B": "O impedimento de natureza **sensorial** está expressamente incluído no conceito de pessoa com deficiência, ao lado do físico, mental e intelectual (`L13146 2`).",
+        "C": "O exame médico-pericial **pode** ser feito com uso de **telemedicina** (`L13146 2 §3º`, incluído pela Lei 14.724/2023); não se exige forma presencial.",
+        "D": "O uso do cordão de fita com desenhos de girassóis é **opcional**, e sua ausência não prejudica o exercício de direitos e garantias (`L13146 2-A §1º`, incluído pela Lei 14.624/2023).",
+        "E": "O Estatuto considera **especialmente vulneráveis** a criança, **o adolescente**, a mulher e o idoso com deficiência (`L13146 5 p.ú.`); Alice, adolescente com deficiência, entra nessa proteção."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#82",
@@ -1938,7 +2778,21 @@
         "L13146 85 §1º",
         "L13146 85 §2º"
       ],
-      "exp": "A curatela é **medida protetiva extraordinária**, proporcional às necessidades do caso e **deve durar o menor tempo possível** (**`art. 84, §3º`**); afeta só atos de natureza **patrimonial e negocial** (**`art. 85`**) e **não alcança** o direito ao próprio corpo, à sexualidade, ao matrimônio, **à privacidade**, à educação, à saúde, ao trabalho e ao voto, **não sendo exigida para a emissão de documentos oficiais** (**`art. 85, §1º`**). (A) inventa prazo (15 de abril) e crime; o **`art. 84, §4º`** só manda prestar contas anualmente. (B) erra ao dizer que a curatela é por tempo indeterminado e alcança a privacidade. (D) erra porque prestar contas não impede a curatelada de buscar a revisão ou o fim da medida, e o balanço é anual. (E) erra ao incluir saúde e educação, que a curatela não alcança."
+      "exp": "A curatela é **medida protetiva extraordinária**, proporcional às necessidades do caso e **deve durar o menor tempo possível** (**`art. 84, §3º`**); afeta só atos de natureza **patrimonial e negocial** (**`art. 85`**) e **não alcança** o direito ao próprio corpo, à sexualidade, ao matrimônio, **à privacidade**, à educação, à saúde, ao trabalho e ao voto, **não sendo exigida para a emissão de documentos oficiais** (**`art. 85, §1º`**). (A) inventa prazo (15 de abril) e crime; o **`art. 84, §4º`** só manda prestar contas anualmente. (B) erra ao dizer que a curatela é por tempo indeterminado e alcança a privacidade. (D) erra porque prestar contas não impede a curatelada de buscar a revisão ou o fim da medida, e o balanço é anual. (E) erra ao incluir saúde e educação, que a curatela não alcança.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Estatuto só obriga o curador a prestar contas **anualmente**, com o balanço do respectivo ano (`L13146 84 §4º`); não fixa o dia 15 de abril nem prevê crime por isso.",
+        "B": "A curatela deve durar **o menor tempo possível** (`L13146 84 §3º`), e **não alcança** o direito à **privacidade** (`L13146 85 §1º`).",
+        "C": "A curatela é **medida extraordinária** e deve durar o menor tempo possível (`L13146 84 §3º`); não alcança o direito à **privacidade** e **não é exigida para emitir documentos oficiais** (`L13146 85 §1º`).",
+        "D": "Prestar contas não impede a curatelada de buscar a revisão ou o fim da medida, e o balanço deve ser **anual**, não a cada dois anos (`L13146 84 §4º`).",
+        "E": "A curatela afeta só atos de natureza **patrimonial e negocial** (`L13146 85`) e **não alcança** o direito à saúde nem à educação (`L13146 85 §1º`)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#83",
@@ -1958,7 +2812,21 @@
         "matematica.sistemas"
       ],
       "dispositivos": [],
-      "exp": "Sendo A + B = 35.000 e 0,07A + 0,08B = 2.580: 0,07 × 35.000 = 2.450, então 0,01B = 2.580 − 2.450 = 130, logo B = 13.000 (menor parte) e A = 22.000. Com a aplicação C no lugar de B: 0,07 × 22.000 = 1.540, e o rendimento de C foi 2.801 − 1.540 = 1.261. Taxa de C = 1.261 ÷ 13.000 = 0,097 = **9,7%** (A). As demais taxas não fecham o total de R$ 2.801,00."
+      "exp": "Sendo A + B = 35.000 e 0,07A + 0,08B = 2.580: 0,07 × 35.000 = 2.450, então 0,01B = 2.580 − 2.450 = 130, logo B = 13.000 (menor parte) e A = 22.000. Com a aplicação C no lugar de B: 0,07 × 22.000 = 1.540, e o rendimento de C foi 2.801 − 1.540 = 1.261. Taxa de C = 1.261 ÷ 13.000 = 0,097 = **9,7%** (A). As demais taxas não fecham o total de R$ 2.801,00.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "De A + B = 35.000 e 0,07A + 0,08B = 2.580: 2.450 + 0,01B = 2.580, logo B = 13.000 e A = 22.000. Com C no lugar de B: 2.801 − 0,07 × 22.000 = 2.801 − 1.540 = 1.261; 1.261 ÷ 13.000 = 0,097 = **9,7%**.",
+        "B": "A menor parte é B = 13.000 (0,01B = 2.580 − 2.450). Com 10,1%, C renderia 0,101 × 13.000 = 1.313, e o total seria 1.540 + 1.313 = 2.853, não 2.801. O correto é 1.261 ÷ 13.000 = **9,7%**.",
+        "C": "A menor parte é 13.000 e a maior, 22.000 (rende 1.540). Com 10,3%, C renderia 1.339 e o total seria 2.879, não 2.801. Como 2.801 − 1.540 = 1.261, a taxa é 1.261 ÷ 13.000 = **9,7%**.",
+        "D": "A menor parte é 13.000 e a maior, 22.000 (rende 1.540). Com 9,9%, C renderia 1.287 e o total seria 2.827, não 2.801. A conta correta é 1.261 ÷ 13.000 = **9,7%**.",
+        "E": "A menor parte é 13.000 e a maior, 22.000 (rende 1.540). Com 9,5%, C renderia 1.235 e o total seria 2.775, não 2.801. Como C rendeu 2.801 − 1.540 = 1.261, a taxa é 1.261 ÷ 13.000 = **9,7%**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#84",
@@ -2007,7 +2875,21 @@
       ],
       "dispositivos": [],
       "exp": "Seja x a nota da 2ª fase. Ponderada: (45 + 2x)/3; simples: (45 + x)/2. Condição: (45 + 2x)/3 − (45 + x)/2 = 3 → 2(45 + 2x) − 3(45 + x) = 18 → 90 + 4x − 135 − 3x = 18 → **x = 63**, que está entre **60,9 e 64,8** (D). Conferindo: ponderada = 171/3 = 57 e simples = 108/2 = 54, diferença de 3 pontos.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com x a nota da 2ª fase, a ponderada é (45 + 2x)/3 e a simples, (45 + x)/2; a diferença é (x − 45)/6 = 3, logo **x = 63**. Uma nota entre 52,9 e 56,8 daria diferença de apenas 1,3 a 2,0 ponto, não 3.",
+        "B": "Com x a nota da 2ª fase, a diferença entre ponderada e simples é (45 + 2x)/3 − (45 + x)/2 = (x − 45)/6 = 3, logo **x = 63**. Uma nota entre 64,9 e 68,8 daria diferença de 3,3 a 4,0 pontos, não 3.",
+        "C": "Com x a nota da 2ª fase, a diferença entre ponderada e simples é (x − 45)/6 = 3, logo **x = 63**. Uma nota entre 56,9 e 60,8 daria diferença de cerca de 2,0 a 2,6 pontos, não 3.",
+        "D": "A diferença (45 + 2x)/3 − (45 + x)/2 = (x − 45)/6 = 3 dá **x = 63**. Conferindo: ponderada = 171/3 = 57 e simples = 108/2 = 54, diferença de 3 pontos; 63 está entre 60,9 e 64,8.",
+        "E": "Com x a nota da 2ª fase, a diferença entre ponderada e simples é (x − 45)/6 = 3, logo **x = 63**. Uma nota entre 68,9 e 72,8 daria diferença de cerca de 4,0 a 4,6 pontos, não 3."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#86",
@@ -2056,7 +2938,21 @@
       ],
       "dispositivos": [],
       "exp": "Com p = trabalho, q = estudo, r = feliz e s = realizado, a frase é (p ∨ q) → (r ∧ s), equivalente a ¬(p ∨ q) ∨ (r ∧ s) = (r ∧ s) ∨ (¬p ∧ ¬q): \"Estou realizado e feliz **ou** não estudo e não trabalho\" (B). (A) é uma conjunção, não equivalência. (C) é a recíproca. (D) e (E) tentam a contrapositiva, mas ela seria ¬(r ∧ s) → ¬(p ∨ q), isto é, \"se não estou feliz **ou** não estou realizado, então não trabalho **e** não estudo\"; (D) troca o \"e\" do consequente por \"ou\" e (E) erra o antecedente e o consequente.",
-      "recursos": 5
+      "recursos": 5,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A frase original é (p ∨ q) → (r ∧ s). A afirmação dada, ¬p ∧ ¬q ∧ ¬(r ∧ s), é uma **conjunção**: se não trabalho, não estudo, mas estou feliz e realizado, a original é verdadeira e esta é falsa.",
+        "B": "(p ∨ q) → (r ∧ s) equivale a ¬(p ∨ q) ∨ (r ∧ s), isto é, (r ∧ s) ∨ (¬p ∧ ¬q): estar realizado e feliz **ou** não estudar e não trabalhar.",
+        "C": "Trocar antecedente e consequente dá a **recíproca**, (r ∧ s) → (p ∨ q), que não é equivalente: se estou feliz e realizado sem trabalhar nem estudar, a original é verdadeira e esta é falsa.",
+        "D": "A contrapositiva correta seria ¬(r ∧ s) → ¬(p ∨ q), ou seja, \"não trabalho **e** não estudo\" no consequente. Com ¬p ∨ ¬q ele fica mais fraco: trabalho, não estudo e não estou feliz torna a original falsa e esta verdadeira.",
+        "E": "O antecedente correto da contrapositiva seria ¬(r ∧ s) = ¬r ∨ ¬s, não ¬r ∧ ¬s, e o consequente seria ¬p ∧ ¬q. Com trabalho, não estudo, feliz e não realizado, a original é falsa e esta é verdadeira (antecedente falso)."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#88",
@@ -2077,7 +2973,21 @@
       ],
       "dispositivos": [],
       "exp": "\"Ou... ou\" é a disjunção exclusiva (p ⊻ q), cuja negação é a bicondicional (p ↔ q). Negar \"existe x tal que P(x)\" dá \"todo x é tal que não P(x)\": \"Todo Fulano trabalha para Cicrano **se, e somente se**, trabalha para Beltrano\" (C). (A) e (D) mantêm o \"existe\". (B) muda o conteúdo sem negar o \"ou exclusivo\". (E) diz ¬p ↔ q, que equivale ao próprio ou exclusivo, não à sua negação.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A negação de \"existe x tal que P(x)\" é \"**todo** x é tal que não P(x)\"; manter o \"existe\" não nega a frase. Se todo Fulano trabalha para os dois, a original é falsa (a negação correta é verdadeira), mas esta também é falsa.",
+        "B": "Negar o \"ou... ou\" (p ⊻ q) dá a bicondicional p ↔ q. \"Ou não p ou não q\" não é isso: se todo Fulano trabalha para os dois, a original é falsa e a negação correta é verdadeira, mas esta frase é falsa para todos eles.",
+        "C": "\"Ou... ou\" é a disjunção exclusiva (p ⊻ q), cuja negação é a bicondicional p ↔ q. Negar \"existe\" dá \"**todo**\": todo Fulano trabalha para Cicrano se, e somente se, trabalha para Beltrano.",
+        "D": "A negação de \"existe\" exige o quantificador **todo**, e p → q não é a negação de p ⊻ q. Com um Fulano que trabalha só para Cicrano e outro que trabalha para os dois, a original e esta frase são ambas verdadeiras, o que uma negação não pode ser.",
+        "E": "¬p ↔ q equivale a p ⊻ q, o próprio \"ou... ou\", não à sua negação (que é p ↔ q). Se nenhum Fulano trabalha para ninguém, a original é falsa e a negação correta é verdadeira, mas esta frase é falsa."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#89",
@@ -2098,7 +3008,21 @@
       ],
       "dispositivos": [],
       "exp": "III dá \"Oliveira é juiz\" verdadeiro. Em II, a disjunção exclusiva (\"ou... ou\") exige que só uma parte seja verdadeira, então \"Silva é oficial de justiça\" é falso: **Silva não é oficial de justiça** (E), e (C) é falsa. Em I, com o consequente (\"Silva não é oficial\") verdadeiro, a condicional é verdadeira qualquer que seja o antecedente; logo nada se conclui sobre Pereira ou Santos, e (A), (B) e (D) não são conclusões necessárias.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Em II, \"ou... ou\" com III verdadeira (Oliveira é juiz) torna falso que Silva seja oficial; então o consequente de I é verdadeiro e a condicional vale **qualquer que seja o antecedente**. Nada se conclui sobre Pereira.",
+        "B": "De II e III só se obtém que Silva não é oficial. Com o consequente de I verdadeiro, a condicional é verdadeira tanto se o antecedente for verdadeiro quanto falso, então **não se pode concluir** que Pereira não seja oficial.",
+        "C": "Oliveira é juiz (III) e II é um \"ou... ou\", que exige exatamente uma parte verdadeira; logo \"Silva é oficial de justiça\" é **falso**, e a conclusão contraria as hipóteses.",
+        "D": "A hipótese I é uma condicional cujo consequente (Silva não é oficial) já é verdadeiro, logo ela é verdadeira **independentemente** de Santos ser ou não oficial. Nada obriga essa conclusão.",
+        "E": "Por III, Oliveira é juiz; em II, o \"ou... ou\" exige que só uma parte seja verdadeira, então \"Silva é oficial de justiça\" é falso: **Silva não é oficial de justiça**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#90",
@@ -2119,7 +3043,21 @@
       ],
       "dispositivos": [],
       "exp": "Regiões do diagrama: três empresas = x/9; só duas = 6 + 13 + 12 = 31; só A = x/6; só B = 5x/24; só C = x/12 (metade de x/6). Somando: x/9 + x/6 + 5x/24 + x/12 + 31 = x. Com MMC 72: (8 + 12 + 15 + 6)x/72 = 41x/72, logo 31 = 31x/72 → **x = 72**. Na empresa C: só C (6) + B e C (13) + A e C (12) + as três (8) = **39** (D).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os valores se fecham com x = 72: três empresas = 8, só A = 12, só B = 15, só C = 6, só duas = 31. Na empresa C estão 6 + 13 + 12 + 8 = **39**, não 43; o 43 não corresponde a nenhuma soma de regiões do diagrama.",
+        "B": "Com x = 72, quem trabalha na empresa B soma 15 + 6 + 13 + 8 = 42: esse é o total da empresa **B**. O pedido é a empresa C: 6 + 13 + 12 + 8 = **39**.",
+        "C": "Com x = 72, quem trabalha na empresa A soma 12 + 6 + 12 + 8 = 38: esse é o total da empresa **A**. Na empresa C o total é 6 + 13 + 12 + 8 = **39**.",
+        "D": "Somando as regiões: x/9 + x/6 + 5x/24 + x/12 + 31 = x, ou seja, 41x/72 + 31 = x, logo **x = 72**. Na empresa C: só C (6) + B e C (13) + A e C (12) + as três (8) = 39.",
+        "E": "Com x = 72, o total de pessoas do grupo é 72, e a empresa C reúne só 6 + 13 + 12 + 8 = **39**. O valor 53 não corresponde a nenhuma soma de regiões do diagrama."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#91",
@@ -2140,7 +3078,21 @@
       ],
       "dispositivos": [],
       "exp": "Com p = \"A é município de B\" e q = \"C é município de D\": p → q é V e p ∧ q é F. Se p fosse V, a condicional obrigaria q a ser V, e p ∧ q seria V, o que contradiz o enunciado; logo p é F: **A não é município do estado B** (A). Com p falso, a condicional é verdadeira para qualquer q, então (B) e (C) não são necessárias; (E) contradiz o resultado e (D) trata de proposição que não aparece nas premissas.",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Com p = \"A é município de B\" e q = \"C é município de D\": p → q é V e p ∧ q é F. Se p fosse V, q teria de ser V e p ∧ q seria V, absurdo; logo p é F: **A não é município do estado B**.",
+        "B": "Com p falso, a condicional p → q é verdadeira **qualquer que seja q**, e p ∧ q é falsa de qualquer modo. Assim q pode ser verdadeiro, e não se pode afirmar que C não é município de D.",
+        "C": "Com p falso (já deduzido), p → q é verdadeira **qualquer que seja q**, e p ∧ q é falsa de qualquer modo. Logo q pode ser falso, e não é necessário que C seja município de D.",
+        "D": "As premissas tratam apenas de p (A em B) e q (C em D). A afirmação \"A é município do estado D\" é outra proposição, **não determinada** por elas, e portanto não é necessariamente verdadeira.",
+        "E": "Se p (A é município de B) fosse verdadeiro, a condicional exigiria q verdadeiro e p ∧ q seria verdadeira, contrariando a premissa de que é falsa. Logo p é **falso**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#92",
@@ -2160,7 +3112,21 @@
       ],
       "dispositivos": [],
       "exp": "Os termos são produtos de dois números consecutivos: 2 = 1×2, 12 = 3×4, 30 = 5×6, 56 = 7×8, 90 = 9×10, 132 = 11×12; o n-ésimo termo é (2n − 1)·2n. Para n = 99: 197 × 198 = **39 006** (A). Alternativamente, as diferenças 10, 18, 26, 34, 42 crescem de 8 em 8, o que confirma a fórmula quadrática 4n² − 2n: 4·9801 − 198 = 39 006.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Cada termo é o produto de dois números consecutivos: 1×2, 3×4, 5×6, 7×8, 9×10, 11×12; o n-ésimo é (2n − 1)·2n. Para n = 99: 197 × 198 = **39 006**.",
+        "B": "O 99º termo é (2·99 − 1)·(2·99) = 197 × 198 = **39 006**. O valor 38 904 não é esse produto; o regular é 4n² − 2n, que para n = 99 dá 39 204 − 198 = 39 006.",
+        "C": "O n-ésimo termo é (2n − 1)·2n; para n = 99, 197 × 198 = **39 006**, e 38 804 fica 202 abaixo disso. A fórmula quadrática 4n² − 2n confirma: 4·9801 − 198 = 39 006.",
+        "D": "O 99º termo é 197 × 198 = **39 006**. O valor 39 108 passa dele em 102 e não é produto de dois inteiros consecutivos ímpar-par; a fórmula 4n² − 2n dá 39 006 para n = 99.",
+        "E": "O n-ésimo termo é (2n − 1)·2n; para n = 99, 197 × 198 = **39 006**, e 38 700 fica 306 abaixo disso. Pela fórmula 4n² − 2n: 4·9801 − 198 = 39 006."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#93",
@@ -2231,7 +3197,21 @@
         "informatica.word"
       ],
       "dispositivos": [],
-      "exp": "O recurso que registra cada modificação para posterior **aceitação ou rejeição** é o **Controlar Alterações** (guia Revisão), aqui na opção \"Para Todas as Pessoas\" (E). CTRL+Z só desfaz ações (A); Proteger restringe a edição (B); Verificar Acessibilidade aponta problemas de acessibilidade (C); e o Modo de Leitura apenas exibe o documento (D)."
+      "exp": "O recurso que registra cada modificação para posterior **aceitação ou rejeição** é o **Controlar Alterações** (guia Revisão), aqui na opção \"Para Todas as Pessoas\" (E). CTRL+Z só desfaz ações (A); Proteger restringe a edição (B); Verificar Acessibilidade aponta problemas de acessibilidade (C); e o Modo de Leitura apenas exibe o documento (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "CTRL+Z apenas **desfaz** a última ação do usuário; não registra nem isola alterações de vários colaboradores para posterior aprovação ou recusa.",
+        "B": "O recurso Proteger, da guia Revisão, **restringe a edição** do documento; não identifica as alterações de cada colaborador para serem aceitas ou rejeitadas.",
+        "C": "Verificar Acessibilidade **aponta problemas de acessibilidade** do documento; não controla nem registra alterações feitas pelos colaboradores.",
+        "D": "O Modo de Leitura **apenas exibe** o documento, sem registrar alterações; não atende à necessidade de identificar modificações para aprová-las ou recusá-las.",
+        "E": "O recurso que registra cada modificação para posterior **aceitação ou rejeição** é o Controlar Alterações, na guia Revisão, aqui na opção \"Para Todas as Pessoas\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#96",
@@ -2271,7 +3251,21 @@
       ],
       "dispositivos": [],
       "exp": "Quando o **proprietário** exclui uma pasta compartilhada, ela vai para a Lixeira do OneDrive **dele**, e só ele pode restaurá-la; quem recebeu o compartilhamento não pode recuperá-la (A). Por isso (B) e (D) erram (além de a lixeira do OneDrive ter prazo, e não ser a Lixeira do Windows), (C) erra porque pastas também podem ser restauradas da lixeira, e (E) erra porque o link original deixa de funcionar com a exclusão.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Quando o **proprietário** exclui uma pasta compartilhada, ela vai para a Lixeira do OneDrive dele, e só ele pode restaurá-la; quem recebeu o compartilhamento não pode recuperá-la.",
+        "B": "A pasta excluída pelo proprietário vai para a Lixeira do OneDrive **dele**, não para a de quem recebeu o compartilhamento; além disso, a lixeira do OneDrive tem prazo, então não vale \"a qualquer momento\".",
+        "C": "Pastas também podem ser restauradas da lixeira do OneDrive, pelo **proprietário**; a restrição a arquivos não existe.",
+        "D": "A lixeira do OneDrive não é a Lixeira do Windows. A pasta excluída pelo proprietário vai para a lixeira do OneDrive **dele**, e só ele pode restaurá-la.",
+        "E": "Com a exclusão pelo proprietário, o link original **deixa de funcionar**; quem recebeu o compartilhamento não recupera a pasta por ele."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#98",
@@ -2315,7 +3309,21 @@
       ],
       "dispositivos": [],
       "exp": "Todos os destinatários, seja em Para, Cc ou Cco, recebem a **mesma mensagem com o anexo**; o campo Cco só oculta o destinatário dos demais. Assim, Paulo, Dante, Julio e Roberto receberam o Documento.txt (E). As alternativas que excluem alguém confundem visibilidade do destinatário com recebimento do anexo.",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Todos os destinatários, em Para, Cc ou Cco, recebem a **mesma mensagem com o anexo**; Roberto, em Cco, também recebeu o Documento.txt, e a lista deixa de fora um destinatário.",
+        "B": "Julio (Cc) e Roberto (Cco) também recebem a mensagem com o anexo: o Cc e o Cco só diferem na **visibilidade** do destinatário, não no recebimento do Documento.txt.",
+        "C": "Cco só **oculta** o destinatário dos demais; Paulo e Dante (Para) e Julio (Cc) recebem a mesma mensagem com o Documento.txt, e não só Roberto.",
+        "D": "O anexo vai junto com a mensagem a **todos** os destinatários, em Para, Cc ou Cco, e o enunciado diz que o envio e o recebimento ocorreram com sucesso; portanto alguém o recebeu.",
+        "E": "Todos os destinatários, seja em Para, Cc ou Cco, recebem a **mesma mensagem com o anexo**; o campo Cco só oculta o destinatário dos demais. Assim Paulo, Dante, Julio e Roberto receberam o Documento.txt."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#100",
