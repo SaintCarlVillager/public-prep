@@ -1,0 +1,257 @@
+{
+  "id": "tj-sp/escrevente-tecnico-judiciario/2026",
+  "orgao": "TJ-SP",
+  "cargo": "Escrevente Técnico Judiciário",
+  "cargo_curto": "Escrevente",
+  "unidade": "Circunscrições Judiciárias da 2ª à 10ª RAJ",
+  "banca": "Vunesp",
+  "edital": "Edital de Abertura nº 02/2026",
+  "publicacao": "2026-10-14",
+  "inscricoes": {
+    "inicio": "2026-10-28",
+    "fim": "2026-12-10",
+    "pagamento_ate": "2026-12-11"
+  },
+  "prova": "2027-03-14",
+  "legislacao_ate": "2026-10-14",
+  "fonte": "edital.pdf (Anexo VIII em anexo-viii-conteudo.txt)",
+  "observacao": "Concurso para formação de cadastro de reserva (não há número de vagas) nas Circunscrições Judiciárias que compõem a 2ª à 10ª Regiões Administrativas Judiciárias; o candidato escolhe uma Circunscrição e concorre a todas as suas Comarcas. As provas são aplicadas na Comarca Sede de cada RAJ (Araçatuba, Bauru, Campinas, Presidente Prudente, Ribeirão Preto, Santos, São José do Rio Preto, São José dos Campos e Sorocaba). Objetiva e redação no mesmo dia, local e horário: 14/03/2027, período vespertino, duração máxima de 5 horas (Cap. IX, itens 2 a 3.1). O edital do Oficial de Justiça (nº 01/2026) também marca a prova para 14/03/2027 no período vespertino, então não dá para fazer os dois; o próprio edital desaconselha inscrições simultâneas entre Circunscrições, pois as provas são no mesmo dia e horário (Cap. II, itens 3.6 e 3.7.1). Gabarito previsto para 17/03/2027. Taxa de R$ 81,00; remuneração de R$ 6.782,54 (março/2026), 40 h semanais. Validade de 1 ano a contar da homologação, prorrogável por igual período. Desempate, depois do critério de idade (60 anos ou mais): mais acertos em Língua Portuguesa, depois em Conhecimentos em Direito.",
+  "objetiva": {
+    "formato": "me",
+    "questoes": 70,
+    "escala": 10,
+    "pesos_iguais": true,
+    "minimo_total": 0.5,
+    "nota": "Habilitado com nota ≥ 5 (de 10) no conjunto dos 3 blocos, e ≥ 50% de acertos em cada bloco eliminatório (I e II). O Bloco III é só classificatório. A classificação final é pela objetiva."
+  },
+  "discursiva": {
+    "tipo": "redacao",
+    "questoes": 1,
+    "escala": 40,
+    "minimo": 24,
+    "minimo_cotas": 19.2,
+    "carater": "eliminatorio",
+    "sobre": "texto dissertativo-argumentativo, a partir de uma coletânea de textos de apoio",
+    "corrigida_para": "habilitados da Lista Geral com melhor classificação na objetiva, no número fixado para cada Circunscrição (Cap. XI, item 1), mais os empatados na última colocação e todos os cotistas habilitados",
+    "criterios": [
+      "tema",
+      "estrutura (gênero/tipo de texto e coerência)",
+      "língua (modalidade e registro)",
+      "coesão"
+    ],
+    "observacao": "Nota 0 para fuga ao tema ou ao gênero, 7 linhas ou menos, menos de 8 linhas autorais contínuas ou identificação, entre outros casos (Cap. XI, item 8). Redações com 20 linhas ou menos não alcançam a nota máxima em língua e coesão; com 15 ou menos perdem um ponto nesses critérios. Não é preciso proposta de intervenção."
+  },
+  "blocos": [
+    {
+      "id": "I",
+      "nome": "Língua Portuguesa",
+      "questoes": 16,
+      "minimo": 0.5,
+      "eliminatorio": true,
+      "cobertura": [
+        {
+          "materia": "portugues",
+          "temas": [
+            "portugues.interpretacao",
+            "portugues.semantica",
+            "portugues.coesao",
+            "portugues.classes",
+            "portugues.concordancia",
+            "portugues.regencia",
+            "portugues.colocacao",
+            "portugues.crase",
+            "portugues.pontuacao"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "nome": "Conhecimentos em Direito",
+      "questoes": 30,
+      "minimo": 0.5,
+      "eliminatorio": true,
+      "cobertura": [
+        {
+          "materia": "penal",
+          "normas": {
+            "CP": [
+              "293-305",
+              "307",
+              "308",
+              "311-A",
+              "312-317",
+              "319-333",
+              "336",
+              "337",
+              "339-347",
+              "357",
+              "359"
+            ]
+          }
+        },
+        {
+          "materia": "processo-penal",
+          "normas": {
+            "CPP": [
+              "251-258",
+              "261-267",
+              "274",
+              "351-372",
+              "394-497",
+              "531-538",
+              "541-548",
+              "574-667"
+            ],
+            "L9099": [
+              "60-83",
+              "88",
+              "89"
+            ]
+          }
+        },
+        {
+          "materia": "processo-civil",
+          "normas": {
+            "CPC": [
+              "144-155",
+              "188-275",
+              "294-311",
+              "318-538",
+              "994-1026"
+            ],
+            "L9099": [
+              "3-19"
+            ],
+            "L12153": [
+              "*"
+            ]
+          },
+          "temas": [
+            "processo-civil.juizados.fazenda-publica"
+          ]
+        },
+        {
+          "materia": "constitucional",
+          "normas": {
+            "CF": [
+              "5-13",
+              "37-41",
+              "92"
+            ]
+          },
+          "observacao": "O edital cita Título II, Capítulos I, II e III (arts. 5º a 13: direitos e deveres individuais e coletivos, direitos sociais e nacionalidade) e Título III, Capítulo VII, Seções I e II (arts. 37 a 41: disposições gerais da Administração Pública e servidores públicos), além do art. 92. Os intervalos foram deduzidos da estrutura da CF."
+        },
+        {
+          "materia": "administrativo",
+          "normas": {
+            "L10261": [
+              "1-86",
+              "171-175",
+              "239-323"
+            ],
+            "L8429": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "legislacao-especial",
+          "normas": {
+            "TJSP-R850": [
+              "*"
+            ],
+            "TJSP-R963": [
+              "*"
+            ],
+            "LC1111": [
+              "*"
+            ],
+            "RITJSP": [
+              "*"
+            ],
+            "NSCGJ": [
+              "6-18",
+              "26-29",
+              "46-99",
+              "103-189-G",
+              "1189-1301"
+            ]
+          },
+          "observacao": "Legislação interna. NSCGJ, Tomo I: o edital cita só capítulos e seções; os intervalos de artigos foram tirados do texto consolidado do Tomo I (site do TJ-SP, baixado em 17/11/2026): Cap. II, Seção I, subseções I e II = arts. 6 a 18 (o art. 5-A, no início da Seção I, fica fora, porque o edital restringe às subseções I e II); Cap. III, Seções I e II = arts. 26 a 29; Seções V a VII = arts. 46 a 86; Seção VIII, subseções I a III = arts. 87 a 99 (as subseções IV e V, arts. 100 a 102, ficam fora); Seções IX a XIX = arts. 103 a 189-G; Cap. XI (processo eletrônico), Seções I a VII = arts. 1.189 a 1.301. Resoluções TJSP 850/2021 e 963/2025, LC estadual 1.111/2010 e Regimento Interno do TJSP: cobrados por inteiro.",
+          "temas": [
+            "legislacao-especial.teletrabalho",
+            "legislacao-especial.eproc",
+            "legislacao-especial.carreira-tjsp",
+            "legislacao-especial.regimento-tjsp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "nome": "Conhecimentos Gerais",
+      "questoes": 24,
+      "minimo": null,
+      "eliminatorio": false,
+      "cobertura": [
+        {
+          "materia": "atualidades",
+          "questoes": 4,
+          "temas": [
+            "atualidades.2026"
+          ],
+          "normas": {
+            "L13146": [
+              "1-13",
+              "34-38"
+            ]
+          },
+          "observacao": "Fatos ocorridos a partir do 1º semestre de 2026, e os arts. 1º a 13 e 34 a 38 do Estatuto da Pessoa com Deficiência (sem os arts. 79 a 87 cobrados no Oficial de Justiça)."
+        },
+        {
+          "materia": "matematica",
+          "questoes": 4,
+          "temas": [
+            "matematica.reais",
+            "matematica.mmc-mdc",
+            "matematica.razao-proporcao",
+            "matematica.porcentagem",
+            "matematica.regra-de-tres",
+            "matematica.media",
+            "matematica.juros-simples",
+            "matematica.equacoes",
+            "matematica.sistemas",
+            "matematica.graficos",
+            "matematica.medidas",
+            "matematica.geometria",
+            "matematica.problemas"
+          ]
+        },
+        {
+          "materia": "informatica",
+          "questoes": 9,
+          "temas": [
+            "informatica.windows",
+            "informatica.word",
+            "informatica.excel",
+            "informatica.teams",
+            "informatica.onedrive",
+            "informatica.email",
+            "informatica.internet"
+          ]
+        },
+        {
+          "materia": "raciocinio-logico",
+          "questoes": 7,
+          "temas": [
+            "raciocinio-logico.estruturas",
+            "raciocinio-logico.argumentacao",
+            "raciocinio-logico.diagramas",
+            "raciocinio-logico.sequencias"
+          ]
+        }
+      ]
+    }
+  ]
+}
