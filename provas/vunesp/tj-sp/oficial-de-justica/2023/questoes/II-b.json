@@ -891,13 +891,13 @@
         "tributario.execucao-fiscal.citacao"
       ],
       "dispositivos": [
-        "L6830 8 IV",
+        "L6830 8 §1º",
         "L6830 8 §2º",
         "L6830 7 III",
         "L6830 2 §3º",
         "L6830 2 §8º"
       ],
-      "exp": "(E): o despacho que ordena a citação **interrompe a prescrição** (`Lei 6.830/80, art. 8º, §2º`) e o executado **ausente do País** é citado por **edital com prazo de 60 dias** (`art. 8º, IV`). (A) o prazo é de **5 dias** (`art. 8º`); (B) se o executado não tiver domicílio ou dele se ocultar, cabe **arresto**, já ordenado pelo despacho inicial (`art. 7º, III`); (C) a CDA pode ser emendada ou substituída **até a decisão de primeira instância** (`art. 2º, §8º`); (D) a suspensão é de **180 dias** (`art. 2º, §3º`).",
+      "exp": "(E): o despacho que ordena a citação **interrompe a prescrição** (`Lei 6.830/80, art. 8º, §2º`) e o executado **ausente do País** é citado por **edital com prazo de 60 dias** (`L6830 8 §1º`; o edital comum, de 30 dias, é o do `L6830 8 IV`). (A) o prazo é de **5 dias** (`art. 8º`); (B) se o executado não tiver domicílio ou dele se ocultar, cabe **arresto**, já ordenado pelo despacho inicial (`art. 7º, III`); (C) a CDA pode ser emendada ou substituída **até a decisão de primeira instância** (`art. 2º, §8º`); (D) a suspensão é de **180 dias** (`art. 2º, §3º`).",
       "vf": {
         "A": false,
         "B": false,
