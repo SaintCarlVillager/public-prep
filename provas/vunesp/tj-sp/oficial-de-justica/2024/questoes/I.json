@@ -44,7 +44,21 @@
       ],
       "dispositivos": [],
       "exp": "O texto relata **descobertas nas profundezas** (a montanha submarina, o ecossistema sob as fontes hidrotermais, cerca de 170 novas espécies) obtidas com **tecnologias sofisticadas de mapeamento**: é a (D). (A) inverte o texto, que diz que a crença de 170 anos atrás foi superada. (C) erra o número: 2,2 milhões é a estimativa total de espécies marinhas, não o que a montanha abriga. (B) e (E) trazem ideias (relevância social, esgotamento da vida terrestre) que o texto não traz.",
-      "recursos": 6
+      "recursos": 6,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto diz o contrário: a crença de 170 anos atrás, de que não havia vida na escuridão das profundezas, foi **superada** pelas descobertas atuais.",
+        "B": "O texto não discute **relevância social** nem relativiza as descobertas; ele as apresenta como notáveis, e as comparações de tamanho só dão ideia de escala.",
+        "C": "A estimativa de 2,2 milhões de espécies é o total do **Censo Oceânico** para todo o oceano, e não o que a montanha abriga.",
+        "D": "O texto relata a montanha submarina e o novo ecossistema, achados com **tecnologias sofisticadas de mapeamento**, e fala em cerca de 170 novas espécies.",
+        "E": "O texto não contrapõe vida marinha e vida terrestre, nem fala em **esgotamento** da vida terrestre."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#2",
@@ -66,7 +80,21 @@
       ],
       "dispositivos": [],
       "exp": "Em (B), \"não havia vida\" é a **consequência** e \"em razão da ausência de luz solar\" é a **causa**, nessa ordem. (D) tem a ordem inversa: causa (o cume a mil metros de profundidade) e depois consequência (\"de modo que\"). Em (E) também vem primeiro a causa (\"Com tanto para explorar\"). (A) e (C) são comparações.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É uma **comparação** de altura com o Pão de Açúcar, sem relação de causa e consequência.",
+        "B": "\"Não havia vida\" é a **consequência** e \"em razão da ausência de luz solar\" é a **causa**, nessa ordem.",
+        "C": "Compara a presença de pessoas na superfície lunar e no fundo do oceano: é uma **comparação**, sem causa e consequência.",
+        "D": "A ordem é a inversa: vem primeiro a **causa** (o cume a quase mil metros de profundidade) e depois a consequência, introduzida por \"de modo que\".",
+        "E": "Vem primeiro a **causa** (\"Com tanto para explorar\") e depois a consequência (novas espécies encontradas com frequência): ordem inversa à pedida."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#3",
@@ -88,7 +116,21 @@
       ],
       "dispositivos": [],
       "exp": "**Icônico** é o que se tornou representativo, símbolo; **inóspito** é o lugar rude, áspero, que não acolhe; **prosperando** equivale a desenvolvendo-se: é a (C). Nas demais, ao menos um termo não serve: \"estranho\", \"opulento\" e \"ostensivo\" não equivalem a inóspito, e \"harmonizando-se\", \"disseminando-se\" e \"erigindo-se\" não equivalem a prosperando. A banca aceitou \"rude\" para inóspito, ponto mais discutível da questão (9 recursos).",
-      "recursos": 9
+      "recursos": 9,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Estranho** não é sinônimo de inóspito (áspero, que não acolhe), e \"ampliando-se\" não equivale a prosperando.",
+        "B": "\"Agressivo\" não é sinônimo de **inóspito**, e \"harmonizando-se\" não equivale a prosperando, que é desenvolver-se.",
+        "C": "**Icônico** é representativo; **inóspito** é rude, áspero, sentido aceito pela banca; **prosperando** é desenvolvendo-se.",
+        "D": "**Fulgurante** (brilhante) não é icônico, \"opulento\" (rico) não é inóspito, e \"disseminando-se\" (espalhando-se) não é prosperando.",
+        "E": "**Ostensivo** (exibido) não é inóspito, e \"erigindo-se\" (levantando-se) não equivale a prosperando."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#4",
@@ -109,7 +151,21 @@
       ],
       "dispositivos": [],
       "exp": "No trecho-base, as vírgulas isolam um termo **explicativo** intercalado (\"uma cadeia montanhosa no Sudeste do Pacífico\", aposto de \"Cordilheira de Nazca\"). Em (E) as vírgulas também isolam um termo explicativo intercalado, que acrescenta informação sobre \"As fontes hidrotermais\" (\"descobertas em 1977 por cientistas\"). Em (A), (C) e (D) a vírgula marca **adjunto adverbial anteposto**; em (B), separa uma oração consecutiva (\"de modo que...\") e a coordenada seguinte.",
-      "recursos": 7
+      "recursos": 7,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A vírgula só destaca o **adjunto adverbial** anteposto (\"Com 3109 metros de altura\"); no trecho-base, as vírgulas isolam um termo explicativo intercalado.",
+        "B": "A vírgula separa a oração consecutiva (\"de modo que...\") e a coordenada seguinte, e não isola um termo **explicativo** intercalado.",
+        "C": "A vírgula marca o **adjunto adverbial** anteposto (\"Com tanto para explorar\"), e não um termo explicativo intercalado.",
+        "D": "A vírgula marca o **adjunto adverbial** anteposto (\"Não à toa\"); não há termo explicativo intercalado.",
+        "E": "As vírgulas isolam \"descobertas em 1977 por cientistas\", termo **explicativo** intercalado que acrescenta informação sobre as fontes hidrotermais, como o aposto do trecho-base."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#5",
@@ -130,7 +186,21 @@
       ],
       "dispositivos": [],
       "exp": "Em (A), o pronome relativo \"que\" retoma \"vida\" e é o sujeito de \"obtém\"; no plural, \"vidas que **obtêm**\". Em (B), (C) e (D) o termo destacado não é sujeito do verbo sublinhado (os sujeitos são \"toda a montanha\", \"A descoberta\" e \"o mundo\"). Em (E), **haver** no sentido de existir é impessoal: \"não havia vidas\".",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O pronome relativo \"que\" retoma \"vida\" e é o sujeito de \"obtém\"; no plural, \"vidas que **obtêm**\", com flexão do verbo.",
+        "B": "O sujeito de \"fique\" é \"toda a montanha\"; \"escuridão\" é complemento, e flexioná-lo **não altera** o verbo.",
+        "C": "O sujeito de \"ocorreu\" é \"A descoberta\"; \"expedição\" não é sujeito, e o verbo **não muda**.",
+        "D": "O sujeito de \"soube\" é \"o mundo\"; \"montanha\" não é sujeito, e o verbo **não muda**.",
+        "E": "**Haver** no sentido de existir é impessoal e fica no singular: \"não havia vidas\", sem flexão do verbo."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#6",
@@ -151,7 +221,21 @@
         "portugues.crase"
       ],
       "dispositivos": [],
-      "exp": "\"Em razão da\" é locução de **causa** seguida de substantivo feminino com artigo: \"devido **à** ausência de luz solar\" mantém sentido e crase (B). Em (A), \"por\" também é causal, mas vem antes de verbo no infinitivo, que não admite artigo nem crase. \"Com\" (C) indica característica/medida, \"a partir de\" (D) indica origem e \"durante\" (E) indica tempo."
+      "exp": "\"Em razão da\" é locução de **causa** seguida de substantivo feminino com artigo: \"devido **à** ausência de luz solar\" mantém sentido e crase (B). Em (A), \"por\" também é causal, mas vem antes de verbo no infinitivo, que não admite artigo nem crase. \"Com\" (C) indica característica/medida, \"a partir de\" (D) indica origem e \"durante\" (E) indica tempo.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Por\" é causal, mas vem antes de verbo no infinitivo (\"por ser\"), que não admite artigo nem **crase**: \"devido à ser\" não é possível.",
+        "B": "\"Em razão da\" é locução de **causa** antes de substantivo feminino (\"ausência\"), e \"devido à ausência\" mantém o sentido e a crase.",
+        "C": "\"Com\" indica **característica** ou medida (a altura), e não causa; \"devido à\" mudaria o sentido.",
+        "D": "\"A partir de\" indica **origem**, ponto de partida, e não causa.",
+        "E": "\"Durante\" indica **tempo**, e não causa."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#7",
@@ -173,7 +257,21 @@
       ],
       "dispositivos": [],
       "exp": "O narrador abre o excerto dizendo que **os poetas \"cansam-nos a paciência\"** ao tratar o amor aos quinze anos como paixão perigosa, única e inflexível, e que alguns prosadores dizem o mesmo: \"Enganam-se ambos.\" (E). O texto não critica a educação dada pelo pai (A) nem a família de Simão (C). Também não critica as jovens (B), e Teresa é apresentada como exceção de amor verdadeiro e discreto, não como leviana (D).",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O texto não critica a **educação** dada pelo pai de Teresa nem fala em exigir-lhe recato.",
+        "B": "O texto não critica as **jovens** de quinze anos; a crítica recai sobre quem trata o amor dessa idade como paixão perigosa e única.",
+        "C": "Os litígios e a pancadaria são apenas **informação** sobre a inimizade entre as famílias, e não uma crítica do narrador à família de Simão.",
+        "D": "Teresa é apresentada como **exceção**, de amor verdadeiro e discreto, e não como leviana.",
+        "E": "O narrador diz que os poetas \"cansam-nos a paciência\" ao tratar o amor aos quinze anos como paixão intensa e perigosa, e que alguns prosadores fazem o mesmo: \"Enganam-se ambos\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#8",
@@ -194,7 +292,21 @@
       ],
       "dispositivos": [],
       "exp": "A família de Simão era odiosa ao pai de Teresa **\"por motivos de litígios, em que Domingos Botelho lhe deu sentença contra\"**: uma demanda judicial em que ele se viu prejudicado (C). O texto não fala em desemprego (A) nem em desconfiança de Teresa (B). E a vizinhança nem chegou a desconfiar do namoro (E), pois o casal se viu \"sem darem rebate à vizinhança\".",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto não menciona **desemprego** de Simão nem esse tipo de limitação ao casamento.",
+        "B": "O texto não fala em **desconfiança** de Teresa quanto à promessa do rapaz.",
+        "C": "A família de Simão era odiosa ao pai de Teresa por **litígios** em que ele saiu prejudicado por sentença contrária: uma demanda judicial.",
+        "D": "A resistência das famílias não vem da **precocidade** da moça, e sim dos litígios entre elas.",
+        "E": "A vizinhança nem chegou a desconfiar: o casal se viu \"sem darem rebate à vizinhança\", logo **comentários** não são a causa da resistência."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#9",
@@ -216,7 +328,21 @@
       ],
       "dispositivos": [],
       "exp": "Ensaiar \"o voo fora do ninho\" é buscar **autonomia**. Manter \"os olhos fitos na ave-mãe\" é buscar **segurança**. \"Nem sequer suspeitas\" indica **insuspeição**, pois as famílias não desconfiavam. \"Senhora sua\" é ser dona de si, com **independência**. A sequência é a (D). As demais trazem ao menos um sentido oposto ao do texto, como \"desconfiança\" e \"submissão\" em (C), ou \"medo\" para o olhar que busca proteção.",
-      "recursos": 2
+      "recursos": 2,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Devaneio\" e \"rebeldia\" não correspondem a ensaiar o voo fora do ninho (**autonomia**) nem a \"senhora sua\" (independência).",
+        "B": "\"Desagrado\" não corresponde a ter os olhos fitos na ave-mãe, que indica busca de **segurança**, e \"logro\" (engano) não é \"nem sequer suspeitas\".",
+        "C": "\"Medo\" e \"submissão\" são o oposto do texto: olhar a ave-mãe é buscar **segurança**, e \"senhora sua\" é ter independência.",
+        "D": "\"Voo fora do ninho\" é **autonomia**; \"olhos fitos na ave-mãe\", segurança; \"nem sequer suspeitas\", insuspeição; \"senhora sua\", independência.",
+        "E": "\"Companheirismo\" e \"agastamento\" (irritação) não correspondem a segurança e insuspeição, e \"desafio\" não traduz o **voo fora do ninho**."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#10",
@@ -239,7 +365,21 @@
       ],
       "dispositivos": [],
       "exp": "Intercalado após o verbo, **\"pois\" é conclusivo**, equivalente a **\"portanto\"**. \"Declinando de si\" equivale a \"afastando de si\", e a banca aceitou \"ponderar\" para \"obtemperar\": é a (D). \"Além disso\" (A) é aditivo; \"não obstante\" (B) e \"no entanto\" (C) são adversativos. \"Aproximando\" (C) e \"aumentando\" (E) invertem o sentido de \"declinando\".",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Além disso\" é **aditivo**, e o \"pois\" intercalado após o verbo tem valor conclusivo (\"portanto\").",
+        "B": "\"Não obstante\" é **adversativo**, e o \"pois\" intercalado é conclusivo.",
+        "C": "\"No entanto\" é **adversativo**, e \"aproximando de si\" inverte o sentido de \"declinando de si\".",
+        "D": "O \"pois\" intercalado é **conclusivo** (\"portanto\"), \"declinando de si\" equivale a \"afastando de si\", e a banca aceitou \"ponderar\" para \"obtemperar\".",
+        "E": "\"Aumentando de si\" **inverte** o sentido de \"declinando de si\", que é afastar."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#11",
@@ -260,7 +400,21 @@
       ],
       "dispositivos": [],
       "exp": "Em (A), a ênclise \"prometiam-se\" é admitida sem palavra atrativa e a **mesóclise** \"formar-se-ia\" é a colocação exigida no futuro do pretérito em início de oração. Erros nas demais: (B) põe pronome depois de **particípio** (\"visto-se\", \"falado-se\"); (C) usa ênclise após o \"não\", que atrai o pronome (\"não se via\"); (D) começa a frase com pronome oblíquo (\"Nos cansam\") e usa ênclise após o relativo \"que\" (\"que se põem\"); (E) usa ênclise ao **futuro do pretérito** (\"deveria-se\").",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Prometiam-se\" admite ênclise sem palavra atrativa, e \"formar-se-ia\" é a **mesóclise** exigida no futuro do pretérito em início de oração.",
+        "B": "Não se põe pronome átono depois de **particípio**: \"tinham visto-se\" e \"falado-se\" estão errados; o correto é \"tinham-se visto\".",
+        "C": "O advérbio \"não\" **atrai** o pronome: o correto é \"não se via\", e não \"não via-se\".",
+        "D": "A frase não pode começar por pronome oblíquo (\"Nos cansam\"), e o relativo \"que\" atrai o pronome: \"que **se** põem\".",
+        "E": "No futuro do pretérito não se usa **ênclise**: \"deveria-se sacrificar\" está errado; o correto é \"se deveria sacrificar\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#12",
@@ -281,7 +435,21 @@
       ],
       "dispositivos": [],
       "exp": "**Porventura** equivale a \"talvez\" (dúvida). **Ainda no ano anterior** situa o fato no tempo. **Singularmente** quer dizer \"de modo singular\" (modo). **Sequer**, com \"nem\", reforça a negação. A sequência é a (C). (A) e (D) dão \"afirmação\" para porventura; (B) dá \"inclusão\" para ainda e \"intensidade\" para singularmente.",
-      "recursos": 4
+      "recursos": 4,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Porventura** expressa dúvida (\"talvez\"), e não afirmação; e \"singularmente\" indica modo, e não meio.",
+        "B": "\"Ainda\" em \"ainda no ano anterior\" situa o fato no **tempo**, e não indica inclusão; e \"singularmente\" é modo, e não intensidade.",
+        "C": "**Porventura** é dúvida; \"ainda no ano anterior\", tempo; \"singularmente\" (de modo singular), modo; \"sequer\", com \"nem\", reforça a negação.",
+        "D": "**Porventura** não é afirmação, e sim dúvida; e \"sequer\", com \"nem\", reforça a negação, e não a intensidade.",
+        "E": "\"Ainda\" indica **tempo**, e não intensidade; e \"singularmente\" indica modo, e não meio."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#13",
@@ -304,7 +472,21 @@
       ],
       "dispositivos": [],
       "exp": "O autor chama de **\"estúpida corrida\"** a busca de recordes de riqueza que deixa para trás o sentido da vida. Defende a **responsabilidade social**, a convivência harmoniosa com os semelhantes e com a natureza: é a (B). O texto não propõe sociedade alheia ao lucro (A); afirma que \"o lucro continue a ser condição básica\". Também não pede mais lucro (C), não condena a comparação entre o rico e o sábio (D) e não elimina os valores econômicos da avaliação, pois fala em valores \"não apenas econômicos\" (E).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto não defende uma sociedade alheia ao interesse financeiro: afirma que \"o lucro continue a ser condição básica\".",
+        "B": "O autor chama de \"estúpida corrida\" a busca de recordes de riqueza e defende a **responsabilidade social**, a convivência harmoniosa com os semelhantes e com a natureza.",
+        "C": "O texto não pede **mais lucro** das empresas; defende a ação correta e a responsabilidade social, e não a ligação do fim do sofrimento ao dinheiro.",
+        "D": "O texto apenas observa que o rico goza de mais respeito que o sábio; não trata essa comparação como **falta de bom senso**.",
+        "E": "O texto fala em valores \"não apenas econômicos\": os elementos **econômicos** não são eliminados da avaliação das empresas."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#14",
@@ -326,7 +508,21 @@
       ],
       "dispositivos": [],
       "exp": "Em (E), **\"conspiram\"** é atribuído a valores imateriais (simpatia, apoio, gratidão), que não tramam nada de fato. O verbo está em sentido figurado (personificação), com o sentido de \"concorrem, contribuem\" para o sucesso. Nas demais, as palavras estão em sentido literal. Em (A), \"gozando de maior respeito\" é uso dicionarizado de \"gozar\" (desfrutar).",
-      "recursos": 16
+      "recursos": 16,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "\"Gozando de maior respeito\" usa \"gozar\" no sentido dicionarizado de desfrutar: sentido **literal**.",
+        "B": "\"Interesses difusos\" e \"superação de sofrimentos humanos\" estão em sentido **literal**.",
+        "C": "\"Fator fundamental e indissociável das atividades econômicas\" está em sentido **literal**.",
+        "D": "\"Permanecer em atividade\" está em sentido **literal**.",
+        "E": "\"Conspiram\" é atribuído a valores imateriais (simpatia, apoio, gratidão), que não tramam nada de fato: **personificação**, com o sentido de \"concorrem, contribuem\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#15",
@@ -369,7 +565,21 @@
       ],
       "dispositivos": [],
       "exp": "**Incumbência** rege a preposição \"de\" (\"incumbência de promover\"), como em (D). Nas demais: \"interesse\" rege \"por\" ou \"em\", não \"com\" (A); **preferível** rege \"a\", e \"preferível do que\" é erro clássico (B); \"zeloso\" rege \"de\" ou \"por\" (C); \"perceptível\" rege \"a\" ou \"para\" (E).",
-      "recursos": 1
+      "recursos": 1,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Interesse** rege \"por\" ou \"em\", e não \"com\".",
+        "B": "**Preferível** rege \"a\" (\"preferível a uma outra\"); \"preferível do que\" é erro.",
+        "C": "**Zeloso** rege \"de\" ou \"por\", e não \"à\".",
+        "D": "**Incumbência** rege a preposição \"de\": \"incumbência de promover\".",
+        "E": "**Perceptível** rege \"a\" ou \"para\", e não \"de\": \"perceptível a quem atua\"."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#17",
@@ -391,7 +601,21 @@
         "portugues.interpretacao"
       ],
       "dispositivos": [],
-      "exp": "O cronista lamenta que já não se veja **\"um livro a ser devorado em público\"**: ler em público \"passou à história\", e nas bibliotecas \"nunca pomos lá os pés\". É o novo comportamento descrito em (A). O texto não fala em leitor contumaz que combate o abandono (B). Também não diz que a mudança tenha a finalidade de tirar os livros do comércio (C), nem trata da produção de livros (D). O \"medo\" do texto é dos livros, não o de perder espaços ou de sofrer críticas (E)."
+      "exp": "O cronista lamenta que já não se veja **\"um livro a ser devorado em público\"**: ler em público \"passou à história\", e nas bibliotecas \"nunca pomos lá os pés\". É o novo comportamento descrito em (A). O texto não fala em leitor contumaz que combate o abandono (B). Também não diz que a mudança tenha a finalidade de tirar os livros do comércio (C), nem trata da produção de livros (D). O \"medo\" do texto é dos livros, não o de perder espaços ou de sofrer críticas (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O cronista lamenta que já não se veja \"um livro a ser devorado em público\": ler em público \"passou à história\", e das bibliotecas nem nos aproximamos.",
+        "B": "O texto não apresenta um leitor contumaz que combate o abandono dos livros; ele **lamenta** o desaparecimento do leitor em público.",
+        "C": "O texto não diz que a mudança de comportamento serve para tirar os livros do comércio; \"figura de museu\" é só imagem de **raridade**.",
+        "D": "O texto não trata de mudança na **produção** de livros nem da vaidade de poetas e romancistas.",
+        "E": "O \"respeitinho\" do texto é diante das livrarias e dos livros, e não o medo de perder espaços; o texto não fala em **críticas ofensivas** a quem lê em público."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#18",
@@ -413,7 +637,21 @@
       ],
       "dispositivos": [],
       "exp": "Livro **\"devorado\"** é lido com avidez. **\"Figura de museu\"** indica algo antiquado (arcaísmo). O diminutivo **\"respeitinho\"** é irônico e indica distância, desdém, como diante de um cão bravo. **\"Infantil\"** remete à puerilidade. A sequência é a (C). (D) erra ao ler \"respeitinho\" como carinho; (B) e (E) dão sentidos opostos a \"devorado\" (prudência, comedimento).",
-      "recursos": 3
+      "recursos": 3,
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Devorado\" remete à **avidez**, e não à afronta; \"infantil\" remete à puerilidade, e não à insensatez.",
+        "B": "\"Devorado\" é ler com **avidez**, o oposto de prudência; e o \"respeitinho\" irônico não é devoção.",
+        "C": "Livro \"devorado\" é lido com **avidez**; \"figura de museu\" indica arcaísmo; \"respeitinho\" irônico indica desdém; \"infantil\" remete à puerilidade.",
+        "D": "O diminutivo \"respeitinho\" é **irônico** e indica distância, e não carinho.",
+        "E": "\"Devorado\" é **avidez**, o oposto de comedimento, e o \"respeitinho\" irônico não indica intimidade."
+      }
     },
     {
       "id": "vunesp/tj-sp/oficial-de-justica/2024#19",

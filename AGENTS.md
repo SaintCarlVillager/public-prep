@@ -15,6 +15,7 @@ Instruções para qualquer agente de IA (Claude, Codex, Copilot…) que trabalhe
 | `editais/<órgão>/<cargo>/<ano>/edital.json` | o que o concurso cobra, blocos, notas de corte; PDFs ao lado |
 | `provas/<banca>/<órgão>/<cargo>/<ano>/` | `prova.json` (metadados e gabarito), `questoes.json`, `texto.txt`, PDFs |
 | `leis/<SIGLA>.json` | lei seca: texto oficial vigente de cada norma, artigo por artigo |
+| `revisao/index.html`, `scripts/revisao.py` | painel de revisão (administração), Artifact do claude.ai |
 | `scripts/validar.py` | validação de tudo acima |
 | `scripts/empacotar.py` | gera os dados que o app carrega (`web/public/dados/`, fora do git) |
 | `web/` | o app (Next.js, criado com create-t3-app): Painel, Sessão, Revisões, Treino, Banco, Ajustes |
@@ -101,6 +102,17 @@ Campos opcionais da questão:
 - O progresso de quem estuda fica **no navegador** (localStorage), com exportar/importar em Ajustes. Não há login, banco nem recursos do Claude no app por enquanto.
 - Antes de cada merge que mexa em `web/`: `cd web && npm test && npm run typecheck && npm run build`.
 - Deploy na Vercel: **Root Directory** `web`. O `prebuild` roda `python3 ../scripts/empacotar.py`, que valida o repositório e gera os dados; se a validação falhar, o deploy falha.
+
+### Painel de revisão (administração)
+O painel de revisão é um Artifact privado do dono: https://claude.ai/artifact/PSNWjcpKcEeP1pbvrZ3gAq. Ele mostra a fila do que precisa de olho humano: questões com `pendencias`, questões com 100 recursos ou mais, `desatualizada`, `observacoes`, normas cobradas sem lei seca e gabaritos não definitivos. Para cada item, o dono decide "Está certo", "Corrigir" (com nota obrigatória) ou "Ignorar". As decisões ficam no banco do Artifact, coleção `decisoes` (o id de cada documento é o id do item codificado; o campo `item` traz o id original, ex. `pendencia:vunesp/…/2025#48`).
+
+- **Atualizar a fila** depois de mudanças no banco de questões: `python3 scripts/revisao.py` e republicar `revisao/index.html` no **mesmo link**, com `revisao/dados/revisao.json` publicado como arquivo `revisao.json` (as capabilities `db` e `user` e a regra `decisoes` só para `admin` já ficam guardadas).
+- **"Aplica as revisões do painel"**: leia `decisoes` (ferramenta de dados do Artifact), pegue as que ainda não têm `aplicada`, e:
+  - `corrigir`: faça o que a nota pede, sem inventar (se a nota não bastar, pergunte);
+  - `certo`: numa pendência, tire a pendência (o dono conferiu); nos demais tipos, nada a mudar;
+  - `ignorar`: nada a mudar.
+
+  Valide, abra o PR e faça o merge conforme a autorização do dono. Depois grave em cada decisão aplicada `aplicada: {"em": ISO, "pr": "<link>"}` e republique o painel com a fila nova.
 
 ## Subagentes
 
