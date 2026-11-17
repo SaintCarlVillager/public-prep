@@ -42,6 +42,7 @@ Por que não etiquetar por concurso: a cada edital novo (seu ou de um colega) se
 | **Provas** | metadados, texto e questões etiquetadas | `provas/<banca>/<órgão>/<cargo>/<ano>/` |
 | **Questões autorais** | as criadas por Claude, quando falta questão real | `autorais/*.json` |
 | **Método** | as regras de professor | `METODO.md` e `CLAUDE.md` |
+| **Lei seca** | texto oficial vigente das normas, artigo por artigo | `leis/<SIGLA>.json` |
 | **Candidato** | sessões, respostas, revisões e treino | navegador de quem estuda (localStorage) |
 | **App** | a interface de estudo | `web/` |
 
@@ -228,6 +229,7 @@ Rotas em `web/src/app/`:
 - **Revisões** (`/revisoes`): o calendário de revisão (errou: 1 dia; acertou: 1, 3, 7, 15, 30, 60).
 - **Treino** (`/treino`): cada alternativa marcada em `vf` vira um card de verdadeiro ou falso, com a mesma escada.
 - **Banco** (`/banco`): filtros por edital, banca, prova, matéria, tema e situação, e "Praticar estas".
+- **Lei seca** (`/lei`): os artigos que cada bloco do edital cobra, no texto vigente (`leis/`), e cada norma inteira com busca (`/lei?n=CPC#a-246`). Depois da correção, cada dispositivo citado pela questão abre o artigo ali mesmo.
 - **Ajustes** (`/ajustes`): editais ativos, tamanho da sessão, exportar, importar e apagar o progresso.
 
 Ainda não exibidos: Certo/Errado e discursiva.

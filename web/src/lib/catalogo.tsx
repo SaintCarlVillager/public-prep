@@ -5,7 +5,7 @@ import { createContext, useContext, useEffect, useMemo, useState, type ReactNode
 
 import { rotuloEdital } from "./estudo";
 import { relevancia } from "./nucleo";
-import type { ArquivoProva, Catalogo, Edital, IndiceQuestao, Questao, ResumoProva } from "./tipos";
+import type { ArquivoProva, Catalogo, Edital, IndiceQuestao, Lei, Questao, ResumoProva } from "./tipos";
 
 export interface Base {
   cat: Catalogo;
@@ -93,6 +93,42 @@ export function carregarProva(slug: string): Promise<ProvaCarregada> {
     cacheProvas.set(slug, p);
   }
   return p;
+}
+
+/* ---------- lei seca ---------- */
+
+export interface LeiCarregada extends Lei {
+  porArt: Record<string, Lei["artigos"][number]>;
+}
+const cacheLeis = new Map<string, Promise<LeiCarregada>>();
+
+export function carregarLei(sigla: string): Promise<LeiCarregada> {
+  let p = cacheLeis.get(sigla);
+  if (!p) {
+    p = buscar<Lei>(caminhoDados(`leis/${encodeURIComponent(sigla)}.json`), 20000).then((d) => ({
+      ...d,
+      porArt: Object.fromEntries(d.artigos.map((a) => [a.art, a])),
+    }));
+    p.catch(() => cacheLeis.delete(sigla));
+    cacheLeis.set(sigla, p);
+  }
+  return p;
+}
+
+/** Carrega uma lei; devolve null enquanto carrega e `erro` se falhar. */
+export function useLei(sigla: string | null): { lei: LeiCarregada | null; erro?: string } {
+  const [res, setRes] = useState<{ sigla: string | null; lei: LeiCarregada | null; erro?: string }>({ sigla: null, lei: null });
+  useEffect(() => {
+    if (!sigla) return;
+    let vivo = true;
+    carregarLei(sigla)
+      .then((lei) => vivo && setRes({ sigla, lei }))
+      .catch((e: unknown) => vivo && setRes({ sigla, lei: null, erro: String(e) }));
+    return () => {
+      vivo = false;
+    };
+  }, [sigla]);
+  return res.sigla === sigla ? res : { lei: null };
 }
 
 /** Carrega as provas indicadas; devolve null enquanto carrega. */

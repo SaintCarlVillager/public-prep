@@ -4,6 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef } from "react";
 
 import { ComCatalogo, IconeCerto, IconeErrado, Md, SelosEdital } from "~/components/Comum";
+import { Dispositivos } from "~/components/LeiSeca";
 import { apagarSessao, criarSessao, entregar, marcar } from "~/lib/acoes";
 import { caminhoDados, useProvas, type Base } from "~/lib/catalogo";
 import { ativos, ehFederal, montarAutomatica } from "~/lib/estudo";
@@ -306,6 +307,7 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
                     </ul>
                   </div>
                 )}
+                {feito && <Dispositivos base={base} lista={q.dispositivos} />}
               </article>
             </div>
           );
