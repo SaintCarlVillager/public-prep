@@ -1,14 +1,16 @@
-"""Empacota o repositório nos arquivos que o painel lê (painel/dados/).
+"""Empacota o repositório nos arquivos que o app lê (web/public/dados/).
 
-Uso: python3 scripts/empacotar.py [--sem-validar]
+Uso: python3 scripts/empacotar.py [--sem-validar] [--saida <pasta>]
 
 Lê taxonomia/, normas/normas.json, editais/**/edital.json e
 provas/**/prova.json + questoes.json e gera:
 
-  painel/dados/catalogo.json          matérias, temas, normas, editais, provas e um
+  <saída>/catalogo.json               matérias, temas, normas, editais, provas e um
                                       índice leve das questões (para placar e banco)
-  painel/dados/provas/<slug>.json     metadados, textos-base e questões de cada prova
-  painel/dados/figuras/<slug>/*.png   figuras da prova
+  <saída>/provas/<slug>.json          metadados, textos-base e questões de cada prova
+  <saída>/figuras/<slug>/*.png        figuras da prova
+
+A saída padrão é web/public/dados/ (o app em web/ serve esses arquivos).
 
 slug = id da prova com "/" trocado por "--".
 Antes de empacotar roda scripts/validar.py e aborta se falhar
@@ -23,7 +25,9 @@ import subprocess
 import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SAIDA = os.path.join(RAIZ, "painel", "dados")
+SAIDA = os.path.join(RAIZ, "web", "public", "dados")
+if "--saida" in sys.argv:
+    SAIDA = os.path.abspath(sys.argv[sys.argv.index("--saida") + 1])
 
 
 def ler(caminho):
@@ -190,7 +194,7 @@ def main():
     print(f"{len(lista_provas)} provas, {n_q} questões, {len(catalogo['editais'])} editais, "
           f"{len(temas)} temas, {n_fig} figuras")
     print(f"catálogo: {os.path.getsize(os.path.join(SAIDA, 'catalogo.json')) / 1024:.0f} KB · "
-          f"total em painel/dados/: {tamanho_pasta(SAIDA) / 1024:.0f} KB")
+          f"total em {os.path.relpath(SAIDA, RAIZ)}/: {tamanho_pasta(SAIDA) / 1024:.0f} KB")
 
 
 if __name__ == "__main__":

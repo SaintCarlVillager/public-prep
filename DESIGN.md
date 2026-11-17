@@ -1,6 +1,6 @@
 # DESIGN.md
 
-O sistema visual do painel de estudo. Vale para o painel (`painel/index.html`, um Artifact do claude.ai). Segue o design system **edenprep** (artifact "edenprep" no claude.ai do dono) e as diretrizes de Artifacts da Anthropic: tokens no `:root`, dois temas, layout que funciona primeiro no celular e nada que só funcione num tema.
+O sistema visual do app de estudo (`web/`). As classes e os tokens estão em `web/src/styles/painel.css`, portados do painel antigo. Segue o design system **edenprep**: tokens no `:root`, dois temas, layout que funciona primeiro no celular e nada que só funcione num tema.
 
 ## Conceito
 
@@ -40,7 +40,7 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 ## Layout
 
 - Coluna única de até **1040 px**, gutter `max(16px, env(safe-area-inset-*))`. Pensado primeiro a **360 px**.
-- Cabeçalho no próprio papel (sem faixa escura): nome, um prazo por concurso ativo e as abas por `#hash`: **Painel**, **Sessão**, **Revisões**, **Treino**, **Banco**. A aba ativa tem sublinhado grifo.
+- Cabeçalho no próprio papel (sem faixa escura): nome, um prazo por concurso ativo e as abas, uma rota cada: **Painel**, **Sessão**, **Revisões**, **Treino**, **Banco**, **Ajustes**. A aba ativa tem sublinhado grifo.
 - Nada tocável abaixo de 48 px de altura (campos de filtro, 44 px).
 - Raios: 6 px (selos, letra, campos), 10 px (botões, alternativas), 16 px (cartões).
 - Bordas, não sombras.
@@ -67,7 +67,7 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 - Nenhuma informação só por cor: correta, errada e status sempre com palavra.
 - Movimento só na largura das barras, no fundo de toque e no arraste do card; tudo desligado com `prefers-reduced-motion`.
 
-## Ao mudar o painel
+## Ao mudar a interface
 
 1. Cor nova entra primeiro como token, nos três blocos (claro, escuro por sistema, escuro forçado).
 2. Grifo é raro: se tudo for grifado, nada é.

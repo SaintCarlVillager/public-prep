@@ -1,21 +1,21 @@
 # Arquitetura do framework de estudo para concursos
 
-Proposta para transformar o `public-prep` num **template**: cada pessoa copia o repositório, cadastra os editais dos seus concursos e estuda com um painel próprio. O método (como montar sessões, corrigir e revisar) vem junto, legível em arquivos, não escondido num prompt.
+O `public-prep` é um banco de provas reais etiquetadas e um app web aberto para estudar com elas. O método (como montar sessões, corrigir e revisar) fica legível no código e nos arquivos, não escondido num prompt.
 
 ## Decisões já tomadas
 
 | Pergunta | Decisão |
 |---|---|
-| Como um colega usa | **Cada um com sua cópia** do template. Melhorias no banco de questões voltam por pull request. |
-| Quem monta a sessão | **O painel e o Claude.** O painel monta sozinho as sessões de revisão a partir do banco; Claude escreve as mini-aulas, marca as provas novas e corrige as discursivas. Quem não usa Claude ainda consegue estudar. |
-| Visibilidade | **Repositório privado**, compartilhado por convite. Pode guardar o texto integral das provas. |
+| Como um colega usa | **Pelo app publicado** na Vercel; o progresso fica no navegador dele. Melhorias no banco de questões voltam por pull request. |
+| Quem monta a sessão | **O app**, sozinho, a partir do banco e do progresso. O Claude etiqueta as provas e cadastra os editais no repositório. |
+| Visibilidade | **Repositório privado**; o **app publicado é aberto**, com o texto integral das provas. |
 | Formatos | **Múltipla escolha (A–E), Certo/Errado e discursiva/estudo de caso.** |
 | Etiquetas | **Temas** (em níveis) e **dispositivos** citados, por questão. **Banca** vem da prova. A relevância para cada concurso é **calculada**, nunca etiquetada. |
 | Níveis de tema | Matéria e, abaixo dela, **até 3 níveis**. O detalhe mais fino fica nos dispositivos. |
 | Normas que renumeram (NSCGJ) | Tema normal; dispositivo **por artigo**, como o próprio edital do TJ-SP cita; a prova registra a data de aplicação, e o edital, a data da legislação cobrada. |
-| Dificuldade | **Personalizada**: calculada pelo histórico de cada pessoa, guardada só no painel dela. |
+| Dificuldade | **Personalizada**: calculada pelo histórico de cada pessoa, guardada só no navegador dela. |
 | Pastas | `provas/<banca>/<órgão>/<cargo>/<ano>/` e `editais/<órgão>/<cargo>/<ano>/`. |
-| Ponto de partida | Construído do zero; o conteúdo anterior ficou no branch `legado`. |
+| Ponto de partida | Construído do zero. |
 
 ## A ideia central: etiquetar pelo conteúdo, calcular a relevância
 
@@ -42,16 +42,19 @@ Por que não etiquetar por concurso: a cada edital novo (seu ou de um colega) se
 | **Provas** | metadados, texto e questões etiquetadas | `provas/<banca>/<órgão>/<cargo>/<ano>/` |
 | **Questões autorais** | as criadas por Claude, quando falta questão real | `autorais/*.json` |
 | **Método** | as regras de professor | `METODO.md` e `CLAUDE.md` |
-| **Candidato** | sessões, respostas, revisões e temas fracos | banco do painel (privado) |
-| **Painel** | a interface de estudo | `painel/` |
+| **Candidato** | sessões, respostas, revisões e treino | navegador de quem estuda (localStorage) |
+| **App** | a interface de estudo | `web/` |
 
-O **repositório é a fonte de verdade**: legível, versionado, revisável. Um script valida tudo e gera o pacote que o painel carrega. O pacote é **publicado como arquivos junto com o painel** (o artifact aceita até 256 MB por versão e lê os próprios arquivos com `fetch`). O **banco do painel** guarda só o progresso de quem estuda.
+O **repositório é a fonte de verdade**: legível, versionado, revisável. Um script valida tudo e gera os arquivos estáticos que o app carrega (`web/public/dados/`). O progresso de quem estuda **não** entra no repositório.
 
-### Por que não um banco externo ou um app próprio (por enquanto)
+### O app web (decisão de 17/11/2026)
 
-- O artifact **não pode** acessar servidores de fora (Supabase, Postgres etc.): a política de segurança bloqueia. Banco externo implica sair dos artifacts.
-- Um app próprio (por exemplo, TanStack Start) dá capacidade ilimitada, busca forte e uso offline, mas traz hospedagem, login, custo e manutenção, e cada colega precisaria subir o seu (ou você hospedaria os dados de todos). Claude também perderia o acesso direto ao painel no fluxo diário.
-- Como os dados ficam em **JSON com esquema, no repo**, migrar para um app depois é barato: ele leria os mesmos arquivos. Gatilhos para migrar: banco central com muitos usuários, busca em dezenas de milhares de questões, estudo offline no celular ou colegas que não usam Claude.
+O painel deixou de ser um Artifact do claude.ai e virou um app **Next.js** (criado com create-t3-app, App Router e Tailwind), publicado na **Vercel**, para que qualquer pessoa estude sem conta no claude.ai.
+
+- **Conteúdo estático.** As provas, os editais e a taxonomia continuam em JSON no repositório; o build roda `scripts/empacotar.py` e serve o resultado como arquivos. Nenhum banco para conteúdo.
+- **Progresso no navegador.** Sessões, respostas, revisões e treino ficam no localStorage, com exportar/importar. O formato espelha as coleções do banco do painel antigo (`sessoes`, `respostas`, `estado`, `treino`, `meta/config`), então um dump dele pode ser importado.
+- **Sem Claude no app.** Sessões automáticas, correção pelo gabarito, revisão espaçada e Treino funcionam sozinhos. Mini-aulas, correção de discursivas e sessões montadas pelo Claude ficaram de fora.
+- **Depois, se precisar:** login (Auth.js) e Postgres (Drizzle) para sincronizar o progresso entre aparelhos; o T3 já prevê os dois.
 
 ## Esquemas
 
@@ -210,42 +213,26 @@ Uma norma reduzida e um caminho, sempre do mesmo jeito, para dar para agrupar ("
 | Resolução do CNJ | `CNJ-R<número>` | `CNJ-R354 8` |
 | Normas da Corregedoria SP | `NSCGJ` | `NSCGJ 1027` (Tomo I; artigo) |
 
-## O painel
+## O app
 
-O painel continua sendo um único artifact com banco, agora genérico:
+Rotas em `web/src/app/`:
 
-- **Carrega** a taxonomia, os editais e o banco de questões dos arquivos publicados com ele (`dados/catalogo.json` e um `dados/provas/<id>.json` por prova, gerados pelo script a partir do repo).
-- **Placar por edital**: blocos, cortes e pesos calculados pela interseção de temas, com uma chave para cada edital ativo. Um edital cuja prova passou sai da chave sozinho.
-- **Sessão automática** ("Revisar agora"): escolhe questões pela ordem
-  1. revisões vencidas (questões erradas, em +1, +3, +7, +15 e +30 dias);
-  2. temas fracos, com peso pelo bloco do edital mais próximo;
-  3. temas ainda não vistos que o edital cobre;
-  nunca repete questão real antes do prazo de revisão, e respeita filtros (banca, edital, matéria).
-- **Sessão do Claude**: quando existe, aparece primeiro, com a mini-aula.
-- **Três formatos** na tela: A–E, C/E (com a nota líquida Cebraspe) e discursiva (campo de texto e contador de linhas; a correção fica pendente até Claude corrigir pelos critérios).
+- **Painel** (`/`): placar por edital (blocos, cortes e pesos calculados pela interseção de temas e dispositivos), por matéria, temas fracos e evolução por sessão. Um edital cuja prova passou sai sozinho.
+- **Sessão** (`/sessao`): sessão automática na ordem
+  1. revisões vencidas (a mais atrasada primeiro);
+  2. temas fracos, até ~40% da sessão;
+  3. nunca vistas do edital de prova mais próxima, depois dos outros ativos;
+  sem repetir questões de sessões abertas. Depois da entrega: gabarito, comentário por alternativa e agendamento da revisão.
+- **Revisões** (`/revisoes`): o calendário de revisão (errou: 1 dia; acertou: 1, 3, 7, 15, 30, 60).
+- **Treino** (`/treino`): cada alternativa marcada em `vf` vira um card de verdadeiro ou falso, com a mesma escada.
+- **Banco** (`/banco`): filtros por edital, banca, prova, matéria, tema e situação, e "Praticar estas".
+- **Ajustes** (`/ajustes`): editais ativos, tamanho da sessão, exportar, importar e apagar o progresso.
 
-### Onde fica cada dado
-
-| Dado | Onde | Tamanho |
-|---|---|---|
-| Questões, provas, taxonomia, editais | **arquivos publicados com o painel** (vindos do repo) | ~2 KB por questão; 10 mil questões ≈ 20 MB, dentro dos 256 MB por versão |
-| `sessoes/<id>` (ids das questões e mini-aula) | banco do painel | 1 por dia |
-| `respostas/<id>` | banco do painel | 1 por dia |
-| `estado/questoes` (revisão espaçada e dificuldade pessoal, agregadas) | banco do painel | poucos documentos |
-| `meta/painel`, `meta/revisoes` | banco do painel | 2 |
-
-O banco do artifact aceita **25.000 documentos** de até **256 KB**. Com as questões fora dele, um ano de estudo diário usa menos de mil documentos. Uma questão nova entra no painel com um commit no repo e uma republicação dos arquivos; o progresso no banco não é tocado.
+Ainda não exibidos: Certo/Errado e discursiva.
 
 ## Para um colega começar
 
-1. Copiar o repositório (template).
-2. Cadastrar os editais em `editais/` (Claude ajuda a partir do PDF do edital, ligando cada item do conteúdo programático a temas da taxonomia).
-3. Rodar o script de importação, que cria o painel do colega com o banco já carregado.
-4. Estudar. Provas novas etiquetadas por qualquer um podem voltar ao template por pull request.
-
-## Ponto de partida
-
-O framework foi construído do zero e substituiu a estrutura anterior. O que havia antes (sessões, painel v1, notas de progresso) está preservado no branch `legado`, e o histórico de estudo foi importado para o banco do painel v2.
+Basta abrir o app publicado. Para contribuir com provas ou editais: cadastrar em `editais/` ou `provas/` seguindo o `AGENTS.md` e abrir um pull request; a Vercel gera uma prévia.
 
 ## Fases
 
@@ -253,7 +240,7 @@ O framework foi construído do zero e substituiu a estrutura anterior. O que hav
 |---|---|
 | 1. **Fundação**: esquemas, taxonomia, editais do TRF3 e do TJ-SP, validador | feita |
 | 2. **Banco real**: Vunesp TJ-SP 2023 e 2024, FCC TRF3 2019, com gabaritos definitivos e figuras | feita (262 itens, 0 pendências) |
-| 3. **Painel v2**: placar por edital calculado, sessão automática, revisões, banco filtrável, discursiva | feita para múltipla escolha e discursiva; **Certo/Errado ainda não exibido** |
-| 4. **Template**: guia para colegas (README, AGENTS.md), publicação do painel | feita; falta um script que crie o painel de um colega de uma vez |
+| 3. **Painel v2** (Artifact): placar por edital, sessão automática, revisões, banco, discursiva | substituída pela fase 4 |
+| 4. **App web** (`web/`, Vercel): o painel sem Claude, com progresso no navegador | esqueleto feito |
 
-Próximos passos naturais: mais provas (outras de oficial de justiça da Vunesp e da FCC), Certo/Errado no painel quando entrar uma prova Cebraspe, e a criação automática do painel para quem copiar o template.
+Próximos passos: Certo/Errado e discursiva no app, login e banco para sincronizar o progresso, e mais provas.

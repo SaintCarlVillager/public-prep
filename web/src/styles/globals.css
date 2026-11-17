@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "./painel.css";
+
+/* As fontes vêm de next/font (variáveis no <html>); os tokens de cor estão em painel.css (ver DESIGN.md). */
+:root {
+  --display: var(--font-plex), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --body: var(--font-literata), Georgia, "Times New Roman", serif;
+  --mono: var(--font-plex), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@theme {
+  --font-sans: var(--display);
+  --font-serif: var(--body);
+}
