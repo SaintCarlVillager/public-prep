@@ -6,6 +6,7 @@
 import { useSyncExternalStore } from "react";
 
 import type { EstadoItem } from "./nucleo";
+import type { PlanoBloco, Pontuacao } from "./simulado";
 
 export interface Sessao {
   titulo: string;
@@ -19,6 +20,60 @@ export interface Resposta {
   acertos: number;
   total: number;
   entregueEm: string;
+}
+
+/** Um bloco do simulado: as questões dele, na ordem em que aparecem. */
+export interface BlocoSimulado {
+  id: string;
+  nome: string;
+  questoes: string[];
+}
+
+export interface TempoSimulado {
+  /** Duração em minutos; null = sem cronômetro. */
+  limite_min: number | null;
+  /** Tempo ativo já gasto (só conta com o simulado aberto na tela e sem pausa). */
+  usado_ms: number;
+  pausas: number;
+  pausado: boolean;
+  /** O que a duração oficial inclui (ex.: a redação), quando vem do edital. */
+  inclui?: string;
+}
+
+export interface ResultadoSimulado extends Pontuacao {
+  entregueEm: string;
+  usado_ms: number;
+  pausas: number;
+  /** Entregue sozinho quando o tempo acabou. */
+  esgotado: boolean;
+  /** Anuladas que contaram como acerto (prova anterior). */
+  anuladas: number;
+  /** A regra da nota, em texto (objetiva.nota do edital). */
+  regra?: string;
+}
+
+/** Simulado: a prova do edital montada do banco, ou uma prova anterior inteira. */
+export interface Simulado {
+  titulo: string;
+  /** Edital em que foi feito (dá a regra da nota e o rótulo). */
+  edital: string;
+  tipo: "edital" | "prova";
+  tamanho: "completo" | "reduzido" | "inteira";
+  /** Prova anterior (tipo "prova"). */
+  prova?: string;
+  criado: string;
+  questoes: string[];
+  blocos: BlocoSimulado[];
+  /** Plano do edital (pedidas × montadas por bloco e matéria), para avisar quando o banco não tem tudo. */
+  plano?: PlanoBloco[];
+  tempo: TempoSimulado;
+  /** Respostas marcadas (até a entrega e depois). */
+  marcadas: Record<string, string>;
+  /** Questões marcadas para revisar depois. */
+  revisar: string[];
+  /** Questão aberta (índice em `questoes`). */
+  pos: number;
+  resultado?: ResultadoSimulado;
 }
 
 export interface Config {
@@ -40,6 +95,8 @@ export interface Progresso {
   rascunhos: Record<string, Record<string, string>>;
   /** Sessão aberta por último. */
   atual?: string;
+  /** Simulados feitos e em andamento, por id ("sim-AAAA-MM-DD-HHMM"). */
+  simulados: Record<string, Simulado>;
 }
 
 const CHAVE = "public-prep:progresso";
@@ -52,6 +109,7 @@ export const vazio = (): Progresso => ({
   estado: {},
   treino: {},
   rascunhos: {},
+  simulados: {},
 });
 
 let cache: Progresso | null = null;
@@ -85,6 +143,8 @@ export function normalizar(dados: unknown): Progresso {
     treino: obj(d.treino) ?? {},
     rascunhos: obj(d.rascunhos) ?? {},
     atual: typeof d.atual === "string" ? d.atual : undefined,
+    // Progresso de antes dos simulados não tem o campo.
+    simulados: obj(d.simulados) ?? {},
   };
 }
 
@@ -130,5 +190,13 @@ export function novoIdSessao(p: Progresso, agora = new Date()): string {
   let id = base;
   let i = 2;
   while (p.sessoes[id]) id = `${base}-${i++}`;
+  return id;
+}
+
+export function novoIdSimulado(p: Progresso, agora = new Date()): string {
+  const base = "sim-" + novoIdSessao({ ...p, sessoes: {} }, agora);
+  let id = base;
+  let i = 2;
+  while (p.simulados[id] || p.sessoes[id]) id = `${base}-${i++}`;
   return id;
 }

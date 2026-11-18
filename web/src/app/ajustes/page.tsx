@@ -40,9 +40,11 @@ function Ajustes({ base }: { base: Base }) {
     try {
       const novo = normalizar(JSON.parse(await f.text()));
       const n = Object.keys(novo.sessoes).length;
-      if (!confirm(`Substituir o progresso deste navegador pelo do arquivo (${n} sessões)?`)) return;
+      const ns = Object.keys(novo.simulados).length;
+      const resumo = `${n} sessões, ${ns} ${ns === 1 ? "simulado" : "simulados"}`;
+      if (!confirm(`Substituir o progresso deste navegador pelo do arquivo (${resumo})?`)) return;
       substituir(novo);
-      setMsg(`Progresso importado: ${n} sessões.`);
+      setMsg(`Progresso importado: ${resumo}.`);
     } catch {
       setMsg("Não consegui ler esse arquivo. Use um JSON exportado por este app.");
     }
@@ -98,7 +100,7 @@ function Ajustes({ base }: { base: Base }) {
           <span className="eyebrow">guardado só neste navegador</span>
         </header>
         <p className="empty">
-          Sessões, respostas, revisões e treino ficam no armazenamento local deste navegador. Exporte uma cópia de vez em
+          Sessões, respostas, revisões, treino e simulados ficam no armazenamento local deste navegador. Exporte uma cópia de vez em
           quando, e importe-a para continuar em outro aparelho.
         </p>
         <div className="actions">

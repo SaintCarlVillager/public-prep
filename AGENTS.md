@@ -18,7 +18,7 @@ Instruções para qualquer agente de IA (Claude, Codex, Copilot…) que trabalhe
 | `revisao/index.html`, `scripts/revisao.py` | painel de revisão (administração), Artifact do claude.ai |
 | `scripts/validar.py` | validação de tudo acima |
 | `scripts/empacotar.py` | gera os dados que o app carrega (`web/public/dados/`, fora do git) |
-| `web/` | o app (Next.js, criado com create-t3-app): Painel, Sessão, Revisões, Treino, Banco, Ajustes |
+| `web/` | o app (Next.js, criado com create-t3-app): Painel, Sessão, Revisões, Treino, Simulados, Banco, Lei seca, Ajustes |
 
 ## Regras que não se negociam
 
@@ -98,7 +98,8 @@ Campos opcionais da questão:
 ### O app (`web/`)
 - Nome e marca: **ServentIA**, com o "IA" grifado (ver `DESIGN.md`, "Marca"). As chaves do localStorage continuam `public-prep:*`, para não perder o progresso de quem já estuda.
 - Todo `edital.json` tem `cargo_curto` ("Oficial", "Escrevente"): o app sempre rotula o edital com órgão e cargo curto ("TRF3 Oficial", "TJ-SP Escrevente"), e Ajustes mostra órgão e cargo por extenso.
-- Lógica pura em `web/src/lib/nucleo.ts` (relevância, revisão espaçada, treino) com testes em `nucleo.test.ts`; regras que juntam catálogo e progresso em `estudo.ts`; progresso em `progresso.ts`.
+- Lógica pura em `web/src/lib/nucleo.ts` (relevância, revisão espaçada, treino) com testes em `nucleo.test.ts`, e em `simulado.ts` (montagem e pontuação dos simulados) com testes em `simulado.test.ts`; regras que juntam catálogo e progresso em `estudo.ts`; progresso em `progresso.ts`.
+- **Simulados** (`/simulados`): a prova do edital montada do banco (completa ou reduzida, na estrutura de `blocos`) ou uma prova anterior inteira, com cronômetro e nota pela regra do edital, lida dos campos (`objetiva.escala`, `minimo_total` ou `media_ponderada`/`minimo_media`, `blocos[].peso`, `minimo`, `eliminatorio`), nunca escrita por concurso. O tempo vem de `objetiva.duracao_min` (e `duracao_inclui`) do edital; o resultado da prova anterior usa os `blocos` do `prova.json` (`{"id", "nome", "questoes": "1-20"}`). Todo edital novo leva `duracao_min`, e toda prova nova, `blocos`.
 - O progresso de quem estuda fica **no navegador** (localStorage), com exportar/importar em Ajustes. Não há login, banco nem recursos do Claude no app por enquanto.
 - Antes de cada merge que mexa em `web/`: `cd web && npm test && npm run typecheck && npm run build`.
 - Deploy na Vercel: **Root Directory** `web`. O `prebuild` roda `python3 ../scripts/empacotar.py`, que valida o repositório e gera os dados; se a validação falhar, o deploy falha.

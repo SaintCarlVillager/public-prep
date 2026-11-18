@@ -14,6 +14,7 @@ import {
   type EstadoItem,
 } from "./nucleo";
 import type { Progresso } from "./progresso";
+import { escolher, mesmoCargo, planejar, type Tamanho } from "./simulado";
 import type { Edital, IndiceQuestao } from "./tipos";
 
 const passou = (e: Edital) => !!e.prova && diasAte(e.prova) < 0;
@@ -231,3 +232,56 @@ export const rotuloProva = (b: Base, pid: string) => {
 };
 
 export const nomeMateriaDe = (b: Base, q: { temas?: string[] }) => b.nomeMateria(materiaDe(q));
+
+/* ---------- simulados ---------- */
+
+export type CandidataSimulado = IndiceQuestao & { ultima?: string };
+
+/** Questões que podem entrar no simulado do edital, por bloco e matéria: relevantes, de múltipla escolha, sem anuladas nem desatualizadas. */
+export function candidatasSimulado(b: Base, p: Progresso, e: Edital): Record<string, Record<string, CandidataSimulado[]>> {
+  const out: Record<string, Record<string, CandidataSimulado[]>> = {};
+  for (const q of Object.values(b.idx)) {
+    if (q.tipo !== "me" || q.anulada || q.desat) continue;
+    const r = b.rel(q.id, e);
+    if (!r) continue;
+    const est = estadoDe(p, q.id);
+    ((out[r.bloco] ??= {})[r.materia] ??= []).push({ ...q, ultima: est?.t ? (est.u ?? "0000-00-00") : undefined });
+  }
+  return out;
+}
+
+const contagemDe = (cands: Record<string, Record<string, unknown[]>>): Record<string, Record<string, number>> =>
+  Object.fromEntries(
+    Object.entries(cands).map(([bl, ms]) => [bl, Object.fromEntries(Object.entries(ms).map(([m, l]) => [m, l.length]))]),
+  );
+
+/** Quantas questões o banco tem para o simulado, por bloco e matéria. */
+export const disponiveisSimulado = (b: Base, p: Progresso, e: Edital) => contagemDe(candidatasSimulado(b, p, e));
+
+/** Monta o simulado do edital: plano por bloco e matéria, e as questões de cada bloco na ordem da prova (matérias na ordem do edital). */
+export function montarSimuladoEdital(b: Base, p: Progresso, e: Edital, tamanho: Tamanho) {
+  const cands = candidatasSimulado(b, p, e);
+  const plano = planejar(e.blocos ?? [], contagemDe(cands), tamanho);
+  const blocos = plano.map((pb) => ({
+    id: pb.id,
+    nome: pb.nome,
+    questoes: pb.materias.flatMap((m) => escolher(cands[pb.id]?.[m.materia] ?? [], m.montadas).map((q) => q.id)),
+  }));
+  return { plano, blocos, questoes: blocos.flatMap((x) => x.questoes) };
+}
+
+/** Provas do banco do mesmo órgão do edital (primeiro as do mesmo cargo, da mais recente para a mais antiga), com o edital do mesmo cargo (que dá o tempo). */
+export function provasDoOrgao(b: Base, e: Edital) {
+  const igualA = (pr: { cargo: string }) => (mesmoCargo(pr.cargo, e.cargo) ? 0 : 1);
+  return b.cat.provas
+    .filter((pr) => pr.orgao === orgaoDe(e))
+    .sort((x, y) => igualA(x) - igualA(y) || y.ano - x.ano || x.cargo.localeCompare(y.cargo))
+    .map((pr) => {
+      const igual = mesmoCargo(pr.cargo, e.cargo);
+      return {
+        prova: pr,
+        mesmoCargo: igual,
+        editalDoCargo: igual ? e : b.editais.find((x) => orgaoDe(x) === pr.orgao && mesmoCargo(pr.cargo, x.cargo)),
+      };
+    });
+}
