@@ -8,6 +8,18 @@
   "caderno": "Caderno de Prova '01', Tipo 001",
   "formato": "me",
   "questoes": 60,
+  "blocos": [
+    {
+      "id": "gerais",
+      "nome": "Conhecimentos Gerais",
+      "questoes": "1-20"
+    },
+    {
+      "id": "especificos",
+      "nome": "Conhecimentos Específicos",
+      "questoes": "21-60"
+    }
+  ],
   "gabarito": {
     "status": "definitivo",
     "fonte": "gabarito.pdf, tipo 1. Confirmado como definitivo: o aviso oficial de atribuição de questões e alteração de gabaritos (Edital nº 4/2020, DOU de 31/01/2020; atribuicao-e-alteracao-de-gabaritos.pdf) só altera os cargos 02 e 03, e o gabarito do cargo 01 publicado pela FCC (concursosfcc.com.br/concursos/trf3r119/gabaritos) é idêntico a este.",

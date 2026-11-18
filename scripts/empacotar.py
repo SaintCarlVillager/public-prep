@@ -159,6 +159,9 @@ def provas():
             "questoes": len(questoes), "anuladas": sorted(n for n in (anuladas_n | {q["numero"] for q in questoes if q.get("anulada")}) if isinstance(n, int)),
             "gabarito_status": gab.get("status"), "arquivo": arquivo,
         })
+        if p.get("blocos"):
+            # Blocos do caderno ({id, nome, questoes: "1-20"}), para o resultado da prova anterior no Simulado.
+            resumo[-1]["blocos"] = p["blocos"]
     return resumo, indice, figuras
 
 

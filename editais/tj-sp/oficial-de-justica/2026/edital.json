@@ -16,6 +16,8 @@
   "objetiva": {
     "formato": "me",
     "questoes": 70,
+    "duracao_min": 300,
+    "duracao_inclui": "Inclui a prova discursiva (2 questões), aplicada junto com a objetiva: 5 horas para as duas (Cap. IX, item 2).",
     "escala": 10,
     "pesos_iguais": true,
     "minimo_total": 0.5,

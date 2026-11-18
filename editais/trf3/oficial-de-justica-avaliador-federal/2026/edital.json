@@ -19,6 +19,8 @@
   "objetiva": {
     "formato": "me",
     "questoes": 60,
+    "duracao_min": 270,
+    "duracao_inclui": "Inclui a discursiva (estudo de caso), no mesmo dia e período: 4h30 para as duas (item 8.1, retificado pelo Edital nº 02/2026, e item 8.3).",
     "escala": 10,
     "media_ponderada": true,
     "minimo_media": 6.0,
