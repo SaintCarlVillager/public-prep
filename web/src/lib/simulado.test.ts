@@ -129,6 +129,17 @@ test("plano: cotas do edital no Bloco III e proporção do banco nos outros", ()
   assert.equal(pouco.pedidas, 40);
 });
 
+test("planejar: sem cota, partes iguais entre as matérias, com sobra para quem tem mais", () => {
+  const blocos: BlocoEdital[] = [
+    { id: "gerais", nome: "Gerais", questoes: 24, cobertura: [{ materia: "a" }, { materia: "b" }, { materia: "c" }, { materia: "d" }] },
+  ];
+  const [g] = planejar(blocos, { gerais: { a: 60, b: 10, c: 2, d: 0 } }, "completo");
+  assert.deepEqual(g!.materias.map((m) => [m.materia, m.pedidas]), [["a", 12], ["b", 10], ["c", 2], ["d", 0]]);
+  assert.equal(g!.montadas, 24);
+  const [r] = planejar(blocos, { gerais: { a: 60, b: 60, c: 60, d: 60 } }, "reduzido");
+  assert.deepEqual(r!.materias.map((m) => m.pedidas), [3, 3, 3, 3]);
+});
+
 test("escolha: nunca respondidas primeiro, depois as mais antigas; texto-base junto", () => {
   const q = (id: string, ultima?: string, tx?: string, n = 0) => ({ id, prova: "p", ultima, tx, n });
   const lista = [q("a", "2026-01-05"), q("b"), q("c", "2026-01-01"), q("t1", "2026-01-02", "T1", 1), q("t2", undefined, "T1", 2)];

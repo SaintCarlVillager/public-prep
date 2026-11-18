@@ -56,7 +56,7 @@ export interface BlocoEdital {
 export interface PlanoMateria {
   materia: string;
   rotulo?: string;
-  /** Quantas o simulado pede desta matéria (a cota do edital; sem cota, a parte proporcional ao banco). */
+  /** Quantas o simulado pede desta matéria (a cota do edital; sem cota, uma parte igual do bloco). */
   pedidas: number;
   /** Quantas o banco tem (relevantes, válidas). */
   disponiveis: number;
@@ -79,8 +79,11 @@ export interface PlanoBloco {
  *   reduzida na mesma proporção do bloco (maior resto). Se o banco não tem a cota inteira,
  *   entra o que houver e a falta é registrada; a vaga não passa para outra matéria, para
  *   o simulado não fugir da estrutura da prova.
- * - Matérias sem cota: as vagas restantes do bloco são repartidas na proporção das questões
- *   relevantes que o banco tem de cada uma (maior resto, sem passar do que existe).
+ * - Matérias sem cota: as vagas restantes do bloco são repartidas em partes iguais entre as
+ *   matérias que o banco tem (maior resto). Quem não tem questões suficientes cede a vaga às
+ *   outras, para o bloco sair inteiro; só falta questão quando o banco não tem o bloco todo.
+ *   Partes iguais seguem melhor o edital do que a proporção do banco, que deixaria as matérias
+ *   com muitas questões cadastradas (Português, Direito do TJ-SP) dominarem o bloco.
  */
 export function planejar(
   blocos: BlocoEdital[],
@@ -107,10 +110,10 @@ export function planejar(
     comCota.forEach((m, i) => pedidas.set(m.materia, partes[i]!));
     const nResto = comCota.length ? partes[comCota.length]! : n;
     if (semCota.length) {
-      // Proporcional ao banco e limitado ao que existe; se o banco não tem o bloco inteiro, a falta fica no bloco.
+      // Partes iguais, limitadas ao que existe; se o banco não tem o bloco inteiro, a falta fica no bloco.
       const d = semCota.map((m) => disp(m.materia));
-      const pelaBase = distribuir(nResto, d, d);
-      semCota.forEach((m, i) => pedidas.set(m.materia, pelaBase[i]!));
+      const iguais = distribuir(nResto, d.map(() => 1), d);
+      semCota.forEach((m, i) => pedidas.set(m.materia, iguais[i]!));
     }
     const materias = mats.map((m) => {
       const p = pedidas.get(m.materia) ?? 0;
