@@ -40,7 +40,8 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html, body { overflow-x: hidden; }
+/* clip (e não hidden): não cria área de rolagem, então position: sticky continua funcionando. */
+html, body { overflow-x: hidden; overflow-x: clip; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--display); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
 .wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 h1, h2, h3 { text-wrap: balance; margin: 0; }
@@ -259,3 +260,47 @@ fieldset.editais legend { padding: 0; margin-bottom: 6px; }
 .artigos { display: grid; margin-top: 8px; }
 .artigo { display: grid; gap: 4px; padding: 14px 0; border-top: 1px solid var(--rule); scroll-margin-top: 16px; }
 .artigo:first-of-type { border-top: 0; }
+
+/* Simulados: barra com cronômetro, grade de questões e resultado */
+.sim-bar { position: sticky; top: 0; z-index: 3; background: var(--paper); border-bottom: 1px solid var(--rule); padding: 8px 0; display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.relogio { display: grid; gap: 0; min-width: 0; }
+.relogio b { font-size: 28px; line-height: 1.15; font-weight: 600; font-variant-numeric: tabular-nums; }
+.relogio small { color: var(--muted); font-size: 13px; line-height: 18px; font-variant-numeric: tabular-nums; }
+.relogio.pouco b { color: var(--warn); }
+.sim-corpo { display: grid; gap: 24px; align-items: start; min-width: 0; }
+.sim-questao { display: grid; gap: 16px; min-width: 0; scroll-margin-top: 104px; }
+.sim-nav { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.sim-nav .btn, .btn.revisar { width: 100%; }
+.btn.revisar[aria-pressed="true"] { border: 2px solid var(--brass); padding: 11px 23px; background: var(--warn-soft); }
+.grade { background: var(--sheet); border: 1px solid var(--rule); border-radius: 16px; padding: 16px; display: grid; gap: 16px; min-width: 0; align-content: start; }
+@media (min-width: 900px) {
+  .sim-corpo { grid-template-columns: minmax(0, 1fr) 300px; }
+  .grade { position: sticky; top: 88px; max-height: calc(100vh - 104px); overflow-y: auto; }
+}
+.grade-legenda { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; line-height: 18px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.grade-legenda span { display: inline-flex; align-items: center; gap: 6px; }
+.grade-bloco { display: grid; gap: 8px; }
+.celulas { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; }
+.cel { font: inherit; position: relative; min-height: 48px; padding: 4px 2px; border-radius: 6px; border: 1px solid var(--rule-strong); background: var(--sheet); color: var(--ink); display: grid; place-items: center; align-content: center; cursor: pointer; font-variant-numeric: tabular-nums; }
+.cel .n { font-size: 14px; line-height: 18px; font-weight: 600; }
+.cel .L { font-size: 12px; line-height: 14px; color: var(--muted); }
+.cel.resp { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.cel.resp .L { color: var(--paper); }
+/* Para revisar: canto dobrado (forma, não só cor). */
+.cel.rev::after, .cel-mini.rev::after { content: ""; position: absolute; top: -1px; right: -1px; border-style: solid; border-width: 0 16px 16px 0; border-color: transparent var(--brass) transparent transparent; border-top-right-radius: 6px; }
+.cel.resp.rev::after { border-right-color: var(--brass-soft); }
+.cel[aria-current="true"] { box-shadow: inset 0 -5px 0 var(--grifo); }
+.cel-mini { position: relative; display: inline-block; width: 18px; height: 18px; border-radius: 4px; border: 1px solid var(--rule-strong); background: var(--sheet); }
+.cel-mini.resp { background: var(--ink); border-color: var(--ink); }
+.cel-mini.rev::after { border-width: 0 8px 8px 0; border-top-right-radius: 4px; }
+.sim-info { display: grid; gap: 6px; }
+.sim-info p { margin: 0; }
+.sim-info .sub, .sim-regra { color: var(--muted); font-size: 14px; line-height: 20px; }
+.sim-regra { margin: 0; }
+.sim-regra .eyebrow { display: block; margin-bottom: 2px; }
+.plano li > .sub, .hist li > .sub { grid-column: 1 / -1; }
+.plano .falta { color: var(--warn); font-weight: 600; }
+.hist li a { color: var(--ink); font-weight: 600; }
+.notice ul { margin: 6px 0 0; padding-left: 18px; }
+.veredito-sim { font-size: 20px; line-height: 26px; }
+h3.sim-bloco { font-size: 16px; line-height: 22px; font-weight: 600; margin-top: 8px; }

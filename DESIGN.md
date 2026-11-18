@@ -47,7 +47,7 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 ## Layout
 
 - Coluna única de até **1040 px**, gutter `max(16px, env(safe-area-inset-*))`. Pensado primeiro a **360 px**.
-- Cabeçalho no próprio papel (sem faixa escura): nome, um prazo por concurso ativo e as abas, uma rota cada: **Painel**, **Sessão**, **Revisões**, **Treino**, **Banco**, **Ajustes**. A aba ativa tem sublinhado grifo.
+- Cabeçalho no próprio papel (sem faixa escura): nome, um prazo por concurso ativo e as abas, uma rota cada: **Painel**, **Sessão**, **Revisões**, **Treino**, **Simulados**, **Banco**, **Lei seca**, **Ajustes**. No celular as abas rolam de lado e a ativa fica sempre à vista. A aba ativa tem sublinhado grifo.
 - Nada tocável abaixo de 48 px de altura (campos de filtro, 44 px).
 - Raios: 6 px (selos, letra, campos), 10 px (botões, alternativas), 16 px (cartões).
 - Bordas, não sombras.
@@ -58,7 +58,9 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 - **Selos** (`.pill`): 12 px, 600, cantos de 6 px. TJ-SP (ou os dois) em grifo; TRF3 com contorno; acertou em azul, errou em laranja; anulada neutra.
 - **Alternativa**: botão inteiro com a letra num quadrado. Escolhida: borda 2 px `--ink` e letra em grifo. Depois da entrega: correta em azul com "✓ Correta", a marcada errada em laranja com "✗ Sua resposta", e **cada alternativa com o seu comentário logo abaixo** (`exp_alt`). O comentário da questão inteira só aparece quando falta o de alguma alternativa.
 - **Card do Treino**: o enunciado da questão em cartão, e abaixo a alternativa como afirmação, num cartão que se arrasta (esquerda = falso, direita = verdadeiro; inclina de leve, sem animação com `prefers-reduced-motion`). Os botões "← Falso" e "Verdadeiro →" ficam sempre visíveis. Depois: "✓ Você acertou" ou "✗ Você errou", sempre dizendo se a afirmação é verdadeira ou falsa, e o comentário da questão com o gabarito.
-- **Carimbo** da nota: número sobre grifo (laranja claro abaixo de 50%).
+- **Carimbo** da nota: número sobre grifo (laranja claro abaixo de 50%; no Simulado, quando eliminado).
+- **Barra do simulado** (`.sim-bar`): presa no topo enquanto se rola; à esquerda o **cronômetro** ("Restam" e o relógio em 28 px, números tabulares, em `--warn` nos últimos 5 minutos ou 10% do tempo) e a contagem de respondidas; à direita "Pausar" e "Entregar". Pausado, as questões somem até retomar.
+- **Grade de questões** (`.grade`, `.cel`): um quadrado de 48 px por questão, agrupado por bloco, com o número e a letra marcada ("–" em branco). Respondida: preenchida em `--ink`; em branco: contorno; para revisar: **canto dobrado** em `--brass` (forma, não só cor); a questão aberta tem sublinhado grifo, como a aba ativa. Legenda sempre visível e `aria-label` com o estado. No desktop (≥ 900 px) a grade fica numa coluna à direita, presa sob a barra.
 
 ## Estados e escrita
 

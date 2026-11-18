@@ -136,6 +136,14 @@ def validar_editais(temas, normas):
         obj = d.get("objetiva", {}).get("questoes")
         if obj and total != obj:
             erros.append(f"{rel}: os blocos somam {total} questões, a objetiva tem {obj}")
+        objetiva = d.get("objetiva", {})
+        dur = objetiva.get("duracao_min")
+        if dur is None:
+            avisos.append(f"{rel}: objetiva sem 'duracao_min' (o simulado fica sem cronômetro)")
+        elif not (isinstance(dur, int) and not isinstance(dur, bool) and 0 < dur <= 720):
+            erros.append(f"{rel}: 'objetiva.duracao_min' deve ser um número inteiro de minutos (ex.: 300)")
+        if "duracao_inclui" in objetiva and not (isinstance(objetiva["duracao_inclui"], str) and objetiva["duracao_inclui"].strip()):
+            erros.append(f"{rel}: 'objetiva.duracao_inclui' deve ser um texto curto")
 
 
 def validar_vf(q, anulada, onde):
@@ -191,6 +199,40 @@ def validar_exp_alt(q, onde):
             erros.append(f"{onde}: HTML no 'exp_alt' da letra {L}; use **negrito**")
 
 
+FAIXA = re.compile(r"^(\d+)-(\d+)$")
+
+
+def validar_blocos_prova(p, rel):
+    """'blocos' de prova.json: [{"id", "nome", "questoes": "1-20"}], faixas sem sobreposição dentro de 1..questoes."""
+    blocos = p.get("blocos")
+    if blocos is None:
+        return
+    if not isinstance(blocos, list) or not blocos:
+        erros.append(f"{rel}: 'blocos' deve ser uma lista de {{id, nome, questoes}}")
+        return
+    vistos, ids = set(), set()
+    for b in blocos:
+        onde = f"{rel} › bloco {b.get('id')}"
+        if not b.get("id") or not b.get("nome"):
+            erros.append(f"{onde}: bloco sem 'id' ou 'nome'")
+        if b.get("id") in ids:
+            erros.append(f"{onde}: id de bloco repetido")
+        ids.add(b.get("id"))
+        m = FAIXA.match(str(b.get("questoes", "")))
+        if not m or int(m.group(1)) > int(m.group(2)):
+            erros.append(f"{onde}: 'questoes' deve ser uma faixa \"1-20\"")
+            continue
+        faixa = set(range(int(m.group(1)), int(m.group(2)) + 1))
+        if faixa & vistos:
+            erros.append(f"{onde}: faixa {b['questoes']} se sobrepõe a outro bloco")
+        if max(faixa) > (p.get("questoes") or 0):
+            erros.append(f"{onde}: faixa {b['questoes']} passa do número de questões da prova")
+        vistos |= faixa
+    faltam = set(range(1, (p.get("questoes") or 0) + 1)) - vistos
+    if faltam:
+        avisos.append(f"{rel}: questões fora de qualquer bloco: {sorted(faltam)[:10]}")
+
+
 def validar_provas(temas, normas):
     total = pendentes = 0
     for caminho in sorted(glob.glob(os.path.join(RAIZ, "provas", "**", "prova.json"), recursive=True)):
@@ -212,6 +254,7 @@ def validar_provas(temas, normas):
             if not os.path.exists(os.path.join(pasta, nome)):
                 erros.append(f"{rel}: arquivo '{nome}' não encontrado na pasta")
         anuladas = set(p.get("anuladas", []))
+        validar_blocos_prova(p, rel)
 
         partes = ([os.path.join(pasta, "questoes.json")] if os.path.exists(os.path.join(pasta, "questoes.json")) else []) \
             + sorted(glob.glob(os.path.join(pasta, "questoes", "*.json")))

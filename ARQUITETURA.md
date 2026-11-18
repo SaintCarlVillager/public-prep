@@ -53,7 +53,7 @@ O **repositório é a fonte de verdade**: legível, versionado, revisável. Um s
 O painel deixou de ser um Artifact do claude.ai e virou um app **Next.js** (criado com create-t3-app, App Router e Tailwind), publicado na **Vercel**, para que qualquer pessoa estude sem conta no claude.ai.
 
 - **Conteúdo estático.** As provas, os editais e a taxonomia continuam em JSON no repositório; o build roda `scripts/empacotar.py` e serve o resultado como arquivos. Nenhum banco para conteúdo.
-- **Progresso no navegador.** Sessões, respostas, revisões e treino ficam no localStorage, com exportar/importar. O formato espelha as coleções do banco do painel antigo (`sessoes`, `respostas`, `estado`, `treino`, `meta/config`), então um dump dele pode ser importado.
+- **Progresso no navegador.** Sessões, respostas, revisões, treino e simulados ficam no localStorage, com exportar/importar. O formato espelha as coleções do banco do painel antigo (`sessoes`, `respostas`, `estado`, `treino`, `meta/config`), então um dump dele pode ser importado. Os simulados ficam em `simulados` (campo opcional: progresso antigo sem ele continua valendo), cada um com edital, tipo, tamanho, questões por bloco, respostas, cronômetro (tempo ativo e pausas) e, depois da entrega, o resultado (nota, habilitado, acertos por bloco). A entrega também grava uma sessão entregue (`sessoes` + `respostas`), que alimenta placar e revisões.
 - **Sem Claude no app.** Sessões automáticas, correção pelo gabarito, revisão espaçada e Treino funcionam sozinhos. Mini-aulas, correção de discursivas e sessões montadas pelo Claude ficaram de fora.
 - **Depois, se precisar:** login (Auth.js) e Postgres (Drizzle) para sincronizar o progresso entre aparelhos; o T3 já prevê os dois.
 
@@ -86,7 +86,8 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
   "id": "tj-sp/oficial-de-justica/2026",
   "orgao": "TJ-SP", "cargo": "Oficial de Justiça", "cargo_curto": "Oficial",
   "banca": "Vunesp", "prova": "2027-03-14", "legislacao_ate": "2026-10-14",
-  "objetiva": { "formato": "me", "questoes": 70, "escala": 10, "minimo_total": 0.5 },
+  "objetiva": { "formato": "me", "questoes": 70, "duracao_min": 300,
+                "duracao_inclui": "Inclui a discursiva... (Cap. IX, item 2).", "escala": 10, "minimo_total": 0.5 },
   "discursiva": { "tipo": "questoes", "questoes": 2, "escala": 40, "minimo": 24 },
   "blocos": [
     { "id": "II", "nome": "Conhecimentos Específicos", "questoes": 40, "minimo": 0.5, "eliminatorio": true,
@@ -104,6 +105,8 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
 - Intervalos incluem os artigos com letra no meio (`"396-396-A"`, `"994-1091-A"`); `"*"` é a norma inteira.
 - `questoes` dentro de uma cobertura é opcional, para quando o edital divide o bloco (3 de Matemática e 4 de Raciocínio Lógico).
 - `legislacao_ate`: a legislação vale como estava na publicação do edital.
+- `objetiva.duracao_min`: duração oficial da prova, em minutos; `objetiva.duracao_inclui` diz se esse tempo inclui a redação ou a discursiva, citando o item do edital. O Simulado usa os dois.
+- A nota do Simulado lê `objetiva.escala`, `minimo_total` (fração da nota no conjunto) ou `media_ponderada` + `minimo_media`, e de cada bloco `peso`, `minimo` e `eliminatorio`.
 - `cargo_curto`: rótulo curto do cargo ("Oficial", "Escrevente"); o app mostra o edital sempre como órgão + cargo curto ("TJ-SP Escrevente").
 - `"*"` numa norma (`"CPC": ["*"]`) diz que o edital cobra a norma sem listar artigos, como faz o TRF3. Aí a relevância vem dos **temas**, e a norma só confirma.
 - `destaques`: dispositivos que o edital cita nominalmente (`"CPP 245"`, `"CPC 252-254"`). Não mudam a relevância, mas sobem a prioridade de estudo.
@@ -141,9 +144,17 @@ A banca vem primeiro nas provas porque o estilo da banca é o que mais pesa no e
   "caderno": "TJSP2403/001",
   "gabarito": "resolvido",            // "oficial" | "definitivo" | "resolvido" (pela lei, sem oficial)
   "anuladas": [],
+  "blocos": [
+    { "id": "I", "nome": "Língua Portuguesa", "questoes": "1-20" },
+    { "id": "II", "nome": "Conhecimentos Específicos", "questoes": "21-78" },
+    { "id": "III", "nome": "Conhecimentos Gerais", "questoes": "79-100",
+      "materias": { "Atualidades": "79-82", "Matemática": "83-86" } }
+  ],
   "texto": "texto.txt"
 }
 ```
+
+`blocos` segue a capa e os títulos do caderno (faixas de números, sem sobreposição); o Simulado mostra o resultado da prova anterior por bloco. `materias` é opcional.
 
 ### Questão (`provas/vunesp/tj-sp/oficial-de-justica/2024/questoes.json`)
 
@@ -228,6 +239,10 @@ Rotas em `web/src/app/`:
   sem repetir questões de sessões abertas. Depois da entrega: gabarito, comentário por alternativa e agendamento da revisão.
 - **Revisões** (`/revisoes`): o calendário de revisão (errou: 1 dia; acertou: 1, 3, 7, 15, 30, 60).
 - **Treino** (`/treino`): cada alternativa marcada em `vf` vira um card de verdadeiro ou falso, com a mesma escada.
+- **Simulados** (`/simulados`), por edital ativo:
+  - **do edital**: completo ou reduzido (metade de cada bloco, para cima). Cada bloco tem as questões do edital; nas matérias com cota (`cobertura[].questoes`) vale a cota, e nas outras as vagas são repartidas em partes iguais entre as matérias (maior resto); a matéria que não tem questões suficientes no banco cede a vaga às outras. Entram só relevantes, sem anuladas, desatualizadas nem discursivas; primeiro as nunca respondidas, depois as respondidas há mais tempo; textos-base juntos. Se o banco não tem o bloco inteiro, o simulado sai com o que houver e avisa;
+  - **prova anterior** do mesmo órgão: inteira, na ordem original, sem discursivas; anuladas contam como acerto para todos;
+  - cronômetro regressivo (só tempo ativo, com pausa registrada; ao zerar, entrega sozinho), grade das questões com respondidas, em branco e para revisar; resultado por bloco, nota final pela regra do edital ("Habilitado" ou "Eliminado no Bloco X"), tempo e revisão questão por questão. As respostas entram no placar e nas revisões.
 - **Banco** (`/banco`): filtros por edital, banca, prova, matéria, tema e situação, e "Praticar estas".
 - **Lei seca** (`/lei`): os artigos que cada bloco do edital cobra, no texto vigente (`leis/`), e cada norma inteira com busca (`/lei?n=CPC#a-246`). Depois da correção, cada dispositivo citado pela questão abre o artigo ali mesmo.
 - **Ajustes** (`/ajustes`): editais ativos, tamanho da sessão, exportar, importar e apagar o progresso.

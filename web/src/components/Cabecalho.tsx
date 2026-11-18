@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 import { useCatalogo } from "~/lib/catalogo";
 import { ativos } from "~/lib/estudo";
@@ -13,6 +14,7 @@ const ABAS = [
   ["/sessao", "Sessão"],
   ["/revisoes", "Revisões"],
   ["/treino", "Treino"],
+  ["/simulados", "Simulados"],
   ["/banco", "Banco"],
   ["/lei", "Lei seca"],
   ["/ajustes", "Ajustes"],
@@ -20,6 +22,11 @@ const ABAS = [
 
 export function Cabecalho() {
   const caminho = usePathname();
+  const abas = useRef<HTMLElement>(null);
+  // No celular as abas rolam de lado: deixa a aba ativa à vista.
+  useEffect(() => {
+    abas.current?.querySelector<HTMLElement>('[aria-current="page"]')?.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }, [caminho]);
   const { base } = useCatalogo();
   const progresso = useProgresso();
   const eds = base ? ativos(base, progresso) : [];
@@ -60,7 +67,7 @@ export function Cabecalho() {
               })}
           </div>
         </div>
-        <nav className="tabs" aria-label="Seções">
+        <nav className="tabs" aria-label="Seções" ref={abas}>
           {ABAS.map(([href, rotulo]) => {
             const ativo = href === "/" ? caminho === "/" : caminho.startsWith(href);
             return (

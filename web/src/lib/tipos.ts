@@ -20,6 +20,28 @@ export interface Bloco {
   cobertura?: Cobertura[];
 }
 
+/** Regras da prova objetiva no edital (como se calcula a nota e quanto tempo dura). */
+export interface Objetiva {
+  formato?: string;
+  questoes?: number;
+  /** Nota máxima de cada bloco e da objetiva (10). */
+  escala?: number;
+  pesos_iguais?: boolean;
+  /** Fração mínima da nota no conjunto (0.5 = nota 5 de 10). */
+  minimo_total?: number;
+  /** Nota final = média ponderada das notas dos blocos (pesos em `blocos[].peso`). */
+  media_ponderada?: boolean;
+  /** Média mínima para habilitar (na escala da objetiva). */
+  minimo_media?: number;
+  minimo_media_cotas?: number;
+  /** A regra em texto, como o edital a descreve. */
+  nota?: string;
+  /** Duração oficial da prova, em minutos. */
+  duracao_min?: number;
+  /** O que essa duração inclui (redação, discursiva), com o item do edital. */
+  duracao_inclui?: string;
+}
+
 export interface Edital {
   id: string;
   orgao?: string;
@@ -28,7 +50,16 @@ export interface Edital {
   cargo_curto?: string;
   banca?: string;
   prova?: string;
+  objetiva?: Objetiva;
   blocos?: Bloco[];
+}
+
+/** Bloco do caderno de uma prova (prova.json): "questoes" é a faixa de números, "1-20". */
+export interface BlocoProva {
+  id: string;
+  nome: string;
+  questoes: string;
+  materias?: Record<string, string>;
 }
 
 export interface ResumoProva {
@@ -42,6 +73,7 @@ export interface ResumoProva {
   anuladas: number[];
   gabarito_status?: string;
   arquivo: string;
+  blocos?: BlocoProva[];
 }
 
 /** Índice leve de cada questão, no catálogo. */

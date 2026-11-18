@@ -9,6 +9,29 @@
   "versao": "3",
   "formato": "me",
   "questoes": 100,
+  "blocos": [
+    {
+      "id": "I",
+      "nome": "Língua Portuguesa",
+      "questoes": "1-20"
+    },
+    {
+      "id": "II",
+      "nome": "Conhecimentos Específicos",
+      "questoes": "21-78"
+    },
+    {
+      "id": "III",
+      "nome": "Conhecimentos Gerais",
+      "questoes": "79-100",
+      "materias": {
+        "Atualidades": "79-82",
+        "Matemática": "83-86",
+        "Raciocínio Lógico": "87-92",
+        "Informática": "93-100"
+      }
+    }
+  ],
   "gabarito": {
     "status": "definitivo",
     "fonte": "gabarito-definitivo.pdf (versão 3, após recursos); gabarito-preliminar.pdf para comparação",
