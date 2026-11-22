@@ -3,6 +3,10 @@ import "~/styles/globals.css";
 import { type Metadata, type Viewport } from "next";
 import { IBM_Plex_Sans, Literata } from "next/font/google";
 
+import { Link } from "@astryxdesign/core/Link";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { Cabecalho } from "~/components/Cabecalho";
 import { Dialogos } from "~/components/Dialogo";
 import { Provedores } from "~/components/Provedores";
@@ -44,9 +48,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <main id="conteudo" tabIndex={-1}>
               <div className="wrap">{children}</div>
             </main>
-            <footer className="wrap rodape">
-              Seu progresso fica só neste navegador. Exporte uma cópia em <a href="/ajustes">Ajustes</a>.
-            </footer>
+            <VStack as="footer" className="wrap" paddingBlockEnd={8}>
+              <Text as="p" size="sm" color="secondary">
+                Seu progresso fica só neste navegador. Exporte uma cópia em{" "}
+                <Link href="/ajustes" color="inherit" type="inherit" hasUnderline>
+                  Ajustes
+                </Link>
+                .
+              </Text>
+            </VStack>
             <Dialogos />
           </CatalogoProvider>
         </Provedores>

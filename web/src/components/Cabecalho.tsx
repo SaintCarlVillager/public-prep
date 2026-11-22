@@ -4,6 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 
+import { Heading } from "@astryxdesign/core/Heading";
+import { HStack } from "@astryxdesign/core/HStack";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { useCatalogo } from "~/lib/catalogo";
 import { ativos } from "~/lib/estudo";
 import { diasAte, fmtData } from "~/lib/nucleo";
@@ -20,6 +25,9 @@ const ABAS = [
   ["/ajustes", "Ajustes"],
 ] as const;
 
+/* Estrutura em componentes Astryx; ficam no painel.css só a identidade do DESIGN.md: o logotipo com o "IA"
+   grifado (.marca) e as abas com sublinhado grifo (.tabs), que rolam de lado no celular. O TabList do Astryx
+   não foi usado porque as abas são links de rota (aria-current), não um tablist com painéis. */
 export function Cabecalho() {
   const caminho = usePathname();
   const abas = useRef<HTMLElement>(null);
@@ -32,41 +40,45 @@ export function Cabecalho() {
   const eds = base ? ativos(base, progresso) : [];
   const porBanca: Record<string, string[]> = {};
   for (const e of eds) (porBanca[e.banca ?? "—"] ??= []).push(base!.rotulo(e));
+  const prazos = eds.filter((e) => e.prova);
 
   return (
     <header className="band">
-      <div className="wrap">
-        <div className="head">
-          <div style={{ display: "grid", gap: 6, minWidth: 0 }}>
-            <div className="eyebrow">
+      <VStack className="wrap" gap={4} paddingBlockStart={6}>
+        <HStack justify="between" align="end" gap={4} wrap="wrap">
+          <VStack gap={1.5} className="min-w-0">
+            <Text className="eyebrow">
               {eds.length
                 ? Object.entries(porBanca)
                     .map(([b, l]) => `${b} · ${l.join(" e ")}`)
                     .join("  ·  ")
                 : "Provas reais etiquetadas"}
-            </div>
-            <h1>
+            </Text>
+            <Heading level={1}>
               <Link className="brand marca" href="/" aria-label="ServentIA, início">
                 Servent<span className="ia">IA</span>
               </Link>
-            </h1>
-          </div>
-          <div className="clocks">
-            {eds
-              .filter((e) => e.prova)
-              .map((e) => {
+            </Heading>
+          </VStack>
+          {prazos.length > 0 && (
+            <HStack gap={6} wrap="wrap">
+              {prazos.map((e) => {
                 const d = diasAte(e.prova!);
                 return (
-                  <div key={e.id} className="clock">
-                    <span className="eyebrow">
+                  // À direita do nome; no celular, quando os prazos descem para baixo dele, alinhados à esquerda.
+                  <VStack key={e.id} gap={0.5} className="items-end max-sm:items-start">
+                    <Text className="eyebrow">
                       {base!.rotulo(e)} · {fmtData(e.prova)}
-                    </span>
-                    <b>{d === 0 ? "hoje" : `${d} ${d === 1 ? "dia" : "dias"}`}</b>
-                  </div>
+                    </Text>
+                    <Text size="2xl" weight="semibold" hasTabularNumbers className="leading-none">
+                      {d === 0 ? "hoje" : `${d} ${d === 1 ? "dia" : "dias"}`}
+                    </Text>
+                  </VStack>
                 );
               })}
-          </div>
-        </div>
+            </HStack>
+          )}
+        </HStack>
         <nav className="tabs" aria-label="Seções" ref={abas}>
           {ABAS.map(([href, rotulo]) => {
             const ativo = href === "/" ? caminho === "/" : caminho.startsWith(href);
@@ -77,7 +89,7 @@ export function Cabecalho() {
             );
           })}
         </nav>
-      </div>
+      </VStack>
     </header>
   );
 }
