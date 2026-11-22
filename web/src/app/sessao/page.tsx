@@ -3,6 +3,17 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef } from "react";
 
+import { Banner } from "@astryxdesign/core/Banner";
+import { Button } from "@astryxdesign/core/Button";
+import { Card } from "@astryxdesign/core/Card";
+import { EmptyState } from "@astryxdesign/core/EmptyState";
+import { Heading } from "@astryxdesign/core/Heading";
+import { HStack } from "@astryxdesign/core/HStack";
+import { Selector } from "@astryxdesign/core/Selector";
+import { Spinner } from "@astryxdesign/core/Spinner";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { ComCatalogo } from "~/components/Comum";
 import { CartaoQuestao, TextoBaseQuestao } from "~/components/Questao";
 import { apagarSessao, criarSessao, entregar, marcar } from "~/lib/acoes";
@@ -54,72 +65,64 @@ function Sessao({ base }: { base: Base }) {
   const lista = Object.entries(p.sessoes).sort((a, b) => (b[1].data + b[0]).localeCompare(a[1].data + a[0]));
 
   return (
-    <div className="stack">
-      <div className="session-head">
-        <div style={{ display: "grid", gap: 6, minWidth: 0 }}>
-          <span className="eyebrow">
+    // min-w-0: a coluna do app é um grid, e sem isto um título longo alarga a página no celular.
+    <VStack gap={6} className="min-w-0">
+      <HStack justify="between" align="end" gap={3} wrap="wrap">
+        <VStack gap={1.5} className="min-w-0">
+          <Text type="supporting" color="secondary" hasTabularNumbers>
             {id ? `Sessão · ${fmtDia(p.sessoes[id]!.data)} · ${p.sessoes[id]!.questoes.length} questões` : "Sessão"}
-          </span>
-          <h2>{id ? p.sessoes[id]!.titulo : "Nenhuma sessão ainda"}</h2>
+          </Text>
+          <Heading level={2}>{id ? p.sessoes[id]!.titulo : "Nenhuma sessão ainda"}</Heading>
           {id && <Mistura base={base} qids={p.sessoes[id]!.questoes} />}
-        </div>
-        <div className="actions">
-          <label className="field eyebrow">
-            Sessões
-            <select
-              value={id ?? ""}
-              disabled={!lista.length}
-              onChange={(e) =>
-                atualizar((x) => {
-                  x.atual = e.target.value;
-                })
-              }
-            >
-              {lista.map(([sid, s]) => (
-                <option key={sid} value={sid}>
-                  {s.titulo} · {fmtDia(s.data)}
-                  {p.respostas[sid] ? " ✓" : ""}
-                </option>
-              ))}
-              {!lista.length && <option value="">Nenhuma sessão</option>}
-            </select>
-          </label>
-        </div>
-      </div>
-      <div className="actions">
-        <button className="btn" type="button" onClick={nova}>
-          Nova sessão automática
-        </button>
+        </VStack>
+        <Selector
+          label="Sessões"
+          width={280}
+          isDisabled={!lista.length}
+          placeholder="Nenhuma sessão"
+          value={id ?? undefined}
+          onChange={(v) =>
+            atualizar((x) => {
+              if (v) x.atual = v;
+            })
+          }
+          options={lista.map(([sid, s]) => ({
+            value: sid,
+            label: `${s.titulo} · ${fmtDia(s.data)}${p.respostas[sid] ? " · entregue" : ""}`,
+          }))}
+        />
+      </HStack>
+      <HStack gap={2} wrap="wrap">
+        <Button label="Nova sessão automática" variant="primary" onClick={nova} />
         {id && !p.respostas[id] && (
-          <button
-            className="btn ghost"
-            type="button"
+          <Button
+            label="Apagar sessão"
+            variant="ghost"
             onClick={async () => {
               if (await confirmar({ titulo: "Apagar esta sessão não entregue?", ok: "Apagar sessão", perigo: true })) apagarSessao(id);
             }}
-          >
-            Apagar sessão
-          </button>
+          />
         )}
-      </div>
+      </HStack>
       {id ? (
         <Questoes key={id} base={base} p={p} id={id} />
       ) : (
-        <section className="card">
-          <p className="empty">
-            Nenhuma sessão ainda. Clique em <b>Nova sessão automática</b>: o app junta revisões vencidas, temas fracos e
-            questões nunca vistas do edital de prova mais próxima.
-          </p>
-        </section>
+        <Card>
+          <EmptyState
+            title="Monte a sua primeira sessão"
+            headingLevel={3}
+            description="Toque em “Nova sessão automática”: o app junta revisões vencidas, temas fracos e questões nunca vistas do edital de prova mais próxima."
+          />
+        </Card>
       )}
-    </div>
+    </VStack>
   );
 }
 
 function Mistura({ base, qids }: { base: Base; qids: string[] }) {
   const p = useProgresso();
   return (
-    <div className="mix">
+    <HStack gap={1.5} wrap="wrap" align="center">
       {ativos(base, p).map((e) => {
         const n = qids.filter((q) => base.rel(q, e)).length;
         return n ? (
@@ -128,7 +131,7 @@ function Mistura({ base, qids }: { base: Base; qids: string[] }) {
           </span>
         ) : null;
       })}
-    </div>
+    </HStack>
   );
 }
 
@@ -137,8 +140,14 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
   const feito = p.respostas[id];
   const { provas, erro } = useProvas(s.questoes.map(slugDe));
   if (erro)
-    return <div className="notice bad">Não consegui carregar as questões desta sessão. Recarregue a página.</div>;
-  if (!provas) return <p className="empty">Carregando as questões…</p>;
+    return <Banner status="error" title="Não consegui carregar as questões desta sessão." description="Recarregue a página." />;
+  if (!provas)
+    return (
+      <HStack gap={2} align="center">
+        <Spinner aria-label="Carregando" />
+        <Text color="secondary">Carregando as questões…</Text>
+      </HStack>
+    );
 
   const completa = (qid: string) => provas[slugDe(qid)]?.porId[qid];
   const textoDe = (q: Questao): TextoBase | null => (q.texto ? (provas[slugDe(q.id)]?.textos[q.texto] ?? null) : null);
@@ -150,40 +159,48 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
   return (
     <>
       {feito && (
-        <section className="card">
-          <div className="result">
+        <Card padding={6}>
+          <HStack gap={4} align="center" wrap="wrap">
+            {/* Carimbo da nota: identidade do app (painel.css). */}
             <span className={`stamp ${pct(feito.acertos, feito.total) < 50 ? "low" : ""}`}>
               {feito.acertos}/{feito.total}
             </span>
-            <div>
-              <b>Sessão entregue</b>
-              <br />
-              <small className="eyebrow">{new Date(feito.entregueEm).toLocaleString("pt-BR")}</small>
-              <p>Abaixo, cada questão com gabarito e explicação. As erradas voltam amanhã na aba Revisões.</p>
-            </div>
-          </div>
-        </section>
+            <VStack gap={1} className="min-w-0">
+              <Text weight="semibold">Sessão entregue</Text>
+              <Text type="supporting" color="secondary" hasTabularNumbers>
+                {new Date(feito.entregueEm).toLocaleString("pt-BR")}
+              </Text>
+              <Text as="p">Abaixo, cada questão com gabarito e explicação. As erradas voltam amanhã na aba Revisões.</Text>
+            </VStack>
+          </HStack>
+        </Card>
       )}
-      <div className="qlist">
+      <VStack gap={4}>
         {s.questoes.map((qid, i) => {
           const q = completa(qid);
           const num = String(i + 1).padStart(2, "0");
           if (!q)
             return (
-              <article key={qid} className="q">
-                <div className="meta">
-                  <span className="num">{num}</span>
-                  <span className="pill warn">indisponível</span>
-                </div>
-                <p className="empty">A questão {qid} não está no catálogo publicado.</p>
-              </article>
+              <Card key={qid} padding={6}>
+                <VStack gap={4}>
+                  <HStack gap={2} align="center" wrap="wrap">
+                    <Text weight="semibold" hasTabularNumbers>
+                      {num}
+                    </Text>
+                    <span className="pill warn">indisponível</span>
+                  </HStack>
+                  <Text as="p" color="secondary">
+                    A questão {qid} não está no catálogo publicado.
+                  </Text>
+                </VStack>
+              </Card>
             );
           const t = textoDe(q);
           const kt = slugDe(qid) + "|" + (q.texto ?? "");
           const mostraTexto = t && !textosVistos.has(kt);
           if (t) textosVistos.add(kt);
           return (
-            <div key={qid} style={{ display: "grid", gap: 16 }}>
+            <VStack key={qid} gap={4} className="min-w-0">
               {mostraTexto && <TextoBaseQuestao t={t} />}
               <CartaoQuestao
                 base={base}
@@ -194,28 +211,27 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
                 corrigida={!!feito}
                 onMarcar={(L) => marcar(id, qid, L)}
               />
-            </div>
+            </VStack>
           );
         })}
-      </div>
+      </VStack>
       {!feito && (
-        <div className="submitbar">
-          <span className="mono">
+        // Barra presa no rodapé enquanto se rola (painel.css).
+        <HStack className="submitbar">
+          <Text hasTabularNumbers>
             {respondidas} de {s.questoes.length} respondidas
-          </span>
-          <button
-            className="btn"
-            type="button"
-            disabled={respondidas < s.questoes.length}
+          </Text>
+          <Button
+            label="Entregar sessão"
+            variant="primary"
+            isDisabled={respondidas < s.questoes.length}
             onClick={() => {
               entregar(base, id, porId);
               const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
               window.scrollTo({ top: 0, behavior: reduz ? "instant" : "smooth" });
             }}
-          >
-            Entregar sessão
-          </button>
-        </div>
+          />
+        </HStack>
       )}
     </>
   );
