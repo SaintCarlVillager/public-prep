@@ -28,15 +28,9 @@ const Ctx = createContext<Estado>({});
 export const caminhoDados = (rel: string) => `/dados/${rel}`;
 
 async function buscar<T>(url: string, ms = 10000): Promise<T> {
-  const ctl = new AbortController();
-  const t = setTimeout(() => ctl.abort(), ms);
-  try {
-    const r = await fetch(url, { signal: ctl.signal });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    return (await r.json()) as T;
-  } finally {
-    clearTimeout(t);
-  }
+  const r = await fetch(url, { signal: AbortSignal.timeout(ms) });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return (await r.json()) as T;
 }
 
 function montarBase(cat: Catalogo): Base {

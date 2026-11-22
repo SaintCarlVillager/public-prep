@@ -34,7 +34,7 @@ export function Cabecalho() {
   for (const e of eds) (porBanca[e.banca ?? "—"] ??= []).push(base!.rotulo(e));
 
   return (
-    <div className="band">
+    <header className="band">
       <div className="wrap">
         <div className="head">
           <div style={{ display: "grid", gap: 6, minWidth: 0 }}>
@@ -78,6 +78,6 @@ export function Cabecalho() {
           })}
         </nav>
       </div>
-    </div>
+    </header>
   );
 }

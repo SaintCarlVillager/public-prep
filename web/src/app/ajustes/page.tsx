@@ -7,6 +7,7 @@ import type { Base } from "~/lib/catalogo";
 import { ativos, orgaoDe, vigentes } from "~/lib/estudo";
 import { fmtData, hoje } from "~/lib/nucleo";
 import { atualizar, normalizar, substituir, useProgresso, vazio } from "~/lib/progresso";
+import { confirmar } from "~/components/Dialogo";
 
 export default function PaginaAjustes() {
   return <ComCatalogo>{(b) => <Ajustes base={b} />}</ComCatalogo>;
@@ -42,7 +43,13 @@ function Ajustes({ base }: { base: Base }) {
       const n = Object.keys(novo.sessoes).length;
       const ns = Object.keys(novo.simulados).length;
       const resumo = `${n} sessões, ${ns} ${ns === 1 ? "simulado" : "simulados"}`;
-      if (!confirm(`Substituir o progresso deste navegador pelo do arquivo (${resumo})?`)) return;
+      const ok = await confirmar({
+        titulo: "Substituir o progresso deste navegador?",
+        texto: `O arquivo traz ${resumo}. O progresso atual deste navegador será trocado pelo dele.`,
+        ok: "Substituir progresso",
+        perigo: true,
+      });
+      if (!ok) return;
       substituir(novo);
       setMsg(`Progresso importado: ${resumo}.`);
     } catch {
@@ -124,8 +131,15 @@ function Ajustes({ base }: { base: Base }) {
           <button
             className="btn ghost"
             type="button"
-            onClick={() => {
-              if (confirm("Apagar todo o progresso deste navegador? Isso não tem volta.")) {
+            onClick={async () => {
+              if (
+                await confirmar({
+                  titulo: "Apagar todo o progresso deste navegador?",
+                  texto: "Isso não tem volta. Se quiser guardar uma cópia, exporte antes.",
+                  ok: "Apagar progresso",
+                  perigo: true,
+                })
+              ) {
                 substituir(vazio());
                 setMsg("Progresso apagado.");
               }
