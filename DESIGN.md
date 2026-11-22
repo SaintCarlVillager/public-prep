@@ -62,6 +62,15 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 - **Barra do simulado** (`.sim-bar`): presa no topo enquanto se rola; à esquerda o **cronômetro** ("Restam" e o relógio em 28 px, números tabulares, em `--warn` nos últimos 5 minutos ou 10% do tempo) e a contagem de respondidas; à direita "Pausar" e "Entregar". Pausado, as questões somem até retomar.
 - **Grade de questões** (`.grade`, `.cel`): um quadrado de 48 px por questão, agrupado por bloco, com o número e a letra marcada ("–" em branco). Respondida: preenchida em `--ink`; em branco: contorno; para revisar: **canto dobrado** em `--brass` (forma, não só cor); a questão aberta tem sublinhado grifo, como a aba ativa. Legenda sempre visível e `aria-label` com o estado. No desktop (≥ 900 px) a grade fica numa coluna à direita, presa sob a barra.
 
+## Astryx
+
+O app está passando, tela a tela, para os componentes do design system [Astryx](https://github.com/meta/astryx) (React 19 e StyleX, com CSS pronto). As regras de uso estão em `web/AGENTS.md`; aqui fica o que muda no visual.
+
+- **Tema `serventia`** (`web/themes/serventia/`, feito com o editor de temas): os tokens acima viram os do Astryx. `--paper` → `--color-background-body`; `--sheet` → `--color-background-surface` e `-card`; `--sunken` → `--color-background-muted`, `--color-accent-muted` (linha marcada) e o fundo do botão secundário; `--ink` → `--color-text-primary` e `--color-accent` (botão principal, foco); `--muted` → `--color-text-secondary`; `--rule` / `--rule-strong` → `--color-border` / `-emphasized`; `--good` / `--bad` / `--warn` → `--color-success` / `--color-error` / `--color-warning` (o editor ajusta as variantes claras para manter 4,5:1). Raios 6 / 10 / 16 px, texto base 16 px, botões e campos com 48 px de altura.
+- O **grifo** continua fora do Astryx: aba ativa, logotipo e letra escolhida seguem no `painel.css`.
+- **Confirmações** usam `AlertDialog` (nunca `confirm()` do navegador): título com a pergunta, a consequência em uma frase e o botão com a ação ("Apagar progresso").
+- Tela migrada: **Ajustes**. As outras seguem com as classes do `painel.css` até a vez delas; a ligação do Astryx não muda nenhum pixel nelas (conferido por captura).
+
 ## Estados e escrita
 
 - Estado vazio diz o que vai aparecer e como começar.

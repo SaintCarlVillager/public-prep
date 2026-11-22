@@ -2,11 +2,23 @@
 
 import { useRef, useState } from "react";
 
+import { useImperativeAlertDialog } from "@astryxdesign/core/AlertDialog";
+import { Button } from "@astryxdesign/core/Button";
+import { Card } from "@astryxdesign/core/Card";
+import { CheckboxList, CheckboxListItem } from "@astryxdesign/core/CheckboxList";
+import { Heading } from "@astryxdesign/core/Heading";
+import { HStack } from "@astryxdesign/core/HStack";
+import { NumberInput } from "@astryxdesign/core/NumberInput";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { ComCatalogo } from "~/components/Comum";
 import type { Base } from "~/lib/catalogo";
 import { ativos, orgaoDe, vigentes } from "~/lib/estudo";
 import { fmtData, hoje } from "~/lib/nucleo";
 import { atualizar, normalizar, substituir, useProgresso, vazio } from "~/lib/progresso";
+
+/* Primeira tela feita com componentes Astryx (ver DESIGN.md, "Astryx"). */
 
 export default function PaginaAjustes() {
   return <ComCatalogo>{(b) => <Ajustes base={b} />}</ComCatalogo>;
@@ -16,15 +28,16 @@ function Ajustes({ base }: { base: Base }) {
   const p = useProgresso();
   const arquivo = useRef<HTMLInputElement>(null);
   const [msg, setMsg] = useState("");
-  const ids = new Set(ativos(base, p).map((e) => e.id));
+  const alerta = useImperativeAlertDialog();
+  const ids = ativos(base, p).map((e) => e.id);
   const vig = vigentes(base);
 
-  const alternar = (id: string, ligado: boolean) =>
+  /** Guarda os editais marcados sem perder os que já saíram da lista (prova passada). */
+  const escolher = (marcados: string[]) =>
     atualizar((x) => {
-      const atual = new Set(x.config.editais_ativos ?? vig.map((e) => e.id));
-      if (ligado) atual.add(id);
-      else atual.delete(id);
-      x.config.editais_ativos = [...atual];
+      const deVig = new Set(vig.map((e) => e.id));
+      const antes = x.config.editais_ativos ?? [...deVig];
+      x.config.editais_ativos = [...antes.filter((id) => !deVig.has(id)), ...marcados];
     });
 
   const exportar = () => {
@@ -41,75 +54,103 @@ function Ajustes({ base }: { base: Base }) {
       const novo = normalizar(JSON.parse(await f.text()));
       const n = Object.keys(novo.sessoes).length;
       const ns = Object.keys(novo.simulados).length;
-      const resumo = `${n} sessões, ${ns} ${ns === 1 ? "simulado" : "simulados"}`;
-      if (!confirm(`Substituir o progresso deste navegador pelo do arquivo (${resumo})?`)) return;
-      substituir(novo);
-      setMsg(`Progresso importado: ${resumo}.`);
+      const resumo = `${n} ${n === 1 ? "sessão" : "sessões"}, ${ns} ${ns === 1 ? "simulado" : "simulados"}`;
+      alerta.show({
+        title: "Substituir o progresso?",
+        description: `O progresso deste navegador será trocado pelo do arquivo (${resumo}).`,
+        actionLabel: "Substituir",
+        cancelLabel: "Cancelar",
+        onAction: () => {
+          substituir(novo);
+          setMsg(`Progresso importado: ${resumo}.`);
+        },
+      });
     } catch {
       setMsg("Não consegui ler esse arquivo. Use um JSON exportado por este app.");
     }
   };
 
-  return (
-    <div className="stack">
-      <section className="card">
-        <header>
-          <h2>Ajustes</h2>
-          <span className="eyebrow">valem para o placar e as sessões automáticas</span>
-        </header>
-        <fieldset className="editais">
-          <legend className="eyebrow">Editais ativos</legend>
-          {vig.map((e) => (
-            <label key={e.id} className="edital-opcao">
-              <input type="checkbox" checked={ids.has(e.id)} onChange={(ev) => alternar(e.id, ev.target.checked)} />
-              <span>
-                <b>
-                  {orgaoDe(e)} · {e.cargo ?? e.id}
-                </b>
-                <span className="sub">
-                  {[e.banca, e.prova && `prova em ${fmtData(e.prova)}`].filter(Boolean).join(" · ")}
-                  {` · aparece como “${base.rotulo(e)}”`}
-                </span>
-              </span>
-            </label>
-          ))}
-          {!vig.length && <span className="empty">Nenhum edital com prova futura.</span>}
-        </fieldset>
-        <div className="settings">
-          <label className="field eyebrow">
-            Questões por sessão
-            <input
-              type="number"
-              min={5}
-              max={60}
-              value={p.config.tamanho_sessao}
-              style={{ width: 110 }}
-              onChange={(e) =>
-                atualizar((x) => {
-                  x.config.tamanho_sessao = Math.max(5, Math.min(60, Number(e.target.value) || 20));
-                })
-              }
-            />
-          </label>
-        </div>
-      </section>
+  const apagar = () =>
+    alerta.show({
+      title: "Apagar todo o progresso?",
+      description: "Sessões, respostas, revisões, treino e simulados deste navegador somem. Isso não tem volta.",
+      actionLabel: "Apagar progresso",
+      cancelLabel: "Cancelar",
+      onAction: () => {
+        substituir(vazio());
+        setMsg("Progresso apagado.");
+      },
+    });
 
-      <section className="card">
-        <header>
-          <h2>Seu progresso</h2>
-          <span className="eyebrow">guardado só neste navegador</span>
-        </header>
-        <p className="empty">
-          Sessões, respostas, revisões, treino e simulados ficam no armazenamento local deste navegador. Exporte uma cópia de vez em
-          quando, e importe-a para continuar em outro aparelho.
-        </p>
-        <div className="actions">
-          <button className="btn" type="button" onClick={exportar}>
-            Exportar progresso
-          </button>
-          <button className="btn ghost" type="button" onClick={() => arquivo.current?.click()}>
-            Importar progresso
-          </button>
+  return (
+    // min-w-0: a coluna do app é um grid, e sem isto um rótulo longo alarga a página no celular.
+    <VStack gap={6} className="min-w-0">
+      <Card padding={6}>
+        <VStack gap={4}>
+          <HStack justify="between" align="center" gap={3} wrap="wrap">
+            <Heading level={2}>Ajustes</Heading>
+            <Text type="supporting" color="secondary">
+              Valem para o placar e as sessões automáticas
+            </Text>
+          </HStack>
+          {vig.length ? (
+            <CheckboxList label="Editais ativos" value={ids} onChange={escolher} hasDividers>
+              {vig.map((e) => (
+                <CheckboxListItem
+                  key={e.id}
+                  value={e.id}
+                  // O cargo vai por extenso (AGENTS.md) e quebra linha em vez de cortar com reticências.
+                  label={<Text className="whitespace-normal">{`${orgaoDe(e)} · ${e.cargo ?? e.id}`}</Text>}
+                  aria-label={`${orgaoDe(e)} · ${e.cargo ?? e.id}`}
+                  description={
+                    <Text type="supporting" color="secondary">
+                      {[e.banca, e.prova && `prova em ${fmtData(e.prova)}`, `aparece como “${base.rotulo(e)}”`]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </Text>
+                  }
+                  align="first-line"
+                />
+              ))}
+            </CheckboxList>
+          ) : (
+            <Text color="secondary">Nenhum edital com prova futura.</Text>
+          )}
+          <NumberInput
+            label="Questões por sessão"
+            description="De 5 a 60."
+            min={5}
+            max={60}
+            isIntegerOnly
+            hasNumberSteppers
+            width={180}
+            value={p.config.tamanho_sessao}
+            onChange={(v) =>
+              atualizar((x) => {
+                x.config.tamanho_sessao = Math.max(5, Math.min(60, Math.round(v) || 20));
+              })
+            }
+          />
+        </VStack>
+      </Card>
+
+      <Card padding={6}>
+        <VStack gap={4}>
+          <HStack justify="between" align="center" gap={3} wrap="wrap">
+            <Heading level={2}>Seu progresso</Heading>
+            <Text type="supporting" color="secondary">
+              Guardado só neste navegador
+            </Text>
+          </HStack>
+          <Text as="p" color="secondary">
+            Sessões, respostas, revisões, treino e simulados ficam no armazenamento local deste navegador. Exporte uma cópia de vez em
+            quando, e importe-a para continuar em outro aparelho.
+          </Text>
+          <HStack gap={2} wrap="wrap">
+            <Button label="Exportar progresso" variant="primary" onClick={exportar} />
+            <Button label="Importar progresso" onClick={() => arquivo.current?.click()} />
+            <Button label="Apagar progresso" variant="ghost" onClick={apagar} />
+          </HStack>
           <input
             ref={arquivo}
             type="file"
@@ -121,25 +162,12 @@ function Ajustes({ base }: { base: Base }) {
               e.target.value = "";
             }}
           />
-          <button
-            className="btn ghost"
-            type="button"
-            onClick={() => {
-              if (confirm("Apagar todo o progresso deste navegador? Isso não tem volta.")) {
-                substituir(vazio());
-                setMsg("Progresso apagado.");
-              }
-            }}
-          >
-            Apagar progresso
-          </button>
-        </div>
-        {msg && (
-          <div className="notice" role="status">
+          <Text as="p" role="status">
             {msg}
-          </div>
-        )}
-      </section>
-    </div>
+          </Text>
+        </VStack>
+      </Card>
+      {alerta.element}
+    </VStack>
   );
 }

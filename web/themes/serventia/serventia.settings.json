@@ -1,0 +1,231 @@
+{
+  "name": "serventia",
+  "like": "neutral",
+  "mode": "both",
+  "settings": [
+    {
+      "thing": "--color-background-body",
+      "value": "#faf8f3",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-body",
+      "value": "#14171c",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-surface",
+      "value": "#ffffff",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-surface",
+      "value": "#1c2027",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-card",
+      "value": "#ffffff",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-card",
+      "value": "#1c2027",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-muted",
+      "value": "#f1ede4",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-muted",
+      "value": "#0f1115",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-text-primary",
+      "value": "#1c2430",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-text-primary",
+      "value": "#ece8df",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-text-secondary",
+      "value": "#575e6b",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-text-secondary",
+      "value": "#a5abb5",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-border",
+      "value": "#e2dccf",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-border",
+      "value": "#2b3039",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-border-emphasized",
+      "value": "#8a8478",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-border-emphasized",
+      "value": "#6e7581",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "accent",
+      "value": "#1c2430",
+      "source": "dial"
+    },
+    {
+      "thing": "success",
+      "value": "#1f5a96",
+      "source": "dial"
+    },
+    {
+      "thing": "danger",
+      "value": "#a8400c",
+      "source": "dial"
+    },
+    {
+      "thing": "warning",
+      "value": "#7a5300",
+      "source": "dial"
+    },
+    {
+      "thing": "--color-accent",
+      "value": "#ece8df",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-success",
+      "value": "#86b6ea",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-error",
+      "value": "#f0965f",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-warning",
+      "value": "#e6b955",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--radius-element",
+      "value": "10px",
+      "source": "token"
+    },
+    {
+      "thing": "--radius-inner",
+      "value": "6px",
+      "source": "token"
+    },
+    {
+      "thing": "--radius-container",
+      "value": "16px",
+      "source": "token"
+    },
+    {
+      "thing": "color",
+      "value": "#ffffff",
+      "source": "property",
+      "on": "toast",
+      "when": "type:error",
+      "mode": "dark"
+    },
+    {
+      "thing": "color",
+      "value": "#ffffff",
+      "source": "property",
+      "on": "toast",
+      "when": "type:error",
+      "mode": "light"
+    },
+    {
+      "thing": "text-size",
+      "value": "larger",
+      "source": "dial"
+    },
+    {
+      "thing": "--color-accent-muted",
+      "value": "#f1ede4",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-accent-muted",
+      "value": "#0f1115",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "min-height",
+      "value": "48px",
+      "source": "property",
+      "on": "button"
+    },
+    {
+      "thing": "--size-element-md",
+      "value": "48px",
+      "source": "token",
+      "on": "inputs"
+    },
+    {
+      "thing": "--size-element-sm",
+      "value": "44px",
+      "source": "token",
+      "on": "inputs"
+    },
+    {
+      "thing": "background-color",
+      "value": "#f1ede4",
+      "source": "property",
+      "on": "button",
+      "when": "variant:secondary",
+      "mode": "light"
+    },
+    {
+      "thing": "background-color",
+      "value": "#0f1115",
+      "source": "property",
+      "on": "button",
+      "when": "variant:secondary",
+      "mode": "dark"
+    }
+  ],
+  "lifted": [],
+  "palette": "1deb13d2cb2990a95f9664974c3b52fe60d5bdaf7d99d5ec8368fbbe938e73eb"
+}
