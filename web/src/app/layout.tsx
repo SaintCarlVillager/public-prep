@@ -10,6 +10,7 @@ import { VStack } from "@astryxdesign/core/VStack";
 import { Cabecalho } from "~/components/Cabecalho";
 import { Dialogos } from "~/components/Dialogo";
 import { Provedores } from "~/components/Provedores";
+import { RegistrarPwa, SCRIPT_CONVITE } from "~/components/Pwa";
 import { CatalogoProvider } from "~/lib/catalogo";
 
 export const metadata: Metadata = {
@@ -18,6 +19,8 @@ export const metadata: Metadata = {
     "Estudo para concursos do Judiciário com provas reais etiquetadas por tema e artigo de lei, sessões, revisões espaçadas e treino de verdadeiro ou falso.",
   applicationName: "ServentIA",
   appleWebApp: { title: "ServentIA", capable: true, statusBarStyle: "default" },
+  // O iPhone transformaria números de lei e de questão ("8.112/1990") em links de telefone.
+  formatDetection: { telephone: false, date: false, address: false, email: false },
   // Segue o tamanho de texto do sistema (Dynamic Type etc.) onde houver suporte; por isso as fontes estão em rem.
   other: { "text-scale": "scale" },
 };
@@ -38,6 +41,10 @@ const literata = Literata({ subsets: ["latin"], weight: ["400", "600"], style: [
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR" className={`${plex.variable} ${literata.variable}`}>
+      <head>
+        {/* Guarda o convite de instalação do navegador antes de o React montar (components/Pwa.tsx). */}
+        <script dangerouslySetInnerHTML={{ __html: SCRIPT_CONVITE }} />
+      </head>
       <body>
         <a className="pular" href="#conteudo">
           Pular para o conteúdo
@@ -58,6 +65,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               </Text>
             </VStack>
             <Dialogos />
+            <RegistrarPwa />
           </CatalogoProvider>
         </Provedores>
       </body>

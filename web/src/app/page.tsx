@@ -14,6 +14,7 @@ import { Text } from "@astryxdesign/core/Text";
 import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo, Medidor } from "~/components/Comum";
+import { OfertaInstalar } from "~/components/Pwa";
 import type { Base } from "~/lib/catalogo";
 import { ativos, disponiveis, placar, temasFracos } from "~/lib/estudo";
 import { fmtDia, hoje, isoDia, pct } from "~/lib/nucleo";
@@ -80,6 +81,7 @@ function Painel({ base }: { base: Base }) {
   return (
     // min-w-0: a coluna do app é um grid, e sem isto um rótulo longo alarga a página no celular.
     <VStack gap={6} className="min-w-0">
+      <OfertaInstalar />
       <Grid columns={{ minWidth: 160 }} gap={3}>
         <Numero
           rotulo="Acertos"

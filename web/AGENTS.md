@@ -14,6 +14,13 @@ Todas as telas usam o design system [Astryx](https://github.com/meta/astryx) (`@
 - Antes do merge, além de `npm test && npm run typecheck && npm run build`: `npx astryx doctor --built src/app/<tela>` sem falhas.
 - Atualizar o Astryx: suba `core`, `cli` e `theme-neutral` juntos, rode `npx astryx upgrade --from <versão antiga> --apply` e recompile o tema (`npx astryx experimental theme compile themes/serventia/serventia.theme.ts`).
 
+## Celular e app instalável (PWA)
+
+- **Manifesto** em `src/app/manifest.ts` (com `id` fixo), ícones em `public/icones/` (o `maskable` tem margem para o recorte redondo) e `src/app/apple-icon.png` para o iPhone. Os PNGs saem do `icon.svg`: ao mudar a marca, gere-os de novo nos mesmos tamanhos.
+- **Service worker** em `public/sw.js`, registrado por `src/components/Pwa.tsx` como `/sw.js?v=<versão>` (a versão vem de `NEXT_PUBLIC_VERSAO`, no `next.config.js`, e muda a cada deploy). Guarda as telas, o catálogo, as provas e as figuras na instalação; a lei seca, ao abrir cada norma ou pelo botão em Ajustes. Tela nova entra na lista `TELAS` do `sw.js`. Só roda no build de produção (`npm run build && npm start` para testar).
+- **Instalação:** o convite do navegador é guardado por um script no `<head>` (`layout.tsx`) e oferecido no Painel (`OfertaInstalar`, some por 30 dias ao dispensar) e em Ajustes (`AppNoCelular`). No iPhone não há convite: o texto ensina o caminho pelo Safari e avisa que o app instalado começa sem o progresso.
+- **Toque:** alvos de 44 px nos controles com `pointer: coarse` e o resto da seção "Celular e app instalado" do `painel.css`. Listas longas (`.artigo`, `.rows li`) usam `content-visibility: auto`.
+
 <!-- ASTRYX:START -->
 Astryx v0.7.17 · 174 components
 CLI: run every command as `npx astryx <cmd>` (shown below as `astryx ...`).
