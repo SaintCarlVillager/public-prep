@@ -4,9 +4,10 @@ Regras do app. As do repositório inteiro estão em [`../AGENTS.md`](../AGENTS.m
 
 ## Astryx no ServentIA
 
-O app está migrando, tela a tela, para o design system [Astryx](https://github.com/meta/astryx) (`@astryxdesign/core`, versão fixa). O bloco abaixo foi escrito por `npx astryx init` e vale para **telas novas e telas migradas**; as telas antigas seguem com as classes de `src/styles/painel.css` até serem migradas.
+Todas as telas usam o design system [Astryx](https://github.com/meta/astryx) (`@astryxdesign/core`, versão fixa). O bloco abaixo foi escrito por `npx astryx init` e vale para todo o app, com uma exceção: as peças de identidade listadas no `DESIGN.md` ("Astryx") seguem com as classes de `src/styles/painel.css`.
 
-- **Já migrada:** Ajustes (`src/app/ajustes/page.tsx`). Ao migrar outra tela, troque a tela inteira, compare capturas a 360 px nos dois temas e tire de `painel.css` só as classes que nenhuma outra tela usa.
+- **Telas novas** começam com componentes Astryx (veja como as atuais fazem). Tela que vive dentro da coluna do app (um grid) precisa de `className="min-w-0"` no VStack de fora, senão texto longo alarga a página no celular. Rótulo longo de `ListItem`/`CheckboxListItem` como string corta com reticências; para texto inteiro, passe `<Text className="whitespace-normal">`.
+- **CSS próprio:** só para as peças de identidade do `DESIGN.md`. Ao parar de usar uma classe do `painel.css`, apague a regra.
 - **Tema:** `serventia`, feito com o editor de temas (`npx astryx experimental theme editor … serventia`) a partir dos tokens do `DESIGN.md`. A fonte é `themes/serventia/serventia.settings.json`; `src/themes/serventia/` é gerado a cada mudança (não edite à mão). Cor nova do app entra nos dois lugares: token em `painel.css` e no tema.
 - **CSS:** `src/styles/globals.css` declara a ordem das camadas antes do Tailwind e importa o reset, os componentes e o tema do Astryx. Não importe CSS do Astryx em outro lugar (o `src/astryx-themes.ts` do `theme add` foi removido por isso): se o CSS do tema carregar primeiro, o preflight do Tailwind apaga os componentes. As fontes do `next/font` chegam ao Astryx por uma regra em `globals.css`, porque o editor só aceita nomes de família.
 - **Textos dos componentes** em português: `InternationalizationProvider` com `pt-BR` em `src/components/Provedores.tsx`.
