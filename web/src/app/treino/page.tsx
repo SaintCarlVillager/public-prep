@@ -2,12 +2,22 @@
 
 import { useEffect, useRef, useState } from "react";
 
+import { Banner } from "@astryxdesign/core/Banner";
+import { Button } from "@astryxdesign/core/Button";
+import { Card } from "@astryxdesign/core/Card";
+import { Grid } from "@astryxdesign/core/Grid";
+import { Heading } from "@astryxdesign/core/Heading";
+import { HStack } from "@astryxdesign/core/HStack";
+import { Spinner } from "@astryxdesign/core/Spinner";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { ComCatalogo, IconeCerto, IconeErrado, Md, SelosEdital } from "~/components/Comum";
 import { Dispositivos } from "~/components/LeiSeca";
 import { julgarCard } from "~/lib/acoes";
 import { carregarProva, type Base, type ProvaCarregada } from "~/lib/catalogo";
 import { estadoTreino, ordemNovos, placarTreino, todosCards } from "~/lib/estudo";
-import { hoje, materiaDe, montarTreino, slugDe, type Card } from "~/lib/nucleo";
+import { hoje, materiaDe, montarTreino, slugDe, type Card as CardVF } from "~/lib/nucleo";
 import { useProgresso } from "~/lib/progresso";
 
 const TREINO_N = 10;
@@ -17,7 +27,7 @@ export default function PaginaTreino() {
 }
 
 interface Rodada {
-  cards: Card[];
+  cards: CardVF[];
   provas: Record<string, ProvaCarregada>;
   pos: number;
   acertos: number;
@@ -28,66 +38,98 @@ function Treino({ base }: { base: Base }) {
   const p = useProgresso();
   const P = placarTreino(base, p, hoje());
   const [r, setR] = useState<Rodada | null>(null);
-  const [aviso, setAviso] = useState("");
+  const [aviso, setAviso] = useState<{ tipo: "info" | "carregando" | "erro"; texto: string } | null>(null);
   const emAndamento = !!r && r.pos < r.cards.length;
 
   async function comecar() {
     const cards = montarTreino(ordemNovos(base, p, todosCards(base)), estadoTreino(p), hoje(), TREINO_N);
-    if (!cards.length) return setAviso("Nada para revisar hoje e nenhum card novo. Volte amanhã.");
-    setAviso("Carregando os cards…");
+    if (!cards.length) return setAviso({ tipo: "info", texto: "Nada para revisar hoje e nenhum card novo. Volte amanhã." });
+    setAviso({ tipo: "carregando", texto: "Carregando os cards…" });
     try {
       const slugs = [...new Set(cards.map((c) => slugDe(c.qid)))];
       const provas = Object.fromEntries(await Promise.all(slugs.map(async (s) => [s, await carregarProva(s)] as const)));
-      setAviso("");
+      setAviso(null);
       setR({ cards, provas, pos: 0, acertos: 0, resposta: null });
     } catch {
-      setAviso("Não consegui carregar as questões do treino. Recarregue a página.");
+      setAviso({ tipo: "erro", texto: "Não consegui carregar as questões do treino. Recarregue a página." });
     }
   }
 
   return (
-    <div className="stack">
-      <section className="card">
-        <header>
-          <div style={{ display: "grid", gap: 4 }}>
-            <h2>Treino</h2>
-            <span className="eyebrow">cada alternativa vira um card de verdadeiro ou falso</span>
-          </div>
-          <button className="btn" type="button" disabled={!P.total || emAndamento} onClick={comecar}>
-            Começar {TREINO_N} cards
-          </button>
-        </header>
-        <div className="placar-treino">
+    // min-w-0: a coluna do app é um grid, e sem isto um texto longo alarga a página no celular.
+    <VStack gap={6} className="min-w-0">
+      <Card padding={6}>
+        <VStack gap={4}>
+          <HStack justify="between" align="center" gap={3} wrap="wrap">
+            <VStack gap={1} className="min-w-0">
+              <Heading level={2}>Treino</Heading>
+              <Text type="supporting" color="secondary">
+                Cada alternativa vira um card de verdadeiro ou falso
+              </Text>
+            </VStack>
+            <Button label={`Começar ${TREINO_N} cards`} variant="primary" isDisabled={!P.total || emAndamento} onClick={comecar} />
+          </HStack>
           {P.total ? (
-            <>
-              <span>
-                <b>{P.total}</b> cards de {P.questoes} questões
-              </span>
-              <span>
-                <b>{P.vistos}</b> vistos
-              </span>
-              <span>
-                <b>{P.vencidos}</b> para revisar hoje
-              </span>
-              <span>{P.t ? <><b>{Math.round((P.a / P.t) * 100)}%</b> de acerto</> : "nenhum respondido"}</span>
-            </>
+            <HStack gap={4} wrap="wrap">
+              <Text type="supporting" color="secondary" hasTabularNumbers>
+                <Num>{P.total}</Num> cards de {P.questoes} questões
+              </Text>
+              <Text type="supporting" color="secondary" hasTabularNumbers>
+                <Num>{P.vistos}</Num> vistos
+              </Text>
+              <Text type="supporting" color="secondary" hasTabularNumbers>
+                <Num>{P.vencidos}</Num> para revisar hoje
+              </Text>
+              <Text type="supporting" color="secondary" hasTabularNumbers>
+                {P.t ? (
+                  <>
+                    <Num>{`${Math.round((P.a / P.t) * 100)}%`}</Num> de acerto
+                  </>
+                ) : (
+                  "nenhum respondido"
+                )}
+              </Text>
+            </HStack>
           ) : (
-            <span>Nenhuma questão marcada para o treino ainda.</span>
+            <Text type="supporting" color="secondary">
+              Nenhuma questão marcada para o treino ainda.
+            </Text>
           )}
-        </div>
-      </section>
-      {aviso && <p className="empty">{aviso}</p>}
+        </VStack>
+      </Card>
+      {aviso &&
+        (aviso.tipo === "carregando" ? (
+          <HStack gap={2} align="center">
+            <Spinner aria-label="Carregando" />
+            <Text color="secondary">{aviso.texto}</Text>
+          </HStack>
+        ) : aviso.tipo === "erro" ? (
+          <Banner status="error" title={aviso.texto} />
+        ) : (
+          <Text as="p" color="secondary" role="status">
+            {aviso.texto}
+          </Text>
+        ))}
       {!r && !aviso && P.total > 0 && (
-        <section className="card">
-          <p className="empty">
+        <Card padding={6}>
+          <Text as="p" color="secondary">
             Cada card mostra o enunciado de uma questão real e uma das alternativas. Diga se a afirmação é verdadeira ou falsa:
             toque nos botões ou arraste o card (esquerda = falso, direita = verdadeiro). Errou, o card volta amanhã; acertou,
             volta em 1, 3, 7, 15, 30 e 60 dias.
-          </p>
-        </section>
+          </Text>
+        </Card>
       )}
       {r && <CardTreino base={base} r={r} setR={setR} />}
-    </div>
+    </VStack>
+  );
+}
+
+/** Número em destaque no placar. */
+function Num({ children }: { children: React.ReactNode }) {
+  return (
+    <Text type="inherit" weight="semibold" color="primary">
+      {children}
+    </Text>
   );
 }
 
@@ -103,17 +145,18 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
   if (!c) {
     const n = r.cards.length;
     return (
-      <section className="card">
-        <div className="result">
+      <Card padding={6}>
+        <HStack gap={4} align="center" wrap="wrap">
+          {/* Carimbo da nota: identidade do app (painel.css). */}
           <span className={`stamp ${r.acertos / n < 0.5 ? "low" : ""}`}>
             {r.acertos}/{n}
           </span>
-          <div>
-            <b>Rodada concluída</b>
-            <p>Os cards errados voltam amanhã. Comece outra rodada quando quiser.</p>
-          </div>
-        </div>
-      </section>
+          <VStack gap={1} className="min-w-0">
+            <Text weight="semibold">Rodada concluída</Text>
+            <Text as="p">Os cards errados voltam amanhã. Comece outra rodada quando quiser.</Text>
+          </VStack>
+        </HStack>
+      </Card>
     );
   }
   if (!q || typeof verdade !== "boolean") {
@@ -132,35 +175,36 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
   const ok = r.resposta === verdade;
 
   return (
-    <div className="tf">
-      <div className="q" style={{ gap: 12 }}>
-        <div className="meta">
-          <span className="num">
-            {r.pos + 1} de {r.cards.length}
-          </span>
-          <span className="eyebrow">
-            {base.nomeMateria(materiaDe(q))}
-            {tema ? ` · ${tema}` : ""}
-          </span>
-          <SelosEdital base={base} qid={c.qid} />
-        </div>
-        <Md className="ctx" texto={q.enunciado} />
-      </div>
+    // .tf: o card de arrastar e o texto de leitura seguem no painel.css (identidade do Treino).
+    <VStack gap={4} className="tf min-w-0">
+      <Card padding={0}>
+        <VStack gap={3} paddingBlock={6} paddingInline={4} className="min-w-0">
+          <HStack gap={2} align="center" wrap="wrap">
+            <Text weight="semibold" hasTabularNumbers>
+              {r.pos + 1} de {r.cards.length}
+            </Text>
+            <Text className="eyebrow">
+              {base.nomeMateria(materiaDe(q))}
+              {tema ? ` · ${tema}` : ""}
+            </Text>
+            <SelosEdital base={base} qid={c.qid} />
+          </HStack>
+          <Md className="ctx" texto={q.enunciado} />
+        </VStack>
+      </Card>
       {r.resposta == null ? (
         <>
           <Arrastavel aoSoltar={julgar}>
             <span className="eyebrow">Alternativa {c.L} · verdadeira ou falsa?</span>
             <Md inline className="txt" texto={q.alt?.[c.L]} />
           </Arrastavel>
-          <div className="botoes">
-            <button className="btn ghost" type="button" onClick={() => julgar(false)}>
-              ← Falso
-            </button>
-            <button className="btn ghost" type="button" onClick={() => julgar(true)}>
-              Verdadeiro →
-            </button>
-          </div>
-          <p className="dica">Ou arraste o card: esquerda é falso, direita é verdadeiro.</p>
+          <Grid columns={2} gap={3}>
+            <Button label="← Falso" width="100%" onClick={() => julgar(false)} />
+            <Button label="Verdadeiro →" width="100%" onClick={() => julgar(true)} />
+          </Grid>
+          <Text type="supporting" color="secondary" justify="center">
+            Ou arraste o card: esquerda é falso, direita é verdadeiro.
+          </Text>
         </>
       ) : (
         <>
@@ -172,27 +216,26 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
             <Md inline className="txt" texto={q.alt?.[c.L]} />
           </div>
           {q.exp_alt?.[c.L] ? (
-            <div className="exp">
-              <span className="eyebrow" style={{ display: "block", marginBottom: 6 }}>
-                Comentário da alternativa
-              </span>
+            <VStack gap={1.5} className="exp">
+              <Text className="eyebrow">Comentário da alternativa</Text>
               <Md texto={q.exp_alt[c.L]} />
-            </div>
+            </VStack>
           ) : q.exp ? (
-            <div className="exp">
-              <span className="eyebrow" style={{ display: "block", marginBottom: 6 }}>
-                Comentário da questão · gabarito {q.gab}
-              </span>
+            <VStack gap={1.5} className="exp">
+              <Text className="eyebrow">Comentário da questão · gabarito {q.gab}</Text>
               <Md texto={q.exp} />
-            </div>
+            </VStack>
           ) : null}
           <Dispositivos base={base} lista={q.dispositivos} />
-          <button ref={proximo} className="btn" type="button" onClick={() => setR({ ...r, pos: r.pos + 1, resposta: null })}>
-            {r.pos + 1 < r.cards.length ? "Próximo card" : "Ver resultado"}
-          </button>
+          <Button
+            ref={proximo}
+            label={r.pos + 1 < r.cards.length ? "Próximo card" : "Ver resultado"}
+            variant="primary"
+            onClick={() => setR({ ...r, pos: r.pos + 1, resposta: null })}
+          />
         </>
       )}
-    </div>
+    </VStack>
   );
 }
 
