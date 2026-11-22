@@ -2,6 +2,12 @@
 
 import type { ReactNode } from "react";
 
+import { Banner } from "@astryxdesign/core/Banner";
+import { HStack } from "@astryxdesign/core/HStack";
+import { Spinner } from "@astryxdesign/core/Spinner";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { useCatalogo, type Base } from "~/lib/catalogo";
 import { ativos, ehFederal } from "~/lib/estudo";
 import { md, mdInline, pct } from "~/lib/nucleo";
@@ -22,16 +28,23 @@ export function ComCatalogo({ children }: { children: (b: Base) => ReactNode }) 
   const { base, erro } = useCatalogo();
   if (erro)
     return (
-      <div className="notice bad" role="status">
-        Não consegui carregar as questões ({erro}). Recarregue a página; se continuar, rode{" "}
-        <code>python3 scripts/empacotar.py</code> e publique de novo.
-      </div>
+      <Banner
+        status="error"
+        title="Não consegui carregar as questões"
+        description={
+          <>
+            Recarregue a página; se continuar, rode <code>python3 scripts/empacotar.py</code> e publique de novo. Detalhe: {erro}.
+          </>
+        }
+        collapsible={false}
+      />
     );
   if (!base)
     return (
-      <div className="notice" role="status">
-        Carregando questões e progresso…
-      </div>
+      <HStack gap={2} align="center" role="status">
+        <Spinner size="sm" aria-label="Carregando" />
+        <Text color="secondary">Carregando questões e progresso…</Text>
+      </HStack>
     );
   return <>{children(base)}</>;
 }
@@ -64,21 +77,28 @@ export function Medidor({
   const p = pct(v.a, v.t);
   const baixo = corte != null && v.t > 0 && v.a / v.t < corte;
   return (
-    <div className="meter">
-      <div className="top">
-        <span>{rotulo}</span>
-        <span className="mono">
+    // O trilho, o preenchimento e o traço da nota de corte são do painel.css (DESIGN.md, "Medidor").
+    <VStack gap={1.5}>
+      <HStack justify="between" align="end" gap={2}>
+        <Text weight="semibold" className="min-w-0">
+          {rotulo}
+        </Text>
+        <Text size="sm" color="secondary" hasTabularNumbers className="whitespace-nowrap">
           {v.a}/{v.t} · {v.t ? `${p}%` : "—"}
-        </span>
-      </div>
+        </Text>
+      </HStack>
       <div className="track">
         <div className={`fill${baixo ? " low" : ""}`} style={{ width: `${p}%` }} />
         {corte != null && (
           <div className="cut" style={{ left: `calc(${corte * 100}% - 1px)` }} title={`mínimo ${Math.round(corte * 100)}%`} />
         )}
       </div>
-      {sub && <small>{sub}</small>}
-    </div>
+      {sub && (
+        <Text size="sm" color="secondary">
+          {sub}
+        </Text>
+      )}
+    </VStack>
   );
 }
 

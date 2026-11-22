@@ -1,8 +1,14 @@
 "use client";
 // Lei seca: o texto oficial de um artigo citado por uma questão, aberto ali mesmo.
 
-import Link from "next/link";
 import { useState } from "react";
+
+import { Card } from "@astryxdesign/core/Card";
+import { HStack } from "@astryxdesign/core/HStack";
+import { Link } from "@astryxdesign/core/Link";
+import { Spinner } from "@astryxdesign/core/Spinner";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
 
 import { useLei, type Base } from "~/lib/catalogo";
 import { parseDispositivo } from "~/lib/nucleo";
@@ -14,10 +20,10 @@ export const linkArtigo = (sigla: string, art?: string) =>
 /** Rótulo do artigo no começo da linha: "Art. 246.", "Artigo 1º -", "Art. 1.015". */
 const ROTULO = /^\s*Art(?:igo|\.)\s*[\d.]+\s*[º°o]?(?:\s*[-–]\s*[A-Z]{1,2}\b)?\.?/;
 
-/** Texto do artigo, uma linha por dispositivo (caput, parágrafos, incisos). */
+/** Texto do artigo, uma linha por dispositivo (caput, parágrafos, incisos). Texto de leitura em Literata (.lei-texto). */
 export function TextoArtigo({ artigo }: { artigo: ArtigoLei }) {
   return (
-    <div className="lei-texto">
+    <VStack className="lei-texto">
       {artigo.texto.split("\n").map((linha, i) => {
         if (!linha.trim()) return null;
         const m = ROTULO.exec(linha);
@@ -34,28 +40,45 @@ export function TextoArtigo({ artigo }: { artigo: ArtigoLei }) {
           </p>
         );
       })}
-    </div>
+    </VStack>
   );
 }
 
 function ArtigoAberto({ sigla, art, base }: { sigla: string; art: string; base: Base }) {
   const { lei, erro } = useLei(sigla);
-  if (erro) return <p className="empty">Não consegui carregar a lei seca. Recarregue a página.</p>;
-  if (!lei) return <p className="empty">Carregando o artigo…</p>;
+  if (erro)
+    return (
+      <Text as="p" color="secondary" role="status">
+        Não consegui carregar a lei seca. Recarregue a página.
+      </Text>
+    );
+  if (!lei)
+    return (
+      <HStack gap={2} align="center" role="status">
+        <Spinner size="sm" aria-label="Carregando" />
+        <Text color="secondary">Carregando o artigo…</Text>
+      </HStack>
+    );
   const a = lei.porArt[art];
   return (
-    <div className="artigo-aberto">
-      <span className="eyebrow">
-        {base.cat.normas[sigla] ?? sigla}
-        {a?.local ? ` · ${a.local}` : ""}
-      </span>
-      {a ? (
-        <TextoArtigo artigo={a} />
-      ) : (
-        <p className="empty">O art. {art} não está no texto vigente desta norma (pode ter sido renumerado ou revogado).</p>
-      )}
-      <Link href={linkArtigo(sigla, art)}>Abrir na lei seca</Link>
-    </div>
+    <Card variant="muted" padding={4}>
+      <VStack gap={2} align="start">
+        <Text className="eyebrow">
+          {base.cat.normas[sigla] ?? sigla}
+          {a?.local ? ` · ${a.local}` : ""}
+        </Text>
+        {a ? (
+          <TextoArtigo artigo={a} />
+        ) : (
+          <Text as="p" color="secondary">
+            O art. {art} não está no texto vigente desta norma (pode ter sido renumerado ou revogado).
+          </Text>
+        )}
+        <Link href={linkArtigo(sigla, art)} color="primary" hasUnderline>
+          Abrir na lei seca
+        </Link>
+      </VStack>
+    </Card>
   );
 }
 
@@ -69,9 +92,10 @@ export function Dispositivos({ base, lista }: { base: Base; lista?: string[] }) 
   };
   const p = aberto ? parseDispositivo(aberto) : null;
   return (
-    <div className="dispositivos">
-      <span className="eyebrow">Lei seca</span>
-      <div className="chips">
+    // Os chips ficam no painel.css: abrem o artigo ali mesmo (aria-expanded), com a borda de 2 px quando abertos.
+    <VStack gap={2}>
+      <Text className="eyebrow">Lei seca</Text>
+      <HStack gap={2} wrap="wrap">
         {lista.map((d) =>
           temLei(d) ? (
             <button
@@ -89,8 +113,8 @@ export function Dispositivos({ base, lista }: { base: Base; lista?: string[] }) 
             </span>
           ),
         )}
-      </div>
+      </HStack>
       {p && <ArtigoAberto key={aberto} sigla={p.sigla} art={p.artigo} base={base} />}
-    </div>
+    </VStack>
   );
 }
