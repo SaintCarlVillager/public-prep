@@ -44,12 +44,18 @@ export function TextoArtigo({ artigo }: { artigo: ArtigoLei }) {
   );
 }
 
+/** O que fazer quando a lei não carrega: sem internet, a norma só abre se já estiver guardada no aparelho. */
+export const dicaErroLei = () =>
+  typeof navigator !== "undefined" && !navigator.onLine
+    ? "Você está sem internet e esta norma ainda não foi guardada no aparelho. Em Ajustes, dá para baixar a lei seca toda."
+    : "Recarregue a página.";
+
 function ArtigoAberto({ sigla, art, base }: { sigla: string; art: string; base: Base }) {
   const { lei, erro } = useLei(sigla);
   if (erro)
     return (
       <Text as="p" color="secondary" role="status">
-        Não consegui carregar a lei seca. Recarregue a página.
+        Não consegui carregar a lei seca. {dicaErroLei()}
       </Text>
     );
   if (!lei)

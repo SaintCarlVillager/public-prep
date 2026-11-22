@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import { Button } from "@astryxdesign/core/Button";
 import { Card } from "@astryxdesign/core/Card";
@@ -13,6 +13,7 @@ import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo } from "~/components/Comum";
 import { confirmar } from "~/components/Dialogo";
+import { AppNoCelular } from "~/components/Pwa";
 import type { Base } from "~/lib/catalogo";
 import { ativos, orgaoDe, vigentes } from "~/lib/estudo";
 import { fmtData, hoje } from "~/lib/nucleo";
@@ -30,6 +31,7 @@ function Ajustes({ base }: { base: Base }) {
   const [msg, setMsg] = useState("");
   const ids = ativos(base, p).map((e) => e.id);
   const vig = vigentes(base);
+  const siglas = useMemo(() => Object.keys(base.cat.leis ?? {}), [base]);
 
   /** Guarda os editais marcados sem perder os que já saíram da lista (prova passada). */
   const escolher = (marcados: string[]) =>
@@ -163,6 +165,18 @@ function Ajustes({ base }: { base: Base }) {
           <Text as="p" role="status">
             {msg}
           </Text>
+        </VStack>
+      </Card>
+
+      <Card padding={6}>
+        <VStack gap={4}>
+          <HStack justify="between" align="center" gap={3} wrap="wrap">
+            <Heading level={2}>App no celular</Heading>
+            <Text type="supporting" color="secondary">
+              Instalação e uso sem internet
+            </Text>
+          </HStack>
+          <AppNoCelular siglas={siglas} />
         </VStack>
       </Card>
     </VStack>

@@ -61,22 +61,24 @@ export function Cabecalho() {
             </Heading>
           </VStack>
           {prazos.length > 0 && (
-            <HStack gap={6} wrap="wrap">
+            // Contagem regressiva de cada prova. No celular, lado a lado numa grade compacta (.prazos), com a data
+            // embaixo do número, para o cabeçalho não ocupar a primeira tela inteira.
+            <ul className="prazos">
               {prazos.map((e) => {
                 const d = diasAte(e.prova!);
                 return (
-                  // À direita do nome; no celular, quando os prazos descem para baixo dele, alinhados à esquerda.
-                  <VStack key={e.id} gap={0.5} className="items-end max-sm:items-start">
-                    <Text className="eyebrow">
-                      {base!.rotulo(e)} · {fmtData(e.prova)}
-                    </Text>
-                    <Text size="2xl" weight="semibold" hasTabularNumbers className="leading-none">
+                  <li key={e.id}>
+                    <Text className="eyebrow">{base!.rotulo(e)}</Text>
+                    <Text size="2xl" weight="semibold" hasTabularNumbers className="leading-none prazo-dias">
                       {d === 0 ? "hoje" : `${d} ${d === 1 ? "dia" : "dias"}`}
                     </Text>
-                  </VStack>
+                    <Text type="supporting" color="secondary" hasTabularNumbers>
+                      {fmtData(e.prova)}
+                    </Text>
+                  </li>
                 );
               })}
-            </HStack>
+            </ul>
           )}
         </HStack>
         <nav className="tabs" aria-label="Seções" ref={abas}>

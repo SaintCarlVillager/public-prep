@@ -18,7 +18,7 @@ import { TextInput } from "@astryxdesign/core/TextInput";
 import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo } from "~/components/Comum";
-import { linkArtigo, TextoArtigo } from "~/components/LeiSeca";
+import { dicaErroLei, linkArtigo, TextoArtigo } from "~/components/LeiSeca";
 import { useLei, type Base, type LeiCarregada } from "~/lib/catalogo";
 import { ativos, vigentes } from "~/lib/estudo";
 import { fmtData, intervaloCobre } from "~/lib/nucleo";
@@ -222,7 +222,7 @@ function Recolhivel({
 
 function ArtigosDaNorma({ base, sigla, intervalos }: { base: Base; sigla: string; intervalos: string[] }) {
   const { lei, erro } = useLei(sigla);
-  if (erro) return <Aviso>Não consegui carregar a lei seca de {sigla}. Recarregue a página.</Aviso>;
+  if (erro) return <Aviso>Não consegui carregar a lei seca de {sigla}. {dicaErroLei()}</Aviso>;
   if (!lei) return <Aviso>Carregando…</Aviso>;
   const arts = lei.artigos.filter((a) => intervalos.some((iv) => intervaloCobre(iv, a.art)));
   return (
@@ -310,7 +310,7 @@ function Norma({ base, sigla }: { base: Base; sigla: string }) {
               actions={<Link href="/lei">Ver as normas com lei seca</Link>}
             />
           ) : erro ? (
-            <Aviso>Não consegui carregar a lei seca. Recarregue a página.</Aviso>
+            <Aviso>Não consegui carregar a lei seca. {dicaErroLei()}</Aviso>
           ) : !lei ? (
             <Aviso>Carregando…</Aviso>
           ) : (
