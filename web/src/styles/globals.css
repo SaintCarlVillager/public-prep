@@ -1,11 +1,37 @@
+/* Ordem das camadas: tem de vir antes do Tailwind (ver `npx astryx docs styling-libraries/tailwind`).
+   O painel.css não tem camada, então continua valendo sobre o Astryx e o Tailwind. */
+@layer reset, theme, base, astryx-base, astryx-theme, components, utilities;
+
 @import "tailwindcss";
+@import "@astryxdesign/core/reset.css";
+@import "@astryxdesign/core/astryx.css";
+/* Tema "serventia" (feito com o editor de temas do Astryx, em web/themes/serventia/; a cópia em src/themes é gerada).
+   Importado aqui, e não pelo src/astryx-themes.ts, para que a ordem das camadas acima valha: se o CSS do tema
+   carregasse antes deste arquivo, o preflight do Tailwind passaria por cima dos componentes Astryx. */
+@import "../themes/serventia/serventia.css";
 @import "./painel.css";
+
+/* O reset do tema Astryx dá fonte, tamanho e cor próprios a p, small e code. O markup antigo do app
+   herda a tipografia do pai (enunciado em Literata, rótulos em Plex), então devolvemos a herança aqui,
+   na camada base: acima do reset e abaixo dos componentes Astryx, que têm as próprias classes. */
+@layer base {
+  :where(p) { font-family: inherit; font-size: inherit; font-weight: inherit; line-height: inherit; color: inherit; }
+  :where(small) { font-weight: inherit; line-height: inherit; color: inherit; }
+  :where(code, pre) { line-height: inherit; }
+}
 
 /* As fontes vêm de next/font (variáveis no <html>); os tokens de cor estão em painel.css (ver DESIGN.md). */
 :root {
   --display: var(--font-plex), system-ui, -apple-system, "Segoe UI", sans-serif;
   --body: var(--font-literata), Georgia, "Times New Roman", serif;
   --mono: var(--font-plex), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Tema Astryx "serventia" (web/themes/serventia): as fontes do next/font não passam pelo editor de temas,
+   que só aceita nomes de família; esta regra sem camada põe a IBM Plex Sans nos componentes Astryx. */
+[data-astryx-theme="serventia"] {
+  --font-family-body: var(--display);
+  --font-family-heading: var(--display);
 }
 
 @theme {

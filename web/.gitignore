@@ -44,3 +44,7 @@ yarn-error.log*
 
 # idea files
 .idea
+# Astryx: prévias geradas pelo editor de temas (npx astryx experimental theme editor show serventia)
+/themes/*/preview.html
+/themes/*/sheet.html
+/themes/*/*.png

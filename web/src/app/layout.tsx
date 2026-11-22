@@ -5,6 +5,7 @@ import { IBM_Plex_Sans, Literata } from "next/font/google";
 
 import { Cabecalho } from "~/components/Cabecalho";
 import { Dialogos } from "~/components/Dialogo";
+import { Provedores } from "~/components/Provedores";
 import { CatalogoProvider } from "~/lib/catalogo";
 
 export const metadata: Metadata = {
@@ -37,16 +38,18 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="pular" href="#conteudo">
           Pular para o conteúdo
         </a>
-        <CatalogoProvider>
-          <Cabecalho />
-          <main id="conteudo" tabIndex={-1}>
-            <div className="wrap">{children}</div>
-          </main>
-          <footer className="wrap rodape">
-            Seu progresso fica só neste navegador. Exporte uma cópia em <a href="/ajustes">Ajustes</a>.
-          </footer>
-          <Dialogos />
-        </CatalogoProvider>
+        <Provedores>
+          <CatalogoProvider>
+            <Cabecalho />
+            <main id="conteudo" tabIndex={-1}>
+              <div className="wrap">{children}</div>
+            </main>
+            <footer className="wrap rodape">
+              Seu progresso fica só neste navegador. Exporte uma cópia em <a href="/ajustes">Ajustes</a>.
+            </footer>
+            <Dialogos />
+          </CatalogoProvider>
+        </Provedores>
       </body>
     </html>
   );
