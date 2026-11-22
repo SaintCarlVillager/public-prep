@@ -115,7 +115,7 @@ const chaveRel = (b: Base, eds: Edital[]) => (q: IndiceQuestao) => {
 /** Ordem de uma sessão: edital mais próximo primeiro, matérias intercaladas, textos-base juntos. */
 export function ordenar(b: Base, p: Progresso, lista: IndiceQuestao[]): IndiceQuestao[] {
   const k = chaveRel(b, ativos(b, p));
-  return agruparTextos(misturar(lista.slice().sort((x, y) => k(x) - k(y))));
+  return agruparTextos(misturar(lista.toSorted((x, y) => k(x) - k(y))));
 }
 
 /** Sessão automática: revisões vencidas, temas fracos (até ~40%) e nunca vistas do edital mais próximo. */

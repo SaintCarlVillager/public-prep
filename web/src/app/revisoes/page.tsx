@@ -28,7 +28,7 @@ function Revisoes({ base }: { base: Base }) {
     const qs = lista.map((x) => base.idx[x.qid]).filter((q) => q !== undefined);
     if (criarSessao(titulo, ordenar(base, p, qs))) router.push("/sessao");
   };
-  const porData = (l: ItemRevisao[]) => l.slice().sort((a, b) => a.p.localeCompare(b.p)).slice(0, 60);
+  const porData = (l: ItemRevisao[]) => l.toSorted((a, b) => a.p.localeCompare(b.p)).slice(0, 60);
 
   const grupos = new Map<string, ItemRevisao[]>();
   for (const it of itens.sort((a, b) => a.p.localeCompare(b.p) || a.qid.localeCompare(b.qid))) {
