@@ -2,6 +2,15 @@
 
 import { useRouter } from "next/navigation";
 
+import { Badge } from "@astryxdesign/core/Badge";
+import { Button } from "@astryxdesign/core/Button";
+import { Card } from "@astryxdesign/core/Card";
+import { Heading } from "@astryxdesign/core/Heading";
+import { HStack } from "@astryxdesign/core/HStack";
+import { List, ListItem } from "@astryxdesign/core/List";
+import { Text } from "@astryxdesign/core/Text";
+import { VStack } from "@astryxdesign/core/VStack";
+
 import { ComCatalogo, SelosEdital } from "~/components/Comum";
 import { criarSessao } from "~/lib/acoes";
 import type { Base } from "~/lib/catalogo";
@@ -38,71 +47,74 @@ function Revisoes({ base }: { base: Base }) {
   }
 
   return (
-    <section className="card">
-      <header>
-        <div style={{ display: "grid", gap: 4 }}>
-          <h2>Revisões</h2>
-          <span className="eyebrow">errou: volta amanhã · acertou: 1, 3, 7, 15, 30, 60 dias</span>
-        </div>
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-          <button className="btn ghost" type="button" disabled={!fila.length} onClick={() => abrir(`Revisão (${Math.min(tam, fila.length)}) · ${fmtDia(hj)}`, fila.slice(0, tam))}>
-            Revisar {tam}
-          </button>
-          <button className="btn ghost" type="button" disabled={!atras.length} onClick={() => abrir(`Atrasadas · ${fmtDia(hj)}`, porData(atras))}>
-            Revisar as atrasadas{atras.length ? ` (${atras.length})` : ""}
-          </button>
-          <button className="btn" type="button" disabled={!venc.length} onClick={() => abrir(`Revisões de ${fmtDia(hj)}`, porData(venc))}>
-            Revisar as de hoje{venc.length ? ` (${venc.length})` : ""}
-          </button>
-        </div>
-      </header>
-      <div className="revs">
-        {!itens.length && (
-          <p className="empty">Nenhuma revisão marcada. Cada questão respondida numa sessão entra aqui com a data de voltar a ela.</p>
-        )}
-        {[...grupos.entries()].map(([k, lst]) => (
-          <div key={k} className="revday">
-            <h3>
-              {k === "atrasada" ? (
-                <>
-                  <span>Atrasadas</span>
-                  <span className="pill bad">{lst.length}</span>
-                </>
-              ) : k === hj ? (
-                <>
-                  <span>Hoje</span>
-                  <span className="pill warn">{lst.length}</span>
-                </>
-              ) : (
-                <>
-                  <span className="mono">{fmtDia(k)}</span>
-                  <span className="pill mute">{lst.length}</span>
-                </>
-              )}
-            </h3>
-            <ul className="rows">
-              {lst.map((it) => (
-                <li key={it.qid}>
-                  <span>
-                    {base.nomeTema(it.m.temas[0] ?? "")}
-                    <br />
-                    <span className="sub mono">
-                      {rotuloProva(base, provaDe(it.qid))} · Q{it.m.n}
-                      {k === "atrasada" ? ` · desde ${fmtDia(it.p)}` : ""} · volta em {it.i} {it.i === 1 ? "dia" : "dias"}
-                    </span>
-                  </span>
-                  <span className="right">
-                    <SelosEdital base={base} qid={it.qid} />
-                    <span className={`pill ${it.a === it.t ? "" : "bad"}`}>
-                      {it.a}/{it.t}
-                    </span>
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </section>
+    // min-w-0: a coluna do app é um grid, e sem isto um rótulo longo alarga a página no celular.
+    <VStack gap={6} className="min-w-0">
+      <Card padding={6}>
+        <VStack gap={6}>
+          <VStack gap={4}>
+            <VStack gap={1}>
+              <Heading level={2}>Revisões</Heading>
+              <Text type="supporting" color="secondary">
+                Errou: volta amanhã · acertou: 1, 3, 7, 15, 30, 60 dias
+              </Text>
+            </VStack>
+            <HStack gap={2} wrap="wrap">
+              <Button
+                label={`Revisar ${tam}`}
+                isDisabled={!fila.length}
+                onClick={() => abrir(`Revisão (${Math.min(tam, fila.length)}) · ${fmtDia(hj)}`, fila.slice(0, tam))}
+              />
+              <Button
+                label={`Revisar as atrasadas${atras.length ? ` (${atras.length})` : ""}`}
+                isDisabled={!atras.length}
+                onClick={() => abrir(`Atrasadas · ${fmtDia(hj)}`, porData(atras))}
+              />
+              <Button
+                label={`Revisar as de hoje${venc.length ? ` (${venc.length})` : ""}`}
+                variant="primary"
+                isDisabled={!venc.length}
+                onClick={() => abrir(`Revisões de ${fmtDia(hj)}`, porData(venc))}
+              />
+            </HStack>
+          </VStack>
+          {!itens.length && (
+            <Text as="p" color="secondary">
+              Nenhuma revisão marcada. Cada questão respondida numa sessão entra aqui com a data de voltar a ela.
+            </Text>
+          )}
+          {[...grupos.entries()].map(([k, lst]) => (
+            <VStack key={k} gap={1}>
+              <HStack gap={2} align="center" wrap="wrap">
+                <Heading level={3}>{k === "atrasada" ? "Atrasadas" : k === hj ? "Hoje" : fmtDia(k)}</Heading>
+                <Badge label={lst.length} variant={k === "atrasada" ? "error" : k === hj ? "warning" : "neutral"} />
+              </HStack>
+              <List hasDividers edge="flush">
+                {lst.map((it) => (
+                  <ListItem
+                    key={it.qid}
+                    itemKey={it.qid}
+                    align="first-line"
+                    label={<Text className="whitespace-normal">{base.nomeTema(it.m.temas[0] ?? "")}</Text>}
+                    description={
+                      // Os selos vão embaixo do texto, e não à direita, para o tema não ser espremido no celular.
+                      <VStack gap={1} align="start">
+                        <Text type="supporting" color="secondary" hasTabularNumbers className="whitespace-normal">
+                          {rotuloProva(base, provaDe(it.qid))} · Q{it.m.n}
+                          {k === "atrasada" ? ` · desde ${fmtDia(it.p)}` : ""} · volta em {it.i} {it.i === 1 ? "dia" : "dias"}
+                        </Text>
+                        <HStack gap={1.5} wrap="wrap">
+                          <SelosEdital base={base} qid={it.qid} />
+                        </HStack>
+                      </VStack>
+                    }
+                    endContent={<Badge label={`${it.a}/${it.t}`} variant={it.a === it.t ? "success" : "error"} />}
+                  />
+                ))}
+              </List>
+            </VStack>
+          ))}
+        </VStack>
+      </Card>
+    </VStack>
   );
 }
