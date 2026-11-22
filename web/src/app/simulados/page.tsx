@@ -756,6 +756,7 @@ function Andamento({ base, id, s }: { base: Base; id: string; s: Simulado }) {
               <Banner status="warning" title={`A questão ${qid} não está no catálogo publicado; ela não conta na nota.`} />
             )}
             <ToggleButton
+              className="revisar"
               label={revisar ? "Marcada para revisar · desmarcar" : "Marcar para revisar depois"}
               isPressed={revisar}
               onPressedChange={() => alternarRevisar(id, qid)}

@@ -359,7 +359,7 @@ export const serventiaTheme = {
           "backgroundColor": "#f1ede4"
         },
         "@dark": {
-          "backgroundColor": "#0f1115"
+          "backgroundColor": "#2b3039"
         }
       }
     },
@@ -572,6 +572,16 @@ export const serventiaTheme = {
       "base": {
         "--size-element-md": "48px",
         "--size-element-sm": "44px"
+      }
+    },
+    "banner": {
+      "status:warning": {
+        "@light": {
+          "backgroundColor": "#f8eed3"
+        },
+        "@dark": {
+          "backgroundColor": "#30270f"
+        }
       }
     }
   },

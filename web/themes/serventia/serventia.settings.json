@@ -219,7 +219,23 @@
     },
     {
       "thing": "background-color",
-      "value": "#0f1115",
+      "value": "#f8eed3",
+      "source": "property",
+      "on": "banner",
+      "when": "status:warning",
+      "mode": "light"
+    },
+    {
+      "thing": "background-color",
+      "value": "#30270f",
+      "source": "property",
+      "on": "banner",
+      "when": "status:warning",
+      "mode": "dark"
+    },
+    {
+      "thing": "background-color",
+      "value": "#2b3039",
       "source": "property",
       "on": "button",
       "when": "variant:secondary",

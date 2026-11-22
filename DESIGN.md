@@ -66,12 +66,12 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 
 ## Astryx
 
-O app está passando, tela a tela, para os componentes do design system [Astryx](https://github.com/meta/astryx) (React 19 e StyleX, com CSS pronto). As regras de uso estão em `web/AGENTS.md`; aqui fica o que muda no visual.
+Todas as telas do app usam os componentes do design system [Astryx](https://github.com/meta/astryx) (React 19 e StyleX, com CSS pronto). As regras de uso estão em `web/AGENTS.md`; aqui fica o que muda no visual.
 
-- **Tema `serventia`** (`web/themes/serventia/`, feito com o editor de temas): os tokens acima viram os do Astryx. `--paper` → `--color-background-body`; `--sheet` → `--color-background-surface` e `-card`; `--sunken` → `--color-background-muted`, `--color-accent-muted` (linha marcada) e o fundo do botão secundário; `--ink` → `--color-text-primary` e `--color-accent` (botão principal, foco); `--muted` → `--color-text-secondary`; `--rule` / `--rule-strong` → `--color-border` / `-emphasized`; `--good` / `--bad` / `--warn` → `--color-success` / `--color-error` / `--color-warning` (o editor ajusta as variantes claras para manter 4,5:1). Raios 6 / 10 / 16 px, texto base 16 px, botões e campos com 48 px de altura.
-- O **grifo** continua fora do Astryx: aba ativa, logotipo e letra escolhida seguem no `painel.css`.
-- **Confirmações** seguem com `confirmar`/`avisar` (`components/Dialogo.tsx`) em todas as telas, inclusive nas migradas, para haver um só padrão; quando todas as telas forem Astryx, o `Dialogo` pode passar a usar o `AlertDialog`.
-- Tela migrada: **Ajustes**. As outras seguem com as classes do `painel.css` até a vez delas; a ligação do Astryx não muda nenhum pixel nelas (conferido por captura).
+- **Tema `serventia`** (`web/themes/serventia/`, feito com o editor de temas): os tokens acima viram os do Astryx. `--paper` → `--color-background-body`; `--sheet` → `--color-background-surface` e `-card`; `--sunken` → `--color-background-muted`, `--color-accent-muted` (linha marcada) e o fundo do botão secundário; `--ink` → `--color-text-primary` e `--color-accent` (botão principal, foco); `--muted` → `--color-text-secondary`; `--rule` / `--rule-strong` → `--color-border` / `-emphasized`; `--good` / `--bad` / `--warn` → `--color-success` / `--color-error` / `--color-warning` (o editor ajusta as variantes claras para manter 4,5:1). Raios 6 / 10 / 16 px, texto base 16 px, botões e campos com 48 px de altura. Botão secundário em `--sunken` (claro) e `--rule` (escuro, para não sumir sobre o papel); cabeçalho do `Banner` de aviso em `--warn-soft`.
+- **Ficam com CSS próprio** (`painel.css`), por serem a identidade do app e não terem equivalente no Astryx: o grifo (abas, logotipo, letra escolhida, selos TJ-SP), a alternativa da questão e os seus estados depois da entrega, o card de arrastar do Treino, o carimbo da nota, o trilho do medidor com o traço da nota de corte, a barra e a grade do Simulado, "Marcar para revisar" marcado (`.revisar`, no tom de aviso) e o texto de leitura em Literata.
+- **Confirmações** seguem com `confirmar`/`avisar` (`components/Dialogo.tsx`) em todas as telas, para haver um só padrão (o `<dialog>` nativo segue o Modern Web Guidance).
+- Estrutura e controles (cartões, títulos, botões, seletores, campos, listas, avisos, estados vazios) são componentes Astryx; não crie classe nova no `painel.css` para algo que o Astryx já tem.
 
 ## Estados e escrita
 
