@@ -32,6 +32,7 @@ import {
   type Tamanho,
 } from "~/lib/simulado";
 import type { Edital, Questao } from "~/lib/tipos";
+import { avisar, confirmar, fecharDialogo } from "~/components/Dialogo";
 
 export default function PaginaSimulados() {
   return (
@@ -146,7 +147,17 @@ function Inicio({ base, p }: { base: Base; p: Progresso }) {
             <button
               className="btn ghost"
               type="button"
-              onClick={() => confirm("Descartar este simulado? As respostas marcadas se perdem.") && descartarSimulado(id)}
+              onClick={async () => {
+                if (
+                  await confirmar({
+                    titulo: "Descartar este simulado?",
+                    texto: "As respostas marcadas se perdem.",
+                    ok: "Descartar simulado",
+                    perigo: true,
+                  })
+                )
+                  descartarSimulado(id);
+              }}
             >
               Descartar
             </button>
@@ -206,7 +217,7 @@ function SimuladoDoEdital({ base, p, ed, bloqueado }: { base: Base; p: Progresso
 
   const comecar = () => {
     const m = montarSimuladoEdital(base, p, ed, tamanho);
-    if (!m.questoes.length) return alert("O banco ainda não tem questões deste edital.");
+    if (!m.questoes.length) return void avisar("O banco ainda não tem questões deste edital.");
     const id = criarSimulado({
       titulo: `Simulado ${base.rotulo(ed)} · ${tamanho}`,
       edital: ed.id,
@@ -320,7 +331,7 @@ function ProvaAnterior({ base, ed, bloqueado }: { base: Base; ed: Edital; bloque
     if (!sel) return;
     const pr = sel.prova;
     const qs = (base.cat.indice[pr.id] ?? []).filter((q) => q.tipo === "me").map((q) => ({ id: q.id, n: q.n }));
-    if (!qs.length) return alert("Esta prova ainda não tem questões no banco.");
+    if (!qs.length) return void avisar("Esta prova ainda não tem questões no banco.");
     const limite = tempo === "edital" ? (durEdital ?? null) : tempo === "outro" ? Math.max(1, Math.round(minutos)) : null;
     const id = criarSimulado({
       titulo: `Prova ${pr.orgao} ${pr.ano} · ${pr.cargo}`,
@@ -473,6 +484,7 @@ function Andamento({ base, id, s }: { base: Base; id: string; s: Simulado }) {
   const entregarAgora = (esgotado: boolean) => {
     if (entregue.current) return;
     entregue.current = true;
+    fecharDialogo();
     gravar();
     inicio.current = null;
     entregarSimulado(base, id, porId, { edital, esgotado });
@@ -505,11 +517,16 @@ function Andamento({ base, id, s }: { base: Base; id: string; s: Simulado }) {
     const alvo = document.getElementById("sim-questao");
     if (alvo && alvo.getBoundingClientRect().top < 0) alvo.scrollIntoView({ block: "start" });
   };
-  const pedirEntrega = () => {
-    const msg = brancas
-      ? `Entregar o simulado com ${plural(brancas, "questão em branco", "questões em branco")}? Em branco conta como erro.`
-      : "Entregar o simulado? Todas as questões estão respondidas.";
-    if (confirm(msg)) entregarAgora(false);
+  const pedirEntrega = async () => {
+    const ok = await confirmar({
+      titulo: "Entregar o simulado?",
+      texto: brancas
+        ? `${plural(brancas, "questão está em branco", "questões estão em branco")} e ${brancas === 1 ? "conta" : "contam"} como erro.`
+        : "Todas as questões estão respondidas.",
+      ok: "Entregar simulado",
+      cancelar: "Continuar respondendo",
+    });
+    if (ok) entregarAgora(false);
   };
 
   return (

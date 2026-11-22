@@ -2,7 +2,6 @@
 
 import { useRef, useState } from "react";
 
-import { useImperativeAlertDialog } from "@astryxdesign/core/AlertDialog";
 import { Button } from "@astryxdesign/core/Button";
 import { Card } from "@astryxdesign/core/Card";
 import { CheckboxList, CheckboxListItem } from "@astryxdesign/core/CheckboxList";
@@ -13,6 +12,7 @@ import { Text } from "@astryxdesign/core/Text";
 import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo } from "~/components/Comum";
+import { confirmar } from "~/components/Dialogo";
 import type { Base } from "~/lib/catalogo";
 import { ativos, orgaoDe, vigentes } from "~/lib/estudo";
 import { fmtData, hoje } from "~/lib/nucleo";
@@ -28,7 +28,6 @@ function Ajustes({ base }: { base: Base }) {
   const p = useProgresso();
   const arquivo = useRef<HTMLInputElement>(null);
   const [msg, setMsg] = useState("");
-  const alerta = useImperativeAlertDialog();
   const ids = ativos(base, p).map((e) => e.id);
   const vig = vigentes(base);
 
@@ -55,32 +54,31 @@ function Ajustes({ base }: { base: Base }) {
       const n = Object.keys(novo.sessoes).length;
       const ns = Object.keys(novo.simulados).length;
       const resumo = `${n} ${n === 1 ? "sessão" : "sessões"}, ${ns} ${ns === 1 ? "simulado" : "simulados"}`;
-      alerta.show({
-        title: "Substituir o progresso?",
-        description: `O progresso deste navegador será trocado pelo do arquivo (${resumo}).`,
-        actionLabel: "Substituir",
-        cancelLabel: "Cancelar",
-        onAction: () => {
-          substituir(novo);
-          setMsg(`Progresso importado: ${resumo}.`);
-        },
+      const ok = await confirmar({
+        titulo: "Substituir o progresso deste navegador?",
+        texto: `O arquivo traz ${resumo}. O progresso atual deste navegador será trocado pelo dele.`,
+        ok: "Substituir progresso",
+        perigo: true,
       });
+      if (!ok) return;
+      substituir(novo);
+      setMsg(`Progresso importado: ${resumo}.`);
     } catch {
       setMsg("Não consegui ler esse arquivo. Use um JSON exportado por este app.");
     }
   };
 
-  const apagar = () =>
-    alerta.show({
-      title: "Apagar todo o progresso?",
-      description: "Sessões, respostas, revisões, treino e simulados deste navegador somem. Isso não tem volta.",
-      actionLabel: "Apagar progresso",
-      cancelLabel: "Cancelar",
-      onAction: () => {
-        substituir(vazio());
-        setMsg("Progresso apagado.");
-      },
+  const apagar = async () => {
+    const ok = await confirmar({
+      titulo: "Apagar todo o progresso deste navegador?",
+      texto: "Isso não tem volta. Se quiser guardar uma cópia, exporte antes.",
+      ok: "Apagar progresso",
+      perigo: true,
     });
+    if (!ok) return;
+    substituir(vazio());
+    setMsg("Progresso apagado.");
+  };
 
   return (
     // min-w-0: a coluna do app é um grid, e sem isto um rótulo longo alarga a página no celular.
@@ -149,7 +147,7 @@ function Ajustes({ base }: { base: Base }) {
           <HStack gap={2} wrap="wrap">
             <Button label="Exportar progresso" variant="primary" onClick={exportar} />
             <Button label="Importar progresso" onClick={() => arquivo.current?.click()} />
-            <Button label="Apagar progresso" variant="ghost" onClick={apagar} />
+            <Button label="Apagar progresso" variant="ghost" onClick={() => void apagar()} />
           </HStack>
           <input
             ref={arquivo}
@@ -167,7 +165,6 @@ function Ajustes({ base }: { base: Base }) {
           </Text>
         </VStack>
       </Card>
-      {alerta.element}
     </VStack>
   );
 }

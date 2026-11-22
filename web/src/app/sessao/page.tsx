@@ -11,6 +11,7 @@ import { ativos, ehFederal, montarAutomatica } from "~/lib/estudo";
 import { fmtDia, hoje, pct, slugDe } from "~/lib/nucleo";
 import { atualizar, useProgresso, type Progresso } from "~/lib/progresso";
 import type { Questao, TextoBase } from "~/lib/tipos";
+import { avisar, confirmar } from "~/components/Dialogo";
 
 export default function PaginaSessao() {
   return (
@@ -38,7 +39,7 @@ function Sessao({ base }: { base: Base }) {
 
   const nova = () => {
     const qs = montarAutomatica(base, p, p.config.tamanho_sessao, hoje());
-    if (!criarSessao("Sessão automática", qs)) alert("Nenhuma questão disponível para uma sessão agora.");
+    if (!criarSessao("Sessão automática", qs)) void avisar("Nenhuma questão disponível para uma sessão agora.");
   };
   useEffect(() => {
     if (params.get("nova") && !pedidoNova.current) {
@@ -93,7 +94,9 @@ function Sessao({ base }: { base: Base }) {
           <button
             className="btn ghost"
             type="button"
-            onClick={() => confirm("Apagar esta sessão não entregue?") && apagarSessao(id)}
+            onClick={async () => {
+              if (await confirmar({ titulo: "Apagar esta sessão não entregue?", ok: "Apagar sessão", perigo: true })) apagarSessao(id);
+            }}
           >
             Apagar sessão
           </button>
@@ -206,7 +209,8 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
             disabled={respondidas < s.questoes.length}
             onClick={() => {
               entregar(base, id, porId);
-              window.scrollTo({ top: 0, behavior: "smooth" });
+              const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+              window.scrollTo({ top: 0, behavior: reduz ? "instant" : "smooth" });
             }}
           >
             Entregar sessão

@@ -43,6 +43,8 @@ Defina toda cor como token no `:root`, com tema claro como base e o escuro em `@
 - Enunciado 18/29 px; alternativa 17/26; comentário 16/25. Não diminua no celular.
 - Rótulos em caixa-alta (`.eyebrow`): 12 px, 600, espaçamento .06em.
 - Números em coluna com `font-variant-numeric: tabular-nums`.
+- Tamanhos de fonte e entrelinha escritos em **rem** (px ÷ 16: 18/29 px = `1.125rem`/`1.8125rem`), e breakpoints em **em**, para seguir o tamanho de texto do sistema (`<meta name="text-scale">`). Não fixe `font-size` no `html`. Caixa que contém texto cresce com ele (`min-height`, nunca `height` fixa).
+- Texto corrido com `text-wrap: pretty`; títulos com `balance`.
 
 ## Layout
 
@@ -68,7 +70,7 @@ O app está passando, tela a tela, para os componentes do design system [Astryx]
 
 - **Tema `serventia`** (`web/themes/serventia/`, feito com o editor de temas): os tokens acima viram os do Astryx. `--paper` → `--color-background-body`; `--sheet` → `--color-background-surface` e `-card`; `--sunken` → `--color-background-muted`, `--color-accent-muted` (linha marcada) e o fundo do botão secundário; `--ink` → `--color-text-primary` e `--color-accent` (botão principal, foco); `--muted` → `--color-text-secondary`; `--rule` / `--rule-strong` → `--color-border` / `-emphasized`; `--good` / `--bad` / `--warn` → `--color-success` / `--color-error` / `--color-warning` (o editor ajusta as variantes claras para manter 4,5:1). Raios 6 / 10 / 16 px, texto base 16 px, botões e campos com 48 px de altura.
 - O **grifo** continua fora do Astryx: aba ativa, logotipo e letra escolhida seguem no `painel.css`.
-- **Confirmações** usam `AlertDialog` (nunca `confirm()` do navegador): título com a pergunta, a consequência em uma frase e o botão com a ação ("Apagar progresso").
+- **Confirmações** seguem com `confirmar`/`avisar` (`components/Dialogo.tsx`) em todas as telas, inclusive nas migradas, para haver um só padrão; quando todas as telas forem Astryx, o `Dialogo` pode passar a usar o `AlertDialog`.
 - Tela migrada: **Ajustes**. As outras seguem com as classes do `painel.css` até a vez delas; a ligação do Astryx não muda nenhum pixel nelas (conferido por captura).
 
 ## Estados e escrita
@@ -83,7 +85,10 @@ O app está passando, tela a tela, para os componentes do design system [Astryx]
 - Foco: `outline: 2px solid var(--ink)` com 2 px de afastamento (≥13:1 em todo fundo).
 - Contraste conferido nos dois temas: texto ≥4,5:1, bordas de controle ≥3:1.
 - Nenhuma informação só por cor: correta, errada e status sempre com palavra.
-- Movimento só na largura das barras, no fundo de toque e no arraste do card; tudo desligado com `prefers-reduced-motion`.
+- Movimento só na largura das barras, no fundo de toque e no arraste do card; tudo desligado com `prefers-reduced-motion` (inclusive a rolagem suave).
+- Link "Pular para o conteúdo" no topo; o cabeçalho é `<header>` e o conteúdo, `<main id="conteudo">`.
+- Confirmação e aviso em `<dialog>` nativo (`confirmar`/`avisar`), com título, o botão seguro primeiro (recebe o foco) e o de ação dizendo o que faz ("Apagar progresso"); ação destrutiva em `--bad`. Fecha com Esc, gesto de voltar ou clique fora.
+- `<meta name="color-scheme" content="light dark">` no `<head>`, para a tela e os controles nativos já nascerem no tema certo.
 
 ## Ao mudar a interface
 
