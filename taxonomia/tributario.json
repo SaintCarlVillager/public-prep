@@ -119,6 +119,36 @@
     {
       "id": "tributario.divida-ativa",
       "nome": "Dívida ativa e transação"
+    },
+    {
+      "id": "tributario.municipais",
+      "nome": "Tributos municipais",
+      "filhos": [
+        {
+          "id": "tributario.municipais.iss",
+          "nome": "ISS"
+        },
+        {
+          "id": "tributario.municipais.iptu",
+          "nome": "IPTU"
+        },
+        {
+          "id": "tributario.municipais.itbi",
+          "nome": "ITBI"
+        },
+        {
+          "id": "tributario.municipais.taxas-contribuicoes",
+          "nome": "Taxas, contribuição de melhoria e COSIP"
+        }
+      ]
+    },
+    {
+      "id": "tributario.processo-administrativo-fiscal",
+      "nome": "Processo administrativo tributário"
+    },
+    {
+      "id": "tributario.simples-nacional",
+      "nome": "Simples Nacional (LC 123)"
     }
   ]
 }
