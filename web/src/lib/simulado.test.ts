@@ -23,7 +23,10 @@ type EditalPont = { blocos: BlocoEdital[]; objetiva: Objetiva };
 const editalJson = (caminho: string) =>
   JSON.parse(readFileSync(new URL(`../../../editais/${caminho}/edital.json`, import.meta.url), "utf-8")) as EditalPont;
 const tj = editalJson("tj-sp/oficial-de-justica/2026");
-const trf = editalJson("trf3/oficial-de-justica-avaliador-federal/2026");
+// O TRF3 Oficial saiu do app, mas o edital continua como fixture: é o caso de média ponderada e da norma inteira ("*").
+const trf = JSON.parse(
+  readFileSync(new URL("./fixtures/edital-trf3-oficial-2026.json", import.meta.url), "utf-8"),
+) as typeof tj;
 const c = (acertos: number, total: number, branco = 0): Contagem => ({ acertos, total, branco });
 
 test("TJ-SP: habilitado com nota ≥ 5 e 50% nos blocos eliminatórios", () => {

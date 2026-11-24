@@ -26,7 +26,7 @@ Cada questão é etiquetada **uma vez**, pelo que ela trata. Cada edital diz o q
 
 ```
 questão  ─ temas ─┐
-                  ├─ interseção ─▶ "esta questão cai no TRF3 (bloco Específicos)"
+                  ├─ interseção ─▶ "esta questão cai no TJ-SP (Bloco II)"
 edital   ─ temas ─┘
 ```
 
@@ -108,7 +108,7 @@ Exemplo real: ver o arquivo completo, montado a partir do Anexo VIII do edital d
 - `objetiva.duracao_min`: duração oficial da prova, em minutos; `objetiva.duracao_inclui` diz se esse tempo inclui a redação ou a discursiva, citando o item do edital. O Simulado usa os dois.
 - A nota do Simulado lê `objetiva.escala`, `minimo_total` (fração da nota no conjunto) ou `media_ponderada` + `minimo_media`, e de cada bloco `peso`, `minimo` e `eliminatorio`.
 - `cargo_curto`: rótulo curto do cargo ("Oficial", "Escrevente"); o app mostra o edital sempre como órgão + cargo curto ("TJ-SP Escrevente").
-- `"*"` numa norma (`"CPC": ["*"]`) diz que o edital cobra a norma sem listar artigos, como faz o TRF3. Aí a relevância vem dos **temas**, e a norma só confirma.
+- `"*"` numa norma (`"CPC": ["*"]`) diz que o edital cobra a norma sem listar artigos, como fazia o edital do TRF3 (hoje fixture dos testes, em `web/src/lib/fixtures/`). Aí a relevância vem dos **temas**, e a norma só confirma.
 - `destaques`: dispositivos que o edital cita nominalmente (`"CPP 245"`, `"CPC 252-254"`). Não mudam a relevância, mas sobem a prioridade de estudo.
 - Intervalos que não estão escritos no edital, e sim deduzidos do texto dele, ficam explicados em `observacao`.
 
@@ -128,7 +128,6 @@ provas/
       analista-judiciario-oficial-de-justica/
         2019/   ...
 editais/
-  trf3/oficial-de-justica-avaliador-federal/2026/edital.json
   tj-sp/oficial-de-justica/2026/edital.json
 ```
 
