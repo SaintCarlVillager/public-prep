@@ -1,0 +1,1268 @@
+{
+ "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023",
+ "textos": {},
+ "questoes": [
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#65",
+   "tipo": "me",
+   "numero": 65,
+   "enunciado": "O arcabouço fiscal é um conjunto de medidas, regras e parâmetros para a condução da política fiscal – controle dos gastos e receitas do país. A nova regra fiscal, anunciada nesta quinta-feira (30) pelo governo, substituirá o teto de gastos que vigora desde 2016 e limita o crescimento das despesas ao ano anterior, corrigido pela inflação oficial (Índice Nacional de Preços ao Consumidor Amplo – IPCA). (ebc. Disponível em https:shre.ink/kNjM. Acesso em 03/04/2023. Adaptado)\n\nA respeito da proposta anunciada, é correto afirmar que ela",
+   "alt": {
+    "A": "projeta que o déficit primário será zerado em 2026, com superávit de 5% do PIB em 2024 e 6% em 2025.",
+    "B": "limita o crescimento da despesa a 70% da variação da receita dos 12 meses anteriores.",
+    "C": "estipula o teto de crescimento da despesa a 10% ao ano acima da inflação.",
+    "D": "determina que a dívida pública bruta cairá levemente até 2025 e será estabilizada a partir de 2026.",
+    "E": "prevê que o excedente de superávit primário acima do teto da banda será usado para investimentos em saúde."
+   },
+   "gab": "B",
+   "temas": [
+    "atualidades.2023"
+   ],
+   "dispositivos": [],
+   "exp": "A proposta do novo arcabouço fiscal, anunciada em março de 2023, limitava o crescimento real da despesa a **70% da variação da receita** dos 12 meses anteriores, dentro de um piso e de um teto de crescimento real. Além disso, previa meta de resultado primário zero em 2024, com superávits de 0,5% do PIB em 2025 e de 1% em 2026. A dívida bruta, nas projeções, continuaria subindo até 2026, e o excedente acima da banda iria em parte para investimentos, e não para a saúde.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Os números estão errados: a meta era resultado primário **zero em 2024**, com superávit de 0,5% do PIB em 2025 e 1% em 2026, e não superávits de 5% e 6%.",
+    "B": "A regra central do arcabouço limita o crescimento da despesa a **70% da variação da receita** dos 12 meses anteriores.",
+    "C": "O teto de crescimento real da despesa era de cerca de **2,5% ao ano**, e não de 10% acima da inflação.",
+    "D": "As projeções do governo mostravam a dívida bruta **crescendo** nos anos seguintes, com estabilização só depois de 2026, e não uma queda até 2025.",
+    "E": "O excedente de resultado primário acima do teto da banda não foi destinado à saúde; a proposta o previa para **investimentos** em geral."
+   },
+   "pendencias": [
+    "Números do arcabouço fiscal (70% da receita, metas de primário 0/0,5%/1%) vêm do contexto de 2023, não de fonte conferida."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#66",
+   "tipo": "me",
+   "numero": 66,
+   "enunciado": "As agências de notícias internacionais informaram que após sucessivos aumentos da produção no ano passado, a Arábia Saudita e outros países produtores de petróleo da Organização dos Países Exportadores de Petróleo (Opep+) informaram, neste domingo (2), cortes voluntários na produção do óleo. O cartel deve reduzir cerca de 1,15 milhão de barril por dia (bdp) até o final de maio. (seudinheiro. Disponível em https://shre.ink/kNA4. Acesso em 03.03.23. Adaptado)\n\nO anúncio não agradou",
+   "alt": {
+    "A": "à Rússia, que precisará produzir mais petróleo para abastecer os veículos de guerra que atuam em território ucraniano e deixará de vender combustível que gera os fundos necessários para a manutenção da guerra.",
+    "B": "aos países da comunidade europeia que necessitam do petróleo para abastecer os aquecedores residenciais no período compreendido entre os meses de maio e agosto.",
+    "C": "à Venezuela que, segundo Nicolas Maduro, com a retomada de venda de petróleo aos Estado Unidos, estava obtendo recursos para suprir as necessidades da população e apoio para concorrer a um novo mandato.",
+    "D": "ao Mercosul, porque os países que o compõem não são produtores de petróleo e, como consequência do aumento do preço, deverão desviar recursos orçamentários da saúde, educação e habitação para adquirir o combustível.",
+    "E": "aos Estados Unidos, porque é um dos países que mais pressionam pelo aumento da oferta da Opep+ para conter a disparada de preços, sobretudo de energia, com impacto na inflação americana."
+   },
+   "gab": "E",
+   "temas": [
+    "atualidades.2023"
+   ],
+   "dispositivos": [],
+   "exp": "O corte voluntário anunciado pela Opep+ em abril de 2023 reduz a oferta e tende a elevar o preço do petróleo. Isso desagradou aos **Estados Unidos**, que vinham pressionando por mais oferta para conter os preços da energia e, com eles, a inflação americana. As outras alternativas atribuem a outros países motivos que não correspondem ao episódio.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "A Rússia não precisaria produzir mais para abastecer a guerra: com o preço do petróleo em alta, sua receita tende a **aumentar**, de modo que o corte não a prejudicaria.",
+    "B": "O argumento do **aquecimento residencial entre maio e agosto** não se sustenta: nesses meses a demanda europeia por aquecimento é baixa, e não foi esse o motivo de insatisfação.",
+    "C": "A alegação sobre a **Venezuela** e a retomada de vendas aos Estados Unidos não corresponde ao episódio; o corte, ao elevar preços, em regra a beneficia.",
+    "D": "O **Mercosul** não foi o foco da insatisfação; a afirmação inventa um desvio de verbas da saúde, da educação e da habitação sem relação com o anúncio.",
+    "E": "Os **Estados Unidos** pressionavam por mais oferta para conter a alta dos preços da energia e a inflação, e o corte da Opep+ foi na direção contrária."
+   },
+   "pendencias": [
+    "Fato de atualidades (2023) explicado a partir do enunciado e do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#67",
+   "tipo": "me",
+   "numero": 67,
+   "enunciado": "Em mais um efeito colateral da invasão russa da Ucrânia, as Forças Aéreas de quatro países nórdicos tomaram a inédita decisão de unificar suas frotas, planejamento, operações e patrulhas. Em conjunto, eles somam 247 caças, poderio equivalente ao individual dos principais membros europeus da Otan, como França e Turquia. (uol. Disponível em https://shre.ink/kNqm. Acesso em 03.03.23. Adaptado)\n\nOs países que unificaram suas frotas são os seguintes:",
+   "alt": {
+    "A": "Suécia, Finlândia, Noruega e Dinamarca.",
+    "B": "Groenlândia, Finlândia, Bélgica e Irlanda.",
+    "C": "Suécia, Croácia, Noruega e Países Baixos.",
+    "D": "Groenlândia, Finlândia, Noruega e Dinamarca.",
+    "E": "Suécia, Finlândia, Noruega e Polônia."
+   },
+   "gab": "A",
+   "temas": [
+    "atualidades.2023"
+   ],
+   "dispositivos": [],
+   "exp": "Em 2023, as forças aéreas dos quatro países nórdicos, **Suécia, Finlândia, Noruega e Dinamarca**, decidiram integrar suas frotas e operações. A Groenlândia é território autônomo da Dinamarca, e Bélgica, Irlanda, Croácia, Países Baixos e Polônia não fazem parte do grupo nórdico.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "**Suécia, Finlândia, Noruega e Dinamarca** são os quatro países nórdicos que decidiram unificar suas forças aéreas.",
+    "B": "A **Groenlândia** não é país (é território autônomo da Dinamarca), e Bélgica e Irlanda não são nórdicas.",
+    "C": "**Croácia** e **Países Baixos** não são países nórdicos e não participaram da integração.",
+    "D": "A **Groenlândia** não é país soberano, e a Suécia, ausente desse grupo, é um dos quatro países da integração.",
+    "E": "A **Polônia** não é país nórdico; o quarto participante da integração foi a Dinamarca."
+   },
+   "pendencias": [
+    "Fato de atualidades (2023) explicado a partir do enunciado e do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#68",
+   "tipo": "me",
+   "numero": 68,
+   "enunciado": "A comitiva do Ministério da Agricultura e Pecuária (Mapa) encerrou nesta quarta-feira (29) sua missão oficial na China, com a participação no “Seminário Econômico Brasil-China” que contou com a presença de autoridades governamentais e empresários dos dois países. Na abertura do evento, o ministro da Agricultura e Pecuária do Brasil, Carlos Fávaro, comemorou os resultados da visita. (gov.br. Disponível em https://shre.ink/kgUc. Acesso em 03.03.23. Adaptado)\n\nA primeira conquista da viagem, que iniciou no dia 22 de março, foi o anúncio do governo chinês de",
+   "alt": {
+    "A": "investir em uma fábrica de componentes eletrônicos na região amazônica para abastecer as montadoras de veículos do Brasil.",
+    "B": "doar vultosos recursos para o Fundo Amazônia que promove ações de prevenção, monitoramento e combate ao desmatamento da Amazônia.",
+    "C": "levantar o embargo às importações de carne bovina brasileira, que estavam suspensas desde fevereiro.",
+    "D": "participar da FUNBIO, uma associação sem fins lucrativos que trabalha para a conservação da biodiversidade brasileira.",
+    "E": "montar, em Iracemápolis (SP), uma fábrica de veículos da maior empresa automotiva estatal chinesa, a Great Wall Motors."
+   },
+   "gab": "C",
+   "temas": [
+    "atualidades.2023"
+   ],
+   "dispositivos": [],
+   "exp": "A primeira conquista da missão do Mapa à China, em março de 2023, foi o anúncio de que a China **levantaria o embargo à carne bovina brasileira**, suspensa desde fevereiro, após um caso atípico de \"vaca louca\" no Pará. As demais alternativas trazem investimentos e doações que não foram anunciados na viagem.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A viagem não rendeu o anúncio de uma fábrica de **componentes eletrônicos** na Amazônia; o anúncio inicial foi sobre o mercado da carne.",
+    "B": "Não houve anúncio de **doação ao Fundo Amazônia** pela China na missão do Mapa; a primeira conquista foi comercial.",
+    "C": "O governo chinês anunciou o fim do **embargo à carne bovina brasileira**, suspensa desde fevereiro, o que foi a primeira conquista da missão.",
+    "D": "Não houve anúncio de participação chinesa na **FUNBIO** como resultado da viagem do Mapa.",
+    "E": "A **Great Wall Motors** não é a maior estatal automotiva chinesa (é empresa privada) nem foi esse o anúncio da viagem do Mapa."
+   },
+   "pendencias": [
+    "Fato de atualidades (2023) explicado a partir do enunciado e do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#69",
+   "tipo": "me",
+   "numero": 69,
+   "enunciado": "Considere que Alice tem 25 anos, é considerada uma pessoa com deficiência e há cinco anos namora com Jackson, que não tem deficiência física, mental, intelectual ou sensorial. Eles desejam se casar em seis meses. Com base na situação hipotética e no disposto no Estatuto da Pessoa com Deficiência, é correto afirmar que",
+   "alt": {
+    "A": "Jackson deve solicitar autorização para o casamento ao responsável legal de Alice, devendo formalizar o pedido com firma reconhecida em cartório.",
+    "B": "a deficiência não afeta a plena capacidade civil de Alice, inclusive para se casar e exercer seus direitos sexuais e reprodutivos.",
+    "C": "como Jackson não é uma pessoa com deficiência, apenas poderá se casar com Alice depois que obter do cartório de registro civil competente autorização para tanto.",
+    "D": "eles devem pedir autorização expressa ao juízo competente pelo menos 120 dias antes do casamento.",
+    "E": "o casamento apenas poderá ser realizado depois que a mãe e o pai de Alice emitirem autorização expressa, com firma reconhecida em cartório."
+   },
+   "gab": "B",
+   "temas": [
+    "direitos-humanos.pcd.capacidade-curatela"
+   ],
+   "dispositivos": [
+    "L13146 6 I",
+    "L13146 6 II"
+   ],
+   "exp": "O Estatuto afirma que a deficiência **não afeta a plena capacidade civil** da pessoa, inclusive para casar-se e constituir união estável e para exercer direitos sexuais e reprodutivos (`L13146 6`, I e II). Por isso, Alice, maior de idade, casa-se sem autorização de responsável, de cartório, de juiz ou dos pais.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Não há exigência de **autorização do responsável legal** nem de firma reconhecida: a pessoa com deficiência tem capacidade plena para se casar (`L13146 6` I).",
+    "B": "A pessoa com deficiência tem **plena capacidade civil**, inclusive para casar-se e exercer direitos sexuais e reprodutivos (`L13146 6` I e II).",
+    "C": "Não existe **autorização do cartório** para o casamento da pessoa com deficiência; o fato de o noivo não ter deficiência é irrelevante (`L13146 6` I).",
+    "D": "O Estatuto não exige **autorização judicial** nem antecedência de 120 dias para o casamento da pessoa com deficiência (`L13146 6` I).",
+    "E": "A capacidade para casar-se não depende de **autorização dos pais**, pois a deficiência não afeta a plena capacidade civil (`L13146 6` I)."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#70",
+   "tipo": "me",
+   "numero": 70,
+   "enunciado": "De acordo com o Estatuto da Pessoa com Deficiência, garantir ambientes de trabalho acessíveis e inclusivos é obrigação",
+   "alt": {
+    "A": "exclusiva das fundações e pessoas jurídicas de direito público.",
+    "B": "exclusiva dos órgãos públicos.",
+    "C": "expressa apenas das pessoas de direito privado.",
+    "D": "das pessoas jurídicas de direito público, privado ou de qualquer natureza.",
+    "E": "exclusiva das associações e fundações."
+   },
+   "gab": "D",
+   "temas": [
+    "direitos-humanos.acessibilidade"
+   ],
+   "dispositivos": [
+    "L13146 34 §1º"
+   ],
+   "exp": "O `L13146 34 §1º` determina que as pessoas jurídicas de **direito público, privado ou de qualquer natureza** são obrigadas a garantir ambientes de trabalho acessíveis e inclusivos. A obrigação, portanto, não é exclusiva de nenhum grupo.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A obrigação não é **exclusiva** de fundações e entes públicos; alcança pessoas jurídicas de qualquer natureza (`L13146 34 §1º`).",
+    "B": "A obrigação não é **exclusiva dos órgãos públicos**; alcança também as pessoas jurídicas de direito privado (`L13146 34 §1º`).",
+    "C": "A obrigação não é restrita às **pessoas de direito privado**: o dispositivo inclui as de direito público (`L13146 34 §1º`).",
+    "D": "O `L13146 34 §1º` obriga as pessoas jurídicas de **direito público, privado ou de qualquer natureza** a garantir ambientes de trabalho acessíveis e inclusivos.",
+    "E": "A obrigação não é **exclusiva de associações e fundações**; vale para pessoas jurídicas de qualquer natureza (`L13146 34 §1º`)."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#71",
+   "tipo": "me",
+   "numero": 71,
+   "enunciado": "Uma fórmula muito usada por motoristas de aplicativos, para saber se vale mais a pena abastecer o carro de motor flex com gasolina ou álcool (etanol), é dividir o preço do litro de etanol pelo da gasolina. Se o resultado for maior do que 0,7, é mais vantajoso abastecer o carro com gasolina, se for menor do que 0,7 é mais vantajoso abastecer o carro com etanol e, se for igual a 0,7, é indiferente abastecer o carro com gasolina ou etanol.\nRenan, que é motorista de aplicativo, fez as contas por essa fórmula e verificou que seria mais vantajoso abastecer seu carro com etanol, já que o preço do litro de gasolina estava R$ 5,10. O preço do litro de etanol usado nos cálculos de Renan, necessariamente,",
+   "alt": {
+    "A": "era maior do que R$ 4,40.",
+    "B": "estava entre R$ 3,50 e R$ 3,57.",
+    "C": "era menor do que R$ 3,50.",
+    "D": "estava entre R$ 3,57 e R$ 4,40.",
+    "E": "era menor do que R$ 3,57."
+   },
+   "gab": "E",
+   "temas": [
+    "matematica.razao-proporcao"
+   ],
+   "dispositivos": [],
+   "exp": "Para o etanol ser mais vantajoso, a razão etanol/gasolina tem de ser menor que 0,7: etanol / 5,10 < 0,7, logo etanol < 0,7 × 5,10 = **3,57**. Só se pode garantir, portanto, que o preço era menor que R$ 3,57; as faixas das demais alternativas não são necessárias.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Um preço maior que 4,40 daria razão acima de 0,86, e o etanol não seria vantajoso; o limite é **R$ 3,57**.",
+    "B": "Não é necessário que o preço esteja entre 3,50 e 3,57: ele pode ser, por exemplo, 3,00, pois só é preciso ser **menor que 3,57**.",
+    "C": "Não é necessário que o preço seja menor que 3,50: um valor como 3,55 também torna o etanol vantajoso, pois o limite é **3,57** (0,7 × 5,10).",
+    "D": "Valores entre 3,57 e 4,40 dão razão igual ou maior que **0,7**, e a gasolina seria a vantajosa ou indiferente.",
+    "E": "Com a razão menor que 0,7, o preço do etanol é **menor que 3,57** (0,7 × 5,10 = 3,57), e isso é o que se pode afirmar com certeza."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#72",
+   "tipo": "me",
+   "numero": 72,
+   "enunciado": "De acordo com a escala de um mapa, cada 6 cm de distância no mapa corresponde a uma distância real de 19 km. Uma distância real de 570 m corresponde, nesse mapa, a distância de",
+   "alt": {
+    "A": "1,8 mm.",
+    "B": "18 mm.",
+    "C": "18 cm.",
+    "D": "9 mm.",
+    "E": "9 cm."
+   },
+   "gab": "A",
+   "temas": [
+    "matematica.regra-de-tres"
+   ],
+   "dispositivos": [],
+   "exp": "19 km = 19 000 m, e 6 cm no mapa equivalem a 19 000 m. Por regra de três, 570 m correspondem a 6 × 570 / 19 000 = 0,18 cm = **1,8 mm**.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Com 6 cm para 19 000 m, 570 m dão 6 × 570 / 19 000 = 0,18 cm, ou **1,8 mm**.",
+    "B": "18 mm seriam 1,8 cm, dez vezes mais que o resultado correto de **0,18 cm** (1,8 mm).",
+    "C": "18 cm seriam cem vezes o valor correto; a conta dá **0,18 cm**.",
+    "D": "9 mm seriam cinco vezes o valor correto; a conta dá 0,18 cm, ou **1,8 mm**.",
+    "E": "9 cm seriam cinquenta vezes o valor correto; a conta dá **0,18 cm**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#73",
+   "tipo": "me",
+   "numero": 73,
+   "enunciado": "A figura indica a altura de duas pilhas envolvendo cinco retângulos idênticos e três quadrados idênticos. Sabe-se, ainda, que a largura do retângulo é igual a medida do lado do quadrado.\n\n[Figura: duas pilhas. A da esquerda tem 1 retângulo em pé, com 2 quadrados em cima, e mede 15 cm de altura; a da direita tem 4 retângulos deitados empilhados, com 1 quadrado em cima, e mede 16 cm de altura.]\n\nNa condição dada, a área de cada um dos cinco retângulos da figura, em cm², é igual a",
+   "alt": {
+    "A": "32,00.",
+    "B": "20,48.",
+    "C": "27,52.",
+    "D": "10,89.",
+    "E": "10,24."
+   },
+   "gab": "C",
+   "temas": [
+    "matematica.geometria"
+   ],
+   "dispositivos": [],
+   "exp": "Seja s o lado do quadrado, igual à largura do retângulo, e c o seu comprimento. Na pilha da direita, 4 retângulos deitados e 1 quadrado dão 4s + s = 16, logo s = **3,2**. Na da esquerda, c + 2s = 15, logo c = 15 − 6,4 = 8,6. A área é 3,2 × 8,6 = **27,52 cm²**.",
+   "imagens": [
+    "figuras/q73.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "32,00 não resulta das medidas: s = 3,2 e c = 8,6 dão área 27,52.",
+    "B": "20,48 corresponde a 3,2 × 6,4, valor que ignora que o comprimento é 15 − 2 × 3,2 = **8,6**.",
+    "C": "Com s = 3,2 (4s + s = 16) e c = 15 − 2s = 8,6, a área é 3,2 × 8,6 = **27,52 cm²**.",
+    "D": "10,89 seria 3,3²; não decorre das medidas, pois o retângulo mede **3,2 por 8,6**.",
+    "E": "10,24 seria 3,2², a área de um quadrado, e não a do retângulo, que mede **3,2 por 8,6**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#74",
+   "tipo": "me",
+   "numero": 74,
+   "enunciado": "O preço à vista de um celular é de R$ 1.280,00. Caso o comprador queira pagar a prazo, em 10 prestações mensais fixas, cada prestação será de R$ 153,60. Nesse caso, o acréscimo que o comprador pagará, em relação ao preço do pagamento à vista, corresponderá a:",
+   "alt": {
+    "A": "16%",
+    "B": "18%",
+    "C": "15%",
+    "D": "20%",
+    "E": "12%"
+   },
+   "gab": "D",
+   "temas": [
+    "matematica.porcentagem"
+   ],
+   "dispositivos": [],
+   "exp": "O total a prazo é 10 × 153,60 = R$ 1.536,00. O acréscimo é 1.536 − 1.280 = R$ 256,00, e 256 / 1.280 = 0,2, ou seja, **20%**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "16% de 1.280 seria R$ 204,80; o acréscimo real é R$ 256,00, que equivale a **20%**.",
+    "B": "18% de 1.280 seria R$ 230,40; o acréscimo real é R$ 256,00, ou **20%**.",
+    "C": "15% de 1.280 seria R$ 192,00; o acréscimo real é R$ 256,00, ou **20%**.",
+    "D": "O total é 10 × 153,60 = 1.536; o acréscimo de 256 sobre 1.280 é **20%**.",
+    "E": "12% de 1.280 seria R$ 153,60, valor de uma prestação; o acréscimo total é R$ 256,00, ou **20%**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#75",
+   "tipo": "me",
+   "numero": 75,
+   "enunciado": "Um concurso consiste de três provas de pesos diferentes, que são: matemática (peso 1), legislação (peso 3) e português (peso 4). Cada uma das três provas vale de 0 a 10 pontos, e a nota final de cada candidato é a média ponderada das três provas.\nRafaela prestou esse concurso, tirou 6 na prova de português e na de matemática tirou o dobro da nota que tirou na prova de legislação. Sabendo-se que Rafaela foi aprovada nesse concurso com média ponderada igual a 5, sua nota na prova de matemática superou a nota na prova de português em",
+   "alt": {
+    "A": "0,5 ponto.",
+    "B": "0,4 ponto.",
+    "C": "0,2 ponto.",
+    "D": "0,6 ponto.",
+    "E": "0,8 ponto."
+   },
+   "gab": "B",
+   "temas": [
+    "matematica.media"
+   ],
+   "dispositivos": [],
+   "exp": "Seja L a nota de legislação; a de matemática é 2L. A média ponderada é (1 × 2L + 3 × L + 4 × 6) / 8 = 5, então 5L + 24 = 40 e L = 3,2. Matemática = 6,4, que supera português (6) em **0,4**.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Com L = 3,2, matemática vale 6,4 e a diferença para 6 é **0,4**, e não 0,5.",
+    "B": "(2L + 3L + 24) / 8 = 5 dá L = 3,2 e matemática = 6,4; a diferença para o 6 de português é **0,4**.",
+    "C": "Uma diferença de 0,2 daria matemática 6,2 (L = 3,1), e a média não seria 5; o valor correto é **6,4 − 6 = 0,4**.",
+    "D": "Uma diferença de 0,6 daria matemática 6,6 (L = 3,3), e a média não seria 5; o valor correto é **0,4**.",
+    "E": "Uma diferença de 0,8 daria matemática 6,8 (L = 3,4), e a média não seria 5; o valor correto é **0,4**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#76",
+   "tipo": "me",
+   "numero": 76,
+   "enunciado": "A figura indica o estacionamento retangular PARK, cujo comprimento PA mede a metade da largura AR. No meio desse estacionamento, há uma rotatória circular, de área 12 m², que é a única parte do interior do estacionamento que não pode ser ocupada por veículos.\n\n[Figura: retângulo PARK com os lados PA e KR medindo x e os lados AR e PK medindo 2x; no centro, um círculo de área 12 m².]\n\nSe a área da parte desse estacionamento que pode ser ocupada com veículos é de 500 m², então o perímetro do retângulo PARK, em metros, é igual a",
+   "alt": {
+    "A": "84.",
+    "B": "102.",
+    "C": "78.",
+    "D": "90.",
+    "E": "96."
+   },
+   "gab": "E",
+   "temas": [
+    "matematica.geometria"
+   ],
+   "dispositivos": [],
+   "exp": "A área do retângulo é x · 2x = 2x². Descontada a rotatória, 2x² − 12 = 500, logo x² = 256 e x = 16 m. O perímetro é 2(x + 2x) = 6x = **96 m**.",
+   "imagens": [
+    "figuras/q76.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Perímetro 84 daria x = 14 e área útil 2 × 196 − 12 = 380, não 500; o correto é x = 16 e perímetro **96**.",
+    "B": "Perímetro 102 daria x = 17 e área útil 566, não 500; o correto é x = 16 e perímetro **96**.",
+    "C": "Perímetro 78 daria x = 13 e área útil 326, não 500; o correto é x = 16 e perímetro **96**.",
+    "D": "Perímetro 90 daria x = 15 e área útil 438, não 500; o correto é x = 16 e perímetro **96**.",
+    "E": "De 2x² − 12 = 500 resulta x = 16, e o perímetro é 6x = **96 m**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#77",
+   "tipo": "me",
+   "numero": 77,
+   "enunciado": "Em um computador com Microsoft Windows 11, em sua configuração original, um usuário está com a pasta C:\\TEMP aberta no Explorador de Arquivos, também em sua configuração original, que contém apenas um arquivo, chamado Controle.txt, conforme imagem a seguir.\n\n[Imagem: Explorador de Arquivos com o arquivo Controle.txt, modificado em 25/04/2023 21:33, tipo Documento de Texto, 5 KB.]\n\nEsse usuário pressionou as teclas CTRL+Z e o Explorador de Arquivos passou a exibir, na mesma pasta C:\\TEMP, apenas o arquivo Projeto.txt, conforme imagem a seguir.\n\n[Imagem: Explorador de Arquivos com o arquivo Projeto.txt, modificado em 25/04/2023 21:33, tipo Documento de Texto, 5 KB.]\n\nAssinale a alternativa correta.",
+   "alt": {
+    "A": "O arquivo Projeto.txt havia sido renomeado para Controle.txt.",
+    "B": "O arquivo Controle.txt foi enviado para a Lixeira do Windows.",
+    "C": "O arquivo Controle.txt foi configurado como oculto.",
+    "D": "O arquivo Projeto.txt foi recuperado da Lixeira do Windows.",
+    "E": "O arquivo Controle.txt foi apagado em definitivo, sem ser enviado para Lixeira do Windows."
+   },
+   "gab": "A",
+   "temas": [
+    "informatica.windows"
+   ],
+   "dispositivos": [],
+   "exp": "CTRL+Z desfaz a última operação no Explorador de Arquivos. Como o mesmo arquivo (mesma data e tamanho) voltou a se chamar Projeto.txt, a última ação foi **renomear Projeto.txt para Controle.txt**. Se o arquivo tivesse ido à Lixeira ou se tornado oculto, o desfazer o traria de volta com o mesmo nome.",
+   "imagens": [
+    "figuras/q77.png"
+   ],
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O desfazer devolveu o nome Projeto.txt ao arquivo (mesma data e tamanho), o que indica que ele havia sido **renomeado** para Controle.txt.",
+    "B": "Se Controle.txt tivesse ido para a **Lixeira**, o desfazer o traria de volta com o mesmo nome, e não como Projeto.txt.",
+    "C": "Desfazer um atributo **oculto** não troca o nome do arquivo; aqui o nome mudou de Controle.txt para Projeto.txt.",
+    "D": "Não houve recuperação da **Lixeira**: o arquivo exibido é o mesmo, com outro nome, o que indica renomeação desfeita.",
+    "E": "O desfazer não restauraria um arquivo apagado **em definitivo**, e o arquivo que reaparece é o mesmo, apenas com o nome anterior."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#78",
+   "tipo": "me",
+   "numero": 78,
+   "enunciado": "Em uma pasta do Microsoft Windows 11, em sua configuração original, existem 4 arquivos, chamados arquivo1.txt, arquivo2.txt, arquivo3.txt e arquivo4.txt. Um usuário selecionou o arquivo arquivo1.txt, apenas, e pressionou as teclas CTRL+C. Em seguida, selecionou o arquivo arquivo2.txt, apenas, e pressionou as teclas CTRL+C. Após, selecionou o arquivo arquivo3.txt, apenas, e pressionou as teclas CTRL+X. Finalmente, selecionou o arquivo arquivo4.txt, apenas, e pressionou as teclas CTRL+X.\nAssinale a alternativa que indica qual(is) arquivo(s) será(ão) colados em uma outra pasta, vazia, ao pressionar as teclas CTRL+V, considerando que o usuário tem todas as permissões no computador.",
+   "alt": {
+    "A": "arquivo1.txt, arquivo2.txt, arquivo3.txt e arquivo4.txt.",
+    "B": "arquivo4.txt, apenas.",
+    "C": "arquivo1.txt e arquivo2.txt, apenas.",
+    "D": "arquivo1.txt, apenas.",
+    "E": "arquivo3.txt e arquivo4.txt, apenas."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.windows"
+   ],
+   "dispositivos": [],
+   "exp": "Cada CTRL+C ou CTRL+X **substitui** o conteúdo da Área de Transferência (o Explorador não acumula itens). Ao final, só o último recortado, arquivo4.txt, está na área de transferência e é o único colado pelo CTRL+V.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Os comandos copiar e recortar não acumulam arquivos: cada um **substitui** o anterior, e só o último permanece para colar.",
+    "B": "Copiar e recortar não acumulam arquivos; só o conteúdo mais recente da Área de Transferência é colado, e não os dois primeiros.",
+    "C": "Só o item mais recente fica na Área de Transferência, e arquivo1.txt foi substituído por copiar e recortar posteriores.",
+    "D": "O CTRL+V cola o último item copiado ou recortado; só **arquivo1.txt** não é esse item, pois foi substituído pelos comandos seguintes.",
+    "E": "Recortar arquivo3.txt foi substituído pelo recorte seguinte; apenas o **último recortado** (arquivo4.txt) é colado."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#79",
+   "tipo": "me",
+   "numero": 79,
+   "enunciado": "Tem-se a seguinte imagem, do Microsoft Word 365, em sua configuração original, exibida parcialmente, com um texto editado:\n\n[Imagem: guia Página Inicial do Word com os botões Negrito (N), Itálico (I) e Sublinhado (S) ativados; no documento, o texto \"Tribunal de Justiça do Estado de São Paulo\" em negrito, itálico e sublinhado, com o cursor ao final.]\n\nO cursor do mouse está posicionado ao final do texto. Se o usuário clicar nos ícones Negrito e Itálico, e digitar uma palavra, essa palavra estará formatada da seguinte maneira:",
+   "alt": {
+    "A": "itálico, apenas.",
+    "B": "negrito e itálico, apenas.",
+    "C": "sublinhado, apenas.",
+    "D": "negrito, apenas.",
+    "E": "sem nenhuma formatação."
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.word"
+   ],
+   "dispositivos": [],
+   "exp": "Na imagem, Negrito, Itálico e Sublinhado estão ativados no ponto do cursor. Clicar em **Negrito** e em **Itálico** desativa esses dois formatos; o Sublinhado continua ativo. A palavra digitada sai, portanto, só **sublinhada**.",
+   "imagens": [
+    "figuras/q79.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O Itálico estava ativado e foi desativado pelo clique; a palavra não sai em itálico.",
+    "B": "Os dois botões estavam ativados e, ao serem clicados, foram **desativados**; a palavra não sai em negrito e itálico.",
+    "C": "Negrito e Itálico foram desativados pelos cliques, e o **Sublinhado**, que não foi tocado, continua ativo.",
+    "D": "O Negrito estava ativado e foi desativado pelo clique; além disso, o Sublinhado continua ativo.",
+    "E": "O Sublinhado não foi alterado e permanece ativo, de modo que a palavra **não fica sem formatação**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#80",
+   "tipo": "me",
+   "numero": 80,
+   "enunciado": "Um usuário criou uma tabela no Microsoft Word 365, em sua configuração original, com 1 linha e 2 colunas. Com o cursor do mouse na primeira célula da tabela, esse usuário digitou A e pressionou __________. Depois digitou B e pressionou __________. Após, digitou C e pressionou __________. Finalmente, digitou D e pressionou __________. Ao final, a tabela continha 3 linhas e 2 colunas.\nAssinale a alternativa que preenche, correta e respectivamente, as lacunas do texto.",
+   "alt": {
+    "A": "ENTER … ENTER … ENTER … ENTER",
+    "B": "TAB … ENTER … ENTER … ENTER",
+    "C": "TAB … TAB … TAB … TAB",
+    "D": "ENTER … TAB … ENTER … TAB",
+    "E": "ENTER … ENTER … ENTER … TAB"
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.word"
+   ],
+   "dispositivos": [],
+   "exp": "Na tabela do Word, **TAB** passa para a próxima célula e, na última célula, cria uma nova linha. Com TAB após A, vai-se à 2ª célula; após B, cria-se a 2ª linha; após C, vai-se à 2ª célula da 2ª linha; após D, cria-se a 3ª linha. **ENTER** só cria novo parágrafo dentro da célula.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O **ENTER** só insere novos parágrafos dentro da célula e não cria linhas nem colunas; a tabela continuaria com 1 linha e 2 colunas.",
+    "B": "Após B, o ENTER apenas cria outro parágrafo na célula; a nova linha só surge com **TAB** na última célula.",
+    "C": "Com TAB após A, B, C e D, a tabela fica com 3 linhas e 2 colunas, pois **TAB** na última célula cria uma linha.",
+    "D": "O ENTER após A não muda de célula (só cria um parágrafo); a sequência correta usa **TAB** em todas as lacunas.",
+    "E": "O ENTER após A, B e C só cria parágrafos na célula; um único TAB final não bastaria para chegar a 3 linhas."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#81",
+   "tipo": "me",
+   "numero": 81,
+   "enunciado": "Tem-se o seguinte documento, editado no Microsoft Word 365, em sua configuração original:\n\n[Documento, com as marcas de parágrafo ativadas:\n1  Palavra1 → Palavra2 ¶\n2  Palavra1 · Palavra2 ¶\n3  Palavra1 ····Palavra2 ¶  (quatro espaços)\n4  Palavra1 → → Palavra2 ¶\n5  Palavra1 → → → Palavra2 ¶]\n\nConsiderando que as marcas de parágrafo estão ativadas e que os números de 1 a 5 são apenas uma referência às linhas, assinale a alternativa que indica a linha que contém a maior quantidade de espaços em branco entre as palavras Palavra1 e Palavra2.",
+   "alt": {
+    "A": "Linha 3.",
+    "B": "Linha 4.",
+    "C": "Linha 2.",
+    "D": "Linha 1.",
+    "E": "Linha 5."
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.word"
+   ],
+   "dispositivos": [],
+   "exp": "Com as marcas de formatação ativas, o ponto (·) é um espaço e a seta (→) é uma tabulação. A linha 5 tem **três tabulações**, que ocupam a maior distância em branco entre as palavras; as linhas 1, 2, 3 e 4 têm uma tabulação, um espaço, quatro espaços e duas tabulações, de menor extensão.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Os quatro espaços da linha 3 ocupam menos largura que as **três tabulações** da linha 5.",
+    "B": "As duas tabulações da linha 4 ocupam menos largura que as **três tabulações** da linha 5.",
+    "C": "A linha 2 tem apenas um espaço, a menor distância entre as palavras.",
+    "D": "A linha 1 tem uma só tabulação, menos que as três tabulações da linha 5.",
+    "E": "A linha 5 tem **três tabulações** entre as palavras, a maior extensão em branco do documento."
+   },
+   "observacoes": [
+    "Se a banca contar caracteres (e não a largura visual), a linha 3, com quatro espaços, teria mais espaços em branco que as demais."
+   ],
+   "pendencias": [
+    "Critério da questão (largura em branco, não contagem de caracteres) é interpretação nossa; conferir com o gabarito oficial."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#82",
+   "tipo": "me",
+   "numero": 82,
+   "enunciado": "Tem-se a seguinte planilha, criada no Microsoft Excel 365, em sua configuração padrão:\n\n[Planilha]\n     | A  | B  | C\n   1 | 8  | 7  | 11\n   2 | 6  | 10 | 9\n   3 | 12 | 11 | 8\n   4 |    |    |\n\nAssinale a alternativa com o resultado correto da função =CONT.SE(A1:C3;MAIOR(A1:C3;1)) ao ser inserida na célula A4.",
+   "alt": {
+    "A": "2",
+    "B": "11",
+    "C": "9",
+    "D": "12",
+    "E": "1"
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.excel"
+   ],
+   "dispositivos": [],
+   "exp": "MAIOR(A1:C3;1) devolve o maior valor do intervalo, **12**. CONT.SE conta quantas células de A1:C3 valem 12: apenas A3. O resultado é **1**.",
+   "imagens": [
+    "figuras/q82.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Dois seria a contagem de um valor que aparece duas vezes (o 11), mas o critério é o maior valor, **12**, que aparece uma só vez.",
+    "B": "O 11 aparece duas vezes, mas não é o maior valor; o critério é 12, que aparece uma vez (resultado **1**).",
+    "C": "O resultado de CONT.SE é uma contagem, e não um dos valores do intervalo; o resultado é **1**.",
+    "D": "12 é o critério (MAIOR(A1:C3;1)), e não o resultado: CONT.SE devolve a contagem **1**.",
+    "E": "MAIOR(A1:C3;1) é 12; só A3 vale 12, e a contagem é **1**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#83",
+   "tipo": "me",
+   "numero": 83,
+   "enunciado": "Considere a seguinte planilha, criada no Microsoft Excel 365, em sua configuração original, com as células A1 e B1 formatadas como data.\n\n[Planilha: A1 = 20/03/2023; B1 = 20/04/2023; A2 vazia.]\n\nAo inserir na célula A2 a fórmula =DIA(B1)-DIA(A1), o resultado será:",
+   "alt": {
+    "A": "4",
+    "B": "1",
+    "C": "20",
+    "D": "0",
+    "E": "31"
+   },
+   "gab": "D",
+   "temas": [
+    "informatica.excel"
+   ],
+   "dispositivos": [],
+   "exp": "DIA devolve só o dia do mês da data. DIA(B1) = 20 e DIA(A1) = 20, e a diferença é **0**; os meses diferentes não entram na conta.",
+   "imagens": [
+    "figuras/q83.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Não há conta que dê 4: DIA extrai só o número do dia (20 em ambas as datas), e o resultado é **0**.",
+    "B": "A diferença de 1 seria a dos meses; DIA considera apenas o dia, e o resultado é **0**.",
+    "C": "20 é o dia de cada data, e não a diferença; DIA(B1) − DIA(A1) = 20 − 20 = **0**.",
+    "D": "DIA(B1) e DIA(A1) valem 20, então a fórmula resulta em **0**.",
+    "E": "31 seria a diferença em dias entre as datas, que exigiria subtrair as datas; a fórmula usa só o **dia do mês**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#84",
+   "tipo": "me",
+   "numero": 84,
+   "enunciado": "Tem-se a seguinte planilha, criada no Microsoft Excel 365, em sua configuração padrão, onde a célula A7 contém a função =SOMA(A1:B5), exibindo assim o valor 62:\n\n[Planilha: A1:A5 = 6, 8, 6, 5, 4; B1:B5 = 6, 8, 7, 4, 8; A7 = 62.]\n\nUm usuário selecionou a coluna B por completo, clicou com o botão secundário do mouse sobre a letra B e clicou na opção Inserir, inserindo assim uma coluna em branco, conforme imagem a seguir, onde o conteúdo da célula A7 foi propositalmente oculto.\n\n[Planilha: nova coluna B vazia; os antigos valores de B passaram para a coluna C.]\n\nNessa coluna em branco, o usuário inseriu o valor 1 em todas as células de B1 até B5, conforme imagem a seguir.\n\n[Planilha: A1:A5 = 6, 8, 6, 5, 4; B1:B5 = 1; C1:C5 = 6, 8, 7, 4, 8; A7 oculto.]\n\nAssinale a alternativa com o conteúdo da célula A7 após as operações descritas no enunciado.",
+   "alt": {
+    "A": "29",
+    "B": "62",
+    "C": "67",
+    "D": "5",
+    "E": "34"
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.excel"
+   ],
+   "dispositivos": [],
+   "exp": "Ao inserir uma coluna entre A e B, a fórmula =SOMA(A1:B5) passa a =SOMA(A1:C5), pois a inserção ocorre dentro do intervalo e a coluna B antiga (agora C) passa a ser o seu limite. A nova coluna B entra na soma: 62 + 5 × 1 = **67**.",
+   "imagens": [
+    "figuras/q84.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "29 seria só a soma da coluna A (6 + 8 + 6 + 5 + 4), mas o intervalo passa a abranger as três colunas.",
+    "B": "62 seria o valor sem a nova coluna; o intervalo se expande para A1:C5 e inclui os cinco valores 1.",
+    "C": "O intervalo vira A1:C5 e a soma é 62 + 5 = **67**.",
+    "D": "5 seria apenas a soma dos novos valores 1; a fórmula soma também as colunas A e C.",
+    "E": "34 não decorre de nenhuma soma do intervalo; o resultado correto é a soma de todo A1:C5, **67**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#85",
+   "tipo": "me",
+   "numero": 85,
+   "enunciado": "Considere a seguinte mensagem de correio eletrônico, criada usando o Microsoft Outlook 365, em sua configuração padrão, de usuários que estão todos na mesma empresa e usando seus e-emails corporativos, que foi enviada e recebida com sucesso, para as questões de números 85 e 86:\nDe: João\nPara: Ricardo\nCc: Fabio\nCco: Pedro\nAssunto: Reunião em 20 minutos\n\nRicardo, ao receber a mensagem, clicou no botão Responder a Todos e propôs uma alteração para que a reunião fosse atrasada em 1 hora. Todos os usuários que receberam a mensagem de Ricardo aceitaram a proposta.\nAssinale a alternativa com o usuário que não recebeu a mensagem de Ricardo e, portanto, não sabia do atraso da reunião.",
+   "alt": {
+    "A": "Fabio e João, apenas.",
+    "B": "Fabio, apenas.",
+    "C": "João, apenas.",
+    "D": "Fabio e Pedro, apenas.",
+    "E": "Pedro, apenas."
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.email"
+   ],
+   "dispositivos": [],
+   "exp": "Responder a Todos envia a resposta ao remetente (João) e aos destinatários em Para e Cc (Fabio). **Pedro**, que estava em Cco, não aparece para Ricardo e não recebe a resposta; por isso é o único que não soube do atraso.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Fabio estava em Cc e recebe a resposta; João, remetente, também a recebe.",
+    "B": "Fabio, em Cc, recebe a resposta de Ricardo; quem fica de fora é o usuário em **Cco**.",
+    "C": "João, remetente, recebe a resposta de Ricardo; o usuário que fica de fora é o de **Cco**.",
+    "D": "Fabio, em Cc, recebe a resposta; apenas Pedro (Cco) não a recebe.",
+    "E": "Pedro estava em **Cco**, campo oculto aos demais, e por isso não entra no Responder a Todos de Ricardo."
+   },
+   "observacoes": [
+    "O texto introdutório (mensagem de João) vale para as questões 85 e 86; está repetido aqui para a questão ficar autossuficiente."
+   ],
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#86",
+   "tipo": "me",
+   "numero": 86,
+   "enunciado": "Considere a mensagem de correio eletrônico a seguir, criada usando o Microsoft Outlook 365, em sua configuração padrão, de usuários que estão todos na mesma empresa e usando seus e-emails corporativos, que foi enviada e recebida com sucesso:\nDe: João\nPara: Ricardo\nCc: Fabio\nCco: Pedro\nAssunto: Reunião em 20 minutos\n\nAssinale a alternativa que indica quais usuários receberam a mensagem original de João, e em qual pasta do Outlook essa mensagem foi automaticamente gravada.",
+   "alt": {
+    "A": "Ricardo na pasta Caixa de Entrada, Fabio na pasta Rascunhos e Pedro na pasta Arquivo Morto.",
+    "B": "Ricardo, Fabio e Pedro, todos na pasta Caixa de Entrada.",
+    "C": "Ricardo na pasta Caixa de Entrada, Fabio na pasta Arquivo Morto e Pedro na pasta Lixo Eletrônico.",
+    "D": "Ricardo e Fábio na pasta Caixa de Entrada, e Pedro na pasta Arquivo Morto.",
+    "E": "Ricardo e Fabio na pasta Caixa de Entrada, e Pedro na pasta Rascunhos."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.email"
+   ],
+   "dispositivos": [],
+   "exp": "Os três destinatários (Para, Cc e Cco) recebem a mensagem original, e ela é gravada, por padrão, na **Caixa de Entrada** de cada um. A diferença do Cco é só que os demais não veem o seu nome.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Rascunhos guarda mensagens ainda não enviadas, e não as recebidas; Fabio, em Cc, recebe na **Caixa de Entrada**.",
+    "B": "Todos os destinatários, inclusive o de Cco, recebem a mensagem na **Caixa de Entrada**.",
+    "C": "Fabio e Pedro não recebem a mensagem em Arquivo Morto ou em Lixo Eletrônico: por padrão, a mensagem vai à **Caixa de Entrada**.",
+    "D": "Pedro, em Cco, recebe a mensagem na **Caixa de Entrada**, e não no Arquivo Morto.",
+    "E": "Rascunhos guarda mensagens não enviadas; Pedro recebe a mensagem na **Caixa de Entrada**."
+   },
+   "observacoes": [
+    "A mensagem de João consta no cabeçalho comum às questões 85 e 86 da prova."
+   ],
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#87",
+   "tipo": "me",
+   "numero": 87,
+   "enunciado": "Assinale a alternativa que indica o termo de pesquisa do buscador Google, em sua configuração padrão, que pesquisa pela palavra Tribunal, mas exclui a palavra Justiça dos resultados.",
+   "alt": {
+    "A": "\"Tribunal\" Justiça",
+    "B": "Tribunal &Justiça",
+    "C": "Tribunal [Justiça]",
+    "D": "Tribunal -Justiça",
+    "E": "Tribunal \"Justiça\""
+   },
+   "gab": "D",
+   "temas": [
+    "informatica.internet"
+   ],
+   "dispositivos": [],
+   "exp": "No Google, o sinal de menos colado à palavra (**-Justiça**) exclui dos resultados as páginas que a contêm. Assim, `Tribunal -Justiça` busca Tribunal sem Justiça.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Aspas em Tribunal pedem a palavra exata, e Justiça sem sinal continua sendo termo de busca, e não de exclusão.",
+    "B": "O **&** não é operador de exclusão no Google; o termo seria tratado como parte da pesquisa.",
+    "C": "Os colchetes não são operador de exclusão do Google; a exclusão exige o sinal de **menos**.",
+    "D": "O sinal de **menos** antes de uma palavra (-Justiça) exclui dos resultados as páginas que a contêm.",
+    "E": "As aspas em volta de Justiça pedem a **expressão exata**, ou seja, a inclusão da palavra, e não a sua exclusão."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#88",
+   "tipo": "me",
+   "numero": 88,
+   "enunciado": "Na URL https://www.meusite.com.br/descontos%20especiais.html, o %20 representa",
+   "alt": {
+    "A": "um espaço em branco.",
+    "B": "um traço.",
+    "C": "um site não seguro.",
+    "D": "um site marcado como Favorito.",
+    "E": "um sinal de adição."
+   },
+   "gab": "A",
+   "temas": [
+    "informatica.internet"
+   ],
+   "dispositivos": [],
+   "exp": "Na codificação de URL (percent-encoding), os caracteres que não podem aparecer na URL são trocados por % e o código hexadecimal. O **%20** corresponde ao **espaço em branco**.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O código hexadecimal 20 (%20) representa o caractere de **espaço** na codificação de URL.",
+    "B": "O traço não é representado por %20; o código hexadecimal 20 é o **espaço**.",
+    "C": "O %20 não indica nível de segurança; a segurança do site é indicada pelo protocolo (https).",
+    "D": "O %20 não tem relação com **Favoritos**; é apenas a codificação do espaço na URL.",
+    "E": "O sinal de adição pode substituir o espaço em consultas, mas o %20 é a codificação do **espaço**, e não do sinal de mais."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#89",
+   "tipo": "me",
+   "numero": 89,
+   "enunciado": "Têm-se 3 arquivos em um computador com Microsoft Windows 11 (A, B e C), com o status do OneDrive exibido no Explorador de Arquivos, todos em sua configuração padrão.\n\n[Imagem: Atividades.txt com o ícone de nuvem (somente online); Contrato.docx com ícone de círculo com marca de verificação verde vazado (disponível localmente); Financeiro.xlsx com ícone de círculo verde preenchido com marca de verificação (sempre mantido neste dispositivo).]\n\nAssinale a alternativa com o(s) arquivo(s) que não consome(m) espaço em disco nesse computador.",
+   "alt": {
+    "A": "Contrato.docx, apenas.",
+    "B": "Atividades.txt e Contrato.docx, apenas.",
+    "C": "Contrato.docx e Financeiro.xlsx, apenas.",
+    "D": "Atividades.txt, apenas.",
+    "E": "Financeiro.xlsx, apenas."
+   },
+   "gab": "D",
+   "temas": [
+    "informatica.onedrive"
+   ],
+   "dispositivos": [],
+   "exp": "No OneDrive Arquivos Sob Demanda, o ícone de **nuvem** indica arquivo disponível somente online, que não ocupa espaço no disco. O círculo com marca de verificação vazado indica arquivo baixado temporariamente, e o círculo verde preenchido, arquivo sempre mantido no dispositivo; ambos ocupam espaço.",
+   "imagens": [
+    "figuras/q89.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O Contrato.docx tem o círculo com verificação vazado (baixado), que **ocupa espaço** no disco.",
+    "B": "O Contrato.docx está baixado no dispositivo e ocupa espaço; só o arquivo de **nuvem** não ocupa.",
+    "C": "O Financeiro.xlsx (sempre mantido) e o Contrato.docx (baixado) ocupam espaço no disco.",
+    "D": "O ícone de **nuvem** de Atividades.txt indica arquivo somente online, que não consome espaço em disco.",
+    "E": "O Financeiro.xlsx está marcado para **manter sempre** no dispositivo e ocupa espaço."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#90",
+   "tipo": "me",
+   "numero": 90,
+   "enunciado": "Ao criar uma equipe no Microsoft Teams, em sua configuração original, são criados também, por padrão, 2 recursos, que estão hachurados na imagem a seguir, ao lado do nome da equipe.\n\n[Imagem: canal Geral da equipe no Teams, com dois recursos (guias) ao lado do nome, ocultos por hachuras.]\n\nAssinale a alternativa com o nome desses recursos.",
+   "alt": {
+    "A": "Word e Excel.",
+    "B": "Postagens e Arquivos.",
+    "C": "Postagens e Membros.",
+    "D": "Arquivos e Membros.",
+    "E": "Wiki e Arquivos."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.teams"
+   ],
+   "dispositivos": [],
+   "exp": "Ao criar uma equipe, o canal **Geral** nasce com as guias **Postagens** e **Arquivos**, que aparecem ao lado do nome do canal. Word e Excel são aplicativos que podem ser adicionados depois, e Membros não é guia do canal.",
+   "imagens": [
+    "figuras/q90.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Word e Excel são aplicativos que podem ser adicionados como guias depois, e não vêm por padrão no canal.",
+    "B": "O canal Geral nasce com as guias **Postagens** e **Arquivos**.",
+    "C": "**Membros** não é guia padrão do canal; o outro recurso criado junto com Postagens é Arquivos.",
+    "D": "**Membros** não é guia padrão do canal Geral; Arquivos é uma das duas guias iniciais.",
+    "E": "**Wiki** não vem como guia padrão na configuração original; as guias são Postagens e Arquivos."
+   },
+   "pendencias": [
+    "Imagem com as guias ocultas por hachura; resposta segue o padrão do Teams em 2023 (Postagens e Arquivos). Versões antigas traziam também Wiki."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#91",
+   "tipo": "me",
+   "numero": 91,
+   "enunciado": "A seguir estão desenhadas as oito primeiras figuras de uma sequência ilimitada com um padrão lógico.\n\n[Figuras de 1ª a 8ª, formadas por quadriláteros sombreados e quadriláteros com as diagonais traçadas. Quantidades (sombreados; com diagonais): 1ª (1; 0), 2ª (1; 1), 3ª (1; 2), 4ª (2; 2), 5ª (2; 3), 6ª (2; 4), 7ª (3; 4), 8ª (3; 5).]\n\nNa 34ª figura dessa sequência, a diferença entre o número de quadriláteros que tem as diagonais traçadas e o número de quadriláteros sombreados é igual a",
+   "alt": {
+    "A": "9.",
+    "B": "13.",
+    "C": "10.",
+    "D": "12.",
+    "E": "11."
+   },
+   "gab": "C",
+   "temas": [
+    "raciocinio-logico.sequencias"
+   ],
+   "dispositivos": [],
+   "exp": "O padrão se repete de 3 em 3 figuras: a cada 3 figuras entram 1 sombreado e 2 com diagonais. Para n = 3k + 1, há k + 1 sombreados e 2k com diagonais. Como 34 = 3 × 11 + 1, a 34ª tem 12 sombreados e 22 com diagonais, e a diferença é 22 − 12 = **10**.",
+   "imagens": [
+    "figuras/q91.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A diferença 9 não resulta do padrão: a 34ª figura tem 22 com diagonais e 12 sombreados, diferença **10**.",
+    "B": "A diferença 13 não resulta do padrão: 22 − 12 = **10**.",
+    "C": "A 34ª figura (34 = 3 × 11 + 1) tem 12 sombreados e 22 com diagonais; a diferença é **10**.",
+    "D": "12 é só a quantidade de sombreados; a diferença pedida é 22 − 12 = **10**.",
+    "E": "A diferença 11 não resulta do padrão: 22 − 12 = **10**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#92",
+   "tipo": "me",
+   "numero": 92,
+   "enunciado": "Em relação a um grupo de pessoas e quanto ao domínio de quatro habilidades: P, Q, R e T, sabe-se que:\nI. Todos que possuem a habilidade Q também possuem a habilidade P.\nII. Não há quem possua a habilidade R, que não possua também a habilidade P, mas desses nem todos possuem a habilidade Q.\nIII. Há quem possua a habilidade T que possui também a habilidade Q, e não há quem possua a habilidade R que possui a habilidade T.\nA alternativa que contém o diagrama lógico que satisfaz plenamente as três afirmações dadas é:\n\n[Cinco diagramas de conjuntos (A a E) com os círculos P, Q, R e T. (A) Q e R dentro de P, com Q e R se cruzando; T cruza Q e P, sem tocar R. (B) R e Q dentro de P, com R e Q se cruzando; T cruza R e P. (C) Q e R dentro de P, com R dentro de Q; T cruza R, Q e P. (D) P e R dentro de Q, com R dentro de P; T cruza R, P e Q. (E) Q dentro de P, com R fora de P cruzando P e Q; T cruza P e Q.]",
+   "alt": {
+    "A": "Diagrama A.",
+    "B": "Diagrama B.",
+    "C": "Diagrama C.",
+    "D": "Diagrama D.",
+    "E": "Diagrama E."
+   },
+   "gab": "A",
+   "temas": [
+    "raciocinio-logico.diagramas"
+   ],
+   "dispositivos": [],
+   "exp": "I: Q está contido em P. II: R está contido em P, mas R não está todo dentro de Q (há R fora de Q). III: T cruza Q (existem T e Q ao mesmo tempo) e T não cruza R. Só o diagrama **A** reúne tudo: Q e R dentro de P, R só parcialmente em Q, e T cortando Q sem tocar R. Em B, T toca R e o conjunto Q fica fora de T; em C, R está todo dentro de Q e T toca R; em D, P está dentro de Q; em E, R sai de P.",
+   "imagens": [
+    "figuras/q92.png"
+   ],
+   "pendencias": [
+    "Alternativas são diagramas; descritos entre colchetes a partir da imagem do PDF."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#93",
+   "tipo": "me",
+   "numero": 93,
+   "enunciado": "Acerca de cinco servidores de um tribunal foram feitas quatro afirmações. A terceira afirmação é FALSA e as demais são VERDADEIRAS.\nI. Se Fabiana é técnica judiciária, então Gerusa é escrevente.\nII. Se Humberto é juiz, então Gerusa não é escrevente.\nIII. Se Janice é desembargadora, então Ivo é promotor.\nIV. Ivo é promotor ou Humberto é juiz.\nA partir dessas afirmações, é logicamente VERDADEIRO que",
+   "alt": {
+    "A": "Gerusa é escrevente.",
+    "B": "Janice não é desembargadora.",
+    "C": "Ivo é promotor.",
+    "D": "Humberto não é juiz.",
+    "E": "Fabiana não é técnica judiciária."
+   },
+   "gab": "E",
+   "temas": [
+    "raciocinio-logico.estruturas.verdade"
+   ],
+   "dispositivos": [],
+   "exp": "Como III é falsa, Janice é desembargadora e Ivo **não** é promotor. Em IV, sendo falso o primeiro termo, Humberto é juiz. Por II, Gerusa não é escrevente. Em I, o consequente é falso, então o antecedente também: **Fabiana não é técnica judiciária**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Por II, com Humberto juiz, Gerusa **não** é escrevente.",
+    "B": "Como III é falsa, Janice **é** desembargadora.",
+    "C": "Como III é falsa, Ivo **não** é promotor.",
+    "D": "Em IV, como Ivo não é promotor, Humberto **é** juiz.",
+    "E": "Gerusa não é escrevente (por II), e então o antecedente de I é falso: Fabiana **não** é técnica judiciária."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#94",
+   "tipo": "me",
+   "numero": 94,
+   "enunciado": "A sequência a seguir é ilimitada e foi criada com um padrão lógico:\n20, 5, 4, 40, 10, 8, 60, 15, 12, 80, 20, 16, ..., 180, _K_, _L_, ..., 260, _M_, _N_, ...\nO valor de K + L + M + N é",
+   "alt": {
+    "A": "192.",
+    "B": "202.",
+    "C": "186.",
+    "D": "198.",
+    "E": "208."
+   },
+   "gab": "D",
+   "temas": [
+    "raciocinio-logico.sequencias"
+   ],
+   "dispositivos": [],
+   "exp": "A sequência é formada por trios: o primeiro termo é 20, 40, 60, 80... (múltiplos de 20), o segundo é o primeiro dividido por 4 e o terceiro é o primeiro dividido por 5. Para 180: K = 45 e L = 36. Para 260: M = 65 e N = 52. A soma é 45 + 36 + 65 + 52 = **198**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A soma dos termos 45, 36, 65 e 52 é 198, e não 192.",
+    "B": "A soma dos termos 45, 36, 65 e 52 é 198, e não 202.",
+    "C": "A soma dos termos 45, 36, 65 e 52 é 198, e não 186.",
+    "D": "Com K = 180 / 4 = 45, L = 180 / 5 = 36, M = 260 / 4 = 65 e N = 260 / 5 = 52, a soma é **198**.",
+    "E": "A soma dos termos 45, 36, 65 e 52 é 198, e não 208."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#95",
+   "tipo": "me",
+   "numero": 95,
+   "enunciado": "Em uma reunião, com seus colaboradores, o chefe do atendimento diz:\n“Se o atendimento é bom, então o cliente fica satisfeito e volta”.\nA alternativa que contém uma afirmação equivalente à afirmação do chefe é:",
+   "alt": {
+    "A": "Se o cliente não fica satisfeito ou volta, então o atendimento não é bom.",
+    "B": "O cliente fica satisfeito ou volta e o atendimento é bom.",
+    "C": "Se o cliente fica satisfeito e volta, então o atendimento é bom.",
+    "D": "O atendimento é bom e o cliente fica satisfeito e volta.",
+    "E": "Se o cliente não fica satisfeito ou não volta, então o atendimento não é bom."
+   },
+   "gab": "E",
+   "temas": [
+    "raciocinio-logico.estruturas.equivalencias"
+   ],
+   "dispositivos": [],
+   "exp": "A afirmação é da forma P → (Q ∧ R). Sua contrapositiva é ¬(Q ∧ R) → ¬P, isto é, (¬Q ∨ ¬R) → ¬P: **se o cliente não fica satisfeito ou não volta, o atendimento não é bom**. A recíproca (C) e as conjunções (B, D) não são equivalentes.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Em \"não fica satisfeito **ou volta**\", a negação do consequente foi feita de modo incorreto (negar \"satisfeito e volta\" dá \"não satisfeito **ou não volta**\").",
+    "B": "Essa conjunção afirma que o atendimento é bom, o que a condicional original não afirma.",
+    "C": "Essa é a **recíproca** da condicional, que não é equivalente a ela.",
+    "D": "Essa conjunção afirma que o atendimento é bom, o que a condicional original não afirma.",
+    "E": "É a **contrapositiva** de P → (Q ∧ R): negar o consequente (¬Q ∨ ¬R) leva à negação do antecedente."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#96",
+   "tipo": "me",
+   "numero": 96,
+   "enunciado": "Três conjuntos: I, II e III formam um diagrama lógico com a seguinte disposição:\n\n[Diagrama de três conjuntos. As regiões A, D e E são do conjunto I; B, E e F, do conjunto II; C, D e F, do conjunto III. A é só de I, B só de II, C só de III; D é I∩III, E é I∩II, F é II∩III; não há região comum aos três.]\n\nAs regiões A, D e E são regiões do conjunto I. As regiões B, E e F são regiões do conjunto II. As regiões C, D e F são regiões do conjunto III. As letras representam o número de elementos da região na qual a letra está inserida. A intersecção simultânea dos três conjuntos não possui elementos. A união dos três conjuntos possui 55 elementos, e sabe-se que:\nA + B = 23\nA + C = 26\nB + C = 25\nA região D tem um elemento a mais que a região E, que, por sua vez, tem um elemento a mais que a região F.\nSendo assim, é correto afirmar que o conjunto que tem mais elementos supera o conjunto com o menor número de elementos em",
+   "alt": {
+    "A": "2 elementos.",
+    "B": "3 elementos.",
+    "C": "4 elementos.",
+    "D": "1 elemento.",
+    "E": "5 elementos."
+   },
+   "gab": "C",
+   "temas": [
+    "raciocinio-logico.diagramas"
+   ],
+   "dispositivos": [],
+   "exp": "Somando as três equações, 2(A + B + C) = 74, logo A + B + C = 37, com A = 12, B = 11 e C = 14. Como a união tem 55, D + E + F = 18; com D = F + 2 e E = F + 1, 3F + 3 = 18, então F = 5, E = 6 e D = 7. Os conjuntos têm I = A + D + E = 25, II = B + E + F = 22 e III = C + D + F = 26. A diferença entre o maior (26) e o menor (22) é **4**.",
+   "imagens": [
+    "figuras/q96.png"
+   ],
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A diferença entre o maior conjunto (26) e o menor (22) é 4, e não 2.",
+    "B": "A diferença entre o maior conjunto (26) e o menor (22) é 4, e não 3.",
+    "C": "Os conjuntos têm 25, 22 e 26 elementos; a diferença entre o maior e o menor é 26 − 22 = **4**.",
+    "D": "A diferença entre o maior conjunto (26) e o menor (22) é 4, e não 1.",
+    "E": "A diferença entre o maior conjunto (26) e o menor (22) é 4, e não 5."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#97",
+   "tipo": "me",
+   "numero": 97,
+   "enunciado": "Mara, Roberto, Sônia e Tadeu são professores de disciplinas diferentes. As disciplinas são: Física, Matemática, Biologia e Química, não necessariamente nessa ordem. Cada um deles leciona em cidades diferentes: Campinas, Bauru, Santos e São Paulo, não necessariamente nessa ordem. Sobre eles, há as seguintes informações:\nI. A pessoa que leciona Matemática, que não é o Roberto, leciona em Campinas e Mara leciona em Santos.\nII. Sônia, que leciona em Bauru, não dá aulas de Física, e é amiga de quem leciona Biologia em Santos.\nA afirmação cujo valor lógico é verdadeiro é:",
+   "alt": {
+    "A": "Se Tadeu é professor de Matemática, então Mara é professora de Química.",
+    "B": "Tadeu leciona em São Paulo ou quem leciona em Bauru leciona Química.",
+    "C": "Roberto leciona em São Paulo e Mara não leciona em Santos.",
+    "D": "Ou o professor de Física leciona em São Paulo ou Sônia é professora de Química.",
+    "E": "Roberto não é professor de Física ou quem leciona Biologia o faz em Bauru."
+   },
+   "gab": "B",
+   "temas": [
+    "raciocinio-logico.relacoes"
+   ],
+   "dispositivos": [],
+   "exp": "Mara está em Santos e Sônia em Bauru. Quem ensina Matemática está em Campinas e não é Roberto, Mara nem Sônia: é **Tadeu**. Roberto fica em São Paulo. A Biologia é ensinada em Santos (amiga de Sônia): **Mara**. Sônia não ensina Física, então ensina Química, e Roberto, Física. A alternativa B é verdadeira, pois quem leciona em Bauru (Sônia) leciona Química.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Tadeu ensina Matemática de fato, mas Mara ensina Biologia, e não Química; a condicional é falsa.",
+    "B": "Embora Tadeu não esteja em São Paulo, quem leciona em Bauru (Sônia) leciona Química, o que torna a disjunção verdadeira.",
+    "C": "Mara leciona em Santos, e o segundo termo da conjunção é falso.",
+    "D": "O professor de Física (Roberto) leciona em São Paulo e Sônia é de Química: as duas partes são verdadeiras, e o \"ou ... ou\" exclusivo fica falso.",
+    "E": "Roberto é professor de Física e a Biologia é ensinada em Santos, e não em Bauru: os dois termos são falsos."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#98",
+   "tipo": "me",
+   "numero": 98,
+   "enunciado": "A negação lógica da afirmação: ‘Todos amigos são leais ou não adianta acreditar nas pessoas’, está contida na seguinte alternativa:",
+   "alt": {
+    "A": "Há algum amigo que não é leal e adianta acreditar nas pessoas.",
+    "B": "Adianta acreditar nas pessoas ou há algum amigo que é leal.",
+    "C": "Se adianta acreditar nas pessoas, então todos os amigos não são leais.",
+    "D": "Nenhum amigo é leal e adianta acreditar nas pessoas.",
+    "E": "Se todos os amigos são leais, então adianta acreditar nas pessoas."
+   },
+   "gab": "A",
+   "temas": [
+    "raciocinio-logico.estruturas.negacao"
+   ],
+   "dispositivos": [],
+   "exp": "A afirmação é (todos os amigos são leais) ∨ (não adianta acreditar). Pela lei de De Morgan, sua negação é a negação de cada parte ligada por E: (**algum amigo não é leal**) ∧ (**adianta acreditar nas pessoas**).",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Nega cada parte da disjunção e troca o \"ou\" por \"e\": algum amigo não é leal e adianta acreditar nas pessoas (De Morgan).",
+    "B": "Mantém o \"ou\" e não nega corretamente as duas partes; a negação de uma disjunção é uma **conjunção**.",
+    "C": "É uma condicional, e não a conjunção que resulta da negação; além disso, \"todos não são leais\" não é a negação de \"todos são leais\".",
+    "D": "\"Nenhum amigo é leal\" é mais forte que \"algum amigo não é leal\"; a negação de \"todos\" é \"**algum não**\".",
+    "E": "É uma condicional, equivalente a uma disjunção, e não a conjunção que resulta da negação."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#99",
+   "tipo": "me",
+   "numero": 99,
+   "enunciado": "Para descobrir se André é ou não é arquiteto, se Célia é ou não é cineasta, se Daniel é ou não é dançarino, se Elisa é ou não é escultora, se Luisa é ou não é literata, se Paulo é ou não é pintor, afirmou-se o que segue:\nI. Se André é arquiteto, então Célia não é cineasta.\nII. Se Daniel não é dançarino, então Elisa é escultora.\nIII. Se Luisa é literata, então Célia é cineasta e Elisa é escultora.\nIV. Se André não é arquiteto e Daniel é dançarino, então Paulo é pintor.\nV. Celia não é cineasta ou Elisa é escultora.\nEm relação às afirmações anteriores, as afirmações III e V são falsas e as demais afirmações são verdadeiras. Dessa forma, a afirmação com valor lógico verdadeiro é:",
+   "alt": {
+    "A": "Paulo não é pintor ou Daniel não é dançarino.",
+    "B": "Se Luisa é literata, então André é arquiteto.",
+    "C": "Luisa não é literata e Paulo é pintor.",
+    "D": "Se Paulo não é pintor, então André é arquiteto.",
+    "E": "Daniel não é dançarino e Luisa é literata."
+   },
+   "gab": "D",
+   "temas": [
+    "raciocinio-logico.estruturas.verdade"
+   ],
+   "dispositivos": [],
+   "exp": "V falsa: Célia é cineasta e Elisa não é escultora. III falsa: Luisa é literata e o consequente é falso (o que já ocorre, pois Elisa não é escultora). Por I, como Célia é cineasta, André **não** é arquiteto. Por II, como Elisa não é escultora, Daniel é dançarino. Por IV, Paulo é pintor. Logo, em D, \"se Paulo não é pintor, então André é arquiteto\" tem antecedente falso e é **verdadeira**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Paulo é pintor e Daniel é dançarino: as duas partes são falsas, e a disjunção é falsa.",
+    "B": "Luisa é literata, mas André não é arquiteto: a condicional é falsa.",
+    "C": "Luisa é literata, então o primeiro termo da conjunção é falso.",
+    "D": "Paulo é pintor, então o antecedente é falso e a condicional é **verdadeira**.",
+    "E": "Daniel é dançarino, então o primeiro termo da conjunção é falso."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#100",
+   "tipo": "me",
+   "numero": 100,
+   "enunciado": "A seguir estão cinco pares de afirmações. Analise cada um desses pares de afirmações sob os seguintes aspectos: se formam um par de afirmações equivalentes ou se formam um par de afirmações que são negações lógicas entre si. Se o par em questão for de duas afirmações equivalentes, considere isso um SIM. Se o par em questão for de afirmações que se comportam como negações lógicas entre si, considere isso um SIM. Se o par em questão não for uma coisa nem outra considere isso um NÃO.\n\nI) Se os gatos têm quatro patas, então os gatos são quadrúpedes. / Se os gatos não são quadrúpedes, então os gatos não têm quatro patas.\nII) O cão é amigo fiel e o cão não abandona seu dono. / O cão não é amigo fiel e o cão abandona seu dono.\nIII) Se o chão está molhado, então é perigoso andar por ele. / O chão não está molhado ou é perigoso andar por ele.\nIV) Carina chegou cedo e foi embora tarde. / Carina não chegou cedo ou não foi embora tarde.\nV) Tomás é hábil ao jogar tênis e ao jogar basquete. / Tomás é hábil ao jogar tênis e Tomás é hábil ao jogar basquete.\n\nA verificar os cinco pares de afirmações, a quantidade de considerações com o SIM é igual a",
+   "alt": {
+    "A": "3.",
+    "B": "4.",
+    "C": "1.",
+    "D": "2.",
+    "E": "5."
+   },
+   "gab": "B",
+   "temas": [
+    "raciocinio-logico.estruturas.equivalencias"
+   ],
+   "dispositivos": [],
+   "exp": "I: a segunda é a contrapositiva da primeira (equivalentes, SIM). II: A ∧ ¬B contra ¬A ∧ B não são equivalentes nem negações (a negação seria ¬A ∨ B): NÃO. III: P → Q é equivalente a ¬P ∨ Q (SIM). IV: A ∧ B e ¬A ∨ ¬B são negações entre si (SIM). V: \"tênis e basquete\" é o mesmo que \"tênis e Tomás hábil em basquete\" (equivalentes, SIM). São **4** SIM.",
+   "pendencias": [
+    "Pares de afirmações transcritos do PDF em formato linear (cada par separado por \" / \")."
+   ]
+  }
+ ]
+}
