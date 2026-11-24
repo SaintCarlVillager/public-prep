@@ -50,6 +50,10 @@ export interface Edital {
   cargo_curto?: string;
   banca?: string;
   prova?: string;
+  /** Edital ainda não publicado, modelado pelo anterior: diz o que é estimado. Fica fora dos ativos por padrão. */
+  provisorio?: string;
+  /** Texto sobre a data da prova quando ela é estimada. */
+  prova_prevista?: string;
   objetiva?: Objetiva;
   blocos?: Bloco[];
 }

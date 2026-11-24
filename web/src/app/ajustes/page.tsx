@@ -104,7 +104,11 @@ function Ajustes({ base }: { base: Base }) {
                   aria-label={`${orgaoDe(e)} · ${e.cargo ?? e.id}`}
                   description={
                     <Text type="supporting" color="secondary">
-                      {[e.banca, e.prova && `prova em ${fmtData(e.prova)}`, `aparece como “${base.rotulo(e)}”`]
+                      {[
+                        e.banca,
+                        e.provisorio ? "edital provisório, ainda não publicado" : e.prova && `prova em ${fmtData(e.prova)}`,
+                        `aparece como “${base.rotulo(e)}”`,
+                      ]
                         .filter(Boolean)
                         .join(" · ")}
                     </Text>

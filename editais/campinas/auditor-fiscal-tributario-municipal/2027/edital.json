@@ -1,0 +1,310 @@
+{
+  "id": "campinas/auditor-fiscal-tributario-municipal/2027",
+  "orgao": "Campinas",
+  "orgao_extenso": "Prefeitura Municipal de Campinas (Secretaria Municipal de Finanças)",
+  "cargo": "Auditor Fiscal Tributário Municipal",
+  "cargo_curto": "Auditor Fiscal",
+  "banca": "FCC",
+  "provisorio": "Edital ainda não publicado. A estrutura (disciplinas, questões e pesos) é a do último concurso, Edital nº 07/2019 (Vunesp), e os temas foram deduzidos do nome das disciplinas e do padrão das provas fiscais da FCC; a data da prova é estimada. Revisar tudo quando a FCC publicar o edital.",
+  "edital": "Ainda não publicado. Base provisória: Edital nº 07/2019 (Vunesp), publicado no Suplemento do DOM de 01/07/2019, com a retificação do Anexo III publicada no DOM de 19/07/2019.",
+  "prova": "2027-12-31",
+  "prova_prevista": "Data estimada (fim de 2027). O Termo de Referência (02/09/2026) previa prova em 14/02/2027 num cronograma preliminar que já foi superado; a Prefeitura fala em concursos entre 2027 e 2029.",
+  "fonte": "Termo de Referência da contratação da FCC (SEI PMC.2026.00162643-66, 02/09/2026; dispensa com base no art. 75, XV, da Lei 14.133/2021, indicada em 22/10/2026) e Edital nº 07/2019 (itens 9.1, 11.2 e 11.3).",
+  "observacao": "Termo de Referência (2026): 1 vaga de Auditor Fiscal Tributário Municipal (nível superior), remuneração inicial de R$ 8.613,79, 36 h semanais; prova objetiva (160 questões, segundo resumos do TR; conferir no edital) e avaliação de títulos acadêmicos, classificatória; não prevê discursiva para os cargos fiscais. O conteúdo programático será elaborado pela FCC e validado pela Prefeitura (TR, item 27.1). Concurso de 2019 (Vunesp): 2 vagas, 4.407 inscritos; requisito de bacharelado em Ciências Contábeis, Direito, Administração, Engenharia, Ciência da Computação, Economia ou Análise de Sistemas.",
+  "objetiva": {
+    "formato": "me",
+    "questoes": 140,
+    "duracao_min": 480,
+    "duracao_inclui": "Dois períodos de 4 horas no mesmo dia (manhã: blocos 1 a 3; tarde: blocos 4 a 6), conforme o item 9.1 do Edital nº 07/2019. O simulado soma os dois.",
+    "escala": 10,
+    "media_ponderada": true,
+    "minimo_media": 5.833,
+    "nota": "Regra do Edital nº 07/2019 (item 11.3): 240 pontos no total (cada questão vale o peso da disciplina: Português, Processo/Direito, Direito Tributário e Legislação Tributária peso 2; Matemática/Estatística/RL e Contabilidade/Auditoria peso 1). Habilitado com 140 pontos, pelo menos 35 acertos em cada período (manhã e tarde), nota maior que zero em todas as disciplinas e entre as 200 maiores notas. No app, o peso de cada bloco é a sua pontuação máxima, então a média ponderada é exatamente pontos ÷ 24, e o corte 5,833 equivale a 140 pontos; o mínimo de 35 acertos por período e a nota zero numa disciplina não entram no cálculo."
+  },
+  "blocos": [
+    {
+      "id": "portugues",
+      "nome": "Língua Portuguesa",
+      "questoes": 20,
+      "peso": 40,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "portugues",
+          "temas": [
+            "portugues.interpretacao",
+            "portugues.semantica",
+            "portugues.coesao",
+            "portugues.classes",
+            "portugues.morfossintaxe",
+            "portugues.concordancia",
+            "portugues.regencia",
+            "portugues.crase",
+            "portugues.pontuacao",
+            "portugues.coordenacao-subordinacao",
+            "portugues.tempos-modos",
+            "portugues.vozes",
+            "portugues.reescrita",
+            "portugues.ortografia",
+            "portugues.redacao-oficial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematica",
+      "nome": "Matemática Financeira, Estatística e Raciocínio Lógico",
+      "questoes": 20,
+      "peso": 20,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "matematica",
+          "rotulo": "Matemática Financeira",
+          "temas": [
+            "matematica.porcentagem",
+            "matematica.juros-simples",
+            "matematica.juros-compostos",
+            "matematica.taxas",
+            "matematica.descontos",
+            "matematica.rendas",
+            "matematica.amortizacao",
+            "matematica.fluxo-de-caixa"
+          ]
+        },
+        {
+          "materia": "estatistica",
+          "rotulo": "Estatística",
+          "temas": [
+            "estatistica.descritiva",
+            "estatistica.probabilidade",
+            "estatistica.distribuicoes",
+            "estatistica.amostragem",
+            "estatistica.inferencia",
+            "estatistica.correlacao-regressao",
+            "estatistica.numeros-indices"
+          ]
+        },
+        {
+          "materia": "raciocinio-logico",
+          "rotulo": "Raciocínio Lógico",
+          "temas": [
+            "raciocinio-logico.estruturas",
+            "raciocinio-logico.argumentacao",
+            "raciocinio-logico.diagramas",
+            "raciocinio-logico.sequencias",
+            "raciocinio-logico.contagem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direito",
+      "nome": "Processo/Procedimento Administrativo e Conhecimentos em Direito",
+      "questoes": 30,
+      "peso": 60,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "tributario",
+          "rotulo": "Processo administrativo tributário",
+          "temas": [
+            "tributario.processo-administrativo-fiscal"
+          ]
+        },
+        {
+          "materia": "administrativo",
+          "rotulo": "Direito Administrativo e processo administrativo",
+          "temas": [
+            "administrativo.regime-juridico",
+            "administrativo.principios",
+            "administrativo.poderes",
+            "administrativo.organizacao",
+            "administrativo.ato",
+            "administrativo.licitacoes",
+            "administrativo.processo-administrativo",
+            "administrativo.controle",
+            "administrativo.improbidade",
+            "administrativo.servico-publico",
+            "administrativo.agentes",
+            "administrativo.responsabilidade"
+          ],
+          "normas": {
+            "L9784": [
+              "*"
+            ],
+            "L8429": [
+              "*"
+            ],
+            "L14133": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "constitucional",
+          "rotulo": "Direito Constitucional",
+          "temas": [
+            "constitucional.principios",
+            "constitucional.direitos-individuais",
+            "constitucional.direitos-sociais",
+            "constitucional.organizacao-estado",
+            "constitucional.administracao-publica",
+            "constitucional.poderes",
+            "constitucional.controle",
+            "constitucional.ordem-economica",
+            "constitucional.financas"
+          ]
+        },
+        {
+          "materia": "civil",
+          "rotulo": "Direito Civil e Empresarial",
+          "temas": [
+            "civil.lei",
+            "civil.pessoas",
+            "civil.pessoa-juridica",
+            "civil.domicilio",
+            "civil.bens",
+            "civil.fatos-negocios",
+            "civil.prescricao-decadencia",
+            "civil.obrigacoes",
+            "civil.contratos",
+            "civil.responsabilidade",
+            "civil.propriedade",
+            "civil.empresario"
+          ]
+        }
+      ],
+      "observacao": "Temas deduzidos do nome da disciplina de 2019; o Anexo III daquele edital não foi localizado. Conferir com o edital da FCC."
+    },
+    {
+      "id": "tributario",
+      "nome": "Direito Tributário",
+      "questoes": 20,
+      "peso": 40,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "tributario",
+          "temas": [
+            "tributario.normas-gerais",
+            "tributario.fontes",
+            "tributario.norma",
+            "tributario.tributo",
+            "tributario.fato-gerador",
+            "tributario.obrigacao",
+            "tributario.credito",
+            "tributario.responsabilidade",
+            "tributario.sistema-nacional",
+            "tributario.reforma",
+            "tributario.administracao",
+            "tributario.garantias",
+            "tributario.divida-ativa",
+            "tributario.execucao-fiscal",
+            "tributario.simples-nacional"
+          ],
+          "normas": {
+            "CTN": [
+              "*"
+            ],
+            "CF": [
+              "145-162"
+            ],
+            "L6830": [
+              "*"
+            ],
+            "LC123": [
+              "*"
+            ],
+            "EC132": [
+              "*"
+            ],
+            "LC214": [
+              "*"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "contabilidade",
+      "nome": "Contabilidade Geral e Avançada/Auditoria",
+      "questoes": 20,
+      "peso": 20,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "contabilidade",
+          "temas": [
+            "contabilidade.estrutura-conceitual",
+            "contabilidade.patrimonio",
+            "contabilidade.escrituracao",
+            "contabilidade.operacoes",
+            "contabilidade.estoques",
+            "contabilidade.ativo",
+            "contabilidade.passivo",
+            "contabilidade.patrimonio-liquido",
+            "contabilidade.receitas",
+            "contabilidade.demonstracoes",
+            "contabilidade.combinacao-consolidacao",
+            "contabilidade.analise"
+          ],
+          "normas": {
+            "L6404": [
+              "*"
+            ]
+          }
+        },
+        {
+          "materia": "auditoria",
+          "temas": [
+            "auditoria.conceitos",
+            "auditoria.etica",
+            "auditoria.planejamento",
+            "auditoria.controle-interno",
+            "auditoria.procedimentos",
+            "auditoria.amostragem",
+            "auditoria.documentacao",
+            "auditoria.relatorio",
+            "auditoria.fiscal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legislacao",
+      "nome": "Legislação Tributária",
+      "questoes": 30,
+      "peso": 60,
+      "minimo": null,
+      "cobertura": [
+        {
+          "materia": "tributario",
+          "rotulo": "Legislação tributária de Campinas",
+          "temas": [
+            "tributario.municipais",
+            "tributario.processo-administrativo-fiscal"
+          ],
+          "normas": {
+            "LC116": [
+              "*"
+            ],
+            "CAMP-L11111": [
+              "*"
+            ],
+            "CAMP-L12391": [
+              "*"
+            ],
+            "CAMP-L12392": [
+              "*"
+            ],
+            "CAMP-LC42": [
+              "*"
+            ]
+          }
+        }
+      ],
+      "observacao": "Normas do Anexo III de 2019, na redação retificada (DOM de 19/07/2019): IPTU (Lei 11.111/2001, alterada pela LC 181/2017; Leis 13.083/2007, 13.580/2009 e 15.499/2017; LC 134/2015; Decretos 19.508/2017 e 19.723/2017; IN DRI/SMF 005/2017 e 006/2017; IN SMF 005/2018), ISSQN (Lei 12.392/2005 e alterações; Leis 14.947/2014 e 15.602/2018; Decretos 15.356/2005 e 20.045/2018; INs DRM/SMF e SMF; Resolução SMF 001/2016, pauta fiscal da construção civil), ITBI (Lei 12.391/2005, alterada pela LC 180/2017; Decreto 18.328/2014; IN DRI/SMF 02/2013 e 07/2017) e cobrança e controle da arrecadação (LC 42/2013; IN SMF 001/2018). Só as leis principais estão em normas/normas.json; a LC 116/2003 (ISS nacional) foi acrescentada por ser a base do ISSQN. A legislação municipal terá mudado até 2027 (reforma tributária: ISS substituído pelo IBS a partir de 2029)."
+    }
+  ]
+}

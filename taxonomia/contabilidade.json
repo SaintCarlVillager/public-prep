@@ -1,0 +1,102 @@
+{
+  "materia": "contabilidade",
+  "nome": "Contabilidade Geral e Avançada",
+  "temas": [
+    {
+      "id": "contabilidade.estrutura-conceitual",
+      "nome": "Estrutura conceitual e princípios"
+    },
+    {
+      "id": "contabilidade.patrimonio",
+      "nome": "Patrimônio e variações patrimoniais"
+    },
+    {
+      "id": "contabilidade.escrituracao",
+      "nome": "Contas, plano de contas e escrituração"
+    },
+    {
+      "id": "contabilidade.operacoes",
+      "nome": "Operações com mercadorias e tributos sobre vendas e compras"
+    },
+    {
+      "id": "contabilidade.estoques",
+      "nome": "Estoques e custo das mercadorias vendidas"
+    },
+    {
+      "id": "contabilidade.ativo",
+      "nome": "Ativo: mensuração e avaliação",
+      "filhos": [
+        {
+          "id": "contabilidade.ativo.instrumentos-financeiros",
+          "nome": "Instrumentos financeiros"
+        },
+        {
+          "id": "contabilidade.ativo.imobilizado",
+          "nome": "Imobilizado, depreciação e redução ao valor recuperável"
+        },
+        {
+          "id": "contabilidade.ativo.intangivel",
+          "nome": "Intangível"
+        },
+        {
+          "id": "contabilidade.ativo.investimentos",
+          "nome": "Investimentos e equivalência patrimonial"
+        }
+      ]
+    },
+    {
+      "id": "contabilidade.passivo",
+      "nome": "Passivo, provisões e contingências"
+    },
+    {
+      "id": "contabilidade.patrimonio-liquido",
+      "nome": "Patrimônio líquido e destinação do resultado"
+    },
+    {
+      "id": "contabilidade.receitas",
+      "nome": "Receitas, custos e despesas"
+    },
+    {
+      "id": "contabilidade.demonstracoes",
+      "nome": "Demonstrações contábeis",
+      "filhos": [
+        {
+          "id": "contabilidade.demonstracoes.balanco",
+          "nome": "Balanço patrimonial"
+        },
+        {
+          "id": "contabilidade.demonstracoes.dre",
+          "nome": "DRE e DRA"
+        },
+        {
+          "id": "contabilidade.demonstracoes.dmpl",
+          "nome": "DMPL e DLPA"
+        },
+        {
+          "id": "contabilidade.demonstracoes.dfc",
+          "nome": "Demonstração dos fluxos de caixa"
+        },
+        {
+          "id": "contabilidade.demonstracoes.dva",
+          "nome": "Demonstração do valor adicionado"
+        },
+        {
+          "id": "contabilidade.demonstracoes.notas",
+          "nome": "Notas explicativas"
+        }
+      ]
+    },
+    {
+      "id": "contabilidade.combinacao-consolidacao",
+      "nome": "Combinação de negócios e consolidação"
+    },
+    {
+      "id": "contabilidade.analise",
+      "nome": "Análise das demonstrações contábeis"
+    },
+    {
+      "id": "contabilidade.custos",
+      "nome": "Contabilidade de custos"
+    }
+  ]
+}
