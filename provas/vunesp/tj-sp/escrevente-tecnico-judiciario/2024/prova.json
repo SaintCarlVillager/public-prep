@@ -1,0 +1,54 @@
+{
+  "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024",
+  "banca": "Vunesp",
+  "orgao": "TJ-SP",
+  "cargo": "Escrevente Técnico Judiciário",
+  "ano": 2024,
+  "aplicacao": "2024-11-24",
+  "caderno": "TJSP2401/004",
+  "versao": "1",
+  "formato": "me",
+  "questoes": 100,
+  "blocos": [
+    {
+      "id": "I",
+      "nome": "Língua Portuguesa",
+      "questoes": "1-24"
+    },
+    {
+      "id": "II",
+      "nome": "Conhecimentos em Direito",
+      "questoes": "25-64",
+      "materias": {
+        "Direito Penal": "25-30",
+        "Direito Processual Penal": "31-37",
+        "Direito Processual Civil": "38-44",
+        "Direito Constitucional": "45-51",
+        "Direito Administrativo": "52-59",
+        "Normas da Corregedoria Geral da Justiça": "60-64"
+      }
+    },
+    {
+      "id": "III",
+      "nome": "Conhecimentos Gerais",
+      "questoes": "65-100",
+      "materias": {
+        "Atualidades": "65-70",
+        "Matemática": "71-76",
+        "Informática": "77-90",
+        "Raciocínio Lógico": "91-100"
+      }
+    }
+  ],
+  "gabarito": {
+    "status": "pendente",
+    "fonte": "",
+    "respostas": {}
+  },
+  "anuladas": [],
+  "arquivos": {
+    "prova": "prova.pdf",
+    "texto": "texto.txt"
+  },
+  "observacao": "Concurso TJSP2401, reaplicação da prova objetiva para os candidatos da Comarca de São Paulo (Capital, 1ª RAJ), depois da anulação da primeira aplicação; caderno 004. texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever."
+}
