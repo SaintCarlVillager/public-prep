@@ -1,0 +1,862 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024",
+  "textos": {
+    "T1": {
+      "titulo": "Tira de Adão Iturrusgarai",
+      "texto": "[Tira em três quadros: um personagem em pé na beira de um penhasco diz “TER UM **EMPREGO** É MUITO PERIGOSO!”; no segundo quadro ele continua na beira do penhasco; no terceiro, ele cai de cabeça para baixo e diz “A QUALQUER MOMENTO VOCÊ PODE FICAR **DESEMPREGADO**!”]",
+      "fonte": "https://www.instagram.com/adaoiturrusgarai. Acesso em 20.09.2024"
+    },
+    "T2": {
+      "titulo": "A andorinha da torre",
+      "texto": "Desde muito tempo que o serviço da torre da Igreja de X estava confiado ao velho Emílio...\n\nEra aquele homem de barbas longas e brancas, espécie dessas figuras com que se costuma fazer a imagem mítica dos grandes rios, era aquele velho que via-se de tarde, à janela da torre sob a cúpula enorme do sino grande, olhando vagamente para o espaço, sem dar atenção ao burburinho da cidade, que circulava nas ruas lá embaixo...\n\nOs mais antigos moradores do lugar lembravam-se de que Emílio fora sempre o mesmo homem de barbas longas e brancas, o mesmo, como a ruína consagrada pelo tempo, que nunca fica mais velha. Respeitava-se muito ao velho sineiro. Era o mais honrado dos homens e, além disso, era o avô da mais galante criança que se tem visto.\n\nPor aqueles cinco quarteirões em volta não havia quem não gostasse da andorinha da torre. Festejavam muito aquela criança, davam a ela doces e beijos que não havia mãos a medir; sentiam só que ela fugisse tanto a meter-se na torre com o avô e esquecesse pelos velhos amigos de bronze que moravam lá no alto as pessoas da cidade que tanto a queriam.\n\nMas como havia de ser se ela amava perdidamente os seus sinos e o seu avô?... Achava os sinos frios demais e pachorrentos como uns homens de idade, mas, em compensação, admirava-os, quando vovô Emílio despertava-lhes a sanha e os fazia pularem, voltearem como clowns*, precipitarem-se no espaço como se fossem desabar e ressurgirem para o alto, com a boca largamente aberta, como um sorriso de gigante satisfeito.\n\nA pequena Rita admirava os sinos. Esta admiração transformava-se em amorosa simpatia. Estranhava no fundo do espírito aqueles monstros boquiabertos que sabiam ser igualmente a imobilidade e o turbilhão, o silêncio e a trovoada; ajudava o avô a tratá-los, limpar-lhes o bojo profundo e escuro, clarear-lhes os dourados de fora, esgravatar-lhes os interstícios dos relevos que os enfeitavam...\n\nHavia amor de família naquele pequeno mundo que vivia na torre.\n\n* palhaços",
+      "fonte": "Raul Pompeia, A andorinha da torre. Em: https://www.biblio.com.br. Adaptado. Acesso em 12.09.2024"
+    },
+    "T3": {
+      "titulo": "Tira de Fernando Gonzales",
+      "texto": "[Tira em quatro quadros com macacos numa árvore. 1º quadro: um macaco diz “QUERO A MÃO DA SUA FILHA EM CASAMENTO!” e o outro responde “QUAL DELAS?”. 2º quadro: uma voz diz “A ZUNGA!”. 4º quadro: um macaco caído no chão diz “EU PERGUNTEI QUAL MÃO!”]",
+      "fonte": "Cartunista Fernando Gonzales. Em: https://www.instagram.com/niquelnausea. Acesso em 23.09.2024"
+    },
+    "T4": {
+      "titulo": "Sensações apocalípticas",
+      "texto": "Na capa do jornal Estado de terça-feira, uma foto mostra Brasília submersa em fumaça densa, quase opaca. Na TV, paredões de fogo se levantam e marcham. A olho nu, a fuligem se derrama sobre a cidade; filamentos de carvão vindos no vento aterrissam como libélulas no capô do automóvel de um milhão de reais. O desastre climático é um desastre social, que castiga antes os de baixo, mas quando se impõe para valer não respeita a segregação entre as classes. Não respeita nada, cobre até os astros no céu. A Lua fica vermelha, como se obedecesse ao Apocalipse (6:12): “Inteira como sangue”.\n\nSol prata, chuva preta (isso quando chove). Aumentam as internações nos hospitais. Sobem os óbitos por problemas respiratórios. O noticiário dá conta de que um território equivalente ao Estado de Roraima já virou cinza. A realidade se mostra pior do que as previsões da teoria.\n\nO livro A Terra Inabitável, do jornalista americano David Wallace-Wells, passava por pessimista ao ser lançado, em 2017, mas agora parece brando. Seu alerta de que o descongelamento do solo do Alasca e da Sibéria liberaria gases de efeito estufa e ressuscitaria micro-organismos capazes de desencadear epidemias desconhecidas foi superado por cenários ainda mais assustadores.\n\nO cientista Carlos Nobre se declarou “apavorado”. Num artigo publicado no UOL, ele retomou o adjetivo que deu título ao livro de Wallace-Wells e sentenciou: “Se a temperatura global aumentar em 4º C até 2100, grande parte do planeta, incluindo o Brasil, pode se tornar inabitável”. O Rio Solimões se reduziu a um riacho fantasma, inabitável para peixes. As metrópoles estrebucham entre dois extremos: no primeiro, inundações infectas alagam as casas com doenças e lama; no segundo, a seca ameaça matar de sede os moradores. Para onde quer que se olhe, proliferam os sinais de esfacelamento generalizado.",
+      "fonte": "Eugênio Bucci, Sensações Apocalípticas. Em: https://www.estadao.com.br/opiniao, 19.09.2024. Adaptado"
+    },
+    "T5": {
+      "titulo": "Recruta Zero – Mort Walker",
+      "texto": "[Tira em dois quadros. 1º quadro: um personagem diz a outro, sentado à mesa, “O SENHOR PRECISA ATUAR NAS REDES SOCIAIS, SENÃO VAI SE TORNAR OBSOLETO.” 2º quadro: o personagem mais velho, com uma folha na mão, diz a uma mulher sentada ao computador “DONA TETÊ, VOCÊ PODERIA ME AJUDAR A TUITAR UM TIK TOK NO FACE-X?”]",
+      "fonte": "Mort Walker, “Recruta Zero”. https://cultura.estadao.com.br/quadrinhos, 20.09.2024"
+    }
+  },
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#1",
+      "tipo": "me",
+      "numero": 1,
+      "texto": "T1",
+      "enunciado": "Na perspectiva do personagem, ficar desempregado é visto como algo",
+      "alt": {
+        "A": "certeiro, consequência natural de ter emprego.",
+        "B": "possível, o que decorre do perigo de ter emprego.",
+        "C": "obrigatório, uma causa do fato de ter emprego.",
+        "D": "evitável, contrapondo-se ao perigo de ter emprego.",
+        "E": "inviável, pois se sente tranquilo sobre ter emprego."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O personagem diz que ter emprego é “muito perigoso”, pois “a qualquer momento” se pode ficar desempregado: o desemprego é uma **possibilidade** que decorre do perigo de ter emprego. Não é certo nem obrigatório, e o personagem não demonstra tranquilidade (a queda no último quadro ilustra o risco).",
+      "imagens": [
+        "figuras/q1.png"
+      ],
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“A qualquer momento você **pode** ficar desempregado” indica possibilidade, não **certeza** de que o desemprego é consequência natural do emprego.",
+        "B": "O personagem afirma que ter emprego é perigoso porque se **pode** ficar desempregado: o desemprego é visto como possível e decorre desse perigo.",
+        "C": "Nada na tira diz que o emprego **cause** o desemprego de modo **obrigatório**; o verbo “pode” expressa apenas possibilidade.",
+        "D": "O personagem apresenta o desemprego como **ameaça** que decorre do perigo de ter emprego, e não como algo **evitável** em oposição a esse perigo.",
+        "E": "A fala mostra **receio**, não tranquilidade: o personagem diz que ter emprego é “muito perigoso”."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#2",
+      "tipo": "me",
+      "numero": 2,
+      "texto": "T1",
+      "enunciado": "A relação de sentido estabelecida entre as expressões “Ter um emprego” e “ficar desempregado” também ocorre entre os termos destacados em:",
+      "alt": {
+        "A": "A vítima citou traços **genéricos** da compleição física do bandido, enquanto alguns transeuntes, menos abalados, fizeram uma descrição **minuciosa**.",
+        "B": "A mulher ficou encantada pelo celular do marido e queria um **igual**, mas sabia da dificuldade de encontrar um **semelhante** porque o dele era importado.",
+        "C": "Todos decidiram pela professora de química como madrinha de formatura, **mas** ela não poderia ir; foi, **entretanto**, uma difícil decisão recusar aquele convite.",
+        "D": "A opção por produtos de qualidade é **realmente** importante para a saúde das pessoas, embora seus preços estejam **certamente** exagerados.",
+        "E": "A ideia da professora era **ampliar** a participação dos alunos nos jogos coletivos, prevendo com isso **aumentar** o interesse pelas competições entre turmas."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "“Ter um emprego” e “ficar desempregado” têm sentidos **opostos** (antonímia). Só em A há oposição: **genéricos** (vagos, gerais) × **minuciosa** (detalhada). Em B, “igual” e “semelhante”, e em E, “ampliar” e “aumentar”, são sinônimos; em C, “mas” e “entretanto” são conjunções adversativas equivalentes; em D, os advérbios de afirmação não se opõem.",
+      "imagens": [
+        "figuras/q1.png"
+      ],
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Genéricos** (vagos, gerais) e **minuciosa** (detalhada) têm sentidos opostos, como ocorre entre ter emprego e ficar desempregado.",
+        "B": "**Igual** e **semelhante** são termos de sentido próximo, em relação de **sinonímia**, não de oposição.",
+        "C": "**Mas** e **entretanto** são conjunções adversativas de valor equivalente, não opostas entre si.",
+        "D": "**Realmente** e **certamente** são advérbios de afirmação com sentidos próximos, e não opostos.",
+        "E": "**Ampliar** e **aumentar** são verbos de sentido equivalente (sinônimos)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#3",
+      "tipo": "me",
+      "numero": 3,
+      "texto": "T2",
+      "enunciado": "O narrador da história deixa claro que",
+      "alt": {
+        "A": "o velho Emílio desprezava o trabalho com os sinos da igreja, situação que se transformou depois que Rita passou a acompanhá-lo.",
+        "B": "o sentimento que a pequena Rita nutria pelos sinos da igreja era motivo para ela estar nos cuidados deles junto de seu amado avô.",
+        "C": "a pequena Rita e seu avô tinham como distração subir na torre da igreja, ficando lá desligados da cidade para aproveitar o silêncio.",
+        "D": "as pessoas da cidade se incomodavam com o sumiço da pequena Rita, sem saber que ela acompanhava o avô até a torre da igreja.",
+        "E": "o velho sineiro era indiferente às pessoas e à cidade, mas interessado na companhia da neta, a quem destinava os cuidados com os sinos."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O texto diz que Rita “admirava os sinos”, que essa admiração virava “amorosa simpatia” e que ela ajudava o avô a tratá-los: o **sentimento pelos sinos** a levava a cuidar deles com o avô. Não há desprezo de Emílio (A), busca de silêncio (C), incômodo da cidade com o sumiço (D; as pessoas apenas “sentiam” que ela fugisse à torre) nem indiferença do avô com as pessoas (E; ele era “o mais honrado dos homens”).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto não diz que Emílio **desprezava** o trabalho; ele é o sineiro de longa data, e nada indica mudança de atitude com a chegada de Rita.",
+        "B": "Rita “admirava os sinos”, a admiração virava “amorosa simpatia” e ela **ajudava o avô a tratá-los**: o sentimento pelos sinos a levava a cuidar deles ao lado dele.",
+        "C": "O texto fala em admiração e cuidados com os sinos, não em subir à torre para ficar **desligados** da cidade em busca de silêncio.",
+        "D": "As pessoas apenas **sentiam** que a menina fugisse tanto à torre; não há incômodo nem desconhecimento sobre onde ela estava.",
+        "E": "Emílio é descrito como “o mais honrado dos homens” e respeitado por todos; o texto não o apresenta como **indiferente** às pessoas."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#4",
+      "tipo": "me",
+      "numero": 4,
+      "texto": "T2",
+      "enunciado": "Considere as passagens:\n• ... o serviço da torre da Igreja de X estava **confiado** ao velho Emílio... (1º parágrafo)\n• ... sob a **cúpula** enorme do sino grande... (2º parágrafo)\n• ... sem dar atenção ao **burburinho** da cidade... (2º parágrafo)\n\nOs termos destacados significam, correta e respectivamente:",
+      "alt": {
+        "A": "assegurado; cobertura retilínea; silêncio.",
+        "B": "transferido; varanda superior; sossego.",
+        "C": "prometido; varanda arredondada; espaço.",
+        "D": "entregue; cobertura abobadada; tumulto.",
+        "E": "destinado; aposento avarandado; movimento."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.semantica.contextual"
+      ],
+      "dispositivos": [],
+      "exp": "**Confiado** é “entregue” ao cuidado de alguém; **cúpula** é a cobertura arredondada, **abobadada**, de uma construção; **burburinho** é rumor confuso, **tumulto**, o oposto de silêncio. As demais alternativas erram ao menos um dos três termos (cúpula não é retilínea nem varanda, e burburinho não é silêncio, sossego nem espaço).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Confiado** pode ser “entregue”, mas cúpula não é cobertura **retilínea** (é arredondada) e burburinho é barulho, o contrário de **silêncio**.",
+        "B": "Cúpula não é **varanda**, e burburinho (rumor de vozes) é o oposto de **sossego**.",
+        "C": "**Confiado** não significa “prometido”, cúpula não é varanda e burburinho não é **espaço**.",
+        "D": "**Confiado** é entregue ao cuidado de alguém, **cúpula** é cobertura abobadada e **burburinho** é rumor confuso, tumulto.",
+        "E": "Cúpula é uma cobertura arredondada, não um **aposento avarandado**; burburinho indica rumor confuso de vozes, não simples movimento."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#5",
+      "tipo": "me",
+      "numero": 5,
+      "texto": "T2",
+      "enunciado": "Identifica-se emprego de termo(s) em sentido figurado na passagem:",
+      "alt": {
+        "A": "... os interstícios dos relevos que os enfeitavam... (6º parágrafo)",
+        "B": "... ajudava o avô a tratá-los, limpar-lhes o bojo profundo... (6º parágrafo)",
+        "C": "Era aquele homem de barbas longas e brancas... (2º parágrafo)",
+        "D": "... à janela da torre sob a cúpula enorme do sino grande... (2º parágrafo)",
+        "E": "... davam a ela doces e beijos que não havia mãos a medir... (4º parágrafo)"
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.figuras"
+      ],
+      "dispositivos": [],
+      "exp": "Em “não havia mãos a medir” há expressão **figurada** (hipérbole): as mãos não medem doces e beijos; quer dizer que eram dados em quantidade enorme. As demais passagens descrevem objetos, partes dos sinos e características físicas do velho em **sentido literal**.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "“Interstícios dos relevos” designa as frestas dos adornos dos sinos, em sentido **literal**.",
+        "B": "“Bojo profundo” é a parte interna e côncava do sino, em sentido **literal**.",
+        "C": "“Barbas longas e brancas” é descrição física do velho, em sentido **literal**.",
+        "D": "“Cúpula enorme do sino grande” descreve a cobertura da torre, em sentido **literal**.",
+        "E": "“Não havia **mãos a medir**” é expressão figurada que indica quantidade excessiva de doces e beijos."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#6",
+      "tipo": "me",
+      "numero": 6,
+      "texto": "T2",
+      "enunciado": "Assinale a alternativa em que a reescrita do trecho – Festejavam muito aquela criança, davam a ela doces e beijos... (4º parágrafo) – está em conformidade com a norma-padrão.",
+      "alt": {
+        "A": "Festejavam-lhe muito, davam-lhe doces e beijos...",
+        "B": "Festejavam muito ela, davam-lhes doces e beijos...",
+        "C": "Festejavam-a muito, davam-a doces e beijos...",
+        "D": "Festejavam-na muito, davam-lhe doces e beijos...",
+        "E": "Festejavam-la muito, davam-lhe doces e beijos..."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.classes.pronomes",
+        "portugues.colocacao"
+      ],
+      "dispositivos": [],
+      "exp": "“Festejar” é transitivo direto: o objeto “aquela criança” pede o pronome **o/a**, que, depois de verbo terminado em som nasal (“-vam”), assume a forma **-na** (“festejavam-na”). “Dar a ela” tem objeto indireto, que se substitui por **lhe** (“davam-lhe”). Assim, só D está correta.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Festejar” é transitivo direto e pede o pronome **a**/**na**, não o pronome **lhe**, que é de objeto indireto.",
+        "B": "Depois de verbo transitivo direto não se usa o pronome reto **ela** como objeto; além disso, o objeto indireto singular (“a ela”) pede **lhe**, não “lhes”.",
+        "C": "Depois de verbo terminado em som nasal, o pronome **a** assume a forma **na** (“festejavam-na”); “davam-a” também erra, pois o objeto indireto pede **lhe**.",
+        "D": "“Festejavam-**na**” (objeto direto, após terminação nasal) e “davam-**lhe**” (objeto indireto) seguem a norma-padrão.",
+        "E": "A forma **-la** só se usa depois de verbos terminados em **r**, **s** ou **z**; “festejavam” termina em som nasal e pede **-na**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#7",
+      "tipo": "me",
+      "numero": 7,
+      "texto": "T2",
+      "enunciado": "Na passagem – ... sentiam só que ela fugisse tanto **a meter-se** na torre **com o avô** e esquecesse **pelos velhos amigos de bronze** que moravam lá no alto as pessoas da cidade que tanto a queriam. (4º parágrafo), as preposições que iniciam as expressões destacadas estabelecem, correta e respectivamente, relações de sentido de",
+      "alt": {
+        "A": "finalidade, companhia e causa.",
+        "B": "lugar, modo e conformidade.",
+        "C": "causa, companhia e conformidade.",
+        "D": "causa, modo e consequência.",
+        "E": "finalidade, companhia e companhia."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.classes.preposicoes"
+      ],
+      "dispositivos": [],
+      "exp": "“Fugisse **a** meter-se na torre” traz a preposição a com ideia de **finalidade** (fugia para meter-se na torre); “**com** o avô” indica **companhia**; “esquecesse **pelos** velhos amigos”, isto é, por causa deles, indica **causa**.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A preposição **a** introduz a finalidade da fuga (meter-se na torre), **com** indica companhia e **por** indica a causa do esquecimento.",
+        "B": "A expressão “a meter-se” não indica **lugar**, e “com o avô” não indica **modo** (e sim companhia).",
+        "C": "“A meter-se” não indica **causa** (indica finalidade), e “pelos velhos amigos” não indica **conformidade**.",
+        "D": "“Com o avô” indica companhia, não **modo**, e “pelos velhos amigos” indica causa, não **consequência**.",
+        "E": "“Pelos velhos amigos de bronze” indica **causa** do esquecimento, não companhia."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#8",
+      "tipo": "me",
+      "numero": 8,
+      "texto": "T2",
+      "enunciado": "O conto, escrito no século XIX, apresenta colocação pronominal desabonada pela norma-padrão atual. Isso se evidencia na passagem:",
+      "alt": {
+        "A": "... espécie dessas figuras com que se costuma fazer a imagem mítica dos grandes rios... (2º parágrafo)",
+        "B": "Os mais antigos moradores do lugar lembravam-se de que Emílio fora sempre o mesmo homem... (3º parágrafo)",
+        "C": "... era aquele velho que via-se de tarde, à janela da torre sob a cúpula enorme do sino grande... (2º parágrafo)",
+        "D": "... sentiam só que ela fugisse tanto a meter-se na torre com o avô e esquecesse pelos velhos amigos de bronze... (4º parágrafo)",
+        "E": "A pequena Rita admirava os sinos. Esta admiração transformava-se em amorosa simpatia. (6º parágrafo)"
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.colocacao"
+      ],
+      "dispositivos": [],
+      "exp": "O pronome relativo **que** atrai o pronome oclítico: a norma-padrão exige próclise (“que **se** via”). Em “que via-se” há ênclise, desabonada. Em A a próclise após “que” está correta; em B, D e E a ênclise é admitida (verbo no início da oração ou infinitivo, sem fator de próclise).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Em “com que **se** costuma fazer” há próclise ao verbo, atraída pelo pronome relativo **que**, como manda a norma-padrão.",
+        "B": "“Lembravam-se” traz ênclise em oração iniciada pelo verbo, sem palavra atrativa antes dele, o que é correto.",
+        "C": "Em “que via-se” a palavra **que** atrai o pronome, e a norma-padrão pede a próclise (“que se via”).",
+        "D": "“Meter-se” é infinitivo precedido da preposição **a**, sem fator de próclise obrigatório, e a ênclise é admitida.",
+        "E": "“Transformava-se” inicia a oração, e a ênclise é a colocação adequada; não há palavra atrativa."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#9",
+      "tipo": "me",
+      "numero": 9,
+      "texto": "T2",
+      "enunciado": "Leia as passagens:\n• Era aquele homem de barbas longas e brancas, espécie dessas figuras **com que se costuma fazer** a imagem mítica dos grandes rios... (2º parágrafo)\n• Por aqueles cinco quarteirões em volta não havia quem não **gostasse da** andorinha da torre. (4º parágrafo)\n\nConsiderando-se os aspectos de sentido e de regência, as reescritas dos trechos destacados nas passagens atendem à norma-padrão, respectivamente, em:",
+      "alt": {
+        "A": "sobre que se apropria para fazer; agradasse na.",
+        "B": "de que se apela para fazer; se agradasse pela.",
+        "C": "a que se recorre para fazer; simpatizasse com a.",
+        "D": "com que se utiliza para fazer; se simpatizasse à.",
+        "E": "em que se vale para fazer; afeiçoasse da."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.regencia.verbal",
+        "portugues.classes.pronomes"
+      ],
+      "dispositivos": [],
+      "exp": "“Recorrer a” (figuras **a que** se recorre) mantém o sentido de “costuma fazer” com a regência correta; “simpatizar **com**” + artigo (“com a andorinha”) equivale a “gostar de”. As outras versões erram a regência: apropriar-se **de**, apelar **a/para**, agradar **a** (e não “na”/“pela”), utilizar-se **de**, simpatizar **com** (e não “à”), valer-se **de** e afeiçoar-se **a**.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Apropriar-se” rege **de**, não “sobre”, e “agradar” é transitivo indireto (agradasse **a**), não “agradasse na”.",
+        "B": "“Apelar” rege **a** ou **para**, não “de que”, e “se agradasse pela” erra a regência de agradar.",
+        "C": "“Figuras **a que** se recorre” e “simpatizasse **com a** andorinha” seguem a regência de recorrer a e simpatizar com, mantendo o sentido.",
+        "D": "“Utilizar-se” rege **de**, não “com”, e “simpatizar” rege **com**, não “à”.",
+        "E": "“Valer-se” rege **de**, não “em”, e “afeiçoar-se” rege **a**, não “da”."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#10",
+      "tipo": "me",
+      "numero": 10,
+      "texto": "T2",
+      "enunciado": "Predominam, no texto, as formas verbais do",
+      "alt": {
+        "A": "Presente do Modo Indicativo, em função das reflexões desenvolvidas pelo narrador sobre a relação do sineiro, da neta e dos sinos da igreja.",
+        "B": "Pretérito Imperfeito do Modo Indicativo, em função dos aspectos descritivos que contextualizam a rotina do sineiro e de sua neta.",
+        "C": "Futuro do Modo Subjuntivo, em função da perspectiva de curiosidade que o narrador propõe em razão da relação da neta do sineiro com os sinos.",
+        "D": "Pretérito Perfeito do Modo Indicativo, em função do relato de ações frequentemente realizadas pelo sineiro, sua neta e seus vizinhos.",
+        "E": "Pretérito Imperfeito do Modo Subjuntivo, em função das hipóteses levantadas ao longo do texto sobre os interesses do sineiro e de sua neta."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.tempos-modos"
+      ],
+      "dispositivos": [],
+      "exp": "O trecho descreve uma situação habitual e permanente do passado (“estava”, “era”, “lembravam-se”, “respeitava-se”, “amava”, “admirava”, “ajudava”): predomina o **pretérito imperfeito do indicativo**, próprio de descrição e de ações repetidas ou durativas. O subjuntivo aparece em poucos pontos (“fugisse”, “esquecesse”).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto narra fatos passados; o **presente** do indicativo quase não aparece e não domina o trecho.",
+        "B": "Verbos como “estava”, “era”, “respeitava-se”, “amava” e “ajudava” são **pretérito imperfeito do indicativo**, usado para descrever a rotina do sineiro e da neta.",
+        "C": "O **futuro do subjuntivo** não predomina; o texto está no passado e não propõe curiosidade sobre fatos futuros.",
+        "D": "O **pretérito perfeito** marca ações pontuais e concluídas; o texto descreve situações habituais e contínuas, em geral no imperfeito.",
+        "E": "O **pretérito imperfeito do subjuntivo** aparece em poucas passagens (“fugisse”, “esquecesse”), sem predominar nem expressar hipóteses ao longo do texto."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#11",
+      "tipo": "me",
+      "numero": 11,
+      "texto": "T2",
+      "enunciado": "Conforme os sentidos expressos no texto e a norma-padrão de pontuação, a passagem – Achava os sinos frios demais e pachorrentos como uns homens de idade, mas, em compensação, admirava-os, quando vovô Emílio despertava-lhes a sanha e os fazia pularem... (5º parágrafo) – está adequadamente reescrita em:",
+      "alt": {
+        "A": "Quando vovô Emílio despertava a sanha dos sinos, fazendo-os pularem em compensação, achava-os frios demais e vigilantes, como uns homens de idade uma vez que os admirava.",
+        "B": "Por mais que achasse os sinos frios demais, e impacientes como uns homens de idade, quando vovô Emílio despertava a sanha deles e os fazia pularem em compensação, admirava-os.",
+        "C": "Achava os sinos frios demais e calvos como uns homens de idade, em compensação, admirava-os portanto, quando a sanha destes, vovô Emílio despertava fazendo-os pularem.",
+        "D": "Achava os sinos frios demais e calmos como uns homens de idade; em compensação, admirava-os, no entanto, quando a sanha deles era despertada por vovô Emílio, que os fazia pularem.",
+        "E": "Ainda que achasse os sinos frios demais e lentos como uns homens de idade, admirava-os em compensação, quando a sanha deles, vovô Emílio fazia despertar e eles pulavam."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.pontuacao",
+        "portugues.coesao.conectivos"
+      ],
+      "dispositivos": [],
+      "exp": "Só D mantém o sentido original: “pachorrentos” = **calmos**; o ponto e vírgula separa o contraste (“em compensação”) e “no entanto” preserva a oposição (frios, mas admirados quando despertados). As outras trocam o sentido (“vigilantes”, “impacientes”, “calvos”), invertem relações (“uma vez que”, “por mais que”, “portanto”) ou pontuam mal, com vírgulas que separam termos ligados ou isolam sujeito e verbo.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A reescrita troca “pachorrentos” por **vigilantes** e inverte a relação lógica com “uma vez que”, além de deslocar “em compensação”.",
+        "B": "“Impacientes” contraria **pachorrentos** (calmos), e “por mais que” cria concessão que muda a relação do trecho original.",
+        "C": "“Calvos” não equivale a pachorrentos, “portanto” inverte a relação adversativa e a vírgula antes de “em compensação” une duas orações sem conectivo.",
+        "D": "“Calmos” equivale a pachorrentos, o **ponto e vírgula** separa o contraste e “no entanto” mantém a oposição do original.",
+        "E": "A pontuação isola “a sanha deles” do verbo e a estrutura “vovô Emílio fazia despertar” fica truncada, sem manter a relação do original."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#12",
+      "tipo": "me",
+      "numero": 12,
+      "texto": "T3",
+      "enunciado": "O efeito de humor da tira decorre",
+      "alt": {
+        "A": "do duplo sentido que os dois personagens atribuem ao termo “casamento”.",
+        "B": "do questionamento incoerente “qual delas?”, considerando que só há uma filha.",
+        "C": "da falta de interesse de Zunga pelo pedido de casamento que estava sendo feito.",
+        "D": "do entendimento do pai de que a filha estava sendo pedida em casamento.",
+        "E": "da interpretação equivocada que os personagens fazem dos termos “mão” e “filha”."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O pretendente pede “a **mão** da sua **filha**” em casamento (sentido figurado). O pai responde “qual delas?” e, ao ouvir “a Zunga!”, mostra que queria dizer **qual mão** (a direita ou a esquerda?), isto é, interpretou literalmente a “mão”, enquanto o outro entendeu que ele perguntava qual filha. O humor vem do **mal-entendido** sobre os termos “mão” e “filha”.",
+      "imagens": [
+        "figuras/q12.png"
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#13",
+      "tipo": "me",
+      "numero": 13,
+      "texto": "T4",
+      "enunciado": "Na opinião do autor, a situação ambiental do país",
+      "alt": {
+        "A": "pode estar mudando a forma como os cidadãos interagem com as metrópoles, que, paradoxalmente, estão menos suscetíveis ao caos ambiental.",
+        "B": "vem superando os cenários mais negativos previstos, intensificados pela crescente destruição a que estão expostas as cidades nos últimos meses.",
+        "C": "promete mudar a segregação indesejada no país, criando elos entre as diferentes classes para evitar que todos sejam expostos às mudanças climáticas.",
+        "D": "está castigando seletivamente as pessoas, uma vez que os mais afortunados economicamente têm condições de evitar o desastre social.",
+        "E": "indica estar muito ruim com as recentes queimadas, o que ainda sugere ser insuficiente para dizer que o mundo esteja vivendo mudanças climáticas."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.interpretacao.ponto-de-vista"
+      ],
+      "dispositivos": [],
+      "exp": "O autor diz que “a realidade se mostra pior do que as previsões da teoria”, que o livro de 2017 “agora parece brando” e que cenários ainda mais assustadores superaram o alerta: a situação **supera as previsões mais negativas**, com cidades cada vez mais atingidas. Ele também afirma que o desastre “não respeita a segregação entre as classes” e que as metrópoles “estrebucham”.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto mostra as metrópoles **atingidas** (inundações e seca), não menos suscetíveis ao caos ambiental.",
+        "B": "O autor afirma que a realidade é **pior do que as previsões** e superou cenários assustadores, com cidades cada vez mais atingidas pelos desastres.",
+        "C": "O texto diz que o desastre climático **não respeita** a segregação entre classes, mas não prevê que isso crie elos que evitem a exposição de todos.",
+        "D": "O autor afirma que o desastre, quando se impõe, **não respeita a segregação** entre as classes; ninguém consegue evitá-lo seletivamente.",
+        "E": "O autor trata o quadro como parte de um **desastre climático** de escala global, e não como insuficiente para falar em mudanças climáticas."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#14",
+      "tipo": "me",
+      "numero": 14,
+      "texto": "T4",
+      "enunciado": "O autor usa a referência ao livro bíblico Apocalipse, ao livro A Terra Inabitável e ao artigo do cientista Carlos Nobre com a intenção de",
+      "alt": {
+        "A": "ratificar seu ponto de vista sobre os desastres ambientais.",
+        "B": "explicar as considerações falaciosas presentes nesses textos.",
+        "C": "condenar exageros prejudiciais à saúde mental da população.",
+        "D": "mostrar a situação atual como mais amena que as previsões.",
+        "E": "ironizar as previsões catastróficas que nunca se concretizaram."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.interpretacao.ponto-de-vista",
+        "portugues.argumentacao"
+      ],
+      "dispositivos": [],
+      "exp": "As referências (Apocalipse, o livro de Wallace-Wells e Carlos Nobre) são **argumentos de apoio** à tese do autor de que a situação ambiental é gravíssima: elas **ratificam** seu ponto de vista. Ele não as critica, não as chama de falaciosas nem diz que as previsões não se concretizaram; ao contrário, diz que a realidade está pior que a teoria.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Citar a Bíblia, o livro de 2017 e o cientista **reforça** a tese do autor sobre a gravidade dos desastres ambientais, ratificando seu ponto de vista.",
+        "B": "O autor não classifica os textos citados como **falaciosos**; ele os usa para sustentar sua visão.",
+        "C": "O texto não condena **exageros** nem trata de saúde mental: os alertas citados são tomados como pertinentes.",
+        "D": "O autor diz que a realidade é **pior** que as previsões, não mais amena.",
+        "E": "As previsões citadas **se concretizaram** e até foram superadas, segundo o autor; não há ironia sobre previsões que não ocorreram."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#15",
+      "tipo": "me",
+      "numero": 15,
+      "texto": "T4",
+      "enunciado": "Nas passagens –... mas quando se impõe **para valer**... (1º parágrafo) – e – As metrópoles **estrebucham** entre dois extremos... (4º parágrafo) –, as expressões destacadas significam, respectivamente:",
+      "alt": {
+        "A": "absolutamente; definham.",
+        "B": "por completo; desaparecem.",
+        "C": "intencionalmente; estremecem.",
+        "D": "de verdade; afligem-se.",
+        "E": "a sério; equilibram-se."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.semantica.contextual"
+      ],
+      "dispositivos": [],
+      "exp": "“Impor-se **para valer**” é impor-se **de verdade**, com força real; “**estrebucham**” indica agitar-se, debater-se em sofrimento, isto é, **afligem-se**. As outras alternativas distorcem um dos sentidos (definhar, desaparecer, estremecer e equilibrar-se não equivalem a estrebuchar).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Absolutamente** não equivale a “para valer”, e **definham** (enfraquecem aos poucos) não equivale a estrebuchar (debater-se).",
+        "B": "“Para valer” não é “por completo”, e **desaparecem** não traduz estrebuchar, que é agitar-se em aflição.",
+        "C": "“Para valer” não indica **intencionalidade**, e **estremecem** é tremer, não debater-se em aflição.",
+        "D": "“Para valer” significa **de verdade** e “estrebucham” indica agitar-se em aflição, ou seja, **afligem-se**.",
+        "E": "“Estrebucham” é o oposto de **equilibram-se**: indica desequilíbrio e agonia."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#16",
+      "tipo": "me",
+      "numero": 16,
+      "texto": "T4",
+      "enunciado": "Na frase final do texto – **Para onde quer que se olhe**, proliferam os sinais de esfacelamento generalizado. –, a informação destacada permite inferir corretamente que",
+      "alt": {
+        "A": "a devastação é uma realidade subjetiva.",
+        "B": "a realidade do país supera dificuldades.",
+        "C": "a ruína é uma realidade incontestável.",
+        "D": "a realidade é melhor do que aparenta.",
+        "E": "a degradação humana supera a ambiental."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "“Para onde quer que se olhe” significa que, **em qualquer direção**, os sinais de ruína aparecem: a destruição é visível por toda parte, ou seja, é **incontestável**, o oposto de subjetiva. Não há ideia de superação, de melhora ou de comparação entre degradação humana e ambiental.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Sinais visíveis **por toda parte** indicam realidade objetiva, não **subjetiva**.",
+        "B": "Os sinais de esfacelamento por toda parte indicam **piora**, não superação de dificuldades.",
+        "C": "Sinais que aparecem **para onde quer que se olhe** tornam a ruína evidente e **incontestável**.",
+        "D": "A expressão mostra que a realidade é **pior**, não melhor do que aparenta.",
+        "E": "O trecho não compara a degradação humana com a **ambiental**; trata do esfacelamento generalizado."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#17",
+      "tipo": "me",
+      "numero": 17,
+      "texto": "T4",
+      "enunciado": "Considere as passagens:\n• Não respeita nada, cobre até **os astros** no céu. (1º parágrafo)\n• **Seu** alerta de que o descongelamento do solo... (3º parágrafo)\n• ... ele retomou **o adjetivo**... (4º parágrafo)\n\nAs expressões destacadas mantêm relação coesiva, correta e respectivamente, com os termos:",
+      "alt": {
+        "A": "A Lua; O livro; inabitável.",
+        "B": "vermelha; David Wallace-Wells; assustadores.",
+        "C": "A Lua; David Wallace-Wells; apavorado.",
+        "D": "as classes; O livro; alerta.",
+        "E": "as classes; A Terra Inabitável; Terra."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.coesao.referenciacao"
+      ],
+      "dispositivos": [],
+      "exp": "“**Os astros**” é retomado por “**A Lua**” (exemplo de astro, na frase seguinte); “**Seu** alerta” refere-se a **David Wallace-Wells**, autor do livro e do alerta; “**o adjetivo**” retoma **apavorado**, declarado por Carlos Nobre, e não “inabitável” ou “assustadores”.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "“Seu” retoma o autor **David Wallace-Wells**, não “O livro”, e “o adjetivo” retoma **apavorado**, não “inabitável”.",
+        "B": "“Os astros” se relaciona a **A Lua**, não ao adjetivo “vermelha”, e “o adjetivo” retoma **apavorado**, não “assustadores”.",
+        "C": "“Os astros” retoma **A Lua**, “Seu” retoma **David Wallace-Wells** e “o adjetivo” retoma **apavorado**.",
+        "D": "“Os astros” não retoma **as classes**, e “seu” se refere ao autor do alerta, não ao livro.",
+        "E": "“Os astros” não retoma **as classes**, e “o adjetivo” não retoma **Terra**, que é substantivo."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#18",
+      "tipo": "me",
+      "numero": 18,
+      "texto": "T4",
+      "enunciado": "A concordância verbal e a concordância nominal estão em conformidade com a norma-padrão na seguinte reescrita de informações do texto:",
+      "alt": {
+        "A": "Os dois extremos vividos recentemente vem fazendo as metrópoles estrebucharem, vítima de inundações infectas ou de seca.",
+        "B": "No Rio Solimões, faltam condições de sobrevivência aos peixes, pois as águas abundantes foram reduzidas a um riacho fantasma.",
+        "C": "Tornou-se uma realidade em muitas cidades do país filamentos de carvão e fumaça, que poderia ser visto a olho nu se espalhando.",
+        "D": "4º C até 2100, segundo o cientista Carlos Nobre sentenciou, pode tornar todos os países do planeta Terra inabitável.",
+        "E": "Superaram-se com cenários ainda mais assustadores o alerta de David Wallace-Wells, como atesta os recentes extremos climáticos."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.concordancia.verbal",
+        "portugues.concordancia.nominal"
+      ],
+      "dispositivos": [],
+      "exp": "Em B, “faltam” concorda com “condições”, “abundantes” com “águas” e “reduzidas” com “águas”. Nas demais há erro: A (“vem” deve ser **vêm**; “vítima” deve concordar com as metrópoles: **vítimas**), C (“tornou-se” com sujeito plural: **tornaram-se**; “poderia ser visto”: **poderiam ser vistos**), D (“inabitável” deve ir ao plural: **inabitáveis**) e E (“superaram-se” com sujeito singular “o alerta”; “atesta” deve ser **atestam** com “extremos”).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O verbo **vem** está no singular com sujeito plural (“os dois extremos”; o correto é “vêm”) e “vítima” não concorda com “as metrópoles” (vítimas).",
+        "B": "“**Faltam**” concorda com “condições” e “abundantes” e “reduzidas” concordam com “águas”.",
+        "C": "O verbo **tornou-se** está no singular com sujeito plural (“filamentos”) e “poderia ser visto” também deveria estar no plural.",
+        "D": "“Inabitável” deveria estar no plural (**inabitáveis**), concordando com “todos os países”.",
+        "E": "O verbo **superaram-se** está no plural com sujeito singular (“o alerta”) e “atesta” está no singular com sujeito plural (“os extremos”)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#19",
+      "tipo": "me",
+      "numero": 19,
+      "texto": "T4",
+      "enunciado": "Considere as passagens:\n• ... uma foto mostra **Brasília submersa em fumaça densa**... (1º parágrafo)\n• ... que castiga **antes** os de baixo... (1º parágrafo)\n• Sobem os óbitos **por** problemas respiratórios. (2º parágrafo)\n• ... a seca ameaça matar **de** sede os moradores. (4º parágrafo)\n\nDe acordo com a norma-padrão e o sentido original, a reescrita de **Brasília submersa em fumaça densa**, o sinônimo de **antes** e as relações estabelecidas pelas preposições **por** e **de** são, respectivamente:",
+      "alt": {
+        "A": "Brasília com fumaça densa; provavelmente; modo; companhia.",
+        "B": "Brasília ante fumaça densa; primeiramente; consequência; modo.",
+        "C": "Brasília sobre fumaça densa; principalmente; causa; companhia.",
+        "D": "Brasília entre fumaça densa; preteritamente; consequência; modo.",
+        "E": "Brasília sob fumaça densa; preferencialmente; causa; causa."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.classes.preposicoes",
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "“Submersa em fumaça” equivale a “**sob** fumaça densa” (a cidade está debaixo dela). “Castiga **antes** os de baixo” tem o sentido de **preferencialmente** (primeiro e mais intensamente). “Óbitos **por** problemas respiratórios” e “matar **de** sede” expressam **causa** nos dois casos.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "“Com fumaça densa” não preserva a ideia de submersão, **provavelmente** não é sinônimo de “antes” e “por problemas” expressa causa, não modo.",
+        "B": "“Ante” significa diante de, não submersa em; e “por problemas respiratórios” indica **causa**, não consequência.",
+        "C": "“Sobre” inverte a posição (acima, não debaixo) e “de sede” indica **causa**, não companhia.",
+        "D": "“Entre” não equivale a submersa em, **preteritamente** (no passado) não é sinônimo de “antes” aqui e “por problemas” indica causa.",
+        "E": "**Sob** fumaça densa, **preferencialmente** e a causa expressa por “por” e “de” correspondem ao sentido original."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#20",
+      "tipo": "me",
+      "numero": 20,
+      "enunciado": "Agora, o quadro se agravou. Os fatos nos põem frente ______ frente com o exaurimento não dos impérios, não da humanidade, mas do planeta Terra. Estamos presenciando ______ fadiga do material e do imaterial: fadiga da natureza e das narrativas sobre a natureza, fadiga do Corpo de Bombeiros e dos métodos incorpóreos de combate ______ queimadas. Fadiga da fadiga.\n\nEm conformidade com a norma-padrão, as lacunas do texto devem ser preenchidas, respectivamente, com:",
+      "alt": {
+        "A": "a ... à ... às",
+        "B": "a ... a ... às",
+        "C": "à ... a ... a",
+        "D": "a ... à ... as",
+        "E": "à ... a ... à"
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.crase"
+      ],
+      "dispositivos": [],
+      "exp": "“Frente **a** frente” é locução de termos repetidos, sem crase (palavras masculinas, sem artigo). “Presenciar” é transitivo direto, sem preposição, e “fadiga” é feminino: antes dele há só o artigo **a**, sem crase. “Combate **a** + as queimadas” = **às**. Logo: a ... a ... às.",
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#21",
+      "tipo": "me",
+      "numero": 21,
+      "texto": "T5",
+      "enunciado": "Com a frase do personagem no 2º quadro, conclui-se corretamente que ele decidiu",
+      "alt": {
+        "A": "demonstrar proficiência em relação às redes sociais.",
+        "B": "minimizar a sua presença nas redes sociais.",
+        "C": "dissentir da sugestão que recebeu do colega.",
+        "D": "desincompatibilizar-se com as redes sociais.",
+        "E": "assumir humildemente sua inépcia nas redes sociais."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O chefe pede ajuda a dona Tetê para “tuitar um Tik Tok no Face-X”, mistura de nomes de redes que revela que **não domina** o assunto. Ao pedir ajuda, ele aceita a sugestão e assume humildemente sua **inépcia** (falta de habilidade).",
+      "imagens": [
+        "figuras/q21.png"
+      ],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O pedido de ajuda e a mistura de nomes de redes mostram **desconhecimento**, não proficiência.",
+        "B": "O chefe segue o conselho de **atuar** nas redes; ele não decide reduzir a sua presença.",
+        "C": "Ao pedir ajuda, ele **acata** a sugestão, em vez de dissentir dela.",
+        "D": "“Desincompatibilizar-se” é sair de impedimento, não se afastar das redes; além disso, ele busca aproximar-se delas.",
+        "E": "Ao pedir ajuda com nomes confusos (“tuitar um Tik Tok no Face-X”), ele **assume** que não sabe usar as redes."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#22",
+      "tipo": "me",
+      "numero": 22,
+      "texto": "T5",
+      "enunciado": "O termo **obsoleto** (1º quadro) é antônimo de",
+      "alt": {
+        "A": "arcaico.",
+        "B": "anacrônico.",
+        "C": "hodierno.",
+        "D": "indecoroso.",
+        "E": "efêmero."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.semantica.sinonimia"
+      ],
+      "dispositivos": [],
+      "exp": "**Obsoleto** é o que caiu em desuso, ultrapassado. Seu antônimo é **hodierno**, isto é, atual, dos dias de hoje. **Arcaico** e **anacrônico** são sinônimos aproximados de obsoleto; indecoroso (indecente) e efêmero (passageiro) não se relacionam por oposição.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "**Arcaico** (antigo, em desuso) é sinônimo aproximado de obsoleto, não antônimo.",
+        "B": "**Anacrônico** (fora de época, ultrapassado) tem sentido próximo ao de obsoleto.",
+        "C": "**Hodierno** significa atual, dos dias de hoje, o oposto de obsoleto (ultrapassado).",
+        "D": "**Indecoroso** (indecente) não tem relação de oposição com obsoleto.",
+        "E": "**Efêmero** (de curta duração) não é o oposto de obsoleto; refere-se à duração, não à atualidade."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#23",
+      "tipo": "me",
+      "numero": 23,
+      "texto": "T5",
+      "enunciado": "Conforme os sentidos expostos no 1º quadro e o respeito à norma-padrão, a frase do personagem admite a versão:",
+      "alt": {
+        "A": "Quem tornará-se obsoleto é quem não agir nas redes sociais. Desse modo, o senhor atua nelas.",
+        "B": "Se tornará obsoleto quem não atuar nas redes sociais. Entretanto, o senhor precisa agir nelas.",
+        "C": "Tem tornado-se obsoleto quem não age nas redes sociais. Assim, o senhor precisa atuar nelas.",
+        "D": "Caso não atue-se nas redes sociais, torna-se obsoleto. Apesar disso, o senhor precisa agir nelas.",
+        "E": "Tornar-se-á obsoleto quem não atuar nas redes sociais. Portanto, o senhor precisa agir nelas."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.colocacao",
+        "portugues.coesao.conectivos"
+      ],
+      "dispositivos": [],
+      "exp": "O original diz que o senhor precisa atuar **senão** (caso contrário) se tornará obsoleto. Em E, a **mesóclise** (“tornar-se-á”) é correta no futuro do presente e “portanto” (conclusão) mantém a relação de consequência. Nas demais há erro de colocação (“tornará-se”, “tem tornado-se”, “atue-se”, “Se tornará” no início da frase) ou de sentido (“entretanto”, “apesar disso”, “desse modo”, que alteram a lógica do original).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A ênclise “tornará-se” é incorreta no futuro do presente (exige mesóclise ou próclise: “tornar-se-á”/“se tornará”) e “o senhor atua nelas” não expressa a necessidade do original.",
+        "B": "Iniciar a frase com pronome átono (“Se tornará”) contraria a norma-padrão, e “entretanto” cria oposição que não existe no original.",
+        "C": "“Tem tornado-se” é incorreto: com verbo auxiliar, o pronome fica junto ao auxiliar (“tem-se tornado”), não depois do particípio.",
+        "D": "“Caso não atue-se” é incorreto, pois a palavra **não** atrai o pronome (“não se atue”), e “apesar disso” inverte a lógica.",
+        "E": "“**Tornar-se-á**” usa a mesóclise adequada ao futuro, e “portanto” mantém a relação de conclusão do original."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#24",
+      "tipo": "me",
+      "numero": 24,
+      "texto": "T5",
+      "enunciado": "A regência nominal atende à norma-padrão em:",
+      "alt": {
+        "A": "Ao ser alertado que deveria atuar nas redes sociais, o chefe decidiu recorrer à ajuda de dona Tetê.",
+        "B": "O rapaz mostrava-se cioso da atuação do chefe nas redes sociais, razão pela qual lhe deu o conselho.",
+        "C": "O chefe decerto não tinha aspiração com uma grande atuação nas redes sociais, mas acatou o conselho.",
+        "D": "Com seu pedido, o chefe considerou que dona Tetê estaria apta de ajudá-lo com as redes sociais.",
+        "E": "A necessidade em uma atuação nas redes sociais fez o chefe prontamente pedir ajuda à dona Tetê."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.regencia.nominal"
+      ],
+      "dispositivos": [],
+      "exp": "“Cioso” rege a preposição **de** (cioso **da** atuação): B está correta. Nas demais: A (“alertado **de** que”, não “alertado que”), C (aspiração **a**, e não “com”), D (apta **para**, não “de”) e E (necessidade **de**, não “em”).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A regência errada está em “alertado **que**” (o certo é “alertado **de** que”); “recorrer à ajuda” é regência verbal, não nominal.",
+        "B": "“Cioso” rege **de**: “cioso **da** atuação” segue a regência nominal da norma-padrão.",
+        "C": "“Aspiração” rege **a** (aspiração **a** uma grande atuação), não “com”.",
+        "D": "“Apta” rege **para** (ou **a**), não “de”: o correto seria “apta **para** ajudá-lo”.",
+        "E": "“Necessidade” rege **de** (necessidade **de** uma atuação), não “em”."
+      },
+      "pendencias": []
+    }
+  ]
+}
