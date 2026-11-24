@@ -18,12 +18,32 @@
       "temas": [
         "tributario.municipais.iptu"
       ],
-      "dispositivos": [],
-      "exp": "A Lei municipal nº 1.628/2011 de Manaus (lei do IPTU) inclui entre as isenções o imóvel **pertencente a portador de doença crônica terminal**, sem outros requisitos na redação cobrada: é a (C). As demais reproduzem hipóteses de isenção da mesma lei com algum requisito trocado (o valor-limite da habitação econômica, o órgão que reconhece o interesse histórico e o prazo da isenção, as condições do portador de necessidades especiais, a idade do proprietário), e por isso não correspondem ao texto legal.",
-      "observacoes": [
-        "O texto da Lei municipal nº 1.628/2011 de Manaus não pôde ser conferido; a explicação segue o gabarito oficial e não detalha qual requisito cada distratora altera. Sem cards de verdadeiro/falso por esse motivo."
+      "dispositivos": [
+        "MAO-L1628 43",
+        "MAO-L1628 43 p.ú.",
+        "MAO-L1628 42",
+        "MAO-L1628 44 p.ú."
       ],
-      "pendencias": []
+      "exp": "A Lei municipal nº 1.628/2011 isenta do IPTU os imóveis **pertencentes aos portadores de doenças crônicas terminais** (`MAO-L1628 43`): é a (C). A isenção dos portadores de necessidades especiais vale para eles, **proprietários ou não**, desde que contemplados em programas sociais, sem exigir ausência de rendimentos (D) (`MAO-L1628 43 p.ú.`); a habitação econômica é definida por pontuação, tipo de construção e áreas do terreno e construída, e não por valor de mercado (A) (`MAO-L1628 44 p.ú.`); o imóvel de interesse histórico ou cultural é reconhecido pelo órgão **municipal**, e a isenção na data da prova era de **três anos** (B) (`MAO-L1628 42`); e a lei não tem isenção por idade do proprietário (E).",
+      "observacoes": [
+        "Lei nº 1.628/2011 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br) (texto atualizado).",
+        "Depois da prova, a Lei nº 2.564/2019 ampliou para dez anos a isenção do imóvel de interesse histórico ou cultural (art. 42); a alternativa B continua errada, pelo órgão (federal) e pelo prazo."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A **habitação econômica** isenta é definida por pontuação, tipo de construção precária e limites de **área do terreno e construída** (`MAO-L1628 44 p.ú.`), e não por valor de mercado.",
+        "B": "O interesse histórico ou cultural é reconhecido pelo **órgão municipal** competente, e a isenção, na redação vigente em 2019, durava **três anos** (`MAO-L1628 42`).",
+        "C": "Ficam isentos do IPTU os imóveis **pertencentes aos portadores de doenças crônicas terminais** (`MAO-L1628 43`).",
+        "D": "A isenção alcança os portadores de necessidades especiais, **proprietários ou não**, contemplados em programas sociais (`MAO-L1628 43 p.ú.`); não exige que sejam proprietários nem que não tenham rendimentos.",
+        "E": "A lei do IPTU de Manaus **não prevê isenção por idade** do proprietário."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#87",
@@ -81,12 +101,30 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "Pela Lei municipal nº 2.385/2018, o **Corpo Deliberativo do Tribunal Pleno** do CARF-M é composto pelos próprios **Conselheiros titulares e suplentes das Câmaras Julgadoras**; como cada uma das duas Câmaras tem 6 titulares (3 da Fazenda e 3 dos contribuintes) e 4 suplentes, o Pleno soma **12 titulares e 8 suplentes**: é a (A). Por isso erram (C) e (E), que falam em conselheiros distintos dos das Câmaras. (B) e (D) não correspondem às regras da lei sobre a presidência do Pleno, segundo o gabarito oficial.",
-      "observacoes": [
-        "O texto integral da Lei municipal nº 2.385/2018 não pôde ser conferido; a composição (Corpo Deliberativo formado pelos conselheiros das Câmaras, 6 titulares por Câmara) foi checada em resumo do art. 9º e do art. 10, e o erro de (B) e (D) segue o gabarito oficial. Sem cards de verdadeiro/falso por esse motivo."
+      "dispositivos": [
+        "MAO-L2385 9",
+        "MAO-L2385 10",
+        "MAO-L2385 10 §1º"
       ],
-      "pendencias": []
+      "exp": "Pela Lei municipal nº 2.385/2018, o **Corpo Deliberativo do Tribunal Pleno** do CARF-M é composto pelos próprios **Conselheiros titulares e suplentes das Câmaras Julgadoras**: **doze titulares e oito suplentes**, metade da Fazenda e metade dos contribuintes (`MAO-L2385 10`): é a (A). Por isso erram (C) e (E), que falam em conselheiros distintos. O Presidente e o Vice-Presidente do Pleno são o Presidente e o Vice-Presidente da **Primeira** Câmara (D), e ao Presidente cabe, **além do voto ordinário**, o de desempate (B) (`MAO-L2385 10 §1º`).",
+      "observacoes": [
+        "Lei nº 2.385/2018 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br), que a registra sem alterações posteriores."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O Corpo Deliberativo do Tribunal Pleno do CARF-M tem **doze titulares e oito suplentes**, metade representando a Fazenda e metade os contribuintes (`MAO-L2385 10`).",
+        "B": "Ao Presidente do Tribunal Pleno cabe, **além do voto ordinário**, o voto de desempate (`MAO-L2385 10 §1º`).",
+        "C": "O Corpo Deliberativo do Tribunal Pleno é composto **pelos próprios Conselheiros** titulares e suplentes das Câmaras Julgadoras (`MAO-L2385 10`).",
+        "D": "O Presidente e o Vice-Presidente do Tribunal Pleno são o Presidente e o Vice-Presidente **da Primeira Câmara Julgadora** (`MAO-L2385 10 §1º`).",
+        "E": "Todo o Corpo Deliberativo do Pleno é formado **pelos Conselheiros das Câmaras Julgadoras** (`MAO-L2385 10`), e não só o Presidente e o Vice."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#89",
@@ -220,18 +258,35 @@
         "tributario.municipais.iss"
       ],
       "dispositivos": [
+        "MAO-L2251 7 §3º",
+        "MAO-L2251 2 I",
+        "MAO-L2251 7 §1º",
         "LC116 2 I",
         "LC116 7 §2º I",
         "LC116 8-A §1º",
         "CTN 148"
       ],
-      "exp": "A Lei municipal nº 2.251/2017 permite excluir da base de cálculo do ISSQN o valor das **subempreitadas já tributadas** pelo imposto, evitando a dupla tributação na construção civil: é a (A). (B) erra porque o imposto **não incide** sobre as exportações de serviços (`LC116 2 I`); (C) contraria a vedação de carga inferior à da **alíquota mínima de 2%** (`LC116 8-A §1º`); (D) erra porque a lei admite o regime de **estimativa**, ao lado do arbitramento (`CTN 148`); e (E) estende aos serviços de engenharia e arquitetura (subitem 7.01) a dedução de materiais que a lei complementar só prevê para os subitens 7.02 e 7.05 (`LC116 7 §2º I`).",
+      "exp": "A Lei municipal nº 2.251/2017 exclui da base de cálculo do ISSQN as **subempreitadas já tributadas** pelo imposto (`MAO-L2251 7 §3º`): é a (A). (B) erra porque o imposto **não incide** sobre as exportações de serviços (`MAO-L2251 2 I`, `LC116 2 I`); (C) contraria a regra de que o arbitramento e a estimativa não podem resultar em carga menor que a da **alíquota mínima** da lei complementar (`MAO-L2251 7 §1º`, `LC116 8-A §1º`); (D) erra porque a lei **admite a estimativa**, ao lado do arbitramento (`MAO-L2251 7 §1º`); e (E) erra porque a exclusão dos materiais vale só para os serviços dos subitens **7.02 e 7.05** (`MAO-L2251 7 §3º`, `LC116 7 §2º I`).",
       "observacoes": [
-        "O texto da Lei municipal nº 2.251/2017 não pôde ser conferido; a dedução das subempreitadas (que foi vetada na LC 116/2003) e a previsão de estimativa seguem o gabarito oficial e a prática da legislação municipal.",
         "O ISS será substituído pelo IBS na transição da Reforma Tributária (EC 132/2023, LC 214/2025), com extinção prevista para 2033; até lá, a regra continua valendo.",
-        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+        "Lei nº 2.251/2017 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br).",
+        "A Lei nº 2.251/2017 foi revogada pela Lei nº 2.833/2021, que repete as mesmas regras nos arts. 2º, I, e 7º, §§ 1º e 3º."
       ],
-      "pendencias": []
+      "pendencias": [],
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não se incluem na base de cálculo do ISSQN as **subempreitadas já tributadas** pelo imposto (`MAO-L2251 7 §3º`).",
+        "B": "O ISSQN **não incide** sobre as exportações de serviços para o exterior (`MAO-L2251 2 I`); não há base de cálculo a apurar.",
+        "C": "O arbitramento e a estimativa são admitidos **desde que não resultem em carga menor** que a da alíquota mínima fixada na lei complementar federal (`MAO-L2251 7 §1º`).",
+        "D": "A lei **admite a estimativa** da base de cálculo, ao lado do arbitramento, nas situações tipificadas na legislação municipal (`MAO-L2251 7 §1º`).",
+        "E": "A exclusão do valor dos materiais vale só para os serviços dos subitens **7.02 e 7.05** da lista (execução de obras e reparação de edificações), e não para engenharia, arquitetura e geologia (`MAO-L2251 7 §3º`)."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#93",
@@ -284,12 +339,28 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "Pela Lei municipal nº 2.385/2018, a **Representação Fiscal** do CARF-M é exercida por **Procuradores do Município**: **2 titulares e 2 suplentes**, indicados pelo **Procurador-Geral do Município** dentre os Procuradores em efetivo exercício na carreira há pelo menos **5 anos**: é a (C). As distratoras trocam o número de membros, a autoridade que indica (o Secretário de Finanças, sozinho ou em conjunto) ou a origem dos representantes (auditores fiscais, advogados), além do tempo de carreira.",
-      "observacoes": [
-        "O texto da Lei municipal nº 2.385/2018 não pôde ser conferido; a explicação segue o gabarito oficial. Sem cards de verdadeiro/falso por esse motivo."
+      "dispositivos": [
+        "MAO-L2385 18"
       ],
-      "pendencias": []
+      "exp": "Pela Lei municipal nº 2.385/2018, a **Representação Fiscal** do CARF-M é exercida por **dois titulares e dois suplentes**, indicados pelo **Procurador-Geral do Município** dentre os **Procuradores do Município** em efetivo exercício na carreira há pelo menos **cinco anos**, e designados pelo Prefeito (`MAO-L2385 18`): é a (C). As distratoras trocam o número de membros, a autoridade que indica (o Secretário de Finanças, sozinho ou em conjunto), a origem dos representantes (auditores fiscais, advogados) ou o tempo de carreira.",
+      "observacoes": [
+        "Lei nº 2.385/2018 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br), que a registra sem alterações posteriores."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Representação Fiscal tem **dois titulares e dois suplentes**, indicados pelo **Procurador-Geral do Município** dentre **Procuradores** com cinco anos de carreira (`MAO-L2385 18`), e não auditores indicados pelo Secretário de Finanças.",
+        "B": "Os representantes fiscais são **Procuradores do Município**, dois titulares e dois suplentes, indicados pelo **Procurador-Geral** (`MAO-L2385 18`), e não advogados escolhidos em deliberação conjunta.",
+        "C": "A Representação Fiscal do CARF-M é exercida por **dois titulares e dois suplentes**, indicados pelo **Procurador-Geral do Município** dentre os Procuradores com pelo menos **cinco anos** de carreira (`MAO-L2385 18`).",
+        "D": "A indicação é só do **Procurador-Geral do Município**, apenas dentre **Procuradores** com pelo menos **cinco anos** de carreira (`MAO-L2385 18`); auditores e fiscais não entram.",
+        "E": "São **dois titulares e dois suplentes**, indicados pelo **Procurador-Geral do Município**, e não pelo Secretário de Finanças, com pelo menos **cinco anos** de carreira (`MAO-L2385 18`)."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#95",
@@ -346,10 +417,12 @@
         "tributario.municipais.taxas-contribuicoes"
       ],
       "dispositivos": [
+        "MAO-L1697 49",
+        "MAO-L1697 50 V",
         "CTN 77",
         "CTN 78"
       ],
-      "exp": "Entre as taxas de poder de polícia (`CTN 77`, `CTN 78`) do Código Tributário de Manaus, a **Taxa de Licença de Comércio e Realização de Eventos (TLCE)** tem por hipótese de incidência a sujeição do contribuinte à autorização e ao controle das atividades de **comércio e de eventos em via ou área pública**, em qualquer prazo, ou em **área particular por prazo determinado**: é a (E). As demais trocam as hipóteses de incidência entre as taxas: a fiscalização sanitária de estabelecimentos funerários é da Taxa de Vigilância Sanitária, as obras em sepulturas são da taxa de cemitérios, a autorização de obras e edificações é da TEOE e o uso de engenhos publicitários é da TEEP.",
+      "exp": "Entre as taxas de poder de polícia (`CTN 77`, `CTN 78`) do Código Tributário de Manaus (`MAO-L1697 49`), a **Taxa de Licença de Comércio e Realização de Eventos (TLCE)** tem por hipótese de incidência a sujeição do contribuinte à autorização e ao controle das atividades de **comércio e de eventos em via ou área pública**, em qualquer prazo, ou em **área particular por prazo determinado** (`MAO-L1697 50 V`): é a (E). As demais trocam as hipóteses entre as taxas (`MAO-L1697 50`): o controle de higiene e segurança sanitária é da **TVS**, as obras e serviços em sepulturas são da **TLAC**, a autorização de obras e edificações é da **TEOE** e a implantação e o uso de engenhos publicitários são da **TEEP**.",
       "vf": {
         "A": false,
         "B": false,
@@ -365,7 +438,7 @@
         "E": "A **TLCE** tem por hipótese de incidência a sujeição à autorização e ao controle das atividades de **comércio e de eventos em via ou área pública**, em qualquer prazo, ou em **área particular por prazo determinado**."
       },
       "observacoes": [
-        "O texto da Lei municipal nº 1.697/1983 de Manaus (com as alterações posteriores) não pôde ser conferido; a correspondência entre cada taxa e a sua hipótese de incidência segue o gabarito oficial e as próprias alternativas, que trocam as hipóteses entre si."
+        "Código Tributário de Manaus conferido no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br); os arts. 49 a 51 têm a redação da Lei Complementar nº 11/2018, vigente na prova."
       ],
       "pendencias": []
     },
@@ -425,13 +498,32 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "O Decreto municipal nº 681/1991 protege o consulente de boa-fé: **da apresentação da consulta até o décimo dia** subsequente à ciência da resposta, **não se lavra auto de infração** nem se agrava a situação do consulente quanto à matéria consultada: é a (B). A consulta é sempre **por escrito**, sem a forma verbal que (A) e (E) admitem; órgãos públicos e entidades representativas podem consultar **sem depósito prévio**, ao contrário de (C); e a consulta versa sobre **situações determinadas**, e não abstratas ou indeterminadas, como diz (D).",
-      "observacoes": [
-        "O texto do Decreto municipal nº 681/1991 de Manaus não pôde ser conferido; a explicação segue o gabarito oficial e o desenho usual da consulta tributária (forma escrita, sem depósito, sobre situação determinada).",
-        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      "dispositivos": [
+        "MAO-D681 56",
+        "MAO-D681 54",
+        "MAO-D681 53",
+        "MAO-D681 53 p.ú."
       ],
-      "pendencias": []
+      "exp": "O Decreto municipal nº 681/1991 protege o consulente: **da apresentação da consulta até o décimo dia** subsequente à ciência, **não se lavra auto de infração** nem se agrava a situação do consulente (`MAO-D681 56`): é a (B). A consulta é apresentada **por escrito**, no Protocolo Geral da Prefeitura, sem a forma verbal que (A) e (E) admitem (`MAO-D681 54`); órgãos públicos e entidades representativas podem consultar **sem depósito prévio** (C) (`MAO-D681 53 p.ú.`); e a consulta versa sobre situações **concretas e determinadas**, e não abstratas ou indeterminadas (D) (`MAO-D681 53`).",
+      "observacoes": [
+        "Decreto nº 681/1991 conferido no texto compilado do LegisWeb (legisweb.com.br, id 175986), conferido em 24/11/2026.",
+        "O decreto foi revogado pela Lei nº 3.008/2023, que mantém as mesmas regras (arts. 48, 49 e 51; a consulta continua por escrito, sem depósito, sobre situações concretas e determinadas)."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A consulta deve ser apresentada **por escrito**, no Protocolo Geral da Prefeitura (`MAO-D681 54`); o decreto não admite a forma verbal reduzida a termo.",
+        "B": "Na pendência da consulta, **da apresentação até o décimo dia** subsequente à ciência da resposta, não se lavra auto de infração nem se agrava a situação do consulente (`MAO-D681 56`).",
+        "C": "Os órgãos da administração pública e as entidades representativas de categorias **também podem consultar** (`MAO-D681 53 p.ú.`), sem exigência de **depósito prévio**.",
+        "D": "A consulta só cabe sobre situações **concretas e determinadas** (`MAO-D681 53`), e não abstratas ou indeterminadas.",
+        "E": "Toda consulta deve ser apresentada **por escrito** (`MAO-D681 54`), seja sobre obrigação principal, seja sobre acessória; não há forma verbal."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#99",
@@ -452,12 +544,16 @@
         "tributario.credito.suspensao"
       ],
       "dispositivos": [
+        "MAO-L1628 26",
+        "MAO-L1628 26 §1º",
+        "MAO-L1628 26 §2º",
         "CTN 151 III",
         "CTN 175"
       ],
-      "exp": "Pela Lei municipal nº 1.628/2011, a impugnação do lançamento do IPTU pode ser feita pelo **contribuinte, pelo responsável solidário ou por representante legal** (I), e o pagamento feito antes da decisão é **aproveitado** para a quitação definitiva conforme o resultado do julgamento (IV): é a (D). O item III erra ao dizer que a impugnação **exclui** a exigibilidade: exclusão do crédito é isenção ou anistia (`CTN 175`), e a reclamação administrativa, no máximo, **suspende** a exigibilidade (`CTN 151 III`). O item II não corresponde ao prazo da lei, que não é contado do vencimento da última parcela.",
+      "exp": "Pela Lei municipal nº 1.628/2011, o lançamento do IPTU pode ser impugnado pelo **contribuinte, pelo responsável solidário ou por representante legal** (I) (`MAO-L1628 26`), e o pagamento feito antes da decisão é **aproveitado** para a quitação definitiva conforme o resultado do julgamento (IV) (`MAO-L1628 26 §2º`): é a (D). O item III erra ao dizer que a impugnação **exclui** a exigibilidade: a impugnação tempestiva **suspende** a exigibilidade até a decisão definitiva (`MAO-L1628 26 §1º`, `CTN 151 III`), e exclusão do crédito é isenção ou anistia (`CTN 175`). O item II erra o prazo: na redação vigente na prova, a impugnação cabia até **trinta dias** da data do vencimento da **cota única ou da primeira parcela** (`MAO-L1628 26`), e não quinze dias do vencimento da última parcela.",
       "observacoes": [
-        "O texto da Lei municipal nº 1.628/2011 de Manaus não pôde ser conferido; o prazo correto de impugnação (item II) não foi identificado, e a explicação segue o gabarito oficial."
+        "Lei nº 1.628/2011 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br).",
+        "Depois da prova, a Lei nº 2.564/2019 mudou o prazo de impugnação para \"até a data do vencimento da cota única ou da primeira parcela\" (art. 26); os itens I, III e IV não mudaram, e o II continua errado."
       ],
       "pendencias": []
     },
