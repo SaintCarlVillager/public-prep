@@ -14,6 +14,7 @@ import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo, IconeCerto, IconeErrado, Md, SelosEdital } from "~/components/Comum";
 import { Dispositivos } from "~/components/LeiSeca";
+import { TextoBaseQuestao } from "~/components/Questao";
 import { julgarCard } from "~/lib/acoes";
 import { carregarProva, type Base, type ProvaCarregada } from "~/lib/catalogo";
 import { estadoTreino, ordemNovos, placarTreino, todosCards } from "~/lib/estudo";
@@ -141,6 +142,33 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
   useEffect(() => {
     if (r.resposta != null) proximo.current?.focus({ preventScroll: true });
   }, [r.resposta]);
+  // A cada card novo (e ao começar), traz o topo do card para a tela: no celular, o "Próximo card" fica lá embaixo,
+  // e o card seguinte abriria no meio do enunciado.
+  useEffect(() => {
+    const el = document.getElementById("card-treino");
+    if (!el) return;
+    const topo = el.getBoundingClientRect().top;
+    if (topo < 0 || topo > window.innerHeight * 0.4) {
+      const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      el.scrollIntoView({ block: "start", behavior: reduz ? "instant" : "smooth" });
+    }
+  }, [r.pos]);
+  // Teclado no computador: ← falso, → verdadeiro (o Enter já aciona o "Próximo card", que recebe o foco).
+  useEffect(() => {
+    if (r.resposta != null || !c) return;
+    const tecla = (e: KeyboardEvent) => {
+      if (e.altKey || e.ctrlKey || e.metaKey || e.defaultPrevented) return;
+      const alvo = e.target as HTMLElement | null;
+      if (alvo?.closest("input, textarea, select, [contenteditable], dialog")) return;
+      if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+        e.preventDefault();
+        julgarRef.current?.(e.key === "ArrowRight");
+      }
+    };
+    window.addEventListener("keydown", tecla);
+    return () => window.removeEventListener("keydown", tecla);
+  }, [r.resposta, c]);
+  const julgarRef = useRef<((v: boolean) => void) | null>(null);
 
   if (!c) {
     const n = r.cards.length;
@@ -171,12 +199,14 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
     julgarCard(c.k, ok);
     setR({ ...r, resposta: valor, acertos: r.acertos + (ok ? 1 : 0) });
   };
+  julgarRef.current = julgar;
+  const textoBase = q.texto ? (r.provas[slugDe(c.qid)]?.textos[q.texto] ?? null) : null;
   const tema = (q.temas ?? []).map(base.nomeTema).slice(0, 2).join(" · ");
   const ok = r.resposta === verdade;
 
   return (
     // .tf: o card de arrastar e o texto de leitura seguem no painel.css (identidade do Treino).
-    <VStack gap={4} className="tf min-w-0">
+    <VStack gap={4} className="tf min-w-0" id="card-treino">
       <Card padding={0}>
         <VStack gap={3} paddingBlock={6} paddingInline={4} className="min-w-0">
           <HStack gap={2} align="center" wrap="wrap">
@@ -192,6 +222,8 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
           <Md className="ctx" texto={q.enunciado} />
         </VStack>
       </Card>
+      {/* Alternativa que remete ao texto ("1º parágrafo", "no contexto"): o texto-base fica à mão, fechado. */}
+      {textoBase && <TextoBaseQuestao t={textoBase} aberto={false} />}
       {r.resposta == null ? (
         <>
           <Arrastavel aoSoltar={julgar}>
@@ -203,7 +235,7 @@ function CardTreino({ base, r, setR }: { base: Base; r: Rodada; setR: (r: Rodada
             <Button label="Verdadeiro →" width="100%" onClick={() => julgar(true)} />
           </Grid>
           <Text type="supporting" color="secondary" justify="center">
-            Ou arraste o card: esquerda é falso, direita é verdadeiro.
+            Ou arraste o card (ou use as setas do teclado): esquerda é falso, direita é verdadeiro.
           </Text>
         </>
       ) : (
