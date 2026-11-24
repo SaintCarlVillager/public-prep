@@ -53,6 +53,30 @@
     {
       "id": "matematica.problemas",
       "nome": "Situações-problema"
+    },
+    {
+      "id": "matematica.juros-compostos",
+      "nome": "Juros compostos"
+    },
+    {
+      "id": "matematica.taxas",
+      "nome": "Taxas de juros: nominal, efetiva, equivalente e real"
+    },
+    {
+      "id": "matematica.descontos",
+      "nome": "Descontos simples e compostos"
+    },
+    {
+      "id": "matematica.rendas",
+      "nome": "Rendas e séries de pagamentos"
+    },
+    {
+      "id": "matematica.amortizacao",
+      "nome": "Sistemas de amortização"
+    },
+    {
+      "id": "matematica.fluxo-de-caixa",
+      "nome": "Fluxo de caixa, VPL e TIR"
     }
   ]
 }

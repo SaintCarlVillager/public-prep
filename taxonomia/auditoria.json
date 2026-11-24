@@ -1,0 +1,42 @@
+{
+  "materia": "auditoria",
+  "nome": "Auditoria",
+  "temas": [
+    {
+      "id": "auditoria.conceitos",
+      "nome": "Conceitos, tipos e normas de auditoria"
+    },
+    {
+      "id": "auditoria.etica",
+      "nome": "Ética e independência do auditor"
+    },
+    {
+      "id": "auditoria.planejamento",
+      "nome": "Planejamento, risco e materialidade"
+    },
+    {
+      "id": "auditoria.controle-interno",
+      "nome": "Controle interno"
+    },
+    {
+      "id": "auditoria.procedimentos",
+      "nome": "Procedimentos e evidências de auditoria"
+    },
+    {
+      "id": "auditoria.amostragem",
+      "nome": "Amostragem em auditoria"
+    },
+    {
+      "id": "auditoria.documentacao",
+      "nome": "Papéis de trabalho e documentação"
+    },
+    {
+      "id": "auditoria.relatorio",
+      "nome": "Relatório e opinião do auditor"
+    },
+    {
+      "id": "auditoria.fiscal",
+      "nome": "Auditoria tributária e fiscalização"
+    }
+  ]
+}

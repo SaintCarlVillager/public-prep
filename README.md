@@ -47,5 +47,5 @@ Confere a taxonomia, as normas, os editais e as provas (temas e normas existente
 
 ## O que já tem
 
-- **Editais 2026:** TRF3 (Oficial de Justiça Avaliador Federal) e TJ-SP (Oficial de Justiça).
+- **Editais 2026:** TJ-SP (Oficial de Justiça e Escrevente Técnico Judiciário). O edital do TRF3 (Oficial de Justiça Avaliador Federal) saiu do app em novembro de 2026; as questões da FCC TRF3 2019 continuam no banco e contam nos editais que cobram os mesmos temas.
 - **Provas etiquetadas:** Vunesp TJ-SP 2023 e 2024 (Oficial de Justiça) e FCC TRF3 2019 (Analista Judiciário – Área Judiciária), com gabaritos definitivos, 262 itens e figuras.

@@ -1,0 +1,56 @@
+{
+  "materia": "estatistica",
+  "nome": "Estatística",
+  "temas": [
+    {
+      "id": "estatistica.descritiva",
+      "nome": "Estatística descritiva",
+      "filhos": [
+        {
+          "id": "estatistica.descritiva.distribuicao-frequencias",
+          "nome": "Distribuição de frequências e gráficos"
+        },
+        {
+          "id": "estatistica.descritiva.tendencia-central",
+          "nome": "Medidas de tendência central"
+        },
+        {
+          "id": "estatistica.descritiva.separatrizes",
+          "nome": "Medidas separatrizes"
+        },
+        {
+          "id": "estatistica.descritiva.dispersao",
+          "nome": "Medidas de dispersão"
+        },
+        {
+          "id": "estatistica.descritiva.assimetria",
+          "nome": "Assimetria e curtose"
+        }
+      ]
+    },
+    {
+      "id": "estatistica.probabilidade",
+      "nome": "Probabilidade"
+    },
+    {
+      "id": "estatistica.distribuicoes",
+      "nome": "Variáveis aleatórias e distribuições de probabilidade"
+    },
+    {
+      "id": "estatistica.amostragem",
+      "nome": "Amostragem"
+    },
+    {
+      "id": "estatistica.inferencia",
+      "nome": "Inferência: estimação e testes de hipóteses"
+    },
+    {
+      "id": "estatistica.correlacao-regressao",
+      "nome": "Correlação e regressão"
+    },
+    {
+      "id": "estatistica.numeros-indices",
+      "nome": "Números-índices"
+    }
+  ]
+}
