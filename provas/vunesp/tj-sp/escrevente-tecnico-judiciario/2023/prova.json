@@ -4,7 +4,7 @@
   "orgao": "TJ-SP",
   "cargo": "Escrevente Técnico Judiciário",
   "ano": 2023,
-  "aplicacao": "2023-05-28",
+  "aplicacao": "2023-07-02",
   "caderno": "TJSP2301/001",
   "versao": "1",
   "formato": "me",
@@ -41,8 +41,8 @@
     }
   ],
   "gabarito": {
-    "status": "resolvido",
-    "fonte": "Resolvido por nós, sem o gabarito oficial da Vunesp (o site da banca não pôde ser acessado desta sessão). Trocar pelo gabarito oficial assim que ele for juntado à pasta.",
+    "status": "definitivo",
+    "fonte": "Edital de Divulgação do Gabarito Definitivo da Prova Objetiva (TJSP2301, 21/08/2023), versão 1: https://documento.vunesp.com.br/documento/stream/NDc3NDkyNg%3d%3d . Alterou a questão 49 (preliminar C, definitivo E) e anulou a 56 (preliminar C). Gabarito preliminar: https://documento.vunesp.com.br/documento/stream/NDQwNzYwOA%3d%3d",
     "respostas": {
       "1": "B",
       "2": "C",
@@ -124,7 +124,7 @@
       "78": "B",
       "79": "C",
       "80": "C",
-      "81": "E",
+      "81": "A",
       "82": "E",
       "83": "D",
       "84": "C",
@@ -146,10 +146,12 @@
       "100": "B"
     }
   },
-  "anuladas": [],
+  "anuladas": [
+    56
+  ],
   "arquivos": {
     "prova": "prova.pdf",
     "texto": "texto.txt"
   },
-  "observacao": "Concurso TJSP2301: Escrevente Técnico Judiciário da Comarca de São Paulo (Capital) e 1ª RAJ. texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever."
+  "observacao": "Concurso TJSP2301: Escrevente Técnico Judiciário das 2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições Judiciárias (1ª RAJ, Grande São Paulo: Guarulhos, Santo André, São Bernardo do Campo, Osasco, Mogi das Cruzes e Itapecerica da Serra). Prova 001, versão 1. texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever."
 }

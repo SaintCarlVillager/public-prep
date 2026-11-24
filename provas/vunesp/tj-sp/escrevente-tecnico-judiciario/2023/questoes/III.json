@@ -583,32 +583,27 @@
     "D": "Linha 1.",
     "E": "Linha 5."
    },
-   "gab": "E",
+   "gab": "A",
    "temas": [
     "informatica.word"
    ],
    "dispositivos": [],
-   "exp": "Com as marcas de formatação ativas, o ponto (·) é um espaço e a seta (→) é uma tabulação. A linha 5 tem **três tabulações**, que ocupam a maior distância em branco entre as palavras; as linhas 1, 2, 3 e 4 têm uma tabulação, um espaço, quatro espaços e duas tabulações, de menor extensão.",
+   "exp": "Com as marcas de formatação ativadas, o ponto (·) indica um **espaço** e a seta (→) indica uma **tabulação**, que é outro caractere. A pergunta conta **espaços em branco**: a linha 3 tem **quatro espaços** entre as palavras, a maior quantidade. A linha 2 tem um só espaço, e as linhas 1, 4 e 5 só têm tabulações (uma, duas e três), sem nenhum espaço.",
    "vf": {
-    "A": false,
+    "A": true,
     "B": false,
     "C": false,
     "D": false,
-    "E": true
+    "E": false
    },
    "exp_alt": {
-    "A": "Os quatro espaços da linha 3 ocupam menos largura que as **três tabulações** da linha 5.",
-    "B": "As duas tabulações da linha 4 ocupam menos largura que as **três tabulações** da linha 5.",
-    "C": "A linha 2 tem apenas um espaço, a menor distância entre as palavras.",
-    "D": "A linha 1 tem uma só tabulação, menos que as três tabulações da linha 5.",
-    "E": "A linha 5 tem **três tabulações** entre as palavras, a maior extensão em branco do documento."
+    "A": "Cada ponto (·) mostrado com as marcas de formatação é um **espaço**; a linha 3 tem **quatro**, a maior quantidade de espaços entre as palavras.",
+    "B": "As setas (→) da linha 4 são **tabulações**, e não espaços; a linha não tem nenhum espaço entre as palavras.",
+    "C": "A linha 2 tem um ponto (·), ou seja, **um só espaço** entre as palavras.",
+    "D": "A seta (→) da linha 1 é uma **tabulação**, e não um espaço.",
+    "E": "As três setas (→) da linha 5 são **tabulações**: ocupam largura, mas não são **espaços**."
    },
-   "observacoes": [
-    "Se a banca contar caracteres (e não a largura visual), a linha 3, com quatro espaços, teria mais espaços em branco que as demais."
-   ],
-   "pendencias": [
-    "Critério da questão (largura em branco, não contagem de caracteres) é interpretação nossa; conferir com o gabarito oficial."
-   ]
+   "pendencias": []
   },
   {
    "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#82",

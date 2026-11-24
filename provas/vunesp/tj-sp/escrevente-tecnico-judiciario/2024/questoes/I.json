@@ -600,25 +600,25 @@
         "D": "as classes; O livro; alerta.",
         "E": "as classes; A Terra Inabitável; Terra."
       },
-      "gab": "C",
+      "gab": "A",
       "temas": [
         "portugues.coesao.referenciacao"
       ],
       "dispositivos": [],
-      "exp": "“**Os astros**” é retomado por “**A Lua**” (exemplo de astro, na frase seguinte); “**Seu** alerta” refere-se a **David Wallace-Wells**, autor do livro e do alerta; “**o adjetivo**” retoma **apavorado**, declarado por Carlos Nobre, e não “inabitável” ou “assustadores”.",
+      "exp": "“**Os astros**” se relaciona com “**A Lua**”, o astro citado na frase seguinte; “**Seu** alerta” retoma “**O livro**”, sujeito do período anterior (“O livro A Terra Inabitável [...] passava por pessimista”); e “**o adjetivo** que deu título ao livro” é “**inabitável**”, de “A Terra Inabitável”, que a citação de Carlos Nobre repete. “Apavorado” é o adjetivo que o cientista usou para si, mas não é o do título.",
       "vf": {
-        "A": false,
+        "A": true,
         "B": false,
-        "C": true,
+        "C": false,
         "D": false,
         "E": false
       },
       "exp_alt": {
-        "A": "“Seu” retoma o autor **David Wallace-Wells**, não “O livro”, e “o adjetivo” retoma **apavorado**, não “inabitável”.",
-        "B": "“Os astros” se relaciona a **A Lua**, não ao adjetivo “vermelha”, e “o adjetivo” retoma **apavorado**, não “assustadores”.",
-        "C": "“Os astros” retoma **A Lua**, “Seu” retoma **David Wallace-Wells** e “o adjetivo” retoma **apavorado**.",
-        "D": "“Os astros” não retoma **as classes**, e “seu” se refere ao autor do alerta, não ao livro.",
-        "E": "“Os astros” não retoma **as classes**, e “o adjetivo” não retoma **Terra**, que é substantivo."
+        "A": "“Os astros” se relaciona com **A Lua**, “Seu alerta” retoma **O livro**, sujeito da frase anterior, e “o adjetivo que deu título ao livro” é **inabitável**.",
+        "B": "“Os astros” se relaciona com **A Lua**, e não com o adjetivo “vermelha”; e o adjetivo do título do livro é **inabitável**, e não “assustadores”.",
+        "C": "“O adjetivo que deu título ao livro” é **inabitável** (A Terra Inabitável), e não “apavorado”; e “Seu alerta” retoma **O livro**, sujeito da frase anterior.",
+        "D": "“Os astros” se relaciona com **A Lua**, e não com “as classes”; e o adjetivo retomado é **inabitável**, e não “alerta”.",
+        "E": "“Os astros” se relaciona com **A Lua**, e não com “as classes”; e “Terra” é substantivo: o adjetivo retomado é **inabitável**."
       },
       "pendencias": []
     },
@@ -727,30 +727,20 @@
         "D": "desincompatibilizar-se com as redes sociais.",
         "E": "assumir humildemente sua inépcia nas redes sociais."
       },
-      "gab": "E",
+      "gab": "D",
       "temas": [
         "portugues.interpretacao.inferencia"
       ],
       "dispositivos": [],
-      "exp": "O chefe pede ajuda a dona Tetê para “tuitar um Tik Tok no Face-X”, mistura de nomes de redes que revela que **não domina** o assunto. Ao pedir ajuda, ele aceita a sugestão e assume humildemente sua **inépcia** (falta de habilidade).",
+      "exp": "Questão **anulada** pela banca (gabarito preliminar D). O chefe pede a dona Tetê que o ajude a “tuitar um Tik Tok no Face-X”, mistura de nomes de redes que revela que **não domina** o assunto. A banca indicou D, “desincompatibilizar-se com as redes sociais”, mas o verbo significa afastar-se de uma incompatibilidade (sair de cargo ou função), sentido que não cabe na tira; a leitura mais natural é a de que ele aceita a sugestão e expõe a própria **inépcia** (E), provável motivo da anulação.",
       "imagens": [
         "figuras/q21.png"
       ],
-      "vf": {
-        "A": false,
-        "B": false,
-        "C": false,
-        "D": false,
-        "E": true
-      },
-      "exp_alt": {
-        "A": "O pedido de ajuda e a mistura de nomes de redes mostram **desconhecimento**, não proficiência.",
-        "B": "O chefe segue o conselho de **atuar** nas redes; ele não decide reduzir a sua presença.",
-        "C": "Ao pedir ajuda, ele **acata** a sugestão, em vez de dissentir dela.",
-        "D": "“Desincompatibilizar-se” é sair de impedimento, não se afastar das redes; além disso, ele busca aproximar-se delas.",
-        "E": "Ao pedir ajuda com nomes confusos (“tuitar um Tik Tok no Face-X”), ele **assume** que não sabe usar as redes."
-      },
-      "pendencias": []
+      "pendencias": [],
+      "anulada": true,
+      "observacoes": [
+        "Anulada pela banca; o motivo não foi publicado. A explicação do motivo é nossa."
+      ]
     },
     {
       "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#22",

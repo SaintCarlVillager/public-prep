@@ -50,15 +50,17 @@
     "D": "a mãe não gestante deverá ter o mesmo período da licença-maternidade quando submetida a tratamento para ter condições de aleitamento.",
     "E": "o período de licença da mãe não gestante deve equivaler à metade do período da licença-maternidade da mãe gestante."
    },
-   "gab": "C",
+   "gab": "B",
    "temas": [
     "atualidades.2024"
    ],
    "dispositivos": [],
-   "exp": "No julgamento do RE 1.211.446 (Tema 1.072), de 13.03.2024, o STF decidiu que a mãe servidora ou trabalhadora **não gestante** em união homoafetiva tem direito à **licença-maternidade**. A tese acrescenta que, se a companheira gestante já tiver usado o benefício, a não gestante terá licença de duração equivalente à da licença-paternidade. Pelo enunciado, a alternativa que traz a regra geral é a do período da licença-maternidade.",
+   "exp": "No RE 1.211.446 (Tema 1.072), julgado em 13.03.2024, o STF fixou que a mãe servidora ou trabalhadora **não gestante** em união homoafetiva tem direito à **licença-maternidade**; mas, se a companheira **já usufruiu** o benefício, a não gestante tem direito à licença pelo período equivalente ao da **licença-paternidade**. O enunciado diz que a mãe não gestante “**também**” tem direito a uma licença, isto é, além da licença-maternidade da gestante: é o caso da segunda parte da tese (B). As outras inventam prazos (90 dias, metade) ou condições (tratamento para aleitamento), ou dão à não gestante a licença-maternidade mesmo quando a gestante já a usou (C).",
    "pendencias": [
-    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística.",
-    "Dúvida de gabarito: a tese do STF dá a licença-maternidade como regra e a licença-paternidade só quando a companheira gestante já usou o benefício; a alternativa B também descreve parte da tese. Resolvida como C."
+    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística."
+   ],
+   "observacoes": [
+    "Gabarito oficial B (o resolvido por nós era C): a banca leu “também” como as duas mães recebendo licença, o que aplica a regra da licença-paternidade."
    ]
   },
   {
@@ -542,9 +544,11 @@
     "informatica.word"
    ],
    "dispositivos": [],
-   "exp": "A caixa de texto é um objeto de desenho: selecionada, pode ser **girada** (pela alça de rotação ou em Formato da Forma, Girar, à direita ou à esquerda). Não existe caixa de texto criptografada nem piscante, e o Word não envia só a caixa por e-mail.",
-   "pendencias": [
-    "Dúvida de gabarito: também é possível mudar a forma da caixa (Formato da Forma, Editar Forma, Alterar Forma), o que tornaria a E correta; resolvida como A (rotação)."
+   "exp": "Questão **anulada** pela banca (gabarito preliminar A). A caixa de texto selecionada pode ser **girada** pela alça de rotação ou em Formatar Forma (A), mas também pode ter a forma trocada em Formato da Forma › Editar Forma › Alterar Forma, inclusive para um círculo ou elipse (E); duas alternativas corretas são o provável motivo da anulação. Não existe caixa de texto criptografada nem piscante, e o Word não envia só a caixa por e-mail.",
+   "pendencias": [],
+   "anulada": true,
+   "observacoes": [
+    "Anulada pela banca; o motivo não foi publicado. A explicação do motivo é nossa."
    ]
   },
   {

@@ -62,8 +62,8 @@
     }
   ],
   "gabarito": {
-    "status": "preliminar",
-    "fonte": "gabarito.pdf: gabarito do cargo A01, tipo 1, divulgado pela FCC em 20/05/2019 (cópia de arquivos.qconcursos.com). O site da FCC (concurso semef118), onde estaria o definitivo, não é alcançável deste ambiente; não achamos registro de anulação ou alteração.",
+    "status": "definitivo",
+    "fonte": "gabarito.pdf: gabarito do cargo A01, tipo 1, divulgado pela FCC em 20/05/2019 (cópia de arquivos.qconcursos.com). Conferido em 24/11/2026 com a Relação Geral dos Gabaritos do cargo A01 no site da FCC (concursosfcc.com.br/concursos/semef118/gabaritos/todos.html), que mostra o gabarito vigente depois dos recursos: as 100 respostas do tipo 1 são idênticas, sem anulação nem alteração. As notas do Edital nº 04/2019 (resultado preliminar) e do Edital nº 06/2019 (resultado após recursos) também são as mesmas para todos os candidatos.",
     "respostas": {
       "1": "E",
       "11": "E",

@@ -6,7 +6,7 @@
   "ano": 2024,
   "aplicacao": "2024-11-24",
   "caderno": "TJSP2401/004",
-  "versao": "1",
+  "versao": "3",
   "formato": "me",
   "questoes": 100,
   "blocos": [
@@ -41,8 +41,8 @@
     }
   ],
   "gabarito": {
-    "status": "resolvido",
-    "fonte": "Resolvido por nós, sem o gabarito oficial da Vunesp (o site da banca não pôde ser acessado desta sessão). Trocar pelo gabarito oficial assim que ele for juntado à pasta.",
+    "status": "definitivo",
+    "fonte": "Edital de Divulgação do Gabarito Definitivo - Capital (TJSP2401, 14/01/2025), versão 3: https://documento.vunesp.com.br/documento/stream/NjY2ODM2OA%3d%3d . Anulou as questões 21 (preliminar D) e 80 (preliminar A); nenhuma alteração de letra. Gabarito preliminar: https://documento.vunesp.com.br/documento/stream/NjYwMzkyNQ%3d%3d",
     "respostas": {
       "1": "B",
       "2": "A",
@@ -60,11 +60,11 @@
       "14": "A",
       "15": "D",
       "16": "C",
-      "17": "C",
+      "17": "A",
       "18": "B",
       "19": "E",
       "20": "B",
-      "21": "E",
+      "21": "D",
       "22": "C",
       "23": "E",
       "24": "B",
@@ -109,7 +109,7 @@
       "63": "A",
       "64": "E",
       "65": "E",
-      "66": "C",
+      "66": "B",
       "67": "D",
       "68": "C",
       "69": "A",
@@ -146,10 +146,13 @@
       "100": "E"
     }
   },
-  "anuladas": [],
+  "anuladas": [
+    21,
+    80
+  ],
   "arquivos": {
     "prova": "prova.pdf",
     "texto": "texto.txt"
   },
-  "observacao": "Concurso TJSP2401, reaplicação da prova objetiva para os candidatos da Comarca de São Paulo (Capital, 1ª RAJ), depois da anulação da primeira aplicação; caderno 004. texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever."
+  "observacao": "Concurso TJSP2401, reaplicação da prova objetiva para os candidatos da Comarca de São Paulo (Capital, 1ª RAJ), depois da anulação da primeira aplicação; prova 004, versão 3 (a ordem das alternativas difere da versão 1 divulgada à imprensa). texto.txt foi extraído do PDF coluna a coluna; conferir com prova.pdf ao transcrever."
 }
