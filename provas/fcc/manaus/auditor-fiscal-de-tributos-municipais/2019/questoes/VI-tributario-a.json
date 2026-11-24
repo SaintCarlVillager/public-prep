@@ -137,13 +137,29 @@
         "tributario.administracao"
       ],
       "dispositivos": [
-        "CTN 156 V"
+        "CTN 156 V",
+        "MAO-LOM 137",
+        "MAO-LOM 137 p.ú."
       ],
-      "exp": "A decadência e a prescrição extinguem o crédito (`CTN 156 V`), e a **Lei Orgânica de Manaus** determina que, ocorrendo uma delas, se abra **processo administrativo disciplinar** para apurar responsabilidades, na forma da lei, e que a autoridade responsável **responda civil, criminal e administrativamente**, cumprindo-lhe **indenizar o Município** do valor dos créditos prescritos ou não lançados (B). A Lei Orgânica não prevê afastamento sumário por 60 ou 90 dias com prazo duplicado ou quadruplicado (A, C, D), nem restringe a apuração ao Auditor Fiscal ou ao Procurador, ou a responsabilização aos casos de dolo, fraude ou simulação (E).",
+      "exp": "A decadência e a prescrição extinguem o crédito (`CTN 156 V`), e a **Lei Orgânica de Manaus** manda abrir **processo administrativo disciplinar** para apurar as responsabilidades, na forma da lei (`MAO-LOM 137`); a autoridade municipal, qualquer que seja o cargo, **responde civil, criminal e administrativamente** e deve **indenizar o Município** do valor dos créditos prescritos ou não lançados (`MAO-LOM 137 p.ú.`): é a (B). A Lei Orgânica não prevê afastamento sumário por 60 ou 90 dias, com prazo duplicado ou quadruplicado (A, C, D), nem restringe a apuração ao Auditor Fiscal ou ao Procurador, ou a responsabilização aos casos de dolo, fraude ou simulação (E).",
       "observacoes": [
-        "O texto da Lei Orgânica de Manaus não pôde ser conferido nesta etiquetagem (sem lei seca de MAO-LOM no repositório e sem acesso às fontes on-line); por isso a questão ficou sem o dispositivo `MAO-LOM` (falta o número do artigo) e sem cards de treino. A explicação segue o gabarito oficial e a própria redação da alternativa B."
+        "Lei Orgânica conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br), versão atualizada até a Emenda 122/2025; o art. 137 não traz alteração."
       ],
-      "pendencias": []
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Lei Orgânica de Manaus manda abrir **processo administrativo disciplinar** para apurar as responsabilidades (`MAO-LOM 137`); não prevê **afastamento** do servidor por prazo mínimo de 90 dias.",
+        "B": "Ocorrendo decadência ou prescrição, abre-se **processo administrativo disciplinar**, e a autoridade responsável **responde civil, criminal e administrativamente**, devendo **indenizar o Município** (`MAO-LOM 137` e `MAO-LOM 137 p.ú.`).",
+        "C": "A Lei Orgânica não prevê **afastamento sumário** por 60 dias: manda abrir **processo administrativo disciplinar** e responsabiliza a autoridade civil, criminal e administrativamente (`MAO-LOM 137`).",
+        "D": "Não há afastamento sumário nem exceção para cargo efetivo: a Lei Orgânica alcança a autoridade **qualquer que seja seu cargo, emprego ou função** e manda abrir **processo administrativo disciplinar** (`MAO-LOM 137 p.ú.`).",
+        "E": "A apuração não se restringe ao Auditor Fiscal ou ao Procurador, e a responsabilidade **independe de dolo, fraude ou simulação**: responde a autoridade, **qualquer que seja seu cargo**, pela decadência ou prescrição ocorrida sob sua responsabilidade (`MAO-LOM 137 p.ú.`)."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#75",
@@ -162,9 +178,11 @@
         "tributario.municipais.taxas-contribuicoes"
       ],
       "dispositivos": [
-        "CTN 81"
+        "CTN 81",
+        "MAO-L1697 61",
+        "MAO-L1697 61 p.ú."
       ],
-      "exp": "A contribuição de melhoria tem como **limite total a despesa realizada** (`CTN 81`). O Código Tributário de Manaus (Lei municipal nº 1.697/1983), seguindo o modelo do Decreto-Lei nº 195/1967 (art. 4º), manda computar as despesas de estudo, projeto, **fiscalização**, **desapropriação**, administração, execução e financiamento, inclusive prêmios de reembolso e outras de praxe em financiamentos ou empréstimos. Por isso a (A) está certa; (B) erra ao excluir a fiscalização, (C) inventa a restrição ao agente financeiro privado, e bônus à empreiteira (D) ou depreciação de bens (E) não constam do rol.",
+      "exp": "A contribuição de melhoria tem como **limite total a despesa realizada** (`CTN 81` e `MAO-L1697 61`). Para determinar esse limite, o Código Tributário de Manaus computa as despesas de estudo, projeto, **fiscalização**, **desapropriação**, administração, execução e financiamento, inclusive prêmios de reembolso e outros de praxe em financiamento ou empréstimos (`MAO-L1697 61 p.ú.`). Por isso a (A) está certa; (B) erra ao excluir a fiscalização, (C) inventa a restrição ao agente financeiro privado, e bônus à empreiteira (D) ou depreciação de bens (E) não constam do rol.",
       "vf": {
         "A": true,
         "B": false,
@@ -180,7 +198,7 @@
         "E": "A depreciação de bens usados na obra **não está no rol** de despesas computadas (estudo, projeto, fiscalização, desapropriação, administração, execução e financiamento)."
       },
       "observacoes": [
-        "O texto do Código Tributário de Manaus (Lei municipal nº 1.697/1983) não pôde ser conferido nesta etiquetagem; o rol de despesas foi explicado pelo modelo do Decreto-Lei nº 195/1967, art. 4º, que o gabarito confirma."
+        "Código Tributário de Manaus conferido no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br) (texto atualizado); o art. 61 tem a redação da Lei nº 1.748/1984, vigente na prova."
       ],
       "pendencias": []
     },
@@ -200,11 +218,17 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "Pelo Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus), o processo fiscal **inicia-se** com a lavratura do **auto de infração** ou da **notificação de lançamento**, distintos para cada tributo, ou por **denúncia** escrita ou reduzida a termo (E). As distratoras deturpam o regulamento: no processo administrativo fiscal o sujeito passivo pode postular pessoalmente sem ser bacharel em Direito (A); o meio eletrônico depende de **credenciamento prévio** na SEMEF (B); a intimação eletrônica **dispensa** a publicação oficial (C); e os órgãos de classe **podem** representar interesses gerais da categoria (D).",
+      "dispositivos": [
+        "MAO-D681 15",
+        "MAO-D681 2",
+        "MAO-D681 3",
+        "MAO-D681 9-B",
+        "MAO-D681 9-D"
+      ],
+      "exp": "Pelo Decreto municipal nº 681/1991, o processo fiscal **inicia-se** com a lavratura do **auto de infração** ou da **notificação de lançamento**, distintos para cada tributo, ou por **denúncia** escrita ou reduzida a termo (`MAO-D681 15`): é a (E). As distratoras deturpam o regulamento: o contribuinte pode postular **pessoalmente**, sem exigência de ser bacharel (`MAO-D681 2`); o meio eletrônico exige **credenciamento prévio** na SEMEF (`MAO-D681 9-B`); a intimação eletrônica **dispensa** a publicação oficial (`MAO-D681 9-D`); e os órgãos de classe **podem** representar interesses gerais da categoria (`MAO-D681 3`).",
       "observacoes": [
-        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem (sem fonte acessível); as razões das distratoras seguem o gabarito oficial e a lógica de cada afirmação.",
-        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+        "Decreto nº 681/1991 conferido no texto compilado do LegisWeb (legisweb.com.br, id 175986), conferido em 24/11/2026, com as alterações do Decreto nº 3.027/2015 (vigentes na prova).",
+        "O decreto foi revogado pela Lei nº 3.008/2023 (Processo Administrativo Tributário), que mantém as regras das distratoras (arts. 2º, 3º, 15 e 16), mas não repete a da alternativa E: o procedimento fiscal agora começa com o primeiro ato de ofício ou a apreensão (art. 17), e a exigência é formalizada em auto de infração ou notificação de lançamento (art. 19). Por isso a questão fica fora do Treino."
       ],
       "pendencias": []
     },
@@ -224,12 +248,29 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "Pela Lei municipal nº 2.385/2018, que instituiu o CARF-M, o **Tribunal Pleno** reúne-se **ordinariamente uma vez ao mês** (D). As demais alternativas trocam a periodicidade das reuniões ordinárias e extraordinárias do Pleno e das Câmaras Julgadoras e não correspondem ao texto da lei, segundo o gabarito oficial.",
-      "observacoes": [
-        "O texto da Lei municipal nº 2.385/2018 não pôde ser conferido nesta etiquetagem; sem saber a periodicidade exata das Câmaras Julgadoras e das reuniões extraordinárias, a questão ficou sem cards de treino."
+      "dispositivos": [
+        "MAO-L2385 6",
+        "MAO-L2385 7"
       ],
-      "pendencias": []
+      "exp": "Pela Lei municipal nº 2.385/2018, o **Tribunal Pleno** do CARF-M reúne-se **ordinariamente uma vez ao mês** e, extraordinariamente, **quantas vezes forem necessárias**, conforme convocação da Presidência (`MAO-L2385 7`): é a (D). As **Câmaras Julgadoras** reúnem-se ordinariamente **quatro vezes ao mês** e, extraordinariamente, quantas vezes forem necessárias (`MAO-L2385 6`); a lei não fala em duas vezes por semana nem limita as reuniões extraordinárias a três por semana.",
+      "observacoes": [
+        "Lei nº 2.385/2018 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br), que a registra sem alterações posteriores."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As Câmaras Julgadoras do CARF-M reúnem-se ordinariamente **quatro vezes ao mês**, e não duas vezes por semana (`MAO-L2385 6`).",
+        "B": "Extraordinariamente, o Tribunal Pleno reúne-se **quantas vezes forem necessárias**, conforme convocação da Presidência, sem o limite de três por semana (`MAO-L2385 7`).",
+        "C": "O Tribunal Pleno reúne-se ordinariamente **uma vez ao mês**, e não duas vezes por semana (`MAO-L2385 7`).",
+        "D": "O Tribunal Pleno do CARF-M reúne-se **ordinariamente uma vez ao mês** e, extraordinariamente, quantas vezes forem necessárias (`MAO-L2385 7`).",
+        "E": "Extraordinariamente, as Câmaras Julgadoras reúnem-se **quantas vezes forem necessárias**, sem o limite de três por semana (`MAO-L2385 6`)."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#78",
@@ -247,8 +288,12 @@
       "temas": [
         "tributario.processo-administrativo-fiscal"
       ],
-      "dispositivos": [],
-      "exp": "Pelo Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus), a consulta **não produz efeito** quando formulada **depois da lavratura de auto de infração ou nota de lançamento** cujos fundamentos se relacionem com a matéria consultada (A): a consulta serve para orientar antes da autuação, não para suspender um procedimento já instaurado. A inadimplência do consulente (B, E) não é causa de ineficácia, a finalidade protelatória exige mais que indícios remotos (C), e a consulta pode versar sobre **obrigação acessória** (D).",
+      "dispositivos": [
+        "MAO-D681 57 II",
+        "MAO-D681 57 IV",
+        "MAO-D681 53"
+      ],
+      "exp": "Pelo Decreto municipal nº 681/1991, a consulta **não produz efeito** quando formulada **depois da lavratura de auto de infração ou nota de lançamento** cujos fundamentos se relacionem com a matéria consultada (`MAO-D681 57 II`): é a (A). A inadimplência do consulente (B, E) não está no rol do art. 57; a consulta só é ineficaz quando **manifestamente** protelatória, e não por indícios remotos (`MAO-D681 57 IV`); e ela pode versar sobre qualquer ponto da interpretação e aplicação da legislação tributária, inclusive **obrigação acessória** (`MAO-D681 53`).",
       "vf": {
         "A": true,
         "B": false,
@@ -257,14 +302,15 @@
         "E": false
       },
       "exp_alt": {
-        "A": "A consulta **não produz efeito** se formulada **após o auto de infração** ou a nota de lançamento cujos fundamentos se relacionem com a matéria consultada.",
-        "B": "Estar inadimplente com outros tributos municipais **não** torna a consulta ineficaz; a causa de ineficácia é ela ser formulada depois de **auto de infração** ou nota de lançamento sobre a mesma matéria.",
-        "C": "Indícios **remotos** de finalidade protelatória não bastam para tirar o efeito da consulta; o caso típico de ineficácia é a consulta formulada depois de **auto de infração** sobre a mesma matéria.",
-        "D": "A consulta pode versar sobre o cumprimento de **obrigação acessória**; isso não lhe tira o efeito.",
-        "E": "A inadimplência com o próprio tributo consultado **não** é causa de ineficácia; o que tira o efeito é a consulta vir depois de **auto de infração** ou nota de lançamento sobre a matéria."
+        "A": "A consulta formulada **após a lavratura de auto de infração ou nota de lançamento** cujos fundamentos se relacionem com a matéria consultada não produz efeito (`MAO-D681 57 II`).",
+        "B": "A **inadimplência** do consulente quanto a outros tributos não está entre as causas que tiram o efeito da consulta (`MAO-D681 57`).",
+        "C": "Só perde o efeito a consulta **manifestamente** protelatória (`MAO-D681 57 IV`); indícios remotos não bastam.",
+        "D": "A consulta pode tratar da interpretação e aplicação da legislação tributária, inclusive de **obrigação acessória** (`MAO-D681 53`); isso não lhe tira o efeito.",
+        "E": "Estar inadimplente com o tributo consultado **não está no rol** das causas que tiram o efeito da consulta (`MAO-D681 57`)."
       },
       "observacoes": [
-        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem; a regra da alternativa A coincide com a do processo federal (Decreto nº 70.235/1972, art. 52, III)."
+        "Decreto nº 681/1991 conferido no texto compilado do LegisWeb (legisweb.com.br, id 175986), conferido em 24/11/2026.",
+        "O decreto foi revogado pela Lei nº 3.008/2023, que mantém a mesma regra (art. 52, II)."
       ],
       "pendencias": []
     },
@@ -364,14 +410,31 @@
         "tributario.processo-administrativo-fiscal"
       ],
       "dispositivos": [
+        "MAO-D681 35",
+        "MAO-D681 36",
+        "MAO-D681 37",
         "CPC 369"
       ],
-      "exp": "O Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus) admite **todos os meios legais** e os **moralmente legítimos**, ainda que nele não especificados, para provar a verdade dos fatos (C), regra igual à do processo civil (`CPC 369`). Na apreciação da prova, a autoridade julgadora forma **livremente** sua convicção, sem exceção ligada ao valor do crédito (A) ou ao sentido da decisão (D). O ônus da prova não depende de \"invocação formal da fé pública\" (B), e não há responsabilização funcional por deixar de ordenar diligência (E).",
+      "exp": "O Decreto municipal nº 681/1991 admite **todos os meios legais** e os **moralmente legítimos**, ainda que nele não especificados, para provar a verdade dos fatos (`MAO-D681 35`), regra igual à do processo civil (`CPC 369`): é a (C). Na apreciação da prova, a autoridade julgadora forma **livremente** sua convicção, sem exceção ligada ao valor do crédito (A) ou ao sentido da decisão (D) (`MAO-D681 37`). O ônus da prova cabe à Fazenda quanto ao fato gerador e ao impugnante quanto à sua inocorrência ou à exclusão do crédito, sem condição de \"fé pública\" (B) (`MAO-D681 36`), e não há responsabilização funcional por deixar de ordenar diligência (E).",
       "observacoes": [
-        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem; a explicação segue o gabarito oficial.",
-        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+        "Decreto nº 681/1991 conferido no texto compilado do LegisWeb (legisweb.com.br, id 175986), conferido em 24/11/2026.",
+        "O decreto foi revogado pela Lei nº 3.008/2023, que mantém as regras em substância (arts. 34 a 36: \"todos os meios de prova admitidos em direito\", ônus da prova e livre convicção)."
       ],
-      "pendencias": []
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na apreciação da prova, a autoridade julgadora forma **livremente** sua convicção (`MAO-D681 37`), sem exceção ligada ao valor do crédito reduzido ou cancelado.",
+        "B": "O ônus da prova cabe à **Fazenda** quanto à ocorrência do fato gerador e ao **impugnante** quanto à sua inocorrência ou à exclusão do crédito (`MAO-D681 36`); não depende de invocação da fé pública.",
+        "C": "São hábeis para provar a verdade dos fatos **todos os meios legais** e os **moralmente legítimos**, ainda que não especificados no decreto (`MAO-D681 35`).",
+        "D": "A autoridade julgadora forma **livremente** sua convicção (`MAO-D681 37`), sem exceção para decisões contrárias à Fazenda.",
+        "E": "O decreto deixa à autoridade julgadora **determinar as diligências** que entender necessárias (`MAO-D681 37`) e não prevê responsabilização funcional por não as ordenar."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#82",
@@ -390,13 +453,31 @@
         "tributario.municipais.taxas-contribuicoes",
         "tributario.obrigacao"
       ],
-      "dispositivos": [],
-      "exp": "A Lei municipal nº 2.383/2018 obriga à inscrição prévia quem tem estabelecimento ou exerce atividade sujeita à fiscalização municipal no território de Manaus, **ainda que** fora do campo de incidência, isento ou imune às taxas (A, D), sujeito a autorização municipal (B) ou não estabelecido mas atuando no Município, em caráter temporário, habitual ou permanente (C): o dever de inscrição é **obrigação acessória**, que existe mesmo sem tributo a pagar. Fica desobrigado apenas quem **não é contribuinte** de tributo municipal **nem é estabelecido** no Município, ainda que venda mercadorias a pessoas jurídicas daqui (E).",
-      "observacoes": [
-        "O texto da Lei municipal nº 2.383/2018 não pôde ser conferido nesta etiquetagem; a explicação segue o gabarito oficial e o caráter de obrigação acessória da inscrição (CTN 113 §2º e 175 p.ú.).",
-        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      "dispositivos": [
+        "MAO-L2383 4",
+        "MAO-L2383 4 §1º",
+        "CTN 113 §2º",
+        "CTN 175 p.ú."
       ],
-      "pendencias": []
+      "exp": "Pela Lei municipal nº 2.383/2018, toda pessoa **contribuinte de tributos municipais** deve inscrever-se antes do início das atividades (`MAO-L2383 4`), e a obrigação alcança também as instituições imunes (D), quem esteja fora do campo de incidência ou isento das taxas (A), quem não é estabelecido mas atua no Município em caráter temporário, habitual ou permanente (C) e os estabelecimentos sujeitos a autorização municipal (B) (`MAO-L2383 4 §1º`): o dever de inscrição é **obrigação acessória**, que existe mesmo sem tributo a pagar (`CTN 113 §2º`, `CTN 175 p.ú.`). Fica de fora quem **não é contribuinte** de tributo municipal **nem é estabelecido** no Município, ainda que venda mercadorias a pessoas jurídicas daqui (E).",
+      "observacoes": [
+        "Lei nº 2.383/2018 conferida no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br) (texto atualizado; o art. 4º só teve o § 3º alterado, em 2022)."
+      ],
+      "pendencias": [],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Quem tem estabelecimento **fora do campo de incidência ou isento** da TL e da TVF também é obrigado a inscrever-se (`MAO-L2383 4 §1º`).",
+        "B": "Os estabelecimentos de pessoas **sujeitas à autorização municipal** estão entre os obrigados à inscrição (`MAO-L2383 4 §1º`).",
+        "C": "Quem, sem estar estabelecido no Município, **exerce atividade sujeita à tributação municipal** no seu território, em caráter temporário, habitual ou permanente, deve inscrever-se (`MAO-L2383 4 §1º`).",
+        "D": "As **instituições imunes** a impostos e não sujeitas à TL e à TVF também devem inscrever-se: a inscrição é **obrigação acessória** (`MAO-L2383 4 §1º`).",
+        "E": "A inscrição é exigida de quem é **contribuinte de tributos municipais** e das pessoas listadas na lei (`MAO-L2383 4`); quem não é contribuinte **nem é estabelecido** no Município, ainda que venda a empresas daqui, fica fora."
+      }
     },
     {
       "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#83",
@@ -455,12 +536,15 @@
         "tributario.obrigacao"
       ],
       "dispositivos": [
+        "MAO-L1697 41",
+        "MAO-L1697 42 I",
+        "MAO-L1697 42 II",
         "CTN 77",
         "CTN 79"
       ],
-      "exp": "Pelo Código Tributário de Manaus (Lei municipal nº 1.697/1983), o contribuinte da **TRSD** é o **proprietário** do imóvel situado onde o Município disponibiliza a coleta (III), taxa de serviço prestado ou **posto à disposição** (`CTN 77`, `CTN 79`), e o da **Taxa de Expediente** é o **requerente** (IV). A Taxa de Serviços em Cemitérios não tem o espólio do sepultado como contribuinte (I), e a Taxa de Vistoria não restringe o contribuinte a pessoa jurídica (II). Corretas apenas III e IV (D).",
+      "exp": "Pelo Código Tributário de Manaus, o contribuinte da **TRSD** é o **proprietário**, o titular do domínio útil ou o possuidor do imóvel situado onde o Município disponibiliza a coleta (`MAO-L1697 42 I`), taxa de serviço prestado ou **posto à disposição** (`CTN 77`, `CTN 79`), e o das demais taxas de serviço (cemitérios, vistoria, expediente e diversas) é o **requerente** dos serviços (`MAO-L1697 42 II`). Assim, III e IV estão certos; o contribuinte da Taxa de Serviços em Cemitérios não é o espólio do sepultado (I), e o da Taxa de Vistoria é o requerente, sem restrição a pessoa jurídica (II). Corretas apenas III e IV (D).",
       "observacoes": [
-        "O texto do Código Tributário de Manaus (Lei municipal nº 1.697/1983) não pôde ser conferido nesta etiquetagem; a explicação dos itens I e II segue o gabarito oficial."
+        "Código Tributário de Manaus conferido no texto da Câmara Municipal de Manaus (sapl.cmm.am.gov.br); os arts. 41 e 42 têm a redação da Lei Complementar nº 11/2018, vigente na prova."
       ],
       "pendencias": []
     },

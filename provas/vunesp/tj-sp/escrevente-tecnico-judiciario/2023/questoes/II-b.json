@@ -192,7 +192,10 @@
         "D": "Os Poderes publicarão **anualmente**, e não mensalmente, os valores do subsídio e da remuneração dos cargos e empregos públicos (`CF 39 §6º`).",
         "E": "Os **Secretários Estaduais e Municipais**, como os membros de Poder e os Ministros de Estado, são remunerados exclusivamente por **subsídio fixado em parcela única**, vedado o acréscimo de qualquer gratificação (`CF 39 §4º`)."
       },
-      "pendencias": []
+      "pendencias": [],
+      "observacoes": [
+        "Gabarito alterado pela banca depois dos recursos: preliminar C, definitivo E."
+      ]
     },
     {
       "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#50",
@@ -436,12 +439,12 @@
         "L10261 267-J",
         "L10261 267-I p.ú."
       ],
-      "exp": "O acordo da sessão autocompositiva **extingue a punibilidade** quando, cumulativamente, a conduta **não gerou prejuízo ao Erário** (ou ele foi reparado) e são cabíveis, em tese, as penas de **repreensão, suspensão e multa** (`L10261 267-D §1º`); a lei liga o efeito ao **cumprimento** do acordo. O TAC **pode** ser adotado no extravio ou dano a bem público não doloso (`L10261 267-E p.ú.`); as sessões são conduzidas por **facilitador ou mediador** capacitado, com **privacidade e confidencialidade** (`L10261 267-B I`); o encaminhamento pode ser **alternativo ou concorrente** ao processo, e só o alternativo suspende a prescrição (`L10261 267-C §1º` e `L10261 267-C §2º`); e cumprir o TAC **extingue a punibilidade** (`L10261 267-J`), com prazo de 1 a 2 anos (`L10261 267-I p.ú.`).",
+      "exp": "Questão **anulada** pela banca (gabarito preliminar C). A alternativa C reproduzia o `L10261 267-D §1º`, mas trocou o **cumprimento** do acordo, que é o que extingue a punibilidade, pela sua **celebração**; provável motivo da anulação. As demais erram: o TAC **pode** ser adotado no extravio ou dano a bem público não doloso (`L10261 267-E p.ú.`); as sessões são conduzidas por **facilitador ou mediador**, com **confidencialidade** (`L10261 267-B I`); só o encaminhamento **alternativo** suspende a prescrição (`L10261 267-C §2º`); e cumprir o TAC **extingue a punibilidade** (`L10261 267-J`), com prazo de 1 a 2 anos (`L10261 267-I p.ú.`).",
       "observacoes": [
-        "Gabarito resolvido por nós por eliminação: a alternativa C fala em 'celebração' do acordo, mas o art. 267-D, §1º, liga a extinção da punibilidade ao 'cumprimento' do acordo, por isso a questão ficou sem cards de Treino.",
         "O caput do art. 267-C foi reescrito pela LC 1.419/2024 (depois da prova); a lei seca traz a redação atual ('a responsável por sua condução')."
       ],
-      "pendencias": []
+      "pendencias": [],
+      "anulada": true
     },
     {
       "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#57",
