@@ -1,0 +1,788 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "No tocante aos direitos e deveres individuais e coletivos, a Constituição Federal estabelece que",
+      "alt": {
+        "A": "nenhuma pena passará da pessoa do condenado, sendo vedada a pena de trabalhos forçados e de perdimento de bens.",
+        "B": "a lei considerará crimes inafiançáveis e insuscetíveis de graça ou anistia, entre outros, o tráfico ilícito de entorpecentes e os homicídios culposos contra a vida.",
+        "C": "é reconhecida a instituição do júri, com a organização que lhe der a lei, assegurados, entre outros, a plenitude de defesa e o sigilo dos veredictos.",
+        "D": "o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial.",
+        "E": "constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra o Estado brasileiro e a Administração Pública."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.direitos-individuais.processuais",
+        "constitucional.direitos-individuais.outros"
+      ],
+      "dispositivos": [
+        "CF 5 LXIV",
+        "CF 5 XLV",
+        "CF 5 XLVI b",
+        "CF 5 XLVII c",
+        "CF 5 XLIII",
+        "CF 5 XXXVIII",
+        "CF 5 XLIV"
+      ],
+      "exp": "É literal o `CF 5 LXIV`: o preso tem direito à **identificação dos responsáveis** por sua prisão ou por seu interrogatório policial. A **perda de bens** é pena admitida (`CF 5 XLVI b`), e o perdimento pode ser estendido aos sucessores (`CF 5 XLV`); vedada é só a de trabalhos forçados (`CF 5 XLVII c`). O `CF 5 XLIII` não fala em homicídio culposo, o júri assegura o **sigilo das votações** e a **soberania dos veredictos** (`CF 5 XXXVIII`), e o `CF 5 XLIV` trata da ação de grupos armados contra a **ordem constitucional e o Estado democrático**.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Constituição admite a pena de **perda de bens** (`CF 5 XLVI b`) e permite estender o **perdimento de bens** aos sucessores, até o limite do patrimônio transferido (`CF 5 XLV`); vedada é a pena de trabalhos forçados (`CF 5 XLVII c`).",
+        "B": "São inafiançáveis e insuscetíveis de graça ou anistia a tortura, o tráfico ilícito de entorpecentes, o terrorismo e os **crimes hediondos** (`CF 5 XLIII`); o homicídio culposo não está na lista.",
+        "C": "O júri tem assegurados a plenitude de defesa, o **sigilo das votações**, a **soberania dos veredictos** e a competência para os crimes dolosos contra a vida (`CF 5 XXXVIII`); o sigilo é das votações, não dos veredictos.",
+        "D": "É o texto do `CF 5 LXIV`: o preso tem direito à **identificação dos responsáveis** por sua prisão ou por seu interrogatório policial.",
+        "E": "Constitui crime inafiançável e imprescritível a ação de grupos armados, civis ou militares, contra a **ordem constitucional e o Estado democrático** (`CF 5 XLIV`), não contra o Estado brasileiro e a Administração Pública."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "A Constituição Federal estabelece que ficará o seu autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência, quando da propositura da seguinte ação judicial:",
+      "alt": {
+        "A": "habeas corpus.",
+        "B": "ação popular.",
+        "C": "ação civil pública.",
+        "D": "mandado de segurança.",
+        "E": "habeas data."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.remedios"
+      ],
+      "dispositivos": [
+        "CF 5 LXXIII",
+        "CF 5 LXXVII"
+      ],
+      "exp": "A fórmula \"**salvo comprovada má-fé**, isento de custas judiciais e do ônus da sucumbência\" é a da **ação popular** (`CF 5 LXXIII`). Habeas corpus e habeas data são **gratuitos** por outra regra, sem a ressalva da má-fé (`CF 5 LXXVII`). A Constituição não dá essa isenção ao autor da ação civil pública nem ao impetrante do mandado de segurança.",
+      "observacoes": [
+        "As alternativas A (habeas corpus) e E (habeas data) ficaram fora do Treino: essas ações são gratuitas (CF 5 LXXVII), de modo que, lidas isoladamente, a isenção do autor seria defensável; só perdem para a B porque a fórmula do enunciado (salvo comprovada má-fé, custas e ônus da sucumbência) é a do CF 5 LXXIII."
+      ],
+      "vf": {
+        "A": null,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": null
+      },
+      "exp_alt": {
+        "B": "Qualquer cidadão pode propor **ação popular**, ficando o autor, **salvo comprovada má-fé**, isento de custas judiciais e do ônus da sucumbência (`CF 5 LXXIII`).",
+        "C": "A Constituição não prevê isenção de custas e sucumbência para o autor da ação civil pública; a regra constitucional com a ressalva da **má-fé** é a da **ação popular** (`CF 5 LXXIII`).",
+        "D": "A Constituição não isenta de custas o impetrante do mandado de segurança; gratuitas são as ações de **habeas corpus e habeas data** (`CF 5 LXXVII`), e a isenção com ressalva da má-fé é da **ação popular** (`CF 5 LXXIII`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#47",
+      "tipo": "me",
+      "numero": 47,
+      "enunciado": "Conforme o disposto expressamente na Constituição Federal, o mandado de segurança coletivo pode ser impetrado, entre outros, por",
+      "alt": {
+        "A": "partido político com representação no Congresso Nacional e por associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros.",
+        "B": "entidade de classe legalmente constituída há pelo menos um ano, em defesa da sociedade, e pelo Ministério Público, em defesa do interesse público.",
+        "C": "qualquer partido político e pelo Conselho Federal da Ordem dos Advogados do Brasil, em defesa do interesse público e da sociedade.",
+        "D": "partido político com representação no Congresso Nacional e por associação legalmente constituída há pelo menos dois anos, em defesa do interesse público.",
+        "E": "organização sindical legalmente constituída e em funcionamento há pelo menos dois anos, em defesa dos interesses de seus membros, e pela Ordem dos Advogados do Brasil, em defesa da sociedade."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.remedios"
+      ],
+      "dispositivos": [
+        "CF 5 LXX a",
+        "CF 5 LXX b"
+      ],
+      "exp": "O mandado de segurança coletivo pode ser impetrado por **partido político com representação no Congresso Nacional** (`CF 5 LXX a`) e por organização sindical, entidade de classe ou associação legalmente constituída e **em funcionamento há pelo menos um ano**, **em defesa dos interesses de seus membros ou associados** (`CF 5 LXX b`). O texto constitucional não legitima o Ministério Público nem a OAB, não basta \"qualquer partido\", o prazo não é de dois anos e a defesa é dos membros, não do interesse público ou da sociedade.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "São legitimados o **partido político com representação no Congresso Nacional** (`CF 5 LXX a`) e a associação legalmente constituída e **em funcionamento há pelo menos um ano**, em defesa dos interesses de seus membros ou associados (`CF 5 LXX b`).",
+        "B": "A entidade de classe impetra **em defesa dos interesses de seus membros ou associados**, não da sociedade (`CF 5 LXX b`), e o `CF 5 LXX` não arrola o Ministério Público entre os legitimados.",
+        "C": "O partido político precisa ter **representação no Congresso Nacional** (`CF 5 LXX a`), e o `CF 5 LXX` não arrola o Conselho Federal da OAB entre os legitimados.",
+        "D": "A associação deve estar legalmente constituída e em funcionamento há pelo menos **um ano**, e impetra **em defesa dos interesses de seus membros ou associados** (`CF 5 LXX b`), não do interesse público.",
+        "E": "O prazo de funcionamento exigido da organização sindical é de pelo menos **um ano** (`CF 5 LXX b`), e o `CF 5 LXX` não arrola a OAB entre os legitimados."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#48",
+      "tipo": "me",
+      "numero": 48,
+      "enunciado": "Sumaia, de 18 anos de idade, foi contratada para trabalhar em uma empresa, em função considerada insalubre, durante o horário noturno.\n\nConsiderando o disposto na Constituição Federal a respeito dos direitos dos trabalhadores, é correto afirmar que Sumaia",
+      "alt": {
+        "A": "deverá receber o adicional pelo trabalho noturno com remuneração superior à do horário diurno em, no mínimo, 20 (vinte) por cento e o adicional de insalubridade de 50 (cinquenta) por cento.",
+        "B": "não poderá exercer função considerada insalubre durante o horário noturno, por expressa vedação do texto constitucional.",
+        "C": "terá direito à irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo, e ao adicional de remuneração para a atividade insalubre.",
+        "D": "terá o direito ao adicional noturno com remuneração superior a, no mínimo, 50 (cinquenta) por cento à do normal e ao adicional de insalubridade, na forma da lei.",
+        "E": "terá direito de ação, quanto a eventuais créditos trabalhistas, com prazo prescricional de dois anos, até o limite de três anos após a extinção do contrato de trabalho."
+      },
+      "gab": "C",
+      "temas": [
+        "constitucional.direitos-sociais"
+      ],
+      "dispositivos": [
+        "CF 7 VI",
+        "CF 7 XXIII",
+        "CF 7 IX",
+        "CF 7 XVI",
+        "CF 7 XXXIII",
+        "CF 7 XXIX"
+      ],
+      "exp": "Sumaia tem direito à **irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo** (`CF 7 VI`), e ao **adicional de remuneração para as atividades insalubres**, na forma da lei (`CF 7 XXIII`). A Constituição só diz que o trabalho noturno terá remuneração **superior à do diurno**, sem fixar percentual (`CF 7 IX`); os 50% são do **serviço extraordinário** (`CF 7 XVI`). A proibição de trabalho noturno ou insalubre é para **menores de dezoito** (`CF 7 XXXIII`), e a prescrição é de **cinco anos**, até o limite de **dois anos** após a extinção do contrato (`CF 7 XXIX`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Constituição garante apenas remuneração do trabalho noturno **superior à do diurno** (`CF 7 IX`) e adicional para atividades insalubres **na forma da lei** (`CF 7 XXIII`); ela não fixa os percentuais de 20% e de 50%.",
+        "B": "A vedação de trabalho noturno, perigoso ou insalubre alcança só os **menores de dezoito anos** (`CF 7 XXXIII`); quem já tem 18 anos pode exercê-lo.",
+        "C": "São direitos do trabalhador a **irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo** (`CF 7 VI`), e o **adicional de remuneração** para as atividades insalubres, na forma da lei (`CF 7 XXIII`).",
+        "D": "O mínimo de **50%** acima do normal é da remuneração do **serviço extraordinário** (`CF 7 XVI`); para o trabalho noturno, a Constituição diz só que a remuneração será **superior à do diurno** (`CF 7 IX`).",
+        "E": "O prazo prescricional é de **cinco anos**, até o limite de **dois anos** após a extinção do contrato de trabalho (`CF 7 XXIX`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#49",
+      "tipo": "me",
+      "numero": 49,
+      "enunciado": "A Constituição Federal dispõe, sobre a administração pública, que",
+      "alt": {
+        "A": "as administrações tributárias da União, dos Estados, do Distrito Federal e dos Municípios, exercidas por servidores de carreiras específicas, terão recursos prioritários para a realização de suas atividades e atuarão de forma autônoma, ficando vedado o compartilhamento de cadastros e de informações fiscais.",
+        "B": "a remuneração dos servidores públicos somente poderá ser fixada ou alterada por lei específica, observada a iniciativa privativa em cada caso, assegurada revisão geral anual, sempre na mesma data, com a necessária distinção e variação de índices, a ser arbitrada pela respectiva lei.",
+        "C": "a lei estabelecerá os prazos de prescrição para ilícitos praticados por qualquer agente, servidor ou não, que causem prejuízos ao erário, incluídas as respectivas ações de ressarcimento, cujo prazo máximo de prescrição não poderá ultrapassar cinco anos, contados da data do ilícito.",
+        "D": "os atos de improbidade administrativa importarão a perda dos direitos políticos, a pena de reclusão do agente, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e na gradação previstas em lei.",
+        "E": "os vencimentos dos cargos do Poder Legislativo e do Poder Judiciário não poderão ser superiores aos pagos pelo Poder Executivo, e, para efeito de remuneração de pessoal do serviço público, é vedada a vinculação ou equiparação de quaisquer espécies remuneratórias."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.administracao-publica.principios",
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 37 XII",
+        "CF 37 XIII",
+        "CF 37 XXII",
+        "CF 37 X",
+        "CF 37 §5º",
+        "CF 37 §4º"
+      ],
+      "exp": "A alternativa E junta o `CF 37 XII` (vencimentos do Legislativo e do Judiciário **não superiores** aos do Executivo) e o `CF 37 XIII` (**vedada a vinculação ou equiparação** de espécies remuneratórias). As administrações tributárias atuam **de forma integrada, com compartilhamento** de cadastros e informações fiscais (`CF 37 XXII`); a revisão geral anual é **sem distinção de índices** (`CF 37 X`); a lei fixa a prescrição dos ilícitos, **ressalvadas** as ações de ressarcimento e sem teto de cinco anos (`CF 37 §5º`); e a improbidade importa **suspensão** dos direitos políticos, sem prejuízo da ação penal, não \"perda\" nem pena de reclusão (`CF 37 §4º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "As administrações tributárias atuarão **de forma integrada, inclusive com o compartilhamento** de cadastros e de informações fiscais, na forma da lei ou convênio (`CF 37 XXII`).",
+        "B": "A revisão geral anual da remuneração dos servidores é assegurada sempre na mesma data e **sem distinção de índices** (`CF 37 X`).",
+        "C": "A lei estabelecerá os prazos de prescrição desses ilícitos, **ressalvadas** as respectivas ações de ressarcimento (`CF 37 §5º`); a Constituição não fixa teto de cinco anos.",
+        "D": "Os atos de improbidade importam a **suspensão** dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, **sem prejuízo da ação penal cabível** (`CF 37 §4º`); não há perda de direitos políticos nem pena de reclusão como sanção da improbidade.",
+        "E": "Os vencimentos do Legislativo e do Judiciário **não poderão ser superiores** aos pagos pelo Executivo (`CF 37 XII`), e é **vedada a vinculação ou equiparação** de quaisquer espécies remuneratórias (`CF 37 XIII`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#50",
+      "tipo": "me",
+      "numero": 50,
+      "enunciado": "José Inocêncio trabalha para uma empresa de direito privado, que presta serviço público, e, durante o exercício das suas funções, veio a causar danos a Maria das Dores, que é uma usuária do serviço.\n\nNessa situação hipotética, considerando o disposto na Constituição Federal, é correto afirmar que José Inocêncio",
+      "alt": {
+        "A": "responderá diretamente pelos danos causados a Maria, ainda que não tenha agido com dolo ou culpa, devendo a empresa ressarcir os prejuízos no caso de José Inocêncio não possuir patrimônio suficiente para reparar os danos.",
+        "B": "deverá responder em ação regressiva, no caso de ter agido com dolo ou culpa, se a empresa for responsabilizada pelos danos causados a Maria.",
+        "C": "deverá ser responsabilizado diretamente pelos danos causados a Maria das Dores, desde que tenha agido com dolo, mas a empresa não será responsabilizada, por ser uma empresa privada.",
+        "D": "deverá responder em ação regressiva, se a empresa for responsabilizada pelos danos causados a Maria, desde que tenha havido dolo, não podendo José Inocêncio responder no caso de mera culpa.",
+        "E": "não responderá pelos danos, nem mesmo de forma regressiva, uma vez que, nesse caso, a responsabilidade é integral da empresa prestadora do serviço, que deverá ressarcir os prejuízos causados a Maria."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.responsabilidade",
+        "constitucional.administracao-publica.principios"
+      ],
+      "dispositivos": [
+        "CF 37 §6º"
+      ],
+      "exp": "As pessoas jurídicas de **direito privado prestadoras de serviços públicos** respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, **assegurado o direito de regresso** contra o responsável **nos casos de dolo ou culpa** (`CF 37 §6º`). Quem responde perante Maria é a empresa, objetivamente; José só responde regressivamente, e basta a **culpa**. Por isso erram a responsabilidade direta e objetiva do agente, a isenção da empresa por ser privada, a exigência de dolo e a exclusão do regresso.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Perante a vítima responde a **pessoa jurídica** prestadora do serviço público (`CF 37 §6º`); o agente só responde em **regresso** e apenas se agiu com **dolo ou culpa**.",
+        "B": "A prestadora de serviço público responde pelos danos causados por seus agentes, **assegurado o direito de regresso** contra o responsável **nos casos de dolo ou culpa** (`CF 37 §6º`).",
+        "C": "As pessoas jurídicas de **direito privado prestadoras de serviços públicos** também respondem pelos danos que seus agentes causarem a terceiros (`CF 37 §6º`); ser privada não afasta a responsabilidade da empresa.",
+        "D": "O direito de regresso contra o agente cabe **nos casos de dolo ou culpa** (`CF 37 §6º`); a mera culpa basta.",
+        "E": "A empresa responde perante a vítima, mas tem **direito de regresso** contra o agente que agiu com **dolo ou culpa** (`CF 37 §6º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#51",
+      "tipo": "me",
+      "numero": 51,
+      "enunciado": "Ester é professora universitária ativa em Universidade Estadual, e o marido dela, Hermes, é agente socioeducativo, ocupante de cargo de provimento efetivo, e exerce suas funções regularmente em uma fundação pública que presta serviços de acolhimento e internação de adolescentes.\n\nConsiderando o disposto na Constituição Federal a respeito do regime jurídico dos servidores públicos, é correto afirmar que Ester",
+      "alt": {
+        "A": "tem direito à aposentadoria com a idade mínima reduzida em 5 (cinco) anos em relação aos demais servidores em geral, e Hermes poderá se aposentar, com adicional de periculosidade.",
+        "B": "não tem direito à redução da idade mínima para obtenção da aposentadoria, e a Constituição não prevê para Hermes aposentadoria por critérios diferenciados.",
+        "C": "e Hermes têm direito à aposentadoria com a idade mínima reduzida em 5 (cinco) anos em relação aos demais servidores em geral, em razão dos cargos, por meio de lei complementar estadual.",
+        "D": "não tem direito à aposentadoria por redução da idade mínima, mas Hermes poderá ter direito à aposentadoria por critérios diferenciados por meio de lei complementar estadual.",
+        "E": "tem direito à aposentadoria com a idade mínima reduzida em 5 (cinco) anos em relação aos demais servidores em geral, mas Hermes não tem direito à aposentadoria especial pelo seu cargo."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 40 §5º",
+        "CF 40 §4º-B",
+        "CF 40 §4º"
+      ],
+      "exp": "A redução de **5 anos** na idade mínima vale para o professor que comprove tempo de efetivo exercício das funções de magistério na **educação infantil e no ensino fundamental e médio** (`CF 40 §5º`); a professora **universitária** não tem esse direito. Já o **agente socioeducativo** pode ter idade e tempo de contribuição **diferenciados**, estabelecidos por **lei complementar do respectivo ente federativo** (`CF 40 §4º-B`). Erram, assim, as alternativas que dão a redução a Ester, que negam a Hermes os critérios diferenciados ou que falam em adicional de periculosidade.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A redução de 5 anos na idade mínima é do professor da **educação infantil e do ensino fundamental e médio** (`CF 40 §5º`), não do universitário; e o agente socioeducativo tem idade e tempo de contribuição **diferenciados** por lei complementar (`CF 40 §4º-B`), não aposentadoria com adicional de periculosidade.",
+        "B": "A Constituição admite, por **lei complementar do respectivo ente federativo**, idade e tempo de contribuição **diferenciados** para o **agente socioeducativo** (`CF 40 §4º-B`).",
+        "C": "A redução de 5 anos é do professor da **educação infantil e do ensino fundamental e médio** (`CF 40 §5º`), o que exclui a professora universitária; para o agente socioeducativo a Constituição prevê critérios **diferenciados** por lei complementar (`CF 40 §4º-B`), não a redução de 5 anos.",
+        "D": "A redução do `CF 40 §5º` é só para o magistério na **educação infantil e no ensino fundamental e médio**; o **agente socioeducativo** pode ter idade e tempo de contribuição diferenciados por **lei complementar do respectivo ente** (`CF 40 §4º-B`).",
+        "E": "A redução de 5 anos não alcança a professora **universitária** (`CF 40 §5º`), e o **agente socioeducativo** pode ter aposentadoria por critérios diferenciados, por lei complementar do ente (`CF 40 §4º-B`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#52",
+      "tipo": "me",
+      "numero": 52,
+      "enunciado": "Segundo o disposto na Lei nº 10.261/68, verificada a ocorrência de faltas ao serviço que caracterizem inassiduidade do funcionário público, é correto afirmar que",
+      "alt": {
+        "A": "o seu superior imediato deve instaurar o competente processo administrativo disciplinar, podendo propor o desconto dos respectivos dias de falta.",
+        "B": "a defesa do funcionário no processo somente poderá versar sobre força maior, coação ilegal ou motivo legalmente justificável que impeça o comparecimento ao trabalho.",
+        "C": "o funcionário poderá celebrar acordo com a Administração, no qual deverá se comprometer ao pagamento de multa correspondente ao valor dos dias de ausência ao serviço.",
+        "D": "deverá ser instaurado o respectivo processo administrativo para apurar a inassiduidade do funcionário, ainda que este venha a apresentar pedido de exoneração.",
+        "E": "instaurado o processo exclusivamente para apurar inassiduidade, e o indiciado pedir exoneração até o interrogatório, esse pedido implicará em confissão."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 311",
+        "L10261 308",
+        "L10261 309",
+        "L10261 310"
+      ],
+      "exp": "No processo por inassiduidade, a defesa **somente poderá versar sobre força maior, coação ilegal ou motivo legalmente justificável** que impeça o comparecimento (`L10261 311`). O superior imediato não instaura o processo: ele **comunica o fato** à autoridade competente (`L10261 308`). **Não se instaura** processo contra quem pediu exoneração (`L10261 309`), e o pedido de exoneração até o interrogatório **extingue** o processo, não equivale a confissão (`L10261 310`). A lei não prevê acordo com multa pelos dias de ausência.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Verificada a inassiduidade, o superior imediato **comunica o fato à autoridade competente** para que esta determine a instauração do processo disciplinar (`L10261 308`); não é ele quem instaura.",
+        "B": "No processo por inassiduidade, a defesa **somente poderá versar sobre força maior, coação ilegal ou motivo legalmente justificável** que impeça o comparecimento ao trabalho (`L10261 311`).",
+        "C": "Para a inassiduidade, a lei prevê a comunicação do fato e a instauração de **processo disciplinar** (`L10261 308`), com defesa restrita (`L10261 311`); não há acordo com pagamento de multa pelos dias de ausência.",
+        "D": "**Não será instaurado** processo para apurar inassiduidade do funcionário que tiver pedido exoneração (`L10261 309`).",
+        "E": "O pedido de exoneração até a data do interrogatório, ou por ocasião dele, **extingue** o processo instaurado exclusivamente para apurar inassiduidade (`L10261 310`); não implica confissão."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#53",
+      "tipo": "me",
+      "numero": 53,
+      "enunciado": "O processo administrativo, regido pela Lei nº 10.261/68, estabelece que, encerrada a fase probatória, dar-se-á vista dos autos à defesa, que poderá apresentar alegações finais no prazo de 7 (sete) dias. Contudo, não apresentadas as alegações finais no prazo,",
+      "alt": {
+        "A": "o presidente designará advogado dativo, assinando-lhe novo prazo.",
+        "B": "o processo terá regular prosseguimento para a prolação da sentença.",
+        "C": "o processo ficará suspenso por 30 dias, aguardando a manifestação da defesa dentro desse prazo.",
+        "D": "o funcionário deverá ser intimado pessoalmente para que se manifeste em até 5 (cinco) dias.",
+        "E": "deverá ser certificado esse fato e o funcionário ficará impedido de apresentar as alegações finais."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 292",
+        "L10261 292 p.ú."
+      ],
+      "exp": "Não apresentadas no prazo as alegações finais, **o presidente designará advogado dativo, assinando-lhe novo prazo** (`L10261 292 p.ú.`). A defesa técnica nessa fase não pode faltar, por isso o processo não segue sem ela, não fica suspenso, não se intima pessoalmente o funcionário e não há preclusão da defesa.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não apresentadas no prazo as alegações finais, **o presidente designará advogado dativo, assinando-lhe novo prazo** (`L10261 292 p.ú.`).",
+        "B": "Sem alegações finais no prazo, o processo não segue para julgamento: o presidente **designa advogado dativo** e lhe assina **novo prazo** (`L10261 292 p.ú.`).",
+        "C": "A lei não prevê suspensão do processo: perdido o prazo das alegações finais, o presidente **designa advogado dativo** com **novo prazo** (`L10261 292 p.ú.`).",
+        "D": "A consequência da falta de alegações finais é a **designação de advogado dativo**, com novo prazo (`L10261 292 p.ú.`), e não a intimação pessoal do funcionário.",
+        "E": "A defesa não fica impedida: o presidente **designa advogado dativo**, assinando-lhe **novo prazo** para as alegações finais (`L10261 292 p.ú.`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#54",
+      "tipo": "me",
+      "numero": 54,
+      "enunciado": "Virgílio é funcionário público estadual e, sem justa causa, deixou de atender a uma exigência para cujo cumprimento havia sido marcado prazo certo. Nessa situação hipotética, a Lei nº 10.261/68 estabelece que Virgílio",
+      "alt": {
+        "A": "será intimado a cumprir a exigência, no prazo de 30 (trinta) dias, sob pena de multa e suspensão do vencimento ou remuneração, ainda que aposentado ou em disponibilidade.",
+        "B": "ficará sujeito à multa diária, até que satisfaça a exigência, salvo se aposentado ou em disponibilidade.",
+        "C": "ficará sujeito à multa diária, até que satisfaça a exigência, ainda que aposentado ou em disponibilidade.",
+        "D": "terá suspenso o pagamento de seu vencimento ou remuneração, até que satisfaça a exigência, ainda que aposentado ou em disponibilidade.",
+        "E": "terá suspenso o pagamento de seu vencimento ou remuneração, até que satisfaça a exigência, salvo se for aposentado ou estiver em disponibilidade."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 262",
+        "L10261 262 p.ú."
+      ],
+      "exp": "O funcionário que, sem justa causa, deixar de atender exigência com prazo certo **terá suspenso o pagamento de seu vencimento ou remuneração até que satisfaça essa exigência** (`L10261 262`), e a regra **aplica-se aos aposentados ou em disponibilidade** (`L10261 262 p.ú.`). A lei não prevê multa diária nem nova intimação com prazo de 30 dias.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei não prevê intimação com novo prazo de 30 dias: a consequência imediata é a **suspensão do pagamento** do vencimento ou remuneração até que a exigência seja satisfeita (`L10261 262`).",
+        "B": "A consequência não é multa diária, e sim a **suspensão do pagamento** do vencimento ou remuneração (`L10261 262`), que **também se aplica** aos aposentados ou em disponibilidade (`L10261 262 p.ú.`).",
+        "C": "A lei não prevê multa diária: o funcionário **terá suspenso o pagamento** de seu vencimento ou remuneração até que satisfaça a exigência (`L10261 262`).",
+        "D": "O funcionário terá **suspenso o pagamento** de seu vencimento ou remuneração até que satisfaça a exigência (`L10261 262`), regra que se **aplica aos aposentados ou em disponibilidade** (`L10261 262 p.ú.`).",
+        "E": "A suspensão do pagamento até que se satisfaça a exigência **aplica-se também aos aposentados ou em disponibilidade** (`L10261 262 p.ú.`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#55",
+      "tipo": "me",
+      "numero": 55,
+      "enunciado": "Considerando o disposto na Lei nº 10.261/68, assinale a alternativa correta a respeito da revisão da punição disciplinar do servidor público estadual.",
+      "alt": {
+        "A": "O ônus da prova cabe ao requerente, que, no entanto, ficará sujeito ao agravamento da sanção disciplinar imposta, na hipótese de ser julgada improcedente a sua revisão.",
+        "B": "Ela será admitida, a qualquer tempo, desde que não caiba mais recurso da punição disciplinar, sendo um dos seus fundamentos a alegação da injustiça da decisão objeto da revisão.",
+        "C": "Ela caberá se surgirem fatos ou circunstâncias ainda não apreciados ou vícios insanáveis de procedimento, que possam justificar redução ou anulação da pena aplicada.",
+        "D": "Deferido o processamento da revisão, será este realizado pelo Procurador de Estado que já tenha atuado no procedimento disciplinar de que resultou a punição do requerente.",
+        "E": "A instauração de processo revisional poderá ser requerida pelo interessado ou, se falecido, pelo cônjuge, companheiro, ascendente ou descendente, sem necessidade de advogado."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 315",
+        "L10261 315 §1º",
+        "L10261 315 §4º",
+        "L10261 316",
+        "L10261 317",
+        "L10261 319"
+      ],
+      "exp": "Admite-se a revisão, a qualquer tempo, de punição de que não caiba mais recurso, **se surgirem fatos ou circunstâncias ainda não apreciados, ou vícios insanáveis de procedimento**, que possam justificar redução ou anulação da pena (`L10261 315`). O ônus da prova é do requerente (`L10261 315 §4º`), mas a pena **não pode ser agravada** pela revisão (`L10261 316`); a **simples alegação de injustiça** não é fundamento (`L10261 315 §1º`); o pedido é feito **sempre por intermédio de advogado** (`L10261 317`); e a revisão é conduzida por quem **não tenha funcionado** no procedimento que resultou na punição (`L10261 319`).",
+      "observacoes": [
+        "Na data da prova, o L10261 319 dizia que a revisão seria realizada por Procurador do Estado que não tivesse funcionado no procedimento disciplinar; a LC 1.419, de 27/12/2024, passou a atribuí-la a servidor ocupante de cargo efetivo e confirmado na carreira, mantida a exigência de não ter funcionado no procedimento. A alternativa D continua errada pelo mesmo motivo."
+      ],
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O ônus da prova cabe ao requerente (`L10261 315 §4º`), mas a **pena imposta não poderá ser agravada** pela revisão (`L10261 316`).",
+        "B": "A revisão cabe a qualquer tempo contra punição de que não caiba mais recurso (`L10261 315`), mas a **simples alegação da injustiça** da decisão **não constitui fundamento** do pedido (`L10261 315 §1º`).",
+        "C": "A revisão é admitida, a qualquer tempo, se surgirem **fatos ou circunstâncias ainda não apreciados, ou vícios insanáveis de procedimento**, que possam justificar **redução ou anulação** da pena aplicada (`L10261 315`).",
+        "D": "A revisão é conduzida por quem **não tenha funcionado** no procedimento disciplinar de que resultou a punição do requerente (`L10261 319`).",
+        "E": "O pedido de revisão é feito fundamentadamente pelo interessado ou, se falecido ou incapaz, por curador, cônjuge, companheiro, ascendente, descendente ou irmão, **sempre por intermédio de advogado** (`L10261 317`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#56",
+      "tipo": "me",
+      "numero": 56,
+      "enunciado": "No tocante às disposições sobre o processo administrativo, em havendo denunciante, a Lei nº 10.261/68 estabelece que",
+      "alt": {
+        "A": "o acusado terá o direito de estar presente na audiência de oitiva do denunciante, mas não poderá manifestar-se.",
+        "B": "o denunciante terá o direito de escolher o dia e a hora em que será ouvido em audiência.",
+        "C": "a oitiva do denunciante deverá ser acompanhada pelo advogado do acusado, próprio ou dativo.",
+        "D": "se a versão do denunciante for contraditória com os fatos comprovados pela defesa, será realizada a acareação.",
+        "E": "o denunciante deverá prestar as suas declarações logo após a data do interrogatório do acusado."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 279 §1º",
+        "L10261 279",
+        "L10261 279 §2º",
+        "L10261 278"
+      ],
+      "exp": "A **oitiva do denunciante deverá ser acompanhada pelo advogado do acusado, próprio ou dativo** (`L10261 279 §1º`). O denunciante presta declarações **no interregno entre a citação e o interrogatório**, sendo **notificado** para isso (`L10261 279`; `L10261 278`), e não escolhe dia e hora nem é ouvido depois do interrogatório. O acusado **não assiste** à inquirição do denunciante, podendo só tomar ciência das declarações antes de ser interrogado (`L10261 279 §2º`), e a lei não prevê acareação nesse caso.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O acusado **não assistirá** à inquirição do denunciante; antes de ser interrogado, poderá ter ciência das declarações que ele houver prestado (`L10261 279 §2º`).",
+        "B": "É o presidente quem designa a audiência, e o denunciante é **notificado** para prestar declarações (`L10261 278`; `L10261 279`); ele não escolhe dia e hora.",
+        "C": "A **oitiva do denunciante deverá ser acompanhada pelo advogado do acusado, próprio ou dativo** (`L10261 279 §1º`).",
+        "D": "As regras sobre o denunciante tratam do momento das declarações, do acompanhamento pelo advogado do acusado e da ausência do acusado na inquirição (`L10261 279`); a lei não prevê acareação entre a versão do denunciante e a prova da defesa.",
+        "E": "O denunciante presta declarações **no interregno entre a data da citação e a fixada para o interrogatório** do acusado (`L10261 279`), isto é, antes do interrogatório."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#57",
+      "tipo": "me",
+      "numero": 57,
+      "enunciado": "Suponha que Arquibaldo, funcionário público estadual, no exercício da função pública, tenha dolosamente deixado de prestar contas quando estava obrigado a fazê-lo, e tinha as condições para isso, com vistas a ocultar irregularidades. Analisando a referida conduta, nos termos da Lei nº 8.429/92, é correto afirmar que Arquibaldo",
+      "alt": {
+        "A": "cometeu ato de improbidade administrativa que causa lesão ao erário, independentemente de ter havido enriquecimento ilícito.",
+        "B": "cometeu ato de improbidade, por omissão, que, para ser sancionado, exige que tenha ocorrido enriquecimento ilícito do agente público.",
+        "C": "não cometeu ato de improbidade administrativa, uma vez que, após a alteração da lei, a conduta omissiva do agente público não caracteriza a improbidade.",
+        "D": "cometeu ato de improbidade, por omissão, que, no entanto, depende do reconhecimento da produção de danos ao erário.",
+        "E": "cometeu ato de improbidade administrativa, que exige lesividade relevante ao bem jurídico tutelado para ser passível de sancionamento."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.improbidade.principios"
+      ],
+      "dispositivos": [
+        "L8429 11 VI",
+        "L8429 11",
+        "L8429 11 §4º"
+      ],
+      "exp": "Deixar de prestar contas quando obrigado, dispondo de condições para isso, **com vistas a ocultar irregularidades** é ato que **atenta contra os princípios** da administração (`L8429 11 VI`), e o `L8429 11` abrange a **ação ou omissão dolosa**. Esses atos **exigem lesividade relevante ao bem jurídico tutelado** para serem sancionados e **independem** de dano ao erário e de enriquecimento ilícito (`L8429 11 §4º`). Por isso não é ato de lesão ao erário, não depende de enriquecimento nem de dano, e a omissão dolosa continua sendo improbidade.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A conduta está no `L8429 11 VI`: é ato que **atenta contra os princípios** da administração pública, não ato que causa lesão ao erário.",
+        "B": "Os atos contra os princípios **independem** do reconhecimento de **enriquecimento ilícito** do agente (`L8429 11 §4º`).",
+        "C": "Mesmo após a reforma, o `L8429 11` abrange a **ação ou omissão dolosa**, e deixar de prestar contas para **ocultar irregularidades** está no `L8429 11 VI`.",
+        "D": "Os atos contra os princípios **independem do reconhecimento da produção de danos ao erário** (`L8429 11 §4º`).",
+        "E": "Deixar de prestar contas para ocultar irregularidades é ato contra os princípios (`L8429 11 VI`), que **exige lesividade relevante ao bem jurídico tutelado** para ser sancionado (`L8429 11 §4º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#58",
+      "tipo": "me",
+      "numero": 58,
+      "enunciado": "A Lei nº 8.429/92 estabelece que, da decisão do juiz que determinar a indisponibilidade de bens do réu,",
+      "alt": {
+        "A": "caberá recurso de apelação.",
+        "B": "caberá recurso inominado.",
+        "C": "caberá agravo de instrumento.",
+        "D": "não caberá recurso.",
+        "E": "caberá embargos de divergência."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.improbidade.sancoes-processo"
+      ],
+      "dispositivos": [
+        "L8429 16 §9º"
+      ],
+      "exp": "Da decisão que **deferir ou indeferir** a indisponibilidade de bens **caberá agravo de instrumento**, nos termos do CPC (`L8429 16 §9º`). É decisão interlocutória, por isso não cabe apelação (que ataca sentença), recurso inominado (próprio dos juizados) nem embargos de divergência (próprios dos tribunais superiores), e ela não é irrecorrível.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Da decisão que deferir ou indeferir a indisponibilidade de bens cabe **agravo de instrumento** (`L8429 16 §9º`); é decisão interlocutória, não sentença.",
+        "B": "A lei prevê **agravo de instrumento** contra a decisão sobre indisponibilidade de bens (`L8429 16 §9º`); recurso inominado é próprio dos juizados especiais.",
+        "C": "Da decisão que **deferir ou indeferir** a medida de indisponibilidade de bens **caberá agravo de instrumento**, nos termos do CPC (`L8429 16 §9º`).",
+        "D": "A decisão é recorrível: dela cabe **agravo de instrumento** (`L8429 16 §9º`).",
+        "E": "Contra a decisão sobre indisponibilidade de bens cabe **agravo de instrumento** (`L8429 16 §9º`); embargos de divergência são recurso dos tribunais superiores."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#59",
+      "tipo": "me",
+      "numero": 59,
+      "enunciado": "Assinale a alternativa que está em conformidade com a Lei nº 8.429/92.",
+      "alt": {
+        "A": "A perda da função pública e a suspensão dos direitos políticos só se efetivam com o trânsito em julgado da sentença condenatória.",
+        "B": "Haverá condenação em honorários sucumbenciais em caso de improcedência da ação de improbidade, ainda que não tenha havido má-fé.",
+        "C": "A ação para a aplicação das sanções previstas nessa Lei prescreve em 5 (cinco) anos, contados a partir da ocorrência do fato.",
+        "D": "O prazo da prescrição legal não se interrompe pelo ajuizamento da ação de improbidade administrativa.",
+        "E": "As sentenças civis e penais produzirão efeitos em relação à ação de improbidade quando concluírem pela ausência de provas."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.improbidade.sancoes-processo"
+      ],
+      "dispositivos": [
+        "L8429 20",
+        "L8429 23-B §2º",
+        "L8429 23",
+        "L8429 23 §4º I",
+        "L8429 21 §3º"
+      ],
+      "exp": "É literal o `L8429 20`: a **perda da função pública** e a **suspensão dos direitos políticos** só se efetivam com o **trânsito em julgado** da sentença condenatória. Na improcedência, só há honorários **se comprovada má-fé** (`L8429 23-B §2º`); a prescrição é de **8 anos** contados do fato (`L8429 23`) e **interrompe-se pelo ajuizamento** da ação (`L8429 23 §4º I`); e as sentenças civis e penais repercutem na improbidade quando concluem pela **inexistência da conduta ou negativa de autoria** (`L8429 21 §3º`), não por falta de provas.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A **perda da função pública** e a **suspensão dos direitos políticos** só se efetivam com o **trânsito em julgado** da sentença condenatória (`L8429 20`).",
+        "B": "Na improcedência da ação de improbidade, só haverá condenação em honorários sucumbenciais **se comprovada má-fé** (`L8429 23-B §2º`).",
+        "C": "A ação para aplicar as sanções da lei prescreve em **8 (oito) anos**, contados da ocorrência do fato ou, nas infrações permanentes, do dia em que cessou a permanência (`L8429 23`).",
+        "D": "O prazo prescricional **interrompe-se pelo ajuizamento** da ação de improbidade administrativa (`L8429 23 §4º I`).",
+        "E": "As sentenças civis e penais produzem efeitos na ação de improbidade quando concluírem pela **inexistência da conduta ou pela negativa da autoria** (`L8429 21 §3º`), não pela ausência de provas."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#60",
+      "tipo": "me",
+      "numero": 60,
+      "enunciado": "João foi recentemente empossado no cargo de escrevente judiciário e, em conversa com colegas de trabalho, soube que, em breve, o Juiz Corregedor Permanente comparecerá à unidade, para apurar em termos gerais a regularidade das rotinas do cartório e dos serventuários. Com base na situação hipotética e no disposto nas Normas da Corregedoria Geral de Justiça, é correto afirmar que caso",
+      "alt": {
+        "A": "compareça no contexto de uma visita correcional, o Juiz deverá comunicar, previamente, à unidade, o dia e horário, devendo também fazer um relato suscinto no livro de visitas e correições.",
+        "B": "se trate de unidade responsável pelo recolhimento de pessoas, João pode concluir que visitas dessa natureza podem ser realizadas mensalmente.",
+        "C": "compareça durante serviços correcionais, todos os serventuários permanecerão à disposição do Juiz Corregedor Permanente, caso haja a anuência do Juiz Titular responsável pela unidade.",
+        "D": "o comparecimento aconteça no contexto de uma correição ordinária, o Juiz elaborará uma ata de correição em até 15 dias, em que descreverá todos os eventos relevantes ocorridos.",
+        "E": "o comparecimento se dê no contexto de um ato correcional, o contato do Juiz Corregedor Permanente com a unidade deve ocorrer preferencialmente de forma presencial, pois são vedadas correições virtuais."
+      },
+      "gab": "B",
+      "temas": [
+        "legislacao-especial.nscgj.disposicoes"
+      ],
+      "dispositivos": [
+        "NSCGJ 13",
+        "NSCGJ 9 §1º",
+        "NSCGJ 11",
+        "NSCGJ 6 §4º",
+        "NSCGJ 8",
+        "NSCGJ 6 §5º"
+      ],
+      "exp": "Os estabelecimentos prisionais e **outros destinados ao recolhimento de pessoas** sujeitos à atividade correcional **serão visitados uma vez por mês** (`NSCGJ 13`). A visita correcional **independe de edital ou qualquer outra providência** (`NSCGJ 9 §1º`), e durante os serviços correcionais todos os funcionários ficam à disposição do Corregedor **sem depender de anuência** de outro juiz (`NSCGJ 11`). A ata da correição **ordinária** vai à Corregedoria em até **60 dias** (15 dias é o prazo da extraordinária e da visita) (`NSCGJ 6 §4º`), e a Corregedoria implementa gradativamente a **correição virtual** (`NSCGJ 6 §5º`).",
+      "observacoes": [
+        "Alternativa A: \"suscinto\" está assim na prova (grafia correta: \"sucinto\")."
+      ],
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A visita correcional **independe de edital ou qualquer outra providência**, e dela se lança sucinto termo no livro de visitas e correições (`NSCGJ 9 §1º`); não há comunicação prévia de dia e horário.",
+        "B": "Os estabelecimentos prisionais e **outros destinados ao recolhimento de pessoas** sujeitos à atividade correcional do juízo **serão visitados uma vez por mês** (`NSCGJ 13`).",
+        "C": "Durante os serviços correcionais, **todos os funcionários** da unidade permanecem à disposição do Juiz Corregedor Permanente (`NSCGJ 11`), sem condicionamento à anuência de outro juiz.",
+        "D": "A ata da correição **ordinária** é encaminhada à Corregedoria Geral em até **60 (sessenta) dias**; o prazo de 15 dias é o da correição extraordinária e da visita correcional (`NSCGJ 6 §4º`).",
+        "E": "As Normas não vedam a correição virtual: a Corregedoria Geral **implementará, gradativamente, a correição virtual** (`NSCGJ 6 §5º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#61",
+      "tipo": "me",
+      "numero": 61,
+      "enunciado": "A respeito da atividade de escrituração, com base nas Normas da Corregedoria Geral de Justiça, assinale a alternativa correta.",
+      "alt": {
+        "A": "Na escrituração é vedada, em qualquer hipótese, a utilização de abreviaturas, abreviações, acrônimos, siglas ou símbolos, bem como a assinatura de atos ou termos em branco, total ou parcialmente.",
+        "B": "O Ofício que contenha a determinação para o desconto de pensão alimentícia poderá ser assinado pelos escrivães.",
+        "C": "A emissão de cartas postais, expedidas de forma física ou eletrônica, depende da assinatura do escrivão ou dos escreventes e de que no documento conste o nome e o cargo do funcionário signatário.",
+        "D": "Na escrituração de atos processuais é vedada a utilização de chancela ou de qualquer recurso que propicie a reprodução mecânica da assinatura do juiz.",
+        "E": "Os instrumentos de ordens, ofícios e autorizações judiciais, bem como dos demais atos e termos processuais (sentenças, decisões e despachos), conterão, de forma legível, o nome completo, o cargo ou função da autoridade judiciária, facultada a inclusão da qualificação dos servidores que os lavrem, confiram e subscrevam."
+      },
+      "gab": "D",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 82 IV",
+        "NSCGJ 82 III",
+        "NSCGJ 82 II",
+        "NSCGJ 85 §1º II",
+        "NSCGJ 85 §2º",
+        "NSCGJ 84"
+      ],
+      "exp": "Na escrituração é vedada **a utilização de chancela, ou de qualquer recurso que propicie a reprodução mecânica da assinatura do juiz** (`NSCGJ 82 IV`). A vedação de abreviaturas e siglas tem **exceções** (formas consagradas pelo VOLP, adotadas por órgãos oficiais ou convencionadas) (`NSCGJ 82 III`); o ofício com **desconto de pensão alimentícia** exige a **subscrição do juiz** (`NSCGJ 85 §1º II`); as cartas postais **independem** da assinatura do escrivão ou escreventes (`NSCGJ 85 §2º`); e os instrumentos trazem **obrigatoriamente** o nome e o cargo também dos **servidores** que os lavram, conferem e subscrevem (`NSCGJ 84`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A vedação de abreviaturas, acrônimos, siglas ou símbolos **tem exceções**: as formas consagradas pelo Vocabulário Ortográfico, as adotadas por órgãos oficiais e as convencionadas por área do conhecimento (`NSCGJ 82 III`).",
+        "B": "A **subscrição do juiz é obrigatória** quando houver **determinação de desconto de pensão alimentícia** (`NSCGJ 85 §1º II`).",
+        "C": "A emissão de cartas postais, inclusive por meio eletrônico, **independe da assinatura** do escrivão ou escreventes, desde que conste o nome e o cargo do funcionário emitente e observadas as demais condições (`NSCGJ 85 §2º`).",
+        "D": "Na escrituração é vedada **a utilização de chancela, ou de qualquer recurso que propicie a reprodução mecânica da assinatura do juiz** (`NSCGJ 82 IV`).",
+        "E": "Os instrumentos conterão, de forma legível, o nome completo e o cargo ou função da autoridade judiciária **e dos servidores** que os lavrem, confiram e subscrevam (`NSCGJ 84`); a identificação dos servidores não é facultativa."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#62",
+      "tipo": "me",
+      "numero": 62,
+      "enunciado": "A respeito do protocolo de petições intermediárias em processos eletrônicos, com base nas Normas da Corregedoria Geral de Justiça, assinale a alternativa correta.",
+      "alt": {
+        "A": "É vedado protocolo de petições físicas direcionadas a processos eletrônicos, bem como a materialização de processos eletrônicos.",
+        "B": "Caso o Setor de Protocolo receba indevidamente petição em papel, dirigida a processo que tramita eletronicamente, deverá cancelar o protocolo e intimar o peticionário por carta, para retirada da petição.",
+        "C": "Caso haja materialização do processo, cuja tramitação era em meio eletrônico, passarão a ser admitidas petições em meio físico. Retomada a tramitação no meio eletrônico, não mais serão admitidas petições em meio físico.",
+        "D": "O peticionamento intermediário, em processo eletrônico, pode ocorrer de maneira física na hipótese em que o advogado alegar, no setor de protocolo, ter tido dificuldade de acesso ao sistema.",
+        "E": "Em caso de indisponibilidade do serviço de peticionamento eletrônico, a petição intermediária, desde que observados determinados requisitos, será recebida em papel. Após o retorno do funcionamento do sistema, caberá à parte interessada retirar a petição física em cartório e proceder à sua inserção no processo eletrônico."
+      },
+      "gab": "C",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 1220 p.ú.",
+        "NSCGJ 1220",
+        "NSCGJ 1221",
+        "NSCGJ 1221 §1º",
+        "NSCGJ 1222",
+        "NSCGJ 1222 §1º",
+        "NSCGJ 1222 §3º",
+        "NSCGJ 1205 §4º"
+      ],
+      "exp": "É literal o `NSCGJ 1220 p.ú.`: **materializado** o processo eletrônico, passam a ser **admitidas petições em meio físico**; retomada a tramitação eletrônica, **não mais** se admitem. A própria norma prevê a materialização, e a vedação de receber papel é **ressalvada** nos casos do Capítulo (`NSCGJ 1221`). O recebimento indevido leva ao cancelamento do protocolo e à intimação **pelo DJE** (`NSCGJ 1221 §1º`); o papel só é aceito na **indisponibilidade** ou **impossibilidade técnica**, com os requisitos do `NSCGJ 1205 §4º` (`NSCGJ 1222`), e quem digitaliza a petição é o **ofício de justiça**, cabendo à parte apenas retirá-la depois (`NSCGJ 1222 §1º`, `NSCGJ 1222 §3º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As Normas admitem a **materialização** do processo eletrônico, caso em que passam a ser aceitas petições em meio físico (`NSCGJ 1220 p.ú.`), e a vedação do papel é **ressalvada** nas hipóteses do Capítulo (`NSCGJ 1221`).",
+        "B": "Recebida indevidamente a petição em papel, o Setor de Protocolo cancela o protocolo e intima o peticionário **pelo Diário da Justiça Eletrônico (DJE)** para retirá-la (`NSCGJ 1221 §1º`), não por carta.",
+        "C": "Na **materialização** do processo eletrônico, passam a ser **admitidas petições em meio físico**; retomada a tramitação eletrônica, **não mais** serão admitidas (`NSCGJ 1220 p.ú.`).",
+        "D": "A petição intermediária em papel só é recebida em caso de **indisponibilidade do serviço** ou **impossibilidade técnica**, observados os requisitos do `NSCGJ 1205 §4º` (`NSCGJ 1222`); a mera alegação de dificuldade de acesso não basta.",
+        "E": "Deferida a juntada, é o **ofício de justiça** que protocola e **digitaliza** a petição recebida em papel (`NSCGJ 1222 §1º`); ao requerente cabe apenas retirar a peça física no prazo de 45 dias (`NSCGJ 1222 §3º`)."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#63",
+      "tipo": "me",
+      "numero": 63,
+      "enunciado": "Considere que Maria propôs uma ação de reparação de danos em face de duas empresas, localizadas em cidades distintas, e que o processo tramitou perante a comarca de Várzea Paulista/SP, mas o cumprimento de sentença se deu na comarca de Campinas/SP. Após a conclusão do processo e seu arquivamento, Maria deseja ter novamente acesso aos autos, pois precisa retirar cópia de parte dos documentos. Com base na situação hipotética e no disposto nas Normas da Corregedoria Geral de Justiça, é correto afirmar que",
+      "alt": {
+        "A": "caso o processo tenha tramitado em segredo de justiça, após o seu desarquivamento, Maria somente poderá extrair cópia reprográfica com autorização do juiz competente, por despacho.",
+        "B": "após o desarquivamento, Maria poderá consultar o processo na Comarca de Campinas/SP, devendo o cartório intimá-la de que o processo chegou ao cartório e do prazo de 15 (quinze) dias para manifestação.",
+        "C": "o arquivamento do processo foi promovido pelo ofício da Comarca de Várzea Paulista/SP.",
+        "D": "Maria poderá, por meio de seu advogado, retirar o processo diretamente nos depósitos do Arquivo Terceirizado.",
+        "E": "o requerimento de desarquivamento dos autos prescinde, em regra, o recolhimento de taxa, devendo o ofício requisitar o processo arquivado por informação dentro do sistema da empresa terceirizada responsável pela gestão do arquivo."
+      },
+      "gab": "A",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 182 p.ú.",
+        "NSCGJ 182",
+        "NSCGJ 181",
+        "NSCGJ 181 p.ú.",
+        "NSCGJ 178",
+        "NSCGJ 180",
+        "NSCGJ 188"
+      ],
+      "exp": "A **extração de cópia reprográfica** ou certidão de processos com **segredo de justiça** depende de **despacho do juiz competente** (`NSCGJ 182 p.ú.`). Quando o cumprimento de sentença corre em juízo diverso, o **arquivamento é promovido pelo juízo da execução** (`NSCGJ 178`), aqui Campinas; o interessado é intimado da chegada dos autos e do prazo de **30 dias** para manifestação (`NSCGJ 181 p.ú.`). É **vedada** a consulta ou retirada nos depósitos do Arquivo Terceirizado (`NSCGJ 180`), e o desarquivamento exige, em regra, o **recolhimento da taxa** (`NSCGJ 188`; `NSCGJ 181`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A extração de **cópia reprográfica** ou certidão de processos com **segredo de justiça** depende de **despacho do juiz competente** (`NSCGJ 182 p.ú.`).",
+        "B": "O interessado no desarquivamento é intimado da chegada dos autos ao cartório e do prazo de **30 (trinta) dias** para manifestação (`NSCGJ 181 p.ú.`).",
+        "C": "Quando o cumprimento da sentença se der em juízo diverso daquele que a proferiu, o arquivamento é promovido pelo **juízo da execução** (`NSCGJ 178`).",
+        "D": "É **vedada** às partes e advogados a consulta ou retirada de processos nos depósitos do **Arquivo Terceirizado** (`NSCGJ 180`).",
+        "E": "Os requerimentos de desarquivamento, ressalvadas as exceções legais, serão instruídos com o **comprovante de recolhimento da taxa** (`NSCGJ 188`); a taxa não é dispensada em regra."
+      }
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#64",
+      "tipo": "me",
+      "numero": 64,
+      "enunciado": "A respeito do Sistema Informatizado Oficial, com base nas Normas da Corregedoria Geral de Justiça, assinale a alternativa correta.",
+      "alt": {
+        "A": "Os escrivães judiciais do serviço de distribuição e dos ofícios de justiça realizarão auditoria mensal no sistema SAJ/PG, de acordo com os níveis de criticidade definidos, comunicando à Corregedoria Geral da Justiça qualquer irregularidade.",
+        "B": "O segredo de justiça não poderá ser gerado automaticamente pelo sistema informatizado, sendo necessário que as partes façam a solicitação para que o processo judicial tramite nessa condição e haja autorização judicial.",
+        "C": "Nos ofícios de justiça, o registro e controle da movimentação dos feitos realizar-se-ão preferencialmente pelo sistema informatizado oficial, autorizadas a elaboração de fichário por nome de autor e a utilização de fichas individuais materializadas em papel ou constantes de outros sistemas informatizados, quando conveniente à unidade e por ordem do juiz.",
+        "D": "Quando a mesma parte estiver vinculada a processos que tramitam em outros ofícios de justiça, as eventuais retificações de seus dados serão aplicadas, por economia e eficiência, aos feitos de outro juízo.",
+        "E": "É vedado ao funcionário credenciado para operação do SAJ/PG ceder a respectiva senha ou permitir que outrem, ainda que funcionário do mesmo setor, use-a para acessar indevidamente o sistema informatizado. Além disso, a inserção de dados no sistema informatizado oficial será a mais completa e abrangente possível, de modo que todas as ocorrências do processo físico constem do ambiente virtual, formando banco de dados que servirá de memória permanente."
+      },
+      "gab": "E",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 49 §1º",
+        "NSCGJ 53",
+        "NSCGJ 51",
+        "NSCGJ 61 §2º",
+        "NSCGJ 57",
+        "NSCGJ 62"
+      ],
+      "exp": "É vedado ao funcionário credenciado **ceder a senha** ou permitir que outrem, **funcionário ou não**, a use para acessar indevidamente o sistema (`NSCGJ 49 §1º`), e a inserção de dados será **a mais completa e abrangente possível**, formando banco de dados de **memória permanente** (`NSCGJ 53`). A auditoria dos escrivães é **semanal** (`NSCGJ 51`); o segredo de justiça **pode** ser gerado automaticamente, conforme a natureza da ação (`NSCGJ 61 §2º`); o controle é **exclusivamente** pelo sistema, **vedados** fichários e fichas paralelas (`NSCGJ 57`); e as retificações de dados da parte **não se aplicam** aos feitos de outro juízo (`NSCGJ 62`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Os escrivães judiciais do serviço de distribuição e dos ofícios de justiça realizam auditoria **semanal** no sistema, conforme os níveis de criticidade, comunicando à Corregedoria qualquer irregularidade (`NSCGJ 51`).",
+        "B": "O segredo de justiça **poderá ser gerado automaticamente** pelo sistema informatizado, a depender da **natureza da ação** (`NSCGJ 61 §2º`).",
+        "C": "Nos ofícios de justiça, o registro e controle da movimentação dos feitos realizam-se **exclusivamente** pelo sistema informatizado oficial, **vedadas** a elaboração de fichário por nome de autor e as fichas individuais em papel ou em outros sistemas (`NSCGJ 57`).",
+        "D": "Quando a mesma parte estiver vinculada a processos de outros ofícios de justiça, as retificações de seus dados **não serão aplicadas** aos feitos de outro juízo (`NSCGJ 62`).",
+        "E": "É vedado **ceder a senha** ou permitir que outrem, **funcionário ou não**, a use para acessar indevidamente o sistema (`NSCGJ 49 §1º`), e a inserção de dados será **a mais completa e abrangente possível**, formando **memória permanente** (`NSCGJ 53`)."
+      }
+    }
+  ]
+}

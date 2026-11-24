@@ -1,0 +1,1237 @@
+{
+ "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024",
+ "textos": {},
+ "questoes": [
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#65",
+   "tipo": "me",
+   "numero": 65,
+   "enunciado": "De acordo com o Serviço Geológico dos Estados Unidos, no dia 20 de janeiro de 2024, aconteceu o maior abalo sísmico já registrado no Brasil. Segundo a entidade americana, foram 6,6 graus na Escala Richter. O terremoto ocorreu a 614,5 quilômetros de profundidade, o que garante a dissipação da energia, sem causar transtornos para a população. (Veja. Disponível em: https://shre.ink/gySg. Acesso em 28.09.2024. Adaptado)\n\nO fenômeno ocorreu",
+   "alt": {
+    "A": "na Serra do Mar.",
+    "B": "na Serra da Mantiqueira.",
+    "C": "no Pantanal.",
+    "D": "na Chapada dos Veadeiros.",
+    "E": "na Amazônia."
+   },
+   "gab": "E",
+   "temas": [
+    "atualidades.2024"
+   ],
+   "dispositivos": [],
+   "exp": "O sismo de 20 de janeiro de 2024, de magnitude 6,6 e foco a mais de 600 km de profundidade, teve epicentro na região de Tarauacá, no **Acre, na Amazônia**. Foi o maior já registrado no país e, por ser muito profundo, quase não foi sentido na superfície. As demais regiões indicadas não foram o local do abalo.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "O abalo de 2024 não ocorreu na **Serra do Mar**; o epicentro foi no Acre, na Amazônia.",
+    "B": "O epicentro não ficou na **Serra da Mantiqueira**, e sim no Acre, na região amazônica.",
+    "C": "O **Pantanal** não foi a região do terremoto; o foco foi no extremo oeste da Amazônia, no Acre.",
+    "D": "A **Chapada dos Veadeiros** não foi atingida; o sismo de 6,6 teve epicentro na Amazônia, no Acre.",
+    "E": "O terremoto de 6,6, a cerca de 614 km de profundidade, ocorreu na **Amazônia** (região de Tarauacá, no Acre)."
+   },
+   "pendencias": [
+    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#66",
+   "tipo": "me",
+   "numero": 66,
+   "enunciado": "O Plenário do Supremo Tribunal Federal decidiu, em 13.03.2024, que a mãe não gestante em união homoafetiva também tem direito a uma licença em decorrência do parto. (ebc. Disponível em https://shre.ink/gKtB. Acesso em 28.09.2024. Adaptado)\n\nSegundo o STF,",
+   "alt": {
+    "A": "a mãe não gestante deve ser beneficiada com uma licença de 90 dias para assegurar especial proteção ao vínculo maternal.",
+    "B": "deve ser concedida à mãe não gestante licença pelo período equivalente ao da licença-paternidade.",
+    "C": "deve ser concedida à mãe não gestante licença pelo período equivalente ao da licença-maternidade.",
+    "D": "a mãe não gestante deverá ter o mesmo período da licença-maternidade quando submetida a tratamento para ter condições de aleitamento.",
+    "E": "o período de licença da mãe não gestante deve equivaler à metade do período da licença-maternidade da mãe gestante."
+   },
+   "gab": "C",
+   "temas": [
+    "atualidades.2024"
+   ],
+   "dispositivos": [],
+   "exp": "No julgamento do RE 1.211.446 (Tema 1.072), de 13.03.2024, o STF decidiu que a mãe servidora ou trabalhadora **não gestante** em união homoafetiva tem direito à **licença-maternidade**. A tese acrescenta que, se a companheira gestante já tiver usado o benefício, a não gestante terá licença de duração equivalente à da licença-paternidade. Pelo enunciado, a alternativa que traz a regra geral é a do período da licença-maternidade.",
+   "pendencias": [
+    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística.",
+    "Dúvida de gabarito: a tese do STF dá a licença-maternidade como regra e a licença-paternidade só quando a companheira gestante já usou o benefício; a alternativa B também descreve parte da tese. Resolvida como C."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#67",
+   "tipo": "me",
+   "numero": 67,
+   "enunciado": "No dia 25 de junho de 2024, uma normativa da Agência Nacional de Vigilância Sanitária (Anvisa) passou a proibir a venda e o uso de uma substância que causou a morte de uma pessoa submetida a tratamento estético com produto que continha a substância química proibida, muito usada na técnica de peeling. (Veja. Disponível em https://shre.ink/gy5q. Acesso em 28.09.2024. Adaptado)\n\nA Anvisa proibiu a comercialização de produtos à base de",
+   "alt": {
+    "A": "enxofre.",
+    "B": "iodo.",
+    "C": "amônia.",
+    "D": "fenol.",
+    "E": "cloro."
+   },
+   "gab": "D",
+   "temas": [
+    "atualidades.2024"
+   ],
+   "dispositivos": [],
+   "exp": "Em junho de 2024 a Anvisa proibiu a fabricação, a venda e o uso de produtos à base de **fenol** (ácido carbólico) em procedimentos estéticos como o peeling, depois da morte de uma paciente em tratamento com o produto. As outras substâncias não foram objeto dessa proibição.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A proibição da Anvisa não alcançou o **enxofre**; a substância vetada no peeling foi o fenol.",
+    "B": "O **iodo** não foi a substância proibida nessa normativa; o veto atingiu o fenol.",
+    "C": "A **amônia** não foi proibida pela norma de junho de 2024, que tratou do fenol.",
+    "D": "A Anvisa proibiu a venda e o uso de produtos à base de **fenol**, muito usado em peelings, após a morte de uma paciente.",
+    "E": "O **cloro** não foi a substância banida; a norma de 25 de junho de 2024 visou o fenol."
+   },
+   "pendencias": [
+    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#68",
+   "tipo": "me",
+   "numero": 68,
+   "enunciado": "No dia 14 de agosto de 2024, a Organização Mundial de Saúde (OMS) declarou a mpox como uma emergência de saúde pública de interesse internacional. Segundo o noticiário, não há risco de pandemia como a de covid-19, mas a doença não deve ser subestimada. (g1. Disponível em https://shre.ink/gyGm. Acesso em 28.09.2024. Adaptado)\n\nHá uma variante do vírus (conhecida como Clado 1b) que causa maior mortalidade, afetando principalmente crianças e que está circulando em países da",
+   "alt": {
+    "A": "Europa.",
+    "B": "América Central.",
+    "C": "África.",
+    "D": "América do Sul.",
+    "E": "Ásia."
+   },
+   "gab": "C",
+   "temas": [
+    "atualidades.2024"
+   ],
+   "dispositivos": [],
+   "exp": "O Clado 1b da mpox, mais letal e com muitos casos em crianças, surgiu na República Democrática do Congo e se espalhou por países da **África**, o que motivou a declaração de emergência pela OMS em agosto de 2024. Nos outros continentes houve apenas casos pontuais, e não circulação dessa variante.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Na **Europa** houve apenas casos importados isolados do Clado 1b, e não circulação dessa variante.",
+    "B": "A **América Central** não era área de circulação do Clado 1b em 2024.",
+    "C": "O Clado 1b circulava em países da **África**, a começar pela República Democrática do Congo, e afetava principalmente crianças.",
+    "D": "A **América do Sul** não era área de circulação do Clado 1b; a variante estava concentrada na África.",
+    "E": "Na **Ásia** só houve casos isolados ligados a viagens, não a circulação do Clado 1b."
+   },
+   "pendencias": [
+    "Fato de atualidades (2024) explicado a partir do contexto conhecido; não conferido em fonte jornalística."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#69",
+   "tipo": "me",
+   "numero": 69,
+   "enunciado": "Simplício, que é pessoa com deficiência, e Maria Auxiliadora, sua regular acompanhante, que lhe ajuda em suas tarefas, compareceram ao Cartório de uma Vara Judicial e solicitaram atendimento prioritário para eles, querendo saber, ainda, se teriam direito à prioridade na tramitação de ações judiciais, como autores, que ambos acabaram de ajuizar naquele Fórum.\nNesse sentido, com base nesses fatos, e tendo em vista o disposto na Lei nº 13.146/2015, é correto afirmar que Simplício tem direito ao atendimento prioritário,",
+   "alt": {
+    "A": "bem como à prioridade processual, podendo o funcionário exigir documento comprobatório da deficiência, tendo Maria direito ao atendimento prioritário, mas não à prioridade processual.",
+    "B": "bem como à prioridade processual, mas o funcionário do Cartório pode exigir o documento comprobatório da sua deficiência, e Maria não tem direito ao atendimento prioritário nem à prioridade processual.",
+    "C": "mas não à prioridade processual, não podendo o funcionário exigir documento de identificação da deficiência, e Maria tem direito ao atendimento prioritário e, também, à prioridade processual.",
+    "D": "bem como à prioridade processual, podendo o funcionário exigir o documento de identificação da deficiência, tendo Maria direito ao atendimento prioritário e à prioridade processual.",
+    "E": "mas não à prioridade processual, não podendo o funcionário exigir documento de identificação da deficiência, desde que Simplício esteja usando o cordão identificador previsto na Lei, não tendo Maria direito a qualquer tipo de prioridade."
+   },
+   "gab": "A",
+   "temas": [
+    "direitos-humanos.pcd.direitos"
+   ],
+   "dispositivos": [
+    "L13146 9 II",
+    "L13146 9 VII",
+    "L13146 9 §1º"
+   ],
+   "exp": "O art. 9º da Lei 13.146/2015 garante à pessoa com deficiência atendimento prioritário (`L13146 9 II`) e **tramitação processual** prioritária (`L13146 9 VII`). O §1º estende os direitos ao acompanhante, **exceto** os dos incisos VI e VII, ou seja, Maria tem atendimento prioritário, mas não prioridade processual (`L13146 9 §1º`). Como a prioridade processual depende da condição de pessoa com deficiência, o cartório pode exigir a comprovação dela.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Simplício tem atendimento e prioridade processual (`L13146 9 II e VII`); o acompanhante só tem o atendimento, pois o **§1º** exclui o inciso VII, e a comprovação da deficiência pode ser exigida para a prioridade processual.",
+    "B": "O acompanhante **tem** direito ao atendimento prioritário, pois o `L13146 9 §1º` estende a ele os direitos do artigo, salvo os incisos VI e VII.",
+    "C": "A pessoa com deficiência tem direito à **prioridade processual** (`L13146 9 VII`); negar esse direito a Simplício contraria o artigo.",
+    "D": "O acompanhante não tem prioridade processual: o `L13146 9 §1º` **exclui** o inciso VII da extensão dos direitos.",
+    "E": "A prioridade processual é direito da pessoa com deficiência (`L13146 9 VII`), e o acompanhante tem atendimento prioritário (**§1º**); não depende de cordão identificador."
+   },
+   "pendencias": [
+    "Exigência de documento comprobatório: o art. 9º da lei seca do repositório não a menciona; o gabarito foi escolhido por ser a única alternativa com a divisão correta entre Simplício e Maria."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#70",
+   "tipo": "me",
+   "numero": 70,
+   "enunciado": "Considerando o disposto na Lei nº 13.146/2015, assinale a alternativa correta no tocante ao direito à vida.",
+   "alt": {
+    "A": "É vedada a realização de pesquisa científica envolvendo pessoa com deficiência em situação de tutela ou curatela.",
+    "B": "O consentimento da pessoa com deficiência em situação de curatela, para fins de tratamento médico, não poderá ser suprido.",
+    "C": "O consentimento prévio, livre e esclarecido da pessoa com deficiência é indispensável, entre outros casos, para a realização de pesquisa científica.",
+    "D": "A pessoa com deficiência poderá ser obrigada a se submeter à intervenção cirúrgica, quando provado que ela será o meio mais benéfico para a sua saúde.",
+    "E": "A pessoa com deficiência não será atendida sem seu consentimento prévio, livre e esclarecido, ainda que se trate de emergência em saúde."
+   },
+   "gab": "C",
+   "temas": [
+    "direitos-humanos.pcd.direitos"
+   ],
+   "dispositivos": [
+    "L13146 12",
+    "L13146 11 p.ú.",
+    "L13146 12 §2º",
+    "L13146 13"
+   ],
+   "exp": "O art. 12 da Lei 13.146/2015 diz que o **consentimento prévio, livre e esclarecido** é indispensável para tratamento, procedimento, hospitalização e pesquisa científica. A pesquisa com tutelados ou curatelados é permitida em caráter excepcional (`L13146 12 §2º`), o consentimento do curatelado pode ser suprido (`L13146 11 p.ú.`), ninguém pode ser obrigado a intervenção cirúrgica (`L13146 11`) e, em risco de morte ou emergência em saúde, o atendimento dispensa o consentimento (`L13146 13`).",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A pesquisa com pessoa tutelada ou curatelada é **permitida**, em caráter excepcional e com benefício direto (`L13146 12 §2º`), e não vedada.",
+    "B": "O consentimento do curatelado **pode ser suprido**, na forma da lei (`L13146 11 p.ú.`).",
+    "C": "O `L13146 12` torna **indispensável** o consentimento prévio, livre e esclarecido para tratamento, procedimento, hospitalização e pesquisa científica.",
+    "D": "A pessoa com deficiência **não pode ser obrigada** a intervenção clínica ou cirúrgica (`L13146 11`), ainda que seja benéfica.",
+    "E": "Em casos de **risco de morte e de emergência em saúde**, a pessoa pode ser atendida sem consentimento (`L13146 13`)."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#71",
+   "tipo": "me",
+   "numero": 71,
+   "enunciado": "Uma sala possui uma lâmpada que, após ser ligada, alterna entre as cores azul, amarela e vermelha, emitindo ininterruptamente uma mesma cor até que mude para outra. Quando a lâmpada é ligada, a luz emitida é a azul e, a partir desse momento, a cor emitida muda desde o seu acionamento, em minutos, de acordo com o tempo decorrido desde o seu acionamento, respeitando os seguintes critérios:\n• caso o tempo decorrido seja múltiplo de 3 e de 4, a cor emitida é a azul;\n• caso o tempo decorrido seja múltiplo de 3, mas não de 4, a cor emitida é a amarela;\n• caso o tempo decorrido seja múltiplo de 4, mas não de 3, a cor emitida é a vermelha.\nA partir do momento em que a lâmpada é ligada até se completarem 2 horas e 43 minutos, o número de minutos a mais que a lâmpada emitiu a cor amarela em relação ao tempo em que emitiu a cor vermelha é:",
+   "alt": {
+    "A": "40.",
+    "B": "39.",
+    "C": "38.",
+    "D": "36.",
+    "E": "37."
+   },
+   "gab": "B",
+   "temas": [
+    "matematica.mmc-mdc",
+    "matematica.problemas"
+   ],
+   "dispositivos": [],
+   "exp": "A cor só muda nos múltiplos de 3 ou de 4, e o padrão se repete a cada 12 minutos (mmc de 3 e 4): azul de 0 a 3, amarela de 3 a 4, vermelha de 4 a 6, amarela de 6 a 8, vermelha de 8 a 9 e amarela de 9 a 12. Em cada ciclo são 6 min de amarela e 3 de vermelha. 2 h 43 min = 163 min = 13 ciclos (156 min) + 7 min. Nos 13 ciclos: amarela 78 e vermelha 39. Nos 7 min finais (de 156 a 163): azul até 159, amarela de 159 a 160, vermelha de 160 a 162, amarela de 162 a 163, ou seja, 2 de amarela e 2 de vermelha. Total: amarela 80 e vermelha 41, diferença **39**.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A diferença é 80 − 41 = **39** min, e não 40.",
+    "B": "Com 13 ciclos de 12 min (amarela 78, vermelha 39) e os 7 min finais (2 de cada), a diferença é 80 − 41 = **39**.",
+    "C": "A diferença é 80 − 41 = **39** min, e não 38.",
+    "D": "A diferença é 80 − 41 = **39** min; 36 não resulta da contagem dos ciclos.",
+    "E": "A diferença é 80 − 41 = **39** min, e não 37."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#72",
+   "tipo": "me",
+   "numero": 72,
+   "enunciado": "Trabalhavam em uma empresa 1 250 funcionários, sendo que a razão entre o número de homens e o número de mulheres era igual a 7/3. Durante alguns meses, a empresa resolveu demitir, mês a mês, o mesmo número de homens. Ao mesmo tempo, também mês a mês, a empresa admitiu o mesmo número de mulheres, de modo a manter sempre os 1 250 funcionários. A empresa executou essa política durante cinco meses e conseguiu que a razão entre o número de homens funcionários e o número de mulheres funcionárias se tornasse 1/4.\nApós as demissões e contratações do terceiro mês no qual essa política foi executada, essa razão, entre número de homens e número de mulheres era igual a",
+   "alt": {
+    "A": "13/7",
+    "B": "11/5",
+    "C": "6/7",
+    "D": "3/4",
+    "E": "2/3"
+   },
+   "gab": "E",
+   "temas": [
+    "matematica.razao-proporcao"
+   ],
+   "dispositivos": [],
+   "exp": "No início: homens = 1 250 × 7/10 = 875 e mulheres = 375. No fim, com razão 1/4 e total 1 250: homens = 250 e mulheres = 1 000. Em cinco meses saíram 625 homens, ou seja, **125 por mês**. Após o terceiro mês: homens = 875 − 375 = 500 e mulheres = 750, razão 500/750 = **2/3**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Após três meses há 500 homens e 750 mulheres, razão **2/3**; 13/7 daria mais homens que mulheres.",
+    "B": "Com 125 homens a menos por mês, a razão após o terceiro mês é 500/750 = **2/3**, e não 11/5.",
+    "C": "A razão após o terceiro mês é 500/750 = **2/3**, e não 6/7.",
+    "D": "A razão 3/4 não ocorre no terceiro mês: com 500 homens e 750 mulheres, vale **2/3**.",
+    "E": "Saem 125 homens por mês (875 → 250 em cinco meses); no terceiro mês restam 500 homens e 750 mulheres, razão **2/3**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#73",
+   "tipo": "me",
+   "numero": 73,
+   "enunciado": "Os funcionários de uma empresa votaram para escolher seus representantes junto à diretoria. No dia da votação, foram determinados 3 horários para que os funcionários fossem votar. No primeiro horário, 15% dos funcionários votaram, no segundo horário, votaram 20% daqueles que ainda não haviam votado, no terceiro horário, votaram 6 em cada 17 daqueles que ainda não havia votado, e os demais não votaram.\nA porcentagem de funcionários dessa empresa que não votaram é:",
+   "alt": {
+    "A": "56%",
+    "B": "68%",
+    "C": "24%",
+    "D": "44%",
+    "E": "32%"
+   },
+   "gab": "D",
+   "temas": [
+    "matematica.porcentagem"
+   ],
+   "dispositivos": [],
+   "exp": "Depois do 1º horário restam 85% dos funcionários. No 2º, votam 20% deles, e restam 0,8 × 85% = 68%. No 3º, votam 6/17 dos restantes, e sobram 11/17 × 68% = **44%**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Os 56% não resultam da sequência: sobram 85% × 0,8 × 11/17 = **44%**.",
+    "B": "68% é quanto restava antes do 3º horário; depois dele sobram 11/17 × 68% = **44%**.",
+    "C": "Os 24% são os que votaram no 3º horário (6/17 de 68%), não os que deixaram de votar; estes são **44%**.",
+    "D": "Restam 85% após o 1º horário, 68% após o 2º e 11/17 × 68% = **44%** após o 3º.",
+    "E": "Os 32% não resultam da sequência de votações; os que não votaram são **44%**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#74",
+   "tipo": "me",
+   "numero": 74,
+   "enunciado": "Uma fábrica de elementos de fixação produz parafusos de alta qualidade. Essa fábrica recebeu um pedido de 61 103 parafusos iguais. A fábrica dispõe de 13 máquinas iguais para essa produção e utilizou-as na produção de 22 295 desses parafusos em 7 dias, trabalhando 5 horas por dia. Após essa etapa de produção, 4 dessas máquinas apresentaram defeito e foram utilizadas apenas as restantes para a finalização do pedido. Por conta da diminuição das máquinas disponíveis, o trabalho continuou com uma operação de 8 horas por dia.\nDessa maneira a produção desse pedido foi completada em mais",
+   "alt": {
+    "A": "11 dias.",
+    "B": "13 dias.",
+    "C": "10 dias.",
+    "D": "9 dias.",
+    "E": "7 dias."
+   },
+   "gab": "A",
+   "temas": [
+    "matematica.regra-de-tres"
+   ],
+   "dispositivos": [],
+   "exp": "Na primeira etapa, 13 máquinas × 7 dias × 5 h = 455 máquinas-hora produziram 22 295 parafusos, ou seja, 22 295 ÷ 455 = 49 parafusos por máquina-hora. Faltam 61 103 − 22 295 = 38 808 parafusos. Com 9 máquinas por 8 h por dia são 72 máquinas-hora diárias, que produzem 72 × 49 = 3 528 parafusos por dia. Portanto 38 808 ÷ 3 528 = **11 dias**.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Faltam 38 808 parafusos e a produção diária é 9 × 8 × 49 = 3 528, logo são **11 dias**.",
+    "B": "13 dias seria o resultado de ignorar o aumento para 8 horas diárias; o correto é 38 808 ÷ 3 528 = **11**.",
+    "C": "10 dias não completam o pedido: 10 × 3 528 = 35 280 < 38 808; são necessários **11**.",
+    "D": "Em 9 dias saem só 9 × 3 528 = 31 752 parafusos, menos que os 38 808 que faltam; são **11 dias**.",
+    "E": "Em 7 dias saem só 7 × 3 528 = 24 696 parafusos, menos que os 38 808 que faltam; são **11 dias**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#75",
+   "tipo": "me",
+   "numero": 75,
+   "enunciado": "Quatro amigos foram ao mesmo supermercado e compraram os mesmos itens, com os mesmos preços unitários, mas com alguma diferença na quantidade de cada item. Félix comprou 5 potes de molho de tomate, 3 dúzias de ovos e um pacote de macarrão e pagou por esses produtos a quantia de R$ 76,60. Mateus comprou um pote de molho de tomate, 5 dúzias de ovos e um pacote de macarrão e pagou a quantia de R$ 79,00. Paulo comprou dois potes de molho de tomate, uma dúzia de ovos e 3 pacotes de macarrão e pagou R$ 63,60.\nTiago comprou 3 potes de molho de tomate, 4 dúzias de ovos e um pacote de macarrão e pagou por esses produtos a quantia de",
+   "alt": {
+    "A": "R$ 79,40.",
+    "B": "R$ 80,80.",
+    "C": "R$ 77,80.",
+    "D": "R$ 78,40.",
+    "E": "R$ 79,00."
+   },
+   "gab": "C",
+   "temas": [
+    "matematica.sistemas"
+   ],
+   "dispositivos": [],
+   "exp": "Sejam m (molho), o (dúzia de ovos) e x (macarrão). Do sistema 5m + 3o + x = 76,60; m + 5o + x = 79,00; 2m + o + 3x = 63,60, subtraindo as duas primeiras obtém-se 4m − 2o = −2,40, logo o = 2m + 1,20. Substituindo, x = 73 − 11m, e a terceira equação dá m = 5,40, o = 12,00 e x = 13,60. Tiago pagou 3 × 5,40 + 4 × 12 + 13,60 = 16,20 + 48 + 13,60 = **R$ 77,80**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O valor é 3 × 5,40 + 4 × 12,00 + 13,60 = **R$ 77,80**, e não R$ 79,40.",
+    "B": "Com molho a R$ 5,40, ovos a R$ 12,00 e macarrão a R$ 13,60, Tiago paga **R$ 77,80**, e não R$ 80,80.",
+    "C": "Resolvido o sistema (m = 5,40; o = 12,00; x = 13,60), a compra de Tiago custa 16,20 + 48,00 + 13,60 = **R$ 77,80**.",
+    "D": "A soma 16,20 + 48,00 + 13,60 dá **R$ 77,80**, e não R$ 78,40.",
+    "E": "R$ 79,00 é o que Mateus pagou; Tiago paga 16,20 + 48,00 + 13,60 = **R$ 77,80**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#76",
+   "tipo": "me",
+   "numero": 76,
+   "enunciado": "A figura a seguir representa um terreno no qual será construído um depósito. Sabe-se que BCDE é um quadrado de 2 601 m² de área e que a medida de AB é 21 metros menor do que a medida de AE.\n\n[Figura (fora de escala): quadrado BCDE com o lado BE tracejado; abaixo dele, o triângulo ABE, com ângulo reto em A, AB na vertical e AE na horizontal.]\n\nDesse modo, é correto afirmar que a área total do terreno é igual a",
+   "alt": {
+    "A": "3 423 m²",
+    "B": "2 850 m²",
+    "C": "3 638 m²",
+    "D": "3 141 m²",
+    "E": "3 257 m²"
+   },
+   "gab": "D",
+   "temas": [
+    "matematica.geometria",
+    "matematica.equacoes"
+   ],
+   "dispositivos": [],
+   "exp": "O lado do quadrado mede √2 601 = 51 m, e esse lado é a hipotenusa BE do triângulo retângulo ABE. Com AB = x e AE = x + 21: x² + (x + 21)² = 2 601, ou seja, x² + 21x − 1 080 = 0, que dá x = 24 e AE = 45. A área do triângulo é 24 × 45 ÷ 2 = 540 m². A área total é 2 601 + 540 = **3 141 m²**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A área do terreno é 2 601 + 540 = **3 141 m²**, e não 3 423 m².",
+    "B": "A área do terreno é 2 601 + 540 = **3 141 m²**, e não 2 850 m².",
+    "C": "A área do terreno é 2 601 + 540 = **3 141 m²**, e não 3 638 m².",
+    "D": "Quadrado de 2 601 m² mais triângulo de catetos 24 m e 45 m (540 m²): **3 141 m²**.",
+    "E": "A área do terreno é 2 601 + 540 = **3 141 m²**, e não 3 257 m²."
+   },
+   "imagens": [
+    "figuras/q76.png"
+   ],
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#77",
+   "tipo": "me",
+   "numero": 77,
+   "enunciado": "Um usuário de um computador com o sistema operacional Windows 11, em sua configuração padrão, criou um atalho para o arquivo dados.docx. Posteriormente, não tendo mais necessidade desse arquivo, deletou-o, acarretando sua colocação na Lixeira do Windows 11.\nSobre essa ação, é correto afirmar que",
+   "alt": {
+    "A": "quando o usuário deletou o arquivo, uma janela surgiu na tela, perguntando se ele desejava também deletar o atalho desse arquivo.",
+    "B": "o atalho não funcionará mais até o arquivo dados.docx ser restaurado no mesmo local em que foi excluído.",
+    "C": "quando um arquivo é deletado, o seu atalho é deletado automaticamente.",
+    "D": "o atalho passará a apontar para o arquivo dados.docx na Lixeira do Windows 11.",
+    "E": "caso o usuário clique no atalho, uma caixa de mensagem será exibida, com o texto “Erro – arquivo não encontrado”."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.windows"
+   ],
+   "dispositivos": [],
+   "exp": "O atalho é só um ponteiro para o caminho do arquivo. Ao excluir o arquivo, o atalho **continua existindo**, mas quebrado: ele deixa de funcionar até o arquivo ser **restaurado da Lixeira ao local original**. O Windows não pergunta nem apaga o atalho e não o redireciona para a Lixeira.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O Windows **não pergunta** sobre o atalho ao excluir o arquivo; o atalho permanece.",
+    "B": "O atalho fica **quebrado** e só volta a funcionar quando o arquivo é restaurado ao mesmo local de onde foi excluído.",
+    "C": "Excluir o arquivo **não apaga** o atalho, que continua na pasta onde foi criado.",
+    "D": "O atalho guarda o caminho original e **não é redirecionado** para a Lixeira.",
+    "E": "O Windows exibe uma mensagem própria de atalho quebrado (item movido ou alterado), não o texto “Erro – arquivo não encontrado”."
+   },
+   "pendencias": [
+    "Texto exato da mensagem do Windows 11 para atalho quebrado não conferido; a alternativa E foi tida como errada por citar um texto que o sistema não usa."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#78",
+   "tipo": "me",
+   "numero": 78,
+   "enunciado": "Um usuário de um computador com o sistema operacional Windows 11, em sua configuração padrão, utilizou o atalho Windows + Tab, que abriu",
+   "alt": {
+    "A": "a Assistência Rápida.",
+    "B": "o menu Iniciar.",
+    "C": "as definições de Facilidade de Acesso.",
+    "D": "a aba do Narrador.",
+    "E": "a Visão de Tarefas."
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.windows"
+   ],
+   "dispositivos": [],
+   "exp": "O atalho **Windows + Tab** abre a **Visão de Tarefas**, que mostra as janelas abertas e as áreas de trabalho virtuais. A Assistência Rápida abre com Ctrl + Windows + Q, o menu Iniciar com a tecla Windows e a Facilidade de Acesso com Windows + U.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "A **Assistência Rápida** abre com Ctrl + Windows + Q, não com Windows + Tab.",
+    "B": "O **menu Iniciar** abre com a tecla Windows sozinha.",
+    "C": "As definições de **Facilidade de Acesso** abrem com Windows + U.",
+    "D": "O **Narrador** é ligado com Ctrl + Windows + Enter, e não com Windows + Tab.",
+    "E": "Windows + Tab abre a **Visão de Tarefas**, com as janelas abertas e as áreas de trabalho virtuais."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#79",
+   "tipo": "me",
+   "numero": 79,
+   "enunciado": "Um usuário do MS-Word, aplicativo presente no Microsoft 365, em português e em configuração padrão (tendo como base a versão 2016), selecionou a palavra “maçã” de um parágrafo de um documento que estava sendo editado, sendo que essa palavra estava com o estilo de fonte Normal. Em seguida, aplicou a essa palavra o estilo de fonte Sublinhado e, posteriormente, o efeito de fonte Tachado.\nCaso o atalho de teclado Ctrl+Z seja aplicado imediatamente após essa última ação, é correto afirmar que a palavra “maçã”, inicialmente selecionada,",
+   "alt": {
+    "A": "permanecerá com o efeito Tachado e ficará sem o estilo de fonte Sublinhado.",
+    "B": "permanecerá com o estilo de fonte Sublinhado e ficará sem o efeito Tachado.",
+    "C": "ficará com um tamanho de fonte menor.",
+    "D": "ficará com um tamanho de fonte maior.",
+    "E": "ficará sem o estilo de fonte Sublinhado e sem o efeito Tachado."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.word"
+   ],
+   "dispositivos": [],
+   "exp": "**Ctrl+Z** desfaz apenas a **última** ação. A última foi o efeito Tachado, então ele sai e o **Sublinhado**, aplicado antes, permanece. Para voltar ao Normal seria preciso repetir o comando.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O Ctrl+Z desfaz a ação mais recente (o tachado), então o tachado **não permanece**.",
+    "B": "Desfaz-se só a última ação: o **Tachado** sai e o **Sublinhado** permanece.",
+    "C": "O Ctrl+Z não altera o **tamanho** da fonte, pois nenhuma ação anterior mudou o tamanho.",
+    "D": "O Ctrl+Z não aumenta o **tamanho** da fonte; ele só desfaz o tachado.",
+    "E": "Um único Ctrl+Z desfaz **uma** ação; o sublinhado, aplicado antes, é mantido."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#80",
+   "tipo": "me",
+   "numero": 80,
+   "enunciado": "Um usuário do MS-Word do Microsoft 365, em português e em sua configuração padrão (tendo como base a versão 2016), inseriu em um documento um objeto Caixa de Texto do tipo Simples, a partir da guia Inserir, grupo Texto.\nÉ correto afirmar que, uma vez selecionada essa caixa de texto já inserida no documento em edição, pode-se",
+   "alt": {
+    "A": "rotacioná-la no sentido horário ou anti-horário.",
+    "B": "transformá-la em uma caixa de texto criptografada.",
+    "C": "alterar sua aparência para uma caixa de texto do tipo piscante.",
+    "D": "enviá-la diretamente por e-mail.",
+    "E": "mudar seu formato retangular para um círculo ou elipse."
+   },
+   "gab": "A",
+   "temas": [
+    "informatica.word"
+   ],
+   "dispositivos": [],
+   "exp": "A caixa de texto é um objeto de desenho: selecionada, pode ser **girada** (pela alça de rotação ou em Formato da Forma, Girar, à direita ou à esquerda). Não existe caixa de texto criptografada nem piscante, e o Word não envia só a caixa por e-mail.",
+   "pendencias": [
+    "Dúvida de gabarito: também é possível mudar a forma da caixa (Formato da Forma, Editar Forma, Alterar Forma), o que tornaria a E correta; resolvida como A (rotação)."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#81",
+   "tipo": "me",
+   "numero": 81,
+   "enunciado": "Foi criada a seguinte planilha, no MS-Excel presente no Microsoft-365 (tendo como referência a versão 2016), em português e em sua configuração padrão.\n\n[Tabela: A1 = 13, B1 = 6, C1 = 21; A2 = 1, B2 = 0, C2 = 22; A3 = 4, B3 = 15, C3 = 23; linha 4 vazia.]\n\nPosteriormente, na célula C4, foi inserida a seguinte fórmula:\n=MAIOR(A1:C3;8)+SOMA(A2:C2)+1\nO resultado produzido em C4 é:",
+   "alt": {
+    "A": "23",
+    "B": "21",
+    "C": "24",
+    "D": "22",
+    "E": "25"
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.excel"
+   ],
+   "dispositivos": [],
+   "exp": "Os valores de A1:C3 em ordem decrescente são 23, 22, 21, 15, 13, 6, 4, 1 e 0, e o 8º maior é **1**. SOMA(A2:C2) = 1 + 0 + 22 = 23. O resultado é 1 + 23 + 1 = **25**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "O resultado é 1 + 23 + 1 = **25**, e não 23.",
+    "B": "O resultado é 1 + 23 + 1 = **25**, e não 21.",
+    "C": "O resultado é 1 + 23 + 1 = **25**, e não 24.",
+    "D": "O resultado é 1 + 23 + 1 = **25**, e não 22.",
+    "E": "MAIOR(A1:C3;8) = 1, SOMA(A2:C2) = 23 e o +1 final dão **25**."
+   },
+   "imagens": [
+    "figuras/q81.png"
+   ],
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#82",
+   "tipo": "me",
+   "numero": 82,
+   "enunciado": "No MS-Excel, presente no Microsoft-365 (tendo como referência a versão 2016), em português e em sua configuração, uma planilha possui os seguintes valores nas células a seguir.\nB2: abC\nC3: ABC\nConsidere que as seguintes fórmulas foram inseridas nas células C5, C6 e C7:\nC5: =MAIÚSCULA(B2)\nC6: =MINÚSCULA(C3)\nC7: =CONCATENAR(C5;C6)\nAssinale a alternativa que apresenta o resultado produzido em C7.",
+   "alt": {
+    "A": "AbCaBC",
+    "B": "ABcabc",
+    "C": "ABCabc",
+    "D": "abcabc",
+    "E": "abcABC"
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.excel"
+   ],
+   "dispositivos": [],
+   "exp": "MAIÚSCULA(B2) converte “abC” em **ABC**, MINÚSCULA(C3) converte “ABC” em **abc**, e CONCATENAR junta os dois textos em ordem: **ABCabc**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "MAIÚSCULA e MINÚSCULA convertem o texto inteiro, sem misturar caixas; o resultado é **ABCabc**.",
+    "B": "MAIÚSCULA converte B2 por inteiro: C5 vale ABC, e não AB, então o resultado é **ABCabc**.",
+    "C": "C5 vale ABC e C6 vale abc; concatenados nessa ordem resultam em **ABCabc**.",
+    "D": "O resultado não é todo minúsculo: C5 é convertida em maiúsculas, e a concatenação dá **ABCabc**.",
+    "E": "A ordem é C5 e depois C6, então o resultado é **ABCabc**, e não abcABC."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#83",
+   "tipo": "me",
+   "numero": 83,
+   "enunciado": "Uma mensagem de e-mail teve seus destinatários especificados da seguinte maneira:\nPara: a@a.com.br\nCc: b@b.com.br\nCco: c@c.com.br\nSuponha que todos os destinatários sejam válidos e não tenham problemas para receber a mensagem, tais como filtros de antispam, caixa postal cheia, etc.\nCom base nessas informações, é correto afirmar que",
+   "alt": {
+    "A": "c@c.com.br só recebe a mensagem após a@a.com.br e b@b.com.br excluí-la de suas caixas postais.",
+    "B": "a@a.com.br recebe a mensagem, mas não consegue visualizar que b@b.com.br e c@c.com.br também eram destinatários.",
+    "C": "b@b.com.br recebe a mensagem e consegue visualizar que c@c.com.br também era um destinatário.",
+    "D": "c@c.com.br recebe a mensagem e consegue visualizar que b@b.com.br também era um destinatário.",
+    "E": "c@c.com.br só recebe a mensagem após b@b.com.br excluí-la de sua caixa postal, mas a@a.com.br não precisa excluí-la."
+   },
+   "gab": "D",
+   "temas": [
+    "informatica.email"
+   ],
+   "dispositivos": [],
+   "exp": "Os destinatários em **Cco** (cópia oculta) recebem a mensagem junto com os demais, e os outros não veem o endereço deles. O destinatário em Cco, porém, **vê os campos Para e Cc**. Assim, c@c.com.br vê que b@b.com.br (Cc) também era destinatário.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A entrega é simultânea: o Cco **não depende** de ninguém excluir a mensagem.",
+    "B": "O destinatário em Para **vê o Cc** (b@b.com.br); só não vê o Cco.",
+    "C": "O destinatário em Cc **não vê** o Cco; a cópia oculta é invisível para os demais.",
+    "D": "Quem está em Cco recebe a mensagem e **vê** os destinatários de Para e de Cc, entre eles b@b.com.br.",
+    "E": "O Cco recebe a mensagem ao mesmo tempo que os demais, **sem esperar** exclusões."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#84",
+   "tipo": "me",
+   "numero": 84,
+   "enunciado": "Quando uma mensagem de e-mail é recebida, os aplicativos de e-mail permitem a execução de diversas ações. Tomando como referência o aplicativo Microsoft Outlook ou a interface web do Gmail, aplicações típicas de correio eletrônico, assinale a alternativa correta.",
+   "alt": {
+    "A": "Na ação “encaminhar”, os anexos incluídos na mensagem original são incluídos automaticamente, por padrão, na nova mensagem.",
+    "B": "Na ação “responder para todos”, os anexos incluídos na mensagem original são incluídos automaticamente, por padrão, na nova mensagem.",
+    "C": "Na ação “encaminhar”, o assunto da nova mensagem é preenchido com o prefixo “RE:”, por padrão, seguido do assunto da mensagem original.",
+    "D": "Na ação “marcar como não lido”, uma cópia da mensagem original é reenviada de volta ao remetente original, contendo os mesmos anexos.",
+    "E": "Na ação “excluir” ou “enviar para lixeira”, o remetente da mensagem é marcado como fonte de spam, e novas mensagens do mesmo remetente não podem mais ser recebidas."
+   },
+   "gab": "A",
+   "temas": [
+    "informatica.email"
+   ],
+   "dispositivos": [],
+   "exp": "Ao **encaminhar**, os anexos da mensagem original seguem junto, por padrão. Ao responder (ou responder a todos), os anexos **não** são incluídos, e o prefixo do assunto é “RE:”; no encaminhamento é “ENC:” ou “FW:”. “Marcar como não lido” só muda o estado local da mensagem, e excluir não bloqueia o remetente.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "No encaminhamento, os **anexos originais** são anexados à nova mensagem por padrão.",
+    "B": "Ao **responder a todos**, os anexos originais não vão na resposta por padrão.",
+    "C": "No encaminhamento o assunto recebe o prefixo **ENC:/FW:**; “RE:” é o das respostas.",
+    "D": "**Marcar como não lido** só altera o estado da mensagem na caixa, sem reenviar nada.",
+    "E": "**Excluir** a mensagem não marca o remetente como spam nem bloqueia novas mensagens."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#85",
+   "tipo": "me",
+   "numero": 85,
+   "enunciado": "Analise a seguinte URL (Uniform Resource Locator):\nhttps://www.site.com:8080/pasta/arquivo.html?id=123#section1\nSobre as partes que a compõem:",
+   "alt": {
+    "A": "www.site.com.br é o caminho, e https é o protocolo.",
+    "B": "8080 é a porta no servidor na qual o navegador deve se conectar, e id=123 é a palavra passe.",
+    "C": "section1 é o fragmento, e www.site.com é o nome do domínio.",
+    "D": "https é o programa, e /pasta/arquivo.html é o arquivo.",
+    "E": "id=123 é o parâmetro de consulta, e section1 é o número da sessão solicitada."
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.internet"
+   ],
+   "dispositivos": [],
+   "exp": "Na URL, `https` é o protocolo, `www.site.com` é o nome do domínio (host), `8080` é a porta, `/pasta/arquivo.html` é o caminho, `id=123` é o parâmetro de consulta (query string) e `section1` é o **fragmento** (âncora dentro da página). Por isso a alternativa certa é a que une fragmento e domínio.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "`www.site.com` é o domínio (host), não o caminho, e a URL nem traz o “.br”.",
+    "B": "`id=123` é um **parâmetro de consulta**, e não uma palavra-passe.",
+    "C": "`section1` é o **fragmento** da página, e `www.site.com` é o **nome do domínio**.",
+    "D": "`https` é o **protocolo**, não um programa, e `/pasta/arquivo.html` é o caminho até o recurso.",
+    "E": "`section1` é o **fragmento** (âncora), e não o número de uma sessão."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#86",
+   "tipo": "me",
+   "numero": 86,
+   "enunciado": "Um desenvolvedor deseja criar um site para uma empresa e precisa decidir se o site a ser criado deve ser estático ou dinâmico.\nSobre esses tipos de sites, é correto afirmar que",
+   "alt": {
+    "A": "uma desvantagem dos sites estáticos é que eles não podem conter imagens.",
+    "B": "uma desvantagem dos sites dinâmicos é a maior dificuldade na sua atualização.",
+    "C": "uma desvantagem dos sites dinâmicos é a falta de interatividade com o usuário.",
+    "D": "uma vantagem dos sites dinâmicos é que as suas páginas tendem a serem carregadas mais rapidamente do que as páginas de um site estático.",
+    "E": "um site dinâmico gera o conteúdo das páginas em tempo real, com base nas interações do usuário e em dados armazenados em um banco de dados."
+   },
+   "gab": "E",
+   "temas": [
+    "informatica.internet"
+   ],
+   "dispositivos": [],
+   "exp": "Site **dinâmico** monta as páginas no momento do acesso, conforme as ações do usuário e os dados de um banco. Sites estáticos podem ter imagens, os dinâmicos são mais fáceis de atualizar e mais interativos, e costumam carregar mais devagar, por precisarem de processamento no servidor.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Sites estáticos **podem** conter imagens; o que não têm é conteúdo gerado em tempo real.",
+    "B": "A atualização de conteúdo é **mais fácil** nos sites dinâmicos, pois os dados ficam em banco.",
+    "C": "A **interatividade** é justamente uma característica dos sites dinâmicos.",
+    "D": "Páginas dinâmicas exigem processamento no servidor e tendem a carregar **mais devagar**, não mais rápido.",
+    "E": "O site dinâmico **gera as páginas em tempo real**, a partir das interações e de dados em banco."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#87",
+   "tipo": "me",
+   "numero": 87,
+   "enunciado": "A realização de reuniões no Microsoft Teams é feita por meio de uma tela, na qual há diversos ícones em sua barra de ferramentas. Um desses ícones recebe a denominação de “Exibição”, para a personalização da forma de exibição dos participantes na reunião. Dentre as opções disponibilizadas por meio do acionamento desse ícone está",
+   "alt": {
+    "A": "Destaque.",
+    "B": "Galeria.",
+    "C": "Série.",
+    "D": "Filtro.",
+    "E": "Oculto."
+   },
+   "gab": "B",
+   "temas": [
+    "informatica.teams"
+   ],
+   "dispositivos": [],
+   "exp": "No menu **Exibição** da reunião do Teams estão opções como **Galeria**, Modo Juntos, Tela dividida e Foco no conteúdo. Destaque (spotlight) é recurso aplicado a um participante, não uma forma de exibição do menu; Série, Filtro e Oculto não são opções dele.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "**Destaque** é recurso aplicado a um participante, e não uma opção do menu Exibição.",
+    "B": "**Galeria** é uma das exibições do menu Exibição, a que mostra os participantes em grade.",
+    "C": "**Série** não é uma opção do menu Exibição do Teams.",
+    "D": "**Filtro** não é uma opção do menu Exibição do Teams.",
+    "E": "**Oculto** não é uma opção do menu Exibição do Teams."
+   },
+   "pendencias": [
+    "Menu e nomes de opções do Teams mudam entre versões; não conferido no aplicativo."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#88",
+   "tipo": "me",
+   "numero": 88,
+   "enunciado": "O Microsoft Teams apresenta os seguintes tipos de canais: padrão, privado e compartilhado. Dentre esses tipos de canais, o recurso conhecido como “Moderação” aplica-se apenas",
+   "alt": {
+    "A": "aos canais padrão e privado.",
+    "B": "aos canais privado e compartilhado.",
+    "C": "ao canal compartilhado.",
+    "D": "ao canal padrão.",
+    "E": "ao canal privado."
+   },
+   "gab": "D",
+   "temas": [
+    "informatica.teams"
+   ],
+   "dispositivos": [],
+   "exp": "A **moderação de canal**, que controla quem pode iniciar postagens e responder, está disponível apenas nos canais **padrão**. Os canais privados e compartilhados não têm esse recurso.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A moderação **não** existe em canais privados; vale só para o canal padrão.",
+    "B": "Nem os canais privados nem os compartilhados têm moderação; ela é do canal **padrão**.",
+    "C": "O canal compartilhado **não** tem o recurso de moderação.",
+    "D": "A moderação aplica-se apenas ao canal **padrão**.",
+    "E": "O canal privado **não** tem o recurso de moderação."
+   },
+   "pendencias": [
+    "Regra de moderação por tipo de canal conferida só de memória, sem consulta à documentação da Microsoft."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#89",
+   "tipo": "me",
+   "numero": 89,
+   "enunciado": "Na tela “Sincronizar e fazer backup” do Microsoft OneDrive, há a possibilidade de ajustar as chamadas “Configurações avançadas”, que apresentam como opção, limitar, especificamente, as taxas de",
+   "alt": {
+    "A": "modificação e criptografia.",
+    "B": "compactação e captura.",
+    "C": "download e carregamento.",
+    "D": "upload e exclusão.",
+    "E": "monitoramento e identificação."
+   },
+   "gab": "C",
+   "temas": [
+    "informatica.onedrive"
+   ],
+   "dispositivos": [],
+   "exp": "Nas **Configurações avançadas** de Sincronizar e fazer backup, o OneDrive permite limitar a **taxa de download** e a **taxa de upload** (carregamento) da sincronização. As outras taxas citadas não existem.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Não há limite de **modificação** nem de **criptografia** nessas configurações.",
+    "B": "Não há limite de **compactação** nem de **captura** nessas configurações.",
+    "C": "Dá para limitar as taxas de **download** e de **carregamento (upload)** da sincronização.",
+    "D": "Só a taxa de upload é limitável; **exclusão** não é uma taxa ajustável.",
+    "E": "Não há limite de **monitoramento** nem de **identificação** nessas configurações."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#90",
+   "tipo": "me",
+   "numero": 90,
+   "enunciado": "O Microsoft OneDrive conta com uma pasta denominada Cofre Pessoal, que tem como uma de suas propriedades:",
+   "alt": {
+    "A": "possuir uma camada extra de proteção para seu acesso.",
+    "B": "não permitir armazenamento de arquivos maiores do que 1 Megabyte.",
+    "C": "armazenar, exclusivamente, arquivos de mídia, como mp4.",
+    "D": "armazenar, exclusivamente, arquivos com camada dupla de criptografia.",
+    "E": "ser acessível, exclusivamente, a partir de tablets e celulares."
+   },
+   "gab": "A",
+   "temas": [
+    "informatica.onedrive"
+   ],
+   "dispositivos": [],
+   "exp": "O **Cofre Pessoal** do OneDrive é uma área protegida que exige **verificação extra de identidade** (PIN, biometria ou código) para abrir. Aceita qualquer tipo de arquivo, sem limite de 1 MB, e é acessível em computadores e celulares.",
+   "vf": {
+    "A": true,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O acesso ao Cofre Pessoal exige **verificação adicional de identidade**, uma camada extra de proteção.",
+    "B": "O Cofre Pessoal **não limita** os arquivos a 1 MB.",
+    "C": "O Cofre Pessoal guarda **qualquer tipo** de arquivo, e não só mídia.",
+    "D": "O Cofre Pessoal não é exclusivo de arquivos com dupla criptografia; guarda **qualquer arquivo**, com proteção extra no acesso.",
+    "E": "O Cofre Pessoal também é acessível em **computadores**, e não só em tablets e celulares."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#91",
+   "tipo": "me",
+   "numero": 91,
+   "enunciado": "Uma empresa presenteou os cinco atendentes mais bem avaliados com uma viagem de fim de semana com tudo pago. Os cinco destinos (Salvador, Maceió, Recife, Natal e Fortaleza) foram sorteados entre os vencedores (Felipe, Juliana, Pedro, Rafaela e Manuela). No dia da divulgação do resultado do sorteio, cada um dos vencedores escreveu um palpite sobre qual teria sido o resultado.\nFelipe achava que Juliana iria para Natal ou Maceió. Pedro disse que Rafaela viajaria para Fortaleza ou Recife. Rafaela, confiante, disse: “acho que vou para Natal”. Manuela falou que para Maceió iria o Felipe ou ela mesma; e, por fim, Juliana prognosticou: “acho que para Salvador vai o Felipe, ou que Rafaela vai para Maceió, ou que Manuela vai para Natal, ou que eu vou para Fortaleza”. Os organizadores disseram que todos os palpites dados estavam incorretos.\nCiente dessa informação, é correto afirmar que",
+   "alt": {
+    "A": "Juliana vai para Salvador.",
+    "B": "Manuela vai para Recife.",
+    "C": "Pedro vai para Maceió.",
+    "D": "Felipe não vai para Natal.",
+    "E": "Rafaela não vai para Salvador."
+   },
+   "gab": "C",
+   "temas": [
+    "raciocinio-logico.argumentacao.deducao"
+   ],
+   "dispositivos": [],
+   "exp": "Todos os palpites são falsos, então cada “ou” é falso em todas as partes. Rafaela não vai para Fortaleza, Recife (Pedro), Natal (ela mesma) nem Maceió (Juliana), logo vai para **Salvador**. Juliana não vai para Natal, Maceió (Felipe) nem Fortaleza (ela mesma), e Salvador está ocupado, então vai para **Recife**. Manuela não vai para Maceió nem Natal, e sobra Fortaleza. Felipe não vai para Maceió (Manuela) nem Salvador, então vai para Natal, e **Pedro** fica com **Maceió**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Juliana vai para **Recife**, pois Salvador é de Rafaela.",
+    "B": "Manuela vai para **Fortaleza**: Maceió e Natal estão excluídos pelos palpites falsos, e Recife é de Juliana.",
+    "C": "Por eliminação, os destinos são Rafaela, Salvador; Juliana, Recife; Manuela, Fortaleza; Felipe, Natal; e **Pedro, Maceió**.",
+    "D": "Felipe **vai** para Natal: não pode ir para Maceió nem Salvador, e Fortaleza é de Manuela.",
+    "E": "Rafaela **vai** para Salvador: todos os outros destinos que ela poderia ter são excluídos pelos palpites falsos."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#92",
+   "tipo": "me",
+   "numero": 92,
+   "enunciado": "O padrão lógico de formação de uma sequência de números inteiros, cujo primeiro elemento é um inteiro aleatório, é definido por uma regra específica, aplicada a todos os seus termos, para a determinação do termo seguinte. Essa regra estabelece, conforme sua satisfação ou violação, qual operação deve ser realizada no termo atual para determinar o termo seguinte.\nOs primeiros 11 termos de uma sequência, que possui 21 termos e que segue esse padrão, são:\n400002, 66667, 66666, 11111, 11110, 11109, 11108, 11107, 11106, 1851, 1850, …\nNessa sequência, a diferença entre o antepenúltimo e o último termos é igual a",
+   "alt": {
+    "A": "40.",
+    "B": "41.",
+    "C": "42.",
+    "D": "38.",
+    "E": "39."
+   },
+   "gab": "B",
+   "temas": [
+    "raciocinio-logico.sequencias"
+   ],
+   "dispositivos": [],
+   "exp": "A regra é: se o termo é divisível por 6, o próximo é o termo dividido por 6; senão, subtrai-se 1. A partir do 11º termo (1850): 1849, 1848, 308, 307, 306, 51, 50, 49, 48, 8. Os termos 12 a 21 são esses, e o 21º é 8. O antepenúltimo (19º) é 49 e o último é 8, com diferença 49 − 8 = **41**.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A diferença é 49 − 8 = **41**, e não 40.",
+    "B": "Antepenúltimo = 49 e último = 8 (… 51, 50, 49, 48, 8): diferença **41**.",
+    "C": "A diferença é 49 − 8 = **41**, e não 42.",
+    "D": "A diferença é 49 − 8 = **41**, e não 38.",
+    "E": "A diferença é 49 − 8 = **41**, e não 39."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#93",
+   "tipo": "me",
+   "numero": 93,
+   "enunciado": "Em uma comunidade, todas as pessoas foram identificadas como possuindo uma ou mais que uma dentre as características A, B, C ou D. Em relação a essas características, sabe-se:\n• todos que possuem a A também possuem a B.\n• alguns que possuem a C também possuem a B e também a A.\n• há quem possua apenas a D, mas não há quem possua apenas a C e a D.\nA partir dessas informações, é logicamente verdadeiro que",
+   "alt": {
+    "A": "há quem possua a A e não possua a C.",
+    "B": "aqueles que possuem a C e a B também possuem a A.",
+    "C": "todos os que não possuem a D e a B possuem a A ou a C.",
+    "D": "qualquer um que possua a C e que não possua a D também possui a B ou a A.",
+    "E": "todos aqueles que possuem a D e a C também possuem a B."
+   },
+   "gab": "E",
+   "temas": [
+    "raciocinio-logico.argumentacao.deducao",
+    "raciocinio-logico.estruturas.quantificadores"
+   ],
+   "dispositivos": [],
+   "exp": "Quem tem C e D não tem **apenas** C e D, então tem também A ou B; se tiver A, tem B (todo A é B). Logo todo com D e C tem **B**. As demais alternativas não decorrem: pode haver quem tenha só B, só C ou C e B sem A.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Nada garante pessoas com A **sem** C: todos podem ter A e C.",
+    "B": "Quem tem C e B **não precisa** ter A; pode ter só C e B.",
+    "C": "Pode haver pessoas com **apenas B**, sem A nem C, o que contraria a afirmação.",
+    "D": "Quem tem C e não tem D pode ter **apenas C**, o que as premissas não excluem.",
+    "E": "Quem tem C e D não tem só C e D, logo tem A ou B; como A implica B, tem **B**."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#94",
+   "tipo": "me",
+   "numero": 94,
+   "enunciado": "Considere a sequência de números racionais criada com um padrão lógico:\n4/7; 23/28; 15/14; 37/28; 11/7; ...\nNessa sequência, o primeiro termo que é maior do que 4 ocupa a posição",
+   "alt": {
+    "A": "16ª.",
+    "B": "15ª.",
+    "C": "14ª.",
+    "D": "20ª.",
+    "E": "21ª."
+   },
+   "gab": "B",
+   "temas": [
+    "raciocinio-logico.sequencias"
+   ],
+   "dispositivos": [],
+   "exp": "Com denominador 28, os termos são 16/28, 23/28, 30/28, 37/28, 44/28: uma progressão aritmética de razão 7/28. O termo de ordem n é (16 + 7(n − 1))/28 = (7n + 9)/28. Para ser maior que 4: 7n + 9 > 112, ou seja, n > 14,7. O primeiro é n = **15** (114/28 ≈ 4,07), pois o 14º vale 107/28 ≈ 3,82.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "O 16º termo (121/28) é maior que 4, mas não o primeiro; o primeiro é o **15º**.",
+    "B": "O 15º termo vale 114/28 ≈ 4,07, e o 14º, 107/28 ≈ 3,82; o primeiro maior que 4 é o **15º**.",
+    "C": "O 14º termo vale 107/28 ≈ 3,82, ainda menor que 4; o primeiro maior é o **15º**.",
+    "D": "O 20º termo é maior que 4, mas muito depois do primeiro, que é o **15º**.",
+    "E": "O 21º termo é maior que 4, mas muito depois do primeiro, que é o **15º**."
+   },
+   "pendencias": [
+    "Sequência é de frações tipográficas no PDF; transcrita como 4/7; 23/28; 15/14; 37/28; 11/7."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#95",
+   "tipo": "me",
+   "numero": 95,
+   "enunciado": "Considere a afirmação:\nOs garfos têm quatro pontas ou as facas não são afiadas.\nUma afirmação logicamente equivalente a essa é:",
+   "alt": {
+    "A": "Se as facas não são afiadas, então os garfos não têm quatro pontas.",
+    "B": "Se as facas são afiadas, então os garfos não têm quatro pontas.",
+    "C": "Se os garfos não têm quatro pontas, então as facas não são afiadas.",
+    "D": "Os garfos têm quatro pontas se, e somente se, as facas são afiadas.",
+    "E": "Os garfos têm quatro pontas e as facas não são afiadas."
+   },
+   "gab": "C",
+   "temas": [
+    "raciocinio-logico.estruturas.equivalencias"
+   ],
+   "dispositivos": [],
+   "exp": "A disjunção “p ou q” equivale a “**se não p, então q**”. Com p = “os garfos têm quatro pontas” e q = “as facas não são afiadas”: se os garfos não têm quatro pontas, então as facas não são afiadas.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": true,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "“Se q, então não p” não equivale a “p ou q”; pode ser falsa quando a disjunção é verdadeira.",
+    "B": "“Se não q, então não p” não equivale a “p ou q”: com p falso e q falso, a disjunção é falsa, mas ela seria verdadeira.",
+    "C": "“p ou q” equivale a “se não p, então q”: se os garfos não têm quatro pontas, as facas **não são afiadas**.",
+    "D": "O bicondicional exige que os dois lados tenham o mesmo valor; “p ou q” não exige isso.",
+    "E": "A conjunção só é verdadeira com os dois fatos; a disjunção basta um deles."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#96",
+   "tipo": "me",
+   "numero": 96,
+   "enunciado": "No diagrama lógico a seguir, há elementos em todos os subconjuntos.\n\n[Diagrama: quatro elipses, A (grande, à esquerda), C (acima, à direita), D (vertical, no centro) e B (muito estreita e vertical, que atravessa A, C e D). B começa dentro de C, fora de A e de D; depois fica em A, C e D, em seguida em A e D, e termina só dentro de D. Há região de C e D fora de A e de B.]\n\nDessa maneira, é correto afirmar que",
+   "alt": {
+    "A": "há elementos de B que são apenas elementos de B.",
+    "B": "qualquer elemento de D que não seja elemento de A é elemento de B ou de C.",
+    "C": "existe elemento de B que é apenas elemento de B e de A.",
+    "D": "não há elemento que seja apenas elemento de A e de B e de C.",
+    "E": "algum elemento de C que é elemento de D não é elemento de A e de B."
+   },
+   "gab": "E",
+   "temas": [
+    "raciocinio-logico.diagramas"
+   ],
+   "dispositivos": [],
+   "exp": "Pelo diagrama, a elipse B não tem região própria: suas partes estão em C, em A, C e D, em A e D, ou em D. Existe uma região de **C e D fora de A e de B**, e por isso algum elemento de C e D não é de A nem de B. As demais alternativas contradizem o desenho.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "B não tem região só sua: toda parte de B está também em C ou em D.",
+    "B": "Há uma região de D fora de A, de B e de C (só D), que contraria a afirmação.",
+    "C": "Não há região de B e A **sem** C e sem D: toda parte de B em A está também em C ou em D.",
+    "D": "Há região de A, B e C fora de D (o trecho da faixa B dentro de A e C, antes de entrar em D); a afirmação nega isso.",
+    "E": "Há uma região de C e D fora de A e de B, logo existe algum elemento de C e D que não é de A nem de B."
+   },
+   "imagens": [
+    "figuras/q96.png"
+   ],
+   "pendencias": [
+    "Diagrama conferido visualmente na imagem; resposta E depende da leitura das regiões das elipses."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#97",
+   "tipo": "me",
+   "numero": 97,
+   "enunciado": "A gerência de uma loja quer planejar a distribuição das férias de seis de seus funcionários. Questionou-os sobre o interesse de tirar férias em dezembro do ano vigente. Os funcionários responderam de forma enigmática com as seguintes afirmações seguidas do respectivo valor lógico:\nI. Bianca está interessada ou Enzo está interessado. VERDADE.\nII. Fernando está interessado ou Aline está interessada. VERDADE.\nIII. Carolina está interessada se, e somente se, Davi está interessado. VERDADE.\nIV. Aline está interessada e Bianca está interessada. FALSIDADE.\nV. Ou Carolina está interessada ou Bianca está interessada. VERDADE.\nVI. Enzo está interessado. FALSIDADE.\nA partir dessas afirmações, é logicamente verdadeiro que o número desses funcionários que estão interessados em tirar férias em dezembro é igual a",
+   "alt": {
+    "A": "4.",
+    "B": "5.",
+    "C": "3.",
+    "D": "2.",
+    "E": "1."
+   },
+   "gab": "D",
+   "temas": [
+    "raciocinio-logico.estruturas.verdade"
+   ],
+   "dispositivos": [],
+   "exp": "De VI, Enzo não está interessado. De I, **Bianca** está. De IV (falsa, com Bianca verdadeira), Aline não está. De II, **Fernando** está. De V (ou exclusivo) com Bianca verdadeira, Carolina não está, e de III, Davi também não. Interessados: Bianca e Fernando, ou seja, **2**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": true,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "Só Bianca e Fernando estão interessados; quatro exigiriam Carolina e Davi, o que III e V impedem.",
+    "B": "Só Bianca e Fernando estão interessados; cinco exigiria quase todos, o que as afirmações falsas impedem.",
+    "C": "Só Bianca e Fernando estão interessados; três não resulta de nenhuma combinação possível.",
+    "D": "Os interessados são Bianca e Fernando: **2** funcionários.",
+    "E": "Há pelo menos Bianca (de I e VI) e Fernando (de II e IV): são **2**, não 1."
+   },
+   "pendencias": []
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#98",
+   "tipo": "me",
+   "numero": 98,
+   "enunciado": "A negação lógica da afirmação “A isca é boa ou se a pesca não aconteceu, então não tinha peixe.” é:",
+   "alt": {
+    "A": "Se a isca é boa, então a pesca aconteceu e não tinha peixe.",
+    "B": "A isca não é boa e a pesca não aconteceu e tinha peixe.",
+    "C": "A isca não é boa ou se tinha peixe, então a pesca aconteceu.",
+    "D": "A pesca aconteceu e tinha peixe e a isca não é boa.",
+    "E": "Se a isca não é boa, então a pesca não aconteceu e tinha peixe."
+   },
+   "gab": "B",
+   "temas": [
+    "raciocinio-logico.estruturas.negacao"
+   ],
+   "dispositivos": [],
+   "exp": "A frase é “P ou (se não Q, então não R)”. A negação de uma disjunção é a conjunção das negações, e a negação de “se p, então q” é “p e não q”. Fica: **a isca não é boa e a pesca não aconteceu e tinha peixe**.",
+   "vf": {
+    "A": false,
+    "B": true,
+    "C": false,
+    "D": false,
+    "E": false
+   },
+   "exp_alt": {
+    "A": "A negação de uma disjunção é uma **conjunção**, e não um condicional.",
+    "B": "Nega-se a disjunção (**não P e não (…)**) e o condicional (**não Q e R**), resultando em: isca não boa, pesca não aconteceu e tinha peixe.",
+    "C": "A negação de “ou” é “e”, não “ou”; o resultado precisa ser uma conjunção.",
+    "D": "Esta afirma que a pesca **aconteceu**, mas a negação exige que ela **não** tenha acontecido.",
+    "E": "A negação de uma disjunção é uma **conjunção**, e não um condicional."
+   },
+   "pendencias": [
+    "Leitura adotada: “A isca é boa” ou (“se a pesca não aconteceu, então não tinha peixe”); outra leitura da frase com o condicional abrangendo tudo não bate com nenhuma alternativa."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#99",
+   "tipo": "me",
+   "numero": 99,
+   "enunciado": "Uma enquete realizada com 39 pessoas, todas leitoras dos blogs A ou B ou C, mostrou os seguintes dados:\n• Há 4 pessoas que leem os blogs A e B e C.\n• São 15 as pessoas que leem apenas o blog A.\n• Leem apenas dois desses blogs: 8 os blogs A e B e 7 os blogs B e C.\n• Não há outros leitores do blog A.\nA partir dessas informações, é logicamente verdadeiro que",
+   "alt": {
+    "A": "se os leitores do blog C são 17, então os leitores do blog B são 25.",
+    "B": "ou os leitores do blog C são 13 ou os leitores do blog B são 22.",
+    "C": "os leitores do blog A são 28 e os leitores do blog B são 19.",
+    "D": "o número de leitores do blog A supera o número de leitores dos blogs B e C em 4 unidades.",
+    "E": "são 24 os leitores do blog B e são 12 os leitores do blog C."
+   },
+   "gab": "A",
+   "temas": [
+    "raciocinio-logico.diagramas",
+    "raciocinio-logico.contagem"
+   ],
+   "dispositivos": [],
+   "exp": "Como não há outros leitores do blog A, ninguém lê só A e C: A = 15 + 8 + 4 = 27. Os que leem só B ou só C somam 39 − (15 + 8 + 7 + 4) = **5**. Logo B = 19 + (só B) e C = 11 + (só C), com B + C = 35. Se C fosse 17, só C seria 6, mais que 5, e a hipótese seria impossível; assim a condicional da A é verdadeira (antecedente impossível). B é falsa: C = 13 e B = 22 ocorrem juntos, e o “ou…ou” exige que só um ocorra. C é falsa (A = 27), D é falsa (B + C = 35 > 27) e E é falsa (só B + só C = 6 ≠ 5).",
+   "pendencias": [
+    "Dúvida de gabarito: a única alternativa logicamente verdadeira é a A, e só por condicional de antecedente impossível (C = 17 exigiria 6 leitores só de C, mas só há 5 para dividir entre só B e só C). Resolvida como A."
+   ]
+  },
+  {
+   "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2024#100",
+   "tipo": "me",
+   "numero": 100,
+   "enunciado": "Considere a sequência de letras, criada com cinco letras e um único padrão lógico:\nJKLNJKMNJLMNKLMJKLNJKMNJLMNKLMJKLN...\nConsiderando da 99ª letra da sequência até a 158ª, a quantidade de vezes que aparece a letra M é igual a",
+   "alt": {
+    "A": "11.",
+    "B": "9.",
+    "C": "10.",
+    "D": "13.",
+    "E": "12."
+   },
+   "gab": "E",
+   "temas": [
+    "raciocinio-logico.sequencias"
+   ],
+   "dispositivos": [],
+   "exp": "A sequência se repete a cada 15 letras: JKLNJKMNJLMNKLM, e cada período tem 3 letras M (posições 7, 11 e 15). A 99ª letra é a 9ª do 7º período e a 158ª é a 8ª do 11º período. Contando: do 7º período, da 9ª à 15ª posição, 2 M; os períodos 8, 9 e 10 completos, 9 M; no 11º, da 1ª à 8ª posição, 1 M. Total: 2 + 9 + 1 = **12**.",
+   "vf": {
+    "A": false,
+    "B": false,
+    "C": false,
+    "D": false,
+    "E": true
+   },
+   "exp_alt": {
+    "A": "Contagem correta: 2 + 9 + 1 = **12** (período de 15 letras), e não 11.",
+    "B": "Contagem correta: 2 + 9 + 1 = **12**, e não 9.",
+    "C": "Contagem correta: 2 + 9 + 1 = **12**, e não 10.",
+    "D": "Contagem correta: 2 + 9 + 1 = **12**, e não 13.",
+    "E": "São 60 letras (da 99ª à 158ª); a contagem por períodos de 15 dá 2 + 9 + 1 = **12** letras M."
+   },
+   "pendencias": []
+  }
+ ]
+}
