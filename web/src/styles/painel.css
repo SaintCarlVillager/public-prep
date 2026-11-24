@@ -146,7 +146,7 @@ textarea { width: 100%; min-height: 360px; font-family: var(--body); font-size: 
 @media (prefers-reduced-motion: reduce) { .alt { transition: none; } }
 
 /* Treino: card de verdadeiro/falso */
-.tf { display: grid; gap: 16px; }
+.tf { display: grid; gap: 16px; scroll-margin-top: 16px; }
 .tf .afirm { background: var(--sheet); border: 1px solid var(--rule-strong); border-radius: 16px; padding: 24px 16px; display: grid; gap: 12px; touch-action: pan-y; user-select: none; cursor: grab; }
 .tf .afirm.arrastando { cursor: grabbing; }
 .tf .afirm.lado-v, .tf .afirm.lado-f { border: 2px solid var(--ink); padding: 23px 15px; }

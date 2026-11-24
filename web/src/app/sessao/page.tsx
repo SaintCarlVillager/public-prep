@@ -88,7 +88,8 @@ function Sessao({ base }: { base: Base }) {
           }
           options={lista.map(([sid, s]) => ({
             value: sid,
-            label: `${s.titulo} · ${fmtDia(s.data)}${p.respostas[sid] ? " · entregue" : ""}`,
+            // O título das revisões já traz o dia ("Revisão (20) · 24/11"): não repete.
+            label: `${s.titulo}${s.titulo.endsWith(fmtDia(s.data)) ? "" : ` · ${fmtDia(s.data)}`}${horaDe(sid)}${p.respostas[sid] ? " · entregue" : ""}`,
           }))}
         />
       </HStack>
@@ -117,6 +118,12 @@ function Sessao({ base }: { base: Base }) {
       )}
     </VStack>
   );
+}
+
+/** Hora gravada no id da sessão ("2026-11-24-1550"), para distinguir duas sessões do mesmo dia no seletor. */
+function horaDe(id: string): string {
+  const m = /^\d{4}-\d{2}-\d{2}-(\d{2})(\d{2})/.exec(id);
+  return m ? ` ${m[1]}h${m[2]}` : "";
 }
 
 function Mistura({ base, qids }: { base: Base; qids: string[] }) {
@@ -224,8 +231,19 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
           <Button
             label="Entregar sessão"
             variant="primary"
-            isDisabled={respondidas < s.questoes.length}
-            onClick={() => {
+            isDisabled={respondidas === 0}
+            onClick={async () => {
+              // Dá para entregar com questões em branco (quem não sabe pula, como na prova); elas contam como erro.
+              const brancas = s.questoes.length - respondidas;
+              if (
+                brancas > 0 &&
+                !(await confirmar({
+                  titulo: `Entregar com ${brancas} ${brancas === 1 ? "questão" : "questões"} em branco?`,
+                  texto: "Questão em branco conta como erro e volta amanhã nas Revisões.",
+                  ok: "Entregar assim",
+                }))
+              )
+                return;
               entregar(base, id, porId);
               const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
               window.scrollTo({ top: 0, behavior: reduz ? "instant" : "smooth" });
