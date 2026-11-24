@@ -124,7 +124,8 @@ export function CartaoQuestao({
                 className={cls}
                 aria-pressed={escolhida === L}
                 aria-disabled={corrigida ? true : undefined}
-                onClick={() => !corrigida && onMarcar?.(L)}
+                // Duplo clique/toque não desmarca o que o primeiro marcou (detail 2 = segundo clique seguido).
+                onClick={(e) => !corrigida && e.detail < 2 && onMarcar?.(L)}
               >
                 {corrigida && !anulada && L === q.gab && (
                   <span className="v">

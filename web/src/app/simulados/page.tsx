@@ -547,6 +547,9 @@ function ProvaAnterior({ base, ed, bloqueado }: { base: Base; ed: Edital; bloque
 
 /* ---------- durante o simulado ---------- */
 
+/** Intervalo entre tiques (1 s) acima do qual a página esteve parada e o tempo não conta. */
+const PULO_MS = 10000;
+
 /** Cabeçalho das telas de um simulado: rótulo, título e o botão de voltar. */
 function Cabeca({ apoio, titulo, voltar }: { apoio: string; titulo: string; voltar: string }) {
   return (
@@ -577,22 +580,32 @@ function Andamento({ base, id, s }: { base: Base; id: string; s: Simulado }) {
   // Cronômetro: só conta com o simulado na tela e sem pausa; grava no progresso a cada 5 s e ao sair da página.
   const [agora, setAgora] = useState(() => Date.now());
   const inicio = useRef<number | null>(null);
+  // Último tique do relógio. Se o próximo chega muito depois (computador suspenso com a tela aberta,
+  // aba congelada, relógio do sistema adiantado), esse intervalo não conta: só o tempo com a página viva.
+  const ultimo = useRef(0);
   const entregue = useRef(false);
   const rodando = !s.tempo.pausado && !!provas;
   const gravar = () => {
     if (inicio.current == null) return;
     const ag = Date.now();
-    somarTempo(id, ag - inicio.current);
+    const fim = ag - ultimo.current > PULO_MS ? ultimo.current : ag;
+    somarTempo(id, fim - inicio.current);
     inicio.current = document.visibilityState === "visible" ? ag : null;
+    ultimo.current = ag;
   };
   useEffect(() => {
     if (!rodando) return;
     const comecar = () => {
-      if (document.visibilityState === "visible" && inicio.current == null) inicio.current = Date.now();
+      if (document.visibilityState === "visible" && inicio.current == null) inicio.current = ultimo.current = Date.now();
       setAgora(Date.now());
     };
     comecar();
-    const tique = setInterval(() => setAgora(Date.now()), 1000);
+    const tique = setInterval(() => {
+      const ag = Date.now();
+      if (ag - ultimo.current > PULO_MS || ag < ultimo.current) gravar();
+      else ultimo.current = ag;
+      setAgora(ag);
+    }, 1000);
     const salvar = setInterval(gravar, 5000);
     const aoMudar = () => (document.visibilityState === "visible" ? comecar() : gravar());
     document.addEventListener("visibilitychange", aoMudar);
@@ -608,7 +621,8 @@ function Andamento({ base, id, s }: { base: Base; id: string; s: Simulado }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rodando, id]);
 
-  const usado = s.tempo.usado_ms + (inicio.current != null ? Math.max(0, agora - inicio.current) : 0);
+  const usado =
+    s.tempo.usado_ms + (inicio.current != null ? Math.max(0, Math.min(agora, ultimo.current + PULO_MS) - inicio.current) : 0);
   const limite = s.tempo.limite_min ? s.tempo.limite_min * 60000 : null;
   const esgotou = limite != null && usado >= limite;
 

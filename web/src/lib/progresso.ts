@@ -6,6 +6,7 @@
 import { useSyncExternalStore } from "react";
 
 import type { EstadoItem } from "./nucleo";
+import { sanearProgresso } from "./saneamento";
 import type { PlanoBloco, Pontuacao } from "./simulado";
 
 export interface Sessao {
@@ -127,26 +128,8 @@ function ler(): Progresso {
   return cache;
 }
 
-/** Aceita um export deste app ou um dump do banco do painel antigo ({sessoes, respostas, estado, treino, meta: {config}}). */
-export function normalizar(dados: unknown): Progresso {
-  const d = (dados ?? {}) as Record<string, unknown>;
-  const base = vazio();
-  const obj = <T>(v: unknown) => (v && typeof v === "object" && !Array.isArray(v) ? (v as T) : undefined);
-  const meta = obj<Record<string, unknown>>(d.meta);
-  const config = obj<Partial<Config>>(d.config) ?? obj<Partial<Config>>(meta?.config);
-  return {
-    versao: 1,
-    config: { ...base.config, ...config },
-    sessoes: obj(d.sessoes) ?? {},
-    respostas: obj(d.respostas) ?? {},
-    estado: obj(d.estado) ?? {},
-    treino: obj(d.treino) ?? {},
-    rascunhos: obj(d.rascunhos) ?? {},
-    atual: typeof d.atual === "string" ? d.atual : undefined,
-    // Progresso de antes dos simulados não tem o campo.
-    simulados: obj(d.simulados) ?? {},
-  };
-}
+/** Aceita um export deste app ou um dump do banco do painel antigo; registros ilegíveis ficam de fora (saneamento.ts). */
+export const normalizar = (dados: unknown): Progresso => sanearProgresso(dados);
 
 export function atualizar(fn: (p: Progresso) => Progresso | void) {
   const atual = structuredClone(ler());
@@ -199,4 +182,20 @@ export function novoIdSimulado(p: Progresso, agora = new Date()): string {
   let i = 2;
   while (p.simulados[id] || p.sessoes[id]) id = `${base}-${i++}`;
   return id;
+}
+
+/** Baixa o progresso exatamente como está guardado no navegador, sem passar pelo app. */
+export function baixarProgressoBruto() {
+  let bruto: string | null = null;
+  try {
+    bruto = localStorage.getItem(CHAVE);
+  } catch {
+    // armazenamento bloqueado: nada a baixar
+  }
+  const blob = new Blob([bruto ?? "{}"], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "serventia-progresso-copia.json";
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
