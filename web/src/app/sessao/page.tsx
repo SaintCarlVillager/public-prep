@@ -160,8 +160,10 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
   const textoDe = (q: Questao): TextoBase | null => (q.texto ? (provas[slugDe(q.id)]?.textos[q.texto] ?? null) : null);
   const picks = feito ? feito.respostas : (p.rascunhos[id] ?? {});
   const textosVistos = new Set<string>();
-  const respondidas = s.questoes.filter((q) => picks[q]).length;
   const porId = Object.fromEntries(s.questoes.map((q) => [q, completa(q)]).filter(([, q]) => q)) as Record<string, Questao>;
+  // Questão que saiu do catálogo não pode ser respondida, então não impede a entrega (nem conta na nota).
+  const disponiveis = s.questoes.filter((q) => porId[q]);
+  const respondidas = disponiveis.filter((q) => picks[q]).length;
 
   return (
     <>
@@ -226,7 +228,7 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
         // Barra presa no rodapé enquanto se rola (painel.css).
         <HStack className="submitbar">
           <Text hasTabularNumbers>
-            {respondidas} de {s.questoes.length} respondidas
+            {respondidas} de {disponiveis.length} respondidas
           </Text>
           <Button
             label="Entregar sessão"
@@ -234,7 +236,7 @@ function Questoes({ base, p, id }: { base: Base; p: Progresso; id: string }) {
             isDisabled={respondidas === 0}
             onClick={async () => {
               // Dá para entregar com questões em branco (quem não sabe pula, como na prova); elas contam como erro.
-              const brancas = s.questoes.length - respondidas;
+              const brancas = disponiveis.length - respondidas;
               if (
                 brancas > 0 &&
                 !(await confirmar({

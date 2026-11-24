@@ -29,7 +29,7 @@ export const caminhoDados = (rel: string) => `/dados/${rel}`;
 
 async function buscar<T>(url: string, ms = 10000): Promise<T> {
   const r = await fetch(url, { signal: AbortSignal.timeout(ms) });
-  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  if (!r.ok) throw Object.assign(new Error(`HTTP ${r.status}`), { status: r.status });
   return (await r.json()) as T;
 }
 
@@ -135,8 +135,20 @@ export function useProvas(slugs: string[]): { provas: Record<string, ProvaCarreg
   useEffect(() => {
     let vivo = true;
     const lista = chave ? chave.split(",") : [];
-    Promise.all(lista.map((s) => carregarProva(s).then((p) => [s, p] as const)))
-      .then((pares) => vivo && setRes({ chave, provas: Object.fromEntries(pares) }))
+    // Prova que saiu do banco (404) não derruba a sessão ou o simulado que a usava: as questões dela
+    // aparecem como indisponíveis. Outras falhas (rede, offline sem cópia) continuam sendo erro.
+    Promise.all(
+      lista.map((s) =>
+        carregarProva(s).then(
+          (p) => [s, p] as const,
+          (e: unknown) => {
+            if ((e as { status?: number })?.status === 404) return null;
+            throw e;
+          },
+        ),
+      ),
+    )
+      .then((pares) => vivo && setRes({ chave, provas: Object.fromEntries(pares.filter((x) => x !== null)) }))
       .catch((e: unknown) => vivo && setRes({ chave, provas: null, erro: String(e) }));
     return () => {
       vivo = false;

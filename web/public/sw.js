@@ -3,7 +3,7 @@
  * Registrado por src/components/Pwa.tsx como /sw.js?v=<versão do deploy>. Trocar a versão instala um worker
  * novo, que guarda as telas e os arquivos da versão nova e apaga os da antiga.
  *
- * - Telas (navegação): rede primeiro; sem rede, a cópia guardada da tela (ou a do Painel).
+ * - Telas (navegação): rede primeiro; sem rede, a cópia guardada da mesma tela (nunca a de outra) ou um aviso.
  * - /_next/static e ícones: cache primeiro (os nomes já mudam a cada versão).
  * - /dados/catalogo.json: rede primeiro, com prazo curto; sem rede, a cópia guardada.
  * - /dados/provas, /dados/figuras, /dados/leis: cache primeiro. A cada versão nova, as cópias guardadas são
@@ -129,11 +129,19 @@ async function tela(req) {
     if (r.ok && TELAS.includes(chave)) cache.put(chave, r.clone());
     return r;
   } catch (e) {
-    const guardada = (await cache.match(chave)) || (await cache.match("/"));
+    const guardada = await cache.match(chave);
     if (guardada) return guardada;
-    throw e;
+    // Nunca devolver a cópia de outra tela (o Painel no endereço do Treino, por exemplo): o React
+    // montaria a página errada e quebraria a hidratação. Sem cópia desta tela, um aviso simples.
+    return new Response(SEM_REDE, { status: 503, headers: { "Content-Type": "text/html; charset=utf-8" } });
   }
 }
+
+const SEM_REDE = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sem internet · ServentIA</title><meta name="color-scheme" content="light dark"></head>
+<body style="font-family:system-ui,sans-serif;max-width:36rem;margin:0 auto;padding:2rem 1rem;line-height:1.5">
+<h1 style="font-size:1.4rem">Sem internet</h1><p>Esta tela ainda não foi guardada para uso sem internet.</p>
+<p><a href="/" style="display:inline-block;min-height:44px;line-height:44px">Abrir o Painel</a></p></body></html>`;
 
 self.addEventListener("fetch", (ev) => {
   const req = ev.request;
