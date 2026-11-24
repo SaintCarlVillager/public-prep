@@ -25,6 +25,8 @@ function cada<T>(v: unknown, fn: (x: unknown, k: string) => T | null): Record<st
   const out: Record<string, T> = {};
   if (!ehObj(v)) return out;
   for (const [k, x] of Object.entries(v)) {
+    // JSON.parse cria "__proto__" como chave comum; gravada de volta, ela trocaria o protótipo do objeto.
+    if (k === "__proto__") continue;
     const y = fn(x, k);
     if (y != null) out[k] = y;
   }

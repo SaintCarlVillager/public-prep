@@ -244,8 +244,9 @@ function Grafico({ p }: { p: Progresso }) {
   const step = (W - padL - 10) / hist.length;
   const bw = Math.min(28, step - 8);
   const y = (v: number) => padT + (H - padT - padB) * (1 - v / 100);
+  // No celular o gráfico rola para o lado: tabIndex deixa rolar pelo teclado também.
   return (
-    <VStack isScrollable className="chart">
+    <VStack isScrollable className="chart" tabIndex={0} role="region" aria-label="Gráfico de aproveitamento por sessão (role para o lado)">
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Aproveitamento por sessão">
         {[0, 50, 100].map((g) => (
           <g key={g}>

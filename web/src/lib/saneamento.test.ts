@@ -129,3 +129,9 @@ test("um progresso válido passa sem mudança (ida e volta pelo JSON)", () => {
   };
   assert.deepEqual(sanearProgresso(JSON.parse(JSON.stringify(p))), p);
 });
+
+test("chave __proto__ num arquivo importado é ignorada", () => {
+  const p = sanearProgresso(JSON.parse('{"sessoes": {"__proto__": {"questoes": []}, "a": {"questoes": []}}}'));
+  assert.deepEqual(Object.keys(p.sessoes), ["a"]);
+  assert.equal(Object.getPrototypeOf(p.sessoes), Object.prototype);
+});
