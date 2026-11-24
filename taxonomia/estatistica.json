@@ -51,6 +51,10 @@
     {
       "id": "estatistica.numeros-indices",
       "nome": "Números-índices"
+    },
+    {
+      "id": "estatistica.series-temporais",
+      "nome": "Séries temporais e sazonalidade"
     }
   ]
 }

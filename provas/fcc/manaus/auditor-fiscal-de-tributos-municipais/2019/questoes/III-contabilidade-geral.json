@@ -1,0 +1,445 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#36",
+      "tipo": "me",
+      "numero": 36,
+      "enunciado": "No dia 31/10/2018 a empresa Tecnologia de Revenda S.A. adquiriu mercadorias para revenda, tendo pago os seguintes valores:\n\n− Fornecedor: R$109.500,00\n− Frete para transporte das mercadorias até a empresa: R$ 2.500,00\n\nNo valor pago ao fornecedor estavam incluídos tributos recuperáveis no valor de R$ 11.500,00 e tributos não recuperáveis no valor de R$ 8.000,00.\n\nTodas estas mercadorias foram negociadas em 18/12/2018 pelo valor de R$ 225.000,00, mas foram vendidas com um desconto comercial de 10% em função da quantidade. A empresa pagou R$ 2.250,00 de comissão para os vendedores e R$ 3.500,00 de frete para entrega das mercadorias vendidas. O lucro bruto apurado pela empresa Tecnologia de Revenda S.A., especificamente em relação à compra e venda das mercadorias, foi, em reais,",
+      "alt": {
+        "A": "124.500,00.",
+        "B": "102.000,00.",
+        "C": "99.750,00.",
+        "D": "96.250,00.",
+        "E": "90.500,00."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.operacoes",
+        "contabilidade.estoques",
+        "contabilidade.demonstracoes.dre"
+      ],
+      "dispositivos": [
+        "L6404 187"
+      ],
+      "exp": "Custo da mercadoria (CPC 16): preço pago 109.500 − **tributos recuperáveis** 11.500 + frete de compra 2.500 = 98.000 + 2.500 = 100.500 (o tributo não recuperável fica no custo). Receita líquida: 225.000 − **desconto comercial** de 10% (22.500) = 202.500. Lucro bruto: 202.500 − 100.500 = **102.000** (B). A comissão (2.250) e o frete de entrega (3.500) são **despesas de vendas**, abaixo do lucro bruto (`L6404 187`); descontá-los leva a 99.750 (C) ou 96.250 (D), e ignorar o desconto comercial leva a 124.500 (A).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "124.500 ignora o **desconto comercial** de 10%: a receita líquida é 202.500, e o lucro bruto, 202.500 − 100.500 = 102.000.",
+        "B": "Custo = 109.500 − 11.500 (tributos **recuperáveis**) + 2.500 (frete de compra) = 100.500; receita líquida = 225.000 × 0,9 = 202.500; lucro bruto = **102.000**.",
+        "C": "99.750 desconta a comissão dos vendedores, que é **despesa de vendas** e fica abaixo do lucro bruto (`L6404 187`); o lucro bruto é 102.000.",
+        "D": "96.250 desconta comissão e frete de entrega, que são **despesas de vendas**, não custo da mercadoria; o lucro bruto é 102.000.",
+        "E": "90.500 mantém os tributos **recuperáveis** no custo (112.000); excluídos, o custo é 100.500 e o lucro bruto, 202.500 − 100.500 = 102.000."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#37",
+      "tipo": "me",
+      "numero": 37,
+      "enunciado": "Uma empresa realizou três aplicações financeiras no dia 01/12/2018 e as características de cada uma são apresentadas na tabela abaixo.\n\n[Tabela — colunas: Valor Aplicado (R$); Data de vencimento; Mensuração definida pela empresa; Taxa de juros; Valor Justo em 31/12/2018 (R$). Linha 1: 400.000; 30/06/2023; Mensuração ao valor justo por meio do resultado; 1,5%a.m.; 412.000. Linha 2: 400.000; 31/10/2021; Mensuração ao custo amortizado; 1%a.m.; 420.000. Linha 3: 400.000; 30/09/2022; Mensuração ao valor justo por meio de outros resultados abrangentes; 2%a.m.; 404.000.]\n\nO valor total destas aplicações apresentado no Balanço Patrimonial da empresa, em 31/12/2018, foi, em reais:",
+      "alt": {
+        "A": "1.218.000,00.",
+        "B": "1.234.000,00.",
+        "C": "1.236.000,00.",
+        "D": "1.216.000,00.",
+        "E": "1.220.000,00."
+      },
+      "gab": "E",
+      "temas": [
+        "contabilidade.ativo.instrumentos-financeiros"
+      ],
+      "dispositivos": [
+        "L6404 183 I"
+      ],
+      "exp": "Pelo CPC 48, cada ativo segue a sua categoria: o mensurado ao **valor justo por meio do resultado** aparece pelo valor justo (412.000); o de **custo amortizado**, pelo valor aplicado mais os juros de um mês, 400.000 × 1,01 = 404.000 (o valor justo de 420.000 é irrelevante); o de **valor justo por meio de outros resultados abrangentes**, pelo valor justo (404.000). Total: 412.000 + 404.000 + 404.000 = **1.220.000** (E). As demais somas misturam critérios, por exemplo usar o valor justo no custo amortizado (1.236.000) ou juros em todos (406.000 + 404.000 + 408.000 = 1.218.000).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "1.218.000 aplica juros a todas as aplicações (406.000 + 404.000 + 408.000), mas as mensuradas a **valor justo** aparecem pelo valor justo; o total é 412.000 + 404.000 + 404.000 = 1.220.000.",
+        "B": "1.234.000 não corresponde aos critérios do CPC 48: valor justo (412.000) + **custo amortizado** (404.000) + valor justo (404.000) = 1.220.000.",
+        "C": "1.236.000 usa o valor justo de 420.000 para a aplicação ao **custo amortizado**, que deve aparecer por 400.000 × 1,01 = 404.000; o total é 1.220.000.",
+        "D": "1.216.000 deixa a aplicação ao **custo amortizado** pelo valor aplicado, sem os juros do mês; ela vale 400.000 × 1,01 = 404.000, e o total é 1.220.000.",
+        "E": "Valor justo por meio do resultado: 412.000; **custo amortizado**: 400.000 × 1,01 = 404.000; valor justo por meio de outros resultados abrangentes: 404.000; total **1.220.000**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#38",
+      "tipo": "me",
+      "numero": 38,
+      "enunciado": "Os valores relacionados com as compras de mercadorias, por uma empresa, ocorridas durante o ano de 2018, foram os seguintes:\n\n− Pagamento efetuado para o fornecedor das mercadorias: R$ 431.250,00.\n− Pagamento de seguro para cobertura de riscos até a mercadoria chegar à sede da empresa: R$ 30.000,00\n− Valor do frete pago para transportar as mercadorias até a empresa: R$ 20.250,00.\n\nNos diversos valores pagos pela empresa, estão incluídos tributos recuperáveis no valor de R$ 33.750,00 e tributos não recuperáveis no valor de R$ 24.000,00.\n\nA empresa conseguiu negociar no ano abatimentos sobre as diversas compras efetuadas no valor de R$ 45.000,00. O estoque inicial de mercadorias estava registrado pelo valor de R$ 150.000,00 e no final do período o saldo apresentado era R$ 112.500,00.\n\nO custo das mercadorias vendidas (CMV) evidenciado no resultado do ano de 2018 foi, em reais,",
+      "alt": {
+        "A": "390.000,00.",
+        "B": "410.250,00.",
+        "C": "420.000,00.",
+        "D": "485.250,00.",
+        "E": "440.250,00."
+      },
+      "gab": "E",
+      "temas": [
+        "contabilidade.estoques",
+        "contabilidade.operacoes"
+      ],
+      "dispositivos": [
+        "L6404 183 II"
+      ],
+      "exp": "Compras líquidas (CPC 16): 431.250 + 30.000 (seguro) + 20.250 (frete) = 481.500, menos **tributos recuperáveis** 33.750 e **abatimentos** 45.000 = 402.750 (o tributo não recuperável integra o custo). CMV = estoque inicial + compras líquidas − estoque final = 150.000 + 402.750 − 112.500 = **440.250** (E). Excluir também os tributos não recuperáveis dá 416.250, e não abater os abatimentos dá 485.250 (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "390.000 não corresponde ao cálculo: CMV = 150.000 + 402.750 − 112.500 = 440.250, com compras líquidas de **tributos recuperáveis** e abatimentos.",
+        "B": "410.250 deixa de fora o **seguro** de 30.000, que integra o custo de aquisição; com ele, o CMV é 440.250.",
+        "C": "420.000 deixa de fora o **frete** de compra de 20.250, que integra o custo de aquisição; com ele, o CMV é 440.250.",
+        "D": "485.250 deixa de deduzir os **abatimentos** de 45.000 obtidos nas compras; com eles, o CMV é 440.250.",
+        "E": "Compras líquidas = 481.500 − 33.750 (tributos **recuperáveis**) − 45.000 (abatimentos) = 402.750; CMV = 150.000 + 402.750 − 112.500 = **440.250**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#39",
+      "tipo": "me",
+      "numero": 39,
+      "enunciado": "A empresa Quase Tudo S.A. apresentava, em determinada data, o valor de R$ 120.000.000,00 para o Patrimônio Líquido contabilizado. A empresa Totalmente S.A. adquiriu, nessa data, 60% das ações da empresa Quase Tudo S.A., pagando o valor de R$ 110.000.000,00, e passando a deter o seu controle. O valor justo líquido dos ativos e passivos identificáveis da empresa Quase Tudo S.A. era R$ 150.000.000,00 nessa data e a participação dos não controladores é mensurada pela parte que lhes cabe no valor justo líquido dos ativos e passivos identificáveis.\n\nO valor reconhecido, na data da aquisição, no grupo Investimentos do balanço individual da empresa Totalmente S.A. foi, em reais,",
+      "alt": {
+        "A": "72.000.000,00.",
+        "B": "150.000.000,00.",
+        "C": "110.000.000,00.",
+        "D": "66.000.000,00.",
+        "E": "90.000.000,00."
+      },
+      "gab": "C",
+      "temas": [
+        "contabilidade.ativo.investimentos",
+        "contabilidade.combinacao-consolidacao"
+      ],
+      "dispositivos": [
+        "L6404 248"
+      ],
+      "exp": "No balanço **individual** da controladora, o investimento em controlada é reconhecido pelo **valor pago** (110.000.000), desdobrado (ICPC 09/CPC 18) em valor patrimonial, 60% × 120.000.000 = 72.000.000; **mais-valia** dos ativos líquidos, 60% × (150.000.000 − 120.000.000) = 18.000.000; e **ágio por expectativa de rentabilidade futura** (goodwill), 110.000.000 − 90.000.000 = 20.000.000. Todos os três ficam em Investimentos: total **110.000.000** (C). 72.000.000 (A) é só a equivalência patrimonial; 90.000.000 (E) é a parte no valor justo, sem o goodwill.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "72.000.000 é só o **valor patrimonial** (60% de 120 milhões); no balanço individual, Investimentos também inclui a mais-valia e o goodwill, somando o valor pago de 110 milhões.",
+        "B": "150.000.000 é o valor justo de **todos** os ativos líquidos da adquirida; no balanço individual, a controladora registra só a sua participação, pelo valor pago de 110 milhões.",
+        "C": "No balanço **individual**, Investimentos reúne valor patrimonial (72 milhões), **mais-valia** (18 milhões) e goodwill (20 milhões), ou seja, o valor pago de 110.000.000.",
+        "D": "66.000.000 é 60% do valor pago; o investimento é registrado pelo **valor pago** inteiro (110 milhões), que reúne valor patrimonial, mais-valia e goodwill.",
+        "E": "90.000.000 é a parte no valor justo (60% de 150 milhões) e deixa de fora o **goodwill** de 20 milhões, que também integra Investimentos no balanço individual."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#40",
+      "tipo": "me",
+      "numero": 40,
+      "enunciado": "Uma empresa adquiriu, à vista, um equipamento por R$ 8.000.000,00. A compra ocorreu em 30/06/2015. A empresa definiu a vida útil do equipamento em 8 anos e estimou o valor residual esperado para sua venda no final do prazo de vida útil em R$ 1.280.000,00. A empresa vendeu o equipamento em 31/12/2017 por R$ 5.960.000,00, valor este que foi recebido à vista. Sabendo que a empresa adota o método das quotas constantes para determinar a despesa de depreciação, o resultado apurado na venda do equipamento evidenciado na Demonstração do Resultado de 2017 foi:",
+      "alt": {
+        "A": "Prejuízo no valor de R$ 2.040.000,00.",
+        "B": "Lucro no valor de R$ 460.000,00.",
+        "C": "Lucro no valor de R$ 5.960.000,00.",
+        "D": "Lucro no valor de R$ 60.000,00.",
+        "E": "Lucro no valor de R$ 480.000,00."
+      },
+      "gab": "D",
+      "temas": [
+        "contabilidade.ativo.imobilizado"
+      ],
+      "dispositivos": [
+        "L6404 183 §2º"
+      ],
+      "exp": "Valor depreciável: 8.000.000 − **valor residual** 1.280.000 = 6.720.000; quota anual: 6.720.000 ÷ 8 = 840.000. De 30/06/2015 a 31/12/2017 são 2,5 anos: depreciação acumulada de 2.100.000 e valor contábil de 5.900.000. Resultado na venda: 5.960.000 − 5.900.000 = **lucro de 60.000** (D). Depreciar sem o valor residual (1.000.000 ao ano) daria lucro de 460.000 (B); (A) compara a venda com o custo de aquisição.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O valor contábil na venda é 8.000.000 − 2.100.000 (2,5 anos × 840.000) = 5.900.000; vendido por 5.960.000, gera **lucro** de 60.000, não prejuízo.",
+        "B": "460.000 resulta de depreciar sem descontar o **valor residual** (1.000.000 ao ano); com ele, a quota é 840.000, o valor contábil 5.900.000 e o lucro 60.000.",
+        "C": "5.960.000 é o preço de venda, não o resultado: dele se subtrai o **valor contábil** (5.900.000), resultando em lucro de 60.000.",
+        "D": "Quota anual = (8.000.000 − 1.280.000) ÷ 8 = 840.000; em 2,5 anos, 2.100.000; **valor contábil** 5.900.000; lucro = 5.960.000 − 5.900.000 = **60.000**.",
+        "E": "480.000 não corresponde ao cálculo: com quota de 840.000 por 2,5 anos, o **valor contábil** é 5.900.000 e o lucro é 60.000."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#41",
+      "tipo": "me",
+      "numero": 41,
+      "enunciado": "A Cia. Só Dívida obteve um empréstimo no valor de R$ 30.000.000,00, em 01/12/2018. Tanto o principal quanto os juros serão pagos em 01/12/2025 e a taxa de juros compostos negociada foi 2% ao mês. Na data da obtenção do empréstimo, a empresa pagou R$ 800.000,00 referentes aos custos de transação e a taxa de custo efetivo da operação foi 2,033% ao mês.\n\nÉ correto afirmar que a Cia. Só Dívida reconheceu",
+      "alt": {
+        "A": "despesa financeira de R$ 584.000,00 em dezembro de 2018.",
+        "B": "despesa financeira de R$ 609.900,00 em dezembro de 2018.",
+        "C": "passivo total de R$ 30.600.000,00, em 31/12/2018.",
+        "D": "despesa financeira de R$ 1.400.000,00 em dezembro de 2018.",
+        "E": "despesa financeira de R$ 593.636,00 em dezembro de 2018."
+      },
+      "gab": "E",
+      "temas": [
+        "contabilidade.passivo",
+        "contabilidade.ativo.instrumentos-financeiros"
+      ],
+      "dispositivos": [
+        "L6404 184"
+      ],
+      "exp": "Pelo CPC 08 e o **custo amortizado** (CPC 48), o passivo nasce líquido dos **custos de transação**: 30.000.000 − 800.000 = 29.200.000, e a despesa do período é calculada pela **taxa efetiva**: 29.200.000 × 2,033% = **593.636** (E). 584.000 (A) aplica a taxa contratual (2%) ao valor líquido; 609.900 (B) aplica a taxa efetiva ao valor bruto; e o passivo em 31/12/2018 é 29.200.000 + 593.636 = 29.793.636, não 30.600.000 (C), que é o bruto mais juros contratuais.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "584.000 aplica a taxa contratual de 2% ao valor líquido; a despesa usa a **taxa efetiva**: 29.200.000 × 2,033% = 593.636.",
+        "B": "609.900 aplica a taxa efetiva ao valor bruto de 30 milhões; o passivo nasce **líquido dos custos de transação** (29.200.000), e a despesa é 593.636.",
+        "C": "30.600.000 é o principal bruto mais os juros contratuais; pelo **custo amortizado**, o passivo em 31/12/2018 é 29.200.000 + 593.636 = 29.793.636.",
+        "D": "1.400.000 soma juros contratuais e custos de transação; os custos são **apropriados ao longo do prazo** pela taxa efetiva, e a despesa de dezembro é 593.636.",
+        "E": "O passivo inicial é 30.000.000 − 800.000 (custos de transação) = 29.200.000, e a despesa de dezembro, pela **taxa efetiva**, é 29.200.000 × 2,033% = **593.636**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#42",
+      "tipo": "me",
+      "numero": 42,
+      "enunciado": "Em 31/12/2016, o saldo líquido da conta Intangíveis evidenciado no Balanço Patrimonial da empresa Invisível S.A. era R$ 21.500.000,00, composto dos seguintes valores:\n\nCusto de aquisição ... 25.000.000,00\n(−) Amortização Acumulada ... (3.500.000,00)\n(=) Valor contábil ... 21.500.000,00\n\nAs notas explicativas dessa conta apresentavam, nessa data, as seguintes informações:\n\n[Tabela — colunas: Tipo de Ativo Intangível; Custo de aquisição (R$); Amortização acumulada (R$); Vida útil. Patentes: 17.500.000,00; 3.500.000,00; 20 anos. Marca adquirida: 7.500.000,00; −; Indefinida. Total: 25.000.000,00; 3.500.000,00; −.]\n\nA empresa adota o método linear para cálculo da despesa de amortização.\n\nA empresa realizou, em 31/12/2017, o teste de redução ao valor recuperável (teste de impairment) para os dois ativos e obteve as seguintes informações:\n\n[Tabela — colunas: Tipo de Ativo Intangível; Valor justo (R$); Valor em uso (R$). Patentes: Não existe; 13.250.000,00. Marca adquirida: 6.500.000,00; 7.000.000,00.]\n\nO saldo líquido evidenciado no Balanço Patrimonial de 31/12/2017 para a conta Intangíveis foi, em reais,",
+      "alt": {
+        "A": "20.250.000,00.",
+        "B": "20.125.000,00.",
+        "C": "19.750.000,00.",
+        "D": "19.625.000,00.",
+        "E": "20.625.000,00."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.ativo.intangivel"
+      ],
+      "dispositivos": [
+        "L6404 183 VII",
+        "L6404 183 §3º"
+      ],
+      "exp": "Patentes: amortização anual 17.500.000 ÷ 20 = 875.000; em 31/12/2017, valor contábil = 17.500.000 − 4.375.000 = 13.125.000, abaixo do **valor recuperável** (13.250.000, o valor em uso), sem perda. Marca de vida útil **indefinida** não é amortizada (CPC 04); seu valor recuperável é o **maior** entre valor justo e valor em uso (CPC 01), 7.000.000, abaixo de 7.500.000: perda de 500.000. Saldo: 13.125.000 + 7.000.000 = **20.125.000** (B). Ajustar a patente para 13.250.000 (aumentar o ativo) daria 20.250.000 (A), e usar o valor justo da marca daria 19.625.000 (D).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "20.250.000 eleva a patente ao valor em uso de 13.250.000, mas o teste de **impairment** só reduz o ativo; a patente fica em 13.125.000 e o saldo é 20.125.000.",
+        "B": "Patente: 17.500.000 − 5 × 875.000 = 13.125.000 (sem perda); marca de vida **indefinida**, sem amortização, reduzida ao valor recuperável de 7.000.000; saldo **20.125.000**.",
+        "C": "19.750.000 soma o valor em uso da patente e o valor justo da marca; a patente fica no valor contábil (13.125.000) e a marca, no **maior** entre valor justo e valor em uso (7.000.000): 20.125.000.",
+        "D": "19.625.000 reduz a marca ao valor justo (6.500.000), mas o valor recuperável é o **maior** entre valor justo e valor em uso (7.000.000); o saldo é 20.125.000.",
+        "E": "20.625.000 deixa de reconhecer a perda da marca: o valor recuperável (7.000.000) é **menor** que o contábil (7.500.000), e o saldo é 20.125.000."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#43",
+      "tipo": "me",
+      "numero": 43,
+      "enunciado": "O Balanço Patrimonial de uma empresa, em 31/12/2017, apresentava no passivo o saldo de R$ 840.000,00 na conta Provisões, que era composto dos valores abaixo.\n\n[Tabela — colunas: Processo; Saldo em 31/12/2017. Ambiental: R$ 300.000,00. Trabalhista: R$ 540.000,00.]\n\nEm 31/12/2018 a empresa analisou as condições destes dois processos e identificou dois novos processos que surgiram durante o ano, sendo que as seguintes informações sobre os processos foram obtidas junto à sua assessoria jurídica:\n\n[Tabela — colunas: Processo; Probabilidade de Perda em 31/12/2018; Valor estimado em 31/12/2018 para as perdas. Ambiental: Provável; R$ 240.000,00. Trabalhista: Provável; R$ 400.000,00. Fiscal I (novo): Possível; R$ 450.000,00. Fiscal II (novo): Provável; R$ 270.000,00.]\n\nNa Demonstração do Resultado de 2018, o efeito total que a empresa reconheceu, em função das provisões necessárias, foi:",
+      "alt": {
+        "A": "Despesa total no valor de R$ 70.000,00.",
+        "B": "Despesa total no valor de R$ 720.000,00.",
+        "C": "Despesa total no valor de R$ 270.000,00.",
+        "D": "Despesa total no valor de R$ 520.000,00.",
+        "E": "Receita total no valor de R$ 200.000,00."
+      },
+      "gab": "A",
+      "temas": [
+        "contabilidade.passivo"
+      ],
+      "dispositivos": [],
+      "exp": "Pelo CPC 25, só se provisionam perdas **prováveis**; a **possível** (Fiscal I) é apenas divulgada em nota. Ajustes de 2018: reversão de 60.000 na ambiental (300.000 → 240.000) e de 140.000 na trabalhista (540.000 → 400.000), receita de 200.000; nova provisão Fiscal II, despesa de 270.000. Efeito líquido: 270.000 − 200.000 = **despesa de 70.000** (A). 720.000 (B) provisiona também a perda possível; 270.000 (C) ignora as reversões; (E) ignora a nova provisão.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Reversões de 60.000 (ambiental) e 140.000 (trabalhista) somam 200.000; a nova provisão Fiscal II é 270.000; a perda **possível** não é provisionada; efeito: **despesa de 70.000**.",
+        "B": "720.000 provisiona também o Fiscal I, de perda **possível**, que só é divulgado em nota (CPC 25); o efeito é despesa de 70.000.",
+        "C": "270.000 considera só a nova provisão e ignora as **reversões** de 200.000 nas provisões ambiental e trabalhista; o efeito líquido é despesa de 70.000.",
+        "D": "520.000 provisiona também o Fiscal I, de perda **possível**, que só vai para nota explicativa; sem ele, o efeito é despesa de 70.000.",
+        "E": "Receita de 200.000 considera só as **reversões** e esquece a nova provisão provável de 270.000; o efeito é despesa de 70.000."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#44",
+      "tipo": "me",
+      "numero": 44,
+      "enunciado": "Um contrato de arrendamento foi realizado por uma empresa para a utilização de um equipamento industrial. O contrato será pago em 36 parcelas mensais de R$ 32.135,00 e uma parcela adicional no valor de R$ 100.000,00 que deverá ser paga juntamente com a 36ª parcela mensal. As demais informações sobre o contrato são as seguintes:\n\n− Data do contrato: 01/12/2018\n− Taxa implícita de juros do contrato: 1,2% ao mês\n− Valor presente das parcelas em 01/12/2018: R$ 1.000.000,00\n− Vida útil do equipamento para a empresa: 7 anos\n− Valor residual esperado de venda do equipamento pela empresa: R$ 328.000,00\n\nO valor total das despesas que afetaram o resultado de dezembro de 2018, decorrentes do contrato de arrendamento citado foi, em reais:",
+      "alt": {
+        "A": "32.135,00.",
+        "B": "12.000,00.",
+        "C": "20.000,00.",
+        "D": "8.000,00.",
+        "E": "23.904,76."
+      },
+      "gab": "C",
+      "temas": [
+        "contabilidade.passivo.arrendamento",
+        "contabilidade.passivo",
+        "contabilidade.ativo.imobilizado"
+      ],
+      "dispositivos": [],
+      "exp": "O arrendatário reconhece o ativo e o passivo pelo **valor presente** das parcelas, 1.000.000 (CPC 06). No mês, há duas despesas: **juros** pela taxa implícita, 1.000.000 × 1,2% = 12.000, e **depreciação** do ativo pela vida útil para a empresa, (1.000.000 − 328.000) ÷ 84 meses = 8.000. Total: **20.000** (C). A parcela de 32.135 (A) não é despesa (é pagamento de juros e principal); 12.000 (B) e 8.000 (D) são só uma das despesas; 23.904,76 (E) deprecia sem o valor residual (11.904,76 + 12.000).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "32.135 é a parcela paga, que **amortiza o passivo** e quita juros; as despesas do mês são juros de 12.000 e depreciação de 8.000, total 20.000.",
+        "B": "12.000 são só os **juros** (1.000.000 × 1,2%); falta a depreciação do equipamento, de 8.000, e o total é 20.000.",
+        "C": "Juros: 1.000.000 × 1,2% = 12.000; **depreciação**: (1.000.000 − 328.000) ÷ 84 meses = 8.000; total de despesas em dezembro: **20.000**.",
+        "D": "8.000 é só a **depreciação**; falta a despesa de juros de 12.000 sobre o passivo de arrendamento, e o total é 20.000.",
+        "E": "23.904,76 deprecia 1.000.000 em 84 meses sem descontar o **valor residual** de 328.000; com ele, a depreciação é 8.000 e o total, 20.000."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "As contas do Patrimônio Líquido de uma empresa em 31/12/2017 apresentavam os seguintes saldos:\n\nCapital Social ... R$ 250.000,00\nReservas de Capital ... R$ 25.000,00\nReservas de Lucros ... R$ 150.000,00\nAções em Tesouraria ... R$ 50.000,00\n\nOs seguintes fatos, relacionados com a atividade da empresa, ocorreram durante ano de 2018:\n\n− Em junho de 2018, foi recebido em doação um terreno no valor de R$ 30.000,00, sem quaisquer restrições a serem cumpridas pela empresa.\n− O lucro líquido apurado em 2018 foi R$ 90.000,00.\n− Foram propostos dividendos mínimos obrigatórios no valor de R$ 22.500,00.\n− Foi constituída Reserva de Incentivos Fiscais no valor de R$ 15.000,00.\n− As Ações em Tesouraria foram totalmente vendidas por R$ 60.000,00.\n\nO valor do Patrimônio Líquido da empresa, em 31/12/2018, era, em reais,",
+      "alt": {
+        "A": "502.500,00.",
+        "B": "552.500,00.",
+        "C": "465.000,00.",
+        "D": "542.500,00.",
+        "E": "532.500,00."
+      },
+      "gab": "A",
+      "temas": [
+        "contabilidade.patrimonio-liquido"
+      ],
+      "dispositivos": [
+        "L6404 182 §1º",
+        "L6404 195-A"
+      ],
+      "exp": "PL inicial: 250.000 + 25.000 + 150.000 − 50.000 (ações em tesouraria, **redutoras**) = 375.000. A doação sem condições é **receita** (CPC 07) e já está no lucro de 90.000, por isso não se soma de novo; a reserva de incentivos fiscais só remaneja o lucro dentro do PL (`L6404 195-A`). Somam-se o lucro (90.000) e a venda das ações em tesouraria (60.000: sai a conta redutora de 50.000 e o ganho de 10.000 vai a reserva de capital), e saem os dividendos propostos (22.500, passivo): 375.000 + 90.000 + 60.000 − 22.500 = **502.500** (A). Somar a doação à parte dá 532.500 (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "PL inicial 375.000 + lucro 90.000 (que já inclui a **doação**) + venda das ações em tesouraria 60.000 − dividendos 22.500 = **502.500**.",
+        "B": "552.500 não deduz as **ações em tesouraria** (50.000) do PL inicial, que é 375.000; o PL final é 375.000 + 90.000 + 60.000 − 22.500 = 502.500.",
+        "C": "465.000 soma só o lucro ao PL inicial; faltam a venda das **ações em tesouraria** (+60.000) e os dividendos propostos (−22.500), e o PL é 502.500.",
+        "D": "542.500 não corresponde ao cálculo: com lucro de 90.000, venda das **ações em tesouraria** por 60.000 e dividendos de 22.500, o PL é 502.500.",
+        "E": "532.500 soma a doação de 30.000 à parte, mas a doação sem condições é **receita** e já está no lucro de 90.000; o PL é 502.500."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "São apresentados abaixo os Balanços Patrimoniais em 31/12/16 e 31/12/17, e a Demonstração do Resultado de 2017 da empresa Celulares à Válvula S.A.\n\n[Balanços Patrimoniais (em reais) — colunas: 31/12/16; 31/12/17. Ativo: __Ativo Circulante__: 765.000; 1.179.000. Caixa e equivalentes de caixa: 540.000; 969.000. Valores a receber de clientes: 105.000; 180.000. Estoques: 120.000; 30.000. __Ativo Não Circulante__: 450.000; 810.000. Imobilizado — Imóveis: 450.000; 900.000. (−) Depreciação acumulada: −; (90.000). Total do Ativo: 1.215.000; 1.989.000. Passivo: __Passivo Circulante__: 315.000; 210.000. Fornecedores: 255.000; 135.000. Impostos a pagar: 60.000; 75.000. __Passivo Não Circulante__: 300.000; 471.000. Empréstimos: 300.000; 471.000. __Patrimônio Líquido__: 600.000; 1.308.000. Capital social: 600.000; 900.000. Reservas de lucros: −; 408.000. Total do Passivo + PL: 1.215.000; 1.989.000.]\n\n[Demonstração do Resultado - 01/01/2017 a 31/12/2017 (em reais): Receitas de vendas 2.040.000; (−) Custo dos produtos vendidos (1.260.000); (=) Resultado bruto 780.000; (−) Despesas operacionais: Despesas com salários (180.000), Despesa com seguros (96.000), Despesa de depreciação (90.000); (+) Outras receitas: Resultado na venda de imóveis 240.000; (=) Resultado antes dos efeitos financeiros 654.000; (−) Despesa financeira (juros) (21.000); (=) Resultado antes dos impostos 633.000; (−) Despesa com impostos sobre o lucro (225.000); (=) Resultado líquido 408.000.]\n\nAs seguintes informações adicionais são conhecidas:\n\nO saldo da conta imóveis existente em 31/12/16 corresponde ao custo de um terreno que foi vendido à vista em 2017.\n− No período não ocorreu o pagamento da despesa financeira (juros).\n− O aumento de capital em 2017 foi realizado parte em dinheiro (R$ 150.000,00) e parte com a incorporação de imóveis no valor de R$ 150.000,00.\n− Do valor dos demais imóveis adquiridos em 2017, R$ 150.000,00 foram pagos com recursos obtidos de um novo empréstimo e o restante com recursos próprios da empresa.\n\nO caixa gerado nas atividades operacionais da empresa no ano de 2017 foi, em reais,",
+      "alt": {
+        "A": "519.000,00.",
+        "B": "279.000,00.",
+        "C": "189.000,00.",
+        "D": "429.000,00.",
+        "E": "609.000,00."
+      },
+      "gab": "C",
+      "temas": [
+        "contabilidade.demonstracoes.dfc"
+      ],
+      "dispositivos": [
+        "L6404 188 I"
+      ],
+      "exp": "Pelo método indireto (CPC 03): lucro 408.000 + depreciação 90.000 − **ganho na venda de imóveis** 240.000 (o recebimento vai para investimento) + juros apropriados e **não pagos** 21.000 = 279.000. Variações do capital de giro: clientes +75.000 (−75.000), estoques −90.000 (+90.000), fornecedores −120.000 (−120.000), impostos a pagar +15.000 (+15.000). Caixa operacional: 279.000 − 75.000 + 90.000 − 120.000 + 15.000 = **189.000** (C). Conferência: investimento 690.000 − 750.000 = −60.000; financiamento 150.000 + 150.000 = 300.000; 189.000 − 60.000 + 300.000 = 429.000, que é a variação do caixa (D), não o caixa operacional; 279.000 (B) esquece o capital de giro.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "519.000 não corresponde ao cálculo: lucro ajustado de 279.000 com as variações do **capital de giro** (−75.000 + 90.000 − 120.000 + 15.000) dá 189.000.",
+        "B": "279.000 é o lucro ajustado (408.000 + 90.000 − 240.000 + 21.000) antes das variações do **capital de giro**, que somam −90.000; o caixa operacional é 189.000.",
+        "C": "Lucro ajustado: 408.000 + 90.000 (depreciação) − 240.000 (**ganho na venda**) + 21.000 (juros não pagos) = 279.000; capital de giro: −75.000 + 90.000 − 120.000 + 15.000; caixa operacional **189.000**.",
+        "D": "429.000 é a **variação total** do caixa (969.000 − 540.000), que soma também investimento (−60.000) e financiamento (+300.000); o caixa operacional é 189.000.",
+        "E": "609.000 não corresponde ao cálculo: o ganho de 240.000 na venda de imóveis é **excluído** do lucro, e o caixa operacional é 189.000."
+      },
+      "imagens": [
+        "figuras/q46.png"
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#47",
+      "tipo": "me",
+      "numero": 47,
+      "enunciado": "Utilizando os dados do Balanço Patrimonial de uma empresa em 31/12/2016, foram obtidas as seguintes informações:\n\n− Ativo Não Circulante = R$ 2.100.000,00\n− Passivo Circulante = R$ 800.000,00\n− Índice de liquidez corrente = 1,5\n− Concentração da dívida no curto prazo = 40%\n\nEm 31/12/2015, o valor total do Patrimônio Líquido da empresa era R$ 1.160.000,00. Sabe-se que durante o ano 2016 não houve aumento de Capital nem proposta de distribuição de dividendos. Se ainda não foi realizada a distribuição do resultado obtido em 2016, o resultado Líquido obtido pela empresa neste período foi, em reais,",
+      "alt": {
+        "A": "140.000,00 (Lucro).",
+        "B": "75.000,00 (Lucro).",
+        "C": "250.000,00 (Prejuízo).",
+        "D": "640.000,00 (Lucro).",
+        "E": "640.000,00 (Prejuízo)."
+      },
+      "gab": "A",
+      "temas": [
+        "contabilidade.analise",
+        "contabilidade.demonstracoes.balanco"
+      ],
+      "dispositivos": [],
+      "exp": "**Liquidez corrente** = AC ÷ PC = 1,5 → AC = 1,5 × 800.000 = 1.200.000; ativo total = 1.200.000 + 2.100.000 = 3.300.000. **Concentração da dívida no curto prazo** = PC ÷ (PC + PNC) = 40% → passivo exigível = 800.000 ÷ 0,4 = 2.000.000. PL em 2016 = 3.300.000 − 2.000.000 = 1.300.000; sem aumento de capital nem dividendos, a variação do PL é o resultado: 1.300.000 − 1.160.000 = **lucro de 140.000** (A).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "AC = 1,5 × 800.000 = 1.200.000; ativo total 3.300.000; passivo exigível = 800.000 ÷ 0,4 = 2.000.000; PL = 1.300.000; resultado = 1.300.000 − 1.160.000 = **lucro de 140.000**.",
+        "B": "75.000 não corresponde ao cálculo: o PL de 2016 é 3.300.000 − 2.000.000 = 1.300.000, e a variação em relação a 1.160.000 é **lucro de 140.000**.",
+        "C": "O PL aumentou de 1.160.000 para 1.300.000 (ativo 3.300.000 − passivo exigível 2.000.000), o que indica **lucro** de 140.000, não prejuízo.",
+        "D": "640.000 não corresponde ao cálculo: o passivo exigível é 800.000 ÷ 40% = 2.000.000, o PL é 1.300.000 e o resultado é **lucro de 140.000**.",
+        "E": "O PL cresceu de 1.160.000 para 1.300.000, e sem aumento de capital nem dividendos isso é **lucro** de 140.000, não prejuízo."
+      },
+      "pendencias": []
+    }
+  ]
+}

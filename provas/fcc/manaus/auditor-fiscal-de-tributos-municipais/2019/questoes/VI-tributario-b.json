@@ -1,0 +1,501 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#86",
+      "tipo": "me",
+      "numero": 86,
+      "enunciado": "De acordo com a Lei municipal nº 1.628, de 30 de dezembro de 2011, fica isento do IPTU o imóvel",
+      "alt": {
+        "A": "qualificado como habitação econômica, assim entendido o imóvel cujo valor de mercado, no exercício de 2019, não seja superior a R$ 45.700,00.",
+        "B": "de interesse histórico ou cultural, assim reconhecido pelo órgão federal competente, que tenha sua fachada e cobertura restaurada em suas características arquitetônicas originais, limitada a isenção ao prazo de 5 anos, contado da conclusão da obra de restauração.",
+        "C": "pertencente a portador de doença crônica terminal.",
+        "D": "de residência de portador de necessidades especiais (PDE), desde que este seja proprietário do imóvel, não possua rendimentos e esteja contemplado nos programas sociais dos governos federal, estadual e/ou municipal.",
+        "E": "de propriedade de pessoas com mais de 80 anos de idade, desde que nele resida."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.municipais.iptu"
+      ],
+      "dispositivos": [],
+      "exp": "A Lei municipal nº 1.628/2011 de Manaus (lei do IPTU) inclui entre as isenções o imóvel **pertencente a portador de doença crônica terminal**, sem outros requisitos na redação cobrada: é a (C). As demais reproduzem hipóteses de isenção da mesma lei com algum requisito trocado (o valor-limite da habitação econômica, o órgão que reconhece o interesse histórico e o prazo da isenção, as condições do portador de necessidades especiais, a idade do proprietário), e por isso não correspondem ao texto legal.",
+      "observacoes": [
+        "O texto da Lei municipal nº 1.628/2011 de Manaus não pôde ser conferido; a explicação segue o gabarito oficial e não detalha qual requisito cada distratora altera. Sem cards de verdadeiro/falso por esse motivo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#87",
+      "tipo": "me",
+      "numero": 87,
+      "enunciado": "O aparelho de televisão de Fabiano não está funcionando. Em razão disso, ele o levou, em seu próprio veículo, à empresa “Só Consertos Ltda.”, localizada em Manaus, para que ela efetuasse os reparos necessários. Depois de examinar o aparelho, a citada empresa chegou à conclusão de que não tinha condições técnicas de efetuá-los e indagou o cliente se ele gostaria que o aparelho fosse remetido à empresa “Super Consertos Ltda.”, localizada em Manaus, única empresa com condições técnicas de realizar o conserto daquele aparelho. O cliente concordou.\nEm razão disso, e com a anuência do cliente, a empresa “Só Consertos Ltda.” contratou, em seu próprio nome, e ainda pagou à transportadora “Manauara Transportes Ltda.” para retirar o aparelho de seu estabelecimento e o levar até o estabelecimento da empresa “Super Consertos Ltda.”.\nCom base na Lei municipal nº 2.251, de 02 de outubro de 2017,",
+      "alt": {
+        "A": "o contribuinte do ISSQN relativo à prestação de serviço de transporte do aparelho de televisão é Fabiano, proprietário do bem transportado.",
+        "B": "não há contribuinte do ISSQN relativo a esta prestação de serviço de transporte do aparelho de televisão, pois ela não está no campo de incidência do ISSQN.",
+        "C": "o contribuinte do ISSQN relativo à prestação de serviço de transporte do aparelho de televisão é a empresa “Só Consertos Ltda.”, ponto inicial da prestação de serviço de transporte.",
+        "D": "o contribuinte do ISSQN relativo à prestação de serviço de transporte do aparelho de televisão é a empresa “Super Consertos Ltda.”, destinatária final da prestação de serviço de transporte.",
+        "E": "o contribuinte do ISSQN relativo à prestação de serviço de transporte do aparelho de televisão é a empresa transportadora “Manauara Transportes Ltda.”."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "LC116 1",
+        "LC116 5"
+      ],
+      "exp": "O transporte feito **dentro do Município** (de um estabelecimento a outro, ambos em Manaus) é serviço de transporte de natureza municipal (subitem 16 da lista), no campo do ISSQN e não do ICMS, que só alcança o transporte interestadual e intermunicipal. O **contribuinte** do imposto é o **prestador do serviço** (`LC116 5`, reproduzido na Lei municipal nº 2.251/2017): a transportadora “Manauara Transportes Ltda.”. Fabiano não contratou o transporte; “Só Consertos Ltda.” é a tomadora (quando muito, responsável por retenção, nunca contribuinte), e “Super Consertos Ltda.” é só o destino da carga.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Fabiano não contratou nem prestou o transporte. O **contribuinte** do ISSQN é o **prestador do serviço** (`LC116 5`), e ser dono do bem transportado não o torna sujeito passivo.",
+        "B": "O transporte realizado **dentro do Município** é serviço de natureza municipal, sujeito ao **ISSQN** (subitem 16 da lista da `LC116 1`); o ICMS só alcança o transporte interestadual e intermunicipal.",
+        "C": "A empresa que contrata e paga o transporte é a **tomadora** do serviço; o **contribuinte** do ISSQN é o **prestador** (`LC116 5`), e a tomadora poderia, no máximo, ser responsável por retenção.",
+        "D": "A empresa de destino do aparelho não contratou nem prestou o transporte. O **contribuinte** do ISSQN é o **prestador do serviço** (`LC116 5`), ou seja, a transportadora.",
+        "E": "O transporte dentro do Município é serviço sujeito ao ISSQN, e o **contribuinte** é o **prestador do serviço** (`LC116 5`): a transportadora que executou o transporte."
+      },
+      "observacoes": [
+        "O ISS será substituído pelo IBS na transição da Reforma Tributária (EC 132/2023, LC 214/2025), com extinção prevista para 2033; até lá, a regra continua valendo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#88",
+      "tipo": "me",
+      "numero": 88,
+      "enunciado": "De acordo com a Lei municipal nº 2.385, de 27 de dezembro de 2018, que institui o Conselho Administrativo de Recursos Fiscais do Município de Manaus (CARF-M), o",
+      "alt": {
+        "A": "Corpo Deliberativo do Tribunal Pleno é formado por 12 Conselheiros titulares e por 08 Conselheiros suplentes.",
+        "B": "Presidente do Tribunal Pleno não profere voto ordinário, cabendo-lhe, porém, proferir voto de desempate, se for o caso.",
+        "C": "Corpo Deliberativo do Tribunal Pleno é composto por Conselheiros distintos daqueles que compõem as Câmaras Julgadoras.",
+        "D": "Presidente e o Vice-Presidente do Tribunal Pleno serão, respectivamente, os Presidentes da Primeira e da Segunda Câmaras Julgadoras.",
+        "E": "Corpo Deliberativo do Tribunal Pleno é composto por Conselheiros distintos daqueles que compõem as Câmaras Julgadoras, exceto em relação ao Presidente e o Vice-Presidente do Tribunal Pleno."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "Pela Lei municipal nº 2.385/2018, o **Corpo Deliberativo do Tribunal Pleno** do CARF-M é composto pelos próprios **Conselheiros titulares e suplentes das Câmaras Julgadoras**; como cada uma das duas Câmaras tem 6 titulares (3 da Fazenda e 3 dos contribuintes) e 4 suplentes, o Pleno soma **12 titulares e 8 suplentes**: é a (A). Por isso erram (C) e (E), que falam em conselheiros distintos dos das Câmaras. (B) e (D) não correspondem às regras da lei sobre a presidência do Pleno, segundo o gabarito oficial.",
+      "observacoes": [
+        "O texto integral da Lei municipal nº 2.385/2018 não pôde ser conferido; a composição (Corpo Deliberativo formado pelos conselheiros das Câmaras, 6 titulares por Câmara) foi checada em resumo do art. 9º e do art. 10, e o erro de (B) e (D) segue o gabarito oficial. Sem cards de verdadeiro/falso por esse motivo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#89",
+      "tipo": "me",
+      "numero": 89,
+      "enunciado": "A Lei Complementar nº 123/2006 estabelece que o Simples Nacional implica o recolhimento mensal, mediante documento único de arrecadação, de diversos impostos e contribuições de competência dos Municípios, dos Estados e da União. Os impostos de competência municipal sujeitos a esta forma de recolhimento mensal são",
+      "alt": {
+        "A": "o ITBI, excluídas as hipóteses em que ele é devido em relação aos serviços sujeitos à substituição tributária.",
+        "B": "a “taxa do lixo”, referente ao recolhimento de resíduos sólidos, promovido pela municipalidade.",
+        "C": "o ISS, excluídas as hipóteses em que ele é devido em relação aos serviços sujeitos à substituição tributária ou retenção na fonte, e em relação à importação de serviços.",
+        "D": "o ISS devido na importação de serviços.",
+        "E": "o IPTU, excluídas as hipóteses em que ele é devido relativamente à substituição tributária."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.simples-nacional",
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "LC123 13 VIII",
+        "LC123 13 §1º XIV"
+      ],
+      "exp": "O único imposto municipal recolhido no Simples Nacional é o **ISS** (`LC123 13 VIII`), e mesmo ele fica de fora quando devido em relação a serviços sujeitos à **substituição tributária ou retenção na fonte** e na **importação de serviços** (`LC123 13 §1º XIV`): é a (C). ITBI e IPTU não entram no documento único, (D) inverte a exclusão da importação de serviços e (B) fala de taxa, que nem é imposto nem integra o regime.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O **ITBI** não integra o Simples Nacional: o único imposto municipal recolhido no documento único é o **ISS** (`LC123 13 VIII`).",
+        "B": "Taxa não é imposto e não integra o Simples Nacional; o único tributo municipal recolhido no documento único é o **ISS** (`LC123 13 VIII`).",
+        "C": "O **ISS** é o imposto municipal do Simples Nacional (`LC123 13 VIII`), mas é recolhido à parte quando devido em serviços sujeitos à **substituição tributária ou retenção na fonte** e na **importação de serviços** (`LC123 13 §1º XIV`).",
+        "D": "O ISS devido na **importação de serviços** é justamente uma das hipóteses **excluídas** do Simples Nacional e recolhidas à parte (`LC123 13 §1º XIV`).",
+        "E": "O **IPTU** não integra o Simples Nacional: o único imposto municipal recolhido no documento único é o **ISS** (`LC123 13 VIII`)."
+      },
+      "observacoes": [
+        "O ISS será substituído pelo IBS na transição da Reforma Tributária (EC 132/2023, LC 214/2025), com extinção prevista para 2033; até lá, a regra continua valendo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#90",
+      "tipo": "me",
+      "numero": 90,
+      "enunciado": "Não são raros os conflitos de competência entre o ISSQN e o ICMS, no que diz respeito à inclusão de serviços no campo de incidência do ICMS e à inclusão de mercadorias no campo de incidência do ISSQN. Do mesmo modo, com alguma frequência, verificam-se conflitos entre o ITCMD e o ITBI, no tocante à incidência destes impostos em relação a determinadas transmissões.\nDe acordo com a Constituição Federal, dispor sobre conflitos de competência, em matéria tributária, entre a União, os Estados, o Distrito Federal e os Municípios é matéria que cabe",
+      "alt": {
+        "A": "às emendas à Constituição Federal.",
+        "B": "à lei ordinária.",
+        "C": "às Resoluções do Senado Federal.",
+        "D": "à lei complementar.",
+        "E": "às emendas às Constituição Estaduais e às leis orgânicas municipais, conforme o caso."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.sistema-nacional.competencia",
+        "tributario.fontes"
+      ],
+      "dispositivos": [
+        "CF 146 I"
+      ],
+      "exp": "Cabe à **lei complementar** dispor sobre conflitos de competência, em matéria tributária, entre a União, os Estados, o Distrito Federal e os Municípios (`CF 146 I`): é a (D). A matéria não exige emenda constitucional nem pode ser tratada por lei ordinária; as resoluções do Senado têm outras funções tributárias (como fixar alíquotas do ICMS e do ITCMD), e constituições estaduais e leis orgânicas não poderiam resolver um conflito que envolve entes diversos.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Constituição reserva a solução dos conflitos de competência tributária à **lei complementar** (`CF 146 I`), não a emendas constitucionais.",
+        "B": "Dispor sobre conflitos de competência tributária é matéria reservada à **lei complementar** (`CF 146 I`), e não à lei ordinária.",
+        "C": "Dispor sobre conflitos de competência tributária cabe à **lei complementar** (`CF 146 I`); as resoluções do Senado cuidam de outras matérias, como alíquotas do ICMS e do ITCMD.",
+        "D": "Pelo `CF 146 I`, cabe à **lei complementar** dispor sobre conflitos de competência, em matéria tributária, entre a União, os Estados, o Distrito Federal e os Municípios.",
+        "E": "Um conflito entre entes diferentes não pode ser resolvido pela norma de um só deles: a matéria é reservada à **lei complementar** nacional (`CF 146 I`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#91",
+      "tipo": "me",
+      "numero": 91,
+      "enunciado": "Autoridade tributária municipal constatou que o contribuinte “Lavanderia Roupa Limpa Ltda.” efetivamente infringiu a legislação tributária municipal do ISSQN. Não obstante isso, a referida autoridade, mesmo depois de ter analisado detidamente a lei tributária que define infrações e comina penalidades para os fatos comprovadamente praticados pelo contribuinte, continuava em dúvida quanto à natureza da penalidade aplicável e, também, quanto à graduação dessa penalidade. De acordo com o Código Tributário Nacional, aquela autoridade deveria interpretar a mencionada lei tributária municipal",
+      "alt": {
+        "A": "de maneira mais favorável à Fazenda Pública, o que significa interpretá-la de maneira mais desfavorável ao acusado.",
+        "B": "de maneira mais favorável ao acusado.",
+        "C": "com equidade, ainda que isso resultasse na dispensa do pagamento de tributo devido.",
+        "D": "de maneira mais desfavorável ao acusado, no tocante à natureza da penalidade aplicável, e de maneira mais favorável, porém, em relação a sua graduação.",
+        "E": "de maneira mais favorável ao acusado, no tocante à natureza da penalidade aplicável, e de maneira mais desfavorável, porém, em relação a sua graduação."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.norma"
+      ],
+      "dispositivos": [
+        "CTN 112 IV",
+        "CTN 108 §2º"
+      ],
+      "exp": "A lei tributária que define infrações ou comina penalidades interpreta-se da **maneira mais favorável ao acusado** em caso de dúvida quanto à **natureza da penalidade aplicável, ou à sua graduação** (`CTN 112 IV`): é a (B), nos dois pontos da dúvida. (A), (D) e (E) aplicam a interpretação desfavorável a um ou aos dois aspectos, e (C) contraria o `CTN 108 §2º`, pelo qual o emprego da equidade **não pode resultar na dispensa** do pagamento de tributo devido.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Havendo dúvida quanto à natureza ou à graduação da penalidade, a lei tributária interpreta-se da maneira **mais favorável ao acusado** (`CTN 112 IV`), e não à Fazenda Pública.",
+        "B": "Pelo `CTN 112 IV`, a lei que define infrações ou comina penalidades interpreta-se da maneira **mais favorável ao acusado** em caso de dúvida quanto à **natureza da penalidade aplicável, ou à sua graduação**.",
+        "C": "O emprego da **equidade** não pode resultar na **dispensa do pagamento de tributo devido** (`CTN 108 §2º`); na dúvida sobre a penalidade, aplica-se a interpretação mais favorável ao acusado (`CTN 112 IV`).",
+        "D": "A interpretação mais favorável ao acusado vale tanto para a **natureza** da penalidade quanto para a sua **graduação** (`CTN 112 IV`); não há interpretação desfavorável em nenhum dos dois aspectos.",
+        "E": "A interpretação mais favorável ao acusado vale tanto para a **natureza** da penalidade quanto para a sua **graduação** (`CTN 112 IV`); a graduação não se interpreta de forma desfavorável."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#92",
+      "tipo": "me",
+      "numero": 92,
+      "enunciado": "De acordo com a Lei nº 2.251, de 02 de outubro de 2017, do Município de Manaus, que dispõe sobre o ISSQN e sua base de cálculo,",
+      "alt": {
+        "A": "não se inclui na base de cálculo do ISSQN o valor referente às subempreitadas já tributadas pelo imposto.",
+        "B": "a base de cálculo do imposto, nas exportações de serviços para o exterior do país, é o preço do serviço.",
+        "C": "admite-se o arbitramento da base de cálculo do imposto, nas situações tipificadas na legislação municipal, mesmo que disso resulte, em qualquer caso, carga tributária menor que a decorrente da aplicação da alíquota mínima estabelecida na lei complementar federal que rege a matéria.",
+        "D": "é vedada a estimativa da base de cálculo do imposto.",
+        "E": "não se inclui na base de cálculo do ISSQN o valor dos materiais fornecidos pelo prestador dos serviços de engenharia, arquitetura, geologia e congêneres."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "LC116 2 I",
+        "LC116 7 §2º I",
+        "LC116 8-A §1º",
+        "CTN 148"
+      ],
+      "exp": "A Lei municipal nº 2.251/2017 permite excluir da base de cálculo do ISSQN o valor das **subempreitadas já tributadas** pelo imposto, evitando a dupla tributação na construção civil: é a (A). (B) erra porque o imposto **não incide** sobre as exportações de serviços (`LC116 2 I`); (C) contraria a vedação de carga inferior à da **alíquota mínima de 2%** (`LC116 8-A §1º`); (D) erra porque a lei admite o regime de **estimativa**, ao lado do arbitramento (`CTN 148`); e (E) estende aos serviços de engenharia e arquitetura (subitem 7.01) a dedução de materiais que a lei complementar só prevê para os subitens 7.02 e 7.05 (`LC116 7 §2º I`).",
+      "observacoes": [
+        "O texto da Lei municipal nº 2.251/2017 não pôde ser conferido; a dedução das subempreitadas (que foi vetada na LC 116/2003) e a previsão de estimativa seguem o gabarito oficial e a prática da legislação municipal.",
+        "O ISS será substituído pelo IBS na transição da Reforma Tributária (EC 132/2023, LC 214/2025), com extinção prevista para 2033; até lá, a regra continua valendo.",
+        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#93",
+      "tipo": "me",
+      "numero": 93,
+      "enunciado": "A Escrituração Fiscal Digital, conhecida pela sigla EFD, é",
+      "alt": {
+        "A": "um conjunto de escriturações de documentos fiscais e de outras informações de interesse dos Fiscos das unidades federadas e da Secretaria da Receita Federal do Brasil, em meio físico ou digital, desde que, neste caso, seja passível de impressão em meio físico, e cuja identificação seja feita biometricamente.",
+        "B": "um processo de escrituração de documentos fiscais que, em substituição ao sistema alfanumérico, utiliza códigos hexadecimais criptografados, em programas próprios, para efetuar registros comerciais, fiscais e tributários, bem como prestar as informações de interesse dos Fiscos das unidades federadas e da Secretaria da Receita Federal do Brasil.",
+        "C": "um sistema utilizado pelo Fisco da União e pelos Fiscos dos Estados e dos Municípios, para promover a escrituração e apuração de imposto periodicamente devido, cujo lançamento seja feito por homologação, como é o caso do IPI, no âmbito federal, do ICMS, no âmbito estadual e do ISSQN, no âmbito municipal, permitindo, com isso, que o valor do imposto devido seja imediatamente passível de inscrição em Dívida Ativa, utilizando Blockchain em substituição ao lançamento de ofício e, consequentemente, em substituição ao processo administrativo fiscal.",
+        "D": "toda escrituração de documento fiscal feita em meio digital, ou com utilização de computadores, em substituição à escrituração feita em meio físico, para apuração do IR federal e do ICMS estadual.",
+        "E": "um arquivo digital, que se constitui de um conjunto de escriturações de documentos fiscais e de outras informações de interesse dos Fiscos das unidades federadas e da Secretaria da Receita Federal do Brasil, bem como de registros de apuração de impostos referentes às operações e prestações praticadas pelo contribuinte, que deverá ser assinado digitalmente e transmitido, via Internet, ao ambiente Sped."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.obrigacao",
+        "tributario.administracao"
+      ],
+      "dispositivos": [],
+      "exp": "A definição da (E) reproduz o **Ajuste SINIEF 2/2009**: a EFD é um **arquivo digital** com o conjunto de escriturações de documentos fiscais e outras informações de interesse dos Fiscos estaduais e da Receita Federal, além do registro de apuração dos impostos, **assinado digitalmente** e **transmitido via Internet ao ambiente Sped**. (A) erra ao admitir meio físico e identificação biométrica; (B) inventa códigos hexadecimais; (C) mistura blockchain e inscrição imediata em dívida ativa, que não substituem o lançamento nem o processo administrativo; (D) reduz a EFD a qualquer escrituração feita em computador, para IR e ICMS.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A EFD é um **arquivo digital**, assinado com **certificado digital** e transmitido ao Sped; não existe em meio físico nem é identificada por biometria (Ajuste SINIEF 2/2009).",
+        "B": "A EFD não usa códigos hexadecimais criptografados no lugar do sistema alfanumérico: é um **arquivo digital** de escriturações, **assinado digitalmente** e transmitido ao Sped (Ajuste SINIEF 2/2009).",
+        "C": "A EFD é um **arquivo digital** de escrituração fiscal transmitido ao Sped; não usa blockchain nem substitui o **lançamento** ou o **processo administrativo fiscal**, nem torna o imposto inscrito de imediato em dívida ativa.",
+        "D": "A EFD não é qualquer escrituração feita em computador: é um **arquivo digital** em leiaute próprio, **assinado digitalmente** e transmitido via Internet ao **ambiente Sped** (Ajuste SINIEF 2/2009).",
+        "E": "Pelo Ajuste SINIEF 2/2009, a EFD é um **arquivo digital** com as escriturações fiscais e o registro de apuração dos impostos, **assinado digitalmente** e **transmitido via Internet ao ambiente Sped**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#94",
+      "tipo": "me",
+      "numero": 94,
+      "enunciado": "A Lei municipal nº 2.385, de 27 de dezembro de 2018, que institui o Conselho Administrativo de Recursos Fiscais do Município de Manaus (CARF-M), contempla regra relacionada ao exercício da Representação Fiscal do CARF-M. De acordo com a referida Lei, esta Representação será exercida",
+      "alt": {
+        "A": "por 3 membros titulares e 2 suplentes, que serão indicados pelo Secretário Municipal de Finanças do Município dentre os Auditores Fiscais e os Fiscais de Tributos Municipais, em efetivo exercício na carreira há pelo menos 3 anos.",
+        "B": "por 3 membros titulares e 3 suplentes, que serão indicados por deliberação conjunta do Secretário Municipal de Finanças do Município e do Procurador-Geral do Município, dentre os advogados de notável saber jurídico e com atuação no processo administrativo fiscal municipal há pelo menos 3 anos.",
+        "C": "por 2 membros titulares e 2 suplentes, que serão indicados pelo Procurador-Geral do Município dentre os Procuradores do Município de Manaus, em efetivo exercício na carreira há pelo menos 5 anos.",
+        "D": "por 2 membros titulares e 2 suplentes, que serão indicados por deliberação conjunta do Secretário Municipal de Finanças do Município e do Procurador-Geral do Município, dentre os Procuradores do Município de Manaus e os Auditores Fiscais e os Fiscais de Tributos Municipais, todos em efetivo exercício nas respectivas carreiras, há pelo menos 3 anos.",
+        "E": "por 3 membros titulares e 3 suplentes, que serão indicados pelo Secretário Municipal de Finanças do Município dentre os Procuradores do Município de Manaus, em efetivo exercício na carreira há pelo menos 3 anos."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "Pela Lei municipal nº 2.385/2018, a **Representação Fiscal** do CARF-M é exercida por **Procuradores do Município**: **2 titulares e 2 suplentes**, indicados pelo **Procurador-Geral do Município** dentre os Procuradores em efetivo exercício na carreira há pelo menos **5 anos**: é a (C). As distratoras trocam o número de membros, a autoridade que indica (o Secretário de Finanças, sozinho ou em conjunto) ou a origem dos representantes (auditores fiscais, advogados), além do tempo de carreira.",
+      "observacoes": [
+        "O texto da Lei municipal nº 2.385/2018 não pôde ser conferido; a explicação segue o gabarito oficial. Sem cards de verdadeiro/falso por esse motivo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#95",
+      "tipo": "me",
+      "numero": 95,
+      "enunciado": "A Constituição Federal estabelece diversas limitações ao Poder de Tributar. De acordo com estas limitações, os Municípios podem alterar a",
+      "alt": {
+        "A": "alíquota do ITBI, aumentando-a, e cobrar este imposto calculado com a nova alíquota, antes mesmo de decorridos 90 dias da data em que haja sido publicada a lei que a aumentou.",
+        "B": "base de cálculo do IPTU, aumentando-a, e cobrar este imposto calculado com a nova base de cálculo, antes mesmo de decorridos 90 dias da data em que haja sido publicada a lei que a aumentou.",
+        "C": "base de cálculo e a alíquota do ITBI, aumentando-as, e cobrar este imposto calculado com as novas alíquota e base de cálculo, antes mesmo de decorridos 90 dias da data em que haja sido publicada a lei que as aumentou.",
+        "D": "alíquota do ISSQN, aumentando-a, e cobrar este imposto calculado com a nova alíquota, antes mesmo de decorridos 90 dias da data em que haja sido publicada a lei que a aumentou, desde que o faça por meio de alteração em sua lei orgânica.",
+        "E": "base de cálculo e a alíquota do IPTU, aumentando-as, e cobrar este imposto calculado com as novas alíquota e base de cálculo, antes mesmo de decorridos 90 dias da data em que haja sido publicada a lei que as aumentou."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.sistema-nacional.limitacoes",
+        "tributario.municipais.iptu"
+      ],
+      "dispositivos": [
+        "CF 150 III c",
+        "CF 150 §1º"
+      ],
+      "exp": "A anterioridade nonagesimal (`CF 150 III c`) **não se aplica à fixação da base de cálculo** do IPVA e do **IPTU** (`CF 150 §1º`, que remete ao art. 156, I): o Município pode aumentar a base do IPTU e cobrar antes de 90 dias da publicação, respeitado o exercício seguinte. É a (B). O aumento de **alíquota** do IPTU, do ITBI ou do ISSQN, e da base do ITBI, continua sujeito aos 90 dias, e a lei orgânica não afasta essa garantia constitucional.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O aumento da **alíquota do ITBI** está sujeito à noventena (`CF 150 III c`); a exceção do `CF 150 §1º` alcança só a **base de cálculo do IPTU** (e do IPVA).",
+        "B": "A noventena **não se aplica à fixação da base de cálculo do IPTU** (`CF 150 §1º`), que pode ser cobrada antes de 90 dias da publicação, observada a anterioridade de exercício.",
+        "C": "Nem a alíquota nem a base de cálculo do **ITBI** escapam da noventena (`CF 150 III c`); a exceção do `CF 150 §1º` alcança só a **base de cálculo do IPTU** (e do IPVA).",
+        "D": "O aumento da **alíquota do ISSQN** está sujeito à noventena (`CF 150 III c`), e a lei orgânica municipal não pode afastar uma limitação imposta pela Constituição.",
+        "E": "Só a **base de cálculo** do IPTU escapa da noventena (`CF 150 §1º`); o aumento da **alíquota** do IPTU continua sujeito aos 90 dias (`CF 150 III c`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#96",
+      "tipo": "me",
+      "numero": 96,
+      "enunciado": "De acordo com a Lei municipal nº 1.697, de 20 de dezembro de 1983, que dispõe sobre o Código Tributário do Município de Manaus, o exercício do poder de polícia do Município relativo à segurança, higiene, saúde, ordem e tranquilidade públicas, propriedade, localização e ao funcionamento de estabelecimentos e atividades será custeado em função da cobrança de diversas taxas, dentre as quais se encontra a",
+      "alt": {
+        "A": "Taxa de Licença de Atividades em Cemitérios (TLAC), cuja hipótese de incidência é o fato de o contribuinte sujeitar-se às atividades de controle e fiscalização dos estabelecimentos funerários e das atividades sujeitas ao controle de higiene e segurança sanitária, em consonância com as regras estabelecidas na legislação sanitária pertinente.",
+        "B": "Taxa de Exploração de Engenhos Publicitários (TEEP), cuja hipótese de incidência é o fato de o contribuinte sujeitar-se à autorização para execução de obras e de edificações, de modo a verificar as condições estabelecidas na legislação de posturas e de obras.",
+        "C": "Taxa de Vigilância Sanitária (TVS), cuja hipótese de incidência é o fato de o espólio sujeitar-se ao controle do cumprimento das diretrizes estabelecidas para a realização de obras e serviços em sepulturas nos cemitérios públicos.",
+        "D": "Taxa de Execução de Obras e de Edificações (TEOE), cuja hipótese de incidência é o fato de o contribuinte sujeitar-se às atividades de autorização e fiscalização para implantação e uso de engenhos publicitários.",
+        "E": "Taxa de Licença de Comércio e Realização de Eventos (TLCE), cuja hipótese de incidência é o fato de o contribuinte sujeitar-se à autorização e ao controle das atividades de comércio e de eventos em via ou área pública, em qualquer prazo, ou em área particular por prazo determinado."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.municipais.taxas-contribuicoes"
+      ],
+      "dispositivos": [
+        "CTN 77",
+        "CTN 78"
+      ],
+      "exp": "Entre as taxas de poder de polícia (`CTN 77`, `CTN 78`) do Código Tributário de Manaus, a **Taxa de Licença de Comércio e Realização de Eventos (TLCE)** tem por hipótese de incidência a sujeição do contribuinte à autorização e ao controle das atividades de **comércio e de eventos em via ou área pública**, em qualquer prazo, ou em **área particular por prazo determinado**: é a (E). As demais trocam as hipóteses de incidência entre as taxas: a fiscalização sanitária de estabelecimentos funerários é da Taxa de Vigilância Sanitária, as obras em sepulturas são da taxa de cemitérios, a autorização de obras e edificações é da TEOE e o uso de engenhos publicitários é da TEEP.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O controle de **higiene e segurança sanitária** de estabelecimentos é hipótese da **Taxa de Vigilância Sanitária**; a taxa de atividades em cemitérios recai sobre **obras e serviços em sepulturas**.",
+        "B": "A taxa de **engenhos publicitários** recai sobre a implantação e o uso de **engenhos publicitários**; a autorização de obras e edificações é hipótese da **Taxa de Execução de Obras e de Edificações**.",
+        "C": "A **Taxa de Vigilância Sanitária** recai sobre o controle de **higiene e segurança sanitária**; obras e serviços em sepulturas nos cemitérios são hipótese da **taxa de atividades em cemitérios**.",
+        "D": "A **Taxa de Execução de Obras e de Edificações** recai sobre a autorização para executar **obras e edificações**; a implantação e o uso de engenhos publicitários são hipótese da **taxa de engenhos publicitários**.",
+        "E": "A **TLCE** tem por hipótese de incidência a sujeição à autorização e ao controle das atividades de **comércio e de eventos em via ou área pública**, em qualquer prazo, ou em **área particular por prazo determinado**."
+      },
+      "observacoes": [
+        "O texto da Lei municipal nº 1.697/1983 de Manaus (com as alterações posteriores) não pôde ser conferido; a correspondência entre cada taxa e a sua hipótese de incidência segue o gabarito oficial e as próprias alternativas, que trocam as hipóteses entre si."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#97",
+      "tipo": "me",
+      "numero": 97,
+      "enunciado": "Pedro, domiciliado em Belo Horizonte/MG, é arrendatário de uma aeronave de propriedade da empresa “Planalto Aeronaves Ltda.”, localizada em Campo Grande/MS, sendo que esta aeronave é utilizada apenas nos dias úteis, para transportar Pedro a várias localidades do Brasil. A manutenção da aeronave é feita no Rio de Janeiro/RJ e, quando não está em uso, é estacionada e guardada em estabelecimento de empresa localizada em Guarulhos/SP, que mantém hangares destinados a isso. De acordo com a Lei Complementar nº 116/2003, o serviço de guarda desta aeronave é considerado prestado e o imposto devido",
+      "alt": {
+        "A": "a Belo Horizonte, Município de domicílio de Pedro, arrendatário.",
+        "B": "a Campo Grande, Município de localização da empresa arrendante.",
+        "C": "ao Rio de Janeiro, Município em que é feita a manutenção da aeronave.",
+        "D": "a Guarulhos, Município em que a aeronave é guardada.",
+        "E": "a qualquer Município que constitua o local de origem do trecho aéreo a ser percorrido."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "LC116 3 XIII"
+      ],
+      "exp": "O serviço de **guarda e estacionamento** de veículos, aeronaves e embarcações (subitem 11.01 da lista) é uma das exceções à regra do estabelecimento prestador: considera-se prestado, e o ISS é devido, no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`). A aeronave fica nos hangares de Guarulhos, que é o Município competente: é a (D). O domicílio do arrendatário, a sede da arrendante, o local da manutenção e a origem dos voos não importam para esse serviço.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na guarda e estacionamento de aeronaves (subitem 11.01), o ISS é devido no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`), e não no domicílio de quem usa a aeronave.",
+        "B": "Na guarda e estacionamento de aeronaves (subitem 11.01), o ISS é devido no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`), e não onde está a proprietária arrendante.",
+        "C": "A manutenção é outro serviço; na **guarda e estacionamento** de aeronaves (subitem 11.01), o ISS é devido no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`).",
+        "D": "Na **guarda e estacionamento** de aeronaves (subitem 11.01), o serviço considera-se prestado e o ISS devido no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`).",
+        "E": "O local de origem dos voos é irrelevante: na **guarda e estacionamento** de aeronaves, o ISS é devido no local **onde o bem estiver guardado ou estacionado** (`LC116 3 XIII`)."
+      },
+      "observacoes": [
+        "O artigo da LC 116/2003 não está na lei seca do repositório; o inciso (XIII do art. 3º, \"onde o bem estiver guardado ou estacionado\", subitem 11.01) foi indicado de memória e convém conferir.",
+        "O ISS será substituído pelo IBS na transição da Reforma Tributária (EC 132/2023, LC 214/2025), com extinção prevista para 2033; até lá, a regra continua valendo."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#98",
+      "tipo": "me",
+      "numero": 98,
+      "enunciado": "O Decreto municipal nº 681, de 11 de julho de 1991, do Município de Manaus, contempla diversas regras atinentes à consulta em matéria tributária. De acordo com este Decreto,",
+      "alt": {
+        "A": "a consulta deverá ser apresentada por escrito, no Protocolo Geral da Prefeitura, facultada sua apresentação verbal, hipótese em que será reduzida a termo pela autoridade competente.",
+        "B": "a partir da apresentação da consulta, até o décimo dia subsequente à data da ciência da resposta dada a ela, ou seja, durante a pendência da consulta, não se lavrará auto de infração, nem se agravará a situação do consulente.",
+        "C": "os órgãos da administração pública e as entidades representativas de categorias econômicas ou profissionais também poderão formular consulta, desde que, se tratando de consulta que verse, direta ou indiretamente, sobre o pagamento de tributo, seja efetuado depósito prévio do valor do crédito tributário objeto da consulta.",
+        "D": "o sujeito passivo poderá formular consulta sobre situações concretas ou abstratas, determinadas, determináveis ou indeterminadas, no que tange à interpretação e aplicação da legislação tributária municipal.",
+        "E": "a consulta deverá ser apresentada por escrito, no Protocolo Geral da Prefeitura, quando versar sobre obrigação tributária principal, facultada sua apresentação verbal, quando seu objeto versar sobre obrigações tributárias acessórias, hipótese em que será, de imediato, reduzida a termo pela autoridade competente."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "O Decreto municipal nº 681/1991 protege o consulente de boa-fé: **da apresentação da consulta até o décimo dia** subsequente à ciência da resposta, **não se lavra auto de infração** nem se agrava a situação do consulente quanto à matéria consultada: é a (B). A consulta é sempre **por escrito**, sem a forma verbal que (A) e (E) admitem; órgãos públicos e entidades representativas podem consultar **sem depósito prévio**, ao contrário de (C); e a consulta versa sobre **situações determinadas**, e não abstratas ou indeterminadas, como diz (D).",
+      "observacoes": [
+        "O texto do Decreto municipal nº 681/1991 de Manaus não pôde ser conferido; a explicação segue o gabarito oficial e o desenho usual da consulta tributária (forma escrita, sem depósito, sobre situação determinada).",
+        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#99",
+      "tipo": "me",
+      "numero": 99,
+      "enunciado": "A Lei municipal nº 1.628, de 30 de dezembro de 2011, do Município de Manaus, estabelece que o lançamento do IPTU será efetuado para cada imóvel, com base nas informações existentes no Cadastro Imobiliário Municipal, o qual poderá vir a ser impugnado. De acordo com a referida Lei,\nI. A impugnação poderá ser feita pelo contribuinte, pelo responsável solidário ou por representante legal.\nII. A impugnação deverá ser feita no prazo máximo de 15 dias, contado da data do vencimento da terceira e última parcela.\nIII. A impugnação exclui a exigibilidade do crédito tributário até a decisão definitiva na esfera administrativa.\nIV. No caso de pagamento realizado antes da decisão administrativa da impugnação apresentada, a quantia recolhida será aproveitada para a quitação definitiva do débito, de acordo com o julgamento de procedência, improcedência ou de procedência parcial da impugnação.\nEstá correto o que se afirma APENAS em",
+      "alt": {
+        "A": "I, II e IV.",
+        "B": "II e III.",
+        "C": "III.",
+        "D": "I e IV.",
+        "E": "I, II e III."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.municipais.iptu",
+        "tributario.processo-administrativo-fiscal",
+        "tributario.credito.suspensao"
+      ],
+      "dispositivos": [
+        "CTN 151 III",
+        "CTN 175"
+      ],
+      "exp": "Pela Lei municipal nº 1.628/2011, a impugnação do lançamento do IPTU pode ser feita pelo **contribuinte, pelo responsável solidário ou por representante legal** (I), e o pagamento feito antes da decisão é **aproveitado** para a quitação definitiva conforme o resultado do julgamento (IV): é a (D). O item III erra ao dizer que a impugnação **exclui** a exigibilidade: exclusão do crédito é isenção ou anistia (`CTN 175`), e a reclamação administrativa, no máximo, **suspende** a exigibilidade (`CTN 151 III`). O item II não corresponde ao prazo da lei, que não é contado do vencimento da última parcela.",
+      "observacoes": [
+        "O texto da Lei municipal nº 1.628/2011 de Manaus não pôde ser conferido; o prazo correto de impugnação (item II) não foi identificado, e a explicação segue o gabarito oficial."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#100",
+      "tipo": "me",
+      "numero": 100,
+      "enunciado": "O Município de “Nova Esperança” (Município fictício) resultou do desmembramento territorial do Município de “Todos os Santos” (Município fictício), que perdeu parte de seu território. No tocante, por exemplo, ao IPTU incidente sobre os imóveis localizados no território que passou a constituir o novo Município, o Código Tributário Nacional estabelece que o Município de",
+      "alt": {
+        "A": "“Nova Esperança”, salvo disposição de lei em contrário, sub-roga-se nos direitos do Município de “Todos os Santos”, relativamente ao IPTU incidente sobre os imóveis localizados no território do Município que acaba de ser criado.",
+        "B": "“Todos os Santos”, desde que haja previsão expressa de lei, sub-roga-se nos direitos do Município de “Nova Esperança”, relativamente ao IPTU incidente sobre os imóveis localizados no território do Município que acaba de ser criado.",
+        "C": "“Nova Esperança”, desde que haja previsão expressa de lei, sub-roga-se nos direitos do Município de “Todos os Santos”, relativamente ao IPTU incidente sobre os imóveis localizados no território do Município que acaba de ser criado.",
+        "D": "“Todos os Santos” sub-roga-se nos direitos do Município de “Nova Esperança”, relativamente ao IPTU incidente sobre os imóveis localizados no território do Município que acaba de ser criado.",
+        "E": "“Nova Esperança”, desde que haja previsão expressa de lei complementar, sub-roga-se nos direitos do Município de “Todos os Santos”, relativamente ao IPTU incidente sobre os imóveis localizados no território do Município que acaba de ser criado."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.obrigacao"
+      ],
+      "dispositivos": [
+        "CTN 120"
+      ],
+      "exp": "**Salvo disposição de lei em contrário**, a pessoa jurídica de direito público que se constituir pelo **desmembramento territorial** de outra **sub-roga-se nos direitos desta**, cuja legislação tributária aplicará até que entre em vigor a sua própria (`CTN 120`): o novo Município, “Nova Esperança”, assume os direitos de “Todos os Santos”. É a (A). (B) e (D) invertem a sub-rogação, e (C) e (E) exigem previsão expressa de lei, quando a sub-rogação decorre do próprio CTN e só uma lei em contrário a afasta.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pelo `CTN 120`, **salvo disposição de lei em contrário**, o ente criado por **desmembramento territorial** sub-roga-se nos direitos daquele de que se desmembrou.",
+        "B": "Quem se sub-roga é o **ente novo**, criado pelo desmembramento, nos direitos do ente originário (`CTN 120`), e não o contrário; e a sub-rogação não depende de lei expressa.",
+        "C": "A sub-rogação decorre do próprio CTN e vale **salvo disposição de lei em contrário** (`CTN 120`); não depende de previsão expressa de lei.",
+        "D": "Quem se sub-roga é o **ente novo**, criado pelo desmembramento, nos direitos do ente originário (`CTN 120`), e não o Município que perdeu o território.",
+        "E": "A sub-rogação decorre do próprio CTN e vale **salvo disposição de lei em contrário** (`CTN 120`); não depende de previsão em lei complementar."
+      },
+      "pendencias": []
+    }
+  ]
+}

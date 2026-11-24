@@ -1,0 +1,739 @@
+{
+  "prova": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#45",
+      "tipo": "me",
+      "numero": 45,
+      "enunciado": "Considere que Catarina é russa e há dezesseis anos ininterruptos reside no Brasil, no estado de São Paulo. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Catarina",
+      "alt": {
+        "A": "precisa comprovar idoneidade moral e requerer expressamente a nacionalidade brasileira para ser considerada como naturalizada.",
+        "B": "para ser considerada como naturalizada, poderá ter condenação penal, desde que não seja por tráfico de drogas.",
+        "C": "para adquirir a nacionalidade brasileira deverá comprovar ter ensino superior.",
+        "D": "se não tiver condenação penal e se requerer a nacionalidade brasileira, será considerada como naturalizada.",
+        "E": "poderá ser naturalizada após comprovar que vive há vinte anos no Brasil e então poderá ocupar cargo da carreira diplomática."
+      },
+      "gab": "D",
+      "temas": [
+        "constitucional.nacionalidade"
+      ],
+      "dispositivos": [
+        "CF 12 II b",
+        "CF 12 II a",
+        "CF 12 §3º V"
+      ],
+      "exp": "Estrangeiro de qualquer nacionalidade residente no Brasil há **mais de quinze anos ininterruptos** e **sem condenação penal** é naturalizado se **requerer** a nacionalidade (`CF 12 II b`); Catarina tem dezesseis anos de residência. A idoneidade moral (com um ano de residência) só é exigida dos originários de **países de língua portuguesa** (`CF 12 II a`), e a Constituição não pede ensino superior nem admite condenação penal. A carreira diplomática é privativa de **brasileiro nato** (`CF 12 §3º V`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A exigência de **idoneidade moral** (com residência por um ano ininterrupto) vale só para os originários de **países de língua portuguesa** (`CF 12 II a`); a russa com mais de quinze anos de residência precisa apenas não ter condenação penal e requerer a nacionalidade (`CF 12 II b`).",
+        "B": "A naturalização extraordinária exige que o estrangeiro esteja **sem condenação penal** (`CF 12 II b`), sem ressalva para crimes diferentes do tráfico de drogas.",
+        "C": "A Constituição não exige **ensino superior** para a naturalização; para o estrangeiro residente há mais de quinze anos, bastam ausência de condenação penal e requerimento (`CF 12 II b`).",
+        "D": "Estrangeiros de qualquer nacionalidade residentes no Brasil há **mais de quinze anos ininterruptos** e **sem condenação penal** são naturalizados **desde que requeiram** a nacionalidade brasileira (`CF 12 II b`).",
+        "E": "O prazo de residência é de **mais de quinze anos**, não vinte (`CF 12 II b`), e o cargo da carreira diplomática é privativo de **brasileiro nato** (`CF 12 §3º V`), vedado ao naturalizado."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#46",
+      "tipo": "me",
+      "numero": 46,
+      "enunciado": "Assinale a alternativa que contém todos os símbolos da República Federativa do Brasil.",
+      "alt": {
+        "A": "A Constituição Federal, a bandeira, os hinos e o Supremo Tribunal Federal.",
+        "B": "O Congresso Nacional, a bandeira, os hinos e o Supremo Tribunal Federal.",
+        "C": "A bandeira, o hino, as armas e o selo nacionais.",
+        "D": "A bandeira, os hinos, a Constituição Federal e o Congresso Nacional.",
+        "E": "As bandeiras, os hinos, a Capital Federal e a Constituição Federal."
+      },
+      "gab": "C",
+      "temas": [
+        "constitucional.nacionalidade"
+      ],
+      "dispositivos": [
+        "CF 13 §1º"
+      ],
+      "exp": "São símbolos da República Federativa do Brasil **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`). A Constituição Federal, o Congresso Nacional, o Supremo Tribunal Federal e a Capital Federal não estão no rol, que fala de um só **hino** e uma só **bandeira**.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os símbolos da República são **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`); a Constituição e o Supremo Tribunal Federal não são símbolos.",
+        "B": "O rol de símbolos é **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`); o Congresso Nacional e o Supremo Tribunal Federal são órgãos, não símbolos.",
+        "C": "A Constituição enumera como símbolos da República Federativa do Brasil **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`).",
+        "D": "O rol de símbolos é **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`); faltam as armas e o selo, e a Constituição e o Congresso Nacional não são símbolos.",
+        "E": "O rol de símbolos é **a bandeira, o hino, as armas e o selo nacionais** (`CF 13 §1º`); a Capital Federal e a Constituição não estão nele."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#47",
+      "tipo": "me",
+      "numero": 47,
+      "enunciado": "Considere que Letícia é ocupante do cargo de professora com efetivo exercício das funções de magistério no ensino médio no âmbito do Estado X, que adota o regime próprio de previdência e prevê os mesmos requisitos para aposentadoria que a União. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Letícia somente poderá se aposentar a partir dos",
+      "alt": {
+        "A": "62 anos, pois a reforma da previdência extinguiu o benefício da contagem diferenciada do tempo de contribuição.",
+        "B": "65 anos, visto que com a reforma da previdência vedou-se a contagem de tempo de contribuição fictício.",
+        "C": "60 anos, desde que cumpra os demais requisitos exigidos em lei complementar.",
+        "D": "52 anos, na forma da lei complementar.",
+        "E": "57 anos, desde que cumpra os demais requisitos exigidos."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 40 §1º III",
+        "CF 40 §5º",
+        "EC103 10 §2º III"
+      ],
+      "exp": "No âmbito da União, a idade mínima é de **62 anos para a mulher** e 65 para o homem (`CF 40 §1º III`), e o professor com efetivo exercício no magistério da educação infantil e dos ensinos fundamental e médio tem a idade **reduzida em 5 anos** (`CF 40 §5º`): 62 − 5 = **57 anos** para Letícia, como prevê a regra federal (`EC103 10 §2º III`). A reforma manteve a redução para o professor; 65 anos é a idade do homem sem redução, 60 é a do professor homem e 52 não tem base.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A reforma da previdência manteve a redução de **5 anos** na idade mínima do professor com efetivo exercício no magistério da educação básica (`CF 40 §5º`); 62 anos é a idade da servidora sem essa redução (`CF 40 §1º III`).",
+        "B": "Na regra da União, **65 anos** é a idade mínima do servidor **homem** (`CF 40 §1º III`); a professora tem a idade de 62 anos reduzida em 5 (`CF 40 §5º`).",
+        "C": "**60 anos** é a idade do **professor homem** (65 − 5) na regra da União (`EC103 10 §2º III`); para a professora, a idade é 62 − 5 = 57 (`CF 40 §5º`).",
+        "D": "A redução do professor é de **5 anos** sobre a idade mínima de 62 anos da mulher (`CF 40 §1º III` e `CF 40 §5º`), o que dá 57, e não 52.",
+        "E": "A professora com efetivo exercício no magistério do ensino médio tem a idade mínima de **62 anos reduzida em 5** (`CF 40 §1º III` e `CF 40 §5º`), ou seja, **57 anos**, cumpridos os demais requisitos (`EC103 10 §2º III`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#48",
+      "tipo": "me",
+      "numero": 48,
+      "enunciado": "Considere que João é trabalhador rural e obteve a informação de que a sua empresa empregadora apresentou ao sindicato da categoria profissional proposta de acordo coletivo para reduzir o salário dos funcionários, bem como regular alguns temas da relação de emprego. João, então, procura o sindicato para obter informações sobre a proposta de acordo e sobre os direitos sociais que a Constituição Federal lhe assegura. Com base nessa situação hipotética e no disposto na Constituição, é correto afirmar que",
+      "alt": {
+        "A": "o acordo não precisará dispor sobre o aviso prévio dos trabalhadores, pois a Constituição já assegura que este será proporcional ao tempo de serviço e não inferior a quinze dias.",
+        "B": "a Constituição não estipula a proteção do emprego rural em face do processo de automação, devendo esse tema ser regulado no acordo coletivo.",
+        "C": "a Constituição já assegura a assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré-escolas.",
+        "D": "a proposta de acordo coletivo não poderá ser aceita, pois a Constituição Federal veda a redução do salário.",
+        "E": "a Constituição assegura que, caso seja concedido seguro contra acidente de trabalho e esse seja custeado pelo empregador, a conduta excluirá a responsabilidade deste por indenização em caso de culpa."
+      },
+      "gab": "C",
+      "temas": [
+        "constitucional.direitos-sociais"
+      ],
+      "dispositivos": [
+        "CF 7 XXV",
+        "CF 7 XXI",
+        "CF 7 XXVII",
+        "CF 7 VI",
+        "CF 7 XXVIII"
+      ],
+      "exp": "Entre os direitos dos trabalhadores **urbanos e rurais** está a **assistência gratuita** aos filhos e dependentes desde o nascimento até **5 anos** em creches e pré-escolas (`CF 7 XXV`). O aviso prévio é de no mínimo **trinta dias** (`CF 7 XXI`); a proteção em face da **automação** está na Constituição (`CF 7 XXVII`); a irredutibilidade admite exceção por **convenção ou acordo coletivo** (`CF 7 VI`); e o seguro contra acidentes, a cargo do empregador, **não exclui** a indenização por dolo ou culpa (`CF 7 XXVIII`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O aviso prévio é proporcional ao tempo de serviço, sendo **no mínimo de trinta dias** (`CF 7 XXI`), e não de quinze.",
+        "B": "A Constituição assegura aos trabalhadores urbanos e rurais a **proteção em face da automação**, na forma da lei (`CF 7 XXVII`).",
+        "C": "É direito dos trabalhadores urbanos e rurais a **assistência gratuita** aos filhos e dependentes desde o nascimento até **5 anos** de idade em creches e pré-escolas (`CF 7 XXV`).",
+        "D": "A irredutibilidade do salário tem ressalva: é admitida a redução prevista em **convenção ou acordo coletivo** (`CF 7 VI`).",
+        "E": "O seguro contra acidentes de trabalho, a cargo do empregador, é devido **sem excluir a indenização** a que este está obrigado quando incorrer em **dolo ou culpa** (`CF 7 XXVIII`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#49",
+      "tipo": "me",
+      "numero": 49,
+      "enunciado": "A respeito dos Servidores Públicos, assinale a alternativa que está de acordo com o expresso na Constituição Federal.",
+      "alt": {
+        "A": "Admite-se em situações excepcionais a incorporação de vantagens de caráter temporário ao exercício de função de confiança à remuneração do cargo efetivo.",
+        "B": "A fixação dos padrões de vencimento do sistema remuneratório observará, entre outras coisas, o grau de dificuldade exigido no concurso público.",
+        "C": "A União, os Estados e os Municípios manterão escolas de governo para a formação e o aperfeiçoamento dos servidores públicos.",
+        "D": "Os Poderes Executivo, Legislativo e Judiciário publicarão mensalmente os valores do subsídio e da remuneração dos cargos e empregos públicos.",
+        "E": "Os Secretários Estaduais e Municipais serão remunerados exclusivamente por subsídio fixado em parcela única, vedado o acréscimo de qualquer gratificação."
+      },
+      "gab": "E",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 39 §4º",
+        "CF 39 §9º",
+        "CF 39 §1º",
+        "CF 39 §2º",
+        "CF 39 §6º"
+      ],
+      "exp": "Membros de Poder, detentores de mandato eletivo, Ministros de Estado e **Secretários Estaduais e Municipais** são remunerados exclusivamente por **subsídio** em parcela única, vedado o acréscimo de qualquer gratificação (`CF 39 §4º`). A incorporação de vantagens temporárias ou de função de confiança é **vedada** (`CF 39 §9º`); os padrões de vencimento observam natureza, responsabilidade e complexidade dos cargos, requisitos de investidura e peculiaridades (`CF 39 §1º`); as escolas de governo são da União, dos Estados e do **Distrito Federal** (`CF 39 §2º`); e a publicação dos valores é **anual** (`CF 39 §6º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "É **vedada** a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança ou de cargo em comissão à remuneração do cargo efetivo (`CF 39 §9º`), sem exceção.",
+        "B": "A fixação dos padrões de vencimento observa a **natureza, o grau de responsabilidade e a complexidade** dos cargos, os **requisitos para a investidura** e as **peculiaridades** dos cargos (`CF 39 §1º`); o grau de dificuldade do concurso não está no rol.",
+        "C": "A Constituição manda que **a União, os Estados e o Distrito Federal** mantenham escolas de governo (`CF 39 §2º`); os Municípios não estão no dispositivo.",
+        "D": "Os Poderes publicarão **anualmente**, e não mensalmente, os valores do subsídio e da remuneração dos cargos e empregos públicos (`CF 39 §6º`).",
+        "E": "Os **Secretários Estaduais e Municipais**, como os membros de Poder e os Ministros de Estado, são remunerados exclusivamente por **subsídio fixado em parcela única**, vedado o acréscimo de qualquer gratificação (`CF 39 §4º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#50",
+      "tipo": "me",
+      "numero": 50,
+      "enunciado": "Considere que Josué é servidor público titular de cargo efetivo no âmbito do Município ABC e há um ano ele teve um Acidente Vascular Cerebral que o deixou com sequelas neurológicas, mas não o incapacitou para todo o tipo de trabalho. Josué ocupava cargo de nível superior, mas atualmente não possui mais capacidade mental para exercer suas atribuições originárias. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Josué",
+      "alt": {
+        "A": "poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, mantida a remuneração do cargo de origem.",
+        "B": "poderá ser reintegrado para cargo compatível com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, auferindo a remuneração do cargo atual.",
+        "C": "não poderá ser readaptado para um cargo diferente, uma vez que, ao ser aprovado em um concurso público, é vedada a mudança de cargo.",
+        "D": "não poderá ser reintegrado a um cargo diverso, sob pena de ofensa ao princípio constitucional do concurso público.",
+        "E": "poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, auferindo a remuneração do novo cargo."
+      },
+      "gab": "A",
+      "temas": [
+        "constitucional.administracao-publica.servidores"
+      ],
+      "dispositivos": [
+        "CF 37 §13",
+        "CF 41 §2º"
+      ],
+      "exp": "O servidor titular de cargo efetivo pode ser **readaptado** para cargo compatível com a limitação que sofreu na capacidade física ou mental, desde que tenha a habilitação e a escolaridade exigidas para o cargo de destino, **mantida a remuneração do cargo de origem** (`CF 37 §13`). O instituto é a readaptação, não a **reintegração** (que é o retorno do servidor demitido cuja demissão foi invalidada), e a remuneração não passa a ser a do novo cargo.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O servidor efetivo pode ser **readaptado** para cargo compatível com a limitação física ou mental sofrida, desde que tenha a habilitação e a escolaridade do cargo de destino, **mantida a remuneração do cargo de origem** (`CF 37 §13`).",
+        "B": "O instituto para o servidor com limitação física ou mental é a **readaptação** (`CF 37 §13`), não a reintegração, que é a volta do servidor cuja demissão foi invalidada (`CF 41 §2º`).",
+        "C": "A Constituição admite expressamente a **readaptação** do servidor efetivo para cargo compatível com a limitação física ou mental que sofreu (`CF 37 §13`).",
+        "D": "A mudança de cargo por limitação física ou mental se dá por **readaptação**, autorizada pela própria Constituição (`CF 37 §13`); a reintegração é outro instituto, o retorno do servidor cuja demissão foi invalidada (`CF 41 §2º`).",
+        "E": "Na readaptação, fica **mantida a remuneração do cargo de origem** (`CF 37 §13`), e não a do novo cargo."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#51",
+      "tipo": "me",
+      "numero": 51,
+      "enunciado": "De acordo com o expresso na Constituição Federal, as Turmas Recursais",
+      "alt": {
+        "A": "são órgãos autárquicos do Poder Judiciário.",
+        "B": "não são órgãos do Poder Judiciário.",
+        "C": "são órgãos autônomos do Poder Judiciário.",
+        "D": "subordinam-se ao Conselho Nacional de Justiça e têm jurisdição em todo o território nacional.",
+        "E": "vinculam-se diretamente ao Tribunal de Justiça respectivo e têm jurisdição em todo o território nacional."
+      },
+      "gab": "B",
+      "temas": [
+        "constitucional.judiciario.disposicoes"
+      ],
+      "dispositivos": [
+        "CF 92",
+        "CF 98 I",
+        "CF 92 §2º"
+      ],
+      "exp": "O rol de **órgãos do Poder Judiciário** do `CF 92` não inclui as Turmas Recursais; a Constituição só prevê o julgamento de recursos dos juizados especiais por **turmas de juízes de primeiro grau** (`CF 98 I`). Por isso, pelo texto expresso, elas **não são órgãos** do Poder Judiciário no rol constitucional, e não há qualificação de órgãos autárquicos ou autônomos. **Jurisdição em todo o território nacional** é atributo do STF e dos Tribunais Superiores (`CF 92 §2º`), e o CNJ não tem função jurisdicional.",
+      "observacoes": [
+        "Gabarito resolvido por nós, pela literalidade do rol do art. 92 da CF; a afirmação de que as Turmas Recursais 'não são órgãos do Poder Judiciário' é discutível (elas são colegiados de juízes de primeiro grau que integram a estrutura dos juizados especiais), por isso a questão ficou sem cards de Treino."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#52",
+      "tipo": "me",
+      "numero": 52,
+      "enunciado": "Considere que João é servidor público vinculado ao Tribunal de Justiça de São Paulo e praticou conduta considerada como abuso de poder e que também é definida em lei como de improbidade, durante o horário de expediente forense e nas dependências de uma Vara Cível. Maria é advogada e presenciou a cena em que o ilícito foi cometido. Diante da situação hipotética e com base na Lei no 10.261/68, é correto afirmar que",
+      "alt": {
+        "A": "João deverá ser suspenso por prazo não superior a 90 dias e ser-lhe-á facultado ser representado por advogado no processo disciplinar.",
+        "B": "a Maria é assegurado, por ser advogada, o direito de representar contra a ilegalidade, e a pena aplicável ao caso se sujeita ao prazo de prescrição de 2 anos.",
+        "C": "caso o ato tenha sido presenciado por outro servidor público, a este é conferida a faculdade de representar ao seu superior hierárquico, no prazo de 15 dias.",
+        "D": "caso seja aplicada pena disciplinar de suspensão, João terá o prazo de 15 dias para interpor recurso.",
+        "E": "Maria, como qualquer pessoa, poderá representar João, e a ele deverá ser aplicada a pena de demissão a bem do serviço público."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 257 XIII",
+        "L10261 239",
+        "L10261 239 §1º",
+        "L10261 261 II",
+        "L10261 241 V",
+        "L10261 312 §1º",
+        "L10261 254"
+      ],
+      "exp": "Praticar ato definido em lei como de **improbidade** leva à **demissão a bem do serviço público** (`L10261 257 XIII`), e o direito de petição contra ilegalidade ou abuso de poder é assegurado a **qualquer pessoa** (`L10261 239` e `L10261 239 §1º`). Por isso não cabe suspensão, e a prescrição da falta punível com demissão é de **5 anos** (`L10261 261 II`). O servidor que presencia a irregularidade tem o **dever** de representar (`L10261 241 V`), e o prazo de recurso é de **30 dias** (`L10261 312 §1º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A prática de ato definido em lei como de **improbidade** é punida com **demissão a bem do serviço público** (`L10261 257 XIII`), não com suspensão de até 90 dias (`L10261 254`).",
+        "B": "O direito de petição contra ilegalidade ou abuso de poder é de **qualquer pessoa**, não por ser advogada (`L10261 239`); e a falta sujeita a demissão a bem do serviço público prescreve em **5 anos** (`L10261 261 II`).",
+        "C": "Representar aos superiores sobre as irregularidades de que tiver conhecimento é **dever** do funcionário (`L10261 241 V`), não faculdade, e a lei não fixa prazo de 15 dias.",
+        "D": "O prazo para recorrer da decisão que aplica penalidade é de **30 dias**, contados da publicação no Diário Oficial ou da intimação pessoal (`L10261 312 §1º`).",
+        "E": "**Qualquer pessoa** pode peticionar contra ilegalidade ou abuso de poder e reclamar de conduta incompatível no serviço público (`L10261 239` e `L10261 239 §1º`), e o ato de **improbidade** é punido com **demissão a bem do serviço público** (`L10261 257 XIII`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#53",
+      "tipo": "me",
+      "numero": 53,
+      "enunciado": "A respeito da extinção da punibilidade da pena disciplinar pela prescrição, com base na Lei no 10.261/68, assinale a alternativa correta.",
+      "alt": {
+        "A": "O lapso prescricional corresponde, na hipótese de desclassificação, ao da pena efetivamente aplicada.",
+        "B": "É causa de suspensão do prazo prescricional a expedição da portaria que instaura processo disciplinar.",
+        "C": "A extinção da punibilidade pela prescrição não autoriza a autoridade julgadora a determinar o registro do fato nos assentamentos individuais do servidor.",
+        "D": "A prescrição começa a correr, nas faltas continuadas ou permanentes, do dia em que tenha se iniciado a continuação ou permanência.",
+        "E": "A prescrição é interrompida durante o prazo estabelecido para o cumprimento do Termo de Ajustamento de Conduta."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 261 §3º 1",
+        "L10261 261 §2º",
+        "L10261 261 §5º",
+        "L10261 261 §1º 2",
+        "L10261 261 §4º 5"
+      ],
+      "exp": "Na **desclassificação** da infração, o lapso prescricional é o da **pena efetivamente aplicada** (`L10261 261 §3º 1`). A portaria que instaura sindicância ou processo **interrompe** (não suspende) a prescrição (`L10261 261 §2º`); extinta a punibilidade, a autoridade **determinará o registro** do fato nos assentamentos (`L10261 261 §5º`); nas faltas continuadas ou permanentes, a prescrição corre do dia em que **cessou** a continuação ou permanência (`L10261 261 §1º 2`); e durante o prazo do TAC a prescrição **não corre** (`L10261 261 §4º 5`), o que é suspensão, não interrupção.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na hipótese de **desclassificação** da infração, o lapso prescricional corresponde ao da **pena efetivamente aplicada** (`L10261 261 §3º 1`).",
+        "B": "A portaria que instaura sindicância ou processo administrativo **interrompe** a prescrição (`L10261 261 §2º`); não é causa de suspensão.",
+        "C": "Extinta a punibilidade pela prescrição, a autoridade julgadora **determinará o registro do fato** nos assentamentos individuais do servidor (`L10261 261 §5º`).",
+        "D": "Nas faltas continuadas ou permanentes, a prescrição começa a correr do dia em que tenha **cessado** a continuação ou a permanência (`L10261 261 §1º 2`).",
+        "E": "Durante o prazo para cumprimento do Termo de Ajustamento de Conduta a prescrição **não corre** (`L10261 261 §4º 5`): é hipótese de suspensão, e não de interrupção."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#54",
+      "tipo": "me",
+      "numero": 54,
+      "enunciado": "Considere que Isaías é servidor público e teve contra si aplicada pena disciplinar. Inconformado com a decisão, decide interpor recurso. Com base na situação hipotética e no disposto na Lei no 10.261/68, é correto afirmar que",
+      "alt": {
+        "A": "o recurso terá efeito suspensivo e, na sua elaboração, o recorrente deverá indicar, além do seu nome e qualificação, a exposição das razões de seu inconformismo.",
+        "B": "o recurso deverá ser interposto no prazo de 20 dias, a contar da publicação da decisão impugnada no Diário Oficial do Estado.",
+        "C": "o recurso deverá ser apresentado à autoridade que deverá julgá-lo, salvo se Isaías desejar que a autoridade que aplicou a pena exerça um juízo de retratação.",
+        "D": "o recurso será apreciado, ainda que incorretamente denominado ou endereçado à autoridade incompetente.",
+        "E": "na hipótese de a decisão recorrida ser mantida pela autoridade que julgou o recurso, Isaías poderá, a qualquer tempo, apresentar pedido de reconsideração, caso surjam fatos ou circunstâncias ainda não apreciados no processo."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.pad"
+      ],
+      "dispositivos": [
+        "L10261 312 §5º",
+        "L10261 314",
+        "L10261 312 §2º",
+        "L10261 312 §1º",
+        "L10261 312 §3º",
+        "L10261 313",
+        "L10261 315"
+      ],
+      "exp": "O recurso **será apreciado** pela autoridade competente **ainda que incorretamente denominado ou endereçado** (`L10261 312 §5º`). Os recursos **não têm efeito suspensivo** (`L10261 314`), o prazo é de **30 dias** (`L10261 312 §1º`) e o recurso é apresentado à **autoridade que aplicou a pena**, que pode mantê-la ou reformá-la em 10 dias (`L10261 312 §3º`). O pedido de reconsideração só cabe contra decisão do **Governador** em única instância, em 30 dias (`L10261 313`); fatos novos a qualquer tempo são caso de **revisão** (`L10261 315`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os recursos da Lei 10.261/68 **não têm efeito suspensivo** (`L10261 314`), embora devam conter nome, qualificação e razões de inconformismo (`L10261 312 §2º`).",
+        "B": "O prazo para recorrer é de **30 dias**, contados da publicação da decisão no Diário Oficial ou da intimação pessoal (`L10261 312 §1º`).",
+        "C": "O recurso é sempre apresentado à **autoridade que aplicou a pena**, que tem 10 dias para mantê-la ou reformá-la, e só depois sobe ao superior hierárquico (`L10261 312 §3º`).",
+        "D": "O recurso será apreciado pela autoridade competente **ainda que incorretamente denominado ou endereçado** (`L10261 312 §5º`).",
+        "E": "O **pedido de reconsideração** cabe só contra decisão do **Governador** em única instância, no prazo de 30 dias (`L10261 313`); fatos novos a qualquer tempo fundamentam a **revisão** (`L10261 315`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#55",
+      "tipo": "me",
+      "numero": 55,
+      "enunciado": "De acordo com a Lei no 10.261/68, o processo disciplinar será concluído, em regra, no prazo de até",
+      "alt": {
+        "A": "60 dias.",
+        "B": "90 dias.",
+        "C": "180 dias.",
+        "D": "30 dias.",
+        "E": "120 dias"
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.pad"
+      ],
+      "dispositivos": [
+        "L10261 277",
+        "L10261 277 §2º"
+      ],
+      "exp": "O processo administrativo será instaurado por portaria em 8 dias e **concluído no de 90 (noventa) dias da citação do acusado** (`L10261 277`). Vencido o prazo sem conclusão, o responsável informa ao superior as providências faltantes e o tempo necessário (`L10261 277 §2º`).",
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#56",
+      "tipo": "me",
+      "numero": 56,
+      "enunciado": "Considere que José é agente público recém-empossado no Estado de São Paulo e está desenvolvendo um projeto de pesquisa sobre justiça restaurativa no âmbito administrativo. Durante as suas investigações descobriu que a Lei no 10.261/68 possui um longo regramento sobre Práticas Autocompositivas, Termo de Ajustamento de Conduta e Suspensão Condicional da Sindicância, o que o motiva a procurar o setor responsável pela implantação prática da Lei. Com base na situação hipotética, um servidor público desse Setor poderá informar, de forma correta, a José que",
+      "alt": {
+        "A": "o Termo de Ajustamento de Conduta não poderá ser adotado nos casos de extravio ou dano a bem público praticado de forma culposa por servidor público.",
+        "B": "as sessões de práticas autocompositivas serão conduzidas por um Procurador do Estado e realizadas em ambiente que assegure a publicidade do processo e a indisponibilidade do interesse público.",
+        "C": "a celebração de acordo em sessão autocompositiva ensejará a extinção de punibilidade caso a conduta do funcionário não gere prejuízo ao erário e sejam cabíveis, em tese, as penas de repreensão, suspensão e multa.",
+        "D": "a autoridade competente para apuração da irregularidade e o Procurador responsável pela condução do processo poderão, em qualquer fase, encaminhar o caso para as práticas autocompositivas, o que importará na suspensão do processo disciplinar e na suspensão do prazo prescricional.",
+        "E": "o cumprimento das condições de Termo de Ajustamento de Conduta importará na minoração da pena disciplinar aplicável, e o prazo para o cumprimento de suas condições não poderá ser inferior a 2 anos."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.servidores.estatuto-sp",
+        "administrativo.servidores.regime-disciplinar"
+      ],
+      "dispositivos": [
+        "L10261 267-D §1º",
+        "L10261 267-E p.ú.",
+        "L10261 267-B I",
+        "L10261 267-C",
+        "L10261 267-C §1º",
+        "L10261 267-C §2º",
+        "L10261 267-J",
+        "L10261 267-I p.ú."
+      ],
+      "exp": "O acordo da sessão autocompositiva **extingue a punibilidade** quando, cumulativamente, a conduta **não gerou prejuízo ao Erário** (ou ele foi reparado) e são cabíveis, em tese, as penas de **repreensão, suspensão e multa** (`L10261 267-D §1º`); a lei liga o efeito ao **cumprimento** do acordo. O TAC **pode** ser adotado no extravio ou dano a bem público não doloso (`L10261 267-E p.ú.`); as sessões são conduzidas por **facilitador ou mediador** capacitado, com **privacidade e confidencialidade** (`L10261 267-B I`); o encaminhamento pode ser **alternativo ou concorrente** ao processo, e só o alternativo suspende a prescrição (`L10261 267-C §1º` e `L10261 267-C §2º`); e cumprir o TAC **extingue a punibilidade** (`L10261 267-J`), com prazo de 1 a 2 anos (`L10261 267-I p.ú.`).",
+      "observacoes": [
+        "Gabarito resolvido por nós por eliminação: a alternativa C fala em 'celebração' do acordo, mas o art. 267-D, §1º, liga a extinção da punibilidade ao 'cumprimento' do acordo, por isso a questão ficou sem cards de Treino.",
+        "O caput do art. 267-C foi reescrito pela LC 1.419/2024 (depois da prova); a lei seca traz a redação atual ('a responsável por sua condução')."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#57",
+      "tipo": "me",
+      "numero": 57,
+      "enunciado": "A respeito das penas aplicadas com base na Lei no 8.429/92, é correto afirmar que",
+      "alt": {
+        "A": "as sanções eventualmente aplicadas em outras esferas não poderão ser compensadas com as sanções aplicadas nos termos da Lei de Improbidade Administrativa.",
+        "B": "a aplicação das penas previstas na Lei de Improbidade depende, em regra, da efetiva ocorrência de dano ao patrimônio público.",
+        "C": "na apuração dos ilícitos de que trata a Lei, a critério do Ministério Público, poderá ser autorizada a juntada de manifestação escrita do investigado e documentos que auxiliem na elucidação dos fatos.",
+        "D": "as sentenças civis e penais não produzirão efeitos em relação à ação de improbidade administrativa, dada a diferença de natureza jurídica das infrações envolvidas em cada uma delas.",
+        "E": "no caso de procedência da ação de improbidade, as custas e as demais despesas processuais serão pagas ao final."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.improbidade.sancoes-processo"
+      ],
+      "dispositivos": [
+        "L8429 23-B §1º",
+        "L8429 23-B",
+        "L8429 21 §5º",
+        "L8429 21 I",
+        "L8429 22 p.ú.",
+        "L8429 21 §3º"
+      ],
+      "exp": "Nas ações de improbidade não há adiantamento de custas (`L8429 23-B`) e, **no caso de procedência**, as custas e demais despesas **serão pagas ao final** (`L8429 23-B §1º`). As sanções de outras esferas **deverão ser compensadas** (`L8429 21 §5º`); a aplicação das sanções **independe** de dano, salvo quanto ao ressarcimento e às condutas do art. 10 (`L8429 21 I`); a manifestação escrita e a juntada de documentos são **garantidas** ao investigado (`L8429 22 p.ú.`); e as sentenças civis e penais **produzem efeitos** quando concluem pela inexistência da conduta ou negativa de autoria (`L8429 21 §3º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Sanções eventualmente aplicadas em outras esferas **deverão ser compensadas** com as sanções aplicadas pela Lei de Improbidade (`L8429 21 §5º`).",
+        "B": "A aplicação das sanções da Lei de Improbidade **independe** da efetiva ocorrência de dano ao patrimônio público, salvo quanto ao ressarcimento e às condutas do art. 10 (`L8429 21 I`).",
+        "C": "Na apuração dos ilícitos, **será garantido** ao investigado manifestar-se por escrito e juntar documentos (`L8429 22 p.ú.`); não depende de critério do Ministério Público.",
+        "D": "As sentenças civis e penais **produzirão efeitos** na ação de improbidade quando concluírem pela **inexistência da conduta** ou pela **negativa da autoria** (`L8429 21 §3º`).",
+        "E": "Nas ações de improbidade não há adiantamento de despesas e, **no caso de procedência**, as custas e as demais despesas processuais **serão pagas ao final** (`L8429 23-B §1º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#58",
+      "tipo": "me",
+      "numero": 58,
+      "enunciado": "Considere que Matias e Zenóbio foram aprovados em concurso público e convocados para posse e exercício nas respectivas funções. A portaria publicada no Diário Oficial indica, dentre os documentos exigidos, a necessidade de apresentar declaração de bens à repartição competente. Com base na situação hipotética e no disposto na Lei no 8.429/92, é correto afirmar que",
+      "alt": {
+        "A": "a posse e o exercício de ambos ficarão condicionados à apresentação de declaração de imposto de renda e proventos de qualquer natureza, que tenha sido apresentada à Secretaria Especial da Receita Federal do Brasil, a fim de ser arquivada no serviço de pessoal competente.",
+        "B": "ambos poderão entrar em exercício e apresentar, no prazo de até 30 dias, a declaração de imposto de renda que tenha sido fornecida à Secretaria Especial da Receita Federal do Brasil.",
+        "C": "não é necessário fornecer declaração de imposto de renda, bastando para o início do exercício o fornecimento de declaração escrita que compreenda imóveis, móveis, semoventes, dinheiro, títulos, ações e qualquer outra espécie de bens e valores patrimoniais, localizados no País ou no exterior.",
+        "D": "caso cumpram as formalidades legais iniciais para a posse e exercício, serão punidos com a pena de suspensão, sem prejuízo de outras sanções cabíveis, caso venham a, no futuro, recusar-se a prestar declaração dos bens, dentro do prazo determinado.",
+        "E": "as declarações de imposto de renda deverão ser apresentadas no momento da posse e da extinção do vínculo com a Administração, ficando autorizada a autoridade competente a exigir a sua renovação anual."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.improbidade"
+      ],
+      "dispositivos": [
+        "L8429 13",
+        "L8429 13 §2º",
+        "L8429 13 §3º"
+      ],
+      "exp": "A **posse e o exercício** do agente público ficam **condicionados** à apresentação da **declaração de imposto de renda** entregue à Receita Federal, para arquivo no serviço de pessoal (`L8429 13`). Não há prazo posterior de 30 dias, e a antiga declaração de bens descritiva foi substituída pela do imposto de renda em 2021. A recusa em prestar a declaração no prazo é punida com **demissão** (`L8429 13 §3º`), e a atualização **anual** e na saída é obrigatória por lei, não faculdade da autoridade (`L8429 13 §2º`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A posse e o exercício do agente público ficam **condicionados** à apresentação da **declaração de imposto de renda** e proventos de qualquer natureza entregue à Receita Federal, para arquivo no serviço de pessoal competente (`L8429 13`).",
+        "B": "A apresentação da declaração de imposto de renda é **condição** para a posse e o exercício (`L8429 13`); a lei não admite entrega posterior em 30 dias.",
+        "C": "Desde a Lei 14.230/2021, exige-se a **declaração de imposto de renda** apresentada à Receita Federal (`L8429 13`); a declaração escrita discriminando os bens deixou de ser o documento exigido.",
+        "D": "O agente público que se recusar a prestar a declaração de bens no prazo ou prestá-la falsa é punido com **demissão** (`L8429 13 §3º`), e não com suspensão.",
+        "E": "A declaração é exigida para a posse e o exercício e **será atualizada anualmente** e na data em que o agente deixar o cargo (`L8429 13 §2º`): a renovação anual decorre da lei, não de autorização à autoridade."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#59",
+      "tipo": "me",
+      "numero": 59,
+      "enunciado": "Com base na Lei no 8.429/92, a respeito das ações de improbidade administrativa, o dolo",
+      "alt": {
+        "A": "estará configurado com o mero exercício da função pública.",
+        "B": "corresponde à vontade livre e consciente de alcançar os ilícitos tipificados em lei.",
+        "C": "confunde-se com a voluntariedade do agente em praticar a conduta.",
+        "D": "não é indispensável para a prática da improbidade administrativa, já que a Lei admite a punição de condutas culposas.",
+        "E": "também estará configurado caso o agente público pratique ato identificado como erro grave."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.improbidade"
+      ],
+      "dispositivos": [
+        "L8429 1 §2º",
+        "L8429 1 §1º",
+        "L8429 1 §3º"
+      ],
+      "exp": "Considera-se dolo a **vontade livre e consciente de alcançar o resultado ilícito** tipificado nos arts. 9º, 10 e 11, **não bastando a voluntariedade** do agente (`L8429 1 §2º`). Só as condutas **dolosas** são improbidade (`L8429 1 §1º`), o que exclui a culpa e o erro grave, e o **mero exercício da função** sem ato doloso com fim ilícito afasta a responsabilidade (`L8429 1 §3º`).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O **mero exercício da função** ou desempenho de competências públicas, sem comprovação de ato doloso com fim ilícito, **afasta** a responsabilidade por improbidade (`L8429 1 §3º`).",
+        "B": "Considera-se dolo a **vontade livre e consciente de alcançar o resultado ilícito** tipificado nos arts. 9º, 10 e 11 da Lei de Improbidade (`L8429 1 §2º`).",
+        "C": "Para o dolo da improbidade **não basta a voluntariedade** do agente: exige-se a vontade livre e consciente de alcançar o resultado ilícito (`L8429 1 §2º`).",
+        "D": "Desde a Lei 14.230/2021, atos de improbidade são apenas as condutas **dolosas** tipificadas nos arts. 9º, 10 e 11 (`L8429 1 §1º`); não há improbidade culposa.",
+        "E": "Só configuram improbidade as condutas **dolosas** (`L8429 1 §1º`); o **erro grave**, ainda que reprovável, não equivale ao dolo de alcançar o resultado ilícito (`L8429 1 §2º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#60",
+      "tipo": "me",
+      "numero": 60,
+      "enunciado": "Considere que João é escrevente judiciário e recebeu mensagem eletrônica do Diretor de Secretaria da Vara em que trabalha, noticiando que a Vara passará por uma correição ordinária. Diante dessa informação, é correto concluir que",
+      "alt": {
+        "A": "consistirá em fiscalização precedida de prévio anúncio e que visará à verificação de regularidade do funcionamento da unidade.",
+        "B": "a execução da correição deve ter sido precedida de anúncio por Edital publicado no Diário Oficial de Justiça Eletrônico, com pelo menos quinze dias de antecedência, devendo também ser realizada prévia comunicação à Ordem dos Advogados do Brasil.",
+        "C": "a ata descrevendo os atos executados será encaminhada à Corregedoria Geral de Justiça em até 15 dias após a sua realização, bem como poderá a correição atingir apenas parte dos serviços prestados pela Vara.",
+        "D": "trata-se de fiscalização prevista, cuja ata contendo o relato de sua execução será encaminhada à Corregedoria Geral de Justiça em até 60 dias.",
+        "E": "a correição será realizada no mês de janeiro e a sua execução caberá ao Juiz Corregedor Permanente, lavrando-se o termo em livro próprio."
+      },
+      "gab": "D",
+      "temas": [
+        "legislacao-especial.nscgj.disposicoes"
+      ],
+      "dispositivos": [
+        "NSCGJ 6 §1º",
+        "NSCGJ 6 §4º I",
+        "NSCGJ 6 §3º",
+        "NSCGJ 6 §2º",
+        "NSCGJ 6 §4º II",
+        "NSCGJ 8",
+        "NSCGJ 8 §1º"
+      ],
+      "exp": "A correição ordinária é a **fiscalização prevista** e efetivada segundo as Normas e as leis de organização judiciária (`NSCGJ 6 §1º`), e sua ata vai à Corregedoria Geral **em até 60 dias** (`NSCGJ 6 §4º I`). A verificação da regularidade de funcionamento da unidade define a **visita correcional** (`NSCGJ 6 §3º`); o prazo de 15 dias e a fiscalização **parcial** são da correição extraordinária (`NSCGJ 6 §2º` e `NSCGJ 6 §4º II`); e a correição ordinária anual é feita de preferência em **dezembro** (`NSCGJ 8`).",
+      "observacoes": [
+        "Gabarito resolvido por nós. A alternativa B reproduz o art. 8º, §1º, das NSCGJ na redação consultada (edital no DJE com quinze dias de antecedência e comunicação à OAB); como o texto vigente em maio de 2023 não foi conferido, a questão ficou sem cards de Treino."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#61",
+      "tipo": "me",
+      "numero": 61,
+      "enunciado": "Considere que Mário é advogado e representa uma empresa em processo judicial que tramita, há mais de dez anos, ainda em formato físico. Diante do descumprimento de uma decisão, dirigiu-se ao gabinete de um Magistrado e solicitou audiência para despachar um pedido contido em petição. Com base na situação hipotética e nas Normas da Corregedoria Geral da Justiça, é correto afirmar que",
+      "alt": {
+        "A": "a petição somente poderá ser juntada diretamente no processo pelo ofício caso contenha nova procuração conferida ao advogado, circunstância que deverá ser certificada no termo de juntada.",
+        "B": "o advogado deverá protocolar, previamente, a petição no setor próprio, pois as normas não autorizam, em hipótese alguma, a sua juntada diretamente no processo pelo ofício.",
+        "C": "a petição poderá ser juntada diretamente no processo, salvo se vier acompanhada de objeto de inviável entranhamento ao processo, hipótese em que o escrevente deverá certificar essa circunstância e manter no próprio cartório o objeto, até o encerramento da ação.",
+        "D": "a petição poderá ser juntada ao processo, sem prévio encaminhamento do setor de protocolo, caso o juiz tenha dispensado de forma fundamentada e expressa o protocolo no setor próprio.",
+        "E": "caso haja a anotação de urgência na petição, o ofício deverá, independentemente de protocolo no setor próprio, juntá-la e emitir termo de juntada na própria petição."
+      },
+      "gab": "D",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 92 II",
+        "NSCGJ 92",
+        "NSCGJ 92 I",
+        "NSCGJ 93 §4º",
+        "NSCGJ 93 §2º"
+      ],
+      "exp": "É vedado ao ofício receber e juntar petição não encaminhada pelo protocolo, **salvo** a de juntada de procuração ou substabelecimento e quando houver **expressa decisão fundamentada do juiz** dispensando o protocolo no setor próprio (`NSCGJ 92 I` e `NSCGJ 92 II`). Por isso a juntada não depende **somente** de nova procuração e há hipóteses que a autorizam. O objeto de inviável entranhamento não impede a juntada da petição: o escrivão o confere, certifica e guarda (`NSCGJ 93 §4º`); a urgência não é exceção e é **vedado** lançar o termo de juntada na própria petição (`NSCGJ 93 §2º`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A juntada direta pelo ofício cabe na petição de juntada de procuração ou substabelecimento e também quando o **juiz dispensar o protocolo** por decisão expressa e fundamentada (`NSCGJ 92 I` e `NSCGJ 92 II`); não é a única hipótese.",
+        "B": "As Normas admitem a juntada direta pelo ofício na petição de procuração ou substabelecimento e quando houver **expressa decisão fundamentada do juiz** dispensando o protocolo (`NSCGJ 92`).",
+        "C": "O objeto de inviável entranhamento não impede a juntada da petição: o escrivão confere, arrola e quantifica os objetos, lavra certidão e os guarda até o encerramento da demanda (`NSCGJ 93 §4º`); a juntada direta, por sua vez, depende das exceções do `NSCGJ 92`.",
+        "D": "O ofício pode receber e juntar a petição não encaminhada pelo protocolo quando houver, no caso concreto, **expressa decisão fundamentada do juiz** dispensando o protocolo no setor próprio (`NSCGJ 92 II`).",
+        "E": "A anotação de urgência não está entre as exceções à exigência de protocolo (`NSCGJ 92`), e é **vedado** lançar o termo de juntada na própria petição (`NSCGJ 93 §2º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#62",
+      "tipo": "me",
+      "numero": 62,
+      "enunciado": "O capítulo XI, Seção IV, das Normas da Corregedoria Geral de Justiça disciplina o protocolo de petições intermediárias em processos eletrônicos. A respeito do assunto, assinale a alternativa correta.",
+      "alt": {
+        "A": "Na hipótese de materialização do processo, cuja tramitação era em meio eletrônico, passarão a ser admitidas petições em meio físico. Retomada a tramitação no meio eletrônico, não mais serão admitidas petições em meio físico.",
+        "B": "Não se admite, ainda que nos Foros Digitais, o protocolo integrado de petições em papel dirigidas a processos físicos em tramitação nas demais Comarcas do Estado.",
+        "C": "Em caso de indisponibilidade do sistema de peticionamento eletrônico, o Setor de Protocolo não pode receber petições em papel, pois os prazos judiciais se prorrogam para o dia útil subsequente.",
+        "D": "Em caso de recebimento indevido de petição física direcionada a processo eletrônico, o Setor de Protocolo de origem promoverá a digitalização do documento e a sua inserção no processo judicial eletrônico.",
+        "E": "Caso o juiz defira o recebimento de petição física direcionada a processo eletrônico, em função de inconsistência do sistema de processamento, a parte a apresentará perante o Setor de Protocolo, bem como procederá o protocolo eletrônico, no prazo de 05 (cinco) dias, a contar do retorno do funcionamento do sistema."
+      },
+      "gab": "A",
+      "temas": [
+        "legislacao-especial.nscgj.outras"
+      ],
+      "dispositivos": [
+        "NSCGJ 1220 p.ú.",
+        "NSCGJ 1221 §2º",
+        "NSCGJ 1222",
+        "NSCGJ 1221 §1º",
+        "NSCGJ 1222 §1º"
+      ],
+      "exp": "Materializado o processo eletrônico, **passam a ser admitidas petições em meio físico**; retomada a tramitação eletrônica, não mais (`NSCGJ 1220 p.ú.`). Nos Foros Digitais **admite-se** o protocolo integrado de petições em papel para processos físicos de outras Comarcas (`NSCGJ 1221 §2º`); na indisponibilidade do sistema a petição em papel **será recebida**, observados os requisitos (`NSCGJ 1222`); no recebimento indevido, o Protocolo **cancela** o protocolo e intima o peticionário para retirada (`NSCGJ 1221 §1º`); e, deferida a juntada pelo juiz, é o **ofício de justiça** que protocola e digitaliza (`NSCGJ 1222 §1º`).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na materialização do processo que tramitava em meio eletrônico, **passam a ser admitidas petições em meio físico**; retomada a tramitação eletrônica, **não mais** são admitidas (`NSCGJ 1220 p.ú.`).",
+        "B": "Nos **Foros Digitais**, admite-se o protocolo integrado de petições em papel dirigidas a processos físicos em tramitação nas demais Comarcas do Estado (`NSCGJ 1221 §2º`).",
+        "C": "Na indisponibilidade do peticionamento eletrônico ou impossibilidade técnica, a petição intermediária em papel **será recebida**, observados os requisitos das Normas (`NSCGJ 1222`).",
+        "D": "No recebimento indevido de petição em papel para processo eletrônico, o Setor de Protocolo de origem **cancela o protocolo** e intima o peticionário pelo DJE para **retirar a petição** (`NSCGJ 1221 §1º`).",
+        "E": "Deferida a juntada pelo juiz, **o ofício de justiça protocolará** a petição, dispensada a remessa ao Setor de Protocolo, e fará a digitalização quando o sistema funcionar (`NSCGJ 1222 §1º`); a parte não tem o ônus de refazer o protocolo em cinco dias."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#63",
+      "tipo": "me",
+      "numero": 63,
+      "enunciado": "A solicitação e o recebimento de informações da Receita Federal do Brasil relacionadas a endereço ou situação econômico-financeira da parte em processo judicial serão realizados pelo sistema",
+      "alt": {
+        "A": "BacenJud.",
+        "B": "e-SAJ.",
+        "C": "PJe.",
+        "D": "ICP-Brasil.",
+        "E": "Infojud."
+      },
+      "gab": "E",
+      "temas": [
+        "legislacao-especial.nscgj.cartorio"
+      ],
+      "dispositivos": [
+        "NSCGJ 121-A",
+        "NSCGJ 1263"
+      ],
+      "exp": "As informações da **Receita Federal** sobre endereço ou situação econômico-financeira da parte são solicitadas e recebidas pelo sistema **Infojud**, diretamente pelos magistrados ou servidores indicados, com certificado digital ICP-Brasil A3 (`NSCGJ 121-A`). O BacenJud atende ao Banco Central, o e-SAJ e o PJe são sistemas de processo eletrônico, e a ICP-Brasil é a infraestrutura de certificação digital, não um sistema de consulta.",
+      "pendencias": []
+    },
+    {
+      "id": "vunesp/tj-sp/escrevente-tecnico-judiciario/2023#64",
+      "tipo": "me",
+      "numero": 64,
+      "enunciado": "A respeito da tramitação de processos eletrônicos, é correto afirmar que",
+      "alt": {
+        "A": "os documentos produzidos de forma eletrônica serão assinados e rubricados.",
+        "B": "o acesso ao sistema de processamento eletrônico do Tribunal de Justiça do Estado de São Paulo será realizado pelo seu sítio eletrônico, sendo vedado o uso de outros meios.",
+        "C": "é de exclusiva responsabilidade do titular de certificação digital o uso e o sigilo da chave privada da sua identidade digital, não sendo oponível, em nenhuma hipótese, alegação de seu uso indevido.",
+        "D": "os advogados, defensores públicos, procuradores e membros do Ministério Público, não vinculados a processo, previamente identificados, poderão acessar todos os atos e documentos processuais armazenados, incluídos os casos de processos em sigilo ou segredo de justiça.",
+        "E": "para a elaboração dos documentos, serão utilizados os modelos de expediente institucionais padronizados, autorizados e aprovados pelo Diretor da respectiva unidade judiciária."
+      },
+      "gab": "C",
+      "temas": [
+        "legislacao-especial.nscgj.outras"
+      ],
+      "dispositivos": [
+        "NSCGJ 1193",
+        "NSCGJ 1192 §1º",
+        "NSCGJ 1192 §2º",
+        "NSCGJ 1191",
+        "NSCGJ 1224 §2º",
+        "NSCGJ 1237"
+      ],
+      "exp": "É de **exclusiva responsabilidade do titular** da certificação digital o uso e o sigilo da chave privada, **não sendo oponível**, em nenhuma hipótese, alegação de uso indevido (`NSCGJ 1193`). Os documentos produzidos eletronicamente são **assinados digitalmente** (`NSCGJ 1192 §1º`); assinar ou rubricar é regra dos **digitalizados** (`NSCGJ 1192 §2º`). O acesso também se dá por **integração** com entes conveniados e por sistemas internos (`NSCGJ 1191`); os não vinculados ao processo **não** acessam os feitos em sigilo ou segredo de justiça (`NSCGJ 1224 §2º`); e os modelos de expediente são aprovados pela **Corregedoria Geral da Justiça** (`NSCGJ 1237`).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os documentos produzidos de forma eletrônica são **assinados digitalmente** por seu autor (`NSCGJ 1192 §1º`); \"assinados ou rubricados\" é a regra dos documentos **digitalizados** (`NSCGJ 1192 §2º`).",
+        "B": "Além do sítio eletrônico do Tribunal, o acesso ao sistema se dá pelos **entes conveniados**, por integração de sistemas, e pelos **sistemas internos** (`NSCGJ 1191`).",
+        "C": "O uso e o sigilo da chave privada da identidade digital são de **exclusiva responsabilidade do titular** da certificação, e **em nenhuma hipótese** se admite a alegação de uso indevido (`NSCGJ 1193`).",
+        "D": "Advogados, defensores, procuradores e membros do Ministério Público não vinculados ao processo acessam os atos e documentos armazenados, **salvo** nos processos em **sigilo ou segredo de justiça** (`NSCGJ 1224 §2º`).",
+        "E": "Os modelos de expediente institucionais padronizados são autorizados e aprovados pela **Corregedoria Geral da Justiça** (`NSCGJ 1237`), e não pelo Diretor da unidade."
+      },
+      "pendencias": []
+    }
+  ]
+}
