@@ -22,7 +22,10 @@ import {
 const editalJson = (caminho: string) =>
   JSON.parse(readFileSync(new URL(`../../../editais/${caminho}/edital.json`, import.meta.url), "utf-8")) as EditalRel;
 const tj = editalJson("tj-sp/oficial-de-justica/2026");
-const trf = editalJson("trf3/oficial-de-justica-avaliador-federal/2026");
+// O TRF3 Oficial saiu do app, mas o edital continua como fixture: é o caso de média ponderada e da norma inteira ("*").
+const trf = JSON.parse(
+  readFileSync(new URL("./fixtures/edital-trf3-oficial-2026.json", import.meta.url), "utf-8"),
+) as typeof tj;
 
 test("relevância pelos editais reais", () => {
   assert.equal(relevancia({ dispositivos: ["CPP 245"] }, tj)?.bloco, "II");
