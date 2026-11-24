@@ -1,0 +1,428 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#21",
+      "tipo": "me",
+      "numero": 21,
+      "enunciado": "Acerca da NBC PA 11, que regula a “revisão externa de qualidade pelos pares”, é correto afirmar que:",
+      "alt": {
+        "A": "Aplica-se exclusivamente ao auditor com registro na CVM.",
+        "B": "O revisado é o auditor contratado para realização dos trabalhos de revisão.",
+        "C": "São estimuladas as revisões recíprocas entre auditores independentes (pessoas físicas e jurídicas).",
+        "D": "O auditor somente pode atuar como revisor caso não tenha executado trabalhos de auditoria independente nos últimos 2 anos anteriores ao da revisão que pretende fazer.",
+        "E": "É vedado ao revisor comunicar e discutir os resultados da revisão com a administração do revisado."
+      },
+      "gab": "A",
+      "temas": [
+        "auditoria.conceitos"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC PA 11** (revisão externa de qualidade pelos pares) alcança os auditores independentes com registro na **CVM** (e no CNAI-PJ), que são os sujeitos ao programa: é a (A), conforme o gabarito oficial. O **revisado** é o auditor que tem seu sistema de controle de qualidade examinado, e não o contratado para revisar (B). As revisões **recíprocas** não são estimuladas, e sim evitadas, para preservar a independência do revisor (C). O revisor deve comunicar e discutir os resultados com a administração do revisado (E). O impedimento do revisor por trabalho anterior (D) não é fixado em 2 anos.",
+      "observacoes": [
+        "Norma do CFC (NBC PA 11) sem sigla no catálogo. Não conferimos item a item o texto integral da NBC PA 11 (R1) quanto às alternativas (C), (D) e (E)."
+      ]
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#22",
+      "tipo": "me",
+      "numero": 22,
+      "enunciado": "O Código de Conduta Profissional (Code of Professional Conduct) do Instituto Americano de Contadores Públicos Certificados (AICPA), em seu item 1.240.010.03, estabelece que:\nSe um sócio ou funcionário da firma, ou sua família imediata, ou qualquer grupo de tais pessoas, reunir mais de 5% dos interesses patrimoniais ou outras participações de um cliente de auditoria durante o período de contratação, a ameaça de interesse próprio à conformidade com a \"Regra de Independência\" [1.200.001] alcançaria um nível inaceitável que não poderia ser reduzido pela aplicação de salvaguardas. Dessa forma, a independência estaria comprometida.\n(American Institute of Certified Public Accountants. Code of Professional Conduct. Disponível em: https://pub.aicpa.org/codeofconduct/ethicsresources/et-cod.pdf , p. 56. Tradução nossa)\nNo tocante à normatização em âmbito nacional, o assunto",
+      "alt": {
+        "A": "não é regulado, não havendo qualquer limitação similar.",
+        "B": "é regulado pela NBC PA 290, que, no entanto, não relaciona a independência do Auditor com a materialidade de eventuais interesses financeiros.",
+        "C": "apesar de não ser regulado diretamente em normativos do Conselho Federal de Contabilidade, a NBC PA 290 exige a independência de pensamento, mesmo que à custa da aparência de independência.",
+        "D": "apesar de não ser regulado diretamente em normativos do Conselho Federal de Contabilidade, constitui uma regra costumeira na Auditoria brasileira, com percentual equivalente a 10% da participação.",
+        "E": "é regulado pela NBC PA 290, que, entretanto, deixa de consignar o percentual específico de 5%, empregando a expressão interesse financeiro direto ou indireto “relevante”."
+      },
+      "gab": "E",
+      "temas": [
+        "auditoria.etica"
+      ],
+      "dispositivos": [],
+      "exp": "No Brasil, o tema é regulado pela **NBC PA 290** (Independência: trabalhos de auditoria e revisão), que trata do interesse financeiro no cliente de auditoria sem fixar percentual: veda o interesse financeiro **direto** e o indireto **relevante**, porque a ameaça de interesse próprio ficaria alta demais para qualquer salvaguarda. Logo, a (E) está certa. (A) e (D) erram ao negar a regulação pelo CFC; (B) erra porque a norma usa justamente a relevância (materialidade) do interesse; (C) inverte a norma, que exige independência de pensamento **e** de aparência.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O tema **é regulado** no Brasil: a NBC PA 290, do Conselho Federal de Contabilidade, limita o interesse financeiro do auditor e de sua equipe no cliente de auditoria.",
+        "B": "A NBC PA 290 **relaciona** a independência à relevância (materialidade) do interesse: o interesse financeiro indireto só compromete a independência quando é **relevante**.",
+        "C": "A matéria é **regulada pelo CFC**, na NBC PA 290, e essa norma exige independência de pensamento **e** de aparência, não uma à custa da outra.",
+        "D": "Não existe regra costumeira de 10%: a norma brasileira, a NBC PA 290, **regula** o tema sem fixar percentual e usa a expressão interesse financeiro indireto **relevante**.",
+        "E": "A NBC PA 290 não traz o percentual de 5%: veda o interesse financeiro **direto** e o indireto **relevante**, deixando a relevância ao julgamento."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#23",
+      "tipo": "me",
+      "numero": 23,
+      "enunciado": "Um sujeito cético é aquele com disposição para duvidar de tudo. Mantém-se incrédulo, em estado de descrença quanto a tudo que está à sua frente. O auditor deve agir sempre com ceticismo em relação a tudo que analisa durante a realização dos trabalhos de auditoria, isto é, sempre deve refletir, desconfiar e estar alerta para a existência de condições que possam indicar possível distorção devido a erro ou fraude.\n(FAVERO, Fabrício. Responsabilidade Civil dos Auditores Independentes. Uma análise da sua função e critérios para sua responsabilização. São Paulo: Almedina, 2018, p. 146)\nO conceito tratado no excerto acima, ditado pela NBC TA 200, é conhecido como",
+      "alt": {
+        "A": "ceticismo profissional, consistente em postura que inclui uma mente questionadora e alerta para condições que possam indicar possível distorção devido a erro ou fraude e uma avaliação crítica das evidências de auditoria.",
+        "B": "julgamento profissional, consistente em aplicação do treinamento, conhecimento e experiência relevantes, dentro do contexto fornecido pelas normas de auditoria, contábeis e éticas, na tomada de decisões informadas a respeito dos cursos de ação apropriados nas circunstâncias do trabalho de auditoria.",
+        "C": "ceticismo profissional, consistente em aplicação do treinamento, conhecimento e experiência relevantes, dentro do contexto fornecido pelas normas de auditoria, contábeis e éticas, na tomada de decisões informadas a respeito dos cursos de ação apropriados nas circunstâncias do trabalho de auditoria.",
+        "D": "julgamento profissional, consistente em postura que inclui uma mente questionadora e alerta para condições que possam indicar possível distorção devido a erro ou fraude e uma avaliação crítica das evidências de auditoria.",
+        "E": "independência profissional, consistente no cumprimento de exigências éticas relevantes, inclusive as pertinentes à independência, no que se refere aos trabalhos de auditoria de demonstrações contábeis."
+      },
+      "gab": "A",
+      "temas": [
+        "auditoria.conceitos"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC TA 200** define **ceticismo profissional** como a postura que inclui uma mente questionadora, alerta a condições que possam indicar distorção por erro ou fraude, e a avaliação crítica das evidências de auditoria: é a (A). A definição de **julgamento profissional** é a aplicação de treinamento, conhecimento e experiência na tomada de decisões informadas. As alternativas (B), (C) e (D) misturam os dois conceitos (nome de um com a definição do outro), e (E) descreve exigências éticas e de independência, que são outro assunto.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na NBC TA 200, **ceticismo profissional** é a postura que inclui uma mente questionadora, alerta a condições que indiquem distorção por erro ou fraude, e a avaliação crítica das evidências de auditoria.",
+        "B": "A definição descrita (treinamento, conhecimento e experiência aplicados a decisões informadas) é de fato a de **julgamento profissional**, mas a afirmação não corresponde ao conceito do excerto, que é o **ceticismo profissional**, a postura questionadora e alerta a erro ou fraude.",
+        "C": "Atribui ao **ceticismo profissional** a definição de julgamento profissional (treinamento, conhecimento e experiência aplicados a decisões informadas). Na NBC TA 200, o ceticismo é a postura **questionadora e alerta** a distorções, com avaliação crítica das evidências.",
+        "D": "Atribui ao **julgamento profissional** a definição de ceticismo. Na NBC TA 200, a postura questionadora, alerta a erro ou fraude e crítica das evidências é o **ceticismo profissional**, e o julgamento é a aplicação de treinamento e experiência.",
+        "E": "Exigências éticas e de independência são tratadas à parte, na NBC PA 290 e no código de ética. O excerto descreve a postura de dúvida e atenção a erro ou fraude, que a NBC TA 200 chama de **ceticismo profissional**."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#24",
+      "tipo": "me",
+      "numero": 24,
+      "enunciado": "Quanto à interação constitucionalmente determinada entre controle externo e controle interno,",
+      "alt": {
+        "A": "há subordinação hierárquica entre controle interno e controle externo.",
+        "B": "é dever do controle interno apoiar a missão institucional do controle externo.",
+        "C": "o controle de metas previstas no plano plurianual é reservado ao controle externo.",
+        "D": "o recebimento de denúncias de qualquer cidadão sobre irregularidades é reservado ao controle interno.",
+        "E": "o controle externo funciona como órgão recursal para decisões adotadas no exercício do controle interno."
+      },
+      "gab": "B",
+      "temas": [
+        "auditoria.controle-interno"
+      ],
+      "dispositivos": [
+        "CF 74 IV"
+      ],
+      "exp": "Entre as finalidades do sistema de controle interno, a Constituição prevê **apoiar o controle externo** no exercício de sua missão institucional (`CF 74 IV`): é a (B). Não há subordinação hierárquica entre os dois (A). A avaliação do cumprimento das metas do plano plurianual é finalidade do controle **interno** (`CF 74 I`), não reservada ao externo (C). A denúncia de irregularidades por qualquer cidadão é feita perante o **Tribunal de Contas** (`CF 74 §2º`), que é o controle externo (D). O controle externo não é instância recursal do interno (E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Controle interno e externo são **independentes**: a Constituição prevê que o primeiro apoie o segundo (`CF 74 IV`), sem criar hierarquia entre eles.",
+        "B": "É finalidade do sistema de controle interno **apoiar o controle externo** no exercício de sua missão institucional (`CF 74 IV`).",
+        "C": "Avaliar o cumprimento das metas do plano plurianual é finalidade do controle **interno** (`CF 74 I`), e não matéria reservada ao controle externo.",
+        "D": "A denúncia de irregularidades por qualquer cidadão, partido, associação ou sindicato é feita **perante o Tribunal de Contas da União** (`CF 74 §2º`), órgão de controle externo.",
+        "E": "A Constituição não prevê o controle externo como **instância recursal** das decisões do controle interno; são sistemas distintos, ligados pelo dever de apoio do interno ao externo (`CF 74 IV`)."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#25",
+      "tipo": "me",
+      "numero": 25,
+      "enunciado": "Neste trabalho estabeleceu-se uma proposta de um prazo “ótimo” para o regime de rodízio mandatório de firmas de auditoria no Brasil. Esta é uma questão de especial interesse para reguladores de mercado, dada a escassez de estudos nessa linha, além de ter impactos sobre toda discussão acerca da adoção da regra (...).\nAtravés da aplicação empírica de um modelo que incorpora os principais pressupostos acerca do impacto do tempo de relacionamento auditor-auditado (tenure) na qualidade de auditoria, estimou-se que o prazo “ótimo” para o rodízio de firmas de auditoria no Brasil é 5,7 anos (...).\n(ALMEIDA, Patrícia Romualdo de; CARVALHO, Luis Nelson Guedes de; BRAUNBECK, Guilhermo Oscar. Um Prazo Ótimo para Rodízio de Firmas de Auditoria no Brasil. In: XVIII Usp International Conference in Accounting, 2018, São Paulo. Anais. São Paulo: Universidade de São Paulo, 2018. Disponível: https://congressousp.fipecafi.org/anais/Anais2018/apresentacao.html. Acesso: 20/03/2019. Com adaptações.)\nA regulação posta pela NBC PA 01 − Controle de Qualidade para Firmas (Pessoas Jurídicas e Físicas) de Auditores Independentes",
+      "alt": {
+        "A": "difere da conclusão dos autores do estudo, posto que o estudo de tempo de relacionamento (tenure) não pode exceder 3 anos.",
+        "B": "difere da conclusão dos autores do estudo, posto que prevê que o rodízio de firmas ocorra após 8 anos.",
+        "C": "é similar à conclusão dos autores do estudo, posto que prevê que o rodízio de firmas ocorra após 5 anos.",
+        "D": "é similar à conclusão dos autores do estudo, posto que prevê que o rodízio de firmas ocorra após estudo de tempo de relacionamento (tenure).",
+        "E": "difere da conclusão dos autores do estudo, posto que não prevê o rodízio da firma, mas dos profissionais envolvidos, incluindo o sócio encarregado."
+      },
+      "gab": "E",
+      "temas": [
+        "auditoria.etica"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC PA 01** (controle de qualidade das firmas) trata, entre as ameaças à independência, do **rodízio dos profissionais** envolvidos no trabalho, incluindo o **sócio encarregado**, e não prevê o rodízio da firma: é a (E), que difere do estudo, que propunha prazo ótimo (5,7 anos) para o rodízio de firmas. As demais atribuem à NBC PA 01 prazos de rodízio da firma (3, 8 ou 5 anos) ou um estudo de tenure que ela não prevê. A regra de rodízio de firma, quando existe, vem da regulação da CVM, e não da NBC PA 01.",
+      "observacoes": [
+        "Alternativas dependem do excerto do estudo, por isso a questão fica sem vf. O prazo de rodízio de firmas citado por quem estuda o tema decorre de norma da CVM, fora da NBC PA 01."
+      ]
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#26",
+      "tipo": "me",
+      "numero": 26,
+      "enunciado": "O auditor independente responsável por auditoria de demonstrações contábeis:",
+      "alt": {
+        "A": "está impedido de emitir o seu relatório se ele não tiver algumas das informações financeiras e não financeiras ou todas elas.",
+        "B": "que concluir pela existência de distorção relevante em informações financeiras ou não financeiras incluídas no relatório anual da entidade, deve requerer a sua correção aos responsáveis pela governança e, se não atendido, solicitar à administração.",
+        "C": "na excepcionalidade de informações financeiras e não financeiras incluídas no relatório anual da entidade se tornarem disponíveis subsequentemente ao relatório do auditor, tem que atualizar os procedimentos realizados.",
+        "D": "ao identificar que parece existir inconsistência relevante, deve discutir a questão com a administração e, se necessário, realizar outros procedimentos.",
+        "E": "ao avaliar a consistência dos valores ou outros itens selecionados das outras informações com as demonstrações contábeis, tem que comparar todos os valores, que devem ser os mesmos, de forma detalhada, com os valores ou outros itens das demonstrações contábeis."
+      },
+      "gab": "D",
+      "temas": [
+        "auditoria.relatorio"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC TA 720 (R1)** (responsabilidades do auditor em relação a outras informações) manda que, ao identificar uma aparente **inconsistência relevante**, o auditor **discuta** o assunto com a administração e, se necessário, **realize outros procedimentos**: é a (D). Não há impedimento de emitir o relatório só porque faltam informações (A). Diante de distorção relevante, o auditor solicita a correção à **administração** e, se não atendido, comunica os responsáveis pela governança, ordem invertida na (B). Na (C), a norma não exige atualizar os procedimentos, e sim tratar o caso conforme o momento em que as informações ficam disponíveis. Na (E), não se exige comparação detalhada de todos os valores.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A NBC TA 720 (R1) não impede a emissão do relatório pela falta de informações: o auditor avalia os efeitos e, se for o caso, **modifica a opinião** ou aplica outras medidas.",
+        "B": "A ordem está invertida: pela NBC TA 720 (R1), o auditor solicita a correção à **administração** e, se não atendido, comunica os **responsáveis pela governança**.",
+        "C": "A NBC TA 720 (R1) não exige **atualizar os procedimentos** de forma automática: o auditor responde conforme as informações cheguem antes ou depois da data do relatório, com as medidas que a norma prevê.",
+        "D": "É o que manda a NBC TA 720 (R1): diante de aparente **inconsistência relevante**, o auditor **discute** com a administração e, se necessário, **realiza outros procedimentos**.",
+        "E": "A NBC TA 720 (R1) pede que o auditor avalie a **consistência** das informações selecionadas com as demonstrações contábeis, o que não implica comparar **todos** os valores de forma detalhada."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#27",
+      "tipo": "me",
+      "numero": 27,
+      "enunciado": "Na avaliação de materialidade, é razoável que o auditor assuma que os usuários de demonstrações financeiras",
+      "alt": {
+        "A": "possuem aprofundado conhecimento de economia.",
+        "B": "não sabem que as demonstrações contábeis são auditadas considerando níveis de materialidade.",
+        "C": "possuem conhecimento razoável de contabilidade.",
+        "D": "não possuem disposição para estudar as informações contábeis com diligência.",
+        "E": "possuem aprofundado conhecimento das atividades econômicas."
+      },
+      "gab": "C",
+      "temas": [
+        "auditoria.planejamento"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC TA 320** (materialidade no planejamento e na execução da auditoria) diz que é razoável o auditor assumir que os usuários têm **conhecimento razoável** dos negócios, das atividades econômicas e da contabilidade, e **disposição para estudar** as informações com razoável diligência, e que entendem que as demonstrações são elaboradas e auditadas com base em níveis de materialidade: é a (C). As alternativas (A) e (E) falam em conhecimento **aprofundado**, e (B) e (D) negam o que a norma presume.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A NBC TA 320 presume conhecimento **razoável** dos negócios, da economia e da contabilidade, e não conhecimento **aprofundado** de economia.",
+        "B": "A NBC TA 320 presume que os usuários **entendem** que as demonstrações contábeis são elaboradas, apresentadas e auditadas considerando níveis de materialidade.",
+        "C": "A NBC TA 320 presume que os usuários têm **conhecimento razoável** dos negócios, das atividades econômicas e da contabilidade, além de disposição para estudar as informações com diligência.",
+        "D": "A NBC TA 320 presume o contrário: os usuários têm **disposição** de estudar as informações contábeis com razoável diligência.",
+        "E": "A NBC TA 320 presume conhecimento **razoável** das atividades econômicas, e não **aprofundado**."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#28",
+      "tipo": "me",
+      "numero": 28,
+      "enunciado": "A suficiência da evidência de auditoria",
+      "alt": {
+        "A": "ou é afetada pela qualidade da evidência de auditoria, ou pela avaliação do auditor dos riscos de distorção relevante, nunca ambos.",
+        "B": "é afetada pela qualidade da evidência de auditoria, mas não pela avaliação do auditor dos riscos de distorção relevante.",
+        "C": "não é afetada nem pela avaliação do auditor dos riscos de distorção relevante, nem pela qualidade da evidência de auditoria.",
+        "D": "é afetada pela avaliação do auditor dos riscos de distorção relevante e também pela qualidade da evidência de auditoria.",
+        "E": "é afetada pela avaliação do auditor dos riscos de distorção relevante, mas não pela qualidade da evidência de auditoria."
+      },
+      "gab": "D",
+      "temas": [
+        "auditoria.procedimentos"
+      ],
+      "dispositivos": [],
+      "exp": "Pela **NBC TA 200** e pela **NBC TA 500**, a **suficiência** é a medida da quantidade de evidência de auditoria. Essa quantidade é afetada pela **avaliação dos riscos de distorção relevante** (quanto maior o risco, mais evidência) e também pela **qualidade** da evidência (quanto melhor a qualidade, menos evidência é necessária): é a (D). As demais alternativas excluem um dos dois fatores ou ambos.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Os dois fatores atuam **juntos**: a suficiência da evidência depende da avaliação dos riscos de distorção relevante e da qualidade da evidência, conforme as NBC TA 200 e 500.",
+        "B": "A suficiência é afetada também pela **avaliação do risco de distorção relevante**: quanto maior o risco, maior a quantidade de evidência necessária (NBC TA 200).",
+        "C": "A suficiência é afetada pelos **dois** fatores: a avaliação dos riscos de distorção relevante e a qualidade da evidência (NBC TA 200 e 500).",
+        "D": "A suficiência, medida da **quantidade** de evidência, depende da avaliação dos riscos de distorção relevante e da **qualidade** da evidência (NBC TA 200 e 500).",
+        "E": "A suficiência é afetada também pela **qualidade** da evidência: quanto melhor a qualidade, menos evidência é necessária (NBC TA 500)."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#29",
+      "tipo": "me",
+      "numero": 29,
+      "enunciado": "Considere a situação hipotética abaixo.\nExecutando amostragem em teste de evidência de autorização, o auditor escolhe um cheque cancelado, e, inspecionando-o, conclui que foi apropriado o cancelamento, de modo que não houve, naquele caso, desvio.\nO regulamento do CFC aplicável à amostragem estabelece que",
+      "alt": {
+        "A": "é vedada a escolha de outro cheque cancelado para examinar, o que é referido na norma como “procedimento em item perdido”.",
+        "B": "é possível a escolha de outro cheque cancelado para examinar, o que é referido na norma como “procedimento em item de substituição”.",
+        "C": "é obrigatória a escolha de outro cheque cancelado para examinar, o que é referido na norma como “procedimento alternativo adequado”.",
+        "D": "é recomendável a escolha de outro cheque cancelado para examinar, o que é referido na norma como “procedimento impossível”.",
+        "E": "é vedada a análise de outro cheque cancelado para examinar, o que é referido na norma como “procedimento alternativo inadequado”."
+      },
+      "gab": "B",
+      "temas": [
+        "auditoria.amostragem"
+      ],
+      "dispositivos": [],
+      "exp": "A **NBC TA 530** (amostragem em auditoria) trata do caso em que o item selecionado, como o cheque cancelado, não requer a aplicação do procedimento planejado (por exemplo, cancelamento apropriado, sem desvio): o auditor **pode** escolher outro item para examinar, o **item de substituição**. É a (B). A norma não veda a escolha (A e E) nem a torna obrigatória (C), e as expressões “item perdido”, “procedimento impossível” e “procedimento alternativo inadequado” não correspondem ao tratamento da norma.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A NBC TA 530 não veda a escolha de outro cheque, e “procedimento em item perdido” não é o termo da norma para essa situação, que é o **item de substituição**.",
+        "B": "Se o cheque cancelado foi apropriadamente cancelado e não é desvio, a NBC TA 530 permite escolher outro item, o **item de substituição**, para examinar.",
+        "C": "A escolha de outro cheque é **possível**, e não obrigatória; e “procedimento alternativo adequado” se refere a outra situação da NBC TA 530, a de item ao qual o procedimento planejado não pode ser aplicado.",
+        "D": "A NBC TA 530 não chama a situação de “procedimento impossível”: permitir a escolha de outro cheque é o **item de substituição**, possibilidade e não recomendação.",
+        "E": "A NBC TA 530 não veda a análise de outro cheque, e “procedimento alternativo inadequado” não é termo da norma para a situação: trata-se do **item de substituição**."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#30",
+      "tipo": "me",
+      "numero": 30,
+      "enunciado": "A equipe técnica incumbida de realizar trabalho de perícia contábil",
+      "alt": {
+        "A": "não deve empregar o trabalho de terceiros.",
+        "B": "pode empregar o trabalho de terceiros, desde que conste expressamente do termo de diligência, com responsabilização dos terceiros pela parcela do trabalho que produzirem.",
+        "C": "pode empregar o trabalho de terceiros, que devem ser supervisionados e orientados pelo perito, que se responsabiliza pela parcela do trabalho que produzirem.",
+        "D": "pode empregar o trabalho de terceiros, desde que conste expressamente do laudo pericial contábil, com responsabilização dos terceiros pela parcela do trabalho que produzirem.",
+        "E": "não pode empregar o trabalho de terceiros, declaração que deve constar expressamente do parecer pericial contábil."
+      },
+      "gab": "C",
+      "temas": [
+        "auditoria.pericia"
+      ],
+      "dispositivos": [],
+      "exp": "Pelas normas de perícia contábil do CFC (**NBC TP 01**, antiga NBC T 13), o perito **pode** utilizar o trabalho de terceiros, que deve ser **supervisionado e orientado** por ele, e o perito **assume a responsabilidade** pela parcela do trabalho que esses terceiros produzirem: é a (C). As alternativas (A) e (E) proíbem o uso de terceiros, e (B) e (D) condicionam o uso a registro em documento e transferem a responsabilidade aos terceiros.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A norma de perícia contábil do CFC (NBC TP 01) **admite** o trabalho de terceiros na equipe, desde que supervisionado e orientado pelo perito.",
+        "B": "A responsabilidade pela parte feita por terceiros é do **perito**, e não dos terceiros, e a norma de perícia (NBC TP 01) não a condiciona a registro no termo de diligência.",
+        "C": "Na norma de perícia contábil do CFC (NBC TP 01), o perito pode empregar terceiros, que ele **supervisiona e orienta**, e responde pela parcela do trabalho que produzirem.",
+        "D": "A responsabilidade pela parte feita por terceiros é do **perito**, e não dos terceiros, e a norma de perícia (NBC TP 01) não a condiciona a registro no laudo pericial contábil.",
+        "E": "A norma de perícia contábil do CFC (NBC TP 01) **admite** o trabalho de terceiros, e não há declaração de que isso seja vedado a constar do parecer pericial."
+      },
+      "observacoes": [
+        "Normas do CFC sobre perícia contábil (NBC TP 01, que substituiu a NBC T 13) sem sigla no catálogo; o enunciado não traz o número da norma. A redação das alternativas (B) e (D) sobre termo de diligência e laudo não foi conferida contra o texto integral da norma."
+      ]
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#31",
+      "tipo": "me",
+      "numero": 31,
+      "enunciado": "Conforme um levantamento realizado em um órgão público e analisando a distribuição dos salários, em R$ 1.000,00, de todos os seus funcionários, obteve-se a tabela de frequências absolutas abaixo, com k sendo um número inteiro positivo.\n[Tabela — colunas: Salários (s); Número de Funcionários; linha 1: 2 < s ≤ 4; 2k; linha 2: 4 < s ≤ 6; 20; linha 3: 6 < s ≤ 8; 50; linha 4: 8 < s ≤ 10; 80; linha 5: 10 < s ≤ 12; 8k; linha 6 (Total): 40 k]\nConsidere que a média aritmética (Me) foi calculada considerando que todos os valores incluídos num certo intervalo de classe são coincidentes com o ponto médio deste intervalo, que a mediana (Md) foi calculada pelo método da interpolação linear e que a moda (Mo) foi obtida pela relação de Pearson, ou seja, Mo = 3 Md − 2 Me. O valor encontrado para Mo, em R$ 1.000,00, foi igual a",
+      "alt": {
+        "A": "1,76 k.",
+        "B": "1,70 k.",
+        "C": "1,64 k.",
+        "D": "1,60 k.",
+        "E": "1,82 k."
+      },
+      "gab": "E",
+      "temas": [
+        "estatistica.descritiva.tendencia-central"
+      ],
+      "dispositivos": [],
+      "exp": "O total dá **k**: 2k + 20 + 50 + 80 + 8k = 40k, então 30k = 150 e k = 5; as frequências são 10, 20, 50, 80 e 40, com N = 200. **Média:** (3·10 + 5·20 + 7·50 + 9·80 + 11·40)/200 = 1.640/200 = 8,2. **Mediana:** N/2 = 100 cai na classe 8–10 (frequência acumulada anterior 80), então Md = 8 + (100 − 80)/80 · 2 = 8,5. **Moda de Pearson:** Mo = 3·8,5 − 2·8,2 = 9,1 = 1,82·5, ou seja, 1,82k: (E)."
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#32",
+      "tipo": "me",
+      "numero": 32,
+      "enunciado": "Em uma empresa, o número de empregados que são mulheres está para o número de empregados que são homens assim como 2 está para 3. Decide-se extrair uma amostra aleatória de 4 empregados desta empresa, com reposição. A probabilidade de que nesta amostra haja no máximo 2 homens é de",
+      "alt": {
+        "A": "50,00%.",
+        "B": "49,92%.",
+        "C": "60,00%.",
+        "D": "52,48%.",
+        "E": "47,52%."
+      },
+      "gab": "D",
+      "temas": [
+        "estatistica.distribuicoes"
+      ],
+      "dispositivos": [],
+      "exp": "A razão 2:3 dá P(homem) = 3/5 = 0,6 e P(mulher) = 0,4. Com reposição, o número de homens em 4 sorteios segue uma **binomial**. No máximo 2 homens é o complementar de 3 ou 4 homens: P(3) = 4·0,6³·0,4 = 0,3456 e P(4) = 0,6⁴ = 0,1296. Logo P(≤ 2) = 1 − 0,3456 − 0,1296 = 0,5248 = 52,48%: (D)."
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#33",
+      "tipo": "me",
+      "numero": 33,
+      "enunciado": "Uma grande população formada pelos comprimentos de determinadas peças é normalmente distribuída com média μ igual a 20 centímetros. Observa-se que 84% das peças da população possuem um comprimento inferior a 25 centímetros.\n[Tabela — Dados: Escore reduzido da curva normal padrão (Z) tal que a probabilidade P(0 < Z < z) = α; colunas: z = 0,84; 1,00; 1,28; 1,56; 1,64; linha α: 0,30; 0,34; 0,40; 0,44; 0,45]\nSe 90% das peças possuem um comprimento superior a x centímetros, então, x é igual a",
+      "alt": {
+        "A": "12,2.",
+        "B": "13,6.",
+        "C": "11,8.",
+        "D": "15,8.",
+        "E": "14,7."
+      },
+      "gab": "B",
+      "temas": [
+        "estatistica.distribuicoes"
+      ],
+      "dispositivos": [],
+      "exp": "P(X < 25) = 0,84 equivale a P(0 < Z < z) = 0,34, que a tabela dá para z = 1,00; então (25 − 20)/σ = 1 e **σ = 5**. Para P(X > x) = 0,90, o escore fica abaixo da média: P(z < Z < 0) = 0,40, que corresponde a z = −1,28. Assim x = 20 − 1,28·5 = 20 − 6,4 = **13,6**: (B)."
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#34",
+      "tipo": "me",
+      "numero": 34,
+      "enunciado": "De um estudo, obtiveram-se informações de uma amostra aleatória extraída de uma população. Em um teste de hipóteses, foram formuladas as hipóteses H0 (hipótese nula) e H1 (hipótese alternativa) para analisar um parâmetro da população com base nos dados da amostra. O nível de significância deste teste corresponde à probabilidade de",
+      "alt": {
+        "A": "não rejeitar H0, dado que H0 é falsa.",
+        "B": "rejeitar H0, dado que H0 é falsa.",
+        "C": "rejeitar H0, dado que H0 é verdadeira.",
+        "D": "não rejeitar H0, independente de H0 ser falsa ou verdadeira.",
+        "E": "rejeitar H0, independente de H0 ser falsa ou verdadeira."
+      },
+      "gab": "C",
+      "temas": [
+        "estatistica.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "O **nível de significância** (α) é a probabilidade do **erro tipo I**: rejeitar H0 quando ela é verdadeira: (C). Não rejeitar H0 sendo falsa é o erro tipo II, de probabilidade β (A). Rejeitar H0 sendo falsa é a decisão correta, cuja probabilidade é o poder do teste, 1 − β (B). As alternativas (D) e (E) não são probabilidades condicionais a um estado de H0 e não definem α.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não rejeitar H0 quando ela é falsa é o **erro tipo II**, cuja probabilidade é β, e não o nível de significância.",
+        "B": "Rejeitar H0 quando ela é falsa é a decisão correta, e sua probabilidade é o **poder do teste** (1 − β), e não o nível de significância.",
+        "C": "O **nível de significância** (α) é a probabilidade do **erro tipo I**: rejeitar H0 quando ela é verdadeira.",
+        "D": "Sem condicionar ao estado de H0, a frase não define nenhum erro do teste; o nível de significância é a probabilidade de rejeitar H0 **sendo ela verdadeira**.",
+        "E": "Rejeitar H0 sem condicionar ao estado dela não define o nível de significância, que é a probabilidade de rejeitar H0 **sendo ela verdadeira** (erro tipo I)."
+      }
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#35",
+      "tipo": "me",
+      "numero": 35,
+      "enunciado": "Analisando as vendas trimestrais realizadas pela empresa Gama no período de 2016 a 2018, obteve-se a equação da tendência utilizando o método dos mínimos quadrados com base nestas 12 observações, ou seja, Xt = 10 + 1,5 t, em que X corresponde às vendas trimestrais (em milhões de reais) e t = 1 representa o primeiro trimestre de 2016, t = 2 representa o segundo trimestre de 2016 e assim por diante.\n[Tabela — Dados: Índices sazonais corrigidos para o modelo multiplicativo; colunas: Trimestre 1º, 2º, 3º, 4º; Índices Sazonais: 0,5; 0,3; 1,2; 1,0]\nA previsão das vendas para o segundo trimestre de 2020, levando em conta o movimento sazonal do período e considerando o modelo multiplicativo, é igual, em milhões de reais, a",
+      "alt": {
+        "A": "11,1.",
+        "B": "12,6.",
+        "C": "12,0.",
+        "D": "11,5.",
+        "E": "11,8."
+      },
+      "gab": "A",
+      "temas": [
+        "estatistica.series-temporais"
+      ],
+      "dispositivos": [],
+      "exp": "Contando trimestres desde t = 1 (1º tri de 2016), 2016 vai de 1 a 4, 2017 de 5 a 8, 2018 de 9 a 12, 2019 de 13 a 16, e o 2º trimestre de 2020 é **t = 18**. A tendência dá X18 = 10 + 1,5·18 = 37. No **modelo multiplicativo**, a previsão é a tendência vezes o índice sazonal do 2º trimestre: 37 · 0,3 = **11,1**: (A)."
+    }
+  ]
+}

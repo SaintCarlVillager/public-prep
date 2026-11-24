@@ -1,0 +1,667 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {
+    "TLP": {
+      "titulo": "O Brasil é dos brasileiros",
+      "texto": "O brasileiro gosta de pensar que o Brasil é uma nação acolhedora, que recebe imigrantes de braços abertos. Em termos de dados históricos e estatísticos, não é bem assim. Apesar da imigração maciça promovida por sucessivos governos durante o Império e o primeiro período republicano, sempre houve debates sobre o tipo de imigrante que seria mais desejável, passando pela rejeição explícita a determinados grupos. Na década de 1860, a questão da imigração de chineses atingiu proporções de grande controvérsia e chegou a ser debatida no parlamento. O consenso era de que devia ser impedida para evitar o suposto risco de degeneração racial. Pelo mesmo motivo, a pseudociência da época desaconselhava a entrada de mais africanos, para além dos milhões que já haviam ingressado escravizados no país. Em 1890, já sob a República, a entrada de asiáticos foi efetivamente barrada por decreto. [...]\n\nO imigrante ideal, para as autoridades brasileiras daquele tempo, era branco e católico. De preferência, com experiência em agricultura e disposto a se fixar nas zonas rurais. Braços para a lavoura, era o que se dizia, e uma injeção de material genético selecionado com o intuito de “melhorar a raça”. [...]. A preferência por imigrantes católicos seguia a premissa de que seriam de assimilação fácil e não ameaçariam a composição cultural da jovem nação. Aqueles no poder queriam que o brasileiro continuasse do jeitinho que era, só que mais branco. Seguindo as premissas eugênicas então em voga, acreditava-se que o sangue europeu, tido como mais forte, venceria o sangue africano e ameríndio, eliminando-os paulatinamente. Essa política de branqueamento já foi documentada, ad nauseam, por nossa historiografia. Ela é o pano de fundo ideológico para o crescimento da cidade de São Paulo, onde a porcentagem de italianos ficou acima de 30% entre as décadas de 1890 e 1910, período em que a população aumentou quase dez vezes.\n\nOs doutores daquela época não conseguiram o que almejavam, por três motivos. O primeiro, concreto, é que as doutrinas científicas em que acreditavam eram falsas. Não existe raça pura, em termos biológicos, muito menos a superioridade de uma sobre outra. O segundo, circunstancial, é que a fonte de imigrantes na Europa foi secando antes que a demanda por trabalhadores no Brasil se esgotasse. Quando o navio Kasato Maru atracou no porto de Santos em junho de 1908, com 165 famílias japonesas a bordo, era o reconhecimento implícito de que os interesses econômicos iriam prevalecer sobre a ideologia eugenista. A imigração em massa de japoneses para o Brasil, ao longo do século 20, não somente descarrilou o projeto de branqueamento como também quebrou o paradigma de que não católicos eram inassimiláveis. Os japoneses ficaram e se fixaram. Seus descendentes tornaram-se brasileiros, a despeito de muito preconceito e até perseguição. Conseguiram essa proeza, de início, porque se mantiveram isolados no interior do país. Longe da vista, como fizeram meus avós e bisavós.\n\nO terceiro motivo do fracasso do modelo de assimilabilidade católica é conceitual. Seus defensores partiam de um pressuposto falso: o de que a população brasileira era homogênea em termos de religião. [...] o mito do bom imigrante católico ignorava estrategicamente a presença de judeus, muçulmanos e protestantes no Brasil. Os três grupos estiveram presentes desde a época colonial e, cada um a seu modo, contribuíram para a formação do país.",
+      "fonte": "CARDOSO, Rafael. O Brasil é dos brasileiros. Revista Serrote, nº 27, pp. 45 e 47, 2018."
+    }
+  },
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#1",
+      "tipo": "me",
+      "numero": 1,
+      "texto": "TLP",
+      "enunciado": "O desenvolvimento do texto evidencia que o autor tem como prioridade:",
+      "alt": {
+        "A": "contrapor dados históricos e estatísticos a decisões autocráticas de governos brasileiros do Império e do primeiro período republicano acerca do acolhimento de mão de obra estrangeira.",
+        "B": "sinalizar que a imigração maciça estimulada durante o Império e o primeiro período republicano no Brasil não recebeu apoio do povo, este que, contrariamente ao que proclama, não é hospitaleiro quando se trata de imigrantes.",
+        "C": "atribuir a conceitos científicos mal compreendidos tanto o preconceito e a perseguição a estrangeiros, quanto o fracasso da política de Estado ao não reconhecer, durante séculos, a diversidade religiosa no Brasil.",
+        "D": "criticar a xenofobia que, tida como característica encoberta do homem brasileiro, produz rejeição aleatória de imigrantes que muito poderiam contribuir para os interesses econômicos do Brasil.",
+        "E": "salientar que os movimentos migratórios no Brasil, nos períodos citados, estiveram associados a específicas condições do imigrante, subordinadas às convicções das autoridades em exercício."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.interpretacao.ideia-central"
+      ],
+      "dispositivos": [],
+      "exp": "O autor mostra que a política de imigração foi **seletiva**: o imigrante desejado era branco, católico e agricultor, conforme as convicções (eugenistas, religiosas) das autoridades, e chineses, africanos e asiáticos foram rejeitados. As demais alternativas atribuem ao texto ideias que ele não defende: decisões autocráticas, falta de apoio popular, conceitos mal compreendidos ou xenofobia aleatória.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O texto não opõe dados a **decisões autocráticas**: os dados mostram que a imigração foi seletiva por critérios de governo e de ciência da época, sem tratar essas decisões como arbitrárias de um só poder.",
+        "B": "O texto não diz que o povo recusou a imigração maciça nem que ela foi imposta contra a população: a **seletividade** vem das autoridades e das doutrinas eugênicas, e o autor critica a imagem de nação acolhedora, não o povo em si.",
+        "C": "O texto afirma que as doutrinas científicas eram **falsas**, e não mal compreendidas, e não atribui a elas o preconceito sofrido pelos imigrantes nem o desconhecimento da diversidade religiosa durante séculos.",
+        "D": "O autor não trata de **xenofobia** como traço oculto do brasileiro nem de rejeição aleatória: a rejeição seguiu critérios precisos (raça, religião, ocupação).",
+        "E": "Corresponde ao desenvolvimento do texto: a imigração foi condicionada a **perfis específicos** (branco, católico, rural), definidos pelas convicções eugenistas das autoridades de cada época."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#2",
+      "tipo": "me",
+      "numero": 2,
+      "texto": "TLP",
+      "enunciado": "Rafael Cardoso, quando menciona",
+      "alt": {
+        "A": "(parágrafo 1) os milhões [de africanos] que já haviam ingressado escravizados no país, critica, de modo subliminar, a política oficial de imigração, na época citada, por ter ela privilegiado consensualmente a entrada de africanos.",
+        "B": "(parágrafo 1) já sob a República, manifesta acreditar que a nova forma de governo contribuiu para maior efetividade das políticas públicas sobre o controle de imigração, tendo em vista a possibilidade de debates mais democráticos.",
+        "C": "(parágrafo 2) o crescimento da cidade de São Paulo, apresenta o único argumento a favor das imigrações ocorridas no período citado, no caso, imigração de italianos, entendendo que ela vinha embasada em consistente ideologia.",
+        "D": "(parágrafos 3 e 4) os três motivos, os dispõe em categorias e tece considerações com que justifica a terminologia adotada e fundamenta seu ponto de vista sobre o fracasso do ideal das autoridades brasileiras acerca do tipo de imigrante desejável no período citado.",
+        "E": "(parágrafo 4) um pressuposto falso, demonstra entender que mesmo os católicos, quando em situação de imigrantes na referida época, no Brasil, eram capazes de, estrategicamente, ignorar a presença de outras religiões."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.interpretacao.inferencia"
+      ],
+      "dispositivos": [],
+      "exp": "Nos parágrafos 3 e 4 o autor enumera três motivos e os qualifica (**concreto**, **circunstancial**, **conceitual**), explicando cada um para sustentar sua tese sobre o fracasso do projeto eugenista, o que confirma a alternativa D. As outras atribuem-lhe afirmações que o texto não faz: crítica a uma suposta preferência por africanos, elogio à República, defesa da imigração italiana ou omissão deliberada dos católicos.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O texto diz que a pseudociência **desaconselhava** a entrada de mais africanos; não houve política oficial que privilegiasse a entrada de africanos, e a menção aos milhões já escravizados é só um dado histórico.",
+        "B": "O autor não elogia a República nem relaciona a forma de governo a debates mais democráticos; ao contrário, observa que a **entrada de asiáticos foi barrada por decreto** já sob a República.",
+        "C": "A menção a São Paulo é um dado de **pano de fundo** da política de branqueamento, não um argumento favorável à imigração, e o autor não considera a ideologia eugenista consistente (chama de falsas suas doutrinas).",
+        "D": "O autor **organiza** os três motivos em categorias (concreto, circunstancial, conceitual) e os explica, fundamentando seu ponto de vista sobre o fracasso do ideal das autoridades.",
+        "E": "O pressuposto falso era de **quem defendia** o modelo (a população seria homogênea em religião); o autor não diz que os católicos ignoravam outras religiões."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#3",
+      "tipo": "me",
+      "numero": 3,
+      "texto": "TLP",
+      "enunciado": "A frase em que o emprego de uma específica palavra indica que o autor do texto desconfia da veracidade de uma ideia tomada por verdadeira por outros é:",
+      "alt": {
+        "A": "Na década de 1860, a questão da imigração de chineses atingiu proporções de grande controvérsia e chegou a ser debatida no parlamento.",
+        "B": "O consenso era de que devia ser impedida para evitar o suposto risco de degeneração racial.",
+        "C": "Em 1890, já sob a República, a entrada de asiáticos foi efetivamente barrada por decreto.",
+        "D": "Essa política de branqueamento já foi documentada, ad nauseam, por nossa historiografia.",
+        "E": "Conseguiram essa proeza de início, porque se mantiveram isolados no interior do país."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.semantica.contextual"
+      ],
+      "dispositivos": [],
+      "exp": "O adjetivo **suposto** indica que o risco de degeneração racial era apenas presumido pelos que formavam o consenso, e que o autor duvida dele, o que se confirma ao chamar essas doutrinas de falsas. Em \"efetivamente\" há ênfase no fato; \"ad nauseam\" aponta excesso; \"controvérsia\" e \"proeza\" não expressam dúvida sobre a verdade de uma ideia alheia.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Controvérsia\" indica que o tema foi **muito debatido**, sem sugerir que o autor duvide da veracidade de alguma ideia.",
+        "B": "O adjetivo **suposto** marca que o risco de degeneração racial era só presumido por quem formava o consenso, mostrando a desconfiança do autor.",
+        "C": "O advérbio **efetivamente** reforça a realidade do fato (a proibição foi mesmo imposta) e não indica dúvida.",
+        "D": "A expressão **ad nauseam** indica excesso (até o enjoo) na documentação do tema; não põe em dúvida nenhuma ideia.",
+        "E": "\"Proeza\" qualifica o feito dos japoneses e não revela desconfiança do autor sobre uma ideia aceita por outros."
+      },
+      "observacoes": [
+        "Na prova, a expressão \"ad nauseam\" da alternativa D aparece em tipo normal dentro de frase em itálico, como destaque; aqui foi transcrita sem marcação."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#4",
+      "tipo": "me",
+      "numero": 4,
+      "texto": "TLP",
+      "enunciado": "Segmentos do texto receberam redação alternativa. A que − estando clara e correta, segundo a norma-padrão da língua − não prejudica o sentido original é:",
+      "alt": {
+        "A": "Apesar da imigração maciça [...], sempre houve debates sobre o tipo de imigrante que seria mais desejável... / Ainda que tenha havido imigração maciça [...], sempre ocorreram debates sobre que traços fundamentais deveria um imigrante exibir para que fosse considerado o tipo mais desejável.",
+        "B": "Braços para a lavoura, era o que se dizia, e uma injeção de material genético selecionado com o intuito de “melhorar a raça”. Se dizia que era “Braços para a lavoura” e uma injeção de material genético selecionado com a intensão de “melhorar a raça”.",
+        "C": "Seguindo as premissas eugênicas então em voga, acreditava-se que o sangue europeu, tido como mais forte, venceria o sangue africano e ameríndio, eliminando-os paulatinamente. Em concordância com as teorias eugênicas então em vigor, havia a crença que o sangue europeu, comprovadamente mais forte, chegaria a vencer o sangue africano e ameríndio, eliminados que seriam fatalmente.",
+        "D": "O segundo, circunstancial, é que a fonte de imigrantes na Europa foi secando antes que a demanda por trabalhadores no Brasil se esgotasse. O segundo foi fruto de uma circunstância: o Brasil teve necessidade de trabalhadores e a Europa secara a fonte de imigrantes.",
+        "E": "Seus descendentes tornaram-se brasileiros, a despeito de muito preconceito e até perseguição. / Seus descendentes converteram-se em brasileiros, despertando muito preconceito, incluído até a perseguição."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.reescrita",
+        "portugues.concordancia.verbal"
+      ],
+      "dispositivos": [],
+      "exp": "Em A, \"Apesar de\" vira \"Ainda que\" (concessão) e a inversão \"deveria um imigrante exibir\" é correta, preservando o sentido. Em B há **\"intensão\"** (o certo é \"intenção\") e a próclise \"Se dizia\" inicia a frase; em C falta a preposição (\"a crença **de** que\"), \"comprovadamente\" acrescenta ideia e \"eliminados\" altera a estrutura; em D a ordem dos fatos muda (\"secara\" é anterior); em E \"despertando\" inverte a relação (preconceito sofrido × provocado).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Ainda que\" mantém a **concessão** de \"Apesar de\", e a inversão do sujeito (\"deveria um imigrante exibir\") é admitida, sem alterar o sentido do original.",
+        "B": "A frase traz **\"intensão\"** no lugar de \"intenção\" (palavras diferentes) e inicia com a próclise \"Se dizia\", incorreta no início de oração pela norma-padrão.",
+        "C": "\"A crença que\" exige a preposição (**\"a crença de que\"**); além disso \"comprovadamente\" afirma o que o texto só atribui a outros (\"tido como\").",
+        "D": "A reescrita altera a relação entre os fatos: no original a fonte foi secando **antes** de a demanda se esgotar, e a versão apresenta a Europa como causa de necessidade do Brasil.",
+        "E": "\"Despertando muito preconceito\" torna os descendentes **causadores** do preconceito, e não vítimas dele, como no original; o termo \"incluído até a perseguição\" também fica sem a concordância esperada (\"incluindo\")."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#5",
+      "tipo": "me",
+      "numero": 5,
+      "texto": "TLP",
+      "enunciado": "Afirma-se com correção:",
+      "alt": {
+        "A": "(parágrafo 1) A frase Pelo mesmo motivo, a pseudociência da época desaconselhava a entrada de mais africanos, para além dos milhões que já haviam ingressado escravizados no país exemplifica enunciado em que as formas verbais denotam que as ações ocorrem em simultaneidade.",
+        "B": "(parágrafo 2) À oração inicial do período Seguindo as premissas eugênicas então em voga, acreditava-se que o sangue europeu, tido como mais forte, venceria o sangue africano e ameríndio, eliminando-os paulatinamente, deve ser atribuído o sentido temporal, sem outra possibilidade de valor.",
+        "C": "(parágrafo 2) Em Seguindo as premissas eugênicas então em voga, acreditava-se que o sangue europeu, tido como mais forte, venceria o sangue africano e ameríndio, __eliminando__-os paulatinamente, a forma grifada é semanticamente equivalente a “para eliminar”.",
+        "D": "(parágrafo 2) A transposição da frase Essa política de branqueamento já foi documentada, ad nauseam, por nossa historiografia para a voz ativa gerará a forma “tinha documentado”.",
+        "E": "(parágrafo 3) Nas orações Conseguiram essa proeza, de início, porque __se__ mantiveram isolados no interior do país. __Longe da vista, como fizeram meus avós e bisavós__, o pronome destacado tem valor reflexivo e ao segmento sublinhado é possível atribuir-se o valor causal."
+      },
+      "gab": "E",
+      "temas": [
+        "portugues.classes.pronomes",
+        "portugues.tempos-modos",
+        "portugues.vozes",
+        "portugues.coordenacao-subordinacao"
+      ],
+      "dispositivos": [],
+      "exp": "Em \"se mantiveram isolados\", o **\"se\"** é pronome reflexivo (eles mantiveram a si mesmos isolados), e \"Longe da vista, como fizeram meus avós\" admite leitura causal (ficaram longe porque assim fizeram os antepassados), o que valida a alternativa E. Em A, \"haviam ingressado\" é anterior a \"desaconselhava\"; em B o gerúndio \"Seguindo\" traz **conformidade**; em C o gerúndio expressa consequência, não finalidade; em D a voz ativa seria \"já documentou\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "\"Haviam ingressado\" (mais-que-perfeito) indica ação **anterior** à de \"desaconselhava\" (imperfeito), e não simultânea.",
+        "B": "O gerúndio \"Seguindo\" exprime **conformidade** (de acordo com as premissas) e admite outras leituras; não é só temporal.",
+        "C": "O gerúndio \"eliminando\" expressa **consequência/resultado** do que venceria, não finalidade; \"para eliminar\" mudaria o sentido.",
+        "D": "Passando para a voz ativa, a forma composta \"foi documentada\" vira **\"já documentou\"**, no mesmo tempo (pretérito perfeito), e não \"tinha documentado\".",
+        "E": "O \"se\" de \"se mantiveram\" é **reflexivo**, e o trecho sublinhado, sobretudo ao lado de \"porque\", pode ser lido como causa do isolamento."
+      },
+      "observacoes": [
+        "Na prova, os destaques de C e E são sublinhados; foram marcados com __ __."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#6",
+      "tipo": "me",
+      "numero": 6,
+      "texto": "TLP",
+      "enunciado": "Está correto o seguinte comentário:",
+      "alt": {
+        "A": "No contexto em que estão empregadas, as aspas em “melhorar a raça” indicam que o autor está citando expressão difundida por outros, e não que deseje marcar o segmento com particular tom expressivo.",
+        "B": "Na frase Em termos de dados históricos e estatísticos, não é bem assim, o primeiro segmento expressa uma ideia de restrição.",
+        "C": "Na frase Em termos de dados históricos e estatísticos, não é bem __assim__, a palavra destacada tem a mesma função sintática da sublinhada em “Vou para o mesmo lado que você, __assim__, podemos ir juntos”.",
+        "D": "Em O brasileiro gosta de pensar __que__ o Brasil é uma nação acolhedora, __que__ recebe imigrantes de braços abertos, ambas as palavras destacadas são conjunções, pois o contexto elimina a possibilidade de a segunda palavra ser pronome relativo.",
+        "E": "Se, em lugar de O primeiro, concreto, é que as doutrinas científicas em que acreditavam eram falsas, houvesse “O primeiro, concreto, é que eles consideravam crível as doutrinas cujos fundamentos eram falsos”, a correção da frase, segundo a norma-padrão da língua, seria preservada."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.classes.conjuncoes",
+        "portugues.classes.pronomes",
+        "portugues.pontuacao",
+        "portugues.concordancia.nominal"
+      ],
+      "dispositivos": [],
+      "exp": "\"Em termos de dados históricos e estatísticos\" delimita o âmbito da afirmação: a ideia é de **restrição** (\"no que se refere a\"), o que confirma B. Em A, as aspas marcam também o distanciamento do autor; em C, \"assim\" é advérbio na primeira frase e conjunção conclusiva na segunda; em D, o segundo \"que\" é **pronome relativo** (refere-se a \"nação\"); em E faltaria a concordância \"críveis\".",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As aspas, além de indicar citação alheia, sinalizam o **distanciamento irônico** do autor em relação à expressão, que ele critica; o comentário nega isso e por isso erra.",
+        "B": "A expressão \"em termos de\" delimita o campo em que a afirmação vale (**restrição**: no que se refere a dados históricos e estatísticos).",
+        "C": "Na primeira frase \"assim\" é **advérbio** (modo); na segunda, é conjunção conclusiva (\"portanto\"): as funções sintáticas são diferentes.",
+        "D": "O primeiro \"que\" é conjunção integrante, mas o segundo é **pronome relativo**, pois retoma \"nação acolhedora\" e funciona como sujeito de \"recebe\".",
+        "E": "\"Consideravam crível as doutrinas\" desrespeita a **concordância nominal**: o adjetivo deveria ir ao plural (\"críveis\") para concordar com \"doutrinas\"."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#7",
+      "tipo": "me",
+      "numero": 7,
+      "texto": "TLP",
+      "enunciado": "Leia com atenção os trechos que vêm a seguir. Cada um deles apresenta segmento em destaque, que pode, ou não, estar presente como relevante argumento a favor da ideia expressa no trecho em que está inserido.\nI. Apesar da imigração maciça promovida por sucessivos governos durante o Império e o primeiro período republicano, sempre houve debates sobre o tipo de imigrante que seria mais desejável, __passando pela rejeição explícita a determinados grupos__.\nII Quando o navio Kasato Maru atracou no porto de Santos em junho de 1908, com 165 famílias japonesas __a bordo__, era o reconhecimento implícito de que os interesses econômicos iriam prevalecer sobre a ideologia eugenista.\nIII. Essa política de branqueamento já foi documentada, __ad nauseam__, por nossa historiografia.\nIV. Ela é o pano de fundo ideológico para o crescimento da cidade de São Paulo, onde a porcentagem de __italianos__ ficou acima de 30% entre as décadas de 1890 e 1910, período em que a população aumentou quase dez vezes.\nÉ correto afirmar que se trata de relevante argumento, como caracterizado acima, o que se lê APENAS em:",
+      "alt": {
+        "A": "I, II, III.",
+        "B": "II e IV.",
+        "C": "I, III e IV.",
+        "D": "III.",
+        "E": "IV."
+      },
+      "gab": "C",
+      "temas": [
+        "portugues.argumentacao"
+      ],
+      "dispositivos": [],
+      "exp": "Para a prova, o destaque é argumento relevante quando sustenta a ideia do trecho. Em I, a rejeição explícita a certos grupos prova que sempre houve debate sobre o tipo desejável; em III, \"ad nauseam\" reforça que a política de branqueamento é sobejamente documentada; em IV, o dado dos italianos em São Paulo sustenta o crescimento sob o branqueamento. Em II, \"a bordo\" é só circunstância (as famílias vinham no navio) e não sustenta o reconhecimento implícito. Logo, I, III e IV.",
+      "observacoes": [
+        "Na prova, o enunciado traz os itens I a IV em itálico, com os destaques sublinhados; o item II aparece como \"II\" sem ponto. O quadro de alternativas usa algarismos romanos em fonte de máquina."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#8",
+      "tipo": "me",
+      "numero": 8,
+      "enunciado": "O terceiro motivo do fracasso do modelo de assimilabilidade católica é conceitual. Seus defensores partiam de um pressuposto falso: o de que a população brasileira era homogênea em termos de religião. [...] o mito do bom imigrante católico ignorava estrategicamente a presença de judeus, muçulmanos e protestantes no Brasil. Os três grupos estiveram presentes desde a época colonial e, cada um a seu modo, contribuíram para a formação do país.\n\nConsiderado o trecho reproduzido, é correto afirmar:",
+      "alt": {
+        "A": "Redação alternativa à acima transcrita, que reúna os dois períodos iniciais num só e não prejudique o sentido original, deve valer-se da locução coesiva “à medida que”.",
+        "B": "O segundo período manteria a correção com o segmento alternativo “partiam de um pressuposto falso, qual seja, este de que a população brasileira era homogênea em termos de religião”.",
+        "C": "Se o segmento um pressuposto falso fosse alterado para “uma ideia falsa”, a frase manteria sua correção sem que houvesse necessidade de outra modificação no período.",
+        "D": "Os dois-pontos estão empregados pelo mesmo motivo que se nota em “Curioso, perguntou: − Quem lhe deu esse belo presente?”, exigidos por verbo dicendi.",
+        "E": "No último período, a retirada da vírgula após a conjunção não prejudica a correção original da frase, visto que seu emprego é facultativo."
+      },
+      "gab": "B",
+      "temas": [
+        "portugues.coesao.relacoes",
+        "portugues.pontuacao",
+        "portugues.reescrita"
+      ],
+      "dispositivos": [],
+      "exp": "\"Qual seja\" introduz uma explicação do que acaba de ser dito, e \"este de que\" retoma o pressuposto, de modo que a reescrita da B mantém **correção e sentido**. Em A, \"à medida que\" indicaria proporção, o que não há; em C, \"o de que\" teria de virar \"a de que\" (concordância com \"ideia\"); em D, os dois-pontos introduzem **explicação**, não fala; em E, a vírgula após \"e\" fecha, com a anterior, a expressão intercalada \"cada um a seu modo\", e não é facultativa.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"À medida que\" exprime **proporção** entre dois fatos simultâneos, relação que não existe entre os dois períodos, em que o segundo explica o primeiro.",
+        "B": "\"Qual seja\" é fórmula de **explicitação** (\"isto é\"), e \"este de que\" retoma \"pressuposto\": a estrutura continua correta e o sentido se mantém.",
+        "C": "Com \"ideia\" (feminino), o trecho seguinte, \"o de que\", também teria de ser alterado para **\"a de que\"**, por concordância.",
+        "D": "Os dois-pontos do texto introduzem uma **explicação** (o que era o pressuposto falso), e não uma fala exigida por verbo dicendi.",
+        "E": "A vírgula após \"e\" faz par com a seguinte para isolar a expressão intercalada \"cada um a seu modo\"; tirá-la deixa a **intercalação** mal pontuada."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#9",
+      "tipo": "me",
+      "numero": 9,
+      "enunciado": "Palavras destacadas nos segmentos do texto que vêm a seguir estão empregadas em consonância com a norma-padrão da língua. Essas palavras motivaram a criação de outras frases, vistas ao lado do segmento original, devendo ser consideradas independentes dele. A frase proposta que está correta, mantido o padrão citado, é:",
+      "alt": {
+        "A": "Apesar **da** imigração maciça promovida por sucessivos governos [...] sempre houve debates sobre o tipo de imigrante que seria desejável / Apesar de a imigração maciça ter sido promovida por sucessivos governos, sempre houve rejeição a determinados grupos.",
+        "B": "era o reconhecimento implícito **de que** os interesses econômicos iriam prevalecer sobre a ideologia eugenista / Aquele era o empreendimento de que muitos esperavam com ganância.",
+        "C": "O consenso era de que **devia** ser impedida / Foram advertidos de que os recém-chegados deveriam, o mais rapidamente possível, serem encaminhados aos respectivos alojamentos.",
+        "D": "sempre **houve** debates sobre o tipo de imigrante que seria mais desejável / Devem ter havido mesmo, no período em questão, debates intensos sobre imigração.",
+        "E": "Os japoneses ficaram e se **fixaram** / Eles se fixaram aonde pudessem ficar isolados."
+      },
+      "gab": "A",
+      "temas": [
+        "portugues.regencia.verbal",
+        "portugues.concordancia.verbal",
+        "portugues.classes.adverbios",
+        "portugues.crase"
+      ],
+      "dispositivos": [],
+      "exp": "Em A, \"Apesar de a imigração\" mantém a contração de \"de\" + \"a\" da forma original (\"da\") e usa a locução infinitiva corretamente. Em B, \"esperar\" é transitivo direto e não aceita \"de que\"; em C, na locução \"deveriam serem\" só o auxiliar flexiona (\"deveriam ser\"); em D, \"haver\" no sentido de existir é **impessoal** (\"Deve ter havido\"); em E, o certo é \"**onde**\" (lugar em que se fica), não \"aonde\".",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Apesar de a imigração\" e \"apesar da imigração\" equivalem-se (**de + a**), e \"ter sido promovida\" é infinitivo pessoal bem formado; a frase está correta.",
+        "B": "\"Esperar\" é verbo transitivo direto no sentido de aguardar, de modo que **\"de que\"** (preposição + pronome) não cabe: o certo seria \"o empreendimento que muitos esperavam\".",
+        "C": "Numa locução verbal só o auxiliar flexiona: o certo é \"deveriam **ser** encaminhados\", e não \"serem\".",
+        "D": "\"Haver\" com sentido de existir é **impessoal** e não vai ao plural, nem o seu auxiliar: o certo é \"Deve ter havido\".",
+        "E": "\"Aonde\" indica **movimento** (a que lugar); para lugar em que se fica o certo é \"onde\" (\"ficar isolados onde pudessem\")."
+      },
+      "observacoes": [
+        "Na prova, os destaques são em negrito e itálico; foram marcados com negrito."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#10",
+      "tipo": "me",
+      "numero": 10,
+      "enunciado": "A frase que está clara e adequada à norma-padrão da língua é:",
+      "alt": {
+        "A": "Entre todos os funcionários, um dos poucos que primavam pela descrição com que conduzia seu trabalho foi exatamente o que recebeu reprimenda do diretor, fato este que o fez receber manifestação de apoio de alguns funcionários e gerentes.",
+        "B": "Esforçando-se por manter os seus projetos de renovação o mais transparente possíveis, chegou a cometer tanto excesso em detalhamentos de planilhas, que acarretaram mal-estar em todos do departamento de controle.",
+        "C": "Estava bastante fragilizado pelos reveses que vinha sofrendo na sua sessão, departamento em que se processavam as conferências de dados, mas quando conhecidos lhe encontravam no refeitório da empresa, tentava mostrar-se a vontade, com o intuito de evitar constrangimentos.",
+        "D": "Antes de virem a receber a homenagem do público que presenciava a corrida, algumas testemunhas, todos esportistas, que ajudaram o ciclista e depuseram a seu favor, serão apresentadas àqueles dois jornalistas que farão a cobertura do acidente.",
+        "E": "Alguns não crêem no que tem sido propagado, mas concordo em que ações ante-democracia constróem o caminho para que futuras gerações conheçam dores que aquele que viveu períodos ditatoriais busca esquecer a todo custo."
+      },
+      "gab": "D",
+      "temas": [
+        "portugues.ortografia",
+        "portugues.concordancia.verbal",
+        "portugues.crase",
+        "portugues.regencia.verbal"
+      ],
+      "dispositivos": [],
+      "exp": "Em D, \"Antes de **virem**\" concorda com \"testemunhas\", \"àqueles\" tem a crase exigida por \"apresentadas a\" + \"aqueles\", e as formas verbais estão corretas. Em A, \"descrição\" deveria ser \"discrição\"; em B, \"o mais transparente possível\" (invariável) e \"acarretaram\" não concorda com \"excesso\"; em C, \"sessão\" por \"seção\", \"lhe\" por \"o\" e \"a vontade\" por \"à vontade\"; em E, \"crêem\", \"ante-democracia\" e \"constróem\" estão fora da ortografia atual (\"creem\", \"antidemocracia\", \"constroem\").",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "\"Descrição\" (ato de descrever) foi usada no lugar de **\"discrição\"** (reserva, recato), que é o sentido pretendido.",
+        "B": "Depois de \"o mais\", **\"possível\"** é invariável, e \"acarretaram\" deveria ficar no singular para concordar com \"excesso\".",
+        "C": "Há três desvios: \"sessão\" (por **seção**), \"lhe encontravam\" (verbo transitivo direto pede \"o\") e \"a vontade\" (locução que leva crase: \"à vontade\").",
+        "D": "\"Virem\" concorda com \"algumas testemunhas\", e \"**àqueles**\" traz a crase correta (\"apresentadas a\" + \"aqueles\"): a frase está correta.",
+        "E": "Pela ortografia vigente, o certo é **\"creem\"** (sem acento), \"antidemocracia\" (sem hífen) e \"constroem\" (sem acento)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#11",
+      "tipo": "me",
+      "numero": 11,
+      "enunciado": "Uma repartição pública analisou metade de um lote de processos ao ritmo de 40 processos por dia e, com a equipe de funcionários reforçada, a outra metade a um ritmo de 360 processos por dia. O ritmo médio de análise dos processos constantes desse lote foi de",
+      "alt": {
+        "A": "96 processos por dia.",
+        "B": "200 processos por dia.",
+        "C": "100 processos por dia.",
+        "D": "84 processos por dia.",
+        "E": "72 processos por dia."
+      },
+      "gab": "E",
+      "temas": [
+        "matematica.media"
+      ],
+      "dispositivos": [],
+      "exp": "Como as duas metades têm o mesmo número de processos, o tempo é diferente, e o ritmo médio é a **média harmônica**. Com N processos no total, o tempo é (N/2)/40 + (N/2)/360 = N/80 + N/720 = 10N/720 = N/72. O ritmo médio é N/(N/72) = **72 processos por dia**. A média aritmética (200) erra porque ignora que o tempo gasto em cada metade é diferente.",
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#12",
+      "tipo": "me",
+      "numero": 12,
+      "enunciado": "Sérgio recebeu um adiantamento e negociou que a devolução seria paga em duas parcelas iguais de R$ 1.210,00, a primeira, um mês após o recebimento do adiantamento, e a segunda, um mês depois do pagamento da primeira parcela. Sabendo que foram cobrados juros compostos de 10% ao mês, o valor que Sérgio recebeu pelo adiantamento foi de",
+      "alt": {
+        "A": "R$ 2.420,00.",
+        "B": "R$ 2.010,00.",
+        "C": "R$ 2.100,00.",
+        "D": "R$ 2.200,00.",
+        "E": "R$ 2.210,00."
+      },
+      "gab": "C",
+      "temas": [
+        "matematica.juros-compostos",
+        "matematica.rendas"
+      ],
+      "dispositivos": [],
+      "exp": "O valor recebido é o **valor presente** das duas parcelas, descontadas a 10% ao mês: 1.210/1,1 + 1.210/1,1² = 1.100 + 1.000 = **R$ 2.100,00**. A soma simples das parcelas (R$ 2.420,00) ignora os juros.",
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#13",
+      "tipo": "me",
+      "numero": 13,
+      "enunciado": "Para José, uma caixa de ferramentas é boa se, e somente se, para todo parafuso que houver na caixa, houver, também, uma chave que encaixa nele. Assim, se uma caixa de ferramentas não é boa para José, então, nela:",
+      "alt": {
+        "A": "existe pelo menos uma chave que não encaixa em nenhum parafuso.",
+        "B": "nenhum parafuso encaixa em todas as chaves.",
+        "C": "existe pelo menos um parafuso que não encaixa em nenhuma chave.",
+        "D": "para cada parafuso, existe pelo menos uma chave que não encaixa nele.",
+        "E": "existe pelo menos um parafuso que encaixa em todas as chaves."
+      },
+      "gab": "C",
+      "temas": [
+        "raciocinio-logico.estruturas.quantificadores",
+        "raciocinio-logico.estruturas.negacao"
+      ],
+      "dispositivos": [],
+      "exp": "A caixa é boa se \"∀ parafuso, ∃ chave que encaixa nele\". Negando: a caixa não é boa se \"**∃ parafuso tal que ∀ chave, a chave não encaixa nele**\", isto é, existe pelo menos um parafuso que não encaixa em nenhuma chave. A negação troca \"todo\" por \"existe\" e \"existe\" por \"nenhum\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O que se nega é a existência de chave **para cada parafuso**; falar de uma chave que não encaixa em nenhum parafuso trata de outra coisa (chave sem uso), e não decorre da negação.",
+        "B": "Nenhum parafuso encaixar em todas as chaves é outra condição: a negação fala de **chaves que encaixam**, e não de parafusos que encaixam em todas elas.",
+        "C": "A negação de \"para todo parafuso há chave que encaixa\" é **\"existe parafuso para o qual nenhuma chave encaixa\"**.",
+        "D": "Dizer que, para **cada** parafuso, há uma chave que não encaixa nele é mais forte do que a negação exige e não é a negação da condição.",
+        "E": "Que um parafuso encaixe em **todas** as chaves não contradiz a condição de ser boa a caixa, e não decorre da negação."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#14",
+      "tipo": "me",
+      "numero": 14,
+      "enunciado": "Há sete cidades, chamadas A, B, C, D, E, F e G, ao longo de uma estrada que corre em direção norte-sul. Essas cidades se localizam uma em relação a outra de acordo com os seguintes dados:\n− Há exatamente 3 cidades ao sul de A.\n− D está ao norte de F, mas não é a cidade mais ao norte de todas, e F não é a cidade mais ao sul de todas.\n− A primeira cidade ao norte de C é E.\n− Dentre as cidades que se encontram entre D e C está B.\n− Não há cidades entre F e E.\n\nEntão,",
+      "alt": {
+        "A": "não há cidades entre G e B.",
+        "B": "G é a cidade mais ao sul de todas.",
+        "C": "E está ao norte de A.",
+        "D": "não há cidades entre D e F.",
+        "E": "F está ao sul de A."
+      },
+      "gab": "E",
+      "temas": [
+        "raciocinio-logico.relacoes"
+      ],
+      "dispositivos": [],
+      "exp": "Pela terceira pista, E está logo ao norte de C; pela quarta, B está entre D e C, logo ao norte de E; F é vizinha de E, então fica logo ao norte de E: a ordem (norte a sul) é D, B, F, E, C. Como D não é a mais ao norte, G ou A está acima dele; A tem 3 cidades ao sul, ocupando a 4ª posição a partir do sul, o que a coloca acima de F, de E e de C, e **F fica ao sul de A**. As demais afirmações não valem para todas as ordens possíveis.",
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#15",
+      "tipo": "me",
+      "numero": 15,
+      "enunciado": "Se 3 painéis solares fotovoltaicos produzem 70 kWh de energia em 50 dias, o número de painéis solares que produzem 112 kWh de energia em 15 dias é",
+      "alt": {
+        "A": "12.",
+        "B": "15.",
+        "C": "14.",
+        "D": "16.",
+        "E": "13."
+      },
+      "gab": "D",
+      "temas": [
+        "matematica.regra-de-tres"
+      ],
+      "dispositivos": [],
+      "exp": "A produção é diretamente proporcional ao número de painéis e ao número de dias. Em regra de três composta: 3 painéis → 70 kWh → 50 dias; x → 112 kWh → 15 dias. Então x/3 = (112/70) · (50/15) = 1,6 · 3,333… = 5,333…, e x = 3 · 5,333… = **16 painéis**.",
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#16",
+      "tipo": "me",
+      "numero": 16,
+      "enunciado": "Dois técnicos de um departamento de uma empresa receberam uma mesma cópia do relatório técnico para revisar independentemente. O relatório foi elaborado no Microsoft Word 10, em sua configuração padrão na língua portuguesa. Posteriormente cada um encaminhou a sua revisão para o chefe do departamento. Para facilitar a avaliação que os dois técnicos fizeram sobre o documento, o Microsoft Word 10 permite que os documentos sejam",
+      "alt": {
+        "A": "Combinados, gerando um único documento (aba Revisão > Comparar > Combinar).",
+        "B": "Comparados, gerando em cada documento a indicação das modificações (aba Inserir > Comparar > Combinar).",
+        "C": "Destacados, gerando em cada documento a indicação das modificações (aba Revisão > Examinar > Destacar).",
+        "D": "Examinados, gerando um único documento (aba Inserir > Documentos> Examinar).",
+        "E": "Mesclados, gerando um único documento (aba Revisão > Comparar > Mesclar)."
+      },
+      "gab": "A",
+      "temas": [
+        "informatica.word"
+      ],
+      "dispositivos": [],
+      "exp": "No Word, o comando **Combinar** (aba Revisão, grupo Comparar) junta em um único documento as revisões feitas por pessoas diferentes sobre a mesma cópia original. As outras alternativas citam menus e comandos inexistentes (\"Examinar > Destacar\", \"Inserir > Comparar\", \"Mesclar\").",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O comando **Combinar**, no grupo Comparar da aba Revisão, reúne em um só documento as revisões de autores diferentes, como o caso exige.",
+        "B": "O grupo **Comparar** fica na aba Revisão, e não em Inserir; e Comparar mostra as diferenças entre duas versões, sem o comando \"Inserir > Comparar > Combinar\" descrito.",
+        "C": "Não existe, no Word, o comando \"Destacar\" no grupo \"Examinar\" da aba Revisão para reunir as revisões de dois documentos.",
+        "D": "A aba **Inserir** não tem grupo \"Documentos\" com comando \"Examinar\" para unir revisões.",
+        "E": "No grupo Comparar da aba Revisão não há comando **Mesclar**; a opção para reunir revisões chama-se Combinar."
+      },
+      "observacoes": [
+        "A prova diz \"Microsoft Word 10\"; trata-se do Word 2010."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#17",
+      "tipo": "me",
+      "numero": 17,
+      "enunciado": "Um técnico pretende calcular a média de horas paradas de alguns microcomputadores de um departamento da empresa. Para tanto utilizou o Microsoft Excel 2010, em sua configuração padrão na língua portuguesa, e colocou as horas paradas dos computadores de números 1 a 10 em uma coluna, utilizando as células de A1 a A10, respectivamente. Caso a célula B11 receba a fórmula: =MÉDIA(A1:A4;A6;A10), será calculada a média relativa às horas paradas dos computadores",
+      "alt": {
+        "A": "1, 4, 6 e 10.",
+        "B": "1, 2, 3, 4, 6, 7, 8, 9, 10.",
+        "C": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+        "D": "1, 2, 3, 4, 6, 10.",
+        "E": "1, 4, 5, 6, 7, 8, 9, 10."
+      },
+      "gab": "D",
+      "temas": [
+        "informatica.excel"
+      ],
+      "dispositivos": [],
+      "exp": "Em `=MÉDIA(A1:A4;A6;A10)` o ponto e vírgula separa argumentos: **A1:A4** (intervalo, células A1, A2, A3 e A4), **A6** e **A10**. Os computadores considerados são 1, 2, 3, 4, 6 e 10. O sinal \":\" forma intervalo; só o \";\" une argumentos isolados.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O intervalo `A1:A4` inclui também A2 e A3, e não apenas as extremidades: faltam os computadores **2 e 3**.",
+        "B": "Os computadores 7, 8 e 9 estão fora da fórmula: só entram `A1:A4`, `A6` e **`A10`**.",
+        "C": "A fórmula omite A5, A7, A8 e A9; só entram `A1:A4`, `A6` e `A10`, e não **todas as células** da coluna.",
+        "D": "`A1:A4` cobre os computadores 1 a 4, e `A6` e `A10` somam os computadores **6 e 10**: a média é dos computadores 1, 2, 3, 4, 6 e 10.",
+        "E": "A fórmula não inclui A5 nem A7 a A9, e `A1:A4` é intervalo contínuo: o conjunto descrito não corresponde a **nenhuma combinação** dos argumentos."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#18",
+      "tipo": "me",
+      "numero": 18,
+      "enunciado": "Um técnico de manutenção de microcomputadores de uma empresa precisa substituir o seu disco rígido (HD) com padrão SATA e capacidade de armazenamento de 1 TB, que apresenta defeito. O computador faz o uso intenso desse disco e permanece em operação continuamente (24 horas, todos os dias). Esse técnico cogita substituir esse HD por uma unidade de estado sólido (SSD) com a mesma capacidade de armazenamento. Sobre essa substituição, é correto afirmar que o SSD",
+      "alt": {
+        "A": "apresenta um consumo de energia superior ao do HD, podendo exigir a substituição da fonte de alimentação por uma de maior capacidade.",
+        "B": "apresentará como desvantagem, em relação ao HD, uma vida útil inferior, pois o número de gravações em cada célula é limitado.",
+        "C": "apresenta, atualmente, um custo para a capacidade requerida equivalente ao dos HDs convencionais.",
+        "D": "exigirá cuidados especiais na instalação, como blindagem da unidade SSD, que é mais sensível a interferências magnéticas do que os HDs.",
+        "E": "não pode ser utilizado, pois as unidades SSD possuem apenas conexão padrão IDE."
+      },
+      "gab": "B",
+      "temas": [
+        "informatica.hardware"
+      ],
+      "dispositivos": [],
+      "exp": "A memória flash do SSD suporta um **número limitado de ciclos de gravação por célula**, o que, em uso intenso e contínuo, reduz sua vida útil em relação ao HD, segundo o gabarito. Consumo de energia do SSD é menor; seu custo por TB era maior; não tem peças magnéticas (imune a campos magnéticos); e existem SSDs com interface **SATA**, não só IDE.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O SSD consome **menos** energia que o HD (não tem motor nem cabeça), e não exige fonte maior.",
+        "B": "A memória flash tem limite de **ciclos de gravação por célula**, o que, em uso intenso contínuo, reduz a vida útil em comparação com o HD, segundo o gabarito oficial.",
+        "C": "O custo por capacidade do SSD era **maior** que o do HD convencional, e não equivalente.",
+        "D": "O SSD armazena dados em chips de memória flash e **não é sensível** a campos magnéticos, ao contrário do HD; não exige blindagem.",
+        "E": "Há SSDs com interface **SATA** (o padrão do HD substituído), de modo que ele pode ser usado; IDE é padrão antigo que quase não se vê em SSDs."
+      },
+      "observacoes": [
+        "A tese de que o SSD tem vida útil inferior ao HD é a do gabarito oficial FCC; hoje, para a maioria dos usos, o desgaste das células não é desvantagem prática."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#19",
+      "tipo": "me",
+      "numero": 19,
+      "enunciado": "Na ferramenta Documentos Google Online é possível fazer download do documento em diversos formatos, como .docx e .pdf. A opção para realizar essa tarefa está no menu",
+      "alt": {
+        "A": "Ferramentas.",
+        "B": "Arquivo.",
+        "C": "Complementos.",
+        "D": "Baixar.",
+        "E": "Editar."
+      },
+      "gab": "B",
+      "temas": [
+        "informatica.internet"
+      ],
+      "dispositivos": [],
+      "exp": "No Documentos Google, o download em .docx, .pdf e outros formatos é feito em **Arquivo > Fazer download**. Ferramentas, Complementos e Editar não trazem essa opção, e \"Baixar\" não é menu da barra.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O menu **Ferramentas** reúne ortografia, contagem de palavras e digitação por voz, e não a opção de download.",
+        "B": "O download do documento em .docx, .pdf e outros formatos está em **Arquivo > Fazer download**.",
+        "C": "O menu **Complementos** serve para instalar e gerenciar extensões, e não oferece download do documento.",
+        "D": "**Baixar** não é um menu da barra do Documentos Google; o comando de download fica dentro do menu Arquivo.",
+        "E": "O menu **Editar** traz desfazer, copiar, colar e localizar, e não o download do documento."
+      },
+      "observacoes": [
+        "A prova usa \"Documentos Google Online\"; hoje chama-se Google Docs."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#20",
+      "tipo": "me",
+      "numero": 20,
+      "enunciado": "Um dos efeitos mais nocivos dos Malwares que atacam os computadores é o que faz a captura do que é digitado no teclado do computador. Esse tipo de Malware é conhecido como",
+      "alt": {
+        "A": "Bot.",
+        "B": "Adware.",
+        "C": "Spyware.",
+        "D": "Backdoor.",
+        "E": "Trojan Clicker."
+      },
+      "gab": "C",
+      "temas": [
+        "informatica.seguranca"
+      ],
+      "dispositivos": [],
+      "exp": "O **spyware** monitora e coleta informações do usuário, e o keylogger, que captura o que é digitado, é seu subtipo mais conhecido (a prova aceita \"Spyware\" como o tipo). Bot permite controle remoto; adware exibe propagandas; backdoor abre acesso ao invasor; trojan clicker redireciona cliques.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O **bot** transforma a máquina em zumbi controlada remotamente (ataques em rede, spam); não é o malware que captura o que se digita.",
+        "B": "O **adware** exibe propagandas indesejadas e não é focado em capturar o que se digita.",
+        "C": "O **spyware** monitora a atividade do usuário e envia as informações a terceiros; o keylogger, que registra teclas, é seu exemplo típico.",
+        "D": "O **backdoor** cria uma porta de acesso para o invasor voltar ao computador, e não é, por si só, capturador de teclado.",
+        "E": "O **trojan clicker** redireciona o navegador a sites ou simula cliques para aumentar acessos; não registra o que se digita."
+      },
+      "pendencias": []
+    }
+  ]
+}

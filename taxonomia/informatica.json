@@ -63,6 +63,10 @@
     {
       "id": "informatica.inovacao",
       "nome": "Inovação no Judiciário"
+    },
+    {
+      "id": "informatica.hardware",
+      "nome": "Hardware e armazenamento"
     }
   ]
 }

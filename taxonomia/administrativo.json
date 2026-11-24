@@ -143,6 +143,18 @@
     {
       "id": "administrativo.gestao-estrategica",
       "nome": "Gestão estratégica"
+    },
+    {
+      "id": "administrativo.contratos",
+      "nome": "Contratos administrativos"
+    },
+    {
+      "id": "administrativo.bens-publicos",
+      "nome": "Bens públicos"
+    },
+    {
+      "id": "administrativo.terceiro-setor",
+      "nome": "Terceiro setor e parcerias"
     }
   ]
 }

@@ -1,0 +1,392 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#61",
+      "tipo": "me",
+      "numero": 61,
+      "enunciado": "A licitação para contratação de concessão de serviço público regida pela Lei nº 8.987/1995 é precedida, dentre outros requisitos, de",
+      "alt": {
+        "A": "edição de lei que autoriza a outorga e aprova o regulamento do contrato, incluindo prazo de vigência, tarifa a ser praticada e taxa interna de retorno.",
+        "B": "publicação de ato do poder concedente, veiculando as razões que justificam a outorga, sob o prisma da conveniência e oportunidade.",
+        "C": "promulgação de lei autorizativa da contratação, cabendo ao poder concedente a edição de ato vinculado para a definição do objeto, condições da prestação dos serviços e hipóteses de extinção.",
+        "D": "edição de ato administrativo de natureza vinculada, reconhecendo ser a concessão a única alternativa possível para a prestação dos serviços.",
+        "E": "emissão de ato justificando a conveniência e oportunidade do contrato para os casos em que a execução dos serviços também envolva obra pública, com valor mínimo de investimentos de R$ 10.000.000,00."
+      },
+      "gab": "B",
+      "temas": [
+        "administrativo.servico-publico",
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [],
+      "exp": "Pelo art. 5º da Lei nº 8.987/1995, o poder concedente **publicará, previamente ao edital**, ato justificando a **conveniência da outorga**, caracterizando objeto, área e prazo, o que é juízo **discricionário** (B). A lei autorizativa (art. 2º da Lei nº 9.074/1995) não aprova tarifa nem taxa interna de retorno, que saem da licitação e do contrato (A, C). O ato não é vinculado nem precisa afirmar que a concessão é a única alternativa (D), e a justificativa vale para toda concessão, sem valor mínimo de investimento ou exigência de obra pública (E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A lei autorizativa não fixa **tarifa** nem **taxa interna de retorno**: a tarifa é fixada pelo preço da proposta vencedora da licitação (art. 9º da Lei nº 8.987/1995).",
+        "B": "O art. 5º da Lei nº 8.987/1995 manda o poder concedente **publicar, antes do edital**, ato que justifique a **conveniência da outorga**, caracterizando objeto, área e prazo.",
+        "C": "O ato do poder concedente que precede a licitação é juízo de **conveniência** (discricionário), não ato vinculado, e as condições da prestação e da extinção vêm do edital e do contrato.",
+        "D": "O ato prévio justifica a **conveniência** da outorga; não é vinculado nem exige demonstrar que a concessão seja a **única alternativa** possível.",
+        "E": "A justificativa prévia do art. 5º da Lei nº 8.987/1995 vale para **toda concessão ou permissão**, sem valor mínimo de investimento nem exigência de obra pública."
+      },
+      "observacoes": [
+        "A Lei nº 8.987/1995 ainda não tem sigla em normas/normas.json; citada no exp em texto."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#62",
+      "tipo": "me",
+      "numero": 62,
+      "enunciado": "Um particular apresentou requerimento a determinado órgão da administração estadual. Passados 60 dias sem que a Administração pública tenha emitido decisão a respeito, o requerente",
+      "alt": {
+        "A": "deve pleitear ao Judiciário provimento jurisdicional que supra a ausência de manifestação da Administração pública.",
+        "B": "pode considerar deferido seu pedido, independentemente da natureza do ato administrativo pleiteado.",
+        "C": "pode requerer ao Poder Judiciário o suprimento da decisão administrativa em sendo vinculada a natureza do ato administrativo pleiteado.",
+        "D": "deve considerar indeferido seu pedido, não sendo possível ao Judiciário suprir a ausência de decisão administrativa.",
+        "E": "pode requerer ao Poder Judiciário que imponha à Administração pública o dever de praticar o ato, não sendo permitindo que decisão judicial substitua a decisão administrativa."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.ato",
+        "administrativo.controle"
+      ],
+      "dispositivos": [
+        "L9784 48",
+        "L9784 49"
+      ],
+      "exp": "O **silêncio administrativo** não é ato e, sem lei que lhe dê efeito, não significa deferimento nem indeferimento (B, D). A Administração tem o **dever de decidir** (`L9784 48`), e a omissão é ilegal: se o ato pleiteado é **vinculado**, o Judiciário pode suprir a decisão e reconhecer o direito, pois não há juízo de mérito a preservar (C). A via judicial é faculdade, não obrigação (A), e a vedação de substituir a decisão administrativa só vale para o ato **discricionário**, em que o juiz apenas ordena que a Administração decida (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Buscar o Judiciário diante do **silêncio administrativo** é faculdade do requerente, não obrigação; ele também pode, por exemplo, insistir pela via administrativa.",
+        "B": "Sem lei que atribua efeito ao silêncio, a omissão da Administração **não equivale a deferimento**, qualquer que seja o ato pedido.",
+        "C": "Diante da omissão ilegal, sendo **vinculado** o ato pleiteado, o Judiciário pode suprir a decisão administrativa e reconhecer o direito, já que não há mérito administrativo a preservar.",
+        "D": "O silêncio não equivale a indeferimento sem previsão legal, e o Judiciário pode suprir a omissão quando o ato pleiteado é **vinculado**.",
+        "E": "A impossibilidade de a decisão judicial substituir a administrativa só vale para o ato **discricionário**; no vinculado, o juiz pode suprir a decisão."
+      },
+      "observacoes": [
+        "Erro da própria prova na alternativa E: \"não sendo permitindo\" (por \"permitido\"). Os arts. 48 e 49 da Lei nº 9.784/1999 regem o processo federal; citados como referência do dever de decidir."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#63",
+      "tipo": "me",
+      "numero": 63,
+      "enunciado": "Considerando as hipóteses de contratação direta passíveis de serem adotadas pela Administração pública, a licitação pode ser",
+      "alt": {
+        "A": "dispensada ou dispensável, quando o substrato fático demonstrar que o certame poderia ser realizado, mas a lei expressamente autoriza que não seja feito.",
+        "B": "dispensável ou inexigível, somente quando não se concretizar hipótese de competição possível para a execução do objeto que se pretende contratar.",
+        "C": "dispensável, quando a lei expressamente autoriza a não realização de licitação que, em verdade, não seria exitosa diante da impossibilidade de competição.",
+        "D": "dispensada, quando em verdade não configura a possibilidade de licitação, ainda que a hipótese fática tenha sido listada como tal.",
+        "E": "inexigível, que sempre se coloca diante da identificação de um único fornecedor capaz da execução do objeto."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [
+        "L8666 17",
+        "L8666 24",
+        "L8666 25"
+      ],
+      "exp": "A banca adotou a leitura doutrinária de que, na licitação **dispensada** (`L8666 17`, alienações), várias hipóteses listadas pela lei são, em verdade, situações em que a licitação nem é cabível (doação a outro órgão, investidura, legitimação de posse), daí D. Na **dispensável** (`L8666 24`), a competição é possível, mas a lei faculta não licitar, o que derruba C (que a confunde com inviabilidade) e B (a dispensável não pressupõe competição impossível). A, segundo a banca, erra ao pôr a dispensada no mesmo grupo da dispensável. A **inexigibilidade** (`L8666 25`) decorre da **inviabilidade de competição**, que não se resume a fornecedor exclusivo (há também notória especialização e artista consagrado), o que derruba E.",
+      "observacoes": [
+        "A Lei nº 8.666/1993 foi revogada em 30/12/2023 pela Lei nº 14.133/2021; a classificação continua na Lei nº 14.133/2021 (inexigibilidade no art. 74, dispensável no art. 75, alienações no art. 76).",
+        "Sem vf: o gabarito depende de leitura doutrinária discutível (parte da doutrina diria que a alternativa A também descreve a licitação dispensada)."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#64",
+      "tipo": "me",
+      "numero": 64,
+      "enunciado": "O reequilíbrio econômico-financeiro de determinado contrato pode",
+      "alt": {
+        "A": "ser exigido pelo contratado, sempre que o fundamento do pleito seja atuação da Administração pública, salvo quando se tratar de contrato sob regime exclusivo da Lei nº 8.666/1993.",
+        "B": "ser disciplinado na matriz de risco do contrato, possibilitando a repactuação das condições contratadas sempre que as partes pretenderem introduzir alterações no objeto.",
+        "C": "se tornar necessário, por exemplo, em virtude de fatos imprevisíveis, sejam externos ao contrato regido pela Lei nº 8.666/93 ou decorrentes de intervenções da Administração pública que onerem demasiadamente a execução contratual.",
+        "D": "constituir importante ferramenta para introdução de novas obrigações no objeto contratual, tendo em vista que sempre que houver alguma modificação nas condições da prestação do serviço, caberá ao poder público promover as correções necessárias ao valor de remuneração.",
+        "E": "ser negado pela Administração pública, por razões de conveniência e oportunidade, quando seu deferimento puder implicar acréscimo de despesa não prevista no orçamento."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.contratos",
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [
+        "L8666 65 II d",
+        "L8666 65 §6º"
+      ],
+      "exp": "O reequilíbrio cabe diante de **fatos imprevisíveis**, ou previsíveis de consequências incalculáveis (`L8666 65 II d`), e também quando a própria Administração onera o contrato, como na alteração unilateral (`L8666 65 §6º`) e no fato do príncipe (C). A Lei nº 8.666/1993 é justamente a que garante o reequilíbrio, de modo que A inverte a regra. A matriz de risco reparte riscos e não autoriza repactuar sempre que as partes queiram mudar o objeto (B), e o reequilíbrio recompõe a equação original, não serve para criar obrigações novas (D). É **direito do contratado**, que a Administração não pode negar por conveniência ou falta de dotação orçamentária (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A Lei nº 8.666/1993 é justamente a que assegura o **equilíbrio econômico-financeiro** do contrato (`L8666 65 II d` e `L8666 65 §6º`), não uma exceção a ele.",
+        "B": "A **matriz de risco** reparte previamente os riscos entre as partes; não autoriza repactuar as condições sempre que as partes queiram alterar o objeto.",
+        "C": "O reequilíbrio cabe diante de **fatos imprevisíveis** (`L8666 65 II d`) e também de intervenções da Administração que onerem o contrato, como a alteração unilateral (`L8666 65 §6º`).",
+        "D": "O reequilíbrio **recompõe a equação original** entre encargos e remuneração; não é instrumento para introduzir novas obrigações no objeto.",
+        "E": "O reequilíbrio é **direito do contratado** quando presentes seus pressupostos; não pode ser negado por conveniência e oportunidade nem por falta de previsão orçamentária."
+      },
+      "observacoes": [
+        "A Lei nº 8.666/1993 foi revogada em 30/12/2023 pela Lei nº 14.133/2021; a regra equivalente está no art. 124, II, d, e no art. 130 da Lei nº 14.133/2021, respeitada a matriz de riscos."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#65",
+      "tipo": "me",
+      "numero": 65,
+      "enunciado": "As decisões proferidas em processo administrativo que: (I) tenham se baseado em fatos ou motivos inexistentes; (II) tenham sido proferidas por autoridade incompetente; (III) não tenham sido motivadas; ou (IV) se destinem a finalidade distinta daquela indicada:",
+      "alt": {
+        "A": "Podem ser objeto de revisão pela própria Administração, desde que não tenham transitado em julgado, o que impede a reversibilidade dos efeitos produzidos.",
+        "B": "Devem ser revogadas pela própria Administração, ainda que com fundamento em vício de legalidade, na medida em que a análise de oportunidade e conveniência se dá no âmbito do cabimento ou não da revisão.",
+        "C": "Podem ser anuladas pela Administração pública ou pelo Poder Judiciário, desde que de natureza discricionária.",
+        "D": "Podem ser anuladas pelo Tribunal de Contas competente, como exercício regular de atividade de fiscalização dos atos administrativos ordinários e de caráter disciplinar.",
+        "E": "Devem ser anuladas pela própria Administração, observado o prazo decadencial previsto na legislação e considerando que não sejam sanáveis os vícios identificados."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.ato",
+        "administrativo.processo-administrativo"
+      ],
+      "dispositivos": [
+        "L9784 53",
+        "L9784 54",
+        "L9784 55"
+      ],
+      "exp": "Motivo inexistente, incompetência, falta de motivação e desvio de finalidade são **vícios de legalidade**, e a Administração **deve anular** seus atos ilegais (`L9784 53`; Súmula 473 do STF), no prazo **decadencial** de cinco anos (`L9784 54`) e salvo se o defeito for **sanável** e puder ser convalidado (`L9784 55`), daí E. Revogação é para mérito, não para ilegalidade (B), e a anulação alcança atos vinculados e discricionários (C). A chamada coisa julgada administrativa não impede a anulação de ato ilegal (A), e o Tribunal de Contas não anula atos disciplinares e ordinários da Administração como regra de sua fiscalização (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "Ato com **vício de legalidade** deve ser anulado pela Administração (`L9784 53`), e a chamada coisa julgada administrativa não impede essa anulação, que respeita apenas o prazo decadencial.",
+        "B": "Ato com **vício de legalidade** é **anulado**, não revogado; a revogação é reservada a razões de conveniência e oportunidade (`L9784 53`).",
+        "C": "A anulação por ilegalidade alcança atos **vinculados e discricionários**, pela Administração ou pelo Judiciário; não se restringe aos discricionários.",
+        "D": "A anulação de atos com vício de legalidade cabe à **própria Administração** (`L9784 53`) e ao Judiciário; não é atribuição ordinária do Tribunal de Contas quanto a atos disciplinares.",
+        "E": "A Administração **deve anular** atos ilegais (`L9784 53`), observado o prazo **decadencial** de cinco anos (`L9784 54`) e ressalvados os defeitos **sanáveis**, que podem ser convalidados (`L9784 55`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#66",
+      "tipo": "me",
+      "numero": 66,
+      "enunciado": "A celebração de parcerias entre o poder público e organizações da sociedade civil implica assunção de direitos e obrigações para consecução de projetos de interesse público. A Lei nº 13.019/2014 estabeleceu algumas vedações à celebração das modalidades de parceria que instituiu, como forma de prezar pela lisura das relações firmadas pela Administração pública. Ficam impedidas de firmar parcerias nos moldes da legislação mencionada, as organizações da sociedade civil",
+      "alt": {
+        "A": "cujo dirigente tenha sido condenado por ato de improbidade, desde que na modalidade que gera prejuízo ao erário, porque esta exige conduta dolosa.",
+        "B": "que tenham sido sancionadas administrativamente, desde que cumulativamente com suspensão de participação em licitação e impedimento de contratar com a administração e declaração de inidoneidade para licitar ou contratar com a Administração pública.",
+        "C": "cujo dirigente, em representação apresentada ao Tribunal de Contas, tenha sido acusado de conduta violadora da legalidade na execução de contrato com a Administração pública.",
+        "D": "cujas contas referentes a outras parcerias firmadas com a Administração pública tenham sido julgadas irregulares pelo Tribunal de Contas.",
+        "E": "que mantenham outros contratos de parceria regidos pela Lei nº 13.019/2014 com a Administração pública, como medida de isonomia e igualdade de competição."
+      },
+      "gab": "D",
+      "temas": [
+        "administrativo.terceiro-setor",
+        "administrativo.organizacao"
+      ],
+      "dispositivos": [
+        "L8429 12"
+      ],
+      "exp": "O art. 39, VI, da Lei nº 13.019/2014 impede a parceria com a OSC que tenha tido **contas de parceria julgadas irregulares** ou rejeitadas por Tribunal ou Conselho de Contas, em decisão irrecorrível, nos últimos oito anos (D). O impedimento por improbidade do dirigente (art. 39, VII, c) vale para **qualquer modalidade** de ato, enquanto durarem as sanções do `L8429 12`, e não para a de dano ao erário apenas (A). Basta **uma** das sanções do inciso V, não sua cumulação (B), e mera acusação em representação não gera impedimento (C). Ter outras parcerias não é vedação (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O impedimento por improbidade do dirigente (art. 39, VII, c, da Lei nº 13.019/2014) abrange **qualquer modalidade** de ato ímprobo, enquanto durarem as sanções do `L8429 12`.",
+        "B": "O art. 39, V, da Lei nº 13.019/2014 impede a parceria com OSC punida com **uma** das sanções ali listadas, sem exigir que sejam cumulativas.",
+        "C": "Mera **acusação** em representação ao Tribunal de Contas não impede a parceria; a lei exige contas julgadas irregulares ou rejeitadas em decisão **irrecorrível**.",
+        "D": "O art. 39, VI, da Lei nº 13.019/2014 impede a parceria com a OSC que tenha tido **contas de parceria julgadas irregulares** ou rejeitadas por Tribunal de Contas, em decisão irrecorrível, nos últimos oito anos.",
+        "E": "Manter outras parcerias com a Administração **não é vedação** da Lei nº 13.019/2014; a lei não impõe exclusividade por isonomia."
+      },
+      "observacoes": [
+        "A Lei nº 13.019/2014 ainda não tem sigla em normas/normas.json; citada no exp em texto. A Lei nº 14.230/2021 passou a exigir dolo em todas as modalidades de improbidade, o que não altera o gabarito."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#67",
+      "tipo": "me",
+      "numero": 67,
+      "enunciado": "Uma autarquia municipal desprovida de receitas próprias, porque atuante essencialmente no setor fiscalizatório, é proprietária de dois imóveis. Em um dos imóveis funciona a sede da autarquia; o outro está locado para um estacionamento, a fim de gerar receitas para investimento. Um credor da autarquia pleiteou judicialmente a penhora do imóvel onde funciona o estacionamento, sob o fundamento de que não estaria afetado a serviço público nenhum. O pedido",
+      "alt": {
+        "A": "não pode ser deferido, pois a destinação para o estacionamento configura afetação a serviço público, ainda que em sentido amplo.",
+        "B": "pode ser deferido, considerando que o imóvel não se presta ao atendimento do escopo institucional da autarquia.",
+        "C": "não pode ser deferido, tendo em vista que os bens públicos das autarquias são protegidos pelo regime de bens públicos, sendo impenhoráveis, ainda que os de natureza dominical.",
+        "D": "pode ser deferido, pois o imóvel penhorado não configura bem público de uso comum do povo, sendo que os de uso especial, natureza do bem, não são protegidos pela impenhorabilidade.",
+        "E": "não deve ser deferido, por razões de isonomia em relação aos demais credores, tendo em vista que a autarquia é proprietária de apenas um imóvel passível de garantir dívidas assumidas."
+      },
+      "gab": "C",
+      "temas": [
+        "administrativo.bens-publicos",
+        "administrativo.organizacao",
+        "administrativo.regime-juridico"
+      ],
+      "dispositivos": [
+        "CC 98",
+        "CC 101",
+        "CF 100"
+      ],
+      "exp": "A autarquia é pessoa jurídica de direito público, e seus bens são **bens públicos** (`CC 98`). Todos os bens públicos, inclusive os **dominicais** (que podem ser alienados, `CC 101`), são **impenhoráveis**: a execução contra a Fazenda segue o regime de **precatórios** (`CF 100`), daí C. O imóvel locado não está afetado a serviço público, é dominical (A), mas nem por isso pode ser penhorado (B, D); a D erra também ao negar proteção aos bens de uso especial. A isonomia entre credores não é o fundamento da impenhorabilidade (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Imóvel locado a terceiro para gerar receita **não está afetado** a serviço público: é bem **dominical**, ainda que continue impenhorável.",
+        "B": "Bens de autarquia são **bens públicos** (`CC 98`) e, por isso, **impenhoráveis**, mesmo quando não atendem às finalidades institucionais; a execução segue o regime de precatórios (`CF 100`).",
+        "C": "Os bens das autarquias são **bens públicos** (`CC 98`) e todos são **impenhoráveis**, inclusive os dominicais; a execução contra a Fazenda segue os **precatórios** (`CF 100`).",
+        "D": "Os bens públicos de **uso especial** também são impenhoráveis, como todos os bens públicos; a execução contra autarquia segue o regime de precatórios (`CF 100`).",
+        "E": "A impenhorabilidade decorre do **regime de bens públicos** e do sistema de precatórios (`CF 100`), não de isonomia entre credores nem do número de imóveis do devedor."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#68",
+      "tipo": "me",
+      "numero": 68,
+      "enunciado": "Uma empresa pública pretende se desfazer de bens públicos adquiridos enquanto prestava serviço público regular e formalmente por delegação do poder concedente cuja organização administrativa integra. Para tanto,",
+      "alt": {
+        "A": "poderá demonstrar já ter havido amortização dos investimentos para aquisição do bem, bem como que este não está mais afetado ao serviço público, sendo, assim, inservível e passível de alienação.",
+        "B": "deverá promover prévia alienação ao poder concedente e, este, por meio de decisão discricionária, decide pela alienação onerosa ou não do bem.",
+        "C": "pode promover alienação direta, na forma da lei, não sendo necessária prévia submissão a certame de nenhuma natureza.",
+        "D": "poderá realizar licitação, com fundamento na Lei nº 8.666/1993, cabendo a escolha da modalidade com base no valor do bem a ser alienado.",
+        "E": "caberá alienar o bem ao poder concedente, ao qual pertencem os bens afetados ao serviço público, ainda que essa condição fática não mais proceda."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.bens-publicos",
+        "administrativo.servico-publico",
+        "administrativo.organizacao"
+      ],
+      "dispositivos": [
+        "L13303 49"
+      ],
+      "exp": "Os bens afetados ao serviço delegado são **reversíveis** e protegidos enquanto servem à prestação; uma vez **amortizados** os investimentos e **desafetado** o bem, que se torna inservível ao serviço, ele pode ser alienado (A). Não há dever de alienar ao poder concedente (B, E): a reversão só alcança bens vinculados ao serviço, e não os que perderam essa condição. A alienação por empresa pública exige **avaliação e licitação** (`L13303 49`), o que afasta C, e desde 2016 segue a Lei nº 13.303/2016, não as modalidades da Lei nº 8.666/1993 (D).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Demonstrada a **amortização** dos investimentos e a **desafetação** do bem, que deixou de servir ao serviço público delegado, ele se torna inservível e passível de alienação.",
+        "B": "Não há dever de alienar previamente o bem ao poder concedente: a **reversão** alcança bens vinculados ao serviço, e não os já desafetados.",
+        "C": "A alienação de bens por empresa pública exige, em regra, **avaliação e licitação** (`L13303 49`).",
+        "D": "A alienação de bens por empresa pública segue a **Lei nº 13.303/2016** (`L13303 49`), e não a escolha de modalidade pelo valor prevista na Lei nº 8.666/1993.",
+        "E": "Bem que deixou de estar afetado ao serviço público **não reverte** obrigatoriamente ao poder concedente; a reversão pressupõe vinculação ao serviço."
+      },
+      "observacoes": [
+        "A reversão de bens e a indenização dos investimentos não amortizados estão nos arts. 35 e 36 da Lei nº 8.987/1995, que ainda não tem sigla em normas/normas.json."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#69",
+      "tipo": "me",
+      "numero": 69,
+      "enunciado": "O regular exercício de poder de polícia pela Administração pública",
+      "alt": {
+        "A": "depende de ratificação pelo Poder Judiciário dos atos de intervenção e de interdição, considerando que excedem o âmbito da limitação de direitos e da supremacia do interesse público.",
+        "B": "implica instituição de obrigações aos administrados para melhor atendimento do interesse público, vedada a imposição de proibições sem previsão expressa em lei, dado o princípio da livre iniciativa.",
+        "C": "insere-se dentre as funções típicas executivas, com a possibilidade de, nessa matéria, edição de atos administrativos e normativos de natureza originária.",
+        "D": "sujeita-se a controle repressivo por parte do Legislativo e do Judiciário, incidente em caso concreto, sob pena de não caracterização de dano ou prejuízo específico.",
+        "E": "admite delegação à iniciativa privada de alguns aspectos, a exemplo das atividades meio, que não afetam direitos diretamente."
+      },
+      "gab": "E",
+      "temas": [
+        "administrativo.poderes.policia"
+      ],
+      "dispositivos": [
+        "CTN 78"
+      ],
+      "exp": "A jurisprudência (STJ, REsp 817.534, ciclos de polícia) admite **delegar a particulares** os aspectos **materiais ou instrumentais** do poder de polícia, como o consentimento e a fiscalização, que não restringem direitos por si, mas não a legislação e a sanção (E). O poder de polícia é **autoexecutório**, dispensando ratificação judicial (A), e limita direitos sobretudo por **proibições** e condicionamentos, conforme a lei (B; `CTN 78`). Os atos normativos de polícia são **derivados** da lei, não originários (C), e o controle judicial não depende de dano específico nem se restringe ao caso concreto (D).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O poder de polícia é **autoexecutório**: interdições e intervenções não dependem de ratificação prévia do Judiciário, que só atua se provocado.",
+        "B": "O poder de polícia atua tipicamente por **proibições** e condicionamentos impostos com base na lei (`CTN 78`); não é vedado proibir sob o argumento da livre iniciativa.",
+        "C": "Os atos normativos de polícia administrativa são **derivados** da lei, não originários; a Administração não inova na ordem jurídica nessa matéria.",
+        "D": "O controle do poder de polícia pelo Legislativo e pelo Judiciário não depende da **caracterização de dano** específico nem se restringe ao controle repressivo no caso concreto.",
+        "E": "Segundo a jurisprudência dos **ciclos de polícia**, podem ser delegados a particulares aspectos **materiais ou instrumentais**, como fiscalização e consentimento, que não restringem direitos diretamente."
+      },
+      "observacoes": [
+        "Em 2020 o STF (RE 633.782, Tema 532) admitiu delegar o poder de polícia, inclusive a sanção, a pessoas jurídicas de direito privado da Administração indireta de capital majoritariamente público que prestem serviço público em regime não concorrencial; a delegação a particulares continua restrita a atividades materiais."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#70",
+      "tipo": "me",
+      "numero": 70,
+      "enunciado": "A natureza do contrato administrativo que se pretende celebrar pode interferir na escolha da modalidade de licitação cabível, a exemplo",
+      "alt": {
+        "A": "das contratações efetuadas pelo sistema de registro de preços, cujas licitações antes eram restritas à modalidade de concorrência, posteriormente também permitidas por meio de pregão.",
+        "B": "dos contratos disciplinados pelo regime diferenciado de contratações, que admitem a combinação das modalidades de concorrência e leilão para agilização do resultado.",
+        "C": "das parcerias público-privadas, restritas à modalidade concorrência, salvo se referente à licitação de outro objeto idêntico, quando o pregão passa a ser uma alternativa.",
+        "D": "dos consórcios públicos, desde que constituídos por entes federados, que não se submetem à licitação para contratar ou para serem contratados.",
+        "E": "da contratação de prestadores de serviços, que se submetem subsidiariamente às normas disciplinadoras das relações funcionais dos servidores públicos."
+      },
+      "gab": "A",
+      "temas": [
+        "administrativo.licitacoes"
+      ],
+      "dispositivos": [
+        "L8666 15 §3º I"
+      ],
+      "exp": "No **sistema de registro de preços**, a Lei nº 8.666/1993 exigia seleção por **concorrência** (`L8666 15 §3º I`), e a Lei nº 10.520/2002 (art. 11) passou a admitir também o **pregão** (A). O RDC (Lei nº 12.462/2011) é procedimento próprio, sem combinar concorrência e leilão (B). A PPP é licitada por **concorrência** (art. 10 da Lei nº 11.079/2004), sem exceção para pregão (C). Consórcios públicos licitam e têm, quando muito, hipóteses específicas de dispensa (D), e contratados por licitação não se regem pelas normas funcionais dos servidores (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "No **registro de preços**, a Lei nº 8.666/1993 exigia **concorrência** (`L8666 15 §3º I`), e a Lei nº 10.520/2002 passou a admitir também o **pregão**.",
+        "B": "O **RDC** (Lei nº 12.462/2011) é procedimento próprio de licitação e não prevê combinar as modalidades de concorrência e leilão.",
+        "C": "A contratação de **PPP** é precedida de licitação na modalidade **concorrência** (art. 10 da Lei nº 11.079/2004), sem exceção que admita pregão.",
+        "D": "Os **consórcios públicos** se submetem à licitação para contratar, com hipóteses específicas de dispensa, como a do contrato de programa; não há isenção geral.",
+        "E": "Prestadores de serviços contratados pela Administração regem-se pelo **contrato** e pela lei de licitações, não pelas normas funcionais dos servidores públicos."
+      },
+      "observacoes": [
+        "A Lei nº 8.666/1993 foi revogada em 30/12/2023 pela Lei nº 14.133/2021; na Lei nº 14.133/2021, o registro de preços se faz por pregão ou concorrência, ou por contratação direta (`L14133 6 XLV`). As Leis nº 10.520/2002, 11.079/2004 e 12.462/2011 ainda não têm sigla em normas/normas.json."
+      ],
+      "pendencias": []
+    }
+  ]
+}

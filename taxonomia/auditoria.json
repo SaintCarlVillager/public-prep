@@ -37,6 +37,10 @@
     {
       "id": "auditoria.fiscal",
       "nome": "Auditoria tributária e fiscalização"
+    },
+    {
+      "id": "auditoria.pericia",
+      "nome": "Perícia contábil"
     }
   ]
 }
