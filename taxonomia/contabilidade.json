@@ -46,7 +46,13 @@
     },
     {
       "id": "contabilidade.passivo",
-      "nome": "Passivo, provisões e contingências"
+      "nome": "Passivo, provisões e contingências",
+      "filhos": [
+        {
+          "id": "contabilidade.passivo.arrendamento",
+          "nome": "Arrendamento mercantil (CPC 06)"
+        }
+      ]
     },
     {
       "id": "contabilidade.patrimonio-liquido",

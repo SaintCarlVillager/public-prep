@@ -1,0 +1,507 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {},
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#71",
+      "tipo": "me",
+      "numero": 71,
+      "enunciado": "De acordo com a Constituição Federal, com a Lei Complementar nº 87/1996 e com a Lei Complementar nº 116/2003, a prestação, não onerosa, de serviços de comunicação",
+      "alt": {
+        "A": "não dá ensejo à exigência do ISSQN, mas dá ensejo à do ICMS.",
+        "B": "não dá ensejo à exigência do ICMS, nem do ISSQN.",
+        "C": "dá ensejo à exigência do ISSQN, do IOF e do IPI.",
+        "D": "não dá ensejo à exigência do ICMS, mas dá ensejo à do ISSQN.",
+        "E": "dá ensejo à exigência tanto do ICMS, como do ISSQN."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.sistema-nacional.competencia",
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "CF 155 II",
+        "CF 156 III",
+        "LC116 1"
+      ],
+      "exp": "A comunicação é campo do **ICMS** (`CF 155 II`), mas a LC 87/1996 (art. 2º, III) só o faz incidir sobre prestações **onerosas** de serviço de comunicação; a prestação gratuita fica fora. O **ISSQN** também não incide, porque `CF 156 III` exclui do imposto municipal os serviços compreendidos no `CF 155 II` e a lista da LC 116/2003 (`LC116 1`) não traz serviço de comunicação. Por isso não há nem ICMS nem ISSQN (B); as alternativas que afirmam ICMS, ISSQN, IOF ou IPI erram.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A LC 87/1996 limita o ICMS-comunicação às prestações **onerosas**; a gratuita não gera ICMS. E o ISSQN também não alcança comunicação, reservada ao campo do `CF 155 II`.",
+        "B": "O ICMS só incide sobre prestação **onerosa** de comunicação (LC 87/1996, art. 2º, III), e o ISSQN não alcança serviço do campo do `CF 155 II` (`CF 156 III`). A prestação gratuita fica **fora dos dois impostos**.",
+        "C": "Comunicação **não está na lista** da LC 116/2003, e `CF 156 III` exclui do ISSQN os serviços do `CF 155 II`. IOF e IPI tampouco têm a prestação de comunicação como fato gerador.",
+        "D": "O ISSQN não pode alcançar serviço de comunicação: `CF 156 III` exclui os serviços compreendidos no **`CF 155 II`**, e a lista da LC 116/2003 não o prevê.",
+        "E": "Não incide nenhum dos dois: o ICMS exige prestação **onerosa** (LC 87/1996, art. 2º, III) e o ISSQN não alcança serviço de comunicação (`CF 156 III`)."
+      },
+      "observacoes": [
+        "Reforma Tributária (EC 132/2023, LC 214/2025): ICMS e ISSQN serão substituídos pelo IBS ao fim da transição (2033); a regra cobrada vale enquanto os dois impostos existirem."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#72",
+      "tipo": "me",
+      "numero": 72,
+      "enunciado": "João conheceu Joaquina em um cruzeiro que fizeram pelo Rio Amazonas. Em razão da amizade que travaram, João, domiciliado no Município de Itacoatiara/AM, vendeu para Joaquina, domiciliada em Belém/PA, um apartamento localizado em bairro nobre do Município de Manaus/AM, dando ensejo, com isso, à incidência do ITBI. A escritura de venda e compra foi firmada em cartório localizado no Município de Santarém/PA. De acordo com a Constituição Federal, o imposto devido em razão desta venda poderá ser lançado e cobrado pelo Município de",
+      "alt": {
+        "A": "Itacoatiara, local de embarque para a realização do cruzeiro pelo Rio Amazonas.",
+        "B": "Belém, por ser o Município de domicílio da adquirente.",
+        "C": "Santarém, local em que foi firmada a escritura de venda e compra.",
+        "D": "Itacoatiara, por ser o Município de domicílio do alienante.",
+        "E": "Manaus, por ser o Município de localização do imóvel."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.municipais.itbi",
+        "tributario.sistema-nacional.competencia"
+      ],
+      "dispositivos": [
+        "CF 156 II",
+        "CF 156 §2º II"
+      ],
+      "exp": "O ITBI **compete ao Município da situação do bem** (`CF 156 §2º II`). Como o apartamento fica em Manaus, só Manaus pode lançar e cobrar o imposto (E). O domicílio do alienante (Itacoatiara) ou da adquirente (Belém), o local da escritura (Santarém) e o local de embarque do cruzeiro são irrelevantes para definir o sujeito ativo.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O local de embarque de uma viagem não tem relação com o imposto. O ITBI cabe ao **Município da situação do bem** (`CF 156 §2º II`).",
+        "B": "O domicílio do adquirente não define a competência: o ITBI cabe ao **Município da situação do bem** (`CF 156 §2º II`).",
+        "C": "O local onde se lavra a escritura não define a competência: o ITBI cabe ao **Município da situação do bem** (`CF 156 §2º II`).",
+        "D": "O domicílio do alienante não define a competência: o ITBI cabe ao **Município da situação do bem** (`CF 156 §2º II`).",
+        "E": "Pela `CF 156 §2º II`, o ITBI **compete ao Município da situação do bem**; como o imóvel está em Manaus, é Manaus quem lança e cobra o imposto."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#73",
+      "tipo": "me",
+      "numero": 73,
+      "enunciado": "O Código Tributário Nacional estabelece que o crédito não integralmente pago no vencimento é acrescido de juros de mora, seja qual for o motivo determinante da falta, sem prejuízo da imposição das penalidades cabíveis e da aplicação de quaisquer medidas de garantia previstas nesta Lei ou em lei tributária. De acordo com o referido Código, os juros de mora são calculados",
+      "alt": {
+        "A": "à taxa de 6% ao ano, no mínimo, não havendo incidência destes juros na pendência de consulta formulada pelo devedor, dentro do prazo legal para pagamento do crédito.",
+        "B": "à taxa de 3% ao mês, se a lei não dispuser de modo diverso, sendo que não haverá incidência destes juros na pendência de consulta formulada pelo devedor.",
+        "C": "à taxa de 1% ao mês, se a lei não dispuser de modo diverso, sendo que não haverá incidência destes juros na pendência de consulta formulada pelo devedor, dentro do prazo legal para pagamento do crédito.",
+        "D": "pro rata die, à taxa de 18% ao ano, sendo que não haverá incidência destes juros somente nos casos em que a resposta de consulta formulada seja favorável ao sujeito passivo.",
+        "E": "com base na taxa SELIC, se a lei não dispuser de modo diverso."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.credito.extincao"
+      ],
+      "dispositivos": [
+        "CTN 161 §1º",
+        "CTN 161 §2º"
+      ],
+      "exp": "Pelo `CTN 161 §1º`, se a lei não dispuser de modo diverso, os juros de mora são de **1% ao mês**; e o `CTN 161 §2º` afasta os juros **na pendência de consulta** formulada pelo devedor **dentro do prazo legal** para pagamento. É a (C). As taxas de 6% ao ano, 3% ao mês e 18% ao ano não estão no CTN, a SELIC vem de lei ordinária federal (não do CTN), e (B) omite a condição do prazo legal.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O CTN não fixa juros de 6% ao ano: pelo `CTN 161 §1º`, a taxa supletiva é de **1% ao mês**, se a lei não dispuser de modo diverso.",
+        "B": "A taxa supletiva do `CTN 161 §1º` é de **1% ao mês**, não 3%; e o afastamento dos juros na consulta exige que ela seja formulada **dentro do prazo legal** para pagamento (`CTN 161 §2º`).",
+        "C": "É o `CTN 161 §1º` e `§2º`: juros de **1% ao mês** se a lei não dispuser de modo diverso, e não incidência **na pendência de consulta** formulada dentro do prazo legal para pagamento.",
+        "D": "O CTN não prevê juros de 18% ao ano; a taxa supletiva é **1% ao mês** (`CTN 161 §1º`). E os juros não correm durante a **pendência** da consulta tempestiva, qualquer que seja a resposta (`CTN 161 §2º`).",
+        "E": "A SELIC é adotada por **lei ordinária**, não pelo CTN; o código fixa, na falta de lei, juros de **1% ao mês** (`CTN 161 §1º`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#74",
+      "tipo": "me",
+      "numero": 74,
+      "enunciado": "De acordo com o Código Tributário Nacional, a decadência e a prescrição tributárias ocasionam a extinção do crédito tributário. De outro lado, a Lei Orgânica do Município de Manaus atribui responsabilidade pessoal aos responsáveis pela ocorrência dessas duas causas extintivas do crédito tributário. De acordo com a referida Lei Orgânica, ocorrendo a decadência do direito de constituir o crédito tributário, ou a prescrição da ação de cobrá-lo,",
+      "alt": {
+        "A": "o servidor municipal presumidamente responsável será afastado de suas funções, pelo prazo mínimo de 90 dias, podendo este prazo ser quadruplicado, nos casos em que tiver havido indícios de dolo, fraude ou simulação.",
+        "B": "abrir-se-á processo administrativo disciplinar para apurar as responsabilidades, na forma da lei, sendo que a autoridade municipal responsável pela ocorrência da decadência ou da prescrição responderá, civil, criminal e administrativamente por essa ocorrência, cumprindo-lhe indenizar o Município do valor dos créditos prescritos ou não lançados.",
+        "C": "a autoridade municipal presumivelmente responsável, qualquer que seja seu cargo, emprego ou função, e independentemente do vínculo que possuir com o Município, será sumariamente afastada de suas funções, pelo prazo de 60 dias, podendo este prazo ser quadruplicado, nos casos em que tiver havido indícios de dolo, fraude ou simulação, até que sejam apuradas as devidas responsabilidades.",
+        "D": "o servidor municipal presumivelmente responsável, excetuado aquele cujo cargo seja de provimento efetivo, será sumariamente afastado de suas funções, pelo prazo de 90 dias, podendo este prazo ser duplicado, nos casos em que tiver havido indícios comprovados de dolo, fraude ou simulação, e até que sejam apuradas as devidas responsabilidades.",
+        "E": "abrir-se-á processo administrativo disciplinar para apurar a responsabilidade tão somente do Auditor Fiscal de Tributos Municipais ou do Procurador Municipal, conforme o caso, sendo que a responsabilização nas esferas civil, criminal e administrativa, bem como a obrigação de indenizar o Município do valor dos créditos prescritos ou não lançados, fica restrita aos casos em que restar comprovada a existência de dolo, fraude ou simulação."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.credito.extincao",
+        "tributario.administracao"
+      ],
+      "dispositivos": [
+        "CTN 156 V"
+      ],
+      "exp": "A decadência e a prescrição extinguem o crédito (`CTN 156 V`), e a **Lei Orgânica de Manaus** determina que, ocorrendo uma delas, se abra **processo administrativo disciplinar** para apurar responsabilidades, na forma da lei, e que a autoridade responsável **responda civil, criminal e administrativamente**, cumprindo-lhe **indenizar o Município** do valor dos créditos prescritos ou não lançados (B). A Lei Orgânica não prevê afastamento sumário por 60 ou 90 dias com prazo duplicado ou quadruplicado (A, C, D), nem restringe a apuração ao Auditor Fiscal ou ao Procurador, ou a responsabilização aos casos de dolo, fraude ou simulação (E).",
+      "observacoes": [
+        "O texto da Lei Orgânica de Manaus não pôde ser conferido nesta etiquetagem (sem lei seca de MAO-LOM no repositório e sem acesso às fontes on-line); por isso a questão ficou sem o dispositivo `MAO-LOM` (falta o número do artigo) e sem cards de treino. A explicação segue o gabarito oficial e a própria redação da alternativa B."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#75",
+      "tipo": "me",
+      "numero": 75,
+      "enunciado": "O Código Tributário do Município de Manaus estabelece que a contribuição de melhoria terá, como limite total, a despesa realizada. Para efeito de determinação deste limite total, o referido Código estabeleceu, textualmente, que serão computadas, dentre outras, as despesas",
+      "alt": {
+        "A": "de desapropriação.",
+        "B": "de estudo, projeto, administração e execução, excluídas as despesas de fiscalização.",
+        "C": "relativas a prêmios de reembolso e outros prêmios de praxe em financiamentos ou empréstimos, mas apenas nos casos em que o agente financeiro não for entidade pública.",
+        "D": "de bônus e prêmios para a empreiteira que concluir a obra no prazo contratado.",
+        "E": "relativas à depreciação de bens, públicos e privados, utilizados na obra, direta ou indiretamente."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.municipais.taxas-contribuicoes"
+      ],
+      "dispositivos": [
+        "CTN 81"
+      ],
+      "exp": "A contribuição de melhoria tem como **limite total a despesa realizada** (`CTN 81`). O Código Tributário de Manaus (Lei municipal nº 1.697/1983), seguindo o modelo do Decreto-Lei nº 195/1967 (art. 4º), manda computar as despesas de estudo, projeto, **fiscalização**, **desapropriação**, administração, execução e financiamento, inclusive prêmios de reembolso e outras de praxe em financiamentos ou empréstimos. Por isso a (A) está certa; (B) erra ao excluir a fiscalização, (C) inventa a restrição ao agente financeiro privado, e bônus à empreiteira (D) ou depreciação de bens (E) não constam do rol.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "As despesas de **desapropriação** entram no custo da obra que serve de **limite total** da contribuição de melhoria, ao lado de estudo, projeto, fiscalização, administração, execução e financiamento.",
+        "B": "As despesas de **fiscalização** são computadas no custo da obra para o limite total da contribuição de melhoria, ao lado de estudo, projeto, administração e execução; não há essa exclusão.",
+        "C": "Os prêmios de reembolso e outros de praxe em financiamentos ou empréstimos entram no custo **sem distinção** quanto ao agente financeiro; a restrição a agente privado não existe.",
+        "D": "Bônus ou prêmios à empreiteira pela conclusão no prazo **não estão no rol** de despesas computadas no custo da obra para a contribuição de melhoria.",
+        "E": "A depreciação de bens usados na obra **não está no rol** de despesas computadas (estudo, projeto, fiscalização, desapropriação, administração, execução e financiamento)."
+      },
+      "observacoes": [
+        "O texto do Código Tributário de Manaus (Lei municipal nº 1.697/1983) não pôde ser conferido nesta etiquetagem; o rol de despesas foi explicado pelo modelo do Decreto-Lei nº 195/1967, art. 4º, que o gabarito confirma."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#76",
+      "tipo": "me",
+      "numero": 76,
+      "enunciado": "De acordo com o Decreto municipal nº 681, de 11 de julho de 1991, que regulamenta o Processo Administrativo Fiscal do Município de Manaus,",
+      "alt": {
+        "A": "o contribuinte, desde que seja bacharel em Direito, poderá postular pessoalmente.",
+        "B": "o envio de petições, de impugnações, de recursos e a prática de atos processuais em geral, por meio eletrônico, serão admitidos, mediante uso de assinatura eletrônica, independentemente do credenciamento prévio do sujeito passivo na SEMEF.",
+        "C": "as intimações, mesmo quando feitas por meio eletrônico, não dispensam a publicação no órgão de imprensa oficial.",
+        "D": "é vedado aos órgãos de classe representar interesses gerais da respectiva categoria econômica ou profissional, facultada, porém, a postulação de interesses próprios do órgão postulante.",
+        "E": "o processo fiscal inicia-se mediante lavratura do auto de infração ou notificação de lançamento, distinto para cada tributo, ou através de denúncia escrita ou reduzida a termo."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "Pelo Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus), o processo fiscal **inicia-se** com a lavratura do **auto de infração** ou da **notificação de lançamento**, distintos para cada tributo, ou por **denúncia** escrita ou reduzida a termo (E). As distratoras deturpam o regulamento: no processo administrativo fiscal o sujeito passivo pode postular pessoalmente sem ser bacharel em Direito (A); o meio eletrônico depende de **credenciamento prévio** na SEMEF (B); a intimação eletrônica **dispensa** a publicação oficial (C); e os órgãos de classe **podem** representar interesses gerais da categoria (D).",
+      "observacoes": [
+        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem (sem fonte acessível); as razões das distratoras seguem o gabarito oficial e a lógica de cada afirmação.",
+        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#77",
+      "tipo": "me",
+      "numero": 77,
+      "enunciado": "A Lei municipal nº 2.385, de 27 de dezembro de 2018, que institui o Conselho Administrativo de Recursos Fiscais do Município de Manaus (CARF-M), estabelece que",
+      "alt": {
+        "A": "as Câmaras Julgadoras reunir-se-ão, ordinariamente, duas vezes por semana.",
+        "B": "o Tribunal Pleno reunir-se-á, extraordinariamente, até três vezes por semana, conforme convocação da Presidência.",
+        "C": "o Tribunal Pleno reunir-se-á, ordinariamente, duas vezes por semana.",
+        "D": "o Tribunal Pleno reunir-se-á, ordinariamente, uma vez ao mês.",
+        "E": "as Câmaras Julgadoras reunir-se-ão, extraordinariamente, até três vezes por semana, conforme convocação da Presidência."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "Pela Lei municipal nº 2.385/2018, que instituiu o CARF-M, o **Tribunal Pleno** reúne-se **ordinariamente uma vez ao mês** (D). As demais alternativas trocam a periodicidade das reuniões ordinárias e extraordinárias do Pleno e das Câmaras Julgadoras e não correspondem ao texto da lei, segundo o gabarito oficial.",
+      "observacoes": [
+        "O texto da Lei municipal nº 2.385/2018 não pôde ser conferido nesta etiquetagem; sem saber a periodicidade exata das Câmaras Julgadoras e das reuniões extraordinárias, a questão ficou sem cards de treino."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#78",
+      "tipo": "me",
+      "numero": 78,
+      "enunciado": "O Decreto municipal nº 681, de 11 de julho de 1991, contempla diversas regras atinentes à consulta em matéria tributária, que pode ser formulada pelo interessado, relativamente aos tributos que podem ser instituídos pelo Município de Manaus. De acordo com esse Decreto, a consulta NÃO produzirá efeito quando",
+      "alt": {
+        "A": "tiver sido formulada após a lavratura de auto de infração, ou nota de lançamento, cujos fundamentos se relacionem com a matéria objeto da consulta.",
+        "B": "o consulente, sujeito passivo de tributo municipal, estiver inadimplente em relação a qualquer um dos tributos instituídos, lançados e cobrados pelo Município.",
+        "C": "houver indícios, ainda que remotos, de que ela tem finalidade meramente protelatória.",
+        "D": "o objeto da consulta disser respeito apenas ao cumprimento de obrigação acessória relativa a tributo municipal.",
+        "E": "o consulente, sujeito passivo de tributo municipal, estiver inadimplente em relação ao tributo objeto da consulta formulada."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [],
+      "exp": "Pelo Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus), a consulta **não produz efeito** quando formulada **depois da lavratura de auto de infração ou nota de lançamento** cujos fundamentos se relacionem com a matéria consultada (A): a consulta serve para orientar antes da autuação, não para suspender um procedimento já instaurado. A inadimplência do consulente (B, E) não é causa de ineficácia, a finalidade protelatória exige mais que indícios remotos (C), e a consulta pode versar sobre **obrigação acessória** (D).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A consulta **não produz efeito** se formulada **após o auto de infração** ou a nota de lançamento cujos fundamentos se relacionem com a matéria consultada.",
+        "B": "Estar inadimplente com outros tributos municipais **não** torna a consulta ineficaz; a causa de ineficácia é ela ser formulada depois de **auto de infração** ou nota de lançamento sobre a mesma matéria.",
+        "C": "Indícios **remotos** de finalidade protelatória não bastam para tirar o efeito da consulta; o caso típico de ineficácia é a consulta formulada depois de **auto de infração** sobre a mesma matéria.",
+        "D": "A consulta pode versar sobre o cumprimento de **obrigação acessória**; isso não lhe tira o efeito.",
+        "E": "A inadimplência com o próprio tributo consultado **não** é causa de ineficácia; o que tira o efeito é a consulta vir depois de **auto de infração** ou nota de lançamento sobre a matéria."
+      },
+      "observacoes": [
+        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem; a regra da alternativa A coincide com a do processo federal (Decreto nº 70.235/1972, art. 52, III)."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#79",
+      "tipo": "me",
+      "numero": 79,
+      "enunciado": "De acordo com o Código Tributário Nacional, a anistia",
+      "alt": {
+        "A": "deve ser concedida necessariamente em caráter limitado, vedada sua concessão em caráter geral.",
+        "B": "não se aplica aos atos que sejam praticados com dolo, fraude ou simulação pelo sujeito passivo.",
+        "C": "é uma forma de extinção do crédito tributário.",
+        "D": "abrange exclusivamente as infrações cometidas posteriormente à vigência da lei que a concede.",
+        "E": "só pode ser concedida por meio de lei ou de decreto."
+      },
+      "gab": "B",
+      "temas": [
+        "tributario.credito.exclusao"
+      ],
+      "dispositivos": [
+        "CTN 180 I",
+        "CTN 175 II",
+        "CTN 181",
+        "CF 150 §6º"
+      ],
+      "exp": "Pelo `CTN 180 I`, a anistia **não se aplica** aos atos praticados com **dolo, fraude ou simulação** pelo sujeito passivo ou por terceiro em benefício dele (B). Ela pode ser **geral** ou limitada (`CTN 181`), é causa de **exclusão**, não de extinção, do crédito (`CTN 175 II`), abrange só infrações **anteriores** à lei que a concede (`CTN 180`, caput) e depende de **lei específica** (`CF 150 §6º`), não de decreto.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A anistia pode ser concedida **em caráter geral** ou limitadamente (`CTN 181`).",
+        "B": "É o `CTN 180 I`: a anistia não alcança os atos praticados com **dolo, fraude ou simulação** pelo sujeito passivo ou por terceiro em benefício dele.",
+        "C": "A anistia é causa de **exclusão** do crédito tributário (`CTN 175 II`), não de extinção.",
+        "D": "A anistia abrange exclusivamente as infrações cometidas **anteriormente** à vigência da lei que a concede (`CTN 180`).",
+        "E": "A anistia depende de **lei específica** (`CF 150 §6º`); decreto não a concede. O despacho do `CTN 182` só a efetiva no caso concreto."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#80",
+      "tipo": "me",
+      "numero": 80,
+      "enunciado": "Uma farmácia localizada no Município de Manaus tem 80% de seu faturamento representado pela comercialização de mercadorias, e os restantes 20% provenientes da prestação de serviços farmacêuticos. Sua atividade preponderante é, especificamente, o comércio de medicamentos. De acordo com a Lei municipal nº 2.251, de 02 de outubro de 2017, que dispõe sobre o Imposto Sobre Serviços de Qualquer Natureza (ISSQN) no Município de Manaus, quando esta farmácia prestar serviço farmacêutico de aplicação de injeção em cliente seu,",
+      "alt": {
+        "A": "utilizando, na prestação do serviço, medicamento que o cliente adquiriu de outro fornecedor e que levou consigo para ser aplicado, haverá incidência do ISSQN, cuja base de cálculo, porém, será equivalente a 20% do valor da prestação, em razão de se tratar de atividade não preponderante.",
+        "B": "fornecendo, inclusive, o medicamento a ser utilizado na prestação do serviço, haverá incidência do ICMS sobre o valor total da prestação, ou seja, sobre a prestação do serviço e o material utilizado, em razão de sua atividade preponderante.",
+        "C": "fornecendo, inclusive, o medicamento a ser utilizado na prestação do serviço, haverá incidência do ISSQN sobre o valor da prestação, e haverá incidência do ICMS sobre o valor do material (mercadoria) utilizado, em razão de sua atividade preponderante.",
+        "D": "fornecendo, inclusive, o medicamento a ser utilizado na prestação do serviço, haverá incidência do ISSQN sobre o valor total da prestação, ou seja, sobre a prestação do serviço e o material utilizado.",
+        "E": "fornecendo, inclusive, o medicamento a ser utilizado na prestação do serviço, haverá incidência do ISSQN sobre 20% do valor da prestação, e haverá incidência do ICMS sobre 80% do valor do material (mercadoria) utilizado, em razão das respectivas proporções de receita do estabelecimento."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.municipais.iss"
+      ],
+      "dispositivos": [
+        "LC116 1 §2º",
+        "LC116 7"
+      ],
+      "exp": "Serviços farmacêuticos estão na lista de serviços (item 4.07 da LC 116/2003, reproduzido pela Lei municipal nº 2.251/2017) **sem ressalva** de fornecimento de mercadorias. Assim, pelo `LC116 1 §2º`, eles não se sujeitam ao ICMS **ainda que envolvam fornecimento de mercadorias**, e a base do ISSQN é o **preço do serviço** (`LC116 7`), incluído o medicamento aplicado (D). A atividade preponderante e a proporção do faturamento são irrelevantes: o imposto se define pela natureza da operação (lista anexa), o que afasta (B), (C) e (E); e não há base reduzida a 20% (A).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Não existe base de cálculo reduzida a 20% por ser a atividade não preponderante: o ISSQN incide sobre o **preço do serviço** (`LC116 7`).",
+        "B": "Serviço farmacêutico está na lista do ISSQN **sem ressalva**, e por isso não se sujeita ao ICMS, ainda que envolva fornecimento de mercadoria (`LC116 1 §2º`); a atividade preponderante não muda isso.",
+        "C": "Como o item de serviços farmacêuticos **não ressalva** o fornecimento de mercadorias, o medicamento aplicado não gera ICMS à parte: tudo compõe a base do ISSQN (`LC116 1 §2º`).",
+        "D": "Serviço farmacêutico consta da lista **sem ressalva**; pelo `LC116 1 §2º`, não se sujeita ao ICMS ainda que envolva **fornecimento de mercadorias**, e o ISSQN incide sobre o valor total, serviço e medicamento.",
+        "E": "A tributação não se divide pela **proporção de receitas** do estabelecimento: o serviço da lista, sem ressalva, sofre ISSQN sobre o valor total, mercadoria incluída (`LC116 1 §2º`)."
+      },
+      "observacoes": [
+        "Reforma Tributária (EC 132/2023, LC 214/2025): o ISSQN será substituído pelo IBS ao fim da transição (2033); a regra cobrada vale enquanto o imposto existir."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#81",
+      "tipo": "me",
+      "numero": 81,
+      "enunciado": "De acordo com o Decreto municipal nº 681, de 11 de julho de 1991, que regulamenta o Processo Administrativo Fiscal no Município de Manaus e disciplina a produção e a análise das provas no âmbito do referido processo,",
+      "alt": {
+        "A": "não prevalece a norma que permite a livre formação da convicção da autoridade julgadora, quando a decisão que vier a ser proferida reduzir, cancelar ou relevar crédito tributário, em montante superior ao equivalente a R$ 100.000,00.",
+        "B": "o ônus da prova incumbe à Fazenda Pública, desde que não haja invocação formal da prerrogativa da fé pública do agente.",
+        "C": "todos os meios legais, bem como os moralmente legítimos, ainda que não especificados no referido Decreto, são hábeis para provar a verdade dos fatos arguidos.",
+        "D": "na apreciação da prova, a autoridade julgadora formará livremente sua convicção, exceto nos casos em que for proferir decisão contrária à Fazenda Pública e dessa decisão não couber recurso de ofício.",
+        "E": "a autoridade julgadora será responsabilizada funcionalmente, quando, tendo deixado de determinar a realização de diligência, vier a proferir decisão desfavorável à Fazenda Pública."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.processo-administrativo-fiscal"
+      ],
+      "dispositivos": [
+        "CPC 369"
+      ],
+      "exp": "O Decreto municipal nº 681/1991 (Processo Administrativo Fiscal de Manaus) admite **todos os meios legais** e os **moralmente legítimos**, ainda que nele não especificados, para provar a verdade dos fatos (C), regra igual à do processo civil (`CPC 369`). Na apreciação da prova, a autoridade julgadora forma **livremente** sua convicção, sem exceção ligada ao valor do crédito (A) ou ao sentido da decisão (D). O ônus da prova não depende de \"invocação formal da fé pública\" (B), e não há responsabilização funcional por deixar de ordenar diligência (E).",
+      "observacoes": [
+        "O texto do Decreto municipal nº 681/1991 não pôde ser conferido nesta etiquetagem; a explicação segue o gabarito oficial.",
+        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#82",
+      "tipo": "me",
+      "numero": 82,
+      "enunciado": "De acordo com a Lei municipal nº 2.383, de 27 de dezembro de 2018, que dispõe sobre as Taxas de Licença de Localização (TL) e de Verificação de Funcionamento (TVF) no Município de Manaus, estão desobrigados de inscrever-se na repartição fiscal competente municipal, antes do início de suas atividades,",
+      "alt": {
+        "A": "as pessoas que possuam estabelecimentos, unidades de produção ou auxiliares que estejam fora do campo de incidência ou sejam isentas da TL e TVF.",
+        "B": "estabelecimentos ou unidades de produção ou auxiliares de pessoas sujeitas à autorização municipal.",
+        "C": "aqueles que, embora não estabelecidos no Município, exerçam no território deste, em caráter temporário, habitual ou permanente, atividade sujeita à tributação municipal.",
+        "D": "as instituições imunes a impostos nos termos da Constituição Federal, não sujeitas à TL e TVF.",
+        "E": "aqueles que não sejam contribuintes de tributos municipais nem sejam estabelecidos no Município, embora comercializem mercadorias com pessoas jurídicas nele estabelecidas."
+      },
+      "gab": "E",
+      "temas": [
+        "tributario.municipais.taxas-contribuicoes",
+        "tributario.obrigacao"
+      ],
+      "dispositivos": [],
+      "exp": "A Lei municipal nº 2.383/2018 obriga à inscrição prévia quem tem estabelecimento ou exerce atividade sujeita à fiscalização municipal no território de Manaus, **ainda que** fora do campo de incidência, isento ou imune às taxas (A, D), sujeito a autorização municipal (B) ou não estabelecido mas atuando no Município, em caráter temporário, habitual ou permanente (C): o dever de inscrição é **obrigação acessória**, que existe mesmo sem tributo a pagar. Fica desobrigado apenas quem **não é contribuinte** de tributo municipal **nem é estabelecido** no Município, ainda que venda mercadorias a pessoas jurídicas daqui (E).",
+      "observacoes": [
+        "O texto da Lei municipal nº 2.383/2018 não pôde ser conferido nesta etiquetagem; a explicação segue o gabarito oficial e o caráter de obrigação acessória da inscrição (CTN 113 §2º e 175 p.ú.).",
+        "Sem cards de Treino: a regra municipal de Manaus que afasta as distratoras não foi conferida no texto da lei."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#83",
+      "tipo": "me",
+      "numero": 83,
+      "enunciado": "Abigail, senhora idosa, residente em Manaus, sem herdeiros necessários, estabeleceu, por meio de testamento, o seguinte: Evelyn receberá um terreno localizado na cidade do Rio de Janeiro/RJ; Saulo receberá um sítio no interior do Estado do Amazonas; Adelina receberá um sobrado em Manaus/AM. Na mesma ocasião em que fez o referido testamento, Abigail decidiu, por meio de dois contratos onerosos distintos, fazer o seguinte: primeiramente, instituir Victor usufrutuário vitalício dos cinco veículos de passeio de propriedade dela e, em segundo lugar, instituir Rodrigo usufrutuário de um prédio de apartamentos de sua propriedade, localizado no centro da cidade de Manaus.\n\nDe acordo com a Lei municipal manauara nº 459, de 30 de dezembro de 1998, o ITBI incidirá sobre a",
+      "alt": {
+        "A": "transmissão do terreno para Evelyn, no momento da lavratura da escritura de testamento.",
+        "B": "transmissão do sítio para Saulo, no momento do óbito de Abigail.",
+        "C": "instituição do usufruto do prédio de apartamentos a favor de Rodrigo.",
+        "D": "transmissão do sobrado para Adelina, no momento em que ela o receber como legado de Abigail.",
+        "E": "instituição, a favor de Victor, do usufruto dos cinco veículos de passeio de propriedade de Abigail, desde que ele não os receba como antecipação de herança."
+      },
+      "gab": "C",
+      "temas": [
+        "tributario.municipais.itbi"
+      ],
+      "dispositivos": [
+        "CF 156 II",
+        "CF 156 §2º II",
+        "CF 155 I",
+        "CTN 35"
+      ],
+      "exp": "O ITBI incide sobre a transmissão **inter vivos**, **por ato oneroso**, de bens imóveis e de **direitos reais sobre imóveis**, exceto os de garantia (`CF 156 II`), regra repetida pela Lei municipal nº 459/1998. A instituição onerosa de **usufruto** do prédio situado em Manaus é transmissão de direito real sobre imóvel no Município (C). As transmissões por testamento (terreno, sítio e sobrado) são **causa mortis**, sujeitas ao ITCMD estadual (`CF 155 I`), e o terreno no Rio de Janeiro nem está em Manaus (`CF 156 §2º II`); veículos são **bens móveis**, fora do ITBI (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Transmissão por testamento é **causa mortis**, campo do ITCMD estadual (`CF 155 I`), e o terreno nem está em Manaus; o ITBI só alcança transmissões **inter vivos** por ato oneroso.",
+        "B": "A transmissão do sítio por testamento, com o óbito, é **causa mortis**, sujeita ao ITCMD estadual (`CF 155 I`), não ao ITBI.",
+        "C": "A instituição onerosa de **usufruto** sobre imóvel situado em Manaus é transmissão **inter vivos** de **direito real sobre imóvel**, fato gerador do ITBI (`CF 156 II`).",
+        "D": "O legado é transmissão **causa mortis**, sujeita ao ITCMD estadual (`CF 155 I`); o ITBI só alcança transmissões **inter vivos** por ato oneroso.",
+        "E": "Veículos são **bens móveis**; o usufruto sobre eles não é direito real sobre imóvel e fica fora do ITBI (`CF 156 II`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#84",
+      "tipo": "me",
+      "numero": 84,
+      "enunciado": "De acordo com a Lei municipal nº 1.697, de 20 de dezembro de 1983, que dispõe sobre o Código Tributário do Município de Manaus, o contribuinte da\n\nI. Taxa de Serviços em Cemitérios é o espólio da pessoa a ser ali sepultada.\n\nII. Taxa de Vistoria é o beneficiário dos serviços, desde que se trate de pessoa jurídica, sendo ele o requerente ou não dos serviços.\n\nIII. Taxa de Resíduos Sólidos Domiciliares (TRSD) é o proprietário de bem imóvel situado em local onde o Município disponibilize a coleta dos resíduos sólidos domiciliares.\n\nIV. Taxa de Expediente é o requerente do serviço.\n\nEstá correto o que se afirma em",
+      "alt": {
+        "A": "I, II, III e IV.",
+        "B": "II e III, apenas.",
+        "C": "I, II e III, apenas.",
+        "D": "III e IV, apenas.",
+        "E": "I e IV, apenas."
+      },
+      "gab": "D",
+      "temas": [
+        "tributario.municipais.taxas-contribuicoes",
+        "tributario.obrigacao"
+      ],
+      "dispositivos": [
+        "CTN 77",
+        "CTN 79"
+      ],
+      "exp": "Pelo Código Tributário de Manaus (Lei municipal nº 1.697/1983), o contribuinte da **TRSD** é o **proprietário** do imóvel situado onde o Município disponibiliza a coleta (III), taxa de serviço prestado ou **posto à disposição** (`CTN 77`, `CTN 79`), e o da **Taxa de Expediente** é o **requerente** (IV). A Taxa de Serviços em Cemitérios não tem o espólio do sepultado como contribuinte (I), e a Taxa de Vistoria não restringe o contribuinte a pessoa jurídica (II). Corretas apenas III e IV (D).",
+      "observacoes": [
+        "O texto do Código Tributário de Manaus (Lei municipal nº 1.697/1983) não pôde ser conferido nesta etiquetagem; a explicação dos itens I e II segue o gabarito oficial."
+      ],
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#85",
+      "tipo": "me",
+      "numero": 85,
+      "enunciado": "Determinado Município constitui o crédito tributário relativo ao ITBI por meio de lançamento de ofício. A Fazenda Pública desse Município, por meio de autoridade fiscal municipal, constatou que certo contribuinte do ITBI, pessoa legalmente obrigada a prestar declaração para fins de lançamento do imposto, fê-lo no prazo e na forma da legislação tributária. Instado pela referida autoridade a prestar esclarecimentos a respeito das informações constantes da referida declaração, o contribuinte as prestou de forma insatisfatória, no entender da citada autoridade fiscal. De acordo com o Código Tributário Nacional, a referida autoridade fiscal",
+      "alt": {
+        "A": "poderá efetuar o lançamento do referido tributo, de ofício.",
+        "B": "deverá notificar o contribuinte a proceder ao lançamento por homologação, antecipando o recolhimento do tributo, sem prévio exame da autoridade fiscalizadora.",
+        "C": "poderá inscrever a obrigação tributária em dívida ativa municipal.",
+        "D": "deverá promover a aplicação de penalidade cabível, ficando impedida, porém, de efetuar qualquer lançamento de tributo, em razão da falta de informações satisfatórias a respeito da matéria tributável.",
+        "E": "deverá encerrar os procedimentos de fiscalização e encaminhar o expediente à Procuradoria Fiscal do Município, a fim de que tome as medidas judiciais cabíveis."
+      },
+      "gab": "A",
+      "temas": [
+        "tributario.credito.lancamento",
+        "tributario.municipais.itbi"
+      ],
+      "dispositivos": [
+        "CTN 149 III",
+        "CTN 148",
+        "CTN 201"
+      ],
+      "exp": "Pelo `CTN 149 III`, o lançamento é efetuado **de ofício** quando a pessoa legalmente obrigada, embora tenha prestado a declaração, **não presta satisfatoriamente** os esclarecimentos pedidos, **a juízo da autoridade** (A); o valor pode ainda ser arbitrado (`CTN 148`). O lançamento por homologação não é escolha da autoridade diante do caso (B); só se inscreve em dívida ativa **crédito já constituído** e vencido (`CTN 201`), não a obrigação (C); a falta de informações não impede o lançamento, ao contrário, o autoriza (D); e não cabe remeter à Procuradoria antes de constituído o crédito (E).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "É o `CTN 149 III`: se o declarante **não presta satisfatoriamente** os esclarecimentos pedidos, a juízo da autoridade, o lançamento é feito **de ofício**.",
+        "B": "A modalidade de lançamento decorre da **lei** de cada tributo; diante de esclarecimentos insatisfatórios, o CTN manda lançar **de ofício** (`CTN 149 III`), não transformar o caso em lançamento por homologação.",
+        "C": "Inscreve-se em dívida ativa o **crédito tributário** já constituído e vencido (`CTN 201`), não a obrigação; antes, é preciso o **lançamento**.",
+        "D": "Esclarecimentos insatisfatórios **autorizam** o lançamento de ofício (`CTN 149 III`), com arbitramento se for o caso (`CTN 148`); não o impedem.",
+        "E": "Sem crédito constituído não há o que cobrar em juízo: o CTN manda a autoridade **lançar de ofício** quando os esclarecimentos são insatisfatórios (`CTN 149 III`)."
+      },
+      "pendencias": []
+    }
+  ]
+}

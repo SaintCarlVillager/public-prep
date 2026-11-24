@@ -1,0 +1,468 @@
+{
+  "prova": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019",
+  "textos": {
+    "T1": {
+      "titulo": "Dados para as questões 50 e 51",
+      "texto": "Atenção: Para responder às questões de números 50 e 51, utilize os dados abaixo.\n\nOs dados foram extraídos das demonstrações contábeis de um determinado ente público municipal e são referentes ao exercício financeiro de 2018:\n\nValores em reais\nPrevisão atualizada da receita orçamentária ... 58.700.000.000,00\nReceita orçamentária lançada ... 58.300.000.000,00\nReceita orçamentária arrecadada ... 57.100.000.000,00\nDotação atualizada da despesa orçamentária ... 59.000.000.000,00\nDespesa orçamentária empenhada ... 58.750.000.000,00\nDespesa orçamentária liquidada ... 55.500.000.000,00\nDespesa orçamentária paga ... 53.100.000.000,00\nTransferências financeiras recebidas ... 9.250.000.000,00\nRecebimento de caução depositada como garantia de contratos firmados ... 590.000.000,00\nPagamento de restos a pagar processados ... 5.500.000.000,00\nPagamento de restos a pagar não processados ... 300.000.000,00\nReconhecimento de perdas involuntárias com estoques ... 200.000.000,00\nReconhecimento de reversão de redução a valor recuperável de bens móveis ... 980.000.000,00",
+      "fonte": "FCC, Prefeitura de Manaus (SEMEF), Auditor Fiscal de Tributos Municipais, 2019"
+    }
+  },
+  "questoes": [
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#48",
+      "tipo": "me",
+      "numero": 48,
+      "enunciado": "Considere as informações abaixo referentes à aquisição e à distribuição de 220 mochilas escolares em uma determinada entidade pública municipal.\n\n25/01/2019: empenho da despesa no valor de R$ 11.000,00 referente à aquisição de 220 mochilas escolares.\n05/02/2019: o fornecedor entregou as 220 mochilas escolares e, nesta mesma data, a despesa foi liquidada pelo valor total do empenho.\n19/02/2019: pagamento da despesa referente à aquisição das 220 mochilas escolares pelo valor total do empenho.\n04/03/2019: distribuição das 220 mochilas escolares aos alunos do ensino fundamental de uma escola municipal.\n\nDe acordo com o Manual de Contabilidade Aplicada ao Setor Público, o resultado de execução orçamentária, apurado conforme a Lei nº 4.320/1964, e o resultado patrimonial da entidade pública municipal foram impactados, respectivamente, em",
+      "alt": {
+        "A": "25/01/2019 e 05/02/2019.",
+        "B": "25/01/2019 e 04/03/2019.",
+        "C": "19/02/2019 e 05/02/2019.",
+        "D": "19/02/2019 e 04/03/2019.",
+        "E": "05/02/2019 e 05/02/2019."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.setor-publico.orcamento",
+        "contabilidade.setor-publico.pcasp"
+      ],
+      "dispositivos": [
+        "L4320 35 II"
+      ],
+      "exp": "Pelo regime orçamentário, pertencem ao exercício as despesas nele legalmente **empenhadas** (`L4320 35 II`): o resultado orçamentário é afetado no empenho, em 25/01/2019. Já o resultado patrimonial segue o regime de **competência**: na liquidação as mochilas entram no estoque (fato permutativo: ativo contra passivo), e a variação patrimonial diminutiva só surge quando o estoque é **consumido/distribuído**, em 04/03/2019. Por isso erram as alternativas que ligam o orçamentário ao pagamento (C, D) e o patrimonial à liquidação (A, C, E).",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O resultado orçamentário é afetado no **empenho** (25/01/2019, `L4320 35 II`), mas a liquidação de material de estoque é fato **permutativo** (entra estoque, surge o passivo): o resultado patrimonial só muda na distribuição.",
+        "B": "A despesa orçamentária pertence ao exercício em que foi **empenhada** (`L4320 35 II`), e a VPD do material de estoque só se reconhece na sua **distribuição/consumo**, que baixa o estoque.",
+        "C": "O pagamento não afeta o resultado orçamentário, apurado pelas despesas **empenhadas** (`L4320 35 II`); e a liquidação de material de estoque é **permutativa**, sem efeito no resultado patrimonial.",
+        "D": "A data da distribuição (VPD) está certa, mas o resultado orçamentário considera a despesa **empenhada** (`L4320 35 II`), e não a paga.",
+        "E": "Na liquidação só há troca entre estoque e passivo (fato **permutativo**), e o resultado orçamentário já fora afetado no **empenho** (`L4320 35 II`)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#49",
+      "tipo": "me",
+      "numero": 49,
+      "enunciado": "De acordo com a NBC TSP 04, o estoque de",
+      "alt": {
+        "A": "produto agrícola no ponto de colheita deve ser mensurado pelo valor de custo ou pelo valor justo na data das demonstrações contábeis, dos dois o maior.",
+        "B": "alimentos que será utilizado para a preparação da merenda a ser distribuída gratuitamente em uma escola municipal deve ser mensurado pelo custo histórico ou pelo valor justo na data da demonstração contábil, dos dois o maior.",
+        "C": "produtos a ser distribuído por meio de cesta básica por valor irrisório diretamente cobrado do beneficiário deve ser mensurado pelo preço médio ponderado das compras ou pelo custo de liberação, dos dois o menor.",
+        "D": "medicamentos a ser distribuído gratuitamente à população carente por um ente público deve ser mensurado pelo valor de custo ou pelo custo que o referido ente incorreria para adquirir o mesmo ativo na data da demonstração contábil, dos dois o menor.",
+        "E": "material de serviço postal mantido para venda a preços praticados no mercado deve ser mensurado pelo custo que a entidade pública incorreria para adquirir o mesmo ativo na data da demonstração contábil."
+      },
+      "gab": "D",
+      "temas": [
+        "contabilidade.setor-publico.nbc-tsp"
+      ],
+      "dispositivos": [],
+      "exp": "Pela NBC TSP 04 (Estoques), os estoques mantidos para **distribuição gratuita ou por valor irrisório** são mensurados pelo **menor** valor entre o custo e o **custo corrente de reposição** (o que a entidade incorreria para adquirir o ativo na data das demonstrações): é a (D). Os demais estoques seguem o menor entre custo e **valor realizável líquido**, o que derruba (E). (B) e (C) erram o critério (\"o maior\"; \"custo de liberação\"), e o produto agrícola colhido tem como custo o valor justo menos despesas de venda no ponto de colheita, e não o \"maior\" entre custo e valor justo (A).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Na NBC TSP 04, o produto agrícola colhido é mensurado, no reconhecimento inicial, pelo **valor justo menos despesas de venda no ponto da colheita**, que passa a ser o seu custo; não há regra do \"maior\" entre custo e valor justo.",
+        "B": "Estoque para distribuição gratuita, como a merenda, é mensurado pelo **menor** valor entre o custo e o **custo corrente de reposição** (NBC TSP 04), nunca pelo maior entre custo e valor justo.",
+        "C": "Estoque distribuído por valor irrisório segue o **menor** valor entre o custo e o **custo corrente de reposição** (NBC TSP 04); \"custo de liberação\" não é critério da norma.",
+        "D": "É a regra da NBC TSP 04 para estoques distribuídos **gratuitamente ou por valor irrisório**: o **menor** valor entre o custo e o custo corrente de reposição, isto é, o custo de adquirir o mesmo ativo na data das demonstrações.",
+        "E": "Estoque mantido para venda a preços de mercado é mensurado pelo **menor** valor entre o custo e o **valor realizável líquido** (NBC TSP 04); o custo corrente de reposição só vale para distribuição gratuita ou por valor irrisório."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#50",
+      "tipo": "me",
+      "numero": 50,
+      "texto": "T1",
+      "enunciado": "O resultado financeiro evidenciado no balanço financeiro referente ao ano de 2018 foi positivo, em reais, em",
+      "alt": {
+        "A": "7.450.000.000,00.",
+        "B": "9.240.000.000,00.",
+        "C": "2.390.000.000,00.",
+        "D": "6.860.000.000,00.",
+        "E": "8.040.000.000,00."
+      },
+      "gab": "E",
+      "temas": [
+        "contabilidade.setor-publico.demonstracoes"
+      ],
+      "dispositivos": [
+        "L4320 103",
+        "L4320 103 p.ú."
+      ],
+      "exp": "O resultado financeiro do Balanço Financeiro é **ingressos − dispêndios**. Ingressos: receita arrecadada 57.100 + transferências recebidas 9.250 + caução recebida 590 + inscrição de restos a pagar (empenhada − paga = 58.750 − 53.100 = 5.650, computada como ingresso extraorçamentário, `L4320 103 p.ú.`) = 72.590 milhões. Dispêndios: despesa empenhada 58.750 + RP processados pagos 5.500 + RP não processados pagos 300 = 64.550 milhões. Resultado: 72.590 − 64.550 = **8.040.000.000,00**. Perdas com estoques e reversão de redução ao valor recuperável são variações patrimoniais sem efeito no caixa e ficam fora da conta.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "O resultado do Balanço Financeiro é ingressos (72.590 milhões, incluídos caução e **inscrição de restos a pagar** de 5.650, `L4320 103 p.ú.`) menos dispêndios (64.550 milhões): **8.040 milhões**.",
+        "B": "Ingressos de 72.590 milhões (com caução e **inscrição de RP**, `L4320 103 p.ú.`) menos dispêndios de 64.550 milhões (empenhada e RP pagos) dão **8.040 milhões**.",
+        "C": "Ingressos de 72.590 milhões menos dispêndios de 64.550 milhões dão **8.040 milhões**; perdas de estoque e reversões de impairment não são fluxos de caixa e ficam fora.",
+        "D": "Ingressos (arrecadada, transferências recebidas, caução e **inscrição de RP**, `L4320 103 p.ú.`) de 72.590 milhões menos dispêndios de 64.550 milhões dão **8.040 milhões**.",
+        "E": "Conta: (57.100 + 9.250 + 590 + 5.650 de **inscrição de RP**) − (58.750 + 5.500 + 300) = 72.590 − 64.550 = **8.040 milhões**; o resultado financeiro equivale à variação do caixa."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#51",
+      "tipo": "me",
+      "numero": 51,
+      "texto": "T1",
+      "enunciado": "O resultado de execução orçamentária, apurado conforme a Lei nº 4.320/1964, referente ao exercício financeiro de 2018 foi",
+      "alt": {
+        "A": "deficitário em R$ 2.830.000.000,00.",
+        "B": "deficitário em R$ 1.650.000.000,00.",
+        "C": "superavitário em R$ 1.240.000.000,00.",
+        "D": "superavitário em R$ 11.440.000.000,00.",
+        "E": "superavitário em R$ 8.190.000.000,00."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.setor-publico.orcamento"
+      ],
+      "dispositivos": [
+        "L4320 35"
+      ],
+      "exp": "Pelo regime orçamentário da Lei 4.320, pertencem ao exercício as receitas **arrecadadas** e as despesas **empenhadas** (`L4320 35`). Resultado: 57.100.000.000 − 58.750.000.000 = −1.650.000.000, **déficit de R$ 1.650.000.000,00**. Previsão, dotação, despesa liquidada ou paga, transferências financeiras, caução e restos a pagar não entram nessa apuração.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "O resultado orçamentário é receita **arrecadada** menos despesa **empenhada** (`L4320 35`): 57.100 − 58.750 = **déficit de 1.650 milhões**.",
+        "B": "Receita **arrecadada** (57.100 milhões) menos despesa **empenhada** (58.750 milhões), pelo regime do `L4320 35`, dá **déficit de 1.650 milhões**.",
+        "C": "Houve **déficit**: receita arrecadada de 57.100 milhões contra despesa **empenhada** de 58.750 milhões (`L4320 35`), diferença de 1.650 milhões.",
+        "D": "Transferências financeiras não são receita orçamentária; arrecadada (57.100) menos **empenhada** (58.750) dá **déficit** de 1.650 milhões (`L4320 35`).",
+        "E": "O resultado orçamentário compara arrecadada com **empenhada** (`L4320 35`), não com a despesa paga: 57.100 − 58.750 = **déficit** de 1.650 milhões."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#52",
+      "tipo": "me",
+      "numero": 52,
+      "enunciado": "No que se refere às demonstrações contábeis de um determinado ente público, o Manual de Contabilidade Aplicada ao Setor Público determina que o valor",
+      "alt": {
+        "A": "do passivo mantido essencialmente para a finalidade de ser negociado deve ser classificado como passivo não circulante no Balanço Financeiro do referido ente.",
+        "B": "da obtenção de uma operação de crédito por antecipação da receita orçamentária deve ser evidenciado como receita de capital arrecadada no Balanço Orçamentário do referido ente.",
+        "C": "da inscrição em restos a pagar processados deve ser evidenciado em ingressos extraorçamentários no Balanço Financeiro do referido ente.",
+        "D": "da despesa empenhada com a aquisição de material de limpeza deve ser evidenciado como variação patrimonial diminutiva na Demonstração do Resultado do Exercício do referido ente.",
+        "E": "dos passivos contingentes deve ser reconhecido no passivo circulante do Balanço Patrimonial do referido ente."
+      },
+      "gab": "C",
+      "temas": [
+        "contabilidade.setor-publico.demonstracoes"
+      ],
+      "dispositivos": [
+        "L4320 103 p.ú.",
+        "L4320 3 p.ú."
+      ],
+      "exp": "No Balanço Financeiro, os restos a pagar inscritos no exercício são computados como **ingresso extraorçamentário**, para compensar a sua inclusão na despesa orçamentária (`L4320 103 p.ú.`): é a (C). (A) erra a demonstração e a classificação (passivo mantido para negociação é **circulante**, no Balanço Patrimonial); a operação de crédito por **antecipação de receita** não é receita orçamentária (`L4320 3 p.ú.`), o que derruba (B); o empenho não gera VPD, que ocorre no consumo, e o setor público usa a **DVP**, não a DRE (D); passivo contingente **não é reconhecido**, só divulgado em notas explicativas (E).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Passivo mantido essencialmente para negociação é classificado como **circulante**, e essa classificação é feita no **Balanço Patrimonial**, não no Balanço Financeiro.",
+        "B": "A operação de crédito por **antecipação da receita** (ARO) não é receita orçamentária (`L4320 3 p.ú.`): é ingresso **extraorçamentário**.",
+        "C": "Os restos a pagar inscritos são computados como **ingresso extraorçamentário** no Balanço Financeiro, para compensar sua inclusão na despesa orçamentária (`L4320 103 p.ú.`).",
+        "D": "O empenho não gera variação patrimonial diminutiva: o material de limpeza vira estoque e a **VPD** surge no **consumo**, evidenciada na DVP (o setor público não usa DRE).",
+        "E": "Passivos contingentes **não são reconhecidos** no Balanço Patrimonial; são apenas **divulgados** em notas explicativas, salvo se remota a saída de recursos."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#53",
+      "tipo": "me",
+      "numero": 53,
+      "enunciado": "Um processo judicial foi instaurado contra determinado ente público municipal em 21/11/2017. Nesta mesma data, o departamento jurídico classificou como provável a probabilidade de saída de recursos para liquidar a obrigação, cujo valor foi estimado em R$ 550.000,00. Em 09/10/2018, após decisão judicial referente ao processo instaurado em 21/11/2017, o referido ente público ficou obrigado a liquidar a obrigação em 18/01/2019, entretanto, o valor total a ser pago foi fixado em R$ 570.000,00. Desse modo, de acordo com o Manual de Contabilidade Aplicada ao Setor Público, em 09/10/2018, a decisão judicial deu origem a uma variação patrimonial diminutiva no valor de, em reais,",
+      "alt": {
+        "A": "570.000,00, em uma classe pertencente à natureza da informação de resultado do Plano de Contas Aplicado ao Setor Público.",
+        "B": "20.000,00, em uma classe pertencente à natureza da informação de resultado do Plano de Contas Aplicado ao Setor Público.",
+        "C": "570.000,00, em uma classe pertencente à natureza da informação orçamentária do Plano de Contas Aplicado ao Setor Público.",
+        "D": "20.000,00, em uma classe pertencente à natureza da informação orçamentária do Plano de Contas Aplicado ao Setor Público.",
+        "E": "20.000,00, em uma classe pertencente à natureza da informação patrimonial do Plano de Contas Aplicado ao Setor Público."
+      },
+      "gab": "E",
+      "temas": [
+        "contabilidade.setor-publico.nbc-tsp",
+        "contabilidade.setor-publico.pcasp"
+      ],
+      "dispositivos": [],
+      "exp": "Com saída de recursos **provável** e valor estimável, a provisão de R$ 550.000,00 foi reconhecida em 21/11/2017, já com VPD. Em 09/10/2018 a obrigação foi fixada em R$ 570.000,00, e só a **diferença** é nova VPD: 570.000 − 550.000 = **R$ 20.000,00**. A VPD fica na classe 3 do PCASP, que pertence à natureza de informação **patrimonial** (classes 1 a 4); o PCASP só tem as naturezas patrimonial, orçamentária (5 e 6) e de controle (7 e 8), não existe \"natureza de resultado\".",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": true
+      },
+      "exp_alt": {
+        "A": "A VPD de 550.000 já foi reconhecida com a **provisão** em 2017; em 2018 só se reconhece a **diferença** de 20.000, na classe 3, de natureza **patrimonial**.",
+        "B": "O valor de 20.000 está certo, mas o PCASP não tem natureza \"de resultado\": a VPD fica na classe 3, de natureza **patrimonial**.",
+        "C": "A **provisão** de 2017 já registrou 550.000 de VPD, e VPD é conta de natureza **patrimonial**, não orçamentária.",
+        "D": "A VPD de 20.000 é registrada na classe 3 do PCASP, de natureza **patrimonial**; a natureza orçamentária abrange as classes 5 e 6.",
+        "E": "Como a provisão de 550.000 já foi reconhecida em 2017, a decisão gera só a **diferença** de 20.000 de VPD, na classe 3, de natureza **patrimonial**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#54",
+      "tipo": "me",
+      "numero": 54,
+      "enunciado": "No Plano de Contas Aplicado ao Setor Público de um determinado ente público, as contas “Execução dos Atos Potenciais Ativos”, “Execução da Receita” e “Adiantamentos a Fornecedores” pertencem, respectivamente, às classes",
+      "alt": {
+        "A": "7, 5 e 2.",
+        "B": "8, 5 e 1.",
+        "C": "7, 6 e 2.",
+        "D": "8, 6 e 1.",
+        "E": "7, 5 e 1."
+      },
+      "gab": "D",
+      "temas": [
+        "contabilidade.setor-publico.pcasp"
+      ],
+      "dispositivos": [],
+      "exp": "No PCASP, a classe 7 (Controles Devedores) registra os atos potenciais, e a classe 8 (Controles Credores) registra a sua **execução**: \"Execução dos Atos Potenciais\" é da classe **8**. A classe 5 traz o planejamento e a 6 a **execução** do orçamento: \"Execução da Receita\" é da classe **6**. \"Adiantamentos a Fornecedores\" é direito da entidade, do **Ativo** (classe **1**). Logo, 8, 6 e 1.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A execução dos atos potenciais fica na classe **8** (controles credores) e a execução da receita na classe **6**; adiantamento a fornecedor é **ativo**, classe 1.",
+        "B": "\"Execução da Receita\" é conta de **execução** orçamentária, classe **6**; a classe 5 registra a aprovação/previsão do orçamento.",
+        "C": "A classe 7 registra os atos potenciais; a sua **execução** vai para a classe **8**. E adiantamento a fornecedor é **ativo** (classe 1), não passivo.",
+        "D": "É a classificação do PCASP: execução dos atos potenciais na classe **8** (controles credores), execução da receita na classe **6** (execução orçamentária) e adiantamentos a fornecedores no **Ativo**, classe 1.",
+        "E": "Só o adiantamento (classe 1, **ativo**) está certo: a execução dos atos potenciais é da classe **8** e a execução da receita, da classe **6**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#55",
+      "tipo": "me",
+      "numero": 55,
+      "enunciado": "De acordo com a NBC TSP 12, os fluxos de caixa decorrentes das atividades operacionais são basicamente derivados",
+      "alt": {
+        "A": "das principais atividades geradoras de caixa de uma entidade, como são os recebimentos de caixa pela venda de mercadorias e pela prestação de serviços.",
+        "B": "da aquisição e da venda de ativos permanentes, como são os pagamentos em caixa para a compra de veículos e terrenos.",
+        "C": "da mudança no tamanho e na composição do endividamento de uma entidade, como são as amortizações de empréstimos e financiamentos contraídos.",
+        "D": "das atividades primárias e secundárias geradoras de caixa de uma entidade, como são os recebimentos de caixa provenientes da emissão de notas promissórias.",
+        "E": "das saídas de caixa que resultam no reconhecimento de um ativo nas demonstrações contábeis de uma entidade, como são os custos de desenvolvimento ativados e ativos imobilizados de construção própria."
+      },
+      "gab": "A",
+      "temas": [
+        "contabilidade.setor-publico.demonstracoes"
+      ],
+      "dispositivos": [],
+      "exp": "A NBC TSP 12 (Demonstração dos Fluxos de Caixa) diz que os fluxos das atividades **operacionais** derivam basicamente das **principais atividades geradoras de caixa** da entidade, como recebimentos pela venda de bens e prestação de serviços: é a (A). Compra e venda de ativos de longo prazo e as saídas que resultam no reconhecimento de ativo são atividades de **investimento** (B, E); a mudança no endividamento e a emissão de notas promissórias são atividades de **financiamento** (C, D).",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pela NBC TSP 12, os fluxos **operacionais** derivam das **principais atividades geradoras de caixa** da entidade, como os recebimentos pela venda de mercadorias e pela prestação de serviços.",
+        "B": "Aquisição e venda de ativos de longo prazo, como veículos e terrenos, são fluxos das atividades de **investimento**, não operacionais (NBC TSP 12).",
+        "C": "Fluxos ligados ao tamanho e à composição do endividamento, como amortização de empréstimos, são atividades de **financiamento** (NBC TSP 12).",
+        "D": "A emissão de notas promissórias é atividade de **financiamento**, e a norma fala nas **principais** atividades geradoras de caixa, não em \"primárias e secundárias\".",
+        "E": "Só as saídas de caixa que resultam em ativo reconhecido, como desenvolvimento ativado e imobilizado de construção própria, são atividades de **investimento** (NBC TSP 12)."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#56",
+      "tipo": "me",
+      "numero": 56,
+      "enunciado": "A Cia. Só Rolos produz quatro tipos de rolos: A, B, C e D. As informações referentes a cada tipo são apresentadas abaixo.\n\n[Tabela — colunas: Produtos | A | B | C | D; Preço de venda (unitário): $ 90 | $ 90 | $ 90 | $ 90; Custos variáveis (unitário): $ 22 | $ 25 | $ 24 | $ 16; Custos fixos (unitário): $ 16 | $ 13 | $ 18 | $ 17; Despesas variáveis (unitário): $ 6 | $ 2 | $ 6 | $ 8; Despesas fixas (unitário): $ 3 | $ 1 | $ 3 | $ 4]\n\nOs custos fixos são comuns aos quatro tipos de rolos e alocados com base nos volumes produzidos. As despesas fixas são alocadas em função das despesas variáveis unitárias. Sabendo que a empresa tem recursos limitados para investir em propaganda e que o objetivo é a maximização do lucro, a ordem de prioridade em que os produtos devem ter sua venda incentivada é",
+      "alt": {
+        "A": "D, A, C e B.",
+        "B": "D, B, A e C.",
+        "C": "D, A, B e C.",
+        "D": "B, D, A e C.",
+        "E": "B, A, D e C."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.custos"
+      ],
+      "dispositivos": [],
+      "exp": "Custos e despesas fixos são comuns e rateados arbitrariamente, então não devem orientar a decisão: incentiva-se primeiro o produto de maior **margem de contribuição unitária** (preço − custos variáveis − despesas variáveis). A: 90 − 22 − 6 = 62; B: 90 − 25 − 2 = 63; C: 90 − 24 − 6 = 60; D: 90 − 16 − 8 = 66. Ordem: **D (66), B (63), A (62), C (60)**. As outras ordens usam o lucro após o rateio dos fixos ou esquecem as despesas variáveis.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "Pela **margem de contribuição unitária** (preço − custos e despesas variáveis), B (63) vem antes de A (62): D 66, B 63, A 62, C 60.",
+        "B": "É a ordem decrescente da **margem de contribuição unitária**: D 66 (90 − 16 − 8), B 63, A 62, C 60; os fixos rateados não entram na decisão.",
+        "C": "B tem **margem de contribuição** de 63 (90 − 25 − 2), maior que a de A (62): a ordem é D, B, A, C.",
+        "D": "D tem a maior **margem de contribuição unitária** (90 − 16 − 8 = 66), à frente de B (63): a ordem é D, B, A, C.",
+        "E": "D tem a maior **margem de contribuição unitária** (66) e C a menor (60); a ordem correta é D, B, A, C."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#57",
+      "tipo": "me",
+      "numero": 57,
+      "enunciado": "A Cia. Gira Gira, ao analisar o processo de produção e venda de seu único produto no mês de abril de 2019, obteve as seguintes informações:\n\nCustos fixos: R$ 650.000,00\nCustos variáveis: R$ 50,00 por unidade\nDespesas fixas: R$ 100.000,00\nDespesas variáveis: R$ 25,00 por unidade\nPreço bruto de venda: R$ 200,00 por unidade\nComissões de venda: 5% do preço bruto de venda\nImpostos sobre a Venda: 10% da receita bruta de vendas\n\nSabendo que não havia estoques no início de abril de 2019, que a Cia. Gira Gira produziu integralmente 5.000 unidades nesse mês e utiliza o método de custeio por absorção, o custo unitário da produção de abril de 2019 foi, em reais,",
+      "alt": {
+        "A": "50,00.",
+        "B": "130,00.",
+        "C": "180,00.",
+        "D": "200,00.",
+        "E": "190,00."
+      },
+      "gab": "C",
+      "temas": [
+        "contabilidade.custos"
+      ],
+      "dispositivos": [],
+      "exp": "No custeio por **absorção**, o custo de produção inclui custos variáveis e **fixos**, mas não as despesas (fixas, variáveis, comissões), que vão direto ao resultado. Custo unitário = 50 + 650.000 ÷ 5.000 = 50 + 130 = **R$ 180,00**. (A) é só o custo variável (custeio variável), (B) só o fixo unitário e (D) é o preço de venda.",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": true,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "R$ 50,00 é só o custo variável; no custeio por **absorção** soma-se o custo fixo unitário (650.000 ÷ 5.000 = 130): **R$ 180,00**.",
+        "B": "R$ 130,00 é só o custo fixo unitário; a **absorção** soma o custo variável de 50: **R$ 180,00**.",
+        "C": "No custeio por **absorção**: 50 de custo variável + 650.000 ÷ 5.000 = 130 de custo fixo = **R$ 180,00**; despesas e comissões não integram o custo de produção.",
+        "D": "R$ 200,00 é o preço de venda; o custo de produção por **absorção** é 50 + 130 = **R$ 180,00**.",
+        "E": "Despesas não integram o custo de produção: por **absorção**, o custo unitário é 50 + 650.000 ÷ 5.000 = **R$ 180,00**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#58",
+      "tipo": "me",
+      "numero": 58,
+      "enunciado": "A indústria Só Batuque, para produzir seu único produto, incorreu nos seguintes gastos:\n\nCustos fixos: R$ 175.000,00\nCustos variáveis:\nMatéria-prima: R$ 12,00/unidade\nMão de obra direta: R$ 3,00/unidade\nDespesas fixas: R$ 25.000,00\nDespesas variáveis: R$ 3,00/unidade\nComissões de venda: 5% do preço de venda\n\nInformações adicionais:\nPreço de venda: R$ 80,00/unidade\nImpostos sobre a Venda: 10% da receita de vendas\n\nCom base nestas informações e sabendo que a empresa deseja obter um lucro de R$ 100.000,00 e que adota o custeio por absorção, o ponto de equilíbrio econômico da indústria Só Batuque, em unidades, é",
+      "alt": {
+        "A": "6.000.",
+        "B": "4.000.",
+        "C": "3.500.",
+        "D": "5.660.",
+        "E": "5.500."
+      },
+      "gab": "A",
+      "temas": [
+        "contabilidade.custos"
+      ],
+      "dispositivos": [],
+      "exp": "Margem de contribuição unitária = 80 − 12 − 3 − 3 − 4 (comissão de 5%) − 8 (impostos de 10%) = **R$ 50,00**. Ponto de equilíbrio **econômico** = (custos fixos + despesas fixas + lucro desejado) ÷ MCu = (175.000 + 25.000 + 100.000) ÷ 50 = **6.000 unidades**. O ponto de equilíbrio contábil, sem o lucro, seria 200.000 ÷ 50 = 4.000 (B); o método de custeio não muda a conta.",
+      "vf": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "MCu = 80 − 12 − 3 − 3 − 4 − 8 = 50; PE **econômico** = (175.000 + 25.000 + 100.000) ÷ 50 = **6.000 unidades**.",
+        "B": "4.000 unidades é o ponto de equilíbrio **contábil** (200.000 ÷ 50); o **econômico** soma o lucro desejado: 300.000 ÷ 50 = **6.000**.",
+        "C": "Com MCu de 50 (80 menos custos, despesas, comissões e impostos variáveis), o PE **econômico** é (200.000 + 100.000) ÷ 50 = **6.000 unidades**.",
+        "D": "O PE **econômico** é (fixos 200.000 + lucro 100.000) ÷ MCu 50 = **6.000 unidades**; a MCu desconta a comissão (4) e os impostos (8).",
+        "E": "Pela fórmula do PE **econômico**, (175.000 + 25.000 + 100.000) ÷ 50 = **6.000 unidades**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#59",
+      "tipo": "me",
+      "numero": 59,
+      "enunciado": "A Cia. Só Máquinas, ao analisar o desempenho operacional de seu setor produtivo, obteve as informações abaixo.\n\n[Quadro — Custo-padrão: Matéria-prima | 3 kg/unidade | R$ 10,00/kg | R$ 30,00/unidade. Custos reais: Matéria-prima | 3,1 kg/unidade | R$ 11,00/kg | R$ 34,10/unidade]\n\nCom base nas informações acima, a variação",
+      "alt": {
+        "A": "do preço da matéria-prima por unidade foi R$ 1,00 desfavorável.",
+        "B": "de preço da matéria-prima por unidade foi R$ 3,00 desfavorável.",
+        "C": "da quantidade de matéria-prima por unidade foi R$ 1,00 favorável.",
+        "D": "mista (devida ao preço e à quantidade) por unidade foi R$ 1,10 desfavorável.",
+        "E": "do preço da matéria-prima por unidade foi R$ 4,10 desfavorável."
+      },
+      "gab": "B",
+      "temas": [
+        "contabilidade.custos"
+      ],
+      "dispositivos": [],
+      "exp": "Variação total: 34,10 − 30,00 = 4,10 desfavorável. Decompondo: **preço** = (11 − 10) × 3 kg padrão = **R$ 3,00 desfavorável** (B); **quantidade** = (3,1 − 3) × 10 = R$ 1,00 **desfavorável** (consumiu mais que o padrão), o que derruba (C); **mista** = 0,1 × 1 = R$ 0,10 desfavorável (D). (A) traz o valor da variação de quantidade e (E), a variação total.",
+      "vf": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "A variação de **preço** é (11 − 10) × 3 kg = **R$ 3,00** desfavorável por unidade; R$ 1,00 é a variação de quantidade.",
+        "B": "Variação de **preço** = (preço real − preço padrão) × quantidade padrão = (11 − 10) × 3 = **R$ 3,00**, desfavorável porque o preço real superou o padrão.",
+        "C": "A variação de quantidade é (3,1 − 3) × 10 = R$ 1,00, mas **desfavorável**: consumiu-se mais matéria-prima que o padrão.",
+        "D": "A variação **mista** é (3,1 − 3) × (11 − 10) = **R$ 0,10** desfavorável por unidade.",
+        "E": "R$ 4,10 é a variação **total** (34,10 − 30,00); a de preço é (11 − 10) × 3 = **R$ 3,00**."
+      },
+      "pendencias": []
+    },
+    {
+      "id": "fcc/manaus/auditor-fiscal-de-tributos-municipais/2019#60",
+      "tipo": "me",
+      "numero": 60,
+      "enunciado": "A Cia. Construções produz os produtos A, B e C utilizando um único departamento. Ao analisar a produção ocorrida no mês de janeiro de 2019, a Cia. obteve as informações abaixo.\n\n[Tabela — colunas: Produto | Matéria-prima | Mão de obra direta | Quantidade total produzida | Preço de venda | Horas de mão de obra direta; A: $ 80/unidade | $ 100/unidade | 1.000 | $ 300/unidade | 1,2h/unidade; B: $ 90/unidade | $ 100/unidade | 2.000 | $ 250/unidade | 1,5h/unidade; C: $ 100/unidade | $ 70/unidade | 1.000 | $ 350/unidade | 1,3h/unidade]\n\nSabe-se que a Cia. Construções utiliza o custeio por absorção, que os custos indiretos totais incorridos no mês de janeiro de 2019 foram R$ 165.000,00, os quais são alocados aos produtos em função da quantidade de horas de mão de obra direta total utilizada. Com base nestas informações e sabendo que não havia estoques iniciais e finais de produtos em processo, o custo unitário de produção do mês de janeiro de 2019 foi",
+      "alt": {
+        "A": "180,00 para o produto A.",
+        "B": "190,00 para o produto B.",
+        "C": "203,00 para o produto C.",
+        "D": "216,00 para o produto A.",
+        "E": "200,00 para o produto C."
+      },
+      "gab": "D",
+      "temas": [
+        "contabilidade.custos"
+      ],
+      "dispositivos": [],
+      "exp": "Horas totais: A 1,2 × 1.000 = 1.200; B 1,5 × 2.000 = 3.000; C 1,3 × 1.000 = 1.300; total 5.500 h. Taxa = 165.000 ÷ 5.500 = **R$ 30/h**. Custo unitário por **absorção** = MP + MOD + CI: A = 80 + 100 + 1,2 × 30 = **216** (D); B = 90 + 100 + 45 = 235; C = 100 + 70 + 39 = 209. (A) e (B) omitem os custos indiretos; (C) e (E) não batem com a conta de C (209).",
+      "vf": {
+        "A": false,
+        "B": false,
+        "C": false,
+        "D": true,
+        "E": false
+      },
+      "exp_alt": {
+        "A": "R$ 180 é só MP + MOD de A; por **absorção** somam-se os indiretos (1,2 h × R$ 30/h = 36): **R$ 216**.",
+        "B": "B custa 90 + 100 + 1,5 × 30 = **R$ 235** por **absorção**; R$ 190 omite os custos indiretos.",
+        "C": "Com taxa de R$ 30/h (165.000 ÷ 5.500 h), C custa 100 + 70 + 1,3 × 30 = **R$ 209**.",
+        "D": "Taxa de indiretos = 165.000 ÷ 5.500 h = R$ 30/h; A custa 80 + 100 + 1,2 × 30 = **R$ 216** por **absorção**.",
+        "E": "C custa 100 + 70 + 1,3 h × R$ 30/h = **R$ 209**; os indiretos são rateados pelas **horas de MOD** (5.500 h no total)."
+      },
+      "pendencias": []
+    }
+  ]
+}
