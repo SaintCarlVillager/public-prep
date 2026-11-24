@@ -97,6 +97,28 @@
     {
       "id": "contabilidade.custos",
       "nome": "Contabilidade de custos"
+    },
+    {
+      "id": "contabilidade.setor-publico",
+      "nome": "Contabilidade aplicada ao setor público",
+      "filhos": [
+        {
+          "id": "contabilidade.setor-publico.orcamento",
+          "nome": "Receita e despesa orçamentária (Lei 4.320 e MCASP)"
+        },
+        {
+          "id": "contabilidade.setor-publico.pcasp",
+          "nome": "PCASP e lançamentos"
+        },
+        {
+          "id": "contabilidade.setor-publico.demonstracoes",
+          "nome": "Demonstrações contábeis aplicadas ao setor público"
+        },
+        {
+          "id": "contabilidade.setor-publico.nbc-tsp",
+          "nome": "NBC TSP: reconhecimento e mensuração de ativos e passivos"
+        }
+      ]
     }
   ]
 }
