@@ -341,6 +341,7 @@ function SimuladoDoEdital({ base, p, ed, bloqueado }: { base: Base; p: Progresso
             );
           })}
         </List>
+        {ed.provisorio && <Banner status="info" title="Edital provisório" description={ed.provisorio} collapsible={false} />}
         <VStack gap={1.5}>
           <Text as="p" textWrap="pretty">
             <Text weight="semibold">{montadas} questões</Text>

@@ -35,8 +35,9 @@ export function ativos(b: Base, p: Progresso): Edital[] {
   // Ids de editais que saíram do catálogo não contam; se nenhum dos escolhidos existe mais, valem todos.
   const escolhidos = p.config.editais_ativos?.filter((id) => vig.some((e) => e.id === id));
   const ids = p.config.editais_ativos?.length && !escolhidos?.length ? undefined : escolhidos;
+  // Sem escolha feita, valem os editais publicados; o provisório só entra quando marcado em Ajustes.
   return vig
-    .filter((e) => !ids || ids.includes(e.id))
+    .filter((e) => (ids ? ids.includes(e.id) : !e.provisorio))
     .sort((x, y) => (x.prova ?? "").localeCompare(y.prova ?? ""));
 }
 

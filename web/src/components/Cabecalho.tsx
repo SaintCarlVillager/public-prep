@@ -40,7 +40,8 @@ export function Cabecalho() {
   const eds = base ? ativos(base, progresso) : [];
   const porBanca: Record<string, string[]> = {};
   for (const e of eds) (porBanca[e.banca ?? "—"] ??= []).push(base!.rotulo(e));
-  const prazos = eds.filter((e) => e.prova);
+  // Data estimada de edital provisório não vira contagem regressiva.
+  const prazos = eds.filter((e) => e.prova && !e.provisorio);
 
   return (
     <header className="band">
