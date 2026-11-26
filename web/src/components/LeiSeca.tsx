@@ -17,8 +17,15 @@ import type { ArtigoLei } from "~/lib/tipos";
 export const linkArtigo = (sigla: string, art?: string) =>
   `/lei?n=${encodeURIComponent(sigla)}${art ? `#a-${encodeURIComponent(art)}` : ""}`;
 
+/** Link da versão para impressão (PDF) da lei seca de um bloco do edital; `imprimir=1` já abre a janela de impressão. */
+export const linkImpressao = (edital: string, bloco: string) =>
+  `/lei/imprimir?e=${encodeURIComponent(edital)}&b=${encodeURIComponent(bloco)}&imprimir=1`;
+
+/** Título do bloco: "Bloco II · Conhecimentos Específicos" quando o id é romano; senão, só o nome. */
+export const nomeBloco = (b: { id: string; nome: string }) => (/^[IVX]+$/.test(b.id) ? `Bloco ${b.id} · ${b.nome}` : b.nome);
+
 /** Rótulo do artigo no começo da linha: "Art. 246.", "Artigo 1º -", "Art. 1.015". */
-const ROTULO = /^\s*Art(?:igo|\.)\s*[\d.]+\s*[º°o]?(?:\s*[-–]\s*[A-Z]{1,2}\b)?\.?/;
+export const ROTULO = /^\s*Art(?:igo|\.)\s*[\d.]+\s*[º°o]?(?:\s*[-–]\s*[A-Z]{1,2}\b)?\.?/;
 
 /** Texto do artigo, uma linha por dispositivo (caput, parágrafos, incisos). Texto de leitura em Literata (.lei-texto). */
 export function TextoArtigo({ artigo }: { artigo: ArtigoLei }) {

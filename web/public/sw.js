@@ -17,7 +17,7 @@
 const VERSAO = new URL(self.location.href).searchParams.get("v") || "dev";
 const APP = `serventia-app-${VERSAO}`;
 const DADOS = "serventia-dados";
-const TELAS = ["/", "/sessao", "/revisoes", "/treino", "/simulados", "/banco", "/lei", "/ajustes"];
+const TELAS = ["/", "/sessao", "/revisoes", "/treino", "/simulados", "/banco", "/lei", "/lei/imprimir", "/ajustes"];
 const FIXOS = ["/manifest.webmanifest", "/icon.svg", "/icones/icone-192.png", "/icones/icone-512.png"];
 
 /** Endereço da tela sem consulta nem barra final: /lei?n=CF e /lei/ dão a mesma página estática. */

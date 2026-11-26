@@ -125,6 +125,29 @@ export function useLei(sigla: string | null): { lei: LeiCarregada | null; erro?:
   return res.sigla === sigla ? res : { lei: null };
 }
 
+/** Carrega várias leis em paralelo; `leis` vai enchendo conforme cada uma chega. */
+export function useLeis(siglas: string[]): { leis: Record<string, LeiCarregada>; erros: string[]; prontas: boolean } {
+  const chave = siglas.join("|");
+  const [res, setRes] = useState<{ chave: string; leis: Record<string, LeiCarregada>; erros: string[] }>({
+    chave: "",
+    leis: {},
+    erros: [],
+  });
+  useEffect(() => {
+    let vivo = true;
+    setRes({ chave, leis: {}, erros: [] });
+    for (const s of chave ? chave.split("|") : [])
+      carregarLei(s)
+        .then((lei) => vivo && setRes((r) => ({ ...r, leis: { ...r.leis, [s]: lei } })))
+        .catch(() => vivo && setRes((r) => ({ ...r, erros: [...r.erros, s] })));
+    return () => {
+      vivo = false;
+    };
+  }, [chave]);
+  const atual = res.chave === chave ? res : { leis: {}, erros: [] };
+  return { ...atual, prontas: Object.keys(atual.leis).length + atual.erros.length === siglas.length };
+}
+
 /** Carrega as provas indicadas; devolve null enquanto carrega. */
 export function useProvas(slugs: string[]): { provas: Record<string, ProvaCarregada> | null; erro?: string } {
   const chave = useMemo(() => [...new Set(slugs)].sort().join(","), [slugs]);

@@ -40,6 +40,63 @@ export function intervaloCobre(intervalo: string, artigo: string | Artigo): bool
   return cmpArtigo(art, ini) >= 0 && cmpArtigo(art, fim) <= 0;
 }
 
+/* ---------- lei seca impressa ---------- */
+
+/** Número do artigo como se lê na lei: "1" → "1º", "1015" → "1.015", "396-A" → "396-A", "1-A" → "1º-A". */
+export function rotuloArt(art: string): string {
+  const m = /^(\d+)(-[A-Z]{1,2})?$/.exec(String(art).trim());
+  if (!m?.[1]) return art;
+  const n = Number(m[1]);
+  return (n < 10 ? `${n}º` : String(n).replace(/\B(?=(\d{3})+$)/g, ".")) + (m[2] ?? "");
+}
+
+const RE_INTERVALO = /^(\d+(?:-[A-Z]{1,2})?)(?:-(\d+(?:-[A-Z]{1,2})?))?$/;
+
+/** Título de um intervalo do edital: "1-12" → "Arts. 1º a 12"; "129" → "Art. 129"; "*" → "Íntegra". */
+export function rotuloIntervalo(iv: string): string {
+  if (iv === "*") return "Íntegra";
+  const m = RE_INTERVALO.exec(String(iv).trim());
+  if (!m?.[1]) return iv;
+  return m[2] ? `Arts. ${rotuloArt(m[1])} a ${rotuloArt(m[2])}` : `Art. ${rotuloArt(m[1])}`;
+}
+
+/** O que o edital cobra de uma norma, em texto: "artigos 1º a 12; 129" ou "íntegra". */
+export function recorteNorma(ints: string[]): string {
+  if (ints.includes("*")) return "íntegra";
+  const partes = ints.map((iv) => {
+    const m = RE_INTERVALO.exec(String(iv).trim());
+    return !m?.[1] ? iv : m[2] ? `${rotuloArt(m[1])} a ${rotuloArt(m[2])}` : rotuloArt(m[1]);
+  });
+  const varios = ints.length > 1 || partes.some((p) => p.includes(" a "));
+  return `${varios ? "artigos" : "artigo"} ${partes.join("; ")}`;
+}
+
+/** Recuo de uma linha da lei: inciso ("I -", "IV –"), alínea ("a)") ou item ("1.", "1)"); o resto fica na margem. */
+export function nivelLinha(linha: string): 0 | 1 | 2 | 3 {
+  const l = linha.trimStart();
+  if (/^[IVXLC]+\s*[-–—]/.test(l)) return 1;
+  if (/^[a-z]\)/.test(l)) return 2;
+  if (/^\d{1,2}(?:\)|\.\s)/.test(l) && !/^\d+\.\d/.test(l)) return 3;
+  return 0;
+}
+
+const RE_NOTA =
+  /reda[çc][ãa]o|inclu[íi]d|acrescid|revogad|vide\b|vig[êe]ncia|renumerad|alterad|suprimid|vetad|regulament|express[ãa]o|declarad|promulga|produ[çc][ãa]o de efeito|\bADI\b|\bADC\b|\bADPF\b|artigo com|par[áa]grafo com|inciso com|al[íi]nea com|caput com/i;
+
+/** Separa as notas de alteração da fonte ("(Redação dada pela Lei …)") do texto da lei, para imprimi-las menores. */
+export function separarNotas(linha: string): { texto: string; nota?: true }[] {
+  const out: { texto: string; nota?: true }[] = [];
+  let resto = 0;
+  for (const m of linha.matchAll(/\([^()]*\)/g)) {
+    if (!RE_NOTA.test(m[0])) continue;
+    if (m.index > resto) out.push({ texto: linha.slice(resto, m.index) });
+    out.push({ texto: m[0], nota: true });
+    resto = m.index + m[0].length;
+  }
+  if (resto < linha.length) out.push({ texto: linha.slice(resto) });
+  return out;
+}
+
 /** "CPC 246 §1º-A" → {sigla: "CPC", artigo: "246"}; "CNJ-R354 8" → sigla "CNJ-R354"; "LC1111 DT-1" → artigo "DT-1". */
 export function parseDispositivo(d: string): { sigla: string; artigo: string } | null {
   const m = /^(\S+)\s+((?:DT-)?\d+(?:-[A-Z]{1,2})?)(?=$|[\s,;])/.exec(String(d).trim());

@@ -261,3 +261,91 @@ footer.wrap { padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px)); }
   .prazos li { justify-items: start; text-align: left; gap: 2px; grid-row: span 3; grid-template-rows: subgrid; align-items: end; }
   .prazos .prazo-dias { font-size: 1.25rem; }
 }
+
+/* ---------- Lei seca impressa (/lei/imprimir): apostila para imprimir ou salvar em PDF ----------
+   É papel: fica sempre clara, também no tema escuro. Na tela, uma prévia em folha branca; na impressão, só o
+   documento (o @page com cabeçalho e número de página está na própria tela, porque muda com o edital). */
+.impresso {
+  --imp-tinta: #1c2430; --imp-suave: #575e6b; --imp-linha: #e2dccf; --imp-faixa: #f1ede4;
+  --imp-grifo: #f2c94c; --imp-recorte: #f8eed3; --imp-borda: #7a5300; --imp-papel: #ffffff;
+  color-scheme: light; background: var(--imp-papel); color: var(--imp-tinta);
+  font-family: var(--body); font-size: 10.5pt; line-height: 1.5; text-wrap: pretty; overflow-wrap: break-word;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.impresso :is(h1, h2, h3, h4) { font-family: var(--display); color: inherit; text-wrap: balance; margin: 0; }
+.impresso p { margin: 0 0 .5em; }
+.impresso a { color: inherit; text-decoration: none; }
+.imp-suave { color: var(--imp-suave); font-size: .9em; }
+
+.imp-capa { background: var(--imp-tinta); color: #faf8f3; font-family: var(--display); display: flex; flex-direction: column; padding: 22mm 18mm 16mm; aspect-ratio: 210 / 297; }
+.imp-capa p { margin: 0; }
+.imp-capa-orgao { font-size: 10pt; letter-spacing: .18em; text-transform: uppercase; opacity: .85; margin-bottom: 30mm !important; }
+.imp-capa :is(h1, p) { color: inherit; }
+.imp-capa-cargo { font-size: 30pt; line-height: 1.15; font-weight: 600; }
+.imp-capa-edital { font-size: 11pt; opacity: .85; margin-top: 3mm !important; }
+.imp-capa-grifo { border: 0; height: 2px; width: 60%; background: var(--imp-grifo); margin: 22mm 0 6mm; }
+.imp-capa-bloco { color: var(--imp-grifo); font-size: 10pt; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; }
+.imp-capa-nome { font-size: 20pt; line-height: 1.25; margin-top: 2mm !important; }
+.imp-capa-base { margin-top: auto; background: #faf8f3; color: var(--imp-tinta); margin-inline: -18mm; margin-bottom: -16mm; padding: 12mm 18mm 10mm; display: grid; gap: 2mm; }
+.imp-capa-titulo { font-size: 14pt; font-weight: 600; }
+.imp-capa-materias { color: var(--imp-suave); font-size: 9.5pt; }
+.imp-capa-pe { display: flex; justify-content: space-between; gap: 8mm; flex-wrap: wrap; border-top: 1px solid var(--imp-linha); padding-top: 3mm; margin-top: 8mm !important; color: var(--imp-suave); font-size: 8.5pt; }
+.imp-capa-pe b { background: linear-gradient(transparent 55%, var(--imp-grifo) 55%); color: var(--imp-tinta); }
+
+.imp-pagina, .imp-materia { padding: 14mm 16mm 10mm; }
+.imp-titulo { font-size: 18pt; font-weight: 600; margin-bottom: 5mm !important; }
+.imp-subtitulo { font-size: 12pt; font-weight: 600; border-bottom: 1px solid var(--imp-linha); padding-bottom: 1mm; margin: 7mm 0 3mm !important; }
+.imp-legenda { display: grid; grid-template-columns: max-content 1fr; gap: 2mm 6mm; align-items: baseline; background: var(--imp-faixa); border-radius: 4px; padding: 4mm 5mm; margin: 4mm 0; font-family: var(--display); font-size: 9pt; }
+.imp-legenda dd { margin: 0; color: var(--imp-suave); }
+.imp-nota { font-family: var(--display); font-size: .78em; color: var(--imp-suave); }
+.imp-estrutura { display: grid; justify-items: center; text-align: center; font-family: var(--display); font-size: 8.5pt; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; margin: 5mm 0 3mm !important; break-after: avoid; }
+.imp-legenda .imp-estrutura { display: inline; margin: 0 !important; }
+.imp-faixa-mini { background: var(--imp-faixa); border-left: 3px solid var(--imp-tinta); padding: .5mm 2mm; font-weight: 600; }
+
+.imp-sumario ol, .imp-sumario ul { list-style: none; margin: 0; padding: 0; }
+.imp-sumario > ol > li { margin-bottom: 5mm; break-inside: avoid-page; }
+.imp-sum-materia { display: block; font-family: var(--display); font-weight: 600; font-size: 12pt; border-bottom: 1px solid var(--imp-tinta); padding-bottom: 1mm; margin-bottom: 2mm; }
+.imp-sum-norma { display: block; font-family: var(--display); font-weight: 600; font-size: 9.5pt; margin: 2mm 0 1mm 3mm; }
+.imp-sum-trechos { columns: 3 11rem; column-gap: 6mm; margin-left: 6mm !important; font-size: 8.5pt; color: var(--imp-suave); }
+.imp-sum-trechos li { break-inside: avoid; }
+
+.imp-materia-titulo { display: flex; align-items: center; gap: 4mm; font-size: 16pt; font-weight: 600; border-bottom: 2px solid var(--imp-tinta); padding-bottom: 2mm; margin-bottom: 5mm !important; }
+.imp-materia-num { display: inline-grid; place-items: center; min-width: 9mm; height: 9mm; background: var(--imp-tinta); color: #faf8f3; border-radius: 3px; font-size: 12pt; }
+.imp-norma { margin-bottom: 8mm; }
+.imp-norma-titulo { font-size: 13pt; font-weight: 600; margin-bottom: 3mm !important; break-after: avoid; }
+.imp-recorte { background: var(--imp-recorte); border-left: 3px solid var(--imp-borda); padding: 3mm 4mm; margin-bottom: 5mm; font-family: var(--display); font-size: 8.5pt; break-inside: avoid; }
+.imp-recorte p { margin: 0 0 1mm; }
+.imp-recorte-rotulo { color: var(--imp-borda); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: 7.5pt; }
+.imp-recorte-fonte { overflow-wrap: anywhere; }
+.imp-recorte-obs { color: var(--imp-suave); }
+.imp-faixa { background: var(--imp-faixa); border-left: 3px solid var(--imp-tinta); padding: 1.5mm 3mm; font-size: 9.5pt; font-weight: 600; margin: 6mm 0 3mm !important; break-after: avoid; }
+.imp-artigo { margin-bottom: 3mm; }
+.imp-artigo p { margin: 0 0 1.2mm; orphans: 2; widows: 2; }
+.imp-artigo strong { font-weight: 600; }
+.imp-n1 { padding-left: 5mm; }
+.imp-n2 { padding-left: 10mm; }
+.imp-n3 { padding-left: 15mm; }
+
+@media screen {
+  .impresso { max-width: 210mm; width: 100%; margin-inline: auto; box-shadow: 0 1px 3px rgb(0 0 0 / .12), 0 8px 24px rgb(0 0 0 / .08); }
+  .impresso > section + :is(section, nav) { border-top: 1px dashed var(--imp-linha); }
+}
+@media screen and (max-width: 39.99em) {
+  .imp-capa { padding: 12mm 8mm 8mm; }
+  .imp-capa-base { margin-inline: -8mm; margin-bottom: -8mm; padding: 8mm; }
+  .imp-pagina, .imp-materia { padding: 8mm 5mm; }
+  .imp-capa-cargo { font-size: 22pt; }
+}
+
+/* Impressão de qualquer tela: só o conteúdo, sem cabeçalho, abas nem rodapé do app. */
+@media print {
+  .band, .pular, footer.wrap, .so-tela { display: none !important; }
+  body { background: #fff; }
+  main .wrap { max-width: none; padding: 0; display: block; }
+  .impresso { font-size: 10pt; }
+  /* A capa ocupa a área útil da folha (297 − 2 × 18 mm): o Chrome corta o que passa da margem. */
+  .imp-capa { aspect-ratio: auto; height: 261mm; break-after: page; }
+  .imp-pagina { padding: 0; break-after: page; }
+  .imp-materia { padding: 0; break-before: page; }
+  .imp-materia + .imp-materia { margin-top: 0; }
+}
