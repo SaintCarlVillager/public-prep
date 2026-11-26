@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { memo, Suspense, useDeferredValue, useEffect, useMemo, useState, type ReactNode } from "react";
 
 import { Badge } from "@astryxdesign/core/Badge";
+import { Button } from "@astryxdesign/core/Button";
 import { Card } from "@astryxdesign/core/Card";
 import { Collapsible } from "@astryxdesign/core/Collapsible";
 import { EmptyState } from "@astryxdesign/core/EmptyState";
@@ -18,7 +19,7 @@ import { TextInput } from "@astryxdesign/core/TextInput";
 import { VStack } from "@astryxdesign/core/VStack";
 
 import { ComCatalogo } from "~/components/Comum";
-import { dicaErroLei, linkArtigo, TextoArtigo } from "~/components/LeiSeca";
+import { dicaErroLei, linkArtigo, linkImpressao, nomeBloco, TextoArtigo } from "~/components/LeiSeca";
 import { useLei, type Base, type LeiCarregada } from "~/lib/catalogo";
 import { ativos, vigentes } from "~/lib/estudo";
 import { fmtData, intervaloCobre } from "~/lib/nucleo";
@@ -139,33 +140,40 @@ function PorEdital({ base }: { base: Base }) {
 }
 
 function Blocos({ base, edital }: { base: Base; edital: Edital }) {
-  const grupos = (edital.blocos ?? []).flatMap((b) =>
-    (b.cobertura ?? [])
-      .filter((c) => c.normas && Object.keys(c.normas).length)
-      .map((c) => ({ bloco: b, materia: c.materia, normas: c.normas! })),
-  );
-  if (!grupos.length) return <Aviso>Este edital não cobra artigos de lei: ele descreve o conteúdo por temas.</Aviso>;
+  const blocos = (edital.blocos ?? [])
+    .map((b) => ({ bloco: b, grupos: (b.cobertura ?? []).filter((c) => c.normas && Object.keys(c.normas).length) }))
+    .filter((b) => b.grupos.length);
+  if (!blocos.length) return <Aviso>Este edital não cobra artigos de lei: ele descreve o conteúdo por temas.</Aviso>;
   return (
-    <VStack gap={6}>
-      {grupos.map((g) => (
-        <VStack key={g.bloco.id + g.materia} gap={2}>
-          <Heading level={3}>
-            {/^[IVX]+$/.test(g.bloco.id) ? `Bloco ${g.bloco.id} · ` : ""}
-            {base.nomeMateria(g.materia)}
-          </Heading>
-          <VStack gap={2}>
-            {Object.entries(g.normas).map(([sigla, ints]) => (
-              <Recolhivel
-                key={sigla}
-                sigla={sigla}
-                intervalos={ints.includes("*") ? "inteira" : ints.join(", ")}
-                nome={base.cat.normas[sigla]}
-                disponivel={!!base.cat.leis?.[sigla]}
-              >
-                <ArtigosDaNorma base={base} sigla={sigla} intervalos={ints} />
-              </Recolhivel>
-            ))}
-          </VStack>
+    <VStack gap={8}>
+      {blocos.map(({ bloco, grupos }) => (
+        <VStack key={bloco.id} gap={4}>
+          <HStack justify="between" align="center" gap={3} wrap="wrap">
+            <Heading level={3}>{nomeBloco(bloco)}</Heading>
+            <Button
+              label="Imprimir ou salvar em PDF"
+              size="sm"
+              href={linkImpressao(edital.id, bloco.id)}
+            />
+          </HStack>
+          {grupos.map((c) => (
+            <VStack key={c.materia} gap={2}>
+              <Heading level={4}>{base.nomeMateria(c.materia)}</Heading>
+              <VStack gap={2}>
+                {Object.entries(c.normas!).map(([sigla, ints]) => (
+                  <Recolhivel
+                    key={sigla}
+                    sigla={sigla}
+                    intervalos={ints.includes("*") ? "inteira" : ints.join(", ")}
+                    nome={base.cat.normas[sigla]}
+                    disponivel={!!base.cat.leis?.[sigla]}
+                  >
+                    <ArtigosDaNorma base={base} sigla={sigla} intervalos={ints} />
+                  </Recolhivel>
+                ))}
+              </VStack>
+            </VStack>
+          ))}
         </VStack>
       ))}
     </VStack>

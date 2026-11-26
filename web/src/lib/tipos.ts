@@ -8,6 +8,8 @@ export interface Cobertura {
   questoes?: number;
   temas?: string[];
   normas?: Record<string, string[]>;
+  /** Nota sobre o recorte (incisos, capítulo, intervalo deduzido). */
+  observacao?: string;
 }
 
 export interface Bloco {
@@ -49,6 +51,11 @@ export interface Edital {
   /** Rótulo curto do cargo ("Escrevente"); o app mostra "<órgão> <cargo_curto>". */
   cargo_curto?: string;
   banca?: string;
+  /** Número do edital ("Edital de Abertura nº 01/2026"). */
+  edital?: string;
+  /** Data de publicação e data-limite da legislação cobrada (ISO). */
+  publicacao?: string;
+  legislacao_ate?: string;
   prova?: string;
   /** Edital ainda não publicado, modelado pelo anterior: diz o que é estimado. Fica fora dos ativos por padrão. */
   provisorio?: string;

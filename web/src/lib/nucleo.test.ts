@@ -10,6 +10,11 @@ import {
   md,
   misturar,
   montarTreino,
+  nivelLinha,
+  recorteNorma,
+  rotuloArt,
+  rotuloIntervalo,
+  separarNotas,
   parseDispositivo,
   proximoIntervalo,
   registrar,
@@ -75,4 +80,39 @@ test("ordem da sessão: matérias intercaladas e textos-base juntos", () => {
 
 test("markdown escapa HTML", () => {
   assert.equal(md("**a** <b>\n\n`x<y`"), "<p><strong>a</strong> &lt;b&gt;</p><p><code>x&lt;y</code></p>");
+});
+
+test("lei seca impressa: rótulos de artigo, intervalo e recorte", () => {
+  assert.equal(rotuloArt("1"), "1º");
+  assert.equal(rotuloArt("9"), "9º");
+  assert.equal(rotuloArt("10"), "10");
+  assert.equal(rotuloArt("1015"), "1.015");
+  assert.equal(rotuloArt("1091-A"), "1.091-A");
+  assert.equal(rotuloArt("1-A"), "1º-A");
+  assert.equal(rotuloArt("DT-1"), "DT-1");
+  assert.equal(rotuloIntervalo("1-12"), "Arts. 1º a 12");
+  assert.equal(rotuloIntervalo("396-396-A"), "Arts. 396 a 396-A");
+  assert.equal(rotuloIntervalo("103-189-G"), "Arts. 103 a 189-G");
+  assert.equal(rotuloIntervalo("311-A"), "Art. 311-A");
+  assert.equal(rotuloIntervalo("*"), "Íntegra");
+  assert.equal(recorteNorma(["1-12", "129", "994-1091-A"]), "artigos 1º a 12; 129; 994 a 1.091-A");
+  assert.equal(recorteNorma(["129"]), "artigo 129");
+  assert.equal(recorteNorma(["1-3"]), "artigos 1º a 3º");
+  assert.equal(recorteNorma(["*"]), "íntegra");
+});
+
+test("lei seca impressa: recuo das linhas e notas de alteração", () => {
+  assert.equal(nivelLinha("Art. 5º Todos são iguais"), 0);
+  assert.equal(nivelLinha("§ 1º As normas"), 0);
+  assert.equal(nivelLinha("IV - a transparência"), 1);
+  assert.equal(nivelLinha("XII – o aprimoramento"), 1);
+  assert.equal(nivelLinha("a) contra a vida"), 2);
+  assert.equal(nivelLinha("1. o primeiro item"), 3);
+  assert.equal(nivelLinha("1.015 é número"), 0);
+  assert.deepEqual(separarNotas("Pena - reclusão, de 2 (dois) a 6 (seis) anos. (Redação dada pela Lei nº 7.209, de 1984)"), [
+    { texto: "Pena - reclusão, de 2 (dois) a 6 (seis) anos. " },
+    { texto: "(Redação dada pela Lei nº 7.209, de 1984)", nota: true },
+  ]);
+  assert.deepEqual(separarNotas("Art. 5º (Revogado)"), [{ texto: "Art. 5º " }, { texto: "(Revogado)", nota: true }]);
+  assert.deepEqual(separarNotas("sem notas (cinco dias)"), [{ texto: "sem notas (cinco dias)" }]);
 });
